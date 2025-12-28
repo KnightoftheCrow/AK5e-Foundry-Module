@@ -1,0 +1,7 @@
+2025/10/05-13:28:59.669 8ecc Recovering log #227
+2025/10/05-13:28:59.675 8ecc Delete type=0 #227
+2025/10/05-13:28:59.676 8ecc Delete type=3 #226
+2025/10/05-13:42:34.809 ea0 Level-0 table #231: started
+2025/10/05-13:42:34.809 ea0 Level-0 table #231: 0 bytes OK
+2025/10/05-13:42:34.812 ea0 Delete type=0 #229
+2025/10/05-13:42:34.815 ea0 Manual compaction at level-0 from '!items!xV7PxNVPYfR6rEEF' @ 72057594037927935 : 1 .. '!items!xV7PxNVPYfR6rEEF' @ 0 : 0; will stop at (end)
