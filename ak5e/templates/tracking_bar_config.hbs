@@ -1,0 +1,39 @@
+<fieldset class="card tracking-bar-config">
+  <legend>Tracking bar</legend>
+  <div class="form-group split-group">
+
+    <div class="form-fields">
+      <label class="checkbox" for="tracking-bar">{{ localize "ak5e.EnableTrackingBar" }}
+        <input type="checkbox" name="flags.ak5e.trackingBar" id="tracking-bar_{{_id}}" {{#if
+          flags.ak5e.trackingBar}}checked{{/if}}>
+    </div>
+  </div>
+  <div class="meter-group resource-bar">
+    <div class="label roboto-condensed-upper">
+      <span>Preview</span>
+    </div>
+    <div class="meter progress animation-{{flags.ak5e.animation}}" role="meter" aria-valuemin="0"
+      aria-valuenow="{{system.uses.value}}" aria-valuemax="{{system.uses.max}}"
+      style="--bar-animation-name: {{flags.ak5e.animation}} ; --bar-percentage: {{percent}}%; --bar-first-color: {{flags.ak5e.barFirstColor}}; --bar-second-color: {{flags.ak5e.barSecondColor}};">
+      <div class="label">
+        <span class="value">{{system.uses.value}}</span>
+        <span class="separator">/</span>
+        <span class="max">{{system.uses.max}}</span>
+      </div>
+    </div>
+  </div>
+  <div class="form-group split-group">
+    <div class="form-fields">
+      <label class="checkbox" for="barFirstColor">{{ localize "ak5e.firstColor" }}
+        <input type="color" value="{{flags.ak5e.barFirstColor}}"
+          name="flags.ak5e.barFirstColor" />
+      </label>
+      <label class="checkbox" for="barSecondColor">{{ localize "ak5e.secondColor" }}
+        <input type="color" value="{{flags.ak5e.barSecondColor}}"
+          name="flags.ak5e.barSecondColor" />
+      </label>
+    </div>
+
+  </div>
+
+</fieldset>
