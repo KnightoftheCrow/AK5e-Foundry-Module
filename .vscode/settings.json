@@ -1,0 +1,5 @@
+{
+	"files.exclude": {
+		"**/packs/ak5e*": true
+	}
+}
