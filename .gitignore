@@ -1,0 +1,6 @@
+# Build Artifacts
+packs/*
+!packs/_source/
+
+# Node Modules
+node_modules/
