@@ -1,0 +1,174 @@
+folder: NJhJ2dlGsGebHSbX
+name: Arcane Lance
+type: spell
+_id: 3ZgZrPohGG1I5lL2
+img: icons/magic/light/beam-rays-blue.webp
+system:
+  activities:
+    cuMbbLTgdJTAG2iL:
+      type: damage
+      _id: cuMbbLTgdJTAG2iL
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 7
+            denomination: 6
+            bonus: ''
+            types:
+              - force
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: true
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: Cast
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Gathering force into a single mass, you fire a 120-foot-long,
+      5-foot-wide line in a chosen direction; each Creature in that line takes
+      7d6 Force Damage.</p><p><strong>At Higher Levels:</strong> The Damage
+      increased by 1d6 for each Level above 6 it is cast
+      at.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: arcane-lance
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: inst
+  level: 6
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - vocal
+    - somatic
+  range:
+    units: self
+    special: ''
+  school: evo
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: line
+      size: '120'
+      width: '5'
+      count: ''
+    affects:
+      choice: false
+      type: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!3ZgZrPohGG1I5lL2'

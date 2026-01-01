@@ -1,0 +1,366 @@
+folder: 7ibTynAtIGa5eh3h
+name: Sanguine Surge
+type: spell
+_id: Jbp0NNe47cCiOmD9
+img: icons/skills/wounds/blood-cells-vessel-red.webp
+system:
+  activities:
+    AsReNaVI18yHkxbo:
+      type: utility
+      _id: AsReNaVI18yHkxbo
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: TYh7FwN7zcoCjLNs
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: buff
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: true
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Cast
+    OcKRX6CRn8uItNjv:
+      type: utility
+      _id: OcKRX6CRn8uItNjv
+      sort: 0
+      activation:
+        type: ''
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: QkfiMOBEQOtJl7ov
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: never
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: true
+        otherActivityCompatible: false
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Buff
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>With a touch, you speed up the circulation of a Creature, empowering
+      them, but such strength is never free. During their next Turn, that
+      Creature can take the Dash Action as a Bonus Action, and if they take the
+      Attack Action, they can make an additional Attack as part of that
+      Action.</p><p>However, at the end of that Turn, that Creature loses 2d8
+      Hit Points.</p><p><strong>Blood Amber:</strong> If there is a Blood Amber
+      within 60 feet of you when you cast this Art, you may consume it to cause
+      the target Creature to not lose Hit Points at the end of their
+      Turn.</p><p><strong>Automated. </strong>If a Blood Amber is consumed, do
+      not select the Sanguine Surge Damage effect when prompted.</p>
+    chat: ''
+  identifier: sanguine-surge
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: round
+    value: '1'
+  level: 2
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - vocal
+    - somatic
+  range:
+    units: touch
+    special: ''
+  school: nec
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: creature
+      count: ''
+      special: ''
+effects:
+  - name: Sanguine Surge Damage
+    img: icons/skills/wounds/blood-cells-vessel-red.webp
+    origin: Item.Jbp0NNe47cCiOmD9
+    transfer: false
+    _id: TYh7FwN7zcoCjLNs
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.OverTime
+        mode: 5
+        value: |-
+          turn=end,
+          damageRoll=2d8
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - turnEnd
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!Jbp0NNe47cCiOmD9.TYh7FwN7zcoCjLNs'
+  - name: Sanguine Surge
+    img: icons/skills/wounds/blood-cells-vessel-red.webp
+    origin: Item.Jbp0NNe47cCiOmD9
+    transfer: false
+    _id: QkfiMOBEQOtJl7ov
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>This Creature can take the Dash Action as a Bonus Action, and if they
+      take the Attack Action, they can make an additional Attack as part of that
+      Action.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: true
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - turnEnd
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!Jbp0NNe47cCiOmD9.QkfiMOBEQOtJl7ov'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!Jbp0NNe47cCiOmD9'

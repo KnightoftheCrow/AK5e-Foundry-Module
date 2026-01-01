@@ -1,0 +1,577 @@
+folder: ZCpuCLRcXYiB8HKg
+name: Makeover Kit
+type: tool
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  activities:
+    bH6Mpk3bdFEYXAmu:
+      type: utility
+      _id: bH6Mpk3bdFEYXAmu
+      sort: 0
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: IWQhn14mgYEyFfL3
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: willing
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Cover Up (1 Charge)
+      img: ''
+      appliedEffects: []
+    XcN0tm2ia2Vne7cM:
+      type: utility
+      _id: XcN0tm2ia2Vne7cM
+      sort: 0
+      activation:
+        type: minute
+        override: false
+        condition: ''
+        value: 1
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Lay Bare (1 Charge)
+      img: ''
+      appliedEffects: []
+    RrjakOjdkAI57M4H:
+      type: utility
+      _id: RrjakOjdkAI57M4H
+      sort: 0
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: false
+      effects:
+        - _id: UiC3GMs3JJZwYvmZ
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Assemble Disguise (2 Charges)
+      img: ''
+      appliedEffects:
+        - UiC3GMs3JJZwYvmZ
+      midiProperties:
+        toggleEffect: true
+    p3RRFrry61MjW8nM:
+      type: utility
+      _id: p3RRFrry61MjW8nM
+      sort: 0
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: day
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: ygTK1EQVMrNNkXzh
+        - _id: mK0h9Is8JyTtjRAZ
+        - _id: gj8aYfDqDssft5HJ
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Make an Impression (1 Charge)
+      img: ''
+      appliedEffects:
+        - ygTK1EQVMrNNkXzh
+        - mK0h9Is8JyTtjRAZ
+        - gj8aYfDqDssft5HJ
+      midiProperties:
+        chooseEffects: true
+  uses:
+    spent: 0
+    recovery: []
+    max: '10'
+  description:
+    value: >-
+      <p>Many people underestimate how easy it is to throw off the perception of
+      a casual observer; to make someone appear to be someone they are not. It
+      is a skill set used commonly in films and theatre, but also in espionage.
+      The Makeover Kit contains a wealth of makeup and other cosmetics, as well
+      as a variety of simple textiles used to modify the appearance of
+      outfits.</p><p><strong>Starting Charges:</strong>
+      10</p><h3>Uses:</h3><p><strong>Cover Up (1 Charge) (Partially Automated:
+      applies an effect with no mechanics):</strong> As a Short Rest Activity,
+      you can cover an small injury, scar, or superficial mark on a willing
+      Creature, making it much harder to spot until your next Long Rest. It is
+      not impossible to spot, and cannot cover over features that extrude from
+      the body, such as horns or tails.</p><p><strong>Lay Bare (1
+      Charge):</strong> Using the tools and chemicals in the kit, over the
+      course of a minute you can remove makeup from a person, or paint from an
+      area no more than 1 square foot.</p><h3>Proficient
+      Uses:</h3><p><strong>Assemble Disguise (2 Charges) (Partially automated:
+      toggles a +10 Deception Bonus)</strong>:As a Short Rest Activity, you can
+      put together a disguise to make a Creature appear to be someone they are
+      not, or part of a particular organisation. While that Creature is wearing
+      the disguise, they have a +10 Bonus to any Deception Check to pass
+      themselves off as who they are pretending to be.</p><p>However, this
+      disguise is only visual; it does not change their voice, and it will not
+      apply against people who know the organisation or person they are
+      pretending to be.</p><p><strong>Make an Impression (1 Charge)
+      (Automated):</strong> As a Short Rest Activity, you can curate the
+      appearance of a willing Creature to help them give off a particular
+      impression. When you do so, choose either Intimidation, Deception, or
+      Persuasion; until they next complete a Long Rest, that Creature has
+      Advantage on Checks of the chosen type. A Creature can only have one
+      makeover active at a time.</p>
+    chat: ''
+  identifier: makeover-kit
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 250
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: art
+    baseItem: makeover
+  ability: ''
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+effects:
+  - name: +10 Deception Bonus (Assemble Disguise)
+    img: icons/containers/bags/case-leather-tan.webp
+    origin: Compendium.ak5e.ak5e-items.Item.0ft9PxeRW8FoUjgb
+    transfer: false
+    _id: UiC3GMs3JJZwYvmZ
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.dec.bonuses.check
+        mode: 2
+        value: '+10'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>This Creature's disguise is providing them a +10 Deception Bonus to
+      blend as the person or faction they are disguised as.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        specialDuration: []
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756487624605
+      modifiedTime: 1756571733228
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!0ft9PxeRW8FoUjgb.UiC3GMs3JJZwYvmZ'
+  - name: Intimidating Makeover
+    img: icons/containers/bags/case-leather-tan.webp
+    origin: Compendium.ak5e.ak5e-items.Item.0ft9PxeRW8FoUjgb
+    transfer: false
+    _id: ygTK1EQVMrNNkXzh
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.itm.roll.mode
+        mode: 2
+        value: '1'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        specialDuration:
+          - longRest
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756487769270
+      modifiedTime: 1756571160451
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!0ft9PxeRW8FoUjgb.ygTK1EQVMrNNkXzh'
+  - name: Deceptive Makeover
+    img: icons/containers/bags/case-leather-tan.webp
+    origin: Compendium.ak5e.ak5e-items.Item.0ft9PxeRW8FoUjgb
+    transfer: false
+    _id: mK0h9Is8JyTtjRAZ
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.dec.roll.mode
+        mode: 2
+        value: '1'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        specialDuration:
+          - longRest
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756487946991
+      modifiedTime: 1756571166802
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!0ft9PxeRW8FoUjgb.mK0h9Is8JyTtjRAZ'
+  - name: Charming Makeover
+    img: icons/containers/bags/case-leather-tan.webp
+    origin: Compendium.ak5e.ak5e-items.Item.0ft9PxeRW8FoUjgb
+    transfer: false
+    _id: gj8aYfDqDssft5HJ
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.per.roll.mode
+        mode: 2
+        value: '1'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        specialDuration:
+          - longRest
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756487984542
+      modifiedTime: 1756571173330
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!0ft9PxeRW8FoUjgb.gj8aYfDqDssft5HJ'
+  - name: Cover Up Applied (Cover Up)
+    img: icons/containers/bags/case-leather-tan.webp
+    origin: Compendium.ak5e.ak5e-items.Item.0ft9PxeRW8FoUjgb
+    transfer: false
+    _id: IWQhn14mgYEyFfL3
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>This Creature has had a Cover Up applied by a Makeover Kit.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        specialDuration:
+          - longRest
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756571020989
+      modifiedTime: 1756571752329
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!0ft9PxeRW8FoUjgb.IWQhn14mgYEyFfL3'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1756485620647
+  modifiedTime: 1766942102002
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: 0ft9PxeRW8FoUjgb
+sort: 450000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!0ft9PxeRW8FoUjgb'

@@ -1,0 +1,67 @@
+name: Fine Wooden Trinket
+type: equipment
+img: icons/commodities/treasure/figurine-camel.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>A wooden trinket;  the process of carving it calms you, and gives you
+      Advantage on the next Wisdom Save you make. This one is quite impressive;
+      someone might be willign to buy it.</p>
+    chat: ''
+  identifier: fine-wooden-trinket
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 1
+    units: lb
+  price:
+    value: 50
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  armor:
+    value: null
+    dex: null
+  proficient: null
+  properties: []
+  strength: null
+  type:
+    value: trinket
+    baseItem: ''
+effects: []
+folder: YzlYIaWRhocmCatN
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1756583082806
+  modifiedTime: 1756583082831
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: pAlUvzqkeRHuOSmw
+sort: 350000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!pAlUvzqkeRHuOSmw'

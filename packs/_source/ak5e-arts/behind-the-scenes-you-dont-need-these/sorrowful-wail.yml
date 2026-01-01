@@ -1,0 +1,171 @@
+folder: s2mwcbxx5qTz0iEd
+name: Sorrowful Wail
+type: feat
+_id: Oxs9R2QZ5QXDpzhc
+img: icons/magic/control/fear-fright-white.webp
+system:
+  activities:
+    cRniHHhwSH98Qj6I:
+      type: save
+      _id: cRniHHhwSH98Qj6I
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '20'
+          count: ''
+        affects:
+          choice: false
+          type: creature
+          special: '-self'
+          count: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: half
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 8
+            bonus: ''
+            types:
+              - psychic
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: ''
+          formula: '15'
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: ''
+      otherActivityAsParentType: true
+      friendlySave: default
+      name: Wail
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>The Creature, overwhelmed by the Altar of Weeping, releases a sorrowful
+      wail as an Action. All other Creatures within a 20-foot-radius sphere
+      centred on that Creature must make a DC15 Wisdom Saving Throw, taking 4d8
+      Psychic Damage on a failed Save, or half as much on a successful Save.</p>
+    chat: ''
+  identifier: sorrowful-wail
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - mgc
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1757436542838
+  modifiedTime: 1757437129958
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!Oxs9R2QZ5QXDpzhc'

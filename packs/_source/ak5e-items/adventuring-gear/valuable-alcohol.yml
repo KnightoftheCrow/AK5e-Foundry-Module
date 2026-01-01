@@ -1,0 +1,236 @@
+folder: YzlYIaWRhocmCatN
+name: Valuable Alcohol
+type: consumable
+_id: aoWObPYKCfH44Ew2
+img: icons/consumables/drinks/alcohol-beer-mug-yellow.webp
+system:
+  activities:
+    sPZ3EffCGFjXEA8O:
+      type: utility
+      _id: sPZ3EffCGFjXEA8O
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: hour
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: PRWKowLb6ralcdf6
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      name: Drink
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: true
+    max: '1'
+  description:
+    value: >-
+      <p>Good quality alcohol, to be enjoyed with others. Can be consumed as an
+      Action. A Creature that consumes Alcohol has a -1 Modifier to Dexterity
+      Checks and Saving Throws, but a +1 to Charisma Checks and Wisdom Saving
+      Throws for the next hour.</p>
+    chat: ''
+  identifier: valuable-alcohol
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 1
+    units: lb
+  price:
+    value: 25
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: food
+    subtype: ''
+effects:
+  - name: Alcohol Warmth
+    img: icons/consumables/drinks/alcohol-beer-mug-yellow.webp
+    origin: Compendium.ak5e.ak5e-items.Item.aoWObPYKCfH44Ew2
+    transfer: false
+    _id: PRWKowLb6ralcdf6
+    type: base
+    system: {}
+    changes:
+      - key: system.abilities.dex.bonuses.check
+        mode: 2
+        value: '-1'
+        priority: 20
+      - key: system.abilities.dex.bonuses.save
+        mode: 2
+        value: '-1'
+        priority: 20
+      - key: system.abilities.wis.bonuses.check
+        mode: 2
+        value: '+1'
+        priority: 20
+      - key: system.abilities.wis.bonuses.save
+        mode: 2
+        value: '+1'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: multi
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756556557565
+      modifiedTime: 1756556632336
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!aoWObPYKCfH44Ew2.PRWKowLb6ralcdf6'
+sort: 600000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1756556437374
+  modifiedTime: 1756573097200
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!aoWObPYKCfH44Ew2'

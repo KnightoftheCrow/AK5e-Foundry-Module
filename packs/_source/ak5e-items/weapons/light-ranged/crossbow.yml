@@ -1,0 +1,126 @@
+folder: tpq7GwavNIJcGZhv
+name: Crossbow
+type: weapon
+img: icons/weapons/crossbows/crossbow-slotted.webp
+system:
+  activities:
+    XErRQYutA4RPpZz5:
+      _id: XErRQYutA4RPpZz5
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical: {}
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: ''
+    chat: ''
+  identifier: crossbow
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 4
+    units: lb
+  price:
+    value: 100
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - piercing
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 1
+      denomination: 8
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - two
+  proficient: null
+  range:
+    value: 75
+    long: 200
+    reach: null
+    units: ft
+  type:
+    value: lightR
+    baseItem: crossbow
+  mastery: ''
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1756294904890
+  modifiedTime: 1756408068319
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: o1kUk2al1bphk50J
+sort: 100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!o1kUk2al1bphk50J'

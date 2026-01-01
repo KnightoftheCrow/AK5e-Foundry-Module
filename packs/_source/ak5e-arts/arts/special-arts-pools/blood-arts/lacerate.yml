@@ -1,0 +1,253 @@
+folder: 7ibTynAtIGa5eh3h
+name: Lacerate
+type: spell
+_id: 1Ql4660eNGFkhlDZ
+img: icons/skills/wounds/injury-stitched-flesh-red.webp
+system:
+  activities:
+    9IWO63d8mQpPx28C:
+      type: attack
+      _id: 9IWO63d8mQpPx28C
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 5ZZ6rHq6zrjZRxpx
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 10
+            bonus: ''
+            types:
+              - slashing
+            scaling:
+              mode: ''
+              number: 1
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: true
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: ''
+      otherActivityAsParentType: true
+      attackMode: ''
+      ammunition: ''
+      otherActivityUuid: ''
+      attackRollPerTarget: default
+      fumbleThreshold: 1
+      name: Cast
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You cause a deep wound on a Creature that can bleed. Make a Melee Spell
+      Attack; on a hit, that Creature takes 2d10 Slashing Damage and is
+      Bleeding. This Bleeding Condition cannot be removed by restoring Hit
+      Points. At the beginning of their Turn, a Creature Bleeding from this Art
+      must succeed on a Constitution Saving Throw to remove the Bleeding
+      Condition.</p><p><strong>Blood Amber:</strong> If there is a Blood Amber
+      within 60 feet of you when you cast this Art, you may consume it to cause
+      the Bleeding Creature to have Disadvantage on the Constitution Saving
+      Throw.</p><p><strong>At Higher Levels:</strong> The Bleeding Damage dealt
+      increases by 1d6 for each Level above 3 this Art is cast at.</p>
+    chat: ''
+  identifier: lacerate
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: inst
+  level: 3
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - somatic
+  range:
+    units: touch
+    special: ''
+  school: nec
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: creature
+      count: ''
+      special: ''
+effects:
+  - name: Lacerated
+    img: icons/skills/wounds/injury-stitched-flesh-red.webp
+    origin: Item.1Ql4660eNGFkhlDZ
+    transfer: false
+    _id: 5ZZ6rHq6zrjZRxpx
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.OverTime
+        mode: 5
+        value: |-
+          turn=end,
+          saveAbility=con,
+          saveDC=@attributes.spell.dc,
+          damageRoll=2d6+(@scaling.increase)d6,
+          damageType=notype,
+          damageBeforeSave=true
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - bleeding
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!1Ql4660eNGFkhlDZ.5ZZ6rHq6zrjZRxpx'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!1Ql4660eNGFkhlDZ'

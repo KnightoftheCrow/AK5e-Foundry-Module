@@ -1,0 +1,133 @@
+folder: r5YUnvOOo8oVml7x
+name: Rifle
+type: weapon
+_id: IRMIzg2gLDqpCi2W
+img: icons/weapons/guns/rifle-white.webp
+system:
+  activities:
+    epxlcP9aUp57YVTe:
+      _id: epxlcP9aUp57YVTe
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical: {}
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>[[/attack extended]], [[/damage
+      extended]]</p><p>@UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.HyZrjHTNPBLZWBVW]{Deadly},
+      @UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.BWAbxScg3oUitPmT]{Firearm},
+      Loading, Two-Handed</p>
+    chat: ''
+  identifier: rifle
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 8
+    units: lb
+  price:
+    value: 1100
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - piercing
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 12
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - ded
+    - frm
+    - lod
+    - two
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 100
+    long: 400
+  type:
+    value: heavyR
+    baseItem: rifle
+  mastery: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1756318273976
+  modifiedTime: 1766937186602
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!IRMIzg2gLDqpCi2W'

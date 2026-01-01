@@ -1,0 +1,177 @@
+folder: YzlYIaWRhocmCatN
+name: Autoinjector (Advanced)
+type: consumable
+img: icons/consumables/potions/vial-ornet-silver-black.webp
+system:
+  activities:
+    BFkvTSwql7ePDwyC:
+      type: heal
+      _id: BFkvTSwql7ePDwyC
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+        number: 4
+        denomination: 4
+        bonus: '4'
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: true
+    max: '1'
+  description:
+    value: >-
+      <p>A advanced medical autoinjector containing a novel antifibrinolytic
+      medication, when administered to a patient it increases their chances of
+      surviving a traumatic injury by inhibiting the breakdown of blood clots,
+      thus preventing bleeding, and additionally promotes clotting factors.
+      </p><p>When administered to a Creature within 5 feet as an Action, that
+      Creature regains 4d4+4 Hit Points, and if they are Dying, they gain 1
+      Mettle in addition to any Mettle they gain from recovering Hit Points.</p>
+    chat: ''
+  identifier: autoinjector-advanced
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 1
+    units: lb
+  price:
+    value: 450
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: potion
+    subtype: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1756921816200
+  modifiedTime: 1756921816222
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: mgB8tYXWpWRxcqPs
+sort: 362500
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!mgB8tYXWpWRxcqPs'

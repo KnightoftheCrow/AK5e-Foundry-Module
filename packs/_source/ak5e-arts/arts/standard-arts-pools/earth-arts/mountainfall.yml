@@ -1,0 +1,355 @@
+folder: OTs3nhXEHHPpIufQ
+name: Mountainfall
+type: spell
+_id: SUnEdyYchBlrUDTQ
+img: icons/magic/earth/barrier-stone-explosion-red.webp
+system:
+  activities:
+    UIrfxBt4eE23oUxI:
+      type: save
+      _id: UIrfxBt4eE23oUxI
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: true
+      effects:
+        - _id: wKhwK9STeuULGD20
+          onSave: true
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: half
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 8
+            denomination: 6
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: ''
+              number: 1
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: true
+        magicDamage: true
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      friendlySave: default
+      name: Cast
+    YIhE9fhVHZZfyFmG:
+      type: save
+      _id: YIhE9fhVHZZfyFmG
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: any
+        override: true
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: half
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 6
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: ''
+              number: 1
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: never
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: false
+        otherActivityAsParentType: true
+        identifier: crush-damage
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: true
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: true
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+        turnChoice: start
+      otherActivityId: none
+      otherActivityAsParentType: true
+      friendlySave: default
+      name: Crush Damage
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Raising up earth and stone from a massive area, you crash it down in a
+      50-foot-radius sphere centred on a grounded point you can see within
+      range. Every Creature within the area must make a Dexterity Saving Throw;
+      they take 8d6 Bludgeoning Damage on a failed Save, or half as much on a
+      successful Save.</p><p>Creatures who took Damage from the initial cast of
+      the Art are buried under rock and rubble. They must make a Strength Saving
+      Throw at the beginning of their Turn until they have left the area to
+      resist being crushed. On a failed Save, they take 4d6 Bludgeoning Damage,
+      or half as much on a successful Save.</p><p><strong>Partially Automated.
+      </strong>Applies an effect to Creatures who take Damage from this Art that
+      forces them to make a Save against the crushing damage. However, the
+      effect is not removed when they leave the area; that must be done
+      manually.</p><p></p>
+    chat: ''
+  identifier: mountainfall
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: inst
+  level: 9
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - vocal
+    - somatic
+  range:
+    units: ft
+    special: ''
+    value: '500'
+  school: con
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: sphere
+      size: '50'
+      count: ''
+    affects:
+      choice: false
+      type: ''
+effects:
+  - name: Crushing Rock
+    img: icons/magic/earth/barrier-stone-explosion-red.webp
+    origin: Item.SUnEdyYchBlrUDTQ
+    transfer: false
+    _id: wKhwK9STeuULGD20
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.ActivityOverTime
+        mode: 2
+        value: crush-damage
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!SUnEdyYchBlrUDTQ.wKhwK9STeuULGD20'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!SUnEdyYchBlrUDTQ'

@@ -1,0 +1,617 @@
+folder: ZCpuCLRcXYiB8HKg
+name: Engineering Kit
+type: tool
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  activities:
+    yi1FoXRXQxQvSLlR:
+      type: heal
+      _id: yi1FoXRXQxQvSLlR
+      sort: 100000
+      activation:
+        type: minute
+        override: false
+        value: 1
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: (@abilities.int.mod )d4
+        scaling:
+          number: 1
+        number: null
+        denomination: 6
+        bonus: ''
+      name: Emergency Repairs (1 Charge)
+      img: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+    uVbeGpf0U6xCKEMY:
+      type: enchant
+      _id: uVbeGpf0U6xCKEMY
+      sort: 350000
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: false
+      effects:
+        - _id: NBWC0pcbv2cHMXAV
+          level: {}
+          riders:
+            activity: []
+            effect: []
+            item: []
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creatureOrObject
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+        identifier: ''
+      restrictions:
+        allowMagical: false
+        categories:
+          - lightM
+          - heavyM
+          - specialM
+          - lightR
+          - heavyR
+        properties: []
+        type: weapon
+      name: Jury Rig Weapon (1 Charge)
+    9Xw4gpe1EdIEZHsj:
+      type: utility
+      _id: 9Xw4gpe1EdIEZHsj
+      sort: 400000
+      activation:
+        type: shortRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: fzAQJPIWpfNFf7yf
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: any
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      name: Jury Rig Vehicle (1 Charge)
+    ulRVl6PWURqkPvWH:
+      type: utility
+      _id: ulRVl6PWURqkPvWH
+      sort: 300000
+      activation:
+        type: minute
+        override: false
+        condition: ''
+        value: 10
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: false
+      effects:
+        - _id: HcyaNeeoFwxYhaJE
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: true
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      name: Examine Machinery
+      img: ''
+      appliedEffects: []
+    fg3fWcuTuf0UCqcu:
+      type: summon
+      _id: fg3fWcuTuf0UCqcu
+      sort: 325000
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '5'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: space
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: ''
+        attackDamage: ''
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: false
+        disposition: true
+        proficiency: false
+        saves: false
+        ability: ''
+      profiles:
+        - count: ''
+          name: ''
+          _id: YPXXY7zUEpk04fsf
+          uuid: Compendium.ak5e.ak5e-bestiary.Actor.AYr7uc7PfTmtDHVa
+          level:
+            min: null
+            max: null
+      summon:
+        prompt: true
+        mode: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      friendlySummon: false
+      name: Automaton Automation (2 Charges)
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: '5'
+  description:
+    value: >-
+      <p>Wrenches, screwdrivers, wire cutters and strippers, blowtorches; these
+      are the tools by which mechanics and engineers weave their “magic”,
+      turning inert metal into vehicles. The kit of an engineer is equal parts
+      toolbox and portable scrapheap.</p><p><strong>Starting Charges:</strong>
+      5</p><h3>Uses:</h3><p><strong>Emergency Repairs (1 Charge) (Partially
+      automated: restores Hit Points but not Temporary Hit Points).</strong>
+      With the right tools, you can often keep a machine ticking longer than it
+      should. Choose a Vehicle or Construct within 5 feet. If you work on it
+      uninterrupted for 1 minute, roll a number of d4’s equal to your
+      Intelligence Modifier (or your Intelligence Modifier + your Proficiency
+      Bonus if you are Proficient with this Kit); it regains that many Hit
+      Points, and gains any excess Hit Points as Temporary Hit
+      Points.</p><p><strong>Examine Machinery (Partially Automated; toggles a +5
+      Tech Bonus):</strong> The tools in this kit are useful in essentially all
+      interactions with machinery, but especially useful when trying to figure
+      out what has gone wrong. If you take 10 minutes to examine them, you gain
+      a +5 Bonus to Technology Tests to determine the state and function of
+      constructs and machines.</p><h3>Proficient Uses:</h3><p><strong>Automaton
+      Automation (2 Charges):</strong> As a Long Rest Activity, you can prepare
+      an Automaton (Turret) for use (Page 467). The Turret begins in its
+      portable form. A minute after being unfolded from its portable form for
+      the first time, a Turret created in this way dies. You can only have one
+      such Turret at a time, but it does not count against the maximum amount of
+      Automatons or Drones you can control.</p><p><strong>Jury Rig (1
+      Charge):</strong> Sometimes the way things are made is for safety. But it
+      doesn’t mean that’s all they can do. As a Short Rest Activity, you can
+      “improve” a Vehicle or Construct. You can either:</p><ul><li><p>Give the
+      target a +2 Bonus to all Driving Checks performed with it. A Vehicle or
+      Construct can only be the target of this Proficient Use once (this is not
+      automated).</p></li><li><p>Give one weapon on the target a +2 Bonus to
+      Attack Rolls with that Weapon. Each Weapon on that Vehicle or Construct
+      can only be the target of this Proficient Use once (this is
+      automated).</p></li></ul>
+    chat: ''
+  identifier: engineering-kit
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 250
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: art
+    baseItem: engineering
+  ability: int
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+effects:
+  - name: Jury Rigged Vehicle
+    img: icons/containers/bags/case-leather-tan.webp
+    origin: Item.ulAX3hNPAVXEqXVq
+    transfer: false
+    _id: fzAQJPIWpfNFf7yf
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!XfS9C2RHzrrMdlip.fzAQJPIWpfNFf7yf'
+  - type: enchantment
+    name: Jury Rigged
+    img: icons/containers/bags/case-leather-tan.webp
+    disabled: false
+    _id: NBWC0pcbv2cHMXAV
+    system: {}
+    changes:
+      - key: activities[attack].attack.bonus
+        mode: 5
+        value: '+2'
+        priority: null
+    duration:
+      startTime: 0
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: Actor.zvMPACiY7cfwzP3s.Item.lvdj8b98YaJxp2Mz
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!XfS9C2RHzrrMdlip.NBWC0pcbv2cHMXAV'
+  - name: +5 Technology Bonus (Examine Machinery)
+    img: icons/containers/bags/case-leather-tan.webp
+    origin: Compendium.ak5e.ak5e-items.Item.XfS9C2RHzrrMdlip
+    transfer: false
+    _id: HcyaNeeoFwxYhaJE
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.tech.bonuses.check
+        mode: 2
+        value: '+5'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756570762311
+      modifiedTime: 1756571688837
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!XfS9C2RHzrrMdlip.HcyaNeeoFwxYhaJE'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1756485614331
+  modifiedTime: 1766941811946
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: XfS9C2RHzrrMdlip
+sort: 400000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!XfS9C2RHzrrMdlip'

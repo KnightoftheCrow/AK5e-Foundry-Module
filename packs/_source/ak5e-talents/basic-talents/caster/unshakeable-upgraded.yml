@@ -1,0 +1,56 @@
+folder: zWAk7cUjjJDFehud
+name: Unshakeable (Upgraded)
+type: feat
+img: icons/skills/movement/ball-spinning-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module Effect: </strong>When a Creature provokes an Opportunity
+      Attack from you, you may cast an Art as a Reaction, instead of making a
+      Melee Attack. The Art must have a Casting Time of an Action, and target
+      only that Creature.</p>
+    chat: ''
+  identifier: unshakeable-upgraded
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759425020423
+  modifiedTime: 1759425020432
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: C27YXJ3VzE9ekf7a
+sort: 392969
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!C27YXJ3VzE9ekf7a'

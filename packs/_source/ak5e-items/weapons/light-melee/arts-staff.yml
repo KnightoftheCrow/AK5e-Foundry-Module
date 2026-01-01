@@ -1,0 +1,181 @@
+folder: uUuSO7eU1CKxrhGI
+name: Arts Staff
+type: weapon
+_id: 8YnvqZkWkp8JrS0y
+img: icons/weapons/staves/staff-ornate-hook.webp
+system:
+  activities:
+    tYnwRXS6OemwKa0G:
+      _id: tYnwRXS6OemwKa0G
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical: {}
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>[[/attack extended]], [[/damage
+      extended]].</p><p>@UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.84PPRps21icwe3Rp]{Casting
+      Unit},
+      @UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.0lkehls3FxkitRkd]{Conductive
+      (1)}, Two-Handed</p>
+    chat: ''
+  identifier: arts-staff
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 4
+    units: lb
+  price:
+    value: 700
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 1
+      denomination: 6
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - cst
+    - cnd
+    - two
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: null
+    long: null
+  type:
+    value: lightM
+    baseItem: artsstaff
+  mastery: ''
+effects:
+  - name: Conductive
+    img: icons/magic/lightning/projectile-tendrils-teal.webp
+    origin: Compendium.ak5e.ak5e-items.Item.8YnvqZkWkp8JrS0y
+    _id: IEIkt0pd1wdPmGiS
+    type: base
+    system: {}
+    changes:
+      - key: system.bonuses.msak.attack
+        mode: 2
+        value: '+1'
+        priority: null
+      - key: system.bonuses.rsak.attack
+        mode: 2
+        value: '+1'
+        priority: null
+      - key: system.bonuses.spell.dc
+        mode: 2
+        value: '+1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756312403497
+      modifiedTime: 1756312508710
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!8YnvqZkWkp8JrS0y.IEIkt0pd1wdPmGiS'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1756311910769
+  modifiedTime: 1756407997487
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!8YnvqZkWkp8JrS0y'

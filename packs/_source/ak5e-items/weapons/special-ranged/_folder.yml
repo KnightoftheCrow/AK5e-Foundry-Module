@@ -1,0 +1,18 @@
+type: Item
+folder: mWMmRBU3xFtM9n76
+name: Special Ranged
+color: null
+sorting: a
+_id: Td5TyHzGNWMuxXQy
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  lastModifiedBy: null
+_key: '!folders!Td5TyHzGNWMuxXQy'

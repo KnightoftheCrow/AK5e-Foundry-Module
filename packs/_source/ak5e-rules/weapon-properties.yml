@@ -1,0 +1,462 @@
+name: Weapon Properties
+pages:
+  - sort: 100000
+    name: Bound
+    type: text
+    _id: c2nP2lJxMySGlTQ5
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <p>Weapons with this Property have been bound by a Flinger.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!journal.pages!5gdt0smPFXq1A7fN.c2nP2lJxMySGlTQ5'
+  - sort: 200000
+    name: Brace
+    type: text
+    _id: 8iuAmALKFvC7Pkcv
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>To make an attack using a weapon with the Brace Property, you must
+        also pay 10ft of Movement.</p><p>If the weapon also has the Loading
+        Property, this cost is increased to 30ft.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!journal.pages!5gdt0smPFXq1A7fN.8iuAmALKFvC7Pkcv'
+  - sort: 300000
+    name: Casting Unit
+    type: text
+    _id: 84PPRps21icwe3Rp
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Weapons with this Special Property can be used to cast Arts; if you
+        are wielding a Weapon with this Property, you may ignore the Somatic
+        Components of Arts.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+      modifiedTime: 1766937263686
+    _key: '!journal.pages!5gdt0smPFXq1A7fN.84PPRps21icwe3Rp'
+  - sort: 400000
+    name: Conductive (X)
+    type: text
+    _id: 0lkehls3FxkitRkd
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>While you have a weapon with the Conductive (X) Property Equipped,
+        you gain +X to your Spell Attack Rolls and Spell Save DC. If you have
+        multiple weapons with this property Equipped, only the largest value of
+        X is applied.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!journal.pages!5gdt0smPFXq1A7fN.0lkehls3FxkitRkd'
+  - sort: 500000
+    name: Couch
+    type: text
+    _id: tzZGoUrJmoUnViPC
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>If you make an Attack with a weapon with the Couch Property while it
+        is not your Turn, that Attack deals additional Damage equal to your
+        Proficiency Bonus.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!journal.pages!5gdt0smPFXq1A7fN.tzZGoUrJmoUnViPC'
+  - sort: 600000
+    name: Deadly
+    type: text
+    _id: HyZrjHTNPBLZWBVW
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Once per Turn, when you hit with an Attack using a weapon with the
+        Deadly Property, you may cause that Attack to deal additional Damage
+        equal to your Proficiency Bonus.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!journal.pages!5gdt0smPFXq1A7fN.HyZrjHTNPBLZWBVW'
+  - sort: 700000
+    name: Firearm
+    type: text
+    _id: BWAbxScg3oUitPmT
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>This weapon is a Terran firearm, which operate on Originium Arts. You
+        do not need to be able to cast any Arts to use weapons with this
+        Property, but any effect that prevents the casting of Arts also prevents
+        use of this weapon.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!journal.pages!5gdt0smPFXq1A7fN.BWAbxScg3oUitPmT'
+  - sort: 525000
+    name: Crush (X)
+    type: text
+    _id: UMNN0ltqsGgesRxQ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>If you hit a Creature with an Attack with this Property, the Damage
+        of that Attack cannot be reduced to less than X by Damage Reduction or
+        Resistance (Immunities apply as normal). If the rolled Damage of the
+        Attack is less than X, it instead cannot be reduced any further.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+      modifiedTime: 1766937311101
+    _key: '!journal.pages!5gdt0smPFXq1A7fN.UMNN0ltqsGgesRxQ'
+  - sort: 900000
+    name: Rapid Fire
+    type: text
+    _id: wzjeoHaqrGZINnCn
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>If you have attacked with a weapon with this Property this Turn, you
+        may make an additional Attack with that weapon as a Bonus Action.
+        However, you do not add your Ability Modifier to the Damage Roll for
+        that Attack.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!journal.pages!5gdt0smPFXq1A7fN.wzjeoHaqrGZINnCn'
+  - sort: 1000000
+    name: Returning
+    type: text
+    _id: kOnm3XZjIkIKSMqs
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>If you make a Ranged Attack using the Thrown Property of this weapon,
+        it returns to your hand after the Attack. If the Attack Roll result is a
+        Natural 1, the weapon does not return, and falls at the feet of the
+        target of that Attack.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!journal.pages!5gdt0smPFXq1A7fN.kOnm3XZjIkIKSMqs'
+  - sort: 1100000
+    name: Splash (X)
+    type: text
+    _id: 9YzvYtxjOAEichgE
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You do not make Attack Rolls when attacking using a weapon with this
+        Property. Instead, choose a point within the weapon’s range; all
+        Creatures within X feet of that Point must succeed on a Dexterity Saving
+        Throw against your Martial DC, suffering the weapon’s normal Damage plus
+        your Ability Score Modifier on a failed Save, or half that amount on a
+        successful Save. If you are not Proficient with the weapon, Creatures
+        have Advantage on this Saving Throw.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+      modifiedTime: 1766937282370
+    _key: '!journal.pages!5gdt0smPFXq1A7fN.9YzvYtxjOAEichgE'
+  - sort: 1200000
+    name: Spread
+    type: text
+    _id: QWQPievjz3LPggSC
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When you hit with an Attack using a weapon with this Property against
+        a Creature within its normal range, you may deal Piercing Damage equal
+        to the Ability Modifier used for the Attack to a different Creature
+        within 5 feet of the original Creature.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+      modifiedTime: 1766937294803
+    _key: '!journal.pages!5gdt0smPFXq1A7fN.QWQPievjz3LPggSC'
+  - sort: 512500
+    name: CQC
+    type: text
+    _id: m68ktSSw7QLMS9Rj
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You do not suffer Disadvantage on Ranged Attack Rolls using a Weapon
+        with this Property against a Creature within 5 feet of you.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.3
+      createdTime: 1766937048993
+      modifiedTime: 1766937317031
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!journal.pages!5gdt0smPFXq1A7fN.m68ktSSw7QLMS9Rj'
+folder: null
+categories: []
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1756285895617
+  modifiedTime: 1756285895617
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: 5gdt0smPFXq1A7fN
+sort: 0
+_key: '!journal!5gdt0smPFXq1A7fN'

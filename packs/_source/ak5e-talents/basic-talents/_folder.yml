@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Basic Talents
+color: null
+sorting: a
+_id: S7dEq1kHM19kbrwc
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758996831975
+  modifiedTime: 1758996831975
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!folders!S7dEq1kHM19kbrwc'

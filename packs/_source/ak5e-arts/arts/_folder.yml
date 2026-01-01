@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Arts
+color: null
+sorting: a
+_id: 0S7rvSbmkBZo3Yev
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758562577664
+  modifiedTime: 1758562577664
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!folders!0S7rvSbmkBZo3Yev'

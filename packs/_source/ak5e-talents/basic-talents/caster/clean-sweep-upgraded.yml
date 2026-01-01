@@ -1,0 +1,259 @@
+folder: zWAk7cUjjJDFehud
+name: Clean Sweep (Upgraded)
+type: feat
+img: icons/skills/melee/strike-scythe-fire-green.webp
+system:
+  activities:
+    AU9QufcAl5c7SO8Q:
+      type: utility
+      _id: AU9QufcAl5c7SO8Q
+      sort: 0
+      activation:
+        type: turnStart
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: turn
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: ZxBY8lo97JECtfP2
+          level: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: true
+        forceConsumeDialog: never
+        forceRollDialog: never
+        forceDamageDialog: never
+        confirmTargets: never
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: false
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: false
+      name: Clean Sweep Recharge
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  uses:
+    spent: 0
+    recovery:
+      - period: turnStart
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>Once per Round, when you deal Damage to a Creature with more than half
+      of its maximum Hit Points, you deal 1 additional die of Damage to that
+      Creature.</p><p><strong>Module Effect: </strong>You now deal 2 additional
+      dice of Damage instead.</p>
+    chat: ''
+  identifier: clean-sweep-upgraded
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Clean Sweep (Upgraded)
+    img: icons/skills/melee/strike-scythe-fire-green.webp
+    origin: Item.w1Ax98S3q5pkIZpS
+    _id: ZxBY8lo97JECtfP2
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.extraDice
+        mode: 2
+        value: bonus=1; usesCount=1; opponentActor.attributes.hp.pct > 50
+        priority: 20
+    disabled: false
+    duration:
+      startTime: 624
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: 71
+      startTurn: 0
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: startEveryTurn
+        specialDuration:
+          - None
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: true
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.3
+      lastModifiedBy: null
+    _key: '!items.effects!z2MFO3uUJFTurMl2.ZxBY8lo97JECtfP2'
+flags:
+  ak5e:
+    trackingBar: false
+    barFirstColor: '#4361ee'
+    barSecondColor: '#4cc9f0'
+  dnd5eItemResources:
+    resourceBar: false
+    animation: ''
+    barFirstColor: '#3a0e5f'
+    barSecondColor: '#8a40c7'
+  midi-qol:
+    onUseMacroName: '[postActiveEffects]ItemMacro'
+  dae:
+    macro:
+      name: Clean Sweep
+      img: icons/skills/melee/strike-scythe-fire-green.webp
+      type: script
+      scope: global
+      command: >-
+        let effectNameFallBack = "Clean Sweep" // Define the name 
+
+        let effectName = actor.effects.find(e => e.name === effectNameFallBack);
+        // Find the effect with the specified name
+
+        if (effectName) { // Check if the effect was found
+          await effectName.update({ disabled : false}); // Remove the effect
+          //ui.notifications.notify(`Removed ${effectNameFallBack} effect from ${actor.name}.`); // Show a notification with the name of the removed effect
+        }
+      author: 9KtVYqHDTWORuJDZ
+      ownership:
+        default: 3
+      _id: null
+      folder: null
+      sort: 0
+      flags: {}
+      _stats:
+        coreVersion: '13.347'
+        systemId: dnd5e
+        systemVersion: 5.1.9
+        lastModifiedBy: null
+        compendiumSource: null
+        duplicateSource: null
+        exportSource: null
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1766945425352
+  modifiedTime: 1766945425373
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: z2MFO3uUJFTurMl2
+sort: 360938
+_key: '!items!z2MFO3uUJFTurMl2'

@@ -1,0 +1,125 @@
+folder: tpq7GwavNIJcGZhv
+name: Hand Crossbow
+type: weapon
+_id: LqVtxMaqJotYLr9a
+img: icons/weapons/crossbows/crossbow-ornamental-winged.webp
+system:
+  activities:
+    NCBZtirnbV0ewqAe:
+      _id: NCBZtirnbV0ewqAe
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical: {}
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: <p>[[/attack extended]], [[/damage extended]]</p><p>Light</p>
+    chat: ''
+  identifier: hand-crossbow
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 2
+    units: lb
+  price:
+    value: 125
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 1
+      denomination: 6
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - lgt
+  proficient: null
+  range:
+    reach: null
+    units: ''
+    value: 50
+    long: 100
+  type:
+    value: lightR
+    baseItem: handcrossbow
+  mastery: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1756314569234
+  modifiedTime: 1756408083982
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!LqVtxMaqJotYLr9a'

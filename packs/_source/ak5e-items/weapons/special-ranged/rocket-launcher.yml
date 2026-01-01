@@ -1,0 +1,158 @@
+folder: Td5TyHzGNWMuxXQy
+name: Rocket Launcher
+type: weapon
+_id: DpzJAwVWjBo5cLEG
+img: icons/skills/ranged/cannon-barrel-firing-orange.webp
+system:
+  activities:
+    4mIKsRpUK8mmfwLN:
+      type: save
+      _id: 4mIKsRpUK8mmfwLN
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: sphere
+          size: '10'
+          count: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 8
+            bonus: '@mod'
+            types:
+              - thunder
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: dex
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>[[/save extended]], [[/damage
+      extended]]</p><p>@UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.8iuAmALKFvC7Pkcv]{Brace},
+      Loading,
+      @UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.9YzvYtxjOAEichgE]{Splash
+      (10)}, Two-Handed</p>
+    chat: ''
+  identifier: rocket-launcher
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 20
+    units: lb
+  price:
+    value: 700
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: null
+      denomination: null
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - brc
+    - lod
+    - spl
+    - two
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 100
+    long: null
+  type:
+    value: specialR
+    baseItem: rocketlauncher
+  mastery: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1756318464538
+  modifiedTime: 1766937490178
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!DpzJAwVWjBo5cLEG'

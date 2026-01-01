@@ -1,0 +1,281 @@
+folder: ZCpuCLRcXYiB8HKg
+name: Cooking KIt
+type: tool
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  activities:
+    aPNde1H8Zzf1Kb03:
+      type: utility
+      _id: aPNde1H8Zzf1Kb03
+      sort: 0
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      name: Create Rations (1 Charge)
+    tFoUU4WX7RjhunNo:
+      type: check
+      _id: tFoUU4WX7RjhunNo
+      sort: 0
+      activation:
+        type: shortRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated: []
+        dc:
+          calculation: ''
+          formula: '13'
+        ability: wis
+      name: Prepare Ingredients
+    popyEKHp398uKC52:
+      type: utility
+      _id: popyEKHp398uKC52
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      name: Camp Cooking (2 Charges)
+    AVUJnOUcqDb0a0gA:
+      type: check
+      _id: AVUJnOUcqDb0a0gA
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated:
+          - prc
+        dc:
+          calculation: ''
+          formula: '13'
+        ability: ''
+      name: Poison Tasting
+  uses:
+    spent: 0
+    recovery: []
+    max: '5'
+  description:
+    value: >-
+      <p>Cooking food could be argued to be one of the things that defines
+      civilisation; one of the things that divides man from animal. People with
+      a good meal in their bellies can bear hardship that the hungry cannot, and
+      the person that can provide this will be forever beloved. The Cooking Kit
+      contains the tools necessary to cook away from a kitchen, in addition to a
+      spread of long-life ingredients.</p><p><strong>Starting Charges:</strong>
+      5 (Refill cost 40 LMD per Charge)</p><h3>Uses</h3><p><strong>Create
+      Rations (1 Charge):</strong> Without the aid of a kitchen, sometimes just
+      keeping people from starving to death is enough. As a Long Rest Activity,
+      you can cook enough Rations to feed a number of people equal to your
+      Wisdom Modifier + your Proficiency Bonus.</p><p><strong>Prepare
+      Ingredients (Partially Automated; does not manually restore
+      charges):</strong> As a Short Rest Activity, you can either scavenge
+      vegetation or prepare a dead animal for consumption (if there is one
+      available). To do so, you must make a DC13 Wisdom Check; if you are
+      Proficient in this Kit, you may add your Proficiency Bonus to this Roll.
+      Furthermore, if you are preparing an animal, you have Advantage on this
+      Roll. On a success, you restore one Charge of this Kit, up to its maximum
+      of 5. On a failure, you waste the ingredients, and do not restore a
+      Charge.</p><h3>Proficient Uses</h3><p><strong>Camp Cooking (2
+      Charge):</strong> Being in the wilderness is no excuse for anyone to eat
+      badly. As a Long Rest Activity, you can create a Meal for a number of
+      Creatures equal to your Proficiency Bonus + Wisdom Modifier (unless it is
+      negative). Creatures that consume the meal roll one of their Hit Dice
+      (this does not expend their Hit Dice) and gain that many Temporary Hit
+      Points.</p><p><strong>Poison Tasting (Auotmated):</strong> Your expertise
+      with the tools of cooking gives you special insight. Using these tools,
+      you can identify whether food is safe or dangerous to eat by succeeding on
+      a DC13 Perception Check.</p>
+    chat: ''
+  identifier: cooking-kit
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 15
+    units: lb
+  price:
+    value: 250
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: art
+    baseItem: cooking
+  ability: wis
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1756485612973
+  modifiedTime: 1766937789852
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: cx7nNrpfLvAHIfmq
+sort: 300000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!cx7nNrpfLvAHIfmq'

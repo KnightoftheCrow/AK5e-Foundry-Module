@@ -1,0 +1,126 @@
+folder: tpq7GwavNIJcGZhv
+name: Bow
+type: weapon
+_id: AVXlB27KScRknIiD
+img: icons/weapons/bows/shortbow-recurve-red.webp
+system:
+  activities:
+    gOM2krB4jI9KKWEy:
+      _id: gOM2krB4jI9KKWEy
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical: {}
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: <p>[[/attack extended]], [[/damage extended]]</p><p>Two-Handed</p>
+    chat: ''
+  identifier: bow
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 4
+    units: lb
+  price:
+    value: 85
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - piercing
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 1
+      denomination: 8
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - two
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 75
+    long: 200
+  type:
+    value: lightR
+    baseItem: bow
+  mastery: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1756314447958
+  modifiedTime: 1756408061523
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!AVXlB27KScRknIiD'

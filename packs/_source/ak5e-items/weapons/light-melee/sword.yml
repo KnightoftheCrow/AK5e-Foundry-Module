@@ -1,0 +1,132 @@
+folder: uUuSO7eU1CKxrhGI
+name: Sword
+type: weapon
+_id: Ve5i7MSi8dzq0UJG
+img: icons/weapons/swords/greatsword-blue.webp
+system:
+  activities:
+    ynYnyElnPKrih1fc:
+      _id: ynYnyElnPKrih1fc
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical: {}
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>[[/attack extended]], [[/damage extended]]</p><p>Finesse, Versatile
+      (1d10)</p>
+    chat: ''
+  identifier: sword
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 3
+    units: lb
+  price:
+    value: 225
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - slashing
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 1
+      denomination: 8
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 1
+      denomination: null
+      bonus: ''
+  properties:
+    - fin
+    - ver
+  proficient: null
+  range:
+    reach: 5
+    units: ft
+    value: null
+    long: null
+  type:
+    value: lightM
+    baseItem: sword
+  mastery: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1756313484956
+  modifiedTime: 1756408046302
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!Ve5i7MSi8dzq0UJG'

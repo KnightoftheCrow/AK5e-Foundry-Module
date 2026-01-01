@@ -1,0 +1,243 @@
+folder: yTaKQVDmOoYrR2OC
+name: Acid Douse
+type: spell
+_id: H8oecLMN87nAixzC
+img: icons/magic/acid/dissolve-arm-flesh.webp
+system:
+  activities:
+    itQu870fcNKLlgJF:
+      type: save
+      _id: itQu870fcNKLlgJF
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: MtMHHArc4TGFtAvP
+          onSave: false
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - acid
+            scaling:
+              mode: ''
+              number: 1
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: true
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: ''
+      otherActivityAsParentType: true
+      friendlySave: default
+      name: Cast
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You coat a Creature you can see within Range in a mild acid, enough to
+      inflame sensation and cause pain, but not enough to deal lasting harm. The
+      Creature must succeed on a Constitution Saving Throw or take 1d8
+      additional Acid Damage whenever they would take Acid Damage; additionally,
+      they have Disadvantage against Arts that deal Acid Damage. These effects
+      are not cumulative.</p><p></p>
+    chat: ''
+  identifier: new-item
+  source:
+    revision: 1
+    rules: '2024'
+    book: AK5E
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: bonus
+    condition: ''
+  duration:
+    units: minute
+    value: '1'
+  level: 1
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  properties:
+    - vocal
+    - somatic
+  range:
+    units: ft
+    value: '90'
+    special: ''
+  school: enc
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: creature
+  prepared: 0
+effects:
+  - name: Acid Douse Additional Damage
+    img: icons/magic/acid/dissolve-arm-flesh.webp
+    origin: Item.QGzHDISS9wew6Zyi
+    transfer: false
+    _id: MtMHHArc4TGFtAvP
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.acid
+        mode: 2
+        value: +[[1d8]]
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+        dependents:
+          - uuid: Actor.j5qUpsgLWW6QtAFt.ActiveEffect.ptNK4Sm0bYlNa522
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!H8oecLMN87nAixzC.MtMHHArc4TGFtAvP'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    last:
+      itQu870fcNKLlgJF:
+        damageType:
+          '0': acid
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!H8oecLMN87nAixzC'

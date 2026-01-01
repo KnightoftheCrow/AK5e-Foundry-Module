@@ -1,0 +1,211 @@
+folder: ENMQbp9Tg10vDTnl
+name: Event Horizon
+type: spell
+_id: BMkCWFjso6dZpycX
+img: icons/magic/unholy/orb-swirling-teal.webp
+system:
+  activities:
+    IO4ZBNhWT56MKcnX:
+      type: summon
+      _id: IO4ZBNhWT56MKcnX
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: ''
+        attackDamage: ''
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: true
+        proficiency: true
+        saves: true
+        ability: ''
+      profiles:
+        - count: ''
+          name: ''
+          _id: c5PXkVk3GZmQEXhb
+          uuid: Compendium.ak5e.ak5e-bestiary.Actor.I6txsKXdeCAs6DA7
+          level:
+            min: null
+            max: null
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      friendlySummon: false
+      name: Cast
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You create an incredibly dense point of gravity in a 50-foot-radius
+      sphere centred on a point you can see within range. The area within this
+      sphere is considered to be Difficult Terrain; this applies even through
+      solid objects.</p><p>At the start of each of your Turns, every Creature
+      within the sphere must make a Strength Saving Throw. On a failed Save,
+      they take 3d10 Force Damage and are pulled 20 feet towards the centre of
+      the area. On a successful Save, they take half as much Damage, and are not
+      pulled. Unsecured Objects are pulled 20 feet towards the centre
+      automatically.</p><p>This pull is capable of pulling Creatures and Objects
+      into the air unless they are secured to the ground in some way, such as by
+      grabbing hold of objects that are secured. Creatures and Objects pulled
+      into the air are suspended there until they return to the ground, escape
+      the area, or the spell ends; in which case they fall directly downwards. A
+      Creature that does not have a Fly or Hover Speed can only move by pushing
+      or pulling against objects, including objects which are
+      suspended.</p><p>If a Creature is pulled into the centre of the sphere,
+      they take 8d10 Force Damage. A Creature that is reduced to 0 Hit Points by
+      this Damage is instantly killed, crushed into an unrecognisable
+      mass.</p><p>When you cast this Art, you may designate a number of
+      Creatures you can see equal to your Spellcasting Ability Modifier + your
+      Proficiency Bonus. Those Creatures automatically succeed on the Saving
+      Throw.</p><p><strong>Partially Automated.</strong> Summons an Invincible
+      Actor called Event Horizon Gravity Point that performs the Activities
+      associated with this Art. Difficult Terrain is not automated. Trigger the
+      Drag In Activity to force Creatures within the radius to make a Save, but
+      they are not pulled automatically. Use the Crush Activity on any Creature
+      that is dragged into the point.</p>
+    chat: ''
+  identifier: event-horizon
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: minute
+    value: '1'
+  level: 9
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  range:
+    units: ft
+    special: ''
+    value: '250'
+  school: evo
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+      size: '50'
+      count: ''
+    affects:
+      choice: false
+      type: ''
+      count: ''
+      special: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!BMkCWFjso6dZpycX'

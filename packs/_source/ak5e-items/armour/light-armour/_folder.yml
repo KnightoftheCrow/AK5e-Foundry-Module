@@ -1,0 +1,19 @@
+type: Item
+folder: sfpxmkkEM9XrD2J8
+name: Light Armour
+color: null
+sorting: m
+_id: k0FYoIdhU0iFUDY2
+description: ''
+sort: -100000
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1757006459760
+_key: '!folders!k0FYoIdhU0iFUDY2'

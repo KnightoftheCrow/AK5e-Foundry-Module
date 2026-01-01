@@ -1,0 +1,225 @@
+name: Lucky (Upgraded)
+type: feat
+img: icons/magic/light/hand-sparks-glow-yellow.webp
+effects:
+  - name: Lucky (Upgraded)
+    img: icons/magic/light/hand-sparks-glow-yellow.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.Ba6NFAnprhlPvaG7
+    _id: 1StgqW9MfitQqyiG
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.lucky.uses.number
+        mode: 5
+        value: dae.eval(@prof)
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+      modifiedTime: 1759003271570
+    _key: '!items.effects!Ba6NFAnprhlPvaG7.1StgqW9MfitQqyiG'
+flags:
+  core: {}
+  midi-qol:
+    onUseMacroName: ''
+    effectActivation: false
+    rollAttackPerTarget: default
+    itemCondition: ''
+    otherCondition: ''
+    effectCondition: ''
+    reactionCondition: ''
+    AoETargetType: any
+    AoETargetTypeIncludeSelf: true
+    autoTarget: default
+    removeAttackDamageButtons: default
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: 'reaches 0 charges: it crumbles into ashes and is destroyed.'
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  cf:
+    id: temp_1xw0kahfmt1
+    color: '#000000'
+  siftoolkit:
+    SIFData:
+      ignoreDuration: false
+      texture: ''
+      useTexture: false
+      alpha: 50
+      coneOrigin: 1
+      loopAnimations: true
+      playTemplateAudio: false
+      playDamageAudio: false
+      playSaveAudio: false
+      clip: ''
+      volume: 100
+  midiProperties:
+    nodam: false
+    fulldam: false
+    halfdam: false
+    rollOther: false
+    critOther: false
+    magicdam: false
+    magiceffect: false
+    concentration: false
+    toggleEffect: false
+    autoFailFriendly: false
+    autoSaveFriendly: false
+    offHandWeapon: false
+    ignoreTotalCover: false
+    confirmTargets: default
+    noConcentrationCheck: false
+    idr: false
+    idi: false
+    idv: false
+    ida: false
+  tidy5e-sheet:
+    section: ''
+    actionSection: ''
+  dnd5e: {}
+system:
+  description:
+    value: >-
+      <p><strong>Module Effect: </strong>Your maximum Luck Points becomes equal
+      to your Proficiency Bonus.</p>
+    chat: ''
+  source:
+    custom: ''
+    revision: 1
+    rules: '2014'
+    book: AK5e
+    page: ''
+    license: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  type:
+    value: class
+    subtype: skillPoints
+  requirements: ''
+  prerequisites:
+    level: null
+    repeatable: false
+    items: []
+  properties:
+    - trait
+  activities: {}
+  identifier: lucky-upgraded
+  enchant: {}
+  advancement: []
+  cover: null
+  crewed: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1759001269229
+  modifiedTime: 1766932690303
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+folder: zWAk7cUjjJDFehud
+_id: Ba6NFAnprhlPvaG7
+sort: 387500
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!Ba6NFAnprhlPvaG7'

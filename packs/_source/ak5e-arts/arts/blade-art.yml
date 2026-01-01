@@ -1,0 +1,387 @@
+folder: 0S7rvSbmkBZo3Yev
+name: Blade Art
+type: spell
+_id: LXiwdfigdEGqmyV0
+img: icons/skills/melee/strike-blade-hooked-orange-blue.webp
+system:
+  activities:
+    Q9SHRpQ4iM8kukgx:
+      type: enchant
+      _id: Q9SHRpQ4iM8kukgx
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: XRKBzfAtYRQyvQuL
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - y6pcVLa7LpV52jyj
+            effect: []
+            item: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: weapon
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: Cast
+      img: ''
+      visibility:
+        level:
+          min: null
+          max: null
+    y6pcVLa7LpV52jyj:
+      type: attack
+      _id: y6pcVLa7LpV52jyj
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: touch
+        override: true
+        special: ''
+        value: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - acid
+              - bludgeoning
+              - cold
+              - fire
+              - force
+              - lightning
+              - piercing
+              - psychic
+              - radiant
+              - slashing
+              - thunder
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: ''
+      otherActivityAsParentType: true
+      attackMode: ''
+      ammunition: ''
+      otherActivityUuid: ''
+      attackRollPerTarget: default
+      fumbleThreshold: 1
+      name: Blade Art Attack
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>This Cantrip can only be cast as a Spellsword Art by an Artsblade. When
+      it is cast, the Attack that this Art was cast as part of deals 1d6
+      additional Arts Damage. You choose what Damage Type this Damage is; when
+      you cast this Art, choose one of the Arts Pools you have selected for your
+      Spellsword Arts. The Damage Type corresponds to the chosen Arts
+      Pool.</p><table><thead><tr><td><p style="text-align:center"><strong>Arts
+      Pool</strong></p></td><td><p style="text-align:center"><strong>Damage
+      Type</strong></p></td></tr></thead><tbody><tr><td><p
+      style="text-align:center">Corrosion</p></td><td><p
+      style="text-align:center">Acid</p></td></tr><tr><td><p
+      style="text-align:center">Crude</p></td><td><p
+      style="text-align:center">Force</p></td></tr><tr><td><p
+      style="text-align:center">Earth</p></td><td><p
+      style="text-align:center">Bludgeoning</p></td></tr><tr><td><p
+      style="text-align:center">Electric</p></td><td><p
+      style="text-align:center">Lightning</p></td></tr><tr><td><p
+      style="text-align:center">Flame</p></td><td><p
+      style="text-align:center">Fire</p></td></tr><tr><td><p
+      style="text-align:center">Fluid</p></td><td><p
+      style="text-align:center">Piercing</p></td></tr><tr><td><p
+      style="text-align:center">Frost</p></td><td><p
+      style="text-align:center">Cold</p></td></tr><tr><td><p
+      style="text-align:center">Light</p></td><td><p
+      style="text-align:center">Radiant</p></td></tr><tr><td><p
+      style="text-align:center">Psychic</p></td><td><p
+      style="text-align:center">Psychic</p></td></tr><tr><td><p
+      style="text-align:center">Spatial</p></td><td><p
+      style="text-align:center">Thunder</p></td></tr><tr><td><p
+      style="text-align:center">Wind</p></td><td><p
+      style="text-align:center">Slashing</p></td></tr></tbody></table><p><strong>Cantrip
+      Upgrade:</strong> The Additional Damage increases by 1d6 when you reach
+      levels 5 (2d6), 11 (3d6), and 17 (4d6).</p><p><strong>Partially
+      Automated.</strong> Enchant the Weapon you mean to use for the Blade Art
+      Attack and it will add an Action to that Weapon called Blade Art Attack;
+      this activity will make a normal attack for that Weapon and add the
+      additional damage of Blade Arts.</p>
+    chat: ''
+  identifier: blade-art
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: inst
+  level: 0
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - vocal
+    - somatic
+  range:
+    units: self
+    special: ''
+  school: evo
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: ''
+effects:
+  - type: enchantment
+    name: Blade Art
+    img: icons/skills/melee/strike-blade-hooked-orange-blue.webp
+    disabled: true
+    _id: XRKBzfAtYRQyvQuL
+    system: {}
+    changes: []
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - 1Attack
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+      modifiedTime: 1766943760125
+    _key: '!items.effects!LXiwdfigdEGqmyV0.XRKBzfAtYRQyvQuL'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1758563363515
+  modifiedTime: 1766944154379
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!LXiwdfigdEGqmyV0'

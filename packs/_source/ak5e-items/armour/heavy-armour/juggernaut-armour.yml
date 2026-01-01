@@ -1,0 +1,164 @@
+folder: gVZZrBjgP6U5oNBR
+name: Juggernaut Armour
+type: equipment
+img: icons/equipment/chest/breastplate-sculpted-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>The heaviest armour only worn by the physically strongest, it is
+      capable of warding off attacks of all flavours.</p><p><strong>Damage
+      Reduction: </strong>5 (All)</p>
+    chat: ''
+  identifier: juggernaut-armour
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 75
+    units: lb
+  price:
+    value: 1100
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  armor:
+    value: 12
+    dex: 0
+  proficient: null
+  properties:
+    - stealthDisadvantage
+  strength: 16
+  type:
+    value: heavy
+    baseItem: juggernautarmour
+effects:
+  - name: Juggernaut Armour DR
+    img: icons/equipment/chest/breastplate-sculpted-green.webp
+    origin: Item.hYtZZ7O3pi90xx7t
+    _id: lNkXhZS1fGI6Q8TS
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.bludgeoning
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.slashing
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.piercing
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.thunder
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.acid
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.cold
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.fire
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.force
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.lightning
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.necrotic
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.poison
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.psychic
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.radiant
+        mode: 2
+        value: '-5'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!tnskKCY7wCAlcdmm.lNkXhZS1fGI6Q8TS'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1757006097143
+  modifiedTime: 1766936757906
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: tnskKCY7wCAlcdmm
+sort: 400000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!tnskKCY7wCAlcdmm'

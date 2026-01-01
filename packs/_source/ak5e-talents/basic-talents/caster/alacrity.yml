@@ -1,0 +1,130 @@
+folder: zWAk7cUjjJDFehud
+name: Alacrity
+type: feat
+img: icons/skills/movement/feet-winged-sandals-tan.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: OWpmsPzFFWSfujTp
+      configuration:
+        allowDrops: true
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.fcfIzWUKOjoZ0LEP
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock this talent's module effect, or take another basic
+        talent?
+  description:
+    value: >-
+      <p>Your Speed increases by 10 feet.</p><p><strong>Module Effect:
+      </strong>When you take the Dash Action, you add your Proficiency Bonus to
+      your Armour Class until the end of the Turn.</p>
+    chat: ''
+  identifier: alacrity
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Alacrity
+    img: icons/skills/movement/feet-winged-sandals-tan.webp
+    origin: Item.31cYxbmvh4Xvm69m
+    _id: ggnhEgbmh0JUEuWz
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.all
+        mode: 0
+        value: '+10'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!x56jXcB3ASm9LPRt.ggnhEgbmh0JUEuWz'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1758996841534
+  modifiedTime: 1759662115758
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: x56jXcB3ASm9LPRt
+sort: 100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!x56jXcB3ASm9LPRt'

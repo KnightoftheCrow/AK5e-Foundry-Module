@@ -1,0 +1,18 @@
+type: Item
+folder: 0S7rvSbmkBZo3Yev
+name: Standard Arts Pools
+color: null
+sorting: a
+_id: nqfLOxPNMAjfoEBb
+description: ''
+sort: 1200000
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  lastModifiedBy: null
+_key: '!folders!nqfLOxPNMAjfoEBb'

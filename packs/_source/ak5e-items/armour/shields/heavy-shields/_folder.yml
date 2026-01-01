@@ -1,0 +1,19 @@
+type: Item
+folder: 8RLtN2BgbT2psV0X
+name: Heavy Shields
+color: null
+sorting: m
+_id: LhfLrzy8qfSJ9JZQ
+description: ''
+sort: -100000
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1757007862480
+_key: '!folders!LhfLrzy8qfSJ9JZQ'

@@ -1,0 +1,274 @@
+folder: haPWBXVerFGoe54Z
+name: Power Word Push
+type: spell
+_id: ekwWi7h5Gyz1FipB
+img: icons/skills/movement/arrow-upward-yellow.webp
+system:
+  activities:
+    xg1UnEOGJEOe5fFZ:
+      type: utility
+      _id: xg1UnEOGJEOe5fFZ
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: hDhqJDGcc2lxHhos
+        - _id: FAd6QeosdmPFj4ga
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Cast
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>The force of your voice can push lesser beings away from you
+      physically. All Creatures with 20 or fewer Hit Points within a 10-foot
+      cube originating from you are pushed directly away from you to the edge of
+      the area, and have their Speed reduced by 10 until the end of their next
+      Turn. Creatures with more Hit Points than this have their Speed reduced by
+      10 until the end of their next Turn instead.</p><p><strong>At Higher
+      Levels:</strong> For each Level above 1 this Art is cast at, the threshold
+      for affected Creatures is increased by 10 Hit Points, and the side length
+      of the cube is increased by 5ft.</p><p><strong>Partially Automated.
+      </strong>Does not actually Push Creatures, but applies a Condition to
+      Creatures that should be pushed. Does apply the reduction in Movement
+      Speed.</p>
+    chat: ''
+  identifier: power-word-push
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: inst
+  level: 1
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - vocal
+  range:
+    units: self
+    special: ''
+  school: enc
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: cube
+      size: 10+(5*(@scaling.increase))
+      count: ''
+    affects:
+      choice: false
+      type: ''
+effects:
+  - name: Pushed
+    img: icons/skills/movement/arrow-upward-yellow.webp
+    origin: Item.ekwWi7h5Gyz1FipB
+    transfer: false
+    _id: hDhqJDGcc2lxHhos
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: '"@target.attributes.hp.value" > (20+(10*(@scaling.increase)))'
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - turnEnd
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!ekwWi7h5Gyz1FipB.hDhqJDGcc2lxHhos'
+  - name: Slowed
+    img: icons/skills/movement/arrow-down-pink.webp
+    origin: Item.ekwWi7h5Gyz1FipB
+    transfer: false
+    _id: FAd6QeosdmPFj4ga
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.all
+        mode: 0
+        value: '-10'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - turnEnd
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!ekwWi7h5Gyz1FipB.FAd6QeosdmPFj4ga'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!ekwWi7h5Gyz1FipB'

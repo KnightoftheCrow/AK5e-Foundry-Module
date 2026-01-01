@@ -1,0 +1,248 @@
+folder: 8lDfV52AZG84jtdD
+name: Altar of Ending
+type: spell
+img: icons/magic/unholy/silhouette-robe-evil-glow.webp
+system:
+  activities:
+    xmRXT2DHyHh95Uw8:
+      type: summon
+      _id: xmRXT2DHyHh95Uw8
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: AtPXHf9DltPDSMyI
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: ''
+        attackDamage: ''
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: false
+        proficiency: true
+        saves: true
+        ability: ''
+      profiles:
+        - count: '1'
+          name: ''
+          _id: ftROAZeYDuftxVtb
+          uuid: Compendium.ak5e.ak5e-bestiary.Actor.OTqNAPVLOMNq9DcK
+          level:
+            min: null
+            max: null
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      friendlySummon: true
+      name: Cast
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You create an Altar of Ending at a location within Range. The Altar of
+      Ending is an object with AC 10 and 50 Hit Points. It has Resistance to
+      Physical Damage, and is Immune to Psychic, Poison, and Necrotic Damage. A
+      minute after creating the Altar, it becomes active.</p><p>When it becomes
+      active, the Altar creates an Originium Storm; a 30-foot-radius sphere
+      centred on the Altar that goes around corners. Creatures who enter the
+      area during their Turn or begin their Turn within it must make a
+      Constitution Saving Throw, taking 10d8 Necrotic Damage on a failed Save,
+      or half as much on a successful Save.</p><p>At the beginning of your Turn,
+      the Storm flies 15 feet directly towards the nearest Creature that isn’t
+      you or Creatures you designated when casting the Art. The Storm can pass
+      through walls less than 2 feet thick during this movement.</p><p>The Storm
+      dissipates to nothing after the Duration of the Art has passed, or if the
+      Altar of Ending is destroyed.</p><p><strong>Partially Automated.
+      </strong>The radius of the storm can be moved, but the "Save for Creatures
+      in the Storm" Activity must be used for Creatures who enter or begin their
+      Turn within it.</p>
+    chat: ''
+  identifier: altar-of-ending
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: minute
+    condition: ''
+    value: 10
+  duration:
+    units: hour
+    value: '1'
+  level: 9
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - vocal
+    - somatic
+  range:
+    units: ft
+    special: ''
+    value: '10'
+  school: con
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: space
+      count: ''
+      special: ''
+effects:
+  - name: Activating...
+    img: icons/magic/time/clock-stopwatch-white-blue.webp
+    origin: Item.zBNNk8dKcdoGrWyl
+    transfer: false
+    _id: AtPXHf9DltPDSMyI
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 60
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: true
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!bmYsgYkSbU96lpFu.AtPXHf9DltPDSMyI'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: bmYsgYkSbU96lpFu
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!bmYsgYkSbU96lpFu'

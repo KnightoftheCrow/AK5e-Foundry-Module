@@ -1,0 +1,129 @@
+folder: gVZZrBjgP6U5oNBR
+name: Heavy Defender Armour
+type: equipment
+img: icons/equipment/chest/breastplate-cuirass-steel-grey.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Heavy duty even when compared to Defender Armour, this armour is worn
+      by soldiers who's role is to charge enemy positions, absorbing fire for
+      the rest of their allies.</p><p><strong>Damage Reduction: </strong>7
+      (Physical)</p>
+    chat: ''
+  identifier: heavy-defender-armour
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 60
+    units: lb
+  price:
+    value: 1100
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  armor:
+    value: 11
+    dex: 0
+  proficient: null
+  properties:
+    - stealthDisadvantage
+  strength: 16
+  type:
+    value: heavy
+    baseItem: heavydefenderarmour
+effects:
+  - name: Heavy Defender Armour DR
+    img: icons/equipment/chest/breastplate-cuirass-steel-grey.webp
+    origin: Item.4ozQC7K7i5szaG4Q
+    _id: lNkXhZS1fGI6Q8TS
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.bludgeoning
+        mode: 2
+        value: '-7'
+        priority: 20
+      - key: system.traits.dm.amount.slashing
+        mode: 2
+        value: '-7'
+        priority: 20
+      - key: system.traits.dm.amount.piercing
+        mode: 2
+        value: '-7'
+        priority: 20
+      - key: system.traits.dm.amount.thunder
+        mode: 2
+        value: '-7'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!6CF9wwRiN7htPJSZ.lNkXhZS1fGI6Q8TS'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1757006095109
+  modifiedTime: 1766936747987
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: 6CF9wwRiN7htPJSZ
+sort: 300000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!6CF9wwRiN7htPJSZ'

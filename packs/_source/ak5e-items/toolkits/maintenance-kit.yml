@@ -1,0 +1,374 @@
+folder: ZCpuCLRcXYiB8HKg
+name: Maintenance Kit
+type: tool
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  activities:
+    Ne67381eiA2R58Co:
+      type: enchant
+      _id: Ne67381eiA2R58Co
+      sort: 0
+      activation:
+        type: shortRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: false
+      effects:
+        - _id: 9iHlDO7bffkouyQF
+          level: {}
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: VgEEOOKD5rQ8QCBK
+          level: {}
+          riders:
+            activity: []
+            effect: []
+            item: []
+        - _id: oEAiVeWIbOx6B87j
+          level: {}
+          riders:
+            activity: []
+            effect: []
+            item: []
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+        identifier: ''
+      restrictions:
+        allowMagical: true
+        categories:
+          - lightM
+          - heavyM
+          - specialM
+          - lightR
+          - heavyR
+          - specialR
+        properties: []
+        type: weapon
+      name: Maintain Weapon  (1 Charge)
+    8np9hW5rXQuM6sWT:
+      type: utility
+      _id: 8np9hW5rXQuM6sWT
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creatureOrObject
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      name: Repair Weapon/Armour (2 Charges)
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: '10'
+  description:
+    value: >-
+      <p>As any soldier or engineer will tell you, if you fail to take care of
+      your tools, they will fail to take care of you. The maintenance kit
+      contains all of the necessary equipment to perform rudimentary metalwork
+      away from a dedicated workshop; you won’t make anything new, but you can
+      keep what you have in good condition.</p><p><strong>Starting
+      Charges:</strong> 10</p><h3>Uses:</h3><p><strong>Maintain Weapon (1
+      Charge) (Automated):</strong> As a Short Rest Activity, you can choose a
+      weapon to work on and maintain it back to its peak performance. That
+      weapon gains one of the following benefits (your choice):</p><ul><li><p>+1
+      to Attack Rolls using that weapon</p></li><li><p>+1 to Damage Rolls with
+      that weapon</p></li><li><p>The value of the Range Property is increased by
+      50%.</p></li></ul><p>A Weapon can only have one of these benefits at a
+      time, and loses these benefits at the end of any fight in which they were
+      used to make an Attack.</p><p><strong>Repair Weapon/Armour (2
+      Charge):</strong> As a Long Rest Activity, you can repair a damaged
+      Weapon, Medium Armour, or Heavy Armour. To do so, you must succeed on a
+      DC13 Strength Check; if you are Proficient in this Kit, you may add your
+      Proficiency Bonus to this Roll. Any item that has been repaired has its
+      value reduced to half (rounding up) of its original value.</p><p>On a
+      failure, nothing happens, but the charge and time are
+      consumed.</p><h3>Proficient Uses:</h3><p><strong>Material
+      Analysis</strong>: Your knowledge of weapons and armour gives you special
+      insight into what events lead to what effects on the metal. If you take a
+      minute to examine a weapon or piece of medium/heavy armour, you gain a +5
+      Bonus to Checks to learn about its recent history and provenance, such as
+      how often it has been used, what caused particular marks or damage to it,
+      or where it was likely made.</p><p><strong>Mobile Workshop:</strong> When
+      you use the Repair Weapon/Armour or Maintain Weapon options of this
+      Toolkit, you can instead target a number of things equal to your Strength
+      Modifier (unless it is negative) + your Proficiency Bonus, as opposed to
+      just one.</p>
+    chat: ''
+  identifier: maintenance-kit
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 250
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: art
+    baseItem: ''
+  ability: str
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+effects:
+  - type: enchantment
+    name: Rebalanced (Maintenance Kit)
+    img: icons/containers/bags/case-leather-tan.webp
+    disabled: true
+    _id: 9iHlDO7bffkouyQF
+    system: {}
+    changes:
+      - key: activities[attack].attack.bonus
+        mode: 5
+        value: '+1'
+        priority: 50
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        specialDuration:
+          - longRest
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+      modifiedTime: 1756570960331
+    _key: '!items.effects!LL42rU6BBic45HZv.9iHlDO7bffkouyQF'
+  - type: enchantment
+    name: Sharpened (Maintenance Kit)
+    img: icons/containers/bags/case-leather-tan.webp
+    disabled: true
+    _id: VgEEOOKD5rQ8QCBK
+    system: {}
+    changes:
+      - key: system.damage.bonus
+        mode: 2
+        value: '2'
+        priority: 20
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        specialDuration:
+          - longRest
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+      modifiedTime: 1756570968108
+    _key: '!items.effects!LL42rU6BBic45HZv.VgEEOOKD5rQ8QCBK'
+  - type: enchantment
+    name: Recalibrated (Maintenance Kit)
+    img: icons/containers/bags/case-leather-tan.webp
+    disabled: true
+    _id: oEAiVeWIbOx6B87j
+    system: {}
+    changes:
+      - key: system.range.value
+        mode: 1
+        value: '1.5'
+        priority: 10
+      - key: system.range.long
+        mode: 1
+        value: '1.5'
+        priority: 10
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        specialDuration:
+          - longRest
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+      modifiedTime: 1756570976326
+    _key: '!items.effects!LL42rU6BBic45HZv.oEAiVeWIbOx6B87j'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1756485616945
+  modifiedTime: 1766942008460
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: LL42rU6BBic45HZv
+sort: 500000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!LL42rU6BBic45HZv'

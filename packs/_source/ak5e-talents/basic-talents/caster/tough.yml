@@ -1,0 +1,110 @@
+folder: zWAk7cUjjJDFehud
+name: Tough
+type: feat
+_id: XoinPMCyjVsTYV7L
+img: icons/skills/social/intimidation-impressing.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your Hit Point Maximum increases by an amount equal to twice your
+      Character Level. When you gain a Character Level thereafter, your Hit
+      Point Maximum increases by an additional 2 points.</p><p><strong>Module
+      Effect: </strong>Whenever you expend a Hit Dice to restore your Hit
+      Points, you recover additional Hit Points equal to your Proficiency
+      Bonus.</p><p><strong>Partially Automated: </strong>The Additionally HP per
+      level is automated; the additional healing when spending Hit Dice is
+      not.</p>
+    chat: ''
+  identifier: tough
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Tough
+    img: icons/skills/social/intimidation-impressing.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.XoinPMCyjVsTYV7L
+    _id: gpJ6219N8XDDFHJg
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.hp.bonuses.level
+        mode: 2
+        value: '2'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1759253910537
+      modifiedTime: 1759425085783
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!XoinPMCyjVsTYV7L.gpJ6219N8XDDFHJg'
+sort: 362500
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759253847401
+  modifiedTime: 1759425117903
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!XoinPMCyjVsTYV7L'

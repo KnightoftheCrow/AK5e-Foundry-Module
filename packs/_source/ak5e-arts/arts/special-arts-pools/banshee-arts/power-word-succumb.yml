@@ -1,0 +1,215 @@
+folder: haPWBXVerFGoe54Z
+name: Power Word Succumb
+type: spell
+_id: LG72kQqgLtd09aQn
+img: icons/magic/death/skull-energy-light-white.webp
+system:
+  activities:
+    uMFOjzaWMxtxOlej:
+      type: damage
+      _id: uMFOjzaWMxtxOlej
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '20'
+            number: null
+            denomination: null
+            bonus: ''
+            types:
+              - psychic
+            scaling:
+              mode: whole
+              number: 1
+              formula: '10'
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: Cast
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: true
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: Cast
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Malicious, predatory whispers seep from you like poison fog in a
+      30-foot-radius sphere. All other Creatures within the area with 20 or
+      fewer Hit Points take 20 Psychic Damage.</p><p><strong>At Higher
+      Levels:</strong> The Hit Point threshold and Psychic Damage both increase
+      by 10 for each Level above 5 this Art is cast
+      at.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: power-word-succumb
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: inst
+  level: 5
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  properties:
+    - vocal
+  range:
+    units: self
+    special: ''
+  school: enc
+  target:
+    template:
+      contiguous: false
+      units: ft
+      count: ''
+      type: radius
+      size: '30'
+    affects:
+      choice: false
+      count: ''
+      type: ''
+      special: '-self'
+  sourceClass: cleric
+  prepared: 2
+  ability: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    last:
+      uMFOjzaWMxtxOlej:
+        damageType:
+          '0': psychic
+  ak5e:
+    trackingBar: false
+    barFirstColor: '#4361ee'
+    barSecondColor: '#4cc9f0'
+  dae:
+    macro:
+      name: Power Word Succumb
+      img: icons/magic/death/skull-energy-light-white.webp
+      type: script
+      scope: global
+      command: >-
+        const scaling = workflow.castData.castLevel -
+        workflow.castData.baseLevel;
+
+        canvas.tokens.setTargets(Array.from(game.user.targets).filter(token =>
+        token.actor.system.attributes.hp.value <= (20 + 10 * scaling) && token
+        !== workflow.token).map(token=>token.id), {mode: 'replace'});
+      author: 9KtVYqHDTWORuJDZ
+      ownership:
+        default: 3
+      _id: null
+      folder: null
+      sort: 0
+      flags: {}
+      _stats:
+        coreVersion: '13.347'
+        systemId: dnd5e
+        systemVersion: 5.1.2
+        lastModifiedBy: null
+        compendiumSource: null
+        duplicateSource: null
+        exportSource: null
+  midi-qol:
+    onUseMacroName: '[postPreambleComplete]ItemMacro'
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!LG72kQqgLtd09aQn'

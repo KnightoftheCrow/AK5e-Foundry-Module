@@ -1,0 +1,341 @@
+name: Conditions
+_id: yrw3CUXpJvV19NKU
+pages:
+  - sort: 900000
+    name: Bleeding
+    type: rule
+    _id: CwF1796PusuYK4aS
+    system:
+      tooltip: >-
+        <p>A Bleeding Creature loses [[/roll 2d6]] Hit Points at the beginning
+        of their Turn. This Condition is removed if the Creature recovers any
+        missing Hit Points. It can also be removed by a Creature within 5 feet
+        succeeding on a [[/check med 12]] as an Action. Only living Creatures
+        can Bleed.</p>
+      type: condition
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>A Bleeding Creature loses [[/roll 2d6]] Hit Points at the beginning
+        of their Turn. This Condition is removed if the Creature recovers any
+        missing Hit Points. It can also be removed by a Creature within 5 feet
+        succeeding on a [[/check med 12]] as an Action. Only living Creatures
+        can Bleed.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756641216323
+      modifiedTime: 1756641241943
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!journal.pages!yrw3CUXpJvV19NKU.CwF1796PusuYK4aS'
+  - sort: 1000000
+    name: Burning
+    type: rule
+    _id: QvfVcC6EfK8BcV1u
+    system:
+      tooltip: >-
+        <p>A Burning Creature takes [[/damage "2d8" "fire"]] Damage at the
+        beginning of their Turn. A Creature can remove this Condition as an
+        Action while they have the Prone Condition. Other ways of removing the
+        Condition (such as submerging in water) are allowed at DM
+        discretion.</p>
+      type: condition
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>A Burning Creature takes [[/damage "2d8" "fire"]] Damage at the
+        beginning of their Turn. A Creature can remove this Condition as an
+        Action while they have the Prone Condition. Other ways of removing the
+        Condition (such as submerging in water) are allowed at DM
+        discretion.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756641252051
+      modifiedTime: 1756641263399
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!journal.pages!yrw3CUXpJvV19NKU.QvfVcC6EfK8BcV1u'
+  - sort: 1100000
+    name: Corroded
+    type: rule
+    _id: jx1bNgvD67Kbm5i9
+    system:
+      tooltip: >-
+        <p>Any DR a Corroded Creature has is halved (rounding down). In
+        addition, their AC is reduced by 2.</p><p></p>
+      type: condition
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Any DR a Corroded Creature has is halved (rounding down). In
+        addition, their AC is reduced by 2.</p><p></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756641281149
+      modifiedTime: 1756641292622
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!journal.pages!yrw3CUXpJvV19NKU.jx1bNgvD67Kbm5i9'
+  - sort: 1200000
+    name: Dazed
+    type: rule
+    _id: I9d3BTGGvqQ1NK6z
+    system:
+      tooltip: >-
+        <p>A Dazed Creature subtracts [[/roll 1d4]] from its Attack Rolls and
+        Saving Throws.</p>
+      type: condition
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>A Dazed Creature subtracts [[/roll 1d4]] from its Attack Rolls and
+        Saving Throws.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756641312286
+      modifiedTime: 1756641317535
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!journal.pages!yrw3CUXpJvV19NKU.I9d3BTGGvqQ1NK6z'
+  - sort: 1300000
+    name: Frozen
+    type: rule
+    _id: yW3n8jEY8GZqvt8A
+    system:
+      tooltip: >-
+        <p>A Frozen Creature has its Movement Speed reduced by 20 ft.
+        Additionally, it has Disadvantage on any Dexterity Saving Throws.</p>
+      type: condition
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>A Frozen Creature has its Movement Speed reduced by 20 ft.
+        Additionally, it has Disadvantage on any Dexterity Saving Throws.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756641332485
+      modifiedTime: 1756641337149
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!journal.pages!yrw3CUXpJvV19NKU.yW3n8jEY8GZqvt8A'
+  - sort: 1400000
+    name: Necrotised
+    type: rule
+    _id: VpoEdERvRcEK7jiW
+    system:
+      tooltip: >-
+        <p>A Necrotised Creature suffers a -3 to all Damage Rolls it makes.
+        Additionally, when they cause another Creature to make a Saving Throw,
+        the DC of that Saving Throw is reduced by 3.</p>
+      type: condition
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>A Necrotised Creature suffers a -3 to all Damage Rolls it makes.
+        Additionally, when they cause another Creature to make a Saving Throw,
+        the DC of that Saving Throw is reduced by 3.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756641359717
+      modifiedTime: 1756641365021
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!journal.pages!yrw3CUXpJvV19NKU.VpoEdERvRcEK7jiW'
+  - sort: 1500000
+    name: Nervous Impairment
+    type: rule
+    _id: ydKqJFnponQGLdWq
+    system:
+      tooltip: >-
+        <p>A Creature with Nervous Impairment can either Move or take an Action
+        on each of its Turns. Additionally, whenever it is hit by an Attack, it
+        loses 3 Hit Points.</p>
+      type: condition
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>A Creature with Nervous Impairment can either Move or take an Action
+        on each of its Turns. Additionally, whenever it is hit by an Attack, it
+        loses 3 Hit Points.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756641383017
+      modifiedTime: 1756641387733
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!journal.pages!yrw3CUXpJvV19NKU.ydKqJFnponQGLdWq'
+  - sort: 1600000
+    name: Silenced
+    type: rule
+    _id: oda5UOSUJg7n9DQL
+    system:
+      tooltip: >-
+        <p>A Creature that is Silenced cannot cast any Arts, or use any Ability
+        that is noted as being an Art.</p>
+      type: condition
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>A Creature that is Silenced cannot cast any Arts, or use any Ability
+        that is noted as being an Art.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      9KtVYqHDTWORuJDZ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756641405993
+      modifiedTime: 1756641411235
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!journal.pages!yrw3CUXpJvV19NKU.oda5UOSUJg7n9DQL'
+folder: null
+categories: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1756631000649
+  modifiedTime: 1756631000649
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!journal!yrw3CUXpJvV19NKU'

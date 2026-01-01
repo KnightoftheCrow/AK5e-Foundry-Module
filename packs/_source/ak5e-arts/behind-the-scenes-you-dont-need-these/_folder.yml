@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Behind the Scenes (You don't need these)
+color: null
+sorting: a
+_id: s2mwcbxx5qTz0iEd
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1757171950941
+  modifiedTime: 1757171950941
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!folders!s2mwcbxx5qTz0iEd'

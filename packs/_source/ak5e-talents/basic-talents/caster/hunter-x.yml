@@ -1,0 +1,112 @@
+folder: zWAk7cUjjJDFehud
+name: Hunter (X)
+type: feat
+img: icons/skills/targeting/crosshair-scope-sniper-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: npPfQOtj6DoYrx74
+      configuration:
+        allowDrops: false
+        choices:
+          '4':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.BA71iNiWfQVQnKJ4
+          - uuid: Compendium.ak5e.ak5e-talents.Item.bCLCgO8D2BV1Og8A
+          - uuid: Compendium.ak5e.ak5e-talents.Item.cRHfejiPp2cPjsc6
+          - uuid: Compendium.ak5e.ak5e-talents.Item.HFeJnzK8pcXvFipn
+          - uuid: Compendium.ak5e.ak5e-talents.Item.yud8dIW9weBz31Gm
+          - uuid: Compendium.ak5e.ak5e-talents.Item.yGwYw9t1Io70d2yX
+          - uuid: Compendium.ak5e.ak5e-talents.Item.HUO4DTRElAAiwn08
+          - uuid: Compendium.ak5e.ak5e-talents.Item.fjqO5Oir0LZzQl9x
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: Hunter Specialisation
+      hint: Choose your preferred prey!
+    - type: ItemChoice
+      _id: 59mIAMjYGEi4qdeK
+      configuration:
+        allowDrops: true
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.NIDdZeNyBImRP8UM
+          - uuid: Compendium.ak5e.ak5e-talents.Item.8XcjbsPZKIn8FPea
+          - uuid: Compendium.ak5e.ak5e-talents.Item.cLv8sHySxW0DjUCh
+          - uuid: Compendium.ak5e.ak5e-talents.Item.yZqWktPuuUHEa3Pz
+          - uuid: Compendium.ak5e.ak5e-talents.Item.RE3mTIYFy60wYGFn
+          - uuid: Compendium.ak5e.ak5e-talents.Item.jqXGNfX4ve80VoW3
+          - uuid: Compendium.ak5e.ak5e-talents.Item.ecH53MuNb1jhQyNG
+          - uuid: Compendium.ak5e.ak5e-talents.Item.Proh9tdBrtmZf9uT
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock this talent's module effect, or take another basic
+        talent?
+  description:
+    value: >-
+      <p>Choose one from: Aberration, Beast, Celestials, Construct, Fiends,
+      Monstrosity, Plants, Undead. Your Attacks against Creatures with that
+      Creature Type deal additional Damage equal to your Proficiency
+      Bonus.</p><p><strong>Module Effect: </strong>You gain a Bonus to Attack
+      Rolls against Creatures with that Creature Type equal to your Proficiency
+      Bonus.</p>
+    chat: ''
+  identifier: new-item
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1758996964150
+  modifiedTime: 1759662164839
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: J7Y57chWODJybvB1
+sort: 350000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!J7Y57chWODJybvB1'

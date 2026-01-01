@@ -1,0 +1,246 @@
+folder: rig7EWOgAgWj5uqh
+name: Fimbulvetr (Needs Action Save)
+type: spell
+_id: my1iUUvZfFKXVYI8
+img: icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp
+system:
+  activities:
+    6e9bMR9moXARWWzw:
+      type: save
+      _id: 6e9bMR9moXARWWzw
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: YwHPXLeHHV3RMVv8
+          onSave: false
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '50'
+          count: ''
+        affects:
+          choice: true
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: half
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 10
+            denomination: 8
+            bonus: ''
+            types:
+              - cold
+            scaling:
+              mode: ''
+              number: 1
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: true
+        magicDamage: true
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      friendlySave: default
+      name: Cast
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You attempt to snap freeze the area surrounding you. All other
+      Creatures within a 50-foot-radius sphere centred on you must make a
+      Constitution Saving Throw. On a failed Save, they take 10d8 Cold Damage,
+      and gain the Frozen Condition. A Creature can reattempt this Saving Throw
+      as an Action during their Turn, ending the effect on a success.</p><p>On a
+      successful Save, they take half as much Damage, and are Frozen until the
+      end of their next Turn.</p><p>When you cast this Art, you can designate a
+      number of Creatures equal to your Spellcasting Ability Modifier + your
+      Proficiency Bonus to be unaffected by the
+      Art.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: fimbulvetr
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: inst
+  level: 8
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - vocal
+    - somatic
+  range:
+    units: self
+    special: ''
+  school: evo
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: radius
+      size: '50'
+      count: ''
+    affects:
+      choice: true
+      type: creature
+      count: ''
+      special: '-self'
+effects:
+  - name: Frozen
+    img: icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp
+    origin: Item.my1iUUvZfFKXVYI8
+    transfer: false
+    _id: YwHPXLeHHV3RMVv8
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - frozen
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!my1iUUvZfFKXVYI8.YwHPXLeHHV3RMVv8'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!my1iUUvZfFKXVYI8'

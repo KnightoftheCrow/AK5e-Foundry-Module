@@ -1,0 +1,129 @@
+folder: gVZZrBjgP6U5oNBR
+name: Metal Armour
+type: equipment
+img: icons/equipment/chest/breastplate-collared-steel.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Heavy plated metal armour; relatively cheap to assemble when compared
+      to modern heavy armour, and and lacking the craftsmanship of older
+      examples, this will turn blades but not heads.</p><p><strong>Damage
+      Reduction: </strong>3 (Physical)</p>
+    chat: ''
+  identifier: metal-armour
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 40
+    units: lb
+  price:
+    value: 200
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  armor:
+    value: 11
+    dex: 0
+  proficient: null
+  properties:
+    - stealthDisadvantage
+  strength: 12
+  type:
+    value: heavy
+    baseItem: metalarmour
+effects:
+  - name: Metal Armour DR
+    img: icons/equipment/chest/breastplate-collared-steel.webp
+    origin: Item.wYHb1r6L2FurKCL9
+    _id: lNkXhZS1fGI6Q8TS
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.bludgeoning
+        mode: 2
+        value: '-3'
+        priority: 20
+      - key: system.traits.dm.amount.slashing
+        mode: 2
+        value: '-3'
+        priority: 20
+      - key: system.traits.dm.amount.piercing
+        mode: 2
+        value: '-3'
+        priority: 20
+      - key: system.traits.dm.amount.thunder
+        mode: 2
+        value: '-3'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!0mz0nMJ4vg2A4a2y.lNkXhZS1fGI6Q8TS'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1757006089645
+  modifiedTime: 1766936733043
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: 0mz0nMJ4vg2A4a2y
+sort: 100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!0mz0nMJ4vg2A4a2y'

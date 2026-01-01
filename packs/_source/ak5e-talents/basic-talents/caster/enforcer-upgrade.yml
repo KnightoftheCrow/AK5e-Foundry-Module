@@ -1,0 +1,116 @@
+folder: zWAk7cUjjJDFehud
+name: Enforcer (Upgrade)
+type: feat
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module Effect: </strong>If one of your Arts reduces a Creature
+      to Hit Points equal to or less than your Character Level, they die.</p>
+    chat: ''
+  identifier: enforcer-upgrade
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Enforcer (Upgrade)
+    img: icons/magic/sonic/scream-wail-shout-teal.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.bgy7gNB8LAuSen9y
+    _id: Xu2p3EpPj4X3ZUA6
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.optional.Enforcer.damage.all
+        mode: 0
+        value: '999'
+        priority: 20
+      - key: flags.midi-qol.optional.Enforcer.count
+        mode: 5
+        value: every
+        priority: 20
+      - key: flags.midi-qol.optional.Enforcer.label
+        mode: 5
+        value: Enforcer Execution
+        priority: 20
+      - key: flags.midi-qol.optional.Enforcer.force
+        mode: 5
+        value: >-
+          target.attributes.hp.value <= @details.level && item.itemType ==
+          'spell'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: 678
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: 80
+      startTurn: 0
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+      modifiedTime: 1759439758216
+    _key: '!items.effects!bgy7gNB8LAuSen9y.Xu2p3EpPj4X3ZUA6'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759439622569
+  modifiedTime: 1759662155938
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: bgy7gNB8LAuSen9y
+sort: 391798
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!bgy7gNB8LAuSen9y'

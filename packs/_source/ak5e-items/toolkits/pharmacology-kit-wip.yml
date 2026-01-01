@@ -1,0 +1,453 @@
+folder: ZCpuCLRcXYiB8HKg
+name: Pharmacology Kit (WIP)
+type: tool
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  activities:
+    0hijz6z8Dg6mscsp:
+      type: utility
+      _id: 0hijz6z8Dg6mscsp
+      sort: 0
+      activation:
+        type: minute
+        override: false
+        condition: ''
+        value: 10
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Drug Testing (1 Charge)
+      img: ''
+      appliedEffects: []
+    MYFZe4d4Qq9iPylh:
+      type: utility
+      _id: MYFZe4d4Qq9iPylh
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: willing
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      name: Pharmacological Intervention (1 Charge)
+      img: ''
+      appliedEffects: []
+    K1cb5drZ1KzFUX2B:
+      type: utility
+      _id: K1cb5drZ1KzFUX2B
+      sort: 0
+      activation:
+        type: shortRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      name: Monitor Oripathy
+      img: ''
+      appliedEffects: []
+    t9sr0QhcLIyDAgF0:
+      type: utility
+      _id: t9sr0QhcLIyDAgF0
+      sort: 0
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      name: Toxicology (2 Charges)
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: '10'
+  description:
+    value: >-
+      <p>Medicine and Pharmacology are separate disciplines, but are often
+      considered in the same breath. While a physician can close a wound or set
+      a bone, the pharmacist can ease the pain, reduce the likelihood of
+      opportunistic infections, cure the diseased, and treat the afflicted. The
+      Pharmacology Kit contains a number of medications, as well as equipment
+      for analysing the contents of bodily fluids such as blood. The darker side
+      of Pharmacology, however, is that every drug has a lethal dose; those
+      capable of producing drugs to heal could also produce them to harm, if
+      they wish.</p><p><strong>Starting Charges:</strong>
+      10</p><h3>Uses:</h3><p><strong>Drug Testing (1 Charge):</strong> Using the
+      simple tools provided in the toolkit, over the course of ten minutes you
+      can perform rudimentary checks on the blood of a creature to ascertain the
+      presence of drugs or toxins.</p><p><strong>Pharmacological Intervention (1
+      Charge):</strong> As a Bonus Action, you may give a willing Creature you
+      can touch of you one of the following
+      medications:</p><ul><li><p>Painkiller</p></li><li><p>Antibiotics</p></li><li><p>Antivirals</p></li><li><p>Antidote</p></li></ul><p>Consuming
+      a medication requires a Bonus Action. If the Creature is Incapacitated,
+      you may administer it to them as part of the original Bonus
+      Action.</p><blockquote><p><span
+      style="text-decoration:underline"><strong><span
+      style="text-decoration:underline">Information on the
+      Medications</span></strong></span></p><p><strong>Painkillers:</strong>
+      Provides a Creature missing any Hit Points with 2 DR against all Damage
+      and a +2 bonus to Death Saving Throws for an
+      hour.</p><p><strong>Antibiotics:</strong> Helps cure bacterial infections
+      in that Creature. Requires an extended course to cure them completely, but
+      will alleviate the condition.</p><p><strong>Antivirals:</strong> Helps
+      cure viral infections in that Creature. Requires an extended course to
+      cure them completely, but will alleviate the
+      condition.</p><p><strong>Antidote:</strong> Ends the Poisoned Condition or
+      the effects of a Toxin on that Creature.</p></blockquote><h3>Proficient
+      Uses:</h3><p><strong>Monitor Oripathy:</strong> Over the course of a Short
+      Rest, you can conduct tests on a willing Creature to measure blood markers
+      that are associated with Oripathy progression. Through this, you can
+      determine the relative progression of the condition compared to its last
+      measurement.</p><p><strong>Toxicology (2 Charges):</strong> As a Long Rest
+      Activity, you can attempt to create a dose of Toxin. To do so, you must
+      make a DC13 Intelligence Check; if you are Proficient in this Kit, you may
+      add your Proficiency Bonus to this roll. On a success, you create a dose
+      of the intended Toxin. On a failure, no Toxin is created, and the Charges
+      are wasted. The four toxins you can produce
+      are:</p><ul><li><p>Cytotoxin</p></li><li><p>Neurotoxin</p></li><li><p>Necrotoxin</p></li><li><p>Haemotoxin</p></li></ul><p>See
+      Adventuring Equipment for information on the effects of the
+      Toxins.</p><blockquote><p><span
+      style="text-decoration:underline"><strong><span
+      style="text-decoration:underline">Monitoring, not
+      Diagnostic</span></strong></span></p><p>This Toolkit is only capable of
+      monitoring the progression of Oripathy, and even then only in relative
+      terms; a patient with a lower Blood-Originium Crystal Density (measured in
+      Units per Litre) may be a more life-threatening case than one with a
+      greater density. It is absolutely not a diagnostic method, which requires
+      far more advanced methods than can be achieved in the field, such as
+      radiography and tissue biopsies.</p><p>Any patient with a condition severe
+      enough to be theoretically confirmed by this kit will almost certainly
+      have other severe symptoms, such as partial crystallisation, that would be
+      a more conclusive way of determining an Oripathy
+      diagnosis.</p></blockquote>
+    chat: ''
+  identifier: pharmacology-kit
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 250
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: art
+    baseItem: pharmacology
+  ability: ''
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1756485625877
+  modifiedTime: 1766942334680
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: YWNh0sRApVhTseeC
+sort: 356250
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!YWNh0sRApVhTseeC'

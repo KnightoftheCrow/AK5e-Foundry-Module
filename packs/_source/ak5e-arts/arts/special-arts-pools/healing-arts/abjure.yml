@@ -1,0 +1,180 @@
+folder: ZN4KzJhlR7XtRgqz
+name: Abjure
+type: spell
+_id: GU9ds85obdqS09Og
+img: icons/magic/defensive/barrier-shield-dome-deflect-blue.webp
+system:
+  activities:
+    nR93cLNCeYq6Ul3B:
+      type: heal
+      _id: nR93cLNCeYq6Ul3B
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: spec
+        concentration: false
+        override: true
+        value: '1'
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        types:
+          - temphp
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+          mode: whole
+          formula: ''
+        number: 1
+        denomination: 4
+        bonus: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: Cast
+      img: ''
+      visibility:
+        level:
+          min: null
+          max: null
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You temporarily bolster a Creature against harm. The Creature who
+      triggered this Reaction gains 1d4 Temporary Hit Points before they take
+      Damage. Any remaining Temporary Hit Points are lost after the Damage is
+      taken.</p><p><strong>Cantrip Upgrade:</strong> The Temporary Hit Points
+      granted increases by 1d4 when you reach level 5 (2d4), 11 (3d4), and 17
+      (4d4).</p><p><strong>Not Automated: </strong>Reaction does not trigger
+      when other Creatures are attacked, and Temporary Hit Points are not
+      removed after the Attack.</p>
+    chat: ''
+  identifier: abjure
+  source:
+    revision: 1
+    rules: '2014'
+    book: AK5e
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: reaction
+    condition: When a willing Creature within 15 feet of yourself would take Damage
+  duration:
+    units: spec
+    value: '1'
+    special: ''
+  level: 0
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - vocal
+    - somatic
+  range:
+    units: ft
+    special: ''
+    value: '15'
+  school: abj
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: willing
+      count: '1'
+      special: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1758563363515
+  modifiedTime: 1766943500893
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!GU9ds85obdqS09Og'

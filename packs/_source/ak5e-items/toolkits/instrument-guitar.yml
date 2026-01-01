@@ -1,0 +1,215 @@
+folder: ZCpuCLRcXYiB8HKg
+name: Instrument (Guitar)
+type: tool
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  activities:
+    8d5nqmLY5Dh5PdfH:
+      _id: 8d5nqmLY5Dh5PdfH
+      type: check
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated:
+          - prf
+        dc:
+          calculation: ''
+          formula: '13'
+        ability: ''
+      name: Play a Known Tune
+    vSVuGILo2E0BILf6:
+      type: check
+      _id: vSVuGILo2E0BILf6
+      sort: 0
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated:
+          - prf
+        dc:
+          calculation: ''
+          formula: '15'
+        ability: ''
+      name: Compose a Tune
+    FxIrx39GmCAgGAZ6:
+      type: check
+      _id: FxIrx39GmCAgGAZ6
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated:
+          - prf
+        dc:
+          calculation: ''
+          formula: '17'
+        ability: ''
+      name: Improvise a Tune
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>On earth, musical instruments have existed in some form for as long as
+      40,000 years. Music is a form of self-expression that is like nothing
+      else, touching the hearts of everyone, from newborn babes to the most
+      hardened soldiers.</p><p><strong>Starting Charges:</strong>
+      -</p><h3>Uses:</h3><p><strong>Play a known Tune:</strong> By succeeding on
+      a DC12 Performance Check, you can play an already existing song or
+      tune.</p><h3>Proficient Uses:</h3><p><strong>Compose a Tune:</strong> Over
+      the course of a Long Rest, you can compose new music by succeeding on a
+      DC15 Performance Check.</p><p><strong>Improvise a Tune:</strong> By
+      succeeding on a DC17 Performance Check, you can improvise a new song or
+      tune as you play it.</p>
+    chat: ''
+  identifier: instrument-guitar
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 250
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: music
+    baseItem: instrumentguitar
+  ability: cha
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1756486306441
+  modifiedTime: 1756486988566
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: Hs0mF5dzKXUqdAdP
+sort: 356055
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!Hs0mF5dzKXUqdAdP'

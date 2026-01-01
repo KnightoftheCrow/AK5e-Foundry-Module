@@ -1,0 +1,408 @@
+folder: ZCpuCLRcXYiB8HKg
+name: Medical Kit
+type: tool
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  activities:
+    BGoniF7t9IcBtLDq:
+      type: utility
+      _id: BGoniF7t9IcBtLDq
+      sort: 0
+      activation:
+        type: shortRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '@abilities.int.mod'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Aftercare (1 Charges)
+      img: ''
+      appliedEffects: []
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+    wH1RMkd1843Sscz2:
+      type: utility
+      _id: wH1RMkd1843Sscz2
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: willing
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: First Aid (1 Charge)
+      img: ''
+      appliedEffects: []
+    FODux93kExBPqHXe:
+      type: utility
+      _id: FODux93kExBPqHXe
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: turn
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: AR6GDjtEEkYjJmxx
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Paramedic (1 Charge)
+      img: ''
+      appliedEffects:
+        - AR6GDjtEEkYjJmxx
+    M6AjX7gxgMIOc5Sa:
+      type: utility
+      _id: M6AjX7gxgMIOc5Sa
+      sort: 0
+      activation:
+        type: minute
+        override: false
+        condition: ''
+        value: 1
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: afo7kdCd5F0Ti8tl
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Patient Assessment
+      img: ''
+      appliedEffects:
+        - afo7kdCd5F0Ti8tl
+  uses:
+    spent: 0
+    recovery: []
+    max: '10'
+  description:
+    value: >-
+      <p>Even during wartime, it is commonly accepted wisdom that medics are
+      permitted to save lives without fearing for their own. Medicine is
+      apolitical by nature, wielded by those willing to dedicate their own lives
+      for others. A Medical Kit contains a variety of tools to clean and treat
+      wounds, stem bleeding, secure broken bones, and whatever else is necessary
+      to preserve life in the field.</p><p><strong>Starting Charges:</strong>
+      10</p><h3>Uses:</h3><p><strong>Aftercare (1 Charges):</strong> As a Short
+      Rest Activity,, you can target a number of Creatures up your Intelligence
+      Modifier (minimum 1). The first time during that Rest those Creatures
+      expend a Hit Dice, they do not roll for Hit Points recovered, and instead
+      recover the maximum amount possible on their Hit Dice.</p><p><strong>First
+      Aid (1 Charge):</strong> As an Action, you can cause a willing Creature
+      you can touch to immediately expend and roll one of its Hit Dice,
+      recovering that many Hit Points. This is considered to be you restoring
+      Hit Points to them, for any feature that requires it.</p><h3>Proficient
+      Uses:</h3><p><strong>Paramedic (1 Charge) (Automated):</strong> When you
+      would make a Medicine Check to Triage a Dying Creature, you can use this
+      (no Action required) to grant yourself a +5 Modifier to that Check. This
+      effect is not cumulative.</p><p><strong>Patient Assessment
+      (Automated):</strong> The equipment you have, and your knowledge of how
+      best to use it, allows you to accurately monitor a patient’s state better
+      than a layman. If you spend a minute assessing them using this kit, you
+      gain Advantage on your next Medicine Check against
+      them.</p><p></p><p></p><p></p>
+    chat: ''
+  identifier: medical-kit
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 250
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: art
+    baseItem: medical
+  ability: ''
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+effects:
+  - name: +5 Medicine Bonus (Medical Kit)
+    img: icons/containers/bags/case-leather-tan.webp
+    origin: Compendium.ak5e.ak5e-items.Item.JAmRuAi1wbg4Zwdm
+    transfer: false
+    _id: AR6GDjtEEkYjJmxx
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.med.bonuses.check
+        mode: 2
+        value: '+5'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - isSkill.med
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756489655769
+      modifiedTime: 1756571479433
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!JAmRuAi1wbg4Zwdm.AR6GDjtEEkYjJmxx'
+  - name: Medicine Advantage (Patient Assessment)
+    img: icons/containers/bags/case-leather-tan.webp
+    origin: Compendium.ak5e.ak5e-items.Item.JAmRuAi1wbg4Zwdm
+    transfer: false
+    _id: afo7kdCd5F0Ti8tl
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.med.roll.mode
+        mode: 2
+        value: '1'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        specialDuration:
+          - isSkill.med
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756491078665
+      modifiedTime: 1756571529647
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!JAmRuAi1wbg4Zwdm.afo7kdCd5F0Ti8tl'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1756485623408
+  modifiedTime: 1766942263721
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: JAmRuAi1wbg4Zwdm
+sort: 375000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!JAmRuAi1wbg4Zwdm'

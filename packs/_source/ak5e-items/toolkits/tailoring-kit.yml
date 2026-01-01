@@ -1,0 +1,465 @@
+folder: ZCpuCLRcXYiB8HKg
+name: Tailoring Kit
+type: tool
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  activities:
+    8d5nqmLY5Dh5PdfH:
+      _id: 8d5nqmLY5Dh5PdfH
+      type: check
+      sort: 0
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '5'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: '1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated: []
+        dc:
+          calculation: ''
+          formula: '13'
+        ability: dex
+      name: Create Outfit (X Charges)
+      img: ''
+      appliedEffects: []
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+    y9cqrOhSjiQJbYUL:
+      type: check
+      _id: y9cqrOhSjiQJbYUL
+      sort: 0
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated: []
+        dc:
+          calculation: ''
+          formula: '13'
+        ability: dex
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      damage:
+        onSave: half
+        parts: []
+        critical:
+          allow: false
+      friendlySave: default
+      name: Stitch Together (1 Charge)
+      img: ''
+      appliedEffects: []
+    9r2Ad3YImmgxBzm0:
+      type: check
+      _id: 9r2Ad3YImmgxBzm0
+      sort: 0
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated: []
+        dc:
+          calculation: ''
+          formula: '13'
+        ability: dex
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      damage:
+        onSave: half
+        parts: []
+        critical:
+          allow: false
+      friendlySave: default
+      name: Best Fit Check (1 Charge)
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: '10'
+  description:
+    value: >-
+      <p>Throughout history, many armies have been defeated because they failed
+      to have adequate clothing for the weather. Every day, people become ill or
+      even perish as a result of exposure. And yet, many treat the ability to
+      tailor as a luxury, rather than the lifesaving, civilisation defining
+      skill it is. The Tailoring Kit contains all the tools needed to weave,
+      sow, and tailor in both textiles and leather, as well as a supply of those
+      materials.</p><p><strong>Starting Charges:</strong>
+      10</p><h3>Uses:</h3><p><strong>Create Outfit (X Charges) (Partially
+      Automated: Checks exists but results must be manual)</strong>: As a Long
+      Rest Activity, you can tailor together a piece of Clothing, Protective
+      Clothing, or a Reinforced Outfit. You must make a DC13 Dexterity Check (if
+      you are Proficient in this Kit, you may add your Proficiency Bonus to this
+      roll) and expend the required charges for the item:</p><p><strong>Stitch
+      Together (1 Charge) (Partially Automated: has Check):</strong> As a Long
+      Rest Activity, you can repair a damaged light armour or piece of clothing.
+      To do so, you must succeed on a DC13 Dexterity Check (If you are
+      Proficient in this Kit, you may add your Proficiency Bonus to this
+      Roll).</p><h3>Proficient Uses:</h3><p><strong>Best Fit (1 Charge)
+      (Partially Automated: Has Check but results must be manual):</strong> As a
+      skilled clothier, you can adjust a piece of Armour as a Long Rest
+      Activity. To do so, you must succeed on a DC13 Dexterity Check (If you are
+      Proficient in this Kit, you may add your Proficiency Bonus to this Roll).
+      On a success, you may apply one of the following adjustments of your
+      choice (each piece of Armour can only have one
+      adjustment):</p><ul><li><p>Remove Stealth
+      Disadvantage</p></li><li><p>Reduce Strength Requirement by
+      2.</p></li><li><p>-5lb Weight (-15lb for Heavy Armour)</p></li></ul><p>On
+      a failure, nothing happens, but the charge and time are
+      consumed.</p><p><strong>Tailor’s Tale:</strong> For the experienced
+      tailor, there is a story in every thread. Your experience with the kit and
+      its tools allows you to analyse a piece of Light Armour or clothing for 10
+      minutes; after doing so, you gain a +10 Modifier to Tests to determine
+      information about the recent history of the item and who wore it; what
+      species were they, what colour is their hair or fur, how often was it
+      worn?</p>
+    chat: ''
+  identifier: tailoring-kit
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 250
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: art
+    baseItem: tailoring
+  ability: ''
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+effects:
+  - type: enchantment
+    name: Tailored for Mobility
+    img: icons/containers/bags/case-leather-tan.webp
+    disabled: true
+    _id: iVemknebgaTcclom
+    system: {}
+    changes:
+      - key: system.armor.magicalBonus
+        mode: 2
+        value: '1'
+        priority: 20
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756581748064
+      modifiedTime: 1756581886811
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!yUbrNv1GkAtDTujE.iVemknebgaTcclom'
+  - type: enchantment
+    name: Tailored for Flexibility
+    img: icons/containers/bags/case-leather-tan.webp
+    disabled: true
+    _id: A2NQ16jDk4LRzH2j
+    system: {}
+    changes:
+      - key: ''
+        value: ''
+        mode: 2
+        priority: 20
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756581890782
+      modifiedTime: 1756581908850
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!yUbrNv1GkAtDTujE.A2NQ16jDk4LRzH2j'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1756485627962
+  modifiedTime: 1766942479004
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: yUbrNv1GkAtDTujE
+sort: 475000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!yUbrNv1GkAtDTujE'

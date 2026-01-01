@@ -1,0 +1,124 @@
+folder: zWAk7cUjjJDFehud
+name: Armoured Caster
+type: feat
+_id: GhuzM5iDwYxIysfL
+img: icons/equipment/chest/coat-collared-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: MHda9KrIOSDizPdr
+      configuration:
+        allowDrops: true
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.37KV9eRIu4TmpCSn
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock this talent's module effect, or take another basic
+        talent?
+  description:
+    value: >-
+      <p>You gain Proficiency with Light Armour.</p><p><strong>Module Effect:
+      </strong>While you are wearing Light Armour, you have a +1 Modifier to
+      Dexterity Saving Throws.</p>
+    chat: ''
+  identifier: new-item
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Armoured Caster
+    img: icons/equipment/chest/coat-collared-red.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.GhuzM5iDwYxIysfL
+    _id: LZyzIxLaS28gExpy
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.armorProf.value
+        mode: 2
+        value: lgt
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1759429605050
+      modifiedTime: 1759429639739
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!GhuzM5iDwYxIysfL.LZyzIxLaS28gExpy'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759429531882
+  modifiedTime: 1759662129367
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!GhuzM5iDwYxIysfL'

@@ -1,0 +1,129 @@
+folder: uUuSO7eU1CKxrhGI
+name: Hammer
+type: weapon
+_id: yRwC4x79xE5iUW7K
+img: icons/weapons/hammers/hammer-war-spiked.webp
+system:
+  activities:
+    AwIJyh4Ld2GqZCFD:
+      _id: AwIJyh4Ld2GqZCFD
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical: {}
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>[[/attack extended]], [[/damage
+      extended]]</p><p>@UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.UMNN0ltqsGgesRxQ]{Crush
+      (5)}</p>
+    chat: ''
+  identifier: hammer
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 3
+    units: lb
+  price:
+    value: 65
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 1
+      denomination: 8
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - crs
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: null
+    long: null
+  type:
+    value: lightM
+    baseItem: hammer
+  mastery: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1756313213075
+  modifiedTime: 1766936945208
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!yRwC4x79xE5iUW7K'

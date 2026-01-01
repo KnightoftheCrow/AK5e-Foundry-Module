@@ -1,0 +1,286 @@
+folder: DpDZIj86euV4F2rQ
+name: Fill Lungs (Needs Action Save)
+type: spell
+_id: SPHd0vvTHQCsBvEg
+img: icons/magic/water/water-elemental-blue-teeth.webp
+system:
+  activities:
+    LPb7bKsGgxzQkNuq:
+      type: save
+      _id: LPb7bKsGgxzQkNuq
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: KqTGYZw8NAHR4s06
+          onSave: false
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: half
+        critical:
+          allow: false
+        parts: []
+      save:
+        ability: []
+        dc:
+          calculation: spellcasting
+          formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: true
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      friendlySave: default
+      name: Cast
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You cause water to enter a Creature’s respiratory system in great
+      volumes. Choose a Creature you can see within range; that Creature must
+      make a Constitution Saving Throw. On a failed Save, they begin
+      Suffocating. Furthermore, their Movement Speed is halved, they have
+      Disadvantage on all Saving Throws (except Constitution), and Skill Checks.
+      They may attempt this Saving Throw again as an Action on each of their
+      Turns, ending the effect on a success.</p><p>On a successful Save, they
+      are instead Stunned until the end of their next Turn.</p><p>This Art has
+      no effect on Creatures that do not breathe.</p>
+    chat: ''
+  identifier: fill-lungs
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: minute
+    value: '1'
+  level: 9
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  range:
+    units: ft
+    value: '30'
+    special: ''
+  school: trs
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      count: ''
+      type: creature
+      special: ''
+  sourceClass: cleric
+  prepared: 0
+effects:
+  - name: Filled Lungs
+    img: icons/magic/water/water-elemental-blue-teeth.webp
+    origin: Item.C4aZaK1NOSXateMA
+    transfer: false
+    _id: KqTGYZw8NAHR4s06
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.OverTime
+        mode: 5
+        value: |-
+          turn=start,
+          saveMagic=true,
+          actionSave=dialog,
+          label=Filled Lungs,
+          saveDC=@attributes.spell.dc,
+          saveRemove=true,
+          saveAbility=con
+        priority: 20
+      - key: system.attributes.movement.all
+        mode: 0
+        value: /2
+        priority: 20
+      - key: flags.midi-qol.disadvantage.ability.save.str
+        mode: 2
+        value: '1'
+        priority: 20
+      - key: flags.midi-qol.disadvantage.ability.save.dex
+        mode: 2
+        value: '1'
+        priority: 20
+      - key: flags.midi-qol.disadvantage.ability.save.int
+        mode: 2
+        value: '1'
+        priority: 20
+      - key: flags.midi-qol.disadvantage.ability.save.wis
+        mode: 2
+        value: '1'
+        priority: 20
+      - key: flags.midi-qol.disadvantage.ability.save.cha
+        mode: 2
+        value: '1'
+        priority: 20
+      - key: system.abilities.str.check.roll.mode
+        mode: 2
+        value: '-1'
+        priority: 20
+      - key: system.abilities.dex.check.roll.mode
+        mode: 2
+        value: '-1'
+        priority: 20
+      - key: system.abilities.int.check.roll.mode
+        mode: 2
+        value: '-1'
+        priority: 20
+      - key: system.abilities.wis.check.roll.mode
+        mode: 2
+        value: '-1'
+        priority: 20
+      - key: system.abilities.cha.check.roll.mode
+        mode: 2
+        value: '-1'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - suffocation
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+        dependents:
+          - uuid: Actor.zvMPACiY7cfwzP3s.ActiveEffect.bPgjchw8rg0jwRJh
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: true
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!SPHd0vvTHQCsBvEg.KqTGYZw8NAHR4s06'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!SPHd0vvTHQCsBvEg'

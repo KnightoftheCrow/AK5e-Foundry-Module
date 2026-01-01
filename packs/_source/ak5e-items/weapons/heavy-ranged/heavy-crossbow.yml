@@ -1,0 +1,131 @@
+folder: r5YUnvOOo8oVml7x
+name: Heavy Crossbow
+type: weapon
+_id: 866oxgC2YP2qYU9g
+img: icons/weapons/crossbows/crossbow-purple.webp
+system:
+  activities:
+    340fhVlYwUt8jCSt:
+      _id: 340fhVlYwUt8jCSt
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical: {}
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>[[/attack extended]], [[/damage
+      extended]]</p><p>@UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.HyZrjHTNPBLZWBVW]{Deadly},
+      Loading, Two-Handed</p>
+    chat: ''
+  identifier: heavy-crossbow
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 600
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - piercing
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 10
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  properties:
+    - ded
+    - lod
+    - two
+  proficient: null
+  range:
+    reach: null
+    units: ft
+    value: 100
+    long: 400
+  type:
+    value: heavyR
+    baseItem: heavycrossbow
+  mastery: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1756317816747
+  modifiedTime: 1766937012284
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!866oxgC2YP2qYU9g'

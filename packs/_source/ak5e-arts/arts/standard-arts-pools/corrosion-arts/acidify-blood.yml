@@ -1,0 +1,417 @@
+folder: yTaKQVDmOoYrR2OC
+name: Acidify Blood
+type: spell
+_id: ETCKm8SOuCUJ3aRF
+img: icons/magic/acid/dissolve-vomit-green-brown.webp
+system:
+  activities:
+    4pp7AQQ8oWR9EtgW:
+      type: attack
+      _id: 4pp7AQQ8oWR9EtgW
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: V8R2cROoNps30qJV
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: spell
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: true
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      attackMode: ''
+      ammunition: ''
+      otherActivityUuid: ''
+      attackRollPerTarget: default
+      fumbleThreshold: 1
+      name: Cast
+    Ud85TiXoeFc9whFV:
+      type: save
+      _id: Ud85TiXoeFc9whFV
+      sort: 0
+      activation:
+        type: special
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects:
+        - _id: 5SdB0RC2eLK1lzYY
+          onSave: false
+      range:
+        units: any
+        override: true
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: half
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 8
+            bonus: ''
+            types:
+              - acid
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 8
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: never
+        forceDamageDialog: never
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: true
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: afflicted-save
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: true
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: true
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: true
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+        turnChoice: start
+      otherActivityId: none
+      otherActivityAsParentType: true
+      friendlySave: default
+      name: Afflicted Save
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Up close and personal, you adjust the pH of a Creature’s blood. Make a
+      Melee Spell Attack against a Creature; on a hit, that Creature is
+      afflicted while you maintain Concentration.</p><p>An afflicted Creature
+      makes a Constitution Saving Throw at the beginning of each of its Turns.
+      On a failed Save, it takes 3d8 Necrotic Damage + 3d8 Acid Damage, and is
+      Poisoned until the beginning of its next Turn. This Poisoned Condition
+      cannot be removed in other ways. On a successful Save, it takes half as
+      much damage, and is not Poisoned.</p><p><strong>At Higher Levels:</strong>
+      The Acid Damage dealt increases by 1d8 for each Level above 5 it is cast
+      at.</p><p></p>
+    chat: ''
+  identifier: acidify-blood
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: minute
+    value: '1'
+  level: 5
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  range:
+    units: touch
+    special: ''
+  school: trs
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: creature
+      count: ''
+      special: ''
+  sourceClass: cleric
+  prepared: 0
+effects:
+  - name: Afflicted
+    img: icons/magic/acid/dissolve-vomit-green-brown.webp
+    origin: Item.rVIwVEvt6araBOZ9
+    transfer: false
+    _id: V8R2cROoNps30qJV
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.ActivityOverTime
+        mode: 2
+        value: afflicted-save
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: true
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!ETCKm8SOuCUJ3aRF.V8R2cROoNps30qJV'
+  - name: Poisoned
+    img: icons/magic/acid/dissolve-drip-droplet-smoke.webp
+    origin: Item.rVIwVEvt6araBOZ9
+    transfer: false
+    _id: 5SdB0RC2eLK1lzYY
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: 168
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: 2
+      startTurn: 0
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - poisoned
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+        dependents:
+          - uuid: Actor.zvMPACiY7cfwzP3s.ActiveEffect.EX2Jmt75Ksd3c3Eo
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: true
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - turnStart
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!ETCKm8SOuCUJ3aRF.5SdB0RC2eLK1lzYY'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    last:
+      Ud85TiXoeFc9whFV:
+        damageType:
+          '0': acid
+          '1': necrotic
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!ETCKm8SOuCUJ3aRF'

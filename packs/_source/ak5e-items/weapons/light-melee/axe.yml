@@ -1,0 +1,129 @@
+folder: uUuSO7eU1CKxrhGI
+name: Axe
+type: weapon
+img: icons/weapons/axes/axe-battle-black.webp
+system:
+  activities:
+    pPukcpWtv8HJ89zN:
+      _id: pPukcpWtv8HJ89zN
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical: {}
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>[[/attack extended]], [[/damage
+      extended]]</p><p>@UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.HyZrjHTNPBLZWBVW]{Deadly}</p>
+    chat: ''
+  identifier: axe
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 3
+    units: lb
+  price:
+    value: 85
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  ammunition: {}
+  armor: {}
+  damage:
+    base:
+      types:
+        - slashing
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: 2
+      denomination: 4
+      bonus: ''
+    versatile:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+      number: null
+      denomination: null
+      bonus: ''
+  properties:
+    - ded
+  proficient: null
+  range:
+    reach: null
+    units: ''
+  type:
+    value: lightM
+    baseItem: axe
+  mastery: ''
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1756293320876
+  modifiedTime: 1756408015887
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: FPznW6rW4nghDh1r
+sort: 100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!FPznW6rW4nghDh1r'

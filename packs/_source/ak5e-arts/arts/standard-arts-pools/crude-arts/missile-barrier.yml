@@ -1,0 +1,233 @@
+folder: NJhJ2dlGsGebHSbX
+name: Missile Barrier
+type: spell
+_id: PWblHlrlIADjRjwu
+img: icons/magic/light/projectile-smoke-blue-white.webp
+system:
+  activities:
+    k1Ot0XGlpvS8cIGW:
+      type: utility
+      _id: k1Ot0XGlpvS8cIGW
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '-8-(2*(@scaling.increase))'
+            target: '@Compendium.ak5e.ak5e-arts.Item.S9bBvBQSRuoCG2Rh'
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Cast
+  uses:
+    spent: 14
+    recovery: []
+    max: '20'
+  description:
+    value: >-
+      <p>You summon eight arcane motes which hover around you.</p><p>When you
+      are hit by an Attack you can see, you can use your Reaction to expend any
+      amount of these motes; roll 1d4+1 for each mote expended. The Damage of
+      that Ranged Attack is reduced by the total amount rolled.</p><p><strong>At
+      Higher Levels:</strong> For each Level above 3 this Art is cast at, you
+      can create 2 additional motes.</p><p><strong>Automated. </strong>Adds a
+      Feature to your Sheet called Missile Barrier Motes when you cast this Art
+      that will trigger when you are hit by an Attack. However, it will prompt
+      for all Attacks; make sure you only use it for Ranged Attacks.</p>
+    chat: ''
+  identifier: new-item
+  source:
+    revision: 1
+    rules: '2024'
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: minute
+    value: '10'
+  level: 3
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  properties:
+    - vocal
+    - somatic
+  range:
+    units: self
+    special: ''
+  school: evo
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: ''
+  sourceClass: cleric
+  prepared: 2
+  ability: ''
+effects:
+  - name: Missile Barrier
+    img: icons/magic/light/projectile-smoke-blue-white.webp
+    origin: Item.CsAhynQvW9mI9LsS
+    transfer: false
+    _id: ONwyHZKwaK6vxix7
+    type: base
+    system: {}
+    changes:
+      - key: macro.createItem
+        mode: 0
+        value: Compendium.ak5e.ak5e-arts.Item.S9bBvBQSRuoCG2Rh
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!PWblHlrlIADjRjwu.ONwyHZKwaK6vxix7'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    last:
+      xK1iFLqb5ueH375u:
+        damageType:
+          '0': temphp
+  ak5e:
+    trackingBar: false
+    barFirstColor: '#4361ee'
+    barSecondColor: '#4cc9f0'
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!PWblHlrlIADjRjwu'

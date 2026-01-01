@@ -1,0 +1,342 @@
+folder: ZCpuCLRcXYiB8HKg
+name: Messenger Kit
+type: tool
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  activities:
+    63zLo0QOcvDmQ7CO:
+      type: utility
+      _id: 63zLo0QOcvDmQ7CO
+      sort: 100000
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+      description:
+        chatFlavor: Add a Messenger Kit Map to your Sheet!
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Draw Map (1 Charge)
+      img: ''
+      appliedEffects: []
+    umAOiFYyz2yc3rmU:
+      type: utility
+      _id: umAOiFYyz2yc3rmU
+      sort: 300000
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Establish Communications (1 Charge)
+      img: ''
+      appliedEffects: []
+    kY8UdYRDbOfgNzjG:
+      type: utility
+      _id: kY8UdYRDbOfgNzjG
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: false
+      effects:
+        - _id: WC6Hp9Rz8N2h5wfQ
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: true
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      name: Communications Know-How
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: '5'
+  description:
+    value: >-
+      <p>The role of a messenger is an oft-unappreciated but essential one; the
+      need for prompt communication over distance has been the cause of many a
+      technological or cultural development. On Terra, they serve an additional
+      purpose; maintaining communication lines over the constantly shifting
+      geography, and warning of Catastrophes where electronic communication can
+      fail. The word of a Catastrophe Messenger can move an entire city if they
+      are believed; but the disruption their messages can cause, especially if
+      the report was mistaken, often causes them to be
+      maligned.</p><p><strong>Starting Charges:</strong>
+      5</p><h3>Uses:</h3><p><strong>Communications Know-How (Partially
+      Automated: Toggles a +5 Technology Bonus):</strong> Communications
+      equipment is often both mechanical and electrical in nature, requiring
+      tools from both disciplines. This kit has these tools, granting you a +5
+      Bonus to Technology Checks to repair communications equipment such as
+      radios or transmitters.</p><p><strong>Short Range Radio:</strong> Through
+      the kit, you have access to a Short Range radio which can send and receive
+      signals up to 10 miles away. Setting up the radio to send and recieve
+      signals, or packing it away again, takes a minute.</p><h3>Proficient
+      Uses:</h3><p><strong>Draw Map (1 Charge):</strong> A messenger’s job
+      doesn’t just involve speaking over the radio, but often travelling
+      directly to places, either to deliver messages manually or to maintain
+      radio lines. For this, they rely on maps, but Terra’s Catastrophes mean
+      the geography often changes, and they must draw their own maps.As a Long
+      Rest Activity, you may draw a map of the surrounding area. Anyone holding
+      this map has a +5 Bonus to Wilderness Checks to navigate the surrounding
+      area (When you do this, add a
+      @UUID[Compendium.ak5e.ak5e-items.Item.8Q5wIBTz9VgyWonf]{Messenger Kit Map}
+      to your sheet).</p><p><strong>Establish Communications (1
+      Charge):</strong> As a Long Rest Activity, you can establish a temporary
+      communication station. Through this, you can send radio signals up to 50
+      miles; this can be further extended if there are other communications
+      stations (temporary or otherwise) within this range.</p>
+    chat: ''
+  identifier: messenger-kit
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 250
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: art
+    baseItem: messenger
+  ability: ''
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+effects:
+  - name: +5 Technology Bonus (Communications Know-How)
+    img: icons/containers/bags/case-leather-tan.webp
+    origin: Compendium.ak5e.ak5e-items.Item.wqd3yeo5ea2DAqD9
+    transfer: false
+    _id: WC6Hp9Rz8N2h5wfQ
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.tech.bonuses.check
+        mode: 2
+        value: '+5'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A +5 Bonus to Technology Checks to repair communications equipment.
+      Toggle this off when it is not applicable.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756571877709
+      modifiedTime: 1756571944704
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!wqd3yeo5ea2DAqD9.WC6Hp9Rz8N2h5wfQ'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1756485624474
+  modifiedTime: 1766942294652
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: wqd3yeo5ea2DAqD9
+sort: 362500
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!wqd3yeo5ea2DAqD9'

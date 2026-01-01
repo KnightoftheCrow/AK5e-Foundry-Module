@@ -1,0 +1,342 @@
+folder: ZCpuCLRcXYiB8HKg
+name: Mechanism Kit (WIP)
+type: tool
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  activities:
+    8d5nqmLY5Dh5PdfH:
+      _id: 8d5nqmLY5Dh5PdfH
+      type: check
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated:
+          - slt
+        dc:
+          calculation: ''
+          formula: ''
+        ability: ''
+      name: Break and Enter
+      img: ''
+      appliedEffects: []
+    aMpbFQvn50ocHtq8:
+      type: utility
+      _id: aMpbFQvn50ocHtq8
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Secure (1 Charge)
+      img: ''
+      appliedEffects: []
+    MlL0B9k6PWwDOXv9:
+      type: utility
+      _id: MlL0B9k6PWwDOXv9
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: false
+      effects:
+        - _id: zHdJcuZlGuYcdtKX
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Red Wire, Blue Wire (1 Charge)
+      img: ''
+      appliedEffects:
+        - zHdJcuZlGuYcdtKX
+      midiProperties:
+        toggleEffect: false
+    5QnxBDWRny6iad2A:
+      type: utility
+      _id: 5QnxBDWRny6iad2A
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: The Best Laid Plans (2 Charges)
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: '10'
+  description:
+    value: >-
+      <p>Often associated with ne’er-do-wells, the Mechanism Kit contains all
+      the tools necessary for the manipulation of locks and tumblers. However,
+      to those skilled with it, those fine but strong tools and high dexterity
+      lends itself well to the fine manipulation of high tension wires,
+      triggers, and trapdoors often used in traps.</p><p><strong>Starting
+      Charges:</strong> 10</p><h3>Uses:</h3><p><strong>Break and Enter
+      (Partially Automated; rolls Sleight of Hand):</strong> Using this Kit as
+      an Action, you may attempt to pick a non-electronic lock that you can
+      touch. This is a Sleight of Hand Check, the DC of which is determined by
+      the GM based on the security of the lock.</p><p><strong>Secure (1
+      Charge):</strong> Just as you can open doors, you can close them. As an
+      Action, you can lock a door, container, or other lockable object that you
+      can touch. The DC for a Creature to pick that lock is equal to 8 + your
+      Sleight of Hand Modifier.</p><h3>Proficient Uses:</h3><p><strong>Red Wire,
+      Blue Wire (1 Charge) (Partially Automated: grants a +5 Sleight of Hand
+      Bonus that expires after 1 Check):</strong> The tools found in this kit
+      are, as it turns out, very useful for manipulating fine wires and holding
+      things in very specific places. As an Action, you gain a +5 Modifier to
+      your next Check to disarm a Trap.</p><p><strong>The Best Laid Plans (2
+      Charges) (MODULE MAKERS NOTE: This can be automated after Trapmaster is
+      finished):</strong> As a Long Rest Activity, you can prepare one of the
+      Traps from Trapmaster’s Place Trap Feature (except Timed Explosive). After
+      doing so, you may set that prepared Trap as an Action once. However, if
+      you are not a Trapmaster, the Damage of these Traps does not scale with
+      your Level.</p>
+    chat: ''
+  identifier: mechanism-kit
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 250
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: art
+    baseItem: mechanism
+  ability: ''
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+effects:
+  - name: +5 Sleight of Hand Bonus (Red Wire, Blue Wire)
+    img: icons/containers/bags/case-leather-tan.webp
+    origin: Compendium.ak5e.ak5e-items.Item.IIulvylBDhw2Zz4F
+    transfer: false
+    _id: zHdJcuZlGuYcdtKX
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.slt.bonuses.check
+        mode: 2
+        value: '5'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        specialDuration:
+          - isSkill.slt
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756488930374
+      modifiedTime: 1756571778885
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!IIulvylBDhw2Zz4F.zHdJcuZlGuYcdtKX'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1756485622214
+  modifiedTime: 1766942311956
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: IIulvylBDhw2Zz4F
+sort: 425000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!IIulvylBDhw2Zz4F'

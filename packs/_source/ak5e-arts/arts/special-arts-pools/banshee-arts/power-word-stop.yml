@@ -1,0 +1,393 @@
+folder: haPWBXVerFGoe54Z
+name: Power Word Stop
+type: spell
+_id: X4a8gccUevej3Bub
+img: icons/magic/time/hourglass-brown-orange.webp
+system:
+  activities:
+    slkFq5Wq6mSNL6T5:
+      type: utility
+      _id: slkFq5Wq6mSNL6T5
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: dDBC4N5Hgebc1ABN
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: target.attributes.hp.value <= 100
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: speed-reduction
+        triggeredActivityConditionText: target.attributes.hp.value >= 100
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Cast
+    45uPEUxET1tMom4l:
+      type: utility
+      _id: 45uPEUxET1tMom4l
+      sort: 0
+      activation:
+        type: ''
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: true
+        value: '1'
+      effects:
+        - _id: nqKxS37aeVCr1Kf6
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: never
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: true
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Speed Reduction
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Your linguimancy is so potent that it can crack even time. Choose a
+      Creature you can see within range. If that Creature has 100 or fewer Hit
+      Points, they are frozen in time. A Creature with more than 100 Hit Points
+      instead has its Speed reduced to 0 until the end of its next
+      Turn.</p><p>When they are frozen in time, a Creature is halted in their
+      current space, even if airborne. They are Incapacitated, and their Speed
+      becomes 0 and cannot be increased. They cannot be moved from the current
+      space by any means. Additionally, they cannot take any Actions, Bonus
+      Actions, or Reactions. Finally, they are Immune to all Damage.</p><p>At
+      the end of each of their Turns, affected Creatures make a Wisdom Saving
+      Throw, ending the Condition on a
+      success.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: power-word-stop
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: hour
+    value: '1'
+  level: 8
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  properties:
+    - vocal
+    - concentration
+  range:
+    units: ft
+    special: ''
+    value: '60'
+  school: enc
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: creature
+      count: ''
+      special: ''
+  sourceClass: cleric
+  prepared: 2
+  ability: ''
+effects:
+  - name: Stopped
+    img: icons/magic/time/hourglass-brown-orange.webp
+    origin: Item.uWhtKEiaaHV6D09f
+    transfer: false
+    _id: dDBC4N5Hgebc1ABN
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.di.all
+        mode: 0
+        value: '1'
+        priority: 20
+      - key: system.attributes.movement.all
+        mode: 0
+        value: '0'
+        priority: 20
+      - key: flags.midi-qol.OverTime
+        mode: 5
+        value: |-
+          turn=end,
+          saveAbility=wis,
+          saveDC=@attributes.spell.dc
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - incapacitated
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!X4a8gccUevej3Bub.dDBC4N5Hgebc1ABN'
+  - name: Speed 0
+    img: icons/magic/time/clock-analog-gray.webp
+    origin: Actor.j5qUpsgLWW6QtAFt.Item.53JLjZ6caguaurs4
+    transfer: false
+    _id: nqKxS37aeVCr1Kf6
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.all
+        mode: 0
+        value: '0'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+        dependents:
+          - uuid: Actor.zvMPACiY7cfwzP3s.ActiveEffect.0TaC9vy6KIlvRsR3
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - turnEnd
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!X4a8gccUevej3Bub.nqKxS37aeVCr1Kf6'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+  ak5e:
+    trackingBar: false
+    barFirstColor: '#4361ee'
+    barSecondColor: '#4cc9f0'
+  dnd5eItemResources:
+    resourceBar: false
+    animation: ''
+    barFirstColor: '#3a0e5f'
+    barSecondColor: '#8a40c7'
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!X4a8gccUevej3Bub'

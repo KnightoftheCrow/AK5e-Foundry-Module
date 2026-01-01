@@ -1,0 +1,127 @@
+folder: gVZZrBjgP6U5oNBR
+name: Defender Armour
+type: equipment
+img: icons/equipment/chest/breastplate-cuirass-steel-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Modern heavy armour that allows the wearer to weather a storm of lesser
+      blows.</p><p><strong>Damage Reduction: </strong>5 (Physical)</p>
+    chat: ''
+  identifier: defender-armour
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 50
+    units: lb
+  price:
+    value: 500
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  armor:
+    value: 11
+    dex: 0
+  proficient: null
+  properties:
+    - stealthDisadvantage
+  strength: 14
+  type:
+    value: heavy
+    baseItem: defenderarmour
+effects:
+  - name: Defender Armour DR
+    img: icons/equipment/chest/breastplate-cuirass-steel-blue.webp
+    origin: Item.BsBxzz2ME4JTK4Cs
+    _id: lNkXhZS1fGI6Q8TS
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.bludgeoning
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.slashing
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.piercing
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.thunder
+        mode: 2
+        value: '-5'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!CUj8KxuNMez6OMnx.lNkXhZS1fGI6Q8TS'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1757006092253
+  modifiedTime: 1766936742018
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: CUj8KxuNMez6OMnx
+sort: 200000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!CUj8KxuNMez6OMnx'

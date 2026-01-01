@@ -1,0 +1,127 @@
+folder: zWAk7cUjjJDFehud
+name: Unconventional Tactics
+type: feat
+img: icons/skills/melee/strike-weapon-polearm-ice-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: 9V3UFV2uMV2UY9X6
+      configuration:
+        allowDrops: true
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.KZ8dgOb6jknQW938
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock this talent's module effect, or take another basic
+        talent?
+  description:
+    value: >-
+      <p>When you deal Damage to a Creature as a result of a Melee Spell Attack,
+      you deal an additional dice of Damage.</p><p><strong>Module Effect:
+      </strong>Your Melee Spell Attacks have +1 Critical
+      Range.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: unconventional-tactics
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Unconventional Tactics
+    img: icons/skills/melee/strike-weapon-polearm-ice-blue.webp
+    origin: Item.oM1TEXs5jX5gixVQ
+    _id: wLbDotrlxwn92HLB
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.extraDice
+        mode: 2
+        value: bonus=1; actionType.msak
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!SCNRLKd3qmDrdPJT.wLbDotrlxwn92HLB'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759424188203
+  modifiedTime: 1759425061393
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: SCNRLKd3qmDrdPJT
+sort: 390625
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!SCNRLKd3qmDrdPJT'

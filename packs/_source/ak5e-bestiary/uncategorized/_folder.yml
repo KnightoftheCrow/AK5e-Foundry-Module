@@ -1,0 +1,20 @@
+type: Actor
+folder: null
+name: Uncategorized
+color: null
+sorting: a
+_id: mPT4QUdDnfm4I1wb
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1766938184610
+  modifiedTime: 1766938184610
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!folders!mPT4QUdDnfm4I1wb'

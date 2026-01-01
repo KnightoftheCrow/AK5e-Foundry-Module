@@ -1,0 +1,134 @@
+folder: zWAk7cUjjJDFehud
+name: Enforcer
+type: feat
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: kYwIMN38mS3m4TOP
+      configuration:
+        allowDrops: true
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.bgy7gNB8LAuSen9y
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock this talent's module effect, or take another basic
+        talent?
+  description:
+    value: >-
+      <p>Creatures with less than 50% of their maximum Hit Points remaining have
+      Disadvantage on Saving Throws against your Arts.</p><p><strong>Module
+      Effect: </strong>If one of your Arts reduces a Creature to Hit Points
+      equal to or less than your Character Level, they
+      die.</p><p><strong>Automated: </strong>Increases the Damage of your Arts
+      against Creatures below the Hit Point Threshold by 999.</p>
+    chat: ''
+  identifier: enforcer
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Save Disadvantage
+    img: icons/magic/sonic/scream-wail-shout-teal.webp
+    origin: Item.PlT3az2UNW6t4i7G
+    _id: 7Mzw1MDVwCTnUprf
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.save.disadvantage
+        mode: 2
+        value: isSpell;rollingActor.attributes.hp.pct < 50
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - isSave
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!qzdnrnBe4xAM5n5W.7Mzw1MDVwCTnUprf'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759439619239
+  modifiedTime: 1759662146737
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: qzdnrnBe4xAM5n5W
+sort: 391407
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!qzdnrnBe4xAM5n5W'

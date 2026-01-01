@@ -1,0 +1,52 @@
+folder: YzlYIaWRhocmCatN
+name: Non-Valuable Artwork
+type: loot
+_id: YCAnw2AH0ZhbsvIK
+img: icons/commodities/currency/coin-embossed-sword-copper.webp
+system:
+  description:
+    value: >-
+      <p>A piece of Art that does not live up to expectations. It has no
+      financial value, but may have other value.</p>
+    chat: ''
+  identifier: non-valuable-art
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 2
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: common
+  properties: []
+  type:
+    value: art
+    subtype: ''
+effects: []
+sort: 500000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1756549416039
+  modifiedTime: 1756573097200
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!YCAnw2AH0ZhbsvIK'

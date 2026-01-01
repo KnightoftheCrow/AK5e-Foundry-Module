@@ -1,0 +1,244 @@
+folder: 7ibTynAtIGa5eh3h
+name: Bloodmist
+type: spell
+_id: GTPAiH8WFLAjAU58
+img: icons/skills/wounds/blood-cells-red.webp
+system:
+  activities:
+    UHI3hF0tibNvMbPA:
+      type: save
+      _id: UHI3hF0tibNvMbPA
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: j1tJEy8dt4h8r3R5
+          onSave: false
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: half
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 8
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: true
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: ''
+      otherActivityAsParentType: true
+      friendlySave: default
+      name: Cast
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You create an enervating cloud of blood in a 15-foot-radius sphere
+      centred on a location of your choice. Creatures within the area must make
+      a Constitution Saving Throw. On a failed Save, they take 4d8 Necrotic
+      Damage, and can only make 1 Attack during their next Turn. On a successful
+      Save, they take half as much Damage, and suffer no other
+      effects.</p><p><strong>Blood Amber:</strong> If you cast this Art centred
+      on a Blood Amber, that Blood Amber is consumed, and Creatures have
+      Disadvantage on the Constitution Saving Throw against this
+      Art.</p><p><strong>At Higher Levels:</strong> The radius of the Sphere
+      increases by 5 feet for each Level above 4 it is cast
+      at.</p><p><strong>Barely Automated. </strong>Applies a condition without
+      an effect. Disadvantage from Blood Amber must be accounted for manually.
+      Increased radius at higher levels must be accounted for manually.</p>
+    chat: ''
+  identifier: bloodmist
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: minute
+    value: '10'
+  level: 4
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  range:
+    units: ft
+    special: ''
+    value: '100'
+  school: nec
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: sphere
+      size: 15+(5*@scaling.increase)
+      count: ''
+    affects:
+      choice: false
+      type: ''
+effects:
+  - name: Ennervating Bloodmist
+    img: icons/skills/wounds/blood-cells-red.webp
+    origin: Item.GTPAiH8WFLAjAU58
+    transfer: false
+    _id: j1tJEy8dt4h8r3R5
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>This Creature can only make one Attack during their next Turn.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: true
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - turnEnd
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!GTPAiH8WFLAjAU58.j1tJEy8dt4h8r3R5'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!GTPAiH8WFLAjAU58'

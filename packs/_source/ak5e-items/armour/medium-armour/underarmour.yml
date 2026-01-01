@@ -1,0 +1,126 @@
+folder: kPyCLBr67aaO8hty
+name: Underarmour
+type: equipment
+img: icons/equipment/chest/breastplate-scale-grey.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Metal or polymer armour worn underneath clothes. Passes for
+      clothing.</p><p><strong>Damage Reduction: </strong>2 (Physical)</p>
+    chat: ''
+  identifier: underarmour
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 12
+    units: lb
+  price:
+    value: 125
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  armor:
+    value: 11
+    dex: 2
+  proficient: null
+  properties: []
+  strength: null
+  type:
+    value: medium
+    baseItem: underarmour
+effects:
+  - name: Underarmour DR
+    img: icons/equipment/chest/breastplate-scale-grey.webp
+    origin: Item.bJ07bnMKDkov4ogg
+    _id: 79irsiSTvMg3ozyY
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.bludgeoning
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.slashing
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.piercing
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.thunder
+        mode: 2
+        value: '-2'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!33A3rLP3Gm4A7Nrq.79irsiSTvMg3ozyY'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1757006075218
+  modifiedTime: 1757006496920
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: 33A3rLP3Gm4A7Nrq
+sort: 100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!33A3rLP3Gm4A7Nrq'

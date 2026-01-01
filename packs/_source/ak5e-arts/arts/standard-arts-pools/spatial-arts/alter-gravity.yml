@@ -1,0 +1,513 @@
+folder: ENMQbp9Tg10vDTnl
+name: Alter Gravity
+type: spell
+_id: n3SKjqSOlLN46yNF
+img: icons/magic/movement/trail-streak-pink.webp
+system:
+  activities:
+    HEm1bYAe87VN6lnP:
+      type: utility
+      _id: HEm1bYAe87VN6lnP
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: SJdDLdCtl3OrmNdZ
+        - _id: jjUgNi1sIlLeRw4v
+        - _id: RZtd6SKI8qcqLHUF
+        - _id: YgsEaNAUDVRq5XSp
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: true
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Cast
+    FxlkCnWmnMAYsBg4:
+      type: utility
+      _id: FxlkCnWmnMAYsBg4
+      sort: 0
+      activation:
+        type: ''
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: SJdDLdCtl3OrmNdZ
+        - _id: jjUgNi1sIlLeRw4v
+        - _id: RZtd6SKI8qcqLHUF
+        - _id: YgsEaNAUDVRq5XSp
+      range:
+        units: any
+        override: true
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: never
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: true
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Apply Gravity Effects
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You alter the effects of gravity within a 100-foot-radius sphere
+      centred on a point you can see within range. An area cannot be affected by
+      two Alter Gravity effects at the same time, nor do these effects
+      stack.</p><p>Choose one of the following
+      effects:</p><ul><li><p><strong>Reduced Gravity:</strong> Gravity is weaker
+      in this area. The weight of all objects and creatures in this area is
+      halved. Furthermore, while they are in the area, Creatures gain a hover
+      speed equal to half their walking speed, and take no damage from
+      falling.</p></li><li><p><strong>Increased Gravity:</strong> Gravity is
+      stronger in this area. The weight of all objects and creatures in this
+      area is doubled and the area counts as difficult terrain. Creatures
+      attempting to use a fly or hover speed within this area must succeed on a
+      Strength Saving Throw or they cannot move using those speeds this Turn.
+      Additionally, the jump distance of Creatures within the area is halved,
+      and Creatures take double Damage from
+      falling.</p></li><li><p><strong>Repulsion:</strong> Gravity pushes all
+      things and creatures towards the edges of the area. For Creatures in the
+      area, moving 1 foot towards the centre of the area costs 2 feet of
+      movement; conversely, moving 1 foot away from the centre of the area costs
+      only 0.5 feet of movement. A Creature not holding onto a fixed object is
+      pushed 10 feet directly towards the edge of the zone at the end of their
+      Turn. Objects not fixed to the ground are pushed 10ft towards the edge of
+      the zone at the beginning of each of your
+      Turns.</p></li><li><p><strong>Gravity Well:</strong> Gravity begins to
+      converge on the centre of the area. For Creatures in the area, moving 1
+      foot away from the centre of the area costs 2 feet of movement;
+      conversely, moving 1 foot towards the centre of the area costs only 0.5
+      feet of movement. A Creature not holding onto a fixed object is pulled 10
+      feet directly towards the centre of the zone at the end of their Turn.
+      Objects not fixed to the ground are pulled 10ft towards the centre of the
+      zone at the beginning of each of your Turns.</p></li></ul><p><strong>At
+      Higher Levels:</strong> If cast at 8th Level, the duration is increased to
+      1 day. If cast at 9th Level, the duration is permanent until
+      dispelled.</p><p><strong>Barely Automated. </strong>The Speed modifying
+      effects of Reduced Gravity and Increased Gravity are automated; no other
+      functions are. Additionally, when a Creature enters the area, you must use
+      the Apply Gravity Effects Activity to apply the appropriate effect to
+      them; furthermore, when a Creature leaves the area, the effect must be
+      removed on them manually by the GM.</p>
+    chat: ''
+  identifier: alter-gravity
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: hour
+    value: '1'
+  level: 6
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  properties:
+    - vocal
+    - somatic
+    - ritual
+  range:
+    units: ft
+    value: '500'
+    special: ''
+  school: trs
+  target:
+    template:
+      contiguous: false
+      units: ft
+      count: ''
+      type: sphere
+      size: '100'
+    affects:
+      choice: false
+      type: ''
+  prepared: 0
+  ability: ''
+  sourceClass: ''
+effects:
+  - name: Reduced Gravity
+    img: icons/magic/movement/trail-streak-pink.webp
+    origin: Item.OWYwYy26GYK70sr8
+    transfer: false
+    _id: SJdDLdCtl3OrmNdZ
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.fly
+        mode: 5
+        value: '[[@attributes.movement.walk]]/2'
+        priority: 20
+      - key: system.attributes.movement.hover
+        mode: 0
+        value: '1'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+        dependents:
+          - uuid: Actor.j5qUpsgLWW6QtAFt.ActiveEffect.zqIGk1PylKIpqzyX
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!n3SKjqSOlLN46yNF.SJdDLdCtl3OrmNdZ'
+  - name: Increased Gravity
+    img: icons/magic/movement/trail-streak-pink.webp
+    origin: Item.OWYwYy26GYK70sr8
+    transfer: false
+    _id: jjUgNi1sIlLeRw4v
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.all
+        mode: 0
+        value: /2
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!n3SKjqSOlLN46yNF.jjUgNi1sIlLeRw4v'
+  - name: Repulsion
+    img: icons/magic/movement/trail-streak-pink.webp
+    origin: Item.OWYwYy26GYK70sr8
+    transfer: false
+    _id: RZtd6SKI8qcqLHUF
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!n3SKjqSOlLN46yNF.RZtd6SKI8qcqLHUF'
+  - name: Gravity Well
+    img: icons/magic/movement/trail-streak-pink.webp
+    origin: Item.OWYwYy26GYK70sr8
+    transfer: false
+    _id: YgsEaNAUDVRq5XSp
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!n3SKjqSOlLN46yNF.YgsEaNAUDVRq5XSp'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+  ak5e:
+    trackingBar: false
+    barFirstColor: '#4361ee'
+    barSecondColor: '#4cc9f0'
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!n3SKjqSOlLN46yNF'

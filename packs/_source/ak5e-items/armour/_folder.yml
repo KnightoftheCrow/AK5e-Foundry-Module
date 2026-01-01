@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Armour
+color: null
+sorting: m
+_id: sfpxmkkEM9XrD2J8
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1757006036722
+  modifiedTime: 1757006036722
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!folders!sfpxmkkEM9XrD2J8'

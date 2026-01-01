@@ -1,0 +1,247 @@
+folder: rig7EWOgAgWj5uqh
+name: Permafrost
+type: spell
+_id: 4XZraewoItLOenQD
+img: icons/magic/water/barrier-ice-water-cube.webp
+system:
+  activities:
+    6wiTdVn9EZGnZFGJ:
+      type: save
+      _id: 6wiTdVn9EZGnZFGJ
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: ztnhc2xx41UJCyMb
+          onSave: false
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: half
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 10
+            bonus: ''
+            types:
+              - cold
+            scaling:
+              mode: ''
+              number: 1
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: true
+        magicDamage: true
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: ''
+      otherActivityAsParentType: true
+      friendlySave: default
+      name: Cast
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You flash freeze a 10-foot cube centred on a point you can see within
+      range; all Creatures within the area must make a Dexterity Saving Throw.
+      On a failed Save, they take 3d10 Cold Damage, and are trapped within the
+      ice. On a successful Save, they take half as much Damage, and are pushed
+      to the closest edge of the area.</p><p>A Creature trapped within the ice
+      is Restrained, but Attacks and Arts cannot pass into or out of the Ice.
+      The Ice is considered to be an Object with AC 8 and 30 Hit Points. It has
+      Vulnerability to Fire Damage, and is Immune to Cold, Psychic, and Poison
+      Damage. If the Ice reaches 0 Hit Points, or the duration of the Art is
+      reached, the ice shatters, immediately releasing all of the Creatures
+      trapped within it.</p><p><strong>At Higher Levels:</strong> For each Level
+      above 4 this Art is cast at, the size of the cube is increased by 10
+      feet.</p><p><strong>Partially Automated</strong>. Creatures that fail the
+      Saving Throw are Restrained. They gain the Total Cover Condition, but it
+      does nothing without an additional module to make it do so. Additionally,
+      the Hit Points of the Ice Cube must be tracked externally.</p>
+    chat: ''
+  identifier: permafrost
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: minute
+    value: '1'
+  level: 4
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - vocal
+    - somatic
+  range:
+    units: ft
+    special: ''
+    value: '60'
+  school: evo
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: cube
+      size: 10+(10*(@scaling.increase))
+      count: ''
+    affects:
+      choice: false
+      type: ''
+effects:
+  - name: Frozen in Permafrost
+    img: icons/magic/water/barrier-ice-water-cube.webp
+    origin: Item.4XZraewoItLOenQD
+    transfer: false
+    _id: ztnhc2xx41UJCyMb
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - restrained
+      - coverTotal
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!4XZraewoItLOenQD.ztnhc2xx41UJCyMb'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!4XZraewoItLOenQD'

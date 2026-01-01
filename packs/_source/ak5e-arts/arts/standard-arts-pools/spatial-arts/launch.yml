@@ -1,0 +1,187 @@
+folder: ENMQbp9Tg10vDTnl
+name: Launch
+type: spell
+_id: SBkPwTLNifZzWpGR
+img: icons/magic/control/silhouette-fall-slip-prone.webp
+system:
+  activities:
+    5NOlilYL9V0TyjnX:
+      type: save
+      _id: 5NOlilYL9V0TyjnX
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability: []
+        dc:
+          calculation: spellcasting
+          formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: true
+        removeChatButtons: default
+        magicEffect: true
+        magicDamage: true
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: ''
+      otherActivityAsParentType: true
+      friendlySave: default
+      name: Cast
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>With a rush of power, you attempt to launch targets into the air. All
+      Creatures within a 10-foot-radius sphere centred on a point you can see
+      within range must succeed on an Strength Saving Throw, or be flung 20 feet
+      directly upwards. They then fall as normal, taking Damage from the fall as
+      appropriate.</p><p><strong>At Higher Levels:</strong> The distance you
+      throw Creatures and Objects into the air increases by 10 feet for each
+      Level above 1 this Art is cast at.</p><p><strong>Partially Automated.
+      </strong>Deals Bludgeoning Damage to affected Creatures assuming that they
+      fell the distance implied by the casting of the Art at that level. If they
+      fell a greater or lesser difference, the damage will be incorrect.</p>
+    chat: ''
+  identifier: launch
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: inst
+  level: 1
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - somatic
+  range:
+    units: ft
+    special: ''
+    value: '80'
+  school: trs
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: sphere
+      size: '10'
+      count: ''
+    affects:
+      choice: false
+      type: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!SBkPwTLNifZzWpGR'

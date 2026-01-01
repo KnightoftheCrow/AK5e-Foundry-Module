@@ -1,0 +1,241 @@
+folder: DpDZIj86euV4F2rQ
+name: Investiture of Water
+type: spell
+_id: k8MuY0fx9NmQD89G
+img: icons/magic/water/wave-water-explosion.webp
+system:
+  activities:
+    339Zq03G6gkFOyUQ:
+      type: utility
+      _id: 339Zq03G6gkFOyUQ
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: gU0kRbXR20Bnt3Vw
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Cast
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Clear water cascades over your form, as if you had just emerged from
+      underwater. Until the Art ends, you gain the following
+      benefits:</p><ul><li><p>You have Resistance to Acid, Cold, and Fire
+      Damage.</p></li><li><p>You have a Swimming Speed equal to your Walking
+      Speed (if you already have a Swimming Speed, it is increased by a value
+      equal to your Walking Speed), can breathe underwater, and can walk on the
+      surface of liquids.</p></li><li><p>You can use your Action to attempt to
+      trap a Creature in a bubble of water. Choose a Creature you can see within
+      30 feet of you; that Creature must succeed on a Strength Saving Throw or
+      they are Restrained until the end of their next
+      Turn.</p></li></ul><p><strong>Automated. </strong>Adds a Feature to your
+      sheet called Bubble Prison.</p>
+    chat: ''
+  identifier: investiture-of-water
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: minute
+    value: '10'
+  level: 6
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  range:
+    units: self
+    special: ''
+  school: trs
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: self
+      special: ''
+effects:
+  - name: Investiture of Water
+    img: icons/magic/water/wave-water-explosion.webp
+    origin: Item.k8MuY0fx9NmQD89G
+    transfer: false
+    _id: gU0kRbXR20Bnt3Vw
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: acid
+        priority: 20
+      - key: system.traits.dr.value
+        mode: 2
+        value: cold
+        priority: 20
+      - key: system.traits.dr.value
+        mode: 2
+        value: fire
+        priority: 20
+      - key: system.attributes.movement.swim
+        mode: 2
+        value: '@attributes.movement.walk'
+        priority: 20
+      - key: macro.createItem
+        mode: 0
+        value: Compendium.ak5e.ak5e-arts.Item.JS3evKE4Ryd4ZjYa
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!k8MuY0fx9NmQD89G.gU0kRbXR20Bnt3Vw'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!k8MuY0fx9NmQD89G'

@@ -1,0 +1,231 @@
+folder: YzlYIaWRhocmCatN
+name: Painkiller
+type: consumable
+_id: 4sgaRh5G7wZIXqto
+img: icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp
+system:
+  activities:
+    huRQHtUyZbDaAfdv:
+      type: utility
+      _id: huRQHtUyZbDaAfdv
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: hour
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: K0rdEhAkxPNGK25C
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Take Painkillers
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: true
+    max: '1'
+  description:
+    value: >-
+      <p>A drug designed to inhibit the ability of a person to feel pain. Can be
+      consumed as a Bonus Action if you are missing any Hit Points. Grants 2 DR
+      against all Damage and a +2 to Death Saving Throws for an hour.</p>
+    chat: ''
+  identifier: painkiller
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0.1
+    units: lb
+  price:
+    value: 50
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: potion
+    subtype: ''
+effects:
+  - name: Painkiller
+    img: >-
+      icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp
+    origin: Compendium.ak5e.ak5e-items.Item.4sgaRh5G7wZIXqto
+    transfer: false
+    _id: K0rdEhAkxPNGK25C
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.death.bonuses.save
+        mode: 2
+        value: '2'
+        priority: 20
+      - key: system.traits.dm.amount.acid
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.bludgeoning
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.cold
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.fire
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.force
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.lightning
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.necrotic
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.piercing
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.poison
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.psychic
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.radiant
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.slashing
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.thunder
+        mode: 2
+        value: '-2'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        specialDuration: []
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756495212654
+      modifiedTime: 1756548972417
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!4sgaRh5G7wZIXqto.K0rdEhAkxPNGK25C'
+sort: 100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1756495110529
+  modifiedTime: 1756573097200
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!4sgaRh5G7wZIXqto'

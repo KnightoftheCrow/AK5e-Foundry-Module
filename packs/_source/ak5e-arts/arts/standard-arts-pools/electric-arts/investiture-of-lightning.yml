@@ -1,0 +1,235 @@
+folder: Iu2AkeMu2wolI4oA
+name: Investiture of Lightning
+type: spell
+_id: eTLw68bqpkFQAIPP
+img: icons/magic/lightning/claws-unarmed-strike-teal.webp
+system:
+  activities:
+    mL4Sm6hHwG3fp5N3:
+      type: utility
+      _id: mL4Sm6hHwG3fp5N3
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: oSCn3iSfz08Ai027
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Cast
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Electricity infuses your form, crackling across your body in bright
+      arcs; the electricity doesn’t harm you, and for the duration, you shed
+      bright light in a 10ft radius, and dim light for a further 10ft. Until the
+      Art ends, you gain the following benefits:</p><ul><li><p>You have Immunity
+      to Lightning Damage, and Resistance to Thunder Damage.</p></li><li><p>You
+      can Dash or Disengage as a Bonus Action. If you already could already do
+      either of those Actions as a Bonus Action, you can do both simultaneously
+      as a Bonus Action.</p></li><li><p>You can use your Action to launch a
+      blast of lightning towards a point you can see within 60 feet. All
+      Creatures in a 15-foot-radius sphere centred on that point must make a
+      Dexterity Saving Throw, taking 6d6 Lightning Damage on a failed Save, or
+      half as much on a successful Save.</p></li></ul><p><strong>Automated.
+      </strong>Adds a Feature to your Sheet called Lightning Blast. However, the
+      produced light is not automated.</p>
+    chat: ''
+  identifier: investiture-of-lightning
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: minute
+    value: '10'
+  level: 6
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - vocal
+    - somatic
+    - concentration
+  range:
+    units: self
+    special: ''
+  school: trs
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: self
+      special: ''
+effects:
+  - name: Investiture of Lightning
+    img: icons/magic/lightning/claws-unarmed-strike-teal.webp
+    origin: Item.eTLw68bqpkFQAIPP
+    transfer: false
+    _id: oSCn3iSfz08Ai027
+    type: base
+    system: {}
+    changes:
+      - key: macro.createItem
+        mode: 0
+        value: Compendium.ak5e.ak5e-arts.Item.G3LIZYoNJ20kFUaC
+        priority: 20
+      - key: system.traits.di.value
+        mode: 2
+        value: lightning
+        priority: 20
+      - key: system.traits.dr.value
+        mode: 2
+        value: thunder
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!eTLw68bqpkFQAIPP.oSCn3iSfz08Ai027'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!eTLw68bqpkFQAIPP'

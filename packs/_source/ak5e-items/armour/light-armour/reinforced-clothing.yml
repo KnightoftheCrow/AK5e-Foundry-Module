@@ -1,0 +1,66 @@
+folder: k0FYoIdhU0iFUDY2
+name: Reinforced Clothing
+type: equipment
+img: icons/equipment/chest/vest-leather-pink.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Clothing reinforced with additional resistant textiles woven into the
+      fabrics. Passes for clothing.</p>
+    chat: ''
+  identifier: reinforced-clothing
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 250
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  armor:
+    value: 12
+    dex: null
+  proficient: null
+  properties: []
+  strength: null
+  type:
+    value: light
+    baseItem: reinforcedclothing
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1757006065875
+  modifiedTime: 1757006476236
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: DMq5RL7e35ZveMxb
+sort: 200000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!DMq5RL7e35ZveMxb'

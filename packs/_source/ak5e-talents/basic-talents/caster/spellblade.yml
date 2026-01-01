@@ -1,0 +1,387 @@
+folder: zWAk7cUjjJDFehud
+name: Spellblade
+type: feat
+img: icons/skills/melee/blade-tip-energy-green.webp
+system:
+  activities:
+    uamUisJfCCltY1J8:
+      type: enchant
+      _id: uamUisJfCCltY1J8
+      sort: 0
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: false
+      effects:
+        - _id: hSs8eTCvBqzQHg3B
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - CwKGO2IPKskvxh1Z
+            effect: []
+            item: []
+        - _id: UE1tihn5U7fGKaSl
+          level:
+            min: 8
+            max: null
+          riders:
+            activity:
+              - CwKGO2IPKskvxh1Z
+            effect: []
+            item: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        self: false
+        identifier: ''
+      restrictions:
+        allowMagical: true
+        categories: []
+        properties: []
+        type: weapon
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: Enchant Weapon
+    CwKGO2IPKskvxh1Z:
+      type: attack
+      _id: CwKGO2IPKskvxh1Z
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ''
+          classification: weapon
+        ability: spellcasting
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: ''
+      otherActivityAsParentType: true
+      attackMode: ''
+      ammunition: ''
+      otherActivityUuid: ''
+      attackRollPerTarget: default
+      fumbleThreshold: 1
+      name: Spellblade Attack
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Whenever you finish a Long Rest, you can touch one weapon that you are
+      Proficient with. When you Attack with that weapon, you can use your
+      Spellcasting Ability Modifier, instead of Strength or Dexterity, for the
+      Attack and Damage Rolls. Additionally, that Weapon gains the Casting Unit
+      Property. This benefit lasts until you finish a Long
+      Rest.</p><p><strong>Module Effect: </strong>When casting Arts using the
+      weapon you chose, you no longer need to perform Somatic Components for
+      those Arts. In addition, Damage from that Weapon is considered to be Arts
+      Damage.</p><p><strong>Partially Automated: </strong>When you are of the
+      correct level to recieve the module effect, a new enchantment will be
+      available when you use this Feature called "Spellblade (Upgraded)". If you
+      chose not to take the module effect for this Talent, continue using the
+      original enchantment. Otherwise, use the upgraded one.</p>
+    chat: ''
+  identifier: spellblade
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties:
+    - mgc
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - type: enchantment
+    name: Spellblade
+    img: icons/skills/melee/blade-tip-energy-green.webp
+    disabled: true
+    _id: hSs8eTCvBqzQHg3B
+    system: {}
+    changes:
+      - key: system.properties
+        mode: 2
+        value: cst
+        priority: 20
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - longRest
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!D087TmY8tk9pCMOs.hSs8eTCvBqzQHg3B'
+  - type: enchantment
+    name: Spellblade (Upgraded)
+    img: icons/skills/melee/blade-tip-energy-green.webp
+    disabled: true
+    _id: UE1tihn5U7fGKaSl
+    system: {}
+    changes:
+      - key: system.properties
+        mode: 2
+        value: cst
+        priority: 20
+      - key: system.properties
+        mode: 2
+        value: mgc
+        priority: 20
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - longRest
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!D087TmY8tk9pCMOs.UE1tihn5U7fGKaSl'
+flags:
+  dnd5e:
+    riders:
+      activity:
+        - CwKGO2IPKskvxh1Z
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759004097571
+  modifiedTime: 1759662180350
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: D087TmY8tk9pCMOs
+sort: 393750
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!D087TmY8tk9pCMOs'

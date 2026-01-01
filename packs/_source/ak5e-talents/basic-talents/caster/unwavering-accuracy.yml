@@ -1,0 +1,134 @@
+folder: zWAk7cUjjJDFehud
+name: Unwavering Accuracy
+type: feat
+img: icons/magic/light/beam-horizon-strike-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: Tsp22Dsy46GTKNCk
+      configuration:
+        allowDrops: true
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.PworX43PVxyg3nWI
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock this talent's module effect, or take another basic
+        talent?
+  description:
+    value: >-
+      <p>You no longer have Disadvantage when making Ranged Spell Attacks while
+      a hostile Creature is within 5 feet of you. Additionally, when you cast an
+      Art with a Range of 10 feet or more, that Range is increased by 30
+      feet.</p><p><strong>Module Effect: </strong>When you make a Spell Attack
+      Roll, you may ignore the effects of Half and Three-Quarters
+      Cover.</p><p><strong>Partially Automated: </strong>The removal of
+      Disadvantage, and the ignoring of cover are automated. However, the Range
+      increase is not automated.</p>
+    chat: ''
+  identifier: unwavering-accuracy
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects:
+  - name: Unwavering Accuracy
+    img: icons/magic/light/beam-horizon-strike-yellow.webp
+    origin: Item.8t2bEo9UGXqFQuoA
+    _id: z4JVhlFb44VHhSEx
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.sharpShooter
+        mode: 2
+        value: actionType.msak;actionType.rsak
+        priority: 20
+      - key: flags.midi-qol.ignoreNearbyFoes
+        mode: 2
+        value: true;actionType.msak;actionType.rsak
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!pGpBSUkuNXRaORpa.z4JVhlFb44VHhSEx'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759429438314
+  modifiedTime: 1759429461833
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: pGpBSUkuNXRaORpa
+sort: 397657
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!pGpBSUkuNXRaORpa'

@@ -1,0 +1,128 @@
+folder: kPyCLBr67aaO8hty
+name: Combat Gear
+type: equipment
+img: icons/equipment/chest/breastplate-banded-leather-brown.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Armour commonly worn by soldiers; its protection is focused on the
+      vital organs, but it is thick enough to deflect poor blows in other
+      locations.</p><p><strong>Damage Reduction: </strong>3 (Physical)</p>
+    chat: ''
+  identifier: combat-gear
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 25
+    units: lb
+  price:
+    value: 400
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  armor:
+    value: 12
+    dex: 2
+  proficient: null
+  properties:
+    - stealthDisadvantage
+  strength: 12
+  type:
+    value: medium
+    baseItem: combatgear
+effects:
+  - name: Combat Gear DR
+    img: icons/equipment/chest/breastplate-banded-leather-brown.webp
+    origin: Item.EBXCJOflCaVzldwd
+    _id: 79irsiSTvMg3ozyY
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.bludgeoning
+        mode: 2
+        value: '-3'
+        priority: 20
+      - key: system.traits.dm.amount.slashing
+        mode: 2
+        value: '-3'
+        priority: 20
+      - key: system.traits.dm.amount.piercing
+        mode: 2
+        value: '-3'
+        priority: 20
+      - key: system.traits.dm.amount.thunder
+        mode: 2
+        value: '-3'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!Cec4UmE7i2g5ZJdm.79irsiSTvMg3ozyY'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1757006078325
+  modifiedTime: 1757006502005
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: Cec4UmE7i2g5ZJdm
+sort: 200000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!Cec4UmE7i2g5ZJdm'

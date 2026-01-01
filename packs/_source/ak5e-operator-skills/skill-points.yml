@@ -1,0 +1,107 @@
+name: Skill Points
+type: feat
+img: icons/skills/movement/arrows-up-trio-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 10
+    recovery: []
+    max: '10'
+  advancement: []
+  description:
+    value: >-
+      <p><em>(Note: when added to a character sheet, remember to enable the
+      Tracking Bar!)</em><br /><br />At 2nd Level, 7th Level, and 14th Level,
+      you gain a Basic, Advanced, and Elite Operator Skill respectively from the
+      Skill Tables available to your Class (found after the Class Features for
+      each Class). Some Branches may provide additional options for Skill
+      selection; some may require you to select an Operator Skill from a
+      different table.</p><p>Operator Skills have the following
+      properties:</p><ul><li><p><strong>Name:</strong> The name of the
+      Skill.</p></li><li><p><strong>SP Cost:</strong> How many Skill Points (SP)
+      are required to Activate that Skill. Your maximum amount of Skill Points
+      is equal to the highest Required SP of all your current
+      Skills.</p></li><li><p><strong>Start SP:</strong> Whenever you finish a
+      Long Rest, if you have less Skill Points than this Value, you gain Skill
+      Points until you have this value. If you have multiple Skills with a
+      Starting SP, use the highest one.</p></li><li><p><strong>Charging
+      Method:</strong> Each Skill allows you to gain Skill Point in one of three
+      ways. You cannot gain Skill Points if you currently have an Active Skill,
+      from an Attack made or Art cast as part of a Skill, from Damage dealt by a
+      Skill, or by Hit Points restore.</p><ul><li><p><strong>Automatic:</strong>
+      You gain 2 Skill Points at the Beginning of your Turn in
+      combat.</p></li><li><p><strong>Offensive:</strong> You gain 1 Skill Point
+      whenever you do any of the following during your Turn in
+      combat:</p><ul><li><p>Deal Damage to a hostile Creature; this can only
+      occur once per Attack.</p></li><li><p>Restore Hit Points to a Creature
+      except yourself.</p></li><li><p>Grant Temporary Hit Points to a Creature
+      (except yourself) with an
+      Art.</p></li></ul></li><li><p><strong>Defensive:</strong> You gain 2 Skill
+      Points whenever a hostile Creature makes an Attack against you, or you
+      take Damage from a hostile Creature through a non-Attack
+      source.</p></li></ul></li></ul><blockquote><p><span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">Stacking Charging
+      Methods</span></span></p><p>Each of your current Skills allows you to gain
+      SP through its associated method, and these methods can stack. If you had
+      2 Offensive Charge Skills, you would gain 2 SP if you damaged a Creature
+      with an Attack.</p></blockquote><ul><li><p><strong>Activation
+      Cost:</strong> The Action Cost required to Activate that Skill. Typically,
+      this is either Action, Bonus Action, Reaction, or no Action
+      required.</p></li><li><p><strong>Effect:</strong> What the Skill does upon
+      being Activated. Note that if a Skill calls for something you do not have
+      access to without an alternative, such as a Spell Save DC, you cannot use
+      that Operator Skill.</p></li><li><p><strong>Duration</strong>: The length
+      of time that Skill remains Active.</p></li></ul><blockquote><p><span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">One Skill at a
+      Time</span></span></p><p>A Character can only have one Operator Skill
+      active at a time, even if they have the Skill Points to activate
+      another.</p></blockquote>
+    chat: ''
+  identifier: skill-points
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+folder: null
+flags:
+  dnd5e:
+    riders:
+      activity: []
+  ak5e:
+    trackingBar: true
+    barFirstColor: '#eed144'
+    barSecondColor: '#000000'
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1766943177603
+  modifiedTime: 1766943247442
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: 6wUvlljsCtahm7N5
+sort: 100000
+_key: '!items!6wUvlljsCtahm7N5'

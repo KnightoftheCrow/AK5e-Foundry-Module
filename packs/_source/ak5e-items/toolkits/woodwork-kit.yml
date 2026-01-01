@@ -1,0 +1,464 @@
+folder: ZCpuCLRcXYiB8HKg
+name: Woodwork Kit
+type: tool
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  activities:
+    W6XBkZSGLQCmQBuS:
+      type: check
+      _id: W6XBkZSGLQCmQBuS
+      sort: 250000
+      activation:
+        type: shortRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: false
+      effects:
+        - _id: 5dLyuJfU85EsBbfR
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated: []
+        dc:
+          calculation: ''
+          formula: '13'
+        ability: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      damage:
+        onSave: full
+        parts: []
+        critical:
+          allow: false
+      friendlySave: default
+      name: Calming Carving (1 Charge)
+      img: ''
+      appliedEffects:
+        - 5dLyuJfU85EsBbfR
+    zMXr8PYZhfcsxpqq:
+      type: utility
+      _id: zMXr8PYZhfcsxpqq
+      sort: 300000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: space
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      name: Carpentry (1 Charges)
+      img: ''
+      appliedEffects: []
+      visibility:
+        level:
+          min: null
+          max: null
+        identifier: ''
+    hxxAtQaamtv0kt6N:
+      type: utility
+      _id: hxxAtQaamtv0kt6N
+      sort: 200000
+      activation:
+        type: minute
+        override: false
+        condition: ''
+        value: 1
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: space
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Firestarter (1 Charge)
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: '5'
+  description:
+    value: >-
+      <p>Wood is one of the first construction materials ever utilised by
+      mankind. It is sturdy, weather resistant, readily available, and
+      renewable. Even in the modern age, wood is still commonly used, with no
+      universally suitable replacement. The Woodwork Kit contains the saws,
+      hammers, nails and other tools necessary for carpentry, as well as a
+      supply of wood to do it with.</p><p><strong>Starting Charges:</strong>
+      5</p><h3>Uses:</h3><p><strong>Firestarter (1 Charge) (Not Automated):
+      </strong>Over the course of a minute, you can create and light a small
+      Campfire.</p><p><strong>Carve Symbol:</strong> As an Action, you can carve
+      a simple symbol of your choice into a wooden surface within 5 feet of you.
+      If you spend a minute instead, you can carve a complex symbol or a
+      message.</p><h3>Proficient Uses:</h3><p><strong>Calming Carving (1 Charge)
+      (Partially Automated: Save occurs, but results must be manual):</strong>
+      Many people who practice woodcarving describe it as a therapeutic. As a
+      Short Rest Activity, you can carve a trinket. The trinket can depict
+      whatever you like. To do so, you must make a DC13 Strength Check; if you
+      are Proficient in this Kit, you may add your Proficiency Bonus to this
+      roll. On a success, the trinket is good enough to be sold, and has a value
+      of 50 LMD (Add a
+      @UUID[Compendium.ak5e.ak5e-items.Item.pAlUvzqkeRHuOSmw]{Fine Wooden
+      Trinket} to your Sheet). On a failure, it has no value beyond the
+      sentimental (Add a
+      @UUID[Compendium.ak5e.ak5e-items.Item.Lq67wRgW1lPn0Jtb]{Wooden Trinket} to
+      your Sheet). Regardless of success or failure, however, you have Advantage
+      on the next Wisdom Saving Throw you make.</p><p><strong>Carpentry (1
+      Charge) (Not Automated): </strong>As an Action, if you are holding nothing
+      in your hands, you can use this Kit to put up a rudimentary wooden
+      barricade over a door, window, or similar portal; this Barricade has an AC
+      of 11 and Hit Points equal to 3d6 + your Strengh Modifier. Each portal can
+      only have one Barricade. You can also use this to reinforce an existing
+      barricade, increasing its AC by 1 and its maximum and current Hit Points
+      by 3d6 + your Strength Modifier; each Barricade can only be reinforced
+      twice.</p>
+    chat: ''
+  identifier: woodwork-kit
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 250
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: art
+    baseItem: woodwork
+  ability: str
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+effects:
+  - name: Wisdom Save Advantage (Calming Carving)
+    img: icons/containers/bags/case-leather-tan.webp
+    origin: Compendium.ak5e.ak5e-items.Item.2MfZHPX5xtOxH4Zr
+    transfer: false
+    _id: 5dLyuJfU85EsBbfR
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.advantage.ability.save.wis
+        mode: 2
+        value: '1'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>The process of Woodcarving has steadied you. You have Advantage on the
+      next Wisdom Saving Throw you make.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - isSave.wis
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1756583282654
+      modifiedTime: 1756583386119
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!2MfZHPX5xtOxH4Zr.5dLyuJfU85EsBbfR'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1756485629164
+  modifiedTime: 1766942695174
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: 2MfZHPX5xtOxH4Zr
+sort: 462500
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!2MfZHPX5xtOxH4Zr'

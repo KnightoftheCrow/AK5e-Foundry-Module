@@ -1,0 +1,243 @@
+folder: ZCpuCLRcXYiB8HKg
+name: Art Kit
+type: tool
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  activities:
+    8d5nqmLY5Dh5PdfH:
+      _id: 8d5nqmLY5Dh5PdfH
+      type: check
+      sort: 0
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated: []
+        dc:
+          calculation: ''
+          formula: '13'
+        ability: ''
+      name: Create Art (2 Charges)
+    40KYN6rU18n8LmuB:
+      type: utility
+      _id: 40KYN6rU18n8LmuB
+      sort: 0
+      activation:
+        type: minute
+        override: false
+        value: 1
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      name: Mark (1 Charge)
+    LkqBVoEg4U6LmgKe:
+      type: utility
+      _id: LkqBVoEg4U6LmgKe
+      sort: 0
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '2'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creatureOrObject
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      name: Disguise Appearance (2 Charges)
+  uses:
+    spent: 0
+    recovery: []
+    max: '10'
+  description:
+    value: >-
+      <p>Just as every artist is different, every Art Kit is different, suited
+      to the person who put it together. A street artist’s kit may be full of
+      spray cans, while a “traditional” artist’s may be full of brush and
+      canvas. Ultimately however, artists have more in common than they do
+      apart; a desire to send a message, and the vision to see it
+      done.</p><p><strong>Starting Charges:</strong> 10 (Refill Cost 20 LMD per
+      Charge)</p><h3>Uses</h3><p><strong>Create Art (2 Charge) (Partially
+      Automated: Add the results manually):</strong> As a Long Rest Activity,
+      you can create a piece of Art; this Art can depict whatever you wish. To
+      do so, you must make a DC13 Wisdom Check; if you are Proficient with this
+      Kit, you may add your Proficiency Bonus to this roll. On a success, the
+      Art you create is valuable, and can be sold for normal price (100 LMD)
+      (Add a @UUID[Compendium.ak5e.ak5e-items.Item.LTqDRnseEV181JdH]{Valuable
+      Artwork} to your Sheet). On a failure, you still create the Art, but its
+      value is reduced to 0 LMD (Add a
+      @UUID[Compendium.ak5e.ak5e-items.Item.YCAnw2AH0ZhbsvIK]{Non-Valuable
+      Artwork} to your Sheet).</p><p><strong>Mark (1 Charge):</strong> Over the
+      course of a minute, you can quickly sketch/spray/paint a symbol or sign
+      onto a material or the environment.</p><h3>Proficient
+      Uses</h3><p><strong>Artist’s Eye:</strong> Your familiarity with art and
+      its tools gives you insight into deciphering the meanings behind art. You
+      have a +5 modifier to any Check to determine meaning or messages in art,
+      including hidden messages and codes, as well as the mindset of the person
+      who made that art.</p><p><strong>Disguise Appearance (2 Charges):</strong>
+      Your expertise with your tools allows you (either doing it yourself or
+      instructing others), as a Long Rest Activity, to paint an object, vehicle,
+      or piece of armour into a design of your choice. This design could be
+      camouflage, providing a bonus to Stealth Checks involving the subject, or
+      even a disguise to disguise the subject as belonging to a particular
+      faction.</p>
+    chat: ''
+  identifier: art-kit
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 250
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: art
+    baseItem: art
+  ability: wis
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1756485609654
+  modifiedTime: 1766937648031
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: uJv6rhzPijvjHznJ
+sort: 100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!uJv6rhzPijvjHznJ'

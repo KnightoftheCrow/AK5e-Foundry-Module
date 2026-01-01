@@ -1,0 +1,150 @@
+folder: kPyCLBr67aaO8hty
+name: Hazardous Environment Gear
+type: equipment
+img: icons/equipment/chest/breastplate-helmet-metal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>A full-body suit that protects its wearer from hazardous gases and
+      environmental conditions; as a side-effect, it is also quite resistant to
+      Arts.</p><p>Provides immunity to gases and Originium particulate matter
+      for up to an hour of continuous exposure.</p><p><strong>Damage Reduction:
+      </strong>5 (Arts)</p>
+    chat: ''
+  identifier: hazardous-environment-gear
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 12
+    units: lb
+  price:
+    value: 125
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  armor:
+    value: 11
+    dex: 2
+  proficient: null
+  properties:
+    - stealthDisadvantage
+  strength: null
+  type:
+    value: medium
+    baseItem: hazardgear
+effects:
+  - name: Hazardous Environment Gear DR
+    img: icons/equipment/chest/breastplate-helmet-metal.webp
+    origin: Item.jX6QD446UxdxSK4T
+    _id: 79irsiSTvMg3ozyY
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.acid
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.cold
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.fire
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.force
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.lightning
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.necrotic
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.da.poison
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.psychic
+        mode: 2
+        value: '-5'
+        priority: 20
+      - key: system.traits.dm.amount.radiant
+        mode: 2
+        value: '-5'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!rJSxxqHViUccUU7U.79irsiSTvMg3ozyY'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1757006081019
+  modifiedTime: 1757006508520
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: rJSxxqHViUccUU7U
+sort: 300000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!rJSxxqHViUccUU7U'

@@ -1,0 +1,20 @@
+type: Actor
+folder: zhZ3oJrVXiDxSCHH
+name: Altars
+color: null
+sorting: a
+_id: SWe0EscVYnyqADWv
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1757250598983
+  modifiedTime: 1758378716639
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!folders!SWe0EscVYnyqADWv'

@@ -1,0 +1,173 @@
+folder: haPWBXVerFGoe54Z
+name: Power Word Forget
+type: spell
+_id: KJCNwRWGIXbVBVLg
+img: icons/magic/control/hypnosis-mesmerism-eye.webp
+system:
+  activities:
+    ZUHn0TQYRAUYRCHO:
+      type: utility
+      _id: ZUHn0TQYRAUYRCHO
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Cast
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You command a Creature within range to forget an event. When you cast
+      this Art, you can either choose one of the following
+      options:</p><ul><li><p>They forget up to an hour’s worth of time, of your
+      choice. The time must be a singular block, and must be wholly within a
+      week of the present time.</p></li><li><p>They forget a particular event of
+      your choice; you must state the event for them to forget, such as “forget
+      we met last year.”</p></li></ul><p>A Creature is not aware that it has
+      been forced to forget, but the Art does not prevent it from relearning
+      that information from an outside source.</p><p><strong>At Higher
+      Levels:</strong> For each Level above 6 this Art is cast at, you can
+      target 1 additional Creature, and the range is increased by
+      10ft.</p><p><strong>Barely Automated. </strong>As a roleplay based Art,
+      these effects cannot be automated. However, the effects of upcasting this
+      Art are.</p>
+    chat: ''
+  identifier: power-word-forget
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: inst
+  level: 6
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - vocal
+  range:
+    units: ft
+    special: ''
+    value: 10+(10*(@scaling.increase))
+  school: enc
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: creature
+      count: 1+(1*(@scaling.increase))
+      special: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!KJCNwRWGIXbVBVLg'

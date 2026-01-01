@@ -1,0 +1,401 @@
+folder: ENMQbp9Tg10vDTnl
+name: Repulsion Field
+type: spell
+_id: DJl1FvWZP4jvyQv7
+img: icons/magic/lightning/barrier-shield-crackling-orb-pink.webp
+system:
+  activities:
+    UBwsc1qtFXM63bSf:
+      type: utility
+      _id: UBwsc1qtFXM63bSf
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: A0qykoxs756IDEBh
+        - _id: ssJaey7dhmI48wFM
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Cast
+    7PgtJyjSMqJH9D82:
+      type: utility
+      _id: 7PgtJyjSMqJH9D82
+      sort: 0
+      activation:
+        type: reaction
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        units: any
+        override: true
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: false
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Reaction
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You project a repelling field of gravity in a 15-foot-radius Sphere
+      that is centred on you, and moves with you. This area is considered to be
+      Difficult Terrain for all other Creatures. While you are concentrating on
+      this Art, Ranged Attacks made against a Creature within the area are made
+      with Disadvantage. Additionally, if you would be hit by a Ranged Attack,
+      you can expend your Reaction to force the attacker to reroll that Attack
+      Roll.</p>
+    chat: ''
+  identifier: new-item
+  source:
+    revision: 1
+    rules: '2024'
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: minute
+    value: '1'
+  level: 4
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  prepared: 2
+  properties:
+    - vocal
+    - somatic
+  range:
+    units: self
+    special: ''
+  school: abj
+  target:
+    template:
+      contiguous: false
+      units: ft
+      type: ''
+      size: '15'
+      count: ''
+    affects:
+      choice: false
+      type: self
+effects:
+  - name: Repulsion Field
+    img: icons/magic/lightning/barrier-shield-crackling-orb-pink.webp
+    origin: Item.DJl1FvWZP4jvyQv7
+    _id: A0qykoxs756IDEBh
+    type: auraeffects.aura
+    system:
+      showRadius: true
+      applyToSelf: true
+      bestFormula: ''
+      canStack: false
+      collisionTypes:
+        - move
+      color: '#8c00ff'
+      combatOnly: false
+      disableOnHidden: true
+      distanceFormula: '15'
+      disposition: 0
+      evaluatePreApply: false
+      opacity: 0.15
+      overrideName: ''
+      script: ''
+      stashedChanges: []
+      stashedStatuses: []
+    changes:
+      - key: flags.midi-qol.grants.disadvantage.attack.rwak
+        mode: 2
+        value: '1'
+        priority: 20
+      - key: flags.midi-qol.grants.disadvantage.attack.rsak
+        mode: 2
+        value: '1'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: true
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+      auraeffects:
+        originalType: base
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!DJl1FvWZP4jvyQv7.A0qykoxs756IDEBh'
+  - name: Difficult Terrain
+    img: icons/magic/movement/chevrons-down-yellow.webp
+    origin: Item.DJl1FvWZP4jvyQv7
+    transfer: false
+    _id: ssJaey7dhmI48wFM
+    type: auraeffects.aura
+    system:
+      showRadius: false
+      applyToSelf: false
+      bestFormula: ''
+      canStack: false
+      collisionTypes:
+        - move
+      color: null
+      combatOnly: false
+      disableOnHidden: true
+      distanceFormula: '15'
+      disposition: 0
+      evaluatePreApply: false
+      opacity: 0.15
+      overrideName: ''
+      script: ''
+      stashedChanges: []
+      stashedStatuses: []
+    changes:
+      - key: system.attributes.movement.all
+        mode: 0
+        value: '*0.5'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+      auraeffects:
+        originalType: base
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!DJl1FvWZP4jvyQv7.ssJaey7dhmI48wFM'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!DJl1FvWZP4jvyQv7'

@@ -1,0 +1,129 @@
+folder: Omm8sWnlN4KRWbj7
+name: Combat Shield
+type: equipment
+_id: DSudvLQbkLWPs6g8
+img: icons/equipment/shield/heater-steel-sword-yellow-black.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>A larger shield designed to be imposed in the way of attacks, turning a
+      lethal blow into a merely maiming one.</p><p><strong>Damage Reduction:
+      </strong>2 (Physical)</p>
+    chat: ''
+  identifier: combat-shield
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 8
+    units: lb
+  price:
+    value: 125
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  armor:
+    value: 0
+    dex: null
+  proficient: null
+  properties: []
+  strength: null
+  type:
+    value: lightS
+    baseItem: combatshield
+effects:
+  - name: Combat Shield DR
+    img: icons/equipment/shield/heater-steel-sword-yellow-black.webp
+    origin: Compendium.ak5e.ak5e-items.Item.DSudvLQbkLWPs6g8
+    _id: yIfImcmDkKgSAzI6
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.bludgeoning
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.slashing
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.piercing
+        mode: 2
+        value: '-2'
+        priority: 20
+      - key: system.traits.dm.amount.thunder
+        mode: 2
+        value: '-2'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1757008291714
+      modifiedTime: 1757008332687
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!DSudvLQbkLWPs6g8.yIfImcmDkKgSAzI6'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1757008165575
+  modifiedTime: 1757008995520
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!DSudvLQbkLWPs6g8'

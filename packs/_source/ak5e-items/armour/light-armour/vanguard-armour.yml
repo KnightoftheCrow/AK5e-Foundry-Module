@@ -1,0 +1,66 @@
+folder: k0FYoIdhU0iFUDY2
+name: Vanguard Armour
+type: equipment
+img: icons/equipment/chest/breastplate-layered-leather-brown-silver.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>The ultimate in protective light armour, it offers solid protection to
+      the vitals without hindering mobility.</p>
+    chat: ''
+  identifier: vanguard-armour
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 13
+    units: lb
+  price:
+    value: 650
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  crewed: false
+  armor:
+    value: 14
+    dex: null
+  proficient: null
+  properties: []
+  strength: null
+  type:
+    value: light
+    baseItem: vanguardarmour
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1757006070532
+  modifiedTime: 1757006487662
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: 6UCrBjD53j1ZN3o0
+sort: 400000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!6UCrBjD53j1ZN3o0'

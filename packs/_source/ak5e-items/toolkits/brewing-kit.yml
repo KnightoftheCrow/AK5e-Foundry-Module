@@ -1,0 +1,294 @@
+folder: ZCpuCLRcXYiB8HKg
+name: Brewing Kit
+type: tool
+img: icons/containers/bags/case-leather-tan.webp
+system:
+  activities:
+    8d5nqmLY5Dh5PdfH:
+      _id: 8d5nqmLY5Dh5PdfH
+      type: check
+      sort: 250000
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      check:
+        associated: []
+        dc:
+          calculation: ''
+          formula: '13'
+        ability: ''
+      name: Brew Alcohol (End of Duration)
+    YZr4GNlMASl804hy:
+      type: utility
+      _id: YZr4GNlMASl804hy
+      sort: 200000
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '2'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      name: Begin Brewing Alcohol (2 Charges)
+    WValkd9FDkCSzh2u:
+      type: utility
+      _id: WValkd9FDkCSzh2u
+      sort: 300000
+      activation:
+        type: shortRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      name: Purify Water (1 Charge)
+    C0pNdKVQafpxGaLa:
+      type: utility
+      _id: C0pNdKVQafpxGaLa
+      sort: 400000
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      name: Mass Purify Water (3 Charges)
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Alcohol is a nearly universal truth in all civilisations. It bridges
+      gaps and opens doors in a way that words alone often cannot. The talents
+      and tools used in creating it, however, have more than one application,
+      turning poisoned and polluted water into lifesaving drinking water. The
+      brewer can always find a place, or people, who need them. The Brewer’s Kit
+      contains brewing and distillation equipment, as well as instruments for
+      monitoring the contents of fluids.</p><p><strong>Starting
+      Charges:</strong> 10 (Refill Cost 45 LMD per
+      Charge)</p><h3>Uses</h3><p><strong>Brew Alcohol (2 Charges) (Partially
+      Automated; add the results manually):</strong> As a Long Rest Activity,
+      you can begin to brew alcohol. It finishes brewing when you next complete
+      a Long Rest; the number of servings brewed is equal to your Proficiency
+      Bonus. To do so, when it finishes brewing, you must make a DC13 Wisdom
+      Check; if you are Proficient in this Kit, you may add your Proficiency
+      Bonus to this roll. On a success, the Alcohol you create is valuable, and
+      can be sold for normal price (25 LMD) (Add a
+      @UUID[Compendium.ak5e.ak5e-items.Item.aoWObPYKCfH44Ew2]{Valuable Alcohol}
+      to your Sheet). On a failure, you still create the alcohol, but it is of
+      lower quality, and its value is reduced to 0 (Add a
+      @UUID[Compendium.ak5e.ak5e-items.Item.o9ItelFHz1EoGDlE]{Non-Valuable
+      Alcohol} to your Sheet).</p><blockquote><p><span
+      style="text-decoration:underline"><strong><span
+      style="text-decoration:underline">Alcohol</span></strong></span></p><p>Alcohol
+      has been a feature of almost every civilisation since mankind learned the
+      art of fermentation. It can break the ice between strangers, either as a
+      gift, or through removing their inhibitions.</p><p>A Creature that
+      consumes Alcohol has a -1 Modifier to Dexterity Checks and Saving Throws,
+      but a +1 to Charisma Checks and Wisdom Saving
+      Throws.</p></blockquote><p><strong>Purify Water (1 Charge):</strong> As a
+      Short Rest Activity, you can use the distilling tools present in this kit
+      to purify enough water for a single person to drink for one
+      day.</p><h3>Proficient Uses</h3><p><strong>Analyse Fluids:</strong> Modern
+      brewing is a careful, scientific process that requires close monitoring
+      and fine instrumentation in order to avoid contamination. Using the
+      instruments and your knowledge, you can grant yourself a +5 bonus to any
+      check to determine the contents of a body of liquid, including if it is
+      poisoned/alcoholic/etc<strong>.</strong></p><p><strong>Mass Purify Water
+      (3 Charges):</strong> Your familiarity with the kit allows you to process
+      vast amounts of fluid when you have concerted time to work at it. As a
+      Long Rest Activity, you may purify enough drinking water for a number of
+      people equal to your Wisdom Modifier + your Proficiency Bonus.</p>
+    chat: ''
+  identifier: brewing-kit
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 15
+    units: lb
+  price:
+    value: 500
+    denomination: credits
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  type:
+    value: art
+    baseItem: brewing
+  ability: wis
+  chatFlavor: ''
+  proficient: null
+  properties: []
+  bonus: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.3
+  createdTime: 1756485611404
+  modifiedTime: 1766937748109
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: Ildgv7odyqeahxmy
+sort: 200000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!Ildgv7odyqeahxmy'

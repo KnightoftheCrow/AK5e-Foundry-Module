@@ -1,0 +1,209 @@
+folder: s2mwcbxx5qTz0iEd
+name: Missile Barrier Motes
+type: feat
+_id: S9bBvBQSRuoCG2Rh
+img: icons/magic/light/projectile-smoke-blue-white.webp
+system:
+  activities:
+    Ti3iGOhZBvNanUbW:
+      type: utility
+      _id: Ti3iGOhZBvNanUbW
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '20'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: amount
+              formula: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+      effects:
+        - _id: V1GIxH30AXDZ7Rty
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Expend Motes
+      img: ''
+      appliedEffects:
+        - V1GIxH30AXDZ7Rty
+  uses:
+    spent: 0
+    recovery: []
+    max: '20'
+  advancement: []
+  description:
+    value: ''
+    chat: ''
+  identifier: missile-barrier-motes
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: enchantment
+    subtype: ''
+effects:
+  - name: Missile Barrier Deflect
+    img: icons/magic/light/projectile-smoke-blue-white.webp
+    origin: Compendium.ak5e.ak5e-arts.Item.S9bBvBQSRuoCG2Rh
+    _id: xJhV3kHC3xJYO1H9
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.midi.all
+        mode: 2
+        value: '-[[(1d4+1)*(@scaling)]]'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - isHit
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      createdTime: 1758296490048
+      modifiedTime: 1758296530534
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!S9bBvBQSRuoCG2Rh.xJhV3kHC3xJYO1H9'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758294164151
+  modifiedTime: 1758296784831
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!S9bBvBQSRuoCG2Rh'

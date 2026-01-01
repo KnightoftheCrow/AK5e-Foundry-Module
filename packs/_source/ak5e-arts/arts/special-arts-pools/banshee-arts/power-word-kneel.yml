@@ -1,0 +1,219 @@
+folder: haPWBXVerFGoe54Z
+name: Power Word Kneel
+type: spell
+_id: Qwtl3zyqKFBSIoAd
+img: icons/magic/control/control-influence-puppet.webp
+system:
+  activities:
+    dYITpL2fuY4JSuKw:
+      type: utility
+      _id: dYITpL2fuY4JSuKw
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: q16yvJW0IlHeLoi5
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: '"@target.attributes.hp.value" < (20+(10*(@scaling.increase)))'
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: false
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Cast
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>Yours is the voice of a monarch; others will kneel. All Creatures with
+      20 or fewer Hit Points within a 30-foot cone originating from you gain the
+      Prone Condition, as they are forced to kneel to you until the end of their
+      next Turn.</p><p><strong>At Higher Levels:</strong> For each Level above 2
+      this Art is cast at, the threshold for affected Creatures is increased by
+      10 Hit Points.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: power-word-kneel
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: inst
+  level: 2
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: spell
+  properties:
+    - vocal
+  range:
+    units: self
+    special: ''
+  school: enc
+  target:
+    template:
+      contiguous: false
+      units: ft
+      count: ''
+      type: cone
+      size: '30'
+    affects:
+      choice: false
+      type: ''
+  sourceClass: cleric
+  prepared: 0
+effects:
+  - name: Kneeled
+    img: icons/magic/control/control-influence-puppet.webp
+    origin: Item.QZCbyGnv1hDaTEKG
+    transfer: false
+    _id: q16yvJW0IlHeLoi5
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - prone
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+        dependents:
+          - uuid: >-
+              Scene.kNpfn5vXHeLPRjDU.Token.ePHNyGAkf4c31bHb.Actor.mOp5XLwJRFB4upEZ.ActiveEffect.gVGNAerJ4LmMqRMN
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - turnEnd
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!Qwtl3zyqKFBSIoAd.q16yvJW0IlHeLoi5'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758563363515
+  modifiedTime: 1758563363515
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!Qwtl3zyqKFBSIoAd'
