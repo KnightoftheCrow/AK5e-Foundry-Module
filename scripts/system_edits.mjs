@@ -440,7 +440,58 @@ Hooks.once("init", () => {
       name: "ak5e.conditionTypes.condTypeSilen",
 	  img: "systems/dnd5e/icons/svg/statuses/silenced.svg",
 	  reference: "Compendium.ak5e.ak5e-rules.JournalEntry.yrw3CUXpJvV19NKU.JournalEntryPage.oda5UOSUJg7n9DQL",
-    };	
+    };
+
+	// Adds AK5e Standard Langs
+
+	CONFIG.DND5E.languages.standard.children.aegirian = "ak5e.Language.Aegirian"
+	CONFIG.DND5E.languages.standard.children.durinese = "ak5e.Language.Durinese"
+	CONFIG.DND5E.languages.standard.children.higashinese = "ak5e.Language.Higashinese"
+	CONFIG.DND5E.languages.standard.children.iberian = "ak5e.Language.Iberian"
+	CONFIG.DND5E.languages.standard.children.kazimierzian = "ak5e.Language.Kazimierzian"
+	CONFIG.DND5E.languages.standard.children.kjeragian = "ak5e.Language.Kjeragian"
+	CONFIG.DND5E.languages.standard.children.lateran = "ak5e.Language.Lateran"
+	CONFIG.DND5E.languages.standard.children.leithanian = "ak5e.Language.Leithanian"
+	CONFIG.DND5E.languages.standard.children.samifjod = "ak5e.Language.Samifjod"
+	CONFIG.DND5E.languages.standard.children.sargonic = "ak5e.Language.Sargonic"
+	CONFIG.DND5E.languages.standard.children.sarkazian = "ak5e.Language.Sarkazian"
+	CONFIG.DND5E.languages.standard.children.siracusan = "ak5e.Language.Siracusan"
+	CONFIG.DND5E.languages.standard.children.ursine = "ak5e.Language.Ursine"
+	CONFIG.DND5E.languages.standard.children.victorian = "ak5e.Language.Victorian"
+	CONFIG.DND5E.languages.standard.children.yanese = "ak5e.Language.Yanese"
+
+	// Adds AK5e Standard Langs
+
+	CONFIG.DND5E.languages.exotic.children.gaulish = "ak5e.Language.Gaulish"
+	CONFIG.DND5E.languages.exotic.children.sign = "ak5e.Language.SignLanguage"
+
+	// Delete standard 5e languages
+	
+	delete CONFIG.DND5E.languages.standard.children.common;
+	delete CONFIG.DND5E.languages.standard.children.draconic;
+	delete CONFIG.DND5E.languages.standard.children.dwarvish;
+	delete CONFIG.DND5E.languages.standard.children.elvish;
+	delete CONFIG.DND5E.languages.standard.children.giant;
+	delete CONFIG.DND5E.languages.standard.children.gnomish;
+	delete CONFIG.DND5E.languages.standard.children.goblin;
+	delete CONFIG.DND5E.languages.standard.children.halfling;
+	delete CONFIG.DND5E.languages.standard.children.orc;
+	delete CONFIG.DND5E.languages.standard.children.sign;
+
+	// Delete exotic 5e languages
+
+	delete CONFIG.DND5E.languages.exotic.children.aarakocra;
+    delete CONFIG.DND5E.languages.exotic.children.abyssal;
+    delete CONFIG.DND5E.languages.exotic.children.cant;
+    delete CONFIG.DND5E.languages.exotic.children.celestial;
+    delete CONFIG.DND5E.languages.exotic.children.deep;
+    delete CONFIG.DND5E.languages.exotic.children.druidic;
+    delete CONFIG.DND5E.languages.exotic.children.gith;
+    delete CONFIG.DND5E.languages.exotic.children.gnoll;
+    delete CONFIG.DND5E.languages.exotic.children.infernal;
+    delete CONFIG.DND5E.languages.exotic.children.primordial;
+    delete CONFIG.DND5E.languages.exotic.children.sylvan;
+    delete CONFIG.DND5E.languages.exotic.children.undercommon;
 
 });
 

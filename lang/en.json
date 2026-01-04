@@ -75,6 +75,25 @@
 			"condTypeNecro": "Necrotised",
 			"condTypeNerve": " Nervous Impairment",
 			"condTypeSilen": "Silenced"
-		}
+        },
+        "Language": {
+            "Aegirian": "Aegirian",
+            "Durinese": "Durinese",
+            "Higashinese": "Higashinese",
+            "Iberian": "Iberian",
+            "Kazimierzian": "Kazimierzian",
+            "Kjeragian": "Kjeragian",
+            "Lateran": "Lateran",
+            "Leithanian": "Leithanian",
+            "Samifjod": "Samifjod",
+            "Sargonic": "Sargonic",
+            "Sarkazian": "Sarkazian",
+            "Siracusan": "Siracusan",
+            "Ursine": "Ursine",
+            "Victorian": "Victorian",
+            "Yanese": "Yanese",
+            "Gaulish": "Gaulish",
+            "SignLanguage": "Sign"
+        }
     }
 }
