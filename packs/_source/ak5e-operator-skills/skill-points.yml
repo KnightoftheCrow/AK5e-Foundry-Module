@@ -5,9 +5,25 @@ system:
   activities: {}
   uses:
     spent: 10
-    recovery: []
+    recovery:
+      - period: sr
+        type: formula
+        formula: max(0, @scale.skillPoints.recovery - @item.uses.value)
     max: '10'
-  advancement: []
+  advancement:
+    - type: ScaleValue
+      _id: MPsy1IiQHflo1umX
+      configuration:
+        identifier: recovery
+        type: number
+        distance:
+          units: ''
+        scale:
+          '0':
+            value: 1
+      value: {}
+      title: ''
+      hint: ''
   description:
     value: >-
       <p><em>(Note: when added to a character sheet, remember to enable the
@@ -17,29 +33,28 @@ system:
       each Class). Some Branches may provide additional options for Skill
       selection; some may require you to select an Operator Skill from a
       different table.</p><p>Operator Skills have the following
-      properties:</p><ul><li><p><strong>Name:</strong> The name of the
-      Skill.</p></li><li><p><strong>SP Cost:</strong> How many Skill Points (SP)
+      properties:</p><ul><li><p><strong>Name: </strong>The name of the
+      Skill.</p></li><li><p><strong>SP Cost: </strong>How many Skill Points (SP)
       are required to Activate that Skill. Your maximum amount of Skill Points
       is equal to the highest Required SP of all your current
-      Skills.</p></li><li><p><strong>Start SP:</strong> Whenever you finish a
+      Skills.</p></li><li><p><strong>Start SP: </strong>Whenever you finish a
       Long Rest, if you have less Skill Points than this Value, you gain Skill
       Points until you have this value. If you have multiple Skills with a
       Starting SP, use the highest one.</p></li><li><p><strong>Charging
       Method:</strong> Each Skill allows you to gain Skill Point in one of three
       ways. You cannot gain Skill Points if you currently have an Active Skill,
       from an Attack made or Art cast as part of a Skill, from Damage dealt by a
-      Skill, or by Hit Points restore.</p><ul><li><p><strong>Automatic:</strong>
-      You gain 2 Skill Points at the Beginning of your Turn in
-      combat.</p></li><li><p><strong>Offensive:</strong> You gain 1 Skill Point
+      Skill, or by Hit Points restore.</p><ul><li><p><strong>Automatic:
+      </strong>You gain 2 Skill Points at the Beginning of your Turn in
+      combat.</p></li><li><p><strong>Offensive: </strong>You gain 1 Skill Point
       whenever you do any of the following during your Turn in
       combat:</p><ul><li><p>Deal Damage to a hostile Creature; this can only
       occur once per Attack.</p></li><li><p>Restore Hit Points to a Creature
       except yourself.</p></li><li><p>Grant Temporary Hit Points to a Creature
-      (except yourself) with an
-      Art.</p></li></ul></li><li><p><strong>Defensive:</strong> You gain 2 Skill
-      Points whenever a hostile Creature makes an Attack against you, or you
-      take Damage from a hostile Creature through a non-Attack
-      source.</p></li></ul></li></ul><blockquote><p><span
+      (except yourself) with an Art.</p></li></ul></li><li><p><strong>Defensive:
+      </strong>You gain 2 Skill Points whenever a hostile Creature makes an
+      Attack against you, or you take Damage from a hostile Creature through a
+      non-Attack source.</p></li></ul></li></ul><blockquote><p><span
       style="text-decoration:underline"><span
       style="text-decoration:underline">Stacking Charging
       Methods</span></span></p><p>Each of your current Skills allows you to gain
@@ -59,7 +74,7 @@ system:
       active at a time, even if they have the Skill Points to activate
       another.</p></blockquote>
     chat: ''
-  identifier: skill-points
+  identifier: skillPoints
   source:
     revision: 1
     rules: '2014'
@@ -95,9 +110,9 @@ _stats:
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.2.3
+  systemVersion: 5.2.4
   createdTime: 1766943177603
-  modifiedTime: 1766943247442
+  modifiedTime: 1768059258791
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0
