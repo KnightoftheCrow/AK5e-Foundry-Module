@@ -1,0 +1,59 @@
+folder: 5ej4KENJRk8I9Ksg
+name: Sniper’s Intuition (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Toddifons1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '2'
+  advancement: []
+  description:
+    value: >-
+      <p>When a Creature hits you with an Attack, you can expend your Reaction
+      to halve the Damage you take from that Attack. Once you have used this
+      Feature, you cannot do so again until you have finished a Short
+      Rest.</p><p><strong>Module:</strong> You can now use this Feature twice,
+      and regain all expended uses when you complete a Short or Long
+      Rest.</p><p><strong>Not Automated:</strong> Used for usage traking.</p>
+    chat: ''
+  identifier: snipers-intuition
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768005778859
+  modifiedTime: 1768005778892
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: 9sEkisUaZbEQFW7r
+sort: 300000
+_key: '!items!9sEkisUaZbEQFW7r'

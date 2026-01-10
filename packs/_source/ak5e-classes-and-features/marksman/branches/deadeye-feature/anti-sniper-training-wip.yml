@@ -1,0 +1,56 @@
+folder: mhhCPYRgjBzheVER
+name: Anti-Sniper Training (WIP)
+type: feat
+_id: NVVRhhbcvRmYYPe8
+img: icons/skills/targeting/crosshair-ringed-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Keep low, and keep your profile small. That’s how you survive when the
+      bolts and bullets start flying. </p><p>After you enter Deadshot, you gain
+      the benefit of Half Cover until the beginning of your next Turn. If you
+      would gain the benefit of Half Cover from a different source, you instead
+      gain the benefit of Three-Quarters Cover while you are benefitting from
+      that additional source.</p>
+    chat: ''
+  identifier: anti-sniper-training-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767621336614
+  modifiedTime: 1767733327283
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!NVVRhhbcvRmYYPe8'

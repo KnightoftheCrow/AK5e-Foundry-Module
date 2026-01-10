@@ -1,0 +1,102 @@
+folder: 5ej4KENJRk8I9Ksg
+name: Ambush (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Manticore1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module:</strong> This additional Damage now applies to all
+      Damage you deal, not just Attacks.</p>
+    chat: ''
+  identifier: ambush
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Ambush (Module)
+    img: modules/ak5e/icons/Skill-Manticore1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.MNZ7KjBbXyRfHWns
+    _id: rsQ9fLr0ReGTdVci
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.extraDice
+        mode: 2
+        value: bonus=1; combat.round === 1;
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1767986283239
+    _key: '!items.effects!MNZ7KjBbXyRfHWns.rsQ9fLr0ReGTdVci'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767986099072
+  modifiedTime: 1767986273732
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: MNZ7KjBbXyRfHWns
+sort: 100000
+_key: '!items!MNZ7KjBbXyRfHWns'

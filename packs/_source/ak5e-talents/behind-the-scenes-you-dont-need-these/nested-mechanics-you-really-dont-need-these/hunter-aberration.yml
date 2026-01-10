@@ -39,7 +39,7 @@ system:
 effects:
   - name: Hunter
     img: icons/skills/targeting/crosshair-scope-sniper-green.webp
-    origin: Item.NIDdZeNyBImRP8UM
+    origin: Compendium.ak5e.ak5e-talents.Item.BA71iNiWfQVQnKJ4
     _id: GNFjxq29W0Ikj0tl
     type: base
     system: {}
@@ -88,10 +88,11 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.347'
+      coreVersion: '13.351'
       systemId: dnd5e
       systemVersion: 5.1.2
-      lastModifiedBy: null
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1767602845041
     _key: '!items.effects!BA71iNiWfQVQnKJ4.GNFjxq29W0Ikj0tl'
 flags: {}
 _stats:

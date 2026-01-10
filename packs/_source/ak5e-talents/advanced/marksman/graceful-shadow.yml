@@ -1,0 +1,75 @@
+folder: AynL7yzSlptsmcjl
+name: Graceful Shadow
+type: feat
+_id: 8XbsWW3ZnN9W6P2t
+img: modules/ak5e/icons/Skill-Ptilopsis1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: YfGUDFYJSbmlRIQD
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.AbSFCphHX1o0ACKh
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>When you take the Dodge Action, you may make one Ranged Weapon Attack
+      as part of that Action.</p><p><strong>Module:</strong> When you take the
+      Dodge Action, the first time before your next Turn that you would take
+      Damage from a hostile Creature, that Damage is halved.</p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: graceful-shadow
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767738613943
+  modifiedTime: 1767990807012
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!8XbsWW3ZnN9W6P2t'

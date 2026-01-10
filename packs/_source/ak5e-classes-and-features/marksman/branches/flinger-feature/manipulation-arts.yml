@@ -1,0 +1,82 @@
+folder: YSYBaEbbvAZsJUrT
+name: Manipulation Arts
+type: feat
+_id: If3R8HLnr1ePxiM4
+img: modules/ak5e/icons/Skill-M%C5%82ynar3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      _id: wmrFr2l5wGrfY65O
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.RInB0e27OLcMt9np
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>The Arts you use to manoeuvre your weapons can have other applications.
+      You can cast Arts; the information below details how you use those rules
+      as a Flinger.</p><p><strong>Arts Points</strong>. The Flinger Arts Casting
+      table shows how many Arts Points you have to cast your Level 1+ Arts. You
+      regain all expended Arts Points when you finish a Long Rest. When you cast
+      an Art, if that Art only affects either you (such as Mage Armour, or
+      Heroism cast on yourself) or your Target (in the case of Arts that affect
+      an area, they are the only Creature in that area), that Art costs 1 fewer
+      Art Point, to a minimum of 0.</p><p><strong>Maximum Arts Level.</strong>
+      The Flinger Arts Casting table shows the maximum Level you can cast an Art
+      at, based on your Marksman Level. If an Art’s Level is above your current
+      Maximum Art Level, you cannot cast it, even if it is
+      Prepared.</p><p><strong>Spellcasting Ability.</strong> When you gain this
+      Feature, choose either Intelligence, Wisdom, or Charisma; that is your
+      Spellcasting Ability.</p><p><strong>Flinger Arts Pools.</strong> When you
+      gain this Feature, choose two of the Standard Arts Pools available to the
+      Caster Class; you learn all of the levelled Arts of 4th Level or less from
+      those Pools. These Arts are always Prepared.</p><p><strong>Not
+      automated.</strong></p>
+    chat: ''
+  identifier: manipulation-arts-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties:
+    - mgc
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767621694607
+  modifiedTime: 1767876161668
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!If3R8HLnr1ePxiM4'

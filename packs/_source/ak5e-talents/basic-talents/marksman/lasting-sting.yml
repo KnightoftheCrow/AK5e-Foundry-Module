@@ -1,0 +1,237 @@
+folder: U1VvPUnEP8A2c7Xk
+name: Lasting Sting
+type: feat
+_id: EUHCD2cxipRq5Gox
+img: modules/ak5e/icons/Skill-Verdant1.webp
+system:
+  activities:
+    hEZjaMX3wgl4QcVD:
+      type: utility
+      _id: hEZjaMX3wgl4QcVD
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 57fzLppQiRGJjDuP
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Lasting Sting
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: rwChVlvQOpZeBvEU
+      configuration:
+        allowDrops: false
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.eETPdcPlC2Fx8X4w
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
+  description:
+    value: >-
+      <p>Creatures who you have dealt Poison Damage to during a Turn take 2d10
+      Poison Damage at the end of the Turn.</p><p><strong>Module:</strong>
+      Additionally, at the end of the Turn, they must pass a DC15 Constitution
+      Saving Throw or suffer the Poisoned Condition until the end of their next
+      Turn.</p><p><strong>Partially Automated:</strong> Applyed bonus poison
+      damage then rolling Damage rather at end of the Turn.</p>
+    chat: ''
+  identifier: lasting-sting
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Lasting Sting
+    img: modules/ak5e/icons/Skill-Verdant1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.EUHCD2cxipRq5Gox
+    _id: 57fzLppQiRGJjDuP
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.bonus
+        mode: 2
+        value: bonus=2d10; usesCount=1; damageTypes.poison;
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: true
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767897643403
+      modifiedTime: 1767898412533
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!EUHCD2cxipRq5Gox.57fzLppQiRGJjDuP'
+sort: 500000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767735487829
+  modifiedTime: 1767910044888
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!EUHCD2cxipRq5Gox'

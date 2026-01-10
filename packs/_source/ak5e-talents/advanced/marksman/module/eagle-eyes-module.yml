@@ -1,0 +1,108 @@
+folder: 5ej4KENJRk8I9Ksg
+name: Eagle Eyes (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Pepe2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module:</strong> Creatures do not have Advantage on Attacks
+      against you as a result of being unseen, and you can now see Invisible
+      Creatures within 30 feet of you.</p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Eagle Eyes (Module)
+    img: modules/ak5e/icons/Skill-Pepe2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.2emfNpzkqQbxf5dd
+    _id: a02eAb9KR6jMgMaI
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.senses.blindsight
+        mode: 2
+        value: '30'
+        priority: 20
+      - key: flags.automated-conditions-5e.grants.attack.noAdvantage
+        mode: 2
+        value: >-
+          !rollingActor.statuses.incapacitated &&
+          opponentActor.statuses.invisible;
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: dae.eval(statuses.blinded)
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1767991081613
+    _key: '!items.effects!2emfNpzkqQbxf5dd.a02eAb9KR6jMgMaI'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767989604680
+  modifiedTime: 1767990175603
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: 2emfNpzkqQbxf5dd
+sort: 62500
+_key: '!items!2emfNpzkqQbxf5dd'

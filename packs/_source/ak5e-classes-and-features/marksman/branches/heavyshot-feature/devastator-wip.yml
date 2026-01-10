@@ -1,0 +1,62 @@
+folder: JCxDQcgqE3WNSRZl
+name: Devastator (WIP)
+type: feat
+_id: 3pTpTq10nYQ4Hf9t
+img: icons/skills/ranged/tracers-triple-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your Attacks strike with such force that they can punch through
+      multiple foes.</p><p>When you make a Ranged Attack against a Creature
+      within the Normal Range of that Weapon, that Attack has +1 Critical Range.
+      Additionally, if you reduce that Creature to 0 Hit Points with an Attack
+      using your Custom Job, and there is another Creature that
+      is:</p><ul><li><p>Behind the original Creature from your
+      perspective.</p></li><li><p>Within 10 feet of the original
+      Creature.</p></li><li><p>Has an AC equal to or less than the Attack Roll
+      made for that Attack.</p></li></ul><p>That Creature then takes any excess
+      Damage from the initial Attack. If the Creature reduced to 0 was your
+      Target, then roll an additional die of Damage for that Attack, and add it
+      to the excess Damage taken by the second Creature.</p>
+    chat: ''
+  identifier: devastator-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 112500
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767625690882
+  modifiedTime: 1767733503843
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!3pTpTq10nYQ4Hf9t'

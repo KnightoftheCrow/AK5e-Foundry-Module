@@ -1,0 +1,74 @@
+folder: 9MryoDbGKoSuHyVC
+name: Always Another Option (WIP)
+type: feat
+_id: 1zqkOSnj10SFSusv
+img: icons/weapons/ammunition/bullets-cartridge-shell-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+      - period: initiative
+        type: formula
+        formula: '1'
+    max: '@prof'
+  advancement: []
+  description:
+    value: >-
+      <p>The art of being a generalist is the art of having many tools on which
+      to rely; the more effective, the better. You gain the following
+      benefits:</p><p><strong>Option Recharge.</strong> If you roll Initiative
+      and have less than your maximum uses of your Versatile Approach Feature
+      remaining, you recover 1 use.</p><p><strong>Upgraded Options.</strong> The
+      Options of your Versatile Approach Feature are improved in the following
+      ways:</p><ul><li><p><strong>Area Denial:</strong> The cylinder created
+      lingers for an additional round; Creatures that enter the area or end
+      their Turn within it must make the Saving Throw as if they were within the
+      area when it appeared. Additionally, when you use this Option, you may
+      nominate any number of Creatures that can hear you to be immune to its
+      effects.</p></li><li><p><strong>Crowd Control:</strong> You may repeat the
+      Attack an additional time; however, it must be against a different
+      Creature than the other two, and still deals half
+      Damage.</p></li><li><p><strong>Stop their Approach:</strong> Creatures
+      that succeed on this Saving Throw still have their Speed reduced by 10
+      feet.</p></li><li><p><strong>Shoot to Kill:</strong> The Damage of this
+      Option is increased to 1d8 per instance of Damage you have dealt to that
+      Creature since your last Turn.</p></li></ul>
+    chat: ''
+  identifier: always-another-option-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 112500
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767620002821
+  modifiedTime: 1768005958464
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!1zqkOSnj10SFSusv'

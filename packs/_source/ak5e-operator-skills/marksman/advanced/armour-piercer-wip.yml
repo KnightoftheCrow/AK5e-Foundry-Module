@@ -1,0 +1,53 @@
+folder: FNmG2sdf2PkjKSHw
+name: Armour-Piercer (WIP)
+type: feat
+_id: OtDq86Ro9qTIk8k1
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Make a Weapon Attack as part of this Action. If it hits a Creature that
+      has any Physical DR, the value of that DR is halved, rounding down, until
+      the end of your next Turn.</p>
+    chat: ''
+  identifier: armour-piercer-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767618708914
+  modifiedTime: 1767618719921
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!OtDq86Ro9qTIk8k1'

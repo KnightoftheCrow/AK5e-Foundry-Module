@@ -61,7 +61,7 @@ system:
 effects:
   - name: Alacrity
     img: icons/skills/movement/feet-winged-sandals-tan.webp
-    origin: Item.31cYxbmvh4Xvm69m
+    origin: Compendium.ak5e.ak5e-talents.Item.x56jXcB3ASm9LPRt
     _id: ggnhEgbmh0JUEuWz
     type: base
     system: {}
@@ -102,10 +102,11 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.347'
+      coreVersion: '13.351'
       systemId: dnd5e
       systemVersion: 5.1.2
-      lastModifiedBy: null
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1767862226216
     _key: '!items.effects!x56jXcB3ASm9LPRt.ggnhEgbmh0JUEuWz'
 flags:
   dnd5e:

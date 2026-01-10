@@ -1,0 +1,60 @@
+folder: sFhUUBrNUgchnK7r
+name: Secondary Detonation (WIP)
+type: feat
+_id: TUQxFxICbuZjaFYg
+img: icons/skills/ranged/bomb-grenade-thrown-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Whenever you deal Thunder Damage as a result of aWeapon with the Splash
+      (X) Property, you can cause aSecondary Detonation (no Action required).
+      Choose apoint you can see that is within 15 feet of the centre ofthe
+      original effect, and resolve that Attack or Trap againcentred on that
+      location. However, the Damage of thisSecondary Detonation is halved, and
+      if a Creaturesucceeds on the Saving Throw, they take no Damage.These
+      Secondary Detonations cannot generateadditional Secondary
+      Detonations.</p><p>You may use this Feature a number of times equal toyour
+      Proficiency Bonus, and recover all expended usesupon finishing a Long
+      Rest.</p>
+    chat: ''
+  identifier: secondary-detonation-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 112500
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767620051759
+  modifiedTime: 1767733224892
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!TUQxFxICbuZjaFYg'

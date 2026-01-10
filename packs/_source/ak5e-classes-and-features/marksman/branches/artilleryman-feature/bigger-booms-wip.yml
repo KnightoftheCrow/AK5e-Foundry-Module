@@ -1,0 +1,56 @@
+folder: sFhUUBrNUgchnK7r
+name: Bigger Booms (WIP)
+type: feat
+_id: UFy7jqPfJ041ZP7X
+img: icons/skills/ranged/bullet-ball-pink.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Bigger really is better, sometimes. You gain thefollowing benefits:
+      </p><p><strong>Enhanced Payload.</strong> When you take the Attack
+      Action,you can double the value of X for any Weapon with theSplash (X)
+      Property wielded by you for that Action.</p><p><strong>Sharpened
+      Shrapnel.</strong> Your Martial DC is increasedby 2 for the purpose of the
+      Splash (X) Property</p>
+    chat: ''
+  identifier: bigger-booms-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 150000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767620063342
+  modifiedTime: 1768006083989
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!UFy7jqPfJ041ZP7X'

@@ -1,0 +1,61 @@
+folder: q9mrRuD7Bdhth58y
+name: Overpacked Charges (WIP)
+type: feat
+_id: 56nAXgeuXzabMUHj
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <ul><li><p><strong>Name</strong>: Overpacked
+      Charges.</p></li><li><p><strong>SP Cost:</strong>
+      15.</p></li><li><p><strong>Start SP:</strong>
+      5.</p></li><li><p><strong>Charging:</strong>
+      Offensive.</p></li><li><p><strong>Activation Cost:</strong> Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> For the duration, the size
+      of any effect created by you that affects a Sphere, Cube, Cylinder, or
+      Cone is increased by 10 feet. Additionally, If these effects involve a
+      Saving Throw, the DC of that Saving Throw is increased by
+      1.</p></li><li><p><strong>Duration:</strong> 2
+      Rounds.</p></li></ul><p></p>
+    chat: ''
+  identifier: overpacked-charges-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 125000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767618434762
+  modifiedTime: 1767918908012
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!56nAXgeuXzabMUHj'

@@ -1,0 +1,59 @@
+folder: sFhUUBrNUgchnK7r
+name: Force of Nature (WIP)
+type: feat
+_id: PHEUSthKoaaYcuub
+img: icons/skills/ranged/cannon-barrel-firing-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>No fortification is proof against your cataclysmic explosions. You gain
+      the following benefits:</p><p><strong>Scatter Them.</strong> Once per
+      Short Rest, when you deal Thunder Damage as a result of a Weapon with the
+      Splash (X) Property you can cause all Creatures that take that Damage to
+      be blown away (no Action required); Creatures are flung 30 feet away from
+      the centre of the blast. If they collide with a solid surface as a result
+      of this movement, they take 4d8 Bludgeoning Damage.</p><p><strong>Siege
+      Attacker.</strong> When you deal Thunder Damage to a Vehicle or Structure,
+      that Damage is doubled.</p>
+    chat: ''
+  identifier: force-of-nature-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 106250
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767620075060
+  modifiedTime: 1767733265769
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!PHEUSthKoaaYcuub'

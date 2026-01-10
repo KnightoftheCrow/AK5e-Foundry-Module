@@ -1,0 +1,138 @@
+folder: AynL7yzSlptsmcjl
+name: Eagle Eyes
+type: feat
+_id: wl1K4E167035p5yf
+img: modules/ak5e/icons/Skill-Pepe2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: wvsYRbngF72Zg79A
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.2emfNpzkqQbxf5dd
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>You have have a +5 Bonus to Perception and Investigation Checks based
+      on sight, and as long as you can see, your Passive Percpetion and
+      Investigation are increased by 5.</p><p><strong>Module:</strong> Creatures
+      do not have Advantage on Attacks against you as a result of being unseen,
+      and you can now see Invisible Creatures within 30 feet of
+      you.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Eagle Eyes
+    img: modules/ak5e/icons/Skill-Pepe2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.wl1K4E167035p5yf
+    _id: OpAje3EoycDM3t8h
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.inv.bonuses.check
+        mode: 2
+        value: '5'
+        priority: 20
+      - key: system.skills.inv.bonuses.passive
+        mode: 2
+        value: '5'
+        priority: 20
+      - key: system.skills.prc.bonuses.passive
+        mode: 2
+        value: '5'
+        priority: 20
+      - key: system.skills.prc.bonuses.check
+        mode: 2
+        value: '5'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: dae.eval(statuses.blinded)
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: true
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767988923411
+      modifiedTime: 1767990166692
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!wl1K4E167035p5yf.OpAje3EoycDM3t8h'
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767738535257
+  modifiedTime: 1767990140901
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!wl1K4E167035p5yf'

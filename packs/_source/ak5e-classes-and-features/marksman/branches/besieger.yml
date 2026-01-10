@@ -1,0 +1,120 @@
+folder: O2Yp1afpugL0lA12
+name: Besieger
+type: subclass
+img: modules/ak5e/icons/Besieger_Sniper.webp
+system:
+  advancement:
+    - type: ItemGrant
+      _id: rO1NQ6l5KI5cwyAm
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.70nxyptZ1iiASjcc
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.pycRbSf4B2JDBH5v
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      _id: jDdVVJ7ScCIpPbKC
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.dwEg1h7oKT7vUqOJ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 4
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      _id: wTyxGrKke5D6SV3X
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.fhugPvUTKbenhNbf
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      _id: DNRA8kqnZbQAuz9f
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.z3AF1by2VVCv63k0
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      _id: 7n35A3aDQvHBSnAW
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.9ryVEMxORXy9eJ2A
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Branch Feature
+      hint: ''
+  description:
+    value: >-
+      <p>Besieger Marksmen are slow and deliberate. They take their time getting
+      to the perfect position, where they know there will be no interruptions.
+      Then, they entrench themselves in that position; and may the divine help
+      the foe in their sights then. No armour is proof against a Besieger, and
+      the larger you are, the more of you there is to pierce.</p><p>You get next
+      Branch Features:</p><table><tbody><tr><td><p>Level</p></td><td><p>Branch
+      Feature</p></td></tr><tr><td><p
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.70nxyptZ1iiASjcc]{Siege
+      Mode},
+      @UUID[Compendium.ak5e.ak5e-classes-and-features.Item.pycRbSf4B2JDBH5v]{Large
+      Target}</p></td></tr><tr><td><p
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.dwEg1h7oKT7vUqOJ]{Deliberate,
+      Efficient}</p></td></tr><tr><td><p
+      style="text-align:center">10</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.fhugPvUTKbenhNbf]{Siege
+      Bolt}</p></td></tr><tr><td><p
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.z3AF1by2VVCv63k0]{Goliath’s
+      Bane}</p></td></tr><tr><td><p
+      style="text-align:center">18</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.9ryVEMxORXy9eJ2A]{Godpiercer}</p></td></tr></tbody></table>
+    chat: ''
+  identifier: besieger
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: marksman
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767615315487
+  modifiedTime: 1767875855199
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: ekbToVHkOM09qdQ1
+sort: 150000
+_key: '!items!ekbToVHkOM09qdQ1'

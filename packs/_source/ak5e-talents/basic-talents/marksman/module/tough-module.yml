@@ -1,0 +1,54 @@
+folder: 7chRMuJsyyn3S2jB
+name: Tough (Module)
+type: feat
+_id: TUC52moYi0vvumMI
+img: modules/ak5e/icons/Skill-Gravel1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module:</strong> Whenever you expend a Hit Dice to restore your
+      Hit Points, you recover additional Hit Points equal to your Proficiency
+      Bonus.</p>
+    chat: ''
+  identifier: tough-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 100004
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767736673437
+  modifiedTime: 1767915177529
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!TUC52moYi0vvumMI'

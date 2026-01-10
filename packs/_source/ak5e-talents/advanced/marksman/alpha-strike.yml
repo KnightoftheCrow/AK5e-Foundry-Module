@@ -1,0 +1,236 @@
+folder: AynL7yzSlptsmcjl
+name: Alpha Strike
+type: feat
+_id: o0GnFDZnQv6sXcbC
+img: modules/ak5e/icons/Skill-Lappland2.png
+system:
+  activities:
+    z0Au4A1IpJPvONOI:
+      type: utility
+      name: Alpha Strike
+      _id: z0Au4A1IpJPvONOI
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: VSDmSkJS3PKvLsNb
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: nINoGoIKf3WiRyEY
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.imHOfHdGlX4eXLIq
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>The first time you deal Damage to a Creature with an Attack, that
+      Attack deals 1d12 additional Weapon Damage. It is considered to be the
+      first time you hit a Creature if you have rolled Initiative since the last
+      time you hit them with an Attack.</p><p><strong>Module:</strong> The
+      additional Damage becomes 2d12.</p>
+    chat: ''
+  identifier: alpha-strike
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Alpha Strike
+    img: modules/ak5e/icons/Skill-Lappland2.png
+    origin: Compendium.ak5e.ak5e-talents.Item.o0GnFDZnQv6sXcbC
+    _id: VSDmSkJS3PKvLsNb
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.bonus
+        mode: 2
+        value: bonus=1d12; UsesCount=1;
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: true
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767982582729
+      modifiedTime: 1767985310156
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!o0GnFDZnQv6sXcbC.VSDmSkJS3PKvLsNb'
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767738105694
+  modifiedTime: 1768003978483
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!o0GnFDZnQv6sXcbC'

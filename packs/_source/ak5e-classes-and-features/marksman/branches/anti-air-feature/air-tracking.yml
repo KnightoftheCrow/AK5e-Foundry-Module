@@ -1,0 +1,330 @@
+folder: 9MryoDbGKoSuHyVC
+name: Air Tracking
+type: feat
+_id: R582ILYssQOBgweH
+img: icons/weapons/bows/shortbow-recurve-yellow-blue.webp
+system:
+  activities:
+    3Bflsfipem8gakYM:
+      type: utility
+      _id: 3Bflsfipem8gakYM
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: Target affected Creature has 0 Hit Points
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: H4lKO3dPdQNYRFjw
+          level:
+            min: null
+            max: 10
+        - _id: RCwGV86PdsnTrDhv
+          level:
+            min: 11
+            max: null
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: enemy
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Shifting Focus
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You are already well versed in tracking fast moving aerial targets. You
+      gain the following benefits:</p><p><strong>Pigeon Shooting:</strong> Your
+      Ranged Attacks against Creatures that are not in contact with the ground,
+      or moved 60 or more feet during their last Turn, are made at
+      Advantage.</p><p><strong>Shifting Focus:</strong> If your Target is
+      reduced to 0 Hit Points, you can use a Bonus Action during your Turn to
+      choose a new hostile Creature to be your Target for the remainder of the
+      duration.</p><p><strong>Partially Automated: </strong>Pigeon Shooting
+      can't account creature what not contact with ground;<strong> </strong>Use
+      this feat to apply Target on a new Creature, but with full time of Target
+      duration.</p>
+    chat: ''
+  identifier: air-tracking-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Pigeon Shooting
+    img: icons/weapons/bows/shortbow-recurve-yellow-blue.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.R582ILYssQOBgweH
+    _id: enKA9t8i1Cjf4pdZ
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.attack.advantage
+        mode: 5
+        value: hasAttack && actionType.rwak && (opponentActor.movementTurn >= 60)
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767689048326
+      modifiedTime: 1767690206680
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!R582ILYssQOBgweH.enKA9t8i1Cjf4pdZ'
+  - name: Target
+    img: assets/Skill-Lemuen1.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.R582ILYssQOBgweH
+    _id: H4lKO3dPdQNYRFjw
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.attack.bonus
+        mode: 5
+        value: bonus=1; hasAttack && effectOriginTokenId === tokenId;
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767690208823
+      modifiedTime: 1767690672149
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!R582ILYssQOBgweH.H4lKO3dPdQNYRFjw'
+  - name: Enhanced Target
+    img: assets/Skill-Lemuen1.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.R582ILYssQOBgweH
+    _id: RCwGV86PdsnTrDhv
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.attack.bonus
+        mode: 5
+        value: bonus=2; hasAttack && effectOriginTokenId === tokenId;
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767690426259
+      modifiedTime: 1767690618801
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!R582ILYssQOBgweH.RCwGV86PdsnTrDhv'
+sort: 100000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767619892281
+  modifiedTime: 1767732867860
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!R582ILYssQOBgweH'

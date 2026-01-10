@@ -1,0 +1,59 @@
+folder: JQfn8YazPakYGtWZ
+name: Let the Light In (WIP)
+type: feat
+_id: 2vd3mVNlbCxABkBp
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>For brief moments, you and your weapon are as one; man and machine
+      working in concord to the same ends. Yourflow state guides you and your
+      weapon to a single goal; punching as many holes in your foes as you
+      can.</p><p>You may use this Feature as an Action; as part of that Action,
+      you regain all expended Charges. For the next minute,you regain use of
+      your Target Lock Feature at the beginning of each of your Turns, and you
+      may regain all of yourexpended Charges as a Bonus Action.</p><p>Once you
+      have used this Feature, you may not do so again until you have completed a
+      Long Rest.</p>
+    chat: ''
+  identifier: let-the-light-in-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 18
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 125000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767626067454
+  modifiedTime: 1767733565351
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!2vd3mVNlbCxABkBp'

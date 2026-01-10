@@ -1,0 +1,140 @@
+folder: 5ej4KENJRk8I9Ksg
+name: Tactical Mind (Module)
+type: feat
+img: modules/ak5e/icons/Skill-TheresaBlackCrownedSage.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module:</strong> You now regain use of this Feature when you
+      complete a Short Rest.</p>
+    chat: ''
+  identifier: tactical-mind
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - _id: waeG7ZDIB5myAbe6
+    changes:
+      - key: flags.midi-qol.optional.tactical-mind-module.attack.all
+        mode: 5
+        value: reroll-withBonus 1d10
+        priority: 20
+      - key: flags.midi-qol.optional.tactical-mind-module.label
+        mode: 5
+        value: Tactical Mind (Module)
+        priority: 20
+      - key: flags.midi-qol.optional.tactical-mind-module.save.all
+        mode: 5
+        value: reroll-withBonus 1d10
+        priority: 20
+      - key: flags.midi-qol.optional.tactical-mind-module.check.all
+        mode: 5
+        value: reroll-withBonus 1d10
+        priority: 20
+      - key: flags.midi-qol.optional.tactical-mind-module.count
+        mode: 5
+        value: ItemUses.Tactical Mind (Module)
+        priority: 20
+    disabled: false
+    duration:
+      startTime: 47180419488
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: 260
+      startTurn: 1
+    origin: Compendium.ak5e.ak5e-talents.Item.fXbvDAjCMEh40323
+    transfer: true
+    flags:
+      dae:
+        stackable: none
+        macroRepeat: none
+        specialDuration: []
+        transfer: false
+        durationExpression: ''
+        selfTarget: false
+        selfTargetAlways: false
+        disableIncapacitated: false
+        showIcon: false
+        disableCondition: ''
+      ActiveAuras:
+        isAura: false
+        radius: ''
+        aura: None
+        alignment: ''
+        type: ''
+        ignoreSelf: false
+        height: false
+        hidden: false
+        hostile: false
+        onlyOnce: false
+        displayTemp: false
+        nameOverride: ''
+        customCheck: ''
+        wallsBlock: system
+      core:
+        overlay: false
+      dnd5e-helpers:
+        rest-effect: Ignore
+      dnd5e:
+        riders:
+          statuses: []
+    tint: '#ffffff'
+    name: Tactical Mind (Module)
+    description: ''
+    statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1768002949924
+    img: modules/ak5e/icons/Skill-TheresaBlackCrownedSage.png
+    type: base
+    system: {}
+    sort: 0
+    _key: '!items.effects!fXbvDAjCMEh40323.waeG7ZDIB5myAbe6'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768002806917
+  modifiedTime: 1768003939558
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: fXbvDAjCMEh40323
+sort: 90625
+_key: '!items!fXbvDAjCMEh40323'

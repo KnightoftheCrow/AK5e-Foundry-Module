@@ -1,0 +1,77 @@
+folder: AynL7yzSlptsmcjl
+name: Crossfire
+type: feat
+_id: FPq9QdOHl0EzXDV5
+img: modules/ak5e/icons/Skill-Aciddrop2.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: zTeLI017QiRahiuW
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.m0BrBNIoNX0m0uHA
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>During your Turn, you have Advantage on your first Ranged Attack
+      against each Creature that has had a Ranged Attack made against it by
+      another Creature since the end of your last
+      Turn.</p><p><strong>Module:</strong> Your Ranged Attacks now have
+      Advantage against Creatures that have had a Ranged Attack made against
+      them by another Creature since the end of your last
+      Turn.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: crossfire
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767738327759
+  modifiedTime: 1767986654914
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!FPq9QdOHl0EzXDV5'

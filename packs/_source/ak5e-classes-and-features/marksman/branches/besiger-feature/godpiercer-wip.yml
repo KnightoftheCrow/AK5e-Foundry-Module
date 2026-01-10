@@ -1,0 +1,54 @@
+folder: mQ7J5doN5qC9pvT1
+name: Godpiercer (WIP)
+type: feat
+_id: 9ryVEMxORXy9eJ2A
+img: icons/skills/targeting/target-strike-triple-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>No armour, forged or natural, can ward your strikes. </p><p>Your Siege
+      Mode and Deliberate, Efficient Features no longer grant additional Damage.
+      Instead, when they would have provided additional Damage, they instead
+      cause Creatures hit by your Attacks to lose 8 Hit Points.</p>
+    chat: ''
+  identifier: godpiercer-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 18
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 125000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767621108917
+  modifiedTime: 1767733285852
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!9ryVEMxORXy9eJ2A'

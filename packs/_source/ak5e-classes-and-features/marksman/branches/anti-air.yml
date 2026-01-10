@@ -1,0 +1,126 @@
+name: Anti-Air
+type: subclass
+img: modules/ak5e/icons/Marksman_Sniper.webp
+system:
+  advancement:
+    - type: ItemGrant
+      _id: LcG177F71qoOWA3A
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.R582ILYssQOBgweH
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.vTm5mXnTRh3dCdje
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      _id: 0mLEZiEe1H6psFkJ
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.lIFTIzD5S7tT1D8o
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 4
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      _id: gzpW1tUE46EMBLFD
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.kE01jAgLtniDie4z
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      _id: waohXvpGTIDpp0rE
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.1zqkOSnj10SFSusv
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      _id: jjWB6r3IT1tdeRVl
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.X7BBFOUOXAL3QT4f
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Branch Feature
+      hint: ''
+  description:
+    value: >-
+      <p>Some, upon hearing the name, expect Anti-Air Marksmen to be narrow
+      specialists. In truth, they could not be more wrong; it is a title they
+      bear because their versatility and sheer weight of fire allows them to
+      engage those difficult targets as efficiently as any other target. Whether
+      attacking ground or air, the attacks of an Anti-Air Marksman are rapid and
+      punishing.</p><p>You get next Branch Features:</p><table><tbody><tr><td
+      data-colwidth="50"><p>Level</p></td><td><p>Branch
+      Feature</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.vTm5mXnTRh3dCdje]{Weight
+      of Fire},
+      @UUID[Compendium.ak5e.ak5e-classes-and-features.Item.R582ILYssQOBgweH]{Air
+      Tracking}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.lIFTIzD5S7tT1D8o]{Versatile
+      Approach}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">10</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.kE01jAgLtniDie4z]{Unapproachable}</p></td></tr><tr><td
+      data-colwidth="50"><p
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.1zqkOSnj10SFSusv]{Always
+      Another Option}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">18</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.X7BBFOUOXAL3QT4f]{The
+      Last Option}</p></td></tr></tbody></table>
+    chat: ''
+  identifier: anti_air
+  source:
+    revision: 1
+    rules: '2024'
+    book: AK5e
+    page: ''
+    custom: ''
+    license: ''
+  classIdentifier: marksman
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+folder: O2Yp1afpugL0lA12
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767615307518
+  modifiedTime: 1767875754358
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: Fo549uYuIS9fIAFk
+sort: 500000
+_key: '!items!Fo549uYuIS9fIAFk'

@@ -1,0 +1,125 @@
+folder: U1VvPUnEP8A2c7Xk
+name: Alert
+type: feat
+_id: 6IL6kCJuT9hmCv97
+img: modules/ak5e/icons/Skill-PureCrystal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: qA6KgRiqbbRwItND
+      configuration:
+        allowDrops: false
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rhQX84XgtuE64ksy
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
+  description:
+    value: >-
+      <p>You gain a Bonus to your Initiative Rolls equal to your Proficiency
+      Bonus.</p><p><strong>Module:</strong> You have Advantage on Initiative
+      Rolls.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: alert
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Alert
+    img: modules/ak5e/icons/Skill-PureCrystal.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.6IL6kCJuT9hmCv97
+    _id: xYBI5fA8J3BUhPrf
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.init.bonus
+        mode: 2
+        value: '@prof'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767862464949
+      modifiedTime: 1767876345533
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!6IL6kCJuT9hmCv97.xYBI5fA8J3BUhPrf'
+sort: 200000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767734252369
+  modifiedTime: 1767905329274
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!6IL6kCJuT9hmCv97'

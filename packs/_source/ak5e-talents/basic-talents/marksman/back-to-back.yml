@@ -1,0 +1,77 @@
+folder: U1VvPUnEP8A2c7Xk
+name: Back-to-Back
+type: feat
+_id: 1ZayOXSy5qjfyEaj
+img: modules/ak5e/icons/Skill-TheDecadenza3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: aePujHnHv3uSNcx3
+      configuration:
+        allowDrops: false
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.ABQtBAOGunZV4taU
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
+  description:
+    value: >-
+      <p>If there is another allied Creature within 15ft of you with this
+      Ability, you may add +1 to all Attack and Damage Rolls you
+      make.</p><p><strong>Module:</strong> If there is another allied Creature
+      within 15ft of you with this Ability, you gain 2 DR against all
+      Damage.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: back-to-back
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767734565004
+  modifiedTime: 1767923702570
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!1ZayOXSy5qjfyEaj'

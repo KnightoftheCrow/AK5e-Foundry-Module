@@ -1,0 +1,241 @@
+folder: U1VvPUnEP8A2c7Xk
+name: Bird Hunter
+type: feat
+_id: ed6qQk0urxaosAPg
+img: modules/ak5e/icons/Skill-GreyThroat1.webp
+system:
+  activities:
+    mIiFxYnmN58iR2Zg:
+      type: utility
+      name: Bird Hunter
+      _id: mIiFxYnmN58iR2Zg
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: B1hAzrYD0YwWrntZ
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: hEmWetoqCTsATqJg
+      configuration:
+        allowDrops: false
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.70pckHl7L5GxO8lJ
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
+  description:
+    value: >-
+      <p>Your Ranged Attacks against Creatures not touching the ground deal
+      additional Damage equal to your Proficiency
+      Modifier.</p><p><strong>Module:</strong> If a Creature you can see moves
+      using a Flying Speed within the Normal Range of a weapon you are wielding,
+      you can expend your Reaction to make an Attack with that weapon against
+      that Creature. You can use this Feature a number of times equal to your
+      Proficiency Bonus, and regain all expended uses when you complete a Long
+      Rest.</p><p><strong>Partially Automated:</strong> Can't take in account
+      creature that not touching the ground. So use this feat to apply effect
+      before damage roll.</p>
+    chat: ''
+  identifier: bird-hunter
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Bird Hunter
+    img: modules/ak5e/icons/Skill-GreyThroat1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.ed6qQk0urxaosAPg
+    _id: B1hAzrYD0YwWrntZ
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.bonus
+        mode: 5
+        value: bonus=@prof; actionType.rwak;
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: true
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767867688492
+      modifiedTime: 1767876495361
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!ed6qQk0urxaosAPg.B1hAzrYD0YwWrntZ'
+sort: 1400000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767734689429
+  modifiedTime: 1767910003447
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!ed6qQk0urxaosAPg'

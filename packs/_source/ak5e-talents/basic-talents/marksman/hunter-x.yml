@@ -1,0 +1,83 @@
+folder: U1VvPUnEP8A2c7Xk
+name: Hunter (X)
+type: feat
+img: modules/ak5e/icons/Skill-Invincible1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: Pfh218Jwvn3srYdK
+      configuration:
+        allowDrops: false
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.n1MZzBSHldA4Eoci
+          - uuid: Compendium.ak5e.ak5e-talents.Item.DzzAsvUYTZoMqhPb
+          - uuid: Compendium.ak5e.ak5e-talents.Item.mhJlyeY2zREm18YY
+          - uuid: Compendium.ak5e.ak5e-talents.Item.fDTkdUCEcbBpm1b4
+          - uuid: Compendium.ak5e.ak5e-talents.Item.2tKsJJmjhEN6pEGS
+          - uuid: Compendium.ak5e.ak5e-talents.Item.8mfBiKHHqRfKniXi
+          - uuid: Compendium.ak5e.ak5e-talents.Item.QkhRSyyuvhTKpuu2
+          - uuid: Compendium.ak5e.ak5e-talents.Item.JOvirCcts7tnGbL7
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: Hunter Spec
+      hint: ''
+  description:
+    value: >-
+      <p>Choose one from: Aberration, Beast, Celestials, Construct, Fiends,
+      Monstrosity, Plants, Undead. Your Attacks against Creatures with that
+      Creature Type deal additional Damage equal to your Proficiency
+      Bonus.</p><p><strong>Module Effect: </strong>You gain a Bonus to Attack
+      Rolls against Creatures with that Creature Type equal to your Proficiency
+      Bonus.</p>
+    chat: ''
+  identifier: new-item
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767873278998
+  modifiedTime: 1767910205229
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: 4MxiTCIDu9qPRbJF
+sort: 1250000
+_key: '!items!4MxiTCIDu9qPRbJF'

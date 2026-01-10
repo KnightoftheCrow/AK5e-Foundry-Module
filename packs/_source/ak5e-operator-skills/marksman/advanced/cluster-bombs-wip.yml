@@ -1,0 +1,56 @@
+folder: FNmG2sdf2PkjKSHw
+name: Cluster Bombs (WIP)
+type: feat
+_id: KQl7XhApWCpKgrCx
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Choose three points you can see within 30 feet of you. All Creatures
+      within 10 feet of each of those points, and not in Total Cover, must make
+      a Dexterity Saving Throw against your Martial DC. On a failed Save, they
+      take 5d6 Thunder Damage. On a successful Save, they take half as much
+      Damage. A Creature can only take Damage from this Skill once in a Turn,
+      even if they are within multiple spheres.</p>
+    chat: ''
+  identifier: cluster-bombs-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767618964883
+  modifiedTime: 1767618978623
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!KQl7XhApWCpKgrCx'

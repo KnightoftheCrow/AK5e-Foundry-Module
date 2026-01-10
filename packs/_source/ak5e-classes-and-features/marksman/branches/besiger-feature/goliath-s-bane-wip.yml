@@ -1,0 +1,57 @@
+folder: mQ7J5doN5qC9pvT1
+name: Goliath’s Bane (WIP)
+type: feat
+_id: z3AF1by2VVCv63k0
+img: icons/skills/ranged/projectile-strike-impale-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Just as David did, your shots can stop giants in their tracks. Once per
+      Turn, when you hit a Creature with a Ranged Weapon Attack while in Siege
+      Mode, you can force that Creature (no Action required) to make a
+      Constitution Saving Throw against your Martial DC. On a failed Save, they
+      are Stunned until the end of their next Turn.</p><p>You may use this
+      Feature a number of times equal to your Proficiency Bonus, and regain all
+      expended uses upon finishing a Long Rest.</p>
+    chat: ''
+  identifier: goliaths-bane-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 150000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767621087197
+  modifiedTime: 1767733280154
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!z3AF1by2VVCv63k0'

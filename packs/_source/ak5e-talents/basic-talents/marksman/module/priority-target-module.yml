@@ -1,0 +1,53 @@
+folder: 7chRMuJsyyn3S2jB
+name: Priority Target (Module)
+type: feat
+_id: NStpcJ4m8TcHVtrp
+img: modules/ak5e/icons/Skill-Matoimaru1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module:</strong> If you would have Disadvantage on Attacks
+      against those Creatures, you do not.</p>
+    chat: ''
+  identifier: priority-target-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 100007
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767736572881
+  modifiedTime: 1767911270454
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!NStpcJ4m8TcHVtrp'

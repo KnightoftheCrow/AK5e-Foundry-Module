@@ -1,0 +1,101 @@
+folder: 7chRMuJsyyn3S2jB
+name: Alert (Module)
+type: feat
+_id: rhQX84XgtuE64ksy
+img: modules/ak5e/icons/Skill-PureCrystal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: <p><strong>Module:</strong> You have Advantage on Initiative Rolls.</p>
+    chat: ''
+  identifier: alert-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Alert (Module)
+    img: modules/ak5e/icons/Skill-PureCrystal.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.rhQX84XgtuE64ksy
+    _id: 8ww73gJFvYU1zzE1
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.initiative.advantage
+        mode: 2
+        value: true;
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767901526923
+      modifiedTime: 1767901574256
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!rhQX84XgtuE64ksy.8ww73gJFvYU1zzE1'
+sort: 200000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767734286520
+  modifiedTime: 1767901607904
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!rhQX84XgtuE64ksy'

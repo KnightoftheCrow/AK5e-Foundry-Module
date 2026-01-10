@@ -1,0 +1,412 @@
+name: Lucky
+type: feat
+img: modules/ak5e/icons/Skill-CivilightEterna1.webp
+effects:
+  - _id: e31tfoYwJoFTyCf6
+    changes:
+      - key: flags.midi-qol.optional.lucky.attack.all
+        mode: 5
+        value: reroll-kh
+        priority: 20
+      - key: flags.midi-qol.optional.lucky.label
+        mode: 5
+        value: Lucky
+        priority: 20
+      - key: flags.midi-qol.optional.lucky.save.all
+        mode: 5
+        value: reroll-kh
+        priority: 20
+      - key: flags.midi-qol.optional.lucky.check.all
+        mode: 5
+        value: reroll-kh
+        priority: 20
+      - key: flags.midi-qol.optional.lucky.count
+        mode: 5
+        value: ItemUses.Lucky
+        priority: 20
+    disabled: false
+    duration:
+      startTime: 47180419488
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: 260
+      startTurn: 1
+    origin: Compendium.ak5e.ak5e-talents.Item.TNysMEOsW57XDRxT
+    transfer: true
+    flags:
+      dae:
+        stackable: none
+        macroRepeat: none
+        specialDuration: []
+        transfer: false
+        durationExpression: ''
+        selfTarget: false
+        selfTargetAlways: false
+        disableIncapacitated: false
+        showIcon: false
+        disableCondition: ''
+      ActiveAuras:
+        isAura: false
+        radius: ''
+        aura: None
+        alignment: ''
+        type: ''
+        ignoreSelf: false
+        height: false
+        hidden: false
+        hostile: false
+        onlyOnce: false
+        displayTemp: false
+        nameOverride: ''
+        customCheck: ''
+        wallsBlock: system
+      core:
+        overlay: false
+      dnd5e-helpers:
+        rest-effect: Ignore
+      dnd5e:
+        riders:
+          statuses: []
+    tint: '#ffffff'
+    name: Luck Point
+    description: ''
+    statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1767912814725
+    img: modules/ak5e/icons/Skill-CivilightEterna1.webp
+    type: base
+    system: {}
+    sort: 0
+    _key: '!items.effects!TNysMEOsW57XDRxT.e31tfoYwJoFTyCf6'
+flags:
+  core: {}
+  midi-qol:
+    onUseMacroName: ''
+    effectActivation: false
+    rollAttackPerTarget: default
+    itemCondition: ''
+    otherCondition: ''
+    effectCondition: ''
+    reactionCondition: ''
+    AoETargetType: any
+    AoETargetTypeIncludeSelf: true
+    autoTarget: default
+    removeAttackDamageButtons: default
+  betterRolls5e:
+    critRange:
+      type: String
+      value: null
+    critDamage:
+      type: String
+      value: ''
+    quickDesc:
+      type: Boolean
+      value: true
+      altValue: true
+    quickAttack:
+      type: Boolean
+      value: true
+      altValue: true
+    quickSave:
+      type: Boolean
+      value: true
+      altValue: true
+    quickDamage:
+      type: Array
+      value: []
+      altValue: []
+      context: []
+    quickProperties:
+      type: Boolean
+      value: true
+      altValue: true
+    quickCharges:
+      type: Boolean
+      value:
+        use: true
+        resource: true
+        charge: true
+      altValue:
+        use: true
+        resource: true
+        charge: true
+    quickTemplate:
+      type: Boolean
+      value: true
+      altValue: true
+    quickOther:
+      type: Boolean
+      value: true
+      altValue: true
+      context: ''
+    quickFlavor:
+      type: Boolean
+      value: true
+      altValue: true
+    quickPrompt:
+      type: Boolean
+      value: false
+      altValue: false
+  magicitems:
+    enabled: false
+    equipped: false
+    attuned: false
+    charges: '0'
+    chargeType: c1
+    destroy: false
+    destroyFlavorText: 'reaches 0 charges: it crumbles into ashes and is destroyed.'
+    rechargeable: false
+    recharge: '0'
+    rechargeType: t1
+    rechargeUnit: r1
+    sorting: l
+  cf:
+    id: temp_1xw0kahfmt1
+    color: '#000000'
+  siftoolkit:
+    SIFData:
+      ignoreDuration: false
+      texture: ''
+      useTexture: false
+      alpha: 50
+      coneOrigin: 1
+      loopAnimations: true
+      playTemplateAudio: false
+      playDamageAudio: false
+      playSaveAudio: false
+      clip: ''
+      volume: 100
+  midiProperties:
+    nodam: false
+    fulldam: false
+    halfdam: false
+    rollOther: false
+    critOther: false
+    magicdam: false
+    magiceffect: false
+    concentration: false
+    toggleEffect: false
+    autoFailFriendly: false
+    autoSaveFriendly: false
+    offHandWeapon: false
+    ignoreTotalCover: false
+    confirmTargets: default
+    noConcentrationCheck: false
+    idr: false
+    idi: false
+    idv: false
+    ida: false
+  tidy5e-sheet:
+    section: ''
+    actionSection: ''
+  dnd5e:
+    riders:
+      activity: []
+system:
+  description:
+    value: >-
+      <p>You have two Luck Points. You can spend 1 Luck Point to either grant
+      yourself Advantage on a d20 roll, or grant an enemy Disadvantage on an
+      Attack Roll against you. You regain all expended Luck Points when you
+      finish a Long Rest.</p><p><strong>Module Effect: </strong>Your maximum
+      Luck Points becomes equal to your Proficiency
+      Bonus.</p><p><strong>Partially Automated: </strong>All effects regarding
+      your D20 rolls are automated. Disadvantage on Attacks against you must be
+      accounted for manually, and then the "Impose Disadvantage" Activity used
+      to expend the charge. If you get Module, disable effect from previous
+      feat.</p>
+    chat: ''
+  source:
+    custom: ''
+    revision: 1
+    rules: '2014'
+    book: AK5e
+    page: ''
+    license: ''
+  uses:
+    max: '@scale.lucky.maxuses'
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
+  type:
+    value: class
+    subtype: skillPoints
+  requirements: ''
+  prerequisites:
+    level: 3
+    repeatable: false
+    items: []
+  properties:
+    - trait
+  activities:
+    YKFqTCExZpI5MFoI:
+      type: utility
+      _id: YKFqTCExZpI5MFoI
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: PZg820nBsojrROEo
+          level: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: never
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: false
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+        skipConcentrationCheck: false
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Impose Disadvantage
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+  identifier: lucky
+  enchant: {}
+  advancement:
+    - type: ItemChoice
+      _id: CzwM1vNxy9q9fV8W
+      configuration:
+        allowDrops: false
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.7bMFFwobIjVsIkT7
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
+    - type: ScaleValue
+      _id: nPiNaRjP1qTZZ93C
+      configuration:
+        identifier: maxuses
+        type: string
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: '2'
+      value: {}
+      title: ''
+      hint: ''
+  cover: null
+  crewed: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767873251358
+  modifiedTime: 1768060703805
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+folder: U1VvPUnEP8A2c7Xk
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: TNysMEOsW57XDRxT
+sort: 1100000
+_key: '!items!TNysMEOsW57XDRxT'

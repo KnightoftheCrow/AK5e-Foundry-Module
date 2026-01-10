@@ -174,10 +174,11 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.347'
+      coreVersion: '13.351'
       systemId: dnd5e
       systemVersion: 5.1.2
-      lastModifiedBy: null
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1767901303221
     _key: '!items.effects!fcfIzWUKOjoZ0LEP.UDHXVHD73IcfeICz'
 flags:
   dnd5e:

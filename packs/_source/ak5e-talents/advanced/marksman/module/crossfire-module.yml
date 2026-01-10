@@ -1,0 +1,54 @@
+folder: 5ej4KENJRk8I9Ksg
+name: Crossfire (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Aciddrop2.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module:</strong> Your Ranged Attacks now have Advantage against
+      Creatures that have had a Ranged Attack made against them by another
+      Creature since the end of your last Turn.</p>
+    chat: ''
+  identifier: crossfire
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767986627636
+  modifiedTime: 1767986661133
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: m0BrBNIoNX0m0uHA
+sort: 50000
+_key: '!items!m0BrBNIoNX0m0uHA'

@@ -1,0 +1,80 @@
+folder: 9MryoDbGKoSuHyVC
+name: Versatile Approach (WIP)
+type: feat
+_id: lIFTIzD5S7tT1D8o
+img: icons/weapons/guns/gun-pistol-flintlock-white.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '@prof'
+  advancement: []
+  description:
+    value: >-
+      <p>You know a litany of techniques and options for dealing with the
+      variety of threats you face. This is represented by your Options, detailed
+      below.</p><p>When you meet the conditions outlined by each Option, you can
+      perform that Option. You can only use one Option on each Attack.</p><p>You
+      can use your Options a number of times equal to your Proficiency Bonus.
+      You recover all expended uses whenever you finish a Short or Long
+      Rest.</p><p><strong>Area Denial:</strong> You can use this Option as a
+      Bonus Action while you are wielding a Ranged Weapon; choose a point you
+      can see within the long range of that Weapon.</p><p>At the beginning of
+      your next Turn, a rain of projectiles falls down from that point in a
+      10-footradius cylinder, where the height reaches up to the point you
+      chose. All Creatures within this cylinder must make a Dexterity Saving
+      Throw against your Martial DC, taking 3d6 Piercing Damage on a failed
+      Save, or half as much on a successful Save. Flying Creatures have
+      Disadvantage on this Saving Throw, and if they fail, their Flying Speed is
+      halved until the end of their next Turn.</p><p><strong>Crowd
+      Control:</strong> You can use this Option when you make a Ranged Weapon
+      Attack (no Action required); you repeat that Ranged Attack against a
+      different Creature within 15 feet of the original Creature, but that
+      attack deals half Damage.</p><p><strong>Stop their Approach:</strong> You
+      can use this Option when you hit a Creature with a Ranged Weapon Attack
+      (no Action required); that Creature must succeed on a Wisdom Saving Throw
+      against your Martial DC or have their Speed reduced by 20 feet until the
+      end of their next Turn. This effect is cumulative.</p><p><strong>Shoot to
+      Kill:</strong> You can use this Option when you hit a Creature with a
+      Ranged Weapon Attack (no Action required); that Creature takes 1d6
+      Piercing Damage for each time you have dealt Damage to them since your
+      last Turn, except if that Damage was dealt by this Option.</p>
+    chat: ''
+  identifier: versatile-approach-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 150000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767619906482
+  modifiedTime: 1768005943059
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!lIFTIzD5S7tT1D8o'

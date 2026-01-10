@@ -1,0 +1,131 @@
+folder: U1VvPUnEP8A2c7Xk
+name: Unarmoured Agility
+type: feat
+_id: djXI6GLIRAdKvd1j
+img: modules/ak5e/icons/Skill-LuoXiaohei1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: MZ8m2WdIBxhRwvFu
+      configuration:
+        allowDrops: false
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.xXoFEUm40eZWIHYx
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
+  description:
+    value: >-
+      <p>While you are wearing no Armour, your Speed increases by
+      20ft.</p><p><strong>Module:</strong> While you are wearing no Armour, you
+      have a Bonus to your Dexterity Saving Throws equal to your Proficiency
+      Bonus.</p><p><strong>Partially Automated:</strong> Can't afford check
+      Armour equipment.</p>
+    chat: ''
+  identifier: unarmoured-agility
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Unarmoured Agility
+    img: modules/ak5e/icons/Skill-LuoXiaohei1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.djXI6GLIRAdKvd1j
+    _id: Qodm6gXLqBYHEGYC
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.all
+        mode: 0
+        value: '+20'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: true
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767873501201
+      modifiedTime: 1767914691808
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!djXI6GLIRAdKvd1j.Qodm6gXLqBYHEGYC'
+sort: 1300000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767736701823
+  modifiedTime: 1767914856467
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!djXI6GLIRAdKvd1j'

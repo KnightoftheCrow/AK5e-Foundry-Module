@@ -1,0 +1,128 @@
+folder: U1VvPUnEP8A2c7Xk
+name: Tough
+type: feat
+_id: BzU742aJIgbGMSdF
+img: modules/ak5e/icons/Skill-Gravel1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: hVeK2rc9X38OZoe8
+      configuration:
+        allowDrops: false
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.TUC52moYi0vvumMI
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
+  description:
+    value: >-
+      <p>Your Hit Point Maximum increases by an amount equal to twice your
+      Character Level. When you gain a Character Level thereafter, your Hit
+      Point Maximum increases by an additional two
+      points.</p><p><strong>Module:</strong> Whenever you expend a Hit Dice to
+      restore your Hit Points, you recover additional Hit Points equal to your
+      Proficiency Bonus.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: tough
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Tough
+    img: modules/ak5e/icons/Skill-Gravel1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.BzU742aJIgbGMSdF
+    _id: ThguCB8gJE1wgpa8
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.hp.bonuses.level
+        mode: 2
+        value: '2'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767871409941
+      modifiedTime: 1767884252282
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!BzU742aJIgbGMSdF.ThguCB8gJE1wgpa8'
+sort: 400000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767736619701
+  modifiedTime: 1767910140683
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!BzU742aJIgbGMSdF'

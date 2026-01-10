@@ -1,0 +1,60 @@
+folder: q9mrRuD7Bdhth58y
+name: Tracer (WIP)
+type: feat
+_id: 9H9l8JePvyeOfv6p
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <ul><li><p><strong>Name</strong>: Tracer.</p></li><li><p><strong>SP
+      Cost:</strong> 20.</p></li><li><p><strong>Start SP:</strong>
+      10.</p></li><li><p><strong>Charging:</strong>
+      Offensive.</p></li><li><p><strong>Activation Cost:</strong> Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> Your next Weapon Attack
+      causes all Creatures hit to glow with 10 feet of dim light for 3 Rounds.
+      While they are glowing in this way, Creatures within 15 feet of you have
+      Advantage on Ranged Attacks against that
+      Creature.</p></li><li><p><strong>Duration:</strong> 1
+      Attack.</p></li></ul>
+    chat: ''
+  identifier: tracer-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 101563
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767618563722
+  modifiedTime: 1767919099403
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!9H9l8JePvyeOfv6p'

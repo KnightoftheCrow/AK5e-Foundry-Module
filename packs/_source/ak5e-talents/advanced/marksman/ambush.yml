@@ -1,0 +1,125 @@
+folder: AynL7yzSlptsmcjl
+name: Ambush
+type: feat
+_id: udvf7UywCar8aRw6
+img: modules/ak5e/icons/Skill-Manticore1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: 5wnKDwN9GJLz4IFA
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.MNZ7KjBbXyRfHWns
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>After you roll Initiative, you deal 1 additional dice of Damage with
+      your Attacks until the end of your next
+      Turn.</p><p><strong>Module:</strong> This additional Damage now applies to
+      all Damage you deal, not just Attacks.</p><p><strong>Automated:</strong>
+      Only works when combat round equals 1.</p>
+    chat: ''
+  identifier: ambush
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Ambush
+    img: modules/ak5e/icons/Skill-Manticore1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.udvf7UywCar8aRw6
+    _id: rsQ9fLr0ReGTdVci
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.extraDice
+        mode: 2
+        value: bonus=1; combat.round === 1;
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767985632317
+      modifiedTime: 1767986266062
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!udvf7UywCar8aRw6.rsQ9fLr0ReGTdVci'
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767738240387
+  modifiedTime: 1768003982261
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!udvf7UywCar8aRw6'

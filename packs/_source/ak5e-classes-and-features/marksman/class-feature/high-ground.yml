@@ -1,0 +1,103 @@
+name: High Ground
+type: feat
+img: modules/ak5e/icons/Skill-Misery1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You are at your best when raining hate onto foes beneath you. You have
+      Advantage on Attack Rolls against Creatures 10 or more feet below
+      you.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: High Ground
+    img: modules/ak5e/icons/Skill-Misery1.png
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.3OHFmOmZ8AC3OwYy
+    _id: fmDr6GtgXRUEKMno
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.attack.advantage
+        mode: 5
+        value: (rollingActor.tokenElevation-opponentActor.tokenElevation) >= 10
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1767875930844
+    _key: '!items.effects!3OHFmOmZ8AC3OwYy.fmDr6GtgXRUEKMno'
+folder: r2sKTPYSmSAEfVCU
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767615338937
+  modifiedTime: 1767875924258
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: 3OHFmOmZ8AC3OwYy
+sort: 137500
+_key: '!items!3OHFmOmZ8AC3OwYy'

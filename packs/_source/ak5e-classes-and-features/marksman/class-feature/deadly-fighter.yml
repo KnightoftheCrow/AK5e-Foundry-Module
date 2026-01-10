@@ -1,0 +1,58 @@
+folder: r2sKTPYSmSAEfVCU
+name: Deadly Fighter
+type: feat
+img: modules/ak5e/icons/Skill-BloodsWhisper.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>When you use the Deadly Quality to add your Proficiency Bonus to the
+      Damage Roll of an Attack, you add twice your Proficiency Bonus
+      instead.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+    book: AK5e
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties:
+    - trait
+  requirements: Marksman Fighting Style
+  type:
+    value: class
+    subtype: fightingStyle
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767614281458
+  modifiedTime: 1767876057452
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: KYTq2Zik8i5Ctdqu
+sort: 125000
+_key: '!items!KYTq2Zik8i5Ctdqu'

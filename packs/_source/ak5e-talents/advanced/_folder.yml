@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Advanced
+color: null
+sorting: a
+_id: 3i0Fc7SxRfKUNXWv
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767619712889
+  modifiedTime: 1767619712889
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!folders!3i0Fc7SxRfKUNXWv'

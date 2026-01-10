@@ -1,0 +1,108 @@
+folder: 7chRMuJsyyn3S2jB
+name: Precise Strike (Module)
+type: feat
+_id: oXrDMro8DgKx37aw
+img: modules/ak5e/icons/Skill-Haze1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module:</strong> The additional Piercing Damage is increased to
+      2d8.</p>
+    chat: ''
+  identifier: precise-strike-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Precise Strike (Module)
+    img: modules/ak5e/icons/Skill-Haze1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.oXrDMro8DgKx37aw
+    _id: X17wggZgrCGygdJw
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.bonus
+        mode: 2
+        value: >-
+          bonus=2d8; hasAttack && actionType.rwak && (distance >
+          item.range.value)
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: true
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-talents.Item.rQs0HWi7n3P0iSBP.ActiveEffect.vAyqNPa8eA6YZcK7
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767910961106
+      modifiedTime: 1767913138947
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!oXrDMro8DgKx37aw.X17wggZgrCGygdJw'
+sort: 100025
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767736414555
+  modifiedTime: 1767912668079
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!oXrDMro8DgKx37aw'

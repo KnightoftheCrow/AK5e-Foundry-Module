@@ -1,0 +1,123 @@
+folder: O2Yp1afpugL0lA12
+name: Heavyshot
+type: subclass
+img: modules/ak5e/icons/Heavyshooter_Sniper.webp
+system:
+  advancement:
+    - type: ItemGrant
+      _id: 6rDSulrz9vnytEvg
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.TF4twUZa9RfFpPjr
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.3pTpTq10nYQ4Hf9t
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      _id: yBnaEnqeZEXifzAU
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.8NC99alqH4KhFrQ7
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 4
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      _id: AGr8lVTsEUjDQ4sY
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.TMTQXJPTI5R4J7Xt
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      _id: gd4AtgYJEcTb1Rqg
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.Nq4KMWdk3Nc2Ah13
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      title: Branch Feature
+      _id: TzzpaEuFkDLdr62t
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.g6evHg46WrHGd8FP
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      hint: ''
+  description:
+    value: >-
+      <p>In many ways, there are similarities between Deadeye Marksmen and
+      Heavyshot Marksmen. Both believe in definite action and decisive strikes,
+      but differ in how it should be delivered. For a Heavyshot Marksman, it is
+      not a question of applying their power in precision, but in applying the
+      most strength in the shortest time. They strike fast and without mercy,
+      blowing away chaff and hard targets alike, wielding custom weapons better
+      suited to their “shock and awe” tactics.</p><p>You get next Branch
+      Features:</p><table><tbody><tr><td
+      data-colwidth="87"><p>Level</p></td><td><p>Branch
+      Feature</p></td></tr><tr><td data-colwidth="87"><p
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.TF4twUZa9RfFpPjr]{Weapon
+      Tuning},
+      @UUID[Compendium.ak5e.ak5e-classes-and-features.Item.3pTpTq10nYQ4Hf9t]{Devastator}</p></td></tr><tr><td
+      data-colwidth="87"><p
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.8NC99alqH4KhFrQ7]{Savage
+      Shots}</p></td></tr><tr><td data-colwidth="87"><p
+      style="text-align:center">10</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.TMTQXJPTI5R4J7Xt]{Improved
+      Tuning}</p></td></tr><tr><td data-colwidth="87"><p
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.g6evHg46WrHGd8FP]{Lethal
+      Weapon}</p></td></tr><tr><td data-colwidth="87"><p
+      style="text-align:center">18</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.Nq4KMWdk3Nc2Ah13]{Heartseeker}</p></td></tr></tbody></table>
+    chat: ''
+  identifier: heavyshot
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: marksman
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767615319543
+  modifiedTime: 1767875798379
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: CIoa0w4o9g0jTX7B
+sort: 175000
+_key: '!items!CIoa0w4o9g0jTX7B'

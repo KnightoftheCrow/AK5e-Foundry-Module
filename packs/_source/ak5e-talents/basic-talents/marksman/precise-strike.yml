@@ -1,0 +1,133 @@
+folder: U1VvPUnEP8A2c7Xk
+name: Precise Strike
+type: feat
+_id: rQs0HWi7n3P0iSBP
+img: modules/ak5e/icons/Skill-Haze1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: Kc7l74Gk5g0pssBj
+      configuration:
+        allowDrops: false
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.oXrDMro8DgKx37aw
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
+  description:
+    value: >-
+      <p>Your Ranged Attacks against Creatures outside of the Normal Range of
+      that Weapon deal 1d8 additional Piercing
+      Damage.</p><p><strong>Module:</strong> The additional Piercing Damage is
+      increased to 2d8.</p><p><strong>Automated:</strong> If you get Module,
+      disable effect from previous feat.</p>
+    chat: ''
+  identifier: precise-strike
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Precise Strike
+    img: modules/ak5e/icons/Skill-Haze1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.rQs0HWi7n3P0iSBP
+    _id: vAyqNPa8eA6YZcK7
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.bonus
+        mode: 2
+        value: >-
+          bonus=1d8; hasAttack && actionType.rwak && (distance >
+          item.range.value)
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: true
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767874556324
+      modifiedTime: 1767912716671
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!rQs0HWi7n3P0iSBP.vAyqNPa8eA6YZcK7'
+sort: 1900000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767736360968
+  modifiedTime: 1768003533714
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!rQs0HWi7n3P0iSBP'

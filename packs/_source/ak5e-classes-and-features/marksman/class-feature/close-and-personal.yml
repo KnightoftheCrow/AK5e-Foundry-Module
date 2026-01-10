@@ -1,0 +1,107 @@
+folder: r2sKTPYSmSAEfVCU
+name: Close and Personal
+type: feat
+img: modules/ak5e/icons/Skill-Andreana1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You do not have Disadvantage on Ranged Attack Rolls when there is a
+      hostile Creature within 5 feet of
+      you.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+    book: AK5e
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties:
+    - trait
+  requirements: Marksman Fighting Style
+  type:
+    value: class
+    subtype: fightingStyle
+effects:
+  - name: Close and Personal
+    img: modules/ak5e/icons/Skill-Andreana1.png
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.KoShQQkHWdDKzY42
+    _id: 0seOj4G3UUMMK9ng
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.ignoreNearbyFoes
+        mode: 2
+        value: true; actionType.rwak
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1767876079422
+    _key: '!items.effects!KoShQQkHWdDKzY42.0seOj4G3UUMMK9ng'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767614279025
+  modifiedTime: 1767876071618
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: KoShQQkHWdDKzY42
+sort: 200000
+_key: '!items!KoShQQkHWdDKzY42'

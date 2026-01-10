@@ -1,0 +1,107 @@
+folder: r2sKTPYSmSAEfVCU
+name: Ranger
+type: feat
+img: modules/ak5e/icons/Skill-Blitz2.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You gain a +2 Bonus to Attack Rolls you make with Ranged or Thrown
+      Weapons.</p><p><strong>Partially automated:</strong> Grants bonus to all
+      Ranged Attacks.</p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+    book: AK5e
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties:
+    - trait
+  requirements: Marksman Fighting Style
+  type:
+    value: class
+    subtype: fightingStyle
+effects:
+  - name: Ranger
+    img: modules/ak5e/icons/Skill-Blitz2.png
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.OR6a43AfzdtlZonE
+    _id: MafaTRrvCcJvPd2s
+    type: base
+    system: {}
+    changes:
+      - key: system.bonuses.rwak.attack
+        mode: 2
+        value: '+2'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1767875913008
+    _key: '!items.effects!OR6a43AfzdtlZonE.MafaTRrvCcJvPd2s'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767614283916
+  modifiedTime: 1767898637995
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: OR6a43AfzdtlZonE
+sort: 300000
+_key: '!items!OR6a43AfzdtlZonE'

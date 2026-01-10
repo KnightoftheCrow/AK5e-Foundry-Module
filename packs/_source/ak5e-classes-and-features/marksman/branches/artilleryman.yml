@@ -1,0 +1,121 @@
+folder: O2Yp1afpugL0lA12
+name: Artilleryman
+type: subclass
+img: modules/ak5e/icons/Artilleryman_Sniper.webp
+system:
+  advancement:
+    - type: ItemGrant
+      _id: JNIf9RWMaBTuqv8x
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.DhUBhhmlH6sR3jwg
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.yUk0Z2FdprE3WriG
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      _id: 25rkGX2MqztCxyIf
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.TUQxFxICbuZjaFYg
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 4
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      _id: iyWq9y1mUe8j4tp7
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.UFy7jqPfJ041ZP7X
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      _id: D0cGFpkqbnGwoDku
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.PHEUSthKoaaYcuub
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      _id: jQOMMMEJ3fYHbR5U
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.dSDlRdBJIaD50qMV
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Branch Feature
+      hint: ''
+  description:
+    value: >-
+      <p>Artillerymen are proof that if you’re good enough atanything, you can
+      make a career from it. They areexperts in the art of destruction and
+      demolition, with apenchant for explosives. In any conflict, they are in
+      highdemand; one just has to pray they are more threat to theenemy than to
+      you.</p><p>You get next Branch Features:</p><table><tbody><tr><td
+      data-colwidth="87"><p>Level</p></td><td><p>Branch
+      Feature</p></td></tr><tr><td data-colwidth="87"><p
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.DhUBhhmlH6sR3jwg]{Tools
+      of the Trade},
+      @UUID[Compendium.ak5e.ak5e-classes-and-features.Item.yUk0Z2FdprE3WriG]{Delayed
+      Detonation}</p></td></tr><tr><td data-colwidth="87"><p
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.TUQxFxICbuZjaFYg]{Secondary
+      Detonation}</p></td></tr><tr><td data-colwidth="87"><p
+      style="text-align:center">10</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.UFy7jqPfJ041ZP7X]{Bigger
+      Booms}</p></td></tr><tr><td data-colwidth="87"><p
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.PHEUSthKoaaYcuub]{Force
+      of Nature}</p></td></tr><tr><td data-colwidth="87"><p
+      style="text-align:center">18</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.dSDlRdBJIaD50qMV]{Explosive
+      Dawn}</p></td></tr></tbody></table>
+    chat: ''
+  identifier: artilleryman
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: marksman
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767615309146
+  modifiedTime: 1767875753474
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: qsmcZL1CoV6AE7K1
+sort: 200000
+_key: '!items!qsmcZL1CoV6AE7K1'

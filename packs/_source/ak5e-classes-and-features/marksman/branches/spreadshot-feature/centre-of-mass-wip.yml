@@ -1,0 +1,59 @@
+folder: DjSTH0TXN7YZwjfY
+name: Centre of Mass (WIP)
+type: feat
+_id: yjFRcEf1Mx0hdZTw
+img: icons/skills/targeting/target-strike-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You learn the art of putting down a single foe quickly.</p><p>As an
+      Action while you are wielding a weapon with the Spread Property, choose a
+      Creature you can see within 15 feet. That Creature must make a Dexterity
+      Saving Throw against your Martial DC; on a failed Save, they take 8d6
+      Piercing Damage, and if they are Large or smaller, they are knocked Prone
+      and 20 feet directly away from you. On a successful Save, they take half
+      as much Damage, and suffer no other effects.</p><p>Once you have used this
+      Feature, you may not do so again until you have completed a Short or Long
+      Rest.</p>
+    chat: ''
+  identifier: centre-of-mass-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 125000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767626126687
+  modifiedTime: 1767733621454
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!yjFRcEf1Mx0hdZTw'

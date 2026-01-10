@@ -1,0 +1,53 @@
+folder: r2sKTPYSmSAEfVCU
+name: Extra Attack
+type: feat
+_id: XFGQax3VwBTHI8Z9
+img: modules/ak5e/icons/Skill-ProjektRed1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You can attack twice instead of once whenever you take the Attack
+      action on your turn.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: extra-attack
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767616440007
+  modifiedTime: 1767875940368
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!XFGQax3VwBTHI8Z9'

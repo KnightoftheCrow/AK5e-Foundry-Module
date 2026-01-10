@@ -1,0 +1,103 @@
+folder: 7chRMuJsyyn3S2jB
+name: Unarmoured Agility (Module)
+type: feat
+_id: xXoFEUm40eZWIHYx
+img: modules/ak5e/icons/Skill-LuoXiaohei1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module:</strong> While you are wearing no Armour, you have a
+      Bonus to your Dexterity Saving Throws equal to your Proficiency Bonus.</p>
+    chat: ''
+  identifier: unarmoured-agility-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Unarmoured Agility (Module)
+    img: modules/ak5e/icons/Skill-LuoXiaohei1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.xXoFEUm40eZWIHYx
+    _id: K9JZgB8SIJMnNbvW
+    type: base
+    system: {}
+    changes:
+      - key: system.abilities.dex.bonuses.save
+        mode: 2
+        value: '@prof'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767911120436
+      modifiedTime: 1767911161126
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!xXoFEUm40eZWIHYx.K9JZgB8SIJMnNbvW'
+sort: 100002
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767736746692
+  modifiedTime: 1767911263453
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!xXoFEUm40eZWIHYx'

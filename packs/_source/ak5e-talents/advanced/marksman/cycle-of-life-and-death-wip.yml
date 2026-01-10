@@ -1,0 +1,55 @@
+folder: AynL7yzSlptsmcjl
+name: Cycle of Life and Death (WIP)
+type: feat
+_id: cVZnaMpeM1tx6huu
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>If you have reduced a Creature to 0 Hit Points while your Operator
+      Skill is Active, you gain 10 SP at the end of that
+      Skill.</p><p><strong>Module:</strong> You gain 20 SP
+      instead.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: cycle-of-life-and-death
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767738385546
+  modifiedTime: 1767995059298
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!cVZnaMpeM1tx6huu'

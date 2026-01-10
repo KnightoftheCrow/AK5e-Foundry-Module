@@ -45,11 +45,11 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.347'
+      coreVersion: '13.351'
       systemId: dnd5e
       systemVersion: 5.1.2
-      lastModifiedBy: 9KtVYqHDTWORuJDZ
-      modifiedTime: 1759003271570
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1767909621145
     _key: '!items.effects!Ba6NFAnprhlPvaG7.1StgqW9MfitQqyiG'
 flags:
   core: {}

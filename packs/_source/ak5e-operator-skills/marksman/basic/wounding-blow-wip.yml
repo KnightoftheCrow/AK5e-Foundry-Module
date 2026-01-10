@@ -1,0 +1,59 @@
+folder: q9mrRuD7Bdhth58y
+name: Wounding Blow (WIP)
+type: feat
+_id: ep2MJVEskzKTkT4y
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <ul><li><p><strong>Name</strong>: Overpacked
+      Charges.</p></li><li><p><strong>SP Cost:</strong>
+      15.</p></li><li><p><strong>Start SP:</strong>
+      0.</p></li><li><p><strong>Charging:</strong>
+      Offensive.</p></li><li><p><strong>Activation Cost:</strong> Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> Your next Attack causes
+      all Creatures it hits to gain the Bleeding
+      Condition.</p></li><li><p><strong>Duration:</strong> 1
+      Attack.</p></li></ul><p></p>
+    chat: ''
+  identifier: wounding-blow-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 100391
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767618614942
+  modifiedTime: 1767919175324
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!ep2MJVEskzKTkT4y'

@@ -1,0 +1,57 @@
+folder: DjSTH0TXN7YZwjfY
+name: Breach and Clear (WIP)
+type: feat
+_id: rtFRQ65V6lRwsdCJ
+img: icons/skills/wounds/injury-pain-body-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your attacks are resonant, booming, and lethal. Enemies that survive
+      them find themselves unable to coordinate their counterattack.</p><p>A
+      Creature that takes Damage from you while you are within 30 feet is unable
+      to make Opportunity Attacks until the beginning of your next Turn. If you
+      score a Critical Hit against a Creature, or they fail a Saving Throw
+      against your Pepperbox or Centre of Mass Feature, they instead cannot take
+      any Reactions until the start of your next Turn.</p>
+    chat: ''
+  identifier: breach-and-clear-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767626135254
+  modifiedTime: 1767733613771
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!rtFRQ65V6lRwsdCJ'

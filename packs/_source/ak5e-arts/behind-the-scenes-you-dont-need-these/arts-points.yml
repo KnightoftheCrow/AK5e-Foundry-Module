@@ -106,17 +106,19 @@ flags:
         '19': '25'
         '20': '26'
       spCustomFormulaBase: ''
-  dnd5e: {}
+  dnd5e:
+    riders:
+      activity: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.3
+  systemVersion: 5.2.4
   createdTime: 1757178957677
-  modifiedTime: 1766932690660
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1767700504563
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _id: 6GMX3sLNtYU5pEtM
 sort: 200000
 ownership:

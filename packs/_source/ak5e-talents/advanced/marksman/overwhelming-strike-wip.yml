@@ -1,0 +1,56 @@
+folder: AynL7yzSlptsmcjl
+name: Overwhelming Strike (WIP)
+type: feat
+_id: aW0bCeIhfhgxIa1D
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>When you roll a 20 on the d20 for an Attack Roll, you can deal
+      additional Damage to the target equal to half of the Ability Score used
+      for that Attack. The Damage Type is the same as one present on that Attack
+      (your Choice, if there are multiple).</p><p><strong>Module:</strong> The
+      additional Damage becomes equal to the Ability Score used for that
+      Attack.</p>
+    chat: ''
+  identifier: overwhelming-strike
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767738700232
+  modifiedTime: 1768002135865
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!aW0bCeIhfhgxIa1D'

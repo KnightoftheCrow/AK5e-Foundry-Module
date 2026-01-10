@@ -1,0 +1,141 @@
+folder: AynL7yzSlptsmcjl
+name: Reliable Talent
+type: feat
+_id: 0B7CWEADSa2l7ZFb
+img: modules/ak5e/icons/Skill-TheParadigmatic1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: JpUt9fH66sRtkcwb
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool: []
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>When you make a Check using a Skill you are Proficient in, treat any
+      result on the d20 of 8 or less as an 8.</p><p><strong>Module:</strong> You
+      cannot have Disadvantage on any Check using a Skill or Tool you are
+      Proficiency with.</p><p><strong>Automated: </strong>No Disadvantage not
+      implemented.</p>
+    chat: ''
+  identifier: reliable-talent
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Reliable Talent
+    img: modules/ak5e/icons/Skill-TheParadigmatic1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.0B7CWEADSa2l7ZFb
+    _id: 8cPvvUnkgO7YJizx
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.skill.modifier
+        mode: 2
+        value: >-
+          modifier=min8; (effectActor.skills.acr.proficient && skill.acr) ||
+          (effectActor.skills.ani.proficient && skill.ani) ||
+          (effectActor.skills.acr.proficient && skill.acr) ||
+          (effectActor.skills.ath.proficient && skill.ath) ||
+          (effectActor.skills.dec.proficient && skill.dec) ||
+          (effectActor.skills.ins.proficient && skill.ins) ||
+          (effectActor.skills.inv.proficient && skill.inv) ||
+          (effectActor.skills.itm.proficient && skill.itm) ||
+          (effectActor.skills.med.proficient && skill.med) ||
+          (effectActor.skills.nat.proficient && skill.nat) ||
+          (effectActor.skills.per.proficient && skill.per) ||
+          (effectActor.skills.prc.proficient && skill.prc) ||
+          (effectActor.skills.prf.proficient && skill.prf) ||
+          (effectActor.skills.rel.proficient && skill.rel) ||
+          (effectActor.skills.slt.proficient && skill.slt) ||
+          (effectActor.skills.ste.proficient && skill.ste) ||
+          (effectActor.skills.tech.proficient && skill.tech)
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767997856041
+      modifiedTime: 1767999994582
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!0B7CWEADSa2l7ZFb.8cPvvUnkgO7YJizx'
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767738714333
+  modifiedTime: 1768000456114
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!0B7CWEADSa2l7ZFb'

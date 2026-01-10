@@ -140,7 +140,7 @@ system:
       </strong>You now deal 2 additional dice of Damage
       instead.</p><p><strong>Automated: </strong>Assesses whether target has
       less than half of their maximum Hit Points and deals additional Damage to
-      them. </p>
+      them.</p>
     chat: ''
   identifier: new-item
   source:
@@ -207,11 +207,11 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.348'
+      coreVersion: '13.351'
       systemId: dnd5e
       systemVersion: 5.1.9
-      lastModifiedBy: 9KtVYqHDTWORuJDZ
-      modifiedTime: 1759683786735
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1767869384567
     _key: '!items.effects!4s7JyL83Y2tSsu9z.ZxBY8lo97JECtfP2'
 flags:
   ak5e:
@@ -263,12 +263,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.3
+  systemVersion: 5.2.4
   createdTime: 1759440406318
-  modifiedTime: 1766945632346
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1767869496647
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _id: 4s7JyL83Y2tSsu9z
 sort: 359375
 ownership:

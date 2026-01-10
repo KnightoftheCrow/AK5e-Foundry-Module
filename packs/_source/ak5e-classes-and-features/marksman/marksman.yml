@@ -1,0 +1,907 @@
+name: Marksman
+type: class
+img: modules/ak5e/icons/Sniper.webp
+system:
+  advancement:
+    - type: HitPoints
+      _id: 7WwGlBrKqiAJbeiN
+      configuration: {}
+      value: {}
+    - type: AbilityScoreImprovement
+      _id: uAI5qGCu2ZWzyOqB
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+        max: 20
+      value:
+        type: asi
+      level: 4
+      title: ''
+      hint: ''
+    - type: Subclass
+      _id: QU1NfsSAaHXpPsuk
+      configuration: {}
+      value:
+        document: null
+        uuid: null
+      level: 1
+      title: Marksman Branch
+      hint: ''
+    - type: ItemChoice
+      _id: ImrNVWxVTLHzVvoB
+      configuration:
+        allowDrops: false
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-items.Item.OXGwqTbLRvlNxP0Q
+          - uuid: Compendium.ak5e.ak5e-items.Item.33A3rLP3Gm4A7Nrq
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: Armour
+      hint: ''
+    - type: Trait
+      _id: R8lMa7cCku1DsvPx
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 3
+            pool:
+              - skills:acr
+              - skills:ath
+              - skills:prc
+              - skills:slt
+              - skills:ste
+              - skills:nat
+        grants: []
+        mode: default
+      level: 1
+      title: ''
+      hint: ''
+      value: {}
+    - type: Trait
+      _id: a6toV8BhRnSQmdol
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - armor:lgt
+          - armor:med
+          - armor:lts
+        mode: default
+      level: 1
+      title: ''
+      hint: ''
+      value: {}
+    - type: Trait
+      _id: 2x44OrQpsCfYtDLs
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:ltm
+          - weapon:ltr
+          - weapon:hvr
+        mode: default
+      level: 1
+      title: ''
+      hint: ''
+      value: {}
+    - type: Trait
+      _id: PZ6YvVsQ8N63J9ZP
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:art:art
+              - tool:art:brewing
+              - tool:art:cooking
+              - tool:art:engineering
+              - tool:art:maintenance
+              - tool:art:makeover
+              - tool:art:mechanism
+              - tool:art:medical
+              - tool:art:messenger
+              - tool:art:pharmacology
+              - tool:art:tailoring
+              - tool:art:woodwork
+              - tool:music:instrumentbagpipes
+              - tool:music:instrumentbass
+              - tool:music:instrumentcello
+              - tool:music:instrumentdrums
+              - tool:music:instrumentflute
+              - tool:music:instrumentguitar
+              - tool:music:instrumentharp
+              - tool:music:instrumentkeyboard
+              - tool:music:instrumentmicrophone
+              - tool:music:instrumentother
+              - tool:music:instrumenttrombone
+              - tool:music:instrumenttuba
+              - tool:music:instrumentturntable
+              - tool:music:instrumentviolin
+              - tool:vehicle:*
+        grants: []
+        mode: default
+      level: 1
+      title: ''
+      hint: ''
+      value: {}
+    - type: Trait
+      _id: e03Rl6BzAHtpbuVV
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - saves:wis
+              - saves:cha
+        grants:
+          - saves:dex
+        mode: default
+      level: 1
+      title: ''
+      hint: ''
+      value: {}
+    - type: AbilityScoreImprovement
+      _id: RvqklDSH24xjZnjB
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+        max: 20
+      value:
+        type: asi
+      level: 6
+      title: ''
+      hint: ''
+    - type: AbilityScoreImprovement
+      _id: WA5evEAwqttV2ipt
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+        max: 20
+      value:
+        type: asi
+      level: 8
+      title: ''
+      hint: ''
+    - type: AbilityScoreImprovement
+      _id: WoazhgfQlEGCWglk
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+        max: 20
+      value:
+        type: asi
+      level: 10
+      title: ''
+      hint: ''
+    - type: AbilityScoreImprovement
+      _id: jj5EBsRUa25DUvwb
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+        max: 20
+      value:
+        type: asi
+      level: 12
+      title: ''
+      hint: ''
+    - type: AbilityScoreImprovement
+      _id: BV1WuOAUVB1f61p8
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+        max: 20
+      value:
+        type: asi
+      level: 16
+      title: ''
+      hint: ''
+    - type: AbilityScoreImprovement
+      _id: J7hYDSSOqF8xrzZg
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+        max: 20
+      value:
+        type: asi
+      level: 19
+      title: Ability Score Improvement
+      hint: ''
+    - type: ItemGrant
+      _id: 6WSLoVfCgiQfe5Vj
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.3OHFmOmZ8AC3OwYy
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Marksman Features
+      hint: ''
+    - type: ItemChoice
+      _id: ygxu6saOkKRflZRv
+      configuration:
+        allowDrops: false
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-items.Item.z109grp29YIkpXSu
+          - uuid: Compendium.ak5e.ak5e-items.Item.866oxgC2YP2qYU9g
+          - uuid: Compendium.ak5e.ak5e-items.Item.Dhmp8MJX2KGACQh7
+          - uuid: Compendium.ak5e.ak5e-items.Item.AVXlB27KScRknIiD
+          - uuid: Compendium.ak5e.ak5e-items.Item.o1kUk2al1bphk50J
+          - uuid: Compendium.ak5e.ak5e-items.Item.LqVtxMaqJotYLr9a
+          - uuid: Compendium.ak5e.ak5e-items.Item.jjpPLGFHOZsiWFBA
+          - uuid: Compendium.ak5e.ak5e-items.Item.EIPiQurk25Of8x3e
+          - uuid: Compendium.ak5e.ak5e-items.Item.opmLg0JuPqMFgZjL
+        restriction:
+          list: []
+        spell: null
+        type: weapon
+      value:
+        added: {}
+        replaced: {}
+      title: Ranged Weapon
+      hint: ''
+    - type: ItemChoice
+      _id: eg3aWB50oWlVvoFl
+      configuration:
+        allowDrops: false
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-items.Item.ajnr0G1r5uS2J8BP
+          - uuid: Compendium.ak5e.ak5e-items.Item.DSudvLQbkLWPs6g8
+          - uuid: Compendium.ak5e.ak5e-items.Item.FPznW6rW4nghDh1r
+          - uuid: Compendium.ak5e.ak5e-items.Item.yRwC4x79xE5iUW7K
+          - uuid: Compendium.ak5e.ak5e-items.Item.EXF9dlqFHPDHi3KF
+          - uuid: Compendium.ak5e.ak5e-items.Item.gQexKnwZdkamQcJ7
+          - uuid: Compendium.ak5e.ak5e-items.Item.Ve5i7MSi8dzq0UJG
+          - uuid: Compendium.ak5e.ak5e-items.Item.nkDWWkosdoJz2U6i
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: Melee Weapon
+      hint: ''
+    - type: ItemChoice
+      _id: e12fjsdAVQV79Z4U
+      configuration:
+        allowDrops: false
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-items.Item.uJv6rhzPijvjHznJ
+          - uuid: Compendium.ak5e.ak5e-items.Item.Ildgv7odyqeahxmy
+          - uuid: Compendium.ak5e.ak5e-items.Item.cx7nNrpfLvAHIfmq
+          - uuid: Compendium.ak5e.ak5e-items.Item.XfS9C2RHzrrMdlip
+          - uuid: Compendium.ak5e.ak5e-items.Item.ZuHZkt1h2YP8lgwu
+          - uuid: Compendium.ak5e.ak5e-items.Item.SCHjE2T5gXZRtIpX
+          - uuid: Compendium.ak5e.ak5e-items.Item.96vApcsV1yyaPTyD
+          - uuid: Compendium.ak5e.ak5e-items.Item.QvzlfvutcIIezpDs
+          - uuid: Compendium.ak5e.ak5e-items.Item.gFr3mcd57Og1c0pZ
+          - uuid: Compendium.ak5e.ak5e-items.Item.Hs0mF5dzKXUqdAdP
+          - uuid: Compendium.ak5e.ak5e-items.Item.5l64laM4rk4Ivi0m
+          - uuid: Compendium.ak5e.ak5e-items.Item.YAl6BnAF78PaYlDX
+          - uuid: Compendium.ak5e.ak5e-items.Item.dqXsCaK1P0JhtYC4
+          - uuid: Compendium.ak5e.ak5e-items.Item.sIWoR9fKRrec9UfW
+          - uuid: Compendium.ak5e.ak5e-items.Item.Nng70cKI1btONIpk
+          - uuid: Compendium.ak5e.ak5e-items.Item.8kQVIEXNMpMwu0XE
+          - uuid: Compendium.ak5e.ak5e-items.Item.tDJPOjB3go7yh1at
+          - uuid: Compendium.ak5e.ak5e-items.Item.YRaUmzhRyxMbjH3U
+          - uuid: Compendium.ak5e.ak5e-items.Item.LL42rU6BBic45HZv
+          - uuid: Compendium.ak5e.ak5e-items.Item.0ft9PxeRW8FoUjgb
+          - uuid: Compendium.ak5e.ak5e-items.Item.IIulvylBDhw2Zz4F
+          - uuid: Compendium.ak5e.ak5e-items.Item.JAmRuAi1wbg4Zwdm
+          - uuid: Compendium.ak5e.ak5e-items.Item.wqd3yeo5ea2DAqD9
+          - uuid: Compendium.ak5e.ak5e-items.Item.YWNh0sRApVhTseeC
+          - uuid: Compendium.ak5e.ak5e-items.Item.yUbrNv1GkAtDTujE
+          - uuid: Compendium.ak5e.ak5e-items.Item.2MfZHPX5xtOxH4Zr
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: Tool Kit
+      hint: Select Tool Kit you're profience with.
+    - type: ItemGrant
+      _id: Nk39hs0nHbhuubJP
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Skill Points
+      hint: ''
+    - type: ItemGrant
+      _id: Teqgq3fvWJtOmMvr
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.XFGQax3VwBTHI8Z9
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Extra Attack
+      hint: ''
+    - type: ItemChoice
+      _id: pRa7z8CJsvXGr3Xr
+      configuration:
+        allowDrops: false
+        choices:
+          '2':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.XGWbACi5cic6PXa8
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.0qYsz5F4o6ar4GUS
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.56nAXgeuXzabMUHj
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.BmmsZ7gAjQabQNFz
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.JTK6NErx8Kvw3vOu
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.MPRTMYuKfJceHc7C
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.9H9l8JePvyeOfv6p
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.QS35F2MZONQyjFF1
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.ep2MJVEskzKTkT4y
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: Basic Operator Skill
+      hint: ''
+    - type: ItemChoice
+      _id: XoTnVpHGJRc2tLpM
+      configuration:
+        allowDrops: true
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.JtPzMai67p8ood8Z
+          - uuid: Compendium.ak5e.ak5e-talents.Item.6IL6kCJuT9hmCv97
+          - uuid: Compendium.ak5e.ak5e-talents.Item.hceNm4zFz9e5HTYm
+          - uuid: Compendium.ak5e.ak5e-talents.Item.1ZayOXSy5qjfyEaj
+          - uuid: Compendium.ak5e.ak5e-talents.Item.ed6qQk0urxaosAPg
+          - uuid: Compendium.ak5e.ak5e-talents.Item.OPv3qY3XkJREYTZv
+          - uuid: Compendium.ak5e.ak5e-talents.Item.OJjJDtDv1eF7izrT
+          - uuid: Compendium.ak5e.ak5e-talents.Item.HPA8fVrnNphDEqyS
+          - uuid: Compendium.ak5e.ak5e-talents.Item.cdDqSuDN1Rr0ajwR
+          - uuid: Compendium.ak5e.ak5e-talents.Item.EUHCD2cxipRq5Gox
+          - uuid: Compendium.ak5e.ak5e-talents.Item.PL4xlgwwce950X8F
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rBuQjsMnnEK0nQ2I
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rQs0HWi7n3P0iSBP
+          - uuid: Compendium.ak5e.ak5e-talents.Item.qfNTsOkoFFat7oiu
+          - uuid: Compendium.ak5e.ak5e-talents.Item.j0OSuxPOjWeQMLLM
+          - uuid: Compendium.ak5e.ak5e-talents.Item.BzU742aJIgbGMSdF
+          - uuid: Compendium.ak5e.ak5e-talents.Item.djXI6GLIRAdKvd1j
+          - uuid: Compendium.ak5e.ak5e-talents.Item.4MxiTCIDu9qPRbJF
+          - uuid: Compendium.ak5e.ak5e-talents.Item.TNysMEOsW57XDRxT
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: Basic Talent
+      hint: ''
+    - type: ItemChoice
+      _id: jeXvRZE6PjdBSaZG
+      configuration:
+        allowDrops: false
+        choices:
+          '7':
+            count: 1
+            replacement: true
+        pool:
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.LI9k302x9A4TZuh8
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.OtDq86Ro9qTIk8k1
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.IxcO6uUCImdtVlKp
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.KQl7XhApWCpKgrCx
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.cJxHlsMvWQcx8nLC
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.1ycUgaKJV1WuXeYx
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.1M4hhccnaaFHzWJQ
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.um4w4uDBUA420vAg
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.fem1NRSGhbEGK9kT
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.THc5UHbKjzdpOUX5
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.xEJtugdXspeK633F
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.HC942JqSdrjwcbap
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.F3bfzoiDZxr0lEHY
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.bFSrxWtc4TEYBFvt
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: Advanced Operator Skill
+      hint: ''
+    - type: ItemChoice
+      _id: SKvlIKSPvwRRlA81
+      configuration:
+        allowDrops: false
+        choices:
+          '9':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.o0GnFDZnQv6sXcbC
+          - uuid: Compendium.ak5e.ak5e-talents.Item.udvf7UywCar8aRw6
+          - uuid: Compendium.ak5e.ak5e-talents.Item.FPq9QdOHl0EzXDV5
+          - uuid: Compendium.ak5e.ak5e-talents.Item.cVZnaMpeM1tx6huu
+          - uuid: Compendium.ak5e.ak5e-talents.Item.OKhxvBFfBEME93PU
+          - uuid: Compendium.ak5e.ak5e-talents.Item.qcmSYeDAL35mcvws
+          - uuid: Compendium.ak5e.ak5e-talents.Item.wl1K4E167035p5yf
+          - uuid: Compendium.ak5e.ak5e-talents.Item.8XbsWW3ZnN9W6P2t
+          - uuid: Compendium.ak5e.ak5e-talents.Item.euKbo82wr4mpE7Dv
+          - uuid: Compendium.ak5e.ak5e-talents.Item.N0B8L9Y09HXmafE6
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rAcx8Q8Yghko9tSi
+          - uuid: Compendium.ak5e.ak5e-talents.Item.mlANfWU9dVkEcDSi
+          - uuid: Compendium.ak5e.ak5e-talents.Item.sTkdcWLiTwVAcdax
+          - uuid: Compendium.ak5e.ak5e-talents.Item.LSsRvyoRKzBAFTy5
+          - uuid: Compendium.ak5e.ak5e-talents.Item.IjUlJY3ogPaLv6Ht
+          - uuid: Compendium.ak5e.ak5e-talents.Item.QkpwGMxpGMK9cEyv
+          - uuid: Compendium.ak5e.ak5e-talents.Item.j07NEdLfMa6g8lY8
+          - uuid: Compendium.ak5e.ak5e-talents.Item.aW0bCeIhfhgxIa1D
+          - uuid: Compendium.ak5e.ak5e-talents.Item.cjPGozlLmepdrnwX
+          - uuid: Compendium.ak5e.ak5e-talents.Item.0B7CWEADSa2l7ZFb
+          - uuid: Compendium.ak5e.ak5e-talents.Item.osCElO13K6JHa6bQ
+          - uuid: Compendium.ak5e.ak5e-talents.Item.r19GGpWRcO5KigI5
+          - uuid: Compendium.ak5e.ak5e-talents.Item.tFQX4Mvc3zrePzmi
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: Advanced Talent
+      hint: ''
+    - type: ItemChoice
+      _id: 3ToDZe1Q32surMq2
+      configuration:
+        allowDrops: true
+        choices:
+          '14':
+            count: 1
+            replacement: true
+        pool:
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.MqATemsDRm92DUPJ
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.urZvtfIxeSFgnzhI
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.3N1H3KtwP5NQvYqK
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.mcLUyAyZE5L72tGo
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.3X643zQ28KyONf1K
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.2QzCc5nDYNbrO5GU
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.RgZBc0h1C1XvsBiw
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.vfnMqgMx2TudGW96
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.eYLxDbAOFZ1vBX3o
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.FfU6wjcNaHvn41Hg
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.kxmoO5VnSzmfQmVj
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: Elite Operator Skill
+      hint: ''
+    - type: ItemGrant
+      _id: oLi5HiM2NfIEiKhI
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.L8M3njAbScoE5txB
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Unerring
+      hint: ''
+    - type: ItemGrant
+      _id: ENXN2jWwjqQxvuUB
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.LXSV4egb4CO9SJrq
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Steel Rain
+      hint: ''
+    - type: ItemChoice
+      _id: I87NWHbH2PZBq1Kt
+      configuration:
+        allowDrops: false
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.aNXlsT7CdW5CeMjg
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.KoShQQkHWdDKzY42
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.Ynb0hHllEcj43R5s
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.KYTq2Zik8i5Ctdqu
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.NRfOeklLVrJEf3Tv
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.OR6a43AfzdtlZonE
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.rM5R8SXndxdLqu4c
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.MOKkq1Cp0FoDn8KI
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: Fighting Style
+      hint: >-
+        You adopt a particular style of fighting as your speciality. Choose one
+        of the following options (You can’t take a Fighting Style option more
+        than once, even if you later get to choose again).
+    - type: ItemChoice
+      _id: y7uv31gMaCMhrekv
+      configuration:
+        allowDrops: true
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.JtPzMai67p8ood8Z
+          - uuid: Compendium.ak5e.ak5e-talents.Item.6IL6kCJuT9hmCv97
+          - uuid: Compendium.ak5e.ak5e-talents.Item.hceNm4zFz9e5HTYm
+          - uuid: Compendium.ak5e.ak5e-talents.Item.1ZayOXSy5qjfyEaj
+          - uuid: Compendium.ak5e.ak5e-talents.Item.ed6qQk0urxaosAPg
+          - uuid: Compendium.ak5e.ak5e-talents.Item.OPv3qY3XkJREYTZv
+          - uuid: Compendium.ak5e.ak5e-talents.Item.OJjJDtDv1eF7izrT
+          - uuid: Compendium.ak5e.ak5e-talents.Item.HPA8fVrnNphDEqyS
+          - uuid: Compendium.ak5e.ak5e-talents.Item.cdDqSuDN1Rr0ajwR
+          - uuid: Compendium.ak5e.ak5e-talents.Item.EUHCD2cxipRq5Gox
+          - uuid: Compendium.ak5e.ak5e-talents.Item.PL4xlgwwce950X8F
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rBuQjsMnnEK0nQ2I
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rQs0HWi7n3P0iSBP
+          - uuid: Compendium.ak5e.ak5e-talents.Item.qfNTsOkoFFat7oiu
+          - uuid: Compendium.ak5e.ak5e-talents.Item.j0OSuxPOjWeQMLLM
+          - uuid: Compendium.ak5e.ak5e-talents.Item.BzU742aJIgbGMSdF
+          - uuid: Compendium.ak5e.ak5e-talents.Item.djXI6GLIRAdKvd1j
+          - uuid: Compendium.ak5e.ak5e-talents.Item.4MxiTCIDu9qPRbJF
+          - uuid: Compendium.ak5e.ak5e-talents.Item.TNysMEOsW57XDRxT
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: Basic Talent Module
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
+    - type: ItemChoice
+      _id: aaL3OiaFXXgtKVvp
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: true
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.o0GnFDZnQv6sXcbC
+          - uuid: Compendium.ak5e.ak5e-talents.Item.udvf7UywCar8aRw6
+          - uuid: Compendium.ak5e.ak5e-talents.Item.FPq9QdOHl0EzXDV5
+          - uuid: Compendium.ak5e.ak5e-talents.Item.cVZnaMpeM1tx6huu
+          - uuid: Compendium.ak5e.ak5e-talents.Item.OKhxvBFfBEME93PU
+          - uuid: Compendium.ak5e.ak5e-talents.Item.qcmSYeDAL35mcvws
+          - uuid: Compendium.ak5e.ak5e-talents.Item.wl1K4E167035p5yf
+          - uuid: Compendium.ak5e.ak5e-talents.Item.8XbsWW3ZnN9W6P2t
+          - uuid: Compendium.ak5e.ak5e-talents.Item.euKbo82wr4mpE7Dv
+          - uuid: Compendium.ak5e.ak5e-talents.Item.N0B8L9Y09HXmafE6
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rAcx8Q8Yghko9tSi
+          - uuid: Compendium.ak5e.ak5e-talents.Item.mlANfWU9dVkEcDSi
+          - uuid: Compendium.ak5e.ak5e-talents.Item.sTkdcWLiTwVAcdax
+          - uuid: Compendium.ak5e.ak5e-talents.Item.LSsRvyoRKzBAFTy5
+          - uuid: Compendium.ak5e.ak5e-talents.Item.IjUlJY3ogPaLv6Ht
+          - uuid: Compendium.ak5e.ak5e-talents.Item.QkpwGMxpGMK9cEyv
+          - uuid: Compendium.ak5e.ak5e-talents.Item.j07NEdLfMa6g8lY8
+          - uuid: Compendium.ak5e.ak5e-talents.Item.aW0bCeIhfhgxIa1D
+          - uuid: Compendium.ak5e.ak5e-talents.Item.cjPGozlLmepdrnwX
+          - uuid: Compendium.ak5e.ak5e-talents.Item.0B7CWEADSa2l7ZFb
+          - uuid: Compendium.ak5e.ak5e-talents.Item.osCElO13K6JHa6bQ
+          - uuid: Compendium.ak5e.ak5e-talents.Item.r19GGpWRcO5KigI5
+          - uuid: Compendium.ak5e.ak5e-talents.Item.tFQX4Mvc3zrePzmi
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: Advanced Talent Module
+      hint: >-
+        Do you want to unlock talent's module effect, or take another advanced
+        talent?
+    - type: ItemChoice
+      _id: 3uUKBRFUjr8EXgi1
+      configuration:
+        allowDrops: false
+        choices:
+          '1':
+            count: 1
+            replacement: false
+          '11':
+            count: null
+            replacement: true
+        pool:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.Wxr36xCVCF3240NG
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.oxFGvfgwpg4tNLdL
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <h3>Core Marksman Traits</h3><table><tbody><tr><td data-colwidth="142"><p
+      style="text-align:center"><strong>Primary
+      Ability</strong></p></td><td><p>Dexterity</p></td></tr><tr><td
+      data-colwidth="142"><p style="text-align:center"><strong>Hit Point
+      Die</strong></p></td><td><p>D8 per Marksman level</p></td></tr><tr><td
+      data-colwidth="142"><p style="text-align:center"><strong>Saving Throw
+      Proficiencies</strong></p></td><td><p>Dexterity + one of your choice from
+      thefollowing: Wisdom, Charisma</p></td></tr><tr><td data-colwidth="142"><p
+      style="text-align:center"><strong>Skill
+      Proficiencies</strong></p></td><td><p>Choose 3 from: Acrobatics,
+      Athletics, Perception, Sleight of Hand, Stealth,
+      Wilderness</p></td></tr><tr><td data-colwidth="142"><p
+      style="text-align:center"><strong>Weapon
+      Proficiencies</strong></p></td><td><p>Light Melee, Light Ranged, Heavy
+      Ranged, Light Shields</p></td></tr><tr><td data-colwidth="142"><p
+      style="text-align:center"><strong>Tool
+      Proficiencies</strong></p></td><td><p>Any Tool
+      Kit/Vehicle</p></td></tr><tr><td data-colwidth="142"><p
+      style="text-align:center"><strong>Armor
+      Training</strong></p></td><td><p>Light Armour, Medium
+      Armour</p></td></tr><tr><td data-colwidth="142"><p
+      style="text-align:center"><strong>Starting
+      Equipment</strong></p></td><td><p>Choose A or B:</p><p>(A): (a) 1x Light
+      Ranged Weapon or (b) 1x HeavyRanged Weapon or (c) 1x Grenade
+      Launcher;</p><p>(a) 1x Light Melee Weapon or (b) 1x Light
+      Shield;</p><p>(a) Protective Clothing or (b) Underarmour;</p><p>1x Tool
+      Kit you are Proficient with;</p><p>(B): 1300
+      LMD.</p></td></tr></tbody></table><h3>Hunters, Assassins, Heroes</h3><p>In
+      many ways, all that ties most Marksmen together istheir choice of weapon.
+      The width and breadth of thoseunder the Marksman’s umbrella cannot be
+      overstated.To be a Marksman is to have a proclivity towardsranged combat,
+      and ultimately says little aboutcharacter or nature in the same way other
+      professionsmight.</p><p>Marksmen are exceptionally common; every war
+      everfought has involved ranged combat, every ruralsettlement has a hunter,
+      or at least drive off threats.Thus, to be a Marksman of note is to rise
+      above thedross, to be a name worth knowing. Everyone needs aMarksman; why
+      not be the best?</p>
+    chat: ''
+  identifier: marksman
+  source:
+    revision: 1
+    rules: '2024'
+    book: AK5e
+    page: ''
+    custom: ''
+    license: ''
+  startingEquipment:
+    - type: AND
+      requiresProficiency: false
+      _id: WxHxJwLolYekk2ue
+      group: ''
+      sort: 100000
+    - type: OR
+      requiresProficiency: false
+      _id: 94ED4fTm6b7CBHJJ
+      group: WxHxJwLolYekk2ue
+      sort: 350000
+    - type: weapon
+      count: null
+      key: ltm
+      requiresProficiency: false
+      _id: XZbRGRfiVuiS4ytk
+      group: 94ED4fTm6b7CBHJJ
+      sort: 600000
+    - type: armor
+      count: null
+      key: lightS
+      requiresProficiency: false
+      _id: lJdTTtwrgzhCqt6o
+      group: 94ED4fTm6b7CBHJJ
+      sort: 700000
+    - type: OR
+      requiresProficiency: false
+      _id: 7GJPugOHMDWGZDzN
+      group: WxHxJwLolYekk2ue
+      sort: 375000
+    - type: linked
+      count: 1
+      key: Compendium.ak5e.ak5e-items.Item.33A3rLP3Gm4A7Nrq
+      requiresProficiency: false
+      _id: rk0u1sffvFj90lGp
+      group: 7GJPugOHMDWGZDzN
+      sort: 1000000
+    - type: OR
+      requiresProficiency: false
+      _id: QGb32tyD97nRmEgA
+      group: WxHxJwLolYekk2ue
+      sort: 1100000
+    - type: weapon
+      count: null
+      key: hvr
+      requiresProficiency: false
+      _id: DnOlhxNES8ViHDSQ
+      group: QGb32tyD97nRmEgA
+      sort: 300000
+    - type: linked
+      count: null
+      key: Compendium.ak5e.ak5e-items.Item.opmLg0JuPqMFgZjL
+      requiresProficiency: false
+      _id: eSxZ6hQE2oafjQOd
+      group: QGb32tyD97nRmEgA
+      sort: 312500
+    - type: linked
+      count: null
+      key: Compendium.ak5e.ak5e-items.Item.OXGwqTbLRvlNxP0Q
+      requiresProficiency: false
+      _id: s1fBvO7D01uuS5dq
+      group: 7GJPugOHMDWGZDzN
+      sort: 1050000
+    - type: weapon
+      count: null
+      key: ltr
+      requiresProficiency: false
+      _id: elwYAziEJd3eKrXl
+      group: QGb32tyD97nRmEgA
+      sort: 325000
+    - type: tool
+      count: null
+      key: ''
+      requiresProficiency: false
+      _id: mgNdmTSBNFEKa3oe
+      group: WxHxJwLolYekk2ue
+      sort: 1200000
+  hd:
+    additional: ''
+    denomination: d8
+    spent: 0
+  levels: 1
+  primaryAbility:
+    value: []
+    all: true
+  properties: []
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+  wealth: '1300'
+effects: []
+folder: iC3JKDqYvfc25vaP
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767615327612
+  modifiedTime: 1768061859691
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: 68mNoSEgYkw9nKei
+sort: 100000
+_key: '!items!68mNoSEgYkw9nKei'

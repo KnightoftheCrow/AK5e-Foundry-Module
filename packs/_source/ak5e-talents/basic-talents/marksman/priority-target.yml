@@ -1,0 +1,77 @@
+folder: U1VvPUnEP8A2c7Xk
+name: Priority Target
+type: feat
+_id: j0OSuxPOjWeQMLLM
+img: modules/ak5e/icons/Skill-Matoimaru1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: 4DLAU5PZmGl6kqhj
+      configuration:
+        allowDrops: false
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.NStpcJ4m8TcHVtrp
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
+  description:
+    value: >-
+      <p>When you would make an Attack Roll against a Creature that has a Ranged
+      Weapon or a Weapon with the Casting Unit Property equipped, you have
+      Advantage on that Attack.</p><p><strong>Module:</strong> If you would have
+      Disadvantage on Attacks against those Creatures, you do
+      not.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: priority-target
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 1600000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767736525012
+  modifiedTime: 1767910131677
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!j0OSuxPOjWeQMLLM'

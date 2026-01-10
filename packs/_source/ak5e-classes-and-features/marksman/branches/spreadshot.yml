@@ -1,0 +1,120 @@
+folder: O2Yp1afpugL0lA12
+name: Spreadshot
+type: subclass
+img: modules/ak5e/icons/Spreadshooter_Sniper.webp
+system:
+  advancement:
+    - type: ItemGrant
+      title: Branch Feature
+      _id: e626NHH38QCv7nju
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.WcwBPZTUeEMe0BO6
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      hint: ''
+    - type: ItemGrant
+      title: Branch Feature
+      _id: QPDuB4nhpCoeeneV
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.rtFRQ65V6lRwsdCJ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      hint: ''
+    - type: ItemGrant
+      title: Branch Feature
+      _id: 24EdEXVTzVMQjk6V
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.yjFRcEf1Mx0hdZTw
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      hint: ''
+    - type: ItemGrant
+      title: Branch Feature
+      _id: bzDQmhSfUZuXMcKL
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.m64RHyIKaX12J7To
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 4
+      hint: ''
+    - type: ItemGrant
+      title: Branch Feature
+      _id: J3BOEjWkQ3tRn3q8
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.ggIqdAVYniuTd8wN
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.p8sd4C5qnnxm9lAx
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+  description:
+    value: >-
+      <p>Spreadshot Marksmen excel in two aspects; close quarters combat, and
+      combat against tight groups of enemies. Combine these two elements, and
+      you will see results you did not think possible; each blast sweeping away
+      a lesser foe before them.</p><p>You get next Branch
+      Features:</p><table><tbody><tr><td
+      data-colwidth="87"><p>Level</p></td><td><p>Branch
+      Feature</p></td></tr><tr><td data-colwidth="87"><p
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.p8sd4C5qnnxm9lAx]{Spread
+      the Love},
+      @UUID[Compendium.ak5e.ak5e-classes-and-features.Item.ggIqdAVYniuTd8wN]{Pepperbox}</p></td></tr><tr><td
+      data-colwidth="87"><p
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.m64RHyIKaX12J7To]{Buckshot}</p></td></tr><tr><td
+      data-colwidth="87"><p
+      style="text-align:center">10</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.yjFRcEf1Mx0hdZTw]{Centre
+      of Mass}</p></td></tr><tr><td data-colwidth="87"><p
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.rtFRQ65V6lRwsdCJ]{Breach
+      and Clear}</p></td></tr><tr><td data-colwidth="87"><p
+      style="text-align:center">18</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.WcwBPZTUeEMe0BO6]{Boomstick
+      Blitz}</p></td></tr></tbody></table>
+    chat: ''
+  identifier: spreadshot
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: marksman
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767615324380
+  modifiedTime: 1767875729523
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: cdiJsiJqHwd8uBWj
+sort: 162500
+_key: '!items!cdiJsiJqHwd8uBWj'

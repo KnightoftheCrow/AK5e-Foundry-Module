@@ -1,0 +1,58 @@
+folder: q9mrRuD7Bdhth58y
+name: Meditation (WIP)
+type: feat
+_id: 0qYsz5F4o6ar4GUS
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <ul><li><p><strong>Name</strong>: Meditation.</p></li><li><p><strong>SP
+      Cost:</strong> 10.</p></li><li><p><strong>Start SP:</strong>
+      5.</p></li><li><p><strong>Charging:</strong>
+      Automatic.</p></li><li><p><strong>Activation Cost:</strong>
+      Action.</p></li><li><p><strong>Effect:</strong> You gain Temporary Hit
+      Points equal to 1d10 + your Character
+      Level.</p></li><li><p><strong>Duration:</strong>
+      Instant.</p></li></ul><p></p><p></p>
+    chat: ''
+  identifier: meditation-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 150000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767618408662
+  modifiedTime: 1767918858616
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!0qYsz5F4o6ar4GUS'

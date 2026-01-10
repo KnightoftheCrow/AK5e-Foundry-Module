@@ -1,0 +1,57 @@
+folder: DjSTH0TXN7YZwjfY
+name: Boomstick Blitz (WIP)
+type: feat
+_id: WcwBPZTUeEMe0BO6
+img: icons/skills/ranged/cannon-barrel-firing-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Simply being in a room with you is enough to condemn a foe to
+      death.</p><p>As an Action while you are wielding a weapon with the Spread
+      Property, you can make a Ranged Attack using that weapon against every
+      Creature of your choice that you can see within 30 feet of you. You can
+      only Attack each Creature once as part of this Action.</p><p>Once you have
+      used this Feature, you may not do so again until you have completed a Long
+      Rest.</p>
+    chat: ''
+  identifier: boomstick-blitz-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 18
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767626149652
+  modifiedTime: 1767733610553
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!WcwBPZTUeEMe0BO6'

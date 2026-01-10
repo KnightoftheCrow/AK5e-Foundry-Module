@@ -1,0 +1,63 @@
+folder: mQ7J5doN5qC9pvT1
+name: Siege Mode (WIP)
+type: feat
+_id: 70nxyptZ1iiASjcc
+img: icons/weapons/artillery/ballista-wood-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>At the beginning of your Turn you may declare that you will enter Siege
+      Mode (no Action required) until the end of that Turn. While in Siege Mode,
+      your Speed is reduced to 0 (and cannot be increased), and you have
+      Disadvantage on Ranged Weapon Attacks against Creatures within 20ft of
+      you. However, you gain the following benefits:</p><p><strong>Additional
+      Damage.</strong> Your Attacks deal 1d8 additional
+      Damage.</p><p><strong>Crushing Shots.</strong> While they are Equipped by
+      you, Ranged Weapons gain the Crush (X) Property, where X is equal to twice
+      your Proficiency Bonus. If it already has the Crush (X) Property, add the
+      values of X together and use that value for X.</p><p><strong>Ignore
+      Brace.</strong> You ignore the effects of the Brace
+      Property.</p><p><strong>Long Range Shooting.</strong> You suffer no
+      penalty for Attacking at Long Range.</p>
+    chat: ''
+  identifier: siege-mode-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767620125646
+  modifiedTime: 1767733014778
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!70nxyptZ1iiASjcc'

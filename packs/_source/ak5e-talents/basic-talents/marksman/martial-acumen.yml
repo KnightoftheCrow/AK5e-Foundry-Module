@@ -1,0 +1,96 @@
+folder: U1VvPUnEP8A2c7Xk
+name: Martial Acumen
+type: feat
+_id: PL4xlgwwce950X8F
+img: modules/ak5e/icons/Skill-Morgan2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: AlWz0JsTHJdMUPsU
+      configuration:
+        allowDrops: true
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        pool: []
+        restriction:
+          list: []
+          type: class
+          subtype: fightingStyle
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: Guard Fighting Style
+      hint: ''
+    - type: ItemChoice
+      _id: YfF9Oip3KqM9sQn0
+      configuration:
+        allowDrops: false
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.ZT2UOU5NX1BGgY0j
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
+  description:
+    value: >-
+      <p>You gain a Fighting Style from one of the Styles available to the Guard
+      Class.</p><p><strong>Module:</strong> As a Bonus Action, you may grant a
+      Weapon you are wielding the Couch, Deadly, or Crush (5) Property until the
+      beginning of your next Turn.</p>
+    chat: ''
+  identifier: martial-acumen
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 1000000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767735713460
+  modifiedTime: 1767910057711
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!PL4xlgwwce950X8F'

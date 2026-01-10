@@ -1,0 +1,54 @@
+folder: 7chRMuJsyyn3S2jB
+name: Maximum Muzzle Velocity (Module)
+type: feat
+_id: z0QwdMcZdacDXUwC
+img: modules/ak5e/icons/Skill-Shaw2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module:</strong> Your Ranged Weapon Attacks against Creatures
+      within 30 feet of you instead gain the Crush (8) Property. If it already
+      has this Property, increase the value of its Crush (X) Property by 8.</p>
+    chat: ''
+  identifier: maximum-muzzle-velocity-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 100049
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767736271596
+  modifiedTime: 1767911280573
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!z0QwdMcZdacDXUwC'

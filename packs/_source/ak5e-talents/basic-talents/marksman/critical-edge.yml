@@ -1,0 +1,125 @@
+folder: U1VvPUnEP8A2c7Xk
+name: Critical Edge
+type: feat
+_id: OJjJDtDv1eF7izrT
+img: modules/ak5e/icons/Skill-C1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: JkT4Mg6YFO6hRmsL
+      configuration:
+        allowDrops: false
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.XlMiH20OkY4B1hig
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
+  description:
+    value: >-
+      <p>Your Critical Range is increased by 1.</p><p><strong>Module:</strong>
+      You can roll one additional Damage die when determining the extra Damage
+      for a Critical Hit.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: critical-edge
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Critical Edge
+    img: modules/ak5e/icons/Skill-C1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.OJjJDtDv1eF7izrT
+    _id: s3aDMHJ3W5hWibXs
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.attack.criticalThreshold
+        mode: 2
+        value: threshold=-1;
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767870478998
+      modifiedTime: 1767876629345
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!OJjJDtDv1eF7izrT.s3aDMHJ3W5hWibXs'
+sort: 800000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767734950362
+  modifiedTime: 1767910020739
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!OJjJDtDv1eF7izrT'

@@ -1,0 +1,127 @@
+folder: AynL7yzSlptsmcjl
+name: Hammer and Anvil
+type: feat
+_id: euKbo82wr4mpE7Dv
+img: modules/ak5e/icons/Skill-Mudrock3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: ugioAoiWupsokvp5
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.IuPBrdz8iyjMI1I8
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>Once per Turn, when you hit a Creature within 5 feet of an allied
+      Creature with a Ranged Attack, that Attack deals additional Damage equal
+      to your Proficiency Bonus.</p><p><strong>Module:</strong> The range at
+      which this Feature is effective is increased to 10
+      feet.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: hammer-and-anvil
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Hammer and Anvil
+    img: modules/ak5e/icons/Skill-Mudrock3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.euKbo82wr4mpE7Dv
+    _id: cmMkaXDktYkHf3B8
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.bonus
+        mode: 2
+        value: >-
+          bonus=@prof; hasAttack && actionType.rwak && checkNearby(opponentId,
+          'ally', 5);
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1767993416685
+      modifiedTime: 1767995611011
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!euKbo82wr4mpE7Dv.cmMkaXDktYkHf3B8'
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767738621760
+  modifiedTime: 1767994784429
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!euKbo82wr4mpE7Dv'

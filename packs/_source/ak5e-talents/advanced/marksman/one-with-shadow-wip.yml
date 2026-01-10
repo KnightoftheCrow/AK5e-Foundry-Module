@@ -1,0 +1,56 @@
+folder: AynL7yzSlptsmcjl
+name: One With Shadow (WIP)
+type: feat
+_id: QkpwGMxpGMK9cEyv
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>When a Creature makes an Attack against you, and doesn’t have Advantage
+      on the Attack Roll, you can use your Reaction to give that Attack Roll
+      Disadvantage. You can use this Feature a number of times equal to your
+      Proficiency Bonus, and regain all expended uses when you complete a Long
+      Rest.</p><p><strong>Module:</strong> You can now use this Feature even
+      when the Attack has Advantage.</p>
+    chat: ''
+  identifier: one-with-shadow
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767738686298
+  modifiedTime: 1767997606476
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!QkpwGMxpGMK9cEyv'

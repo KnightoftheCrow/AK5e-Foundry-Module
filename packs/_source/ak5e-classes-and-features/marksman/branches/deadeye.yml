@@ -1,0 +1,113 @@
+folder: O2Yp1afpugL0lA12
+name: Deadeye
+type: subclass
+img: modules/ak5e/icons/Deadeye_Sniper.webp
+system:
+  advancement:
+    - type: ItemGrant
+      _id: SdGPFiUZcFml2fdf
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.CDG10QNnyWf5iB0x
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.bnjx284W0wwCkHjz
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      title: Branch Feature
+      _id: EgypfjjjUFQQsRDR
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.yBYmY2sbmNQS71ul
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 4
+      hint: ''
+    - type: ItemGrant
+      _id: Xv2EHynfwsNypnUK
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.NVVRhhbcvRmYYPe8
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      _id: 6NXGdLRV2ohPYG1z
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.NWFUAeiHkW2pfJqn
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Branch Feature
+      hint: ''
+    - type: ItemGrant
+      title: Branch Feature
+      _id: jOAiuouuCALP1lKK
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.30hRrtnTxtx0PlLd
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      hint: ''
+  description:
+    value: >-
+      <p>“One Shot, One Kill” is the mantra of Deadeye Marksmen. They
+      concentrate their considerable talent into making the perfect single shot,
+      rather than multiple less effective shots. Quantity is no substitute for
+      quality, or so they say.</p><p>You get next Branch
+      Features:</p><table><tbody><tr><td><p>Level</p></td><td><p>Branch
+      Feature</p></td></tr><tr><td><p>1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.CDG10QNnyWf5iB0x]{Deadshot},
+      @UUID[Compendium.ak5e.ak5e-classes-and-features.Item.bnjx284W0wwCkHjz]{Kingslayer}</p></td></tr><tr><td><p>4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.yBYmY2sbmNQS71ul]{Vital
+      Strike}</p></td></tr><tr><td><p>10</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.NVVRhhbcvRmYYPe8]{Anti-Sniper
+      Training}</p></td></tr><tr><td><p>15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.NWFUAeiHkW2pfJqn]{Improved
+      Deadshot}</p></td></tr><tr><td><p>18</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.30hRrtnTxtx0PlLd]{Ultimate
+      Deadshot}</p></td></tr></tbody></table>
+    chat: ''
+  identifier: deadeye
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: marksman
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767615317056
+  modifiedTime: 1767875759963
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: P1ttqKrOpVXBdDGu
+sort: 300000
+_key: '!items!P1ttqKrOpVXBdDGu'

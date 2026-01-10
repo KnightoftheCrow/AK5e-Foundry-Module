@@ -1,0 +1,56 @@
+folder: sFhUUBrNUgchnK7r
+name: Explosive Dawn (WIP)
+type: feat
+_id: dSDlRdBJIaD50qMV
+img: icons/skills/ranged/projectile-explosion-black-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You are the single most dangerous signal on the battlefield- bar none.
+      You gain the following benefits:</p><p><strong>God of
+      Destruction.</strong> Grenade Launchers and Rocket Launchers are no longer
+      considered to have the Loading Property when wielded by
+      you.</p><p><strong>Last Maniac Standing.</strong> You are Resistant to
+      Thunder Damage, and Immune to Thunder Damage that is dealt by you.</p>
+    chat: ''
+  identifier: explosive-dawn-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 18
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 125000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767620092627
+  modifiedTime: 1768006101773
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!dSDlRdBJIaD50qMV'

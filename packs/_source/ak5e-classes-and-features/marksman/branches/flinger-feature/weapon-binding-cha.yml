@@ -1,0 +1,314 @@
+folder: YSYBaEbbvAZsJUrT
+name: Weapon Binding (CHA)
+type: feat
+img: modules/ak5e/icons/Skill-Honeyberry2.webp
+system:
+  activities:
+    BU4lmgHpWxhSpKKf:
+      type: enchant
+      _id: BU4lmgHpWxhSpKKf
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: '10'
+      effects:
+        - _id: C1e9yrcomaxzHkoo
+          level:
+            min: null
+            max: null
+          riders:
+            activity: []
+            effect: []
+            item: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: true
+        categories:
+          - lightM
+          - heavyM
+          - specialM
+        properties: []
+        type: weapon
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: Bond Weapon
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You learn to imprint your Arts onto a Weapon to bettermanipulate
+      it.</p><p><strong>Binding Ritual.</strong> Over the course of ten minutes,
+      whichcan be done during a Rest, you can bind to a MeleeWeapon. The weapon
+      must be within your reacht hroughout the ritual, at the conclusion of
+      which youtouch the weapon and forge the bond. The bond fails ifanother
+      Creature is bonded to it, or if the weapon is amagic item to which someone
+      else is attuned.</p><p>The maximum number of Bound Weapons you can haveis
+      1; this is increased to 2 at Level 7, and 3 at Level
+      14.</p><p><strong>Using a Bound Weapon.</strong> A Weapon Bound to you
+      floatsin an empty space as close to you as possible, moving when you do,
+      until commanded otherwise. When taking the Attack Action, instead of
+      making your normal Attacks, you can command each of your Bound Weapons to
+      move up to 30 feet in any direction to alocation you can see; Weapons can
+      move through Creature’s spaces during this movement, but cannot finish
+      this movement in a Creature’s space. The Bound Weapon then floats at this
+      location.</p><p>After this movement, you can make a Melee Attack with each
+      of your Bound Weapons that has a Creature within 5 feet of it (10 feet if
+      the Bound Weapon has the Reach Property). These Weapon Attacks use your
+      SpellcastingAbility Modifier (instead of Strength or Dexterity) for the
+      Attack and Damage rolls, and you are considered to be Proficient with
+      those Weapons for these Attacks.</p><p>Additionally, if you have cast a
+      levelled Art during yourTurn, until the end of that Turn you can move one
+      ofyour Bound Weapons (but not Attack with it) as a
+      BonusAction.</p><p><strong>Opportunity Attacks with Bound
+      Weapons.</strong> If a Creature would voluntarily leave the reach of one
+      ofyour Bound Weapons, you may make an Attack of Opportunity against them
+      with one of those Bound Weapons; this does not consume your Reaction,
+      butonce a Bound Weapon has made an Attack ofOpportunity, it cannot do so
+      again until the start of yournext Turn.</p><p><strong>Recalling Bound
+      Weapons.</strong> You can recall all of your Bound Weapon within 100 feet
+      to your side as an Action; they resume floating in an empty space as close
+      to you as possible, and move when you do. If a Bound Weapon is ever more
+      than 100 feet away from you, your Arts lose their hold, and it ceases to
+      be Bound to you.</p><p><strong>Partially automated:</strong> Use to bind
+      Melee Weapon with you to apply Spellcasting Ability to Weapon. You get
+      dummy profiency for all Melee Weapon.</p>
+    chat: ''
+  identifier: weapon-binding-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties:
+    - mgc
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - type: enchantment
+    name: Bound Weapon
+    img: modules/ak5e/icons/Skill-Honeyberry2.webp
+    disabled: true
+    _id: C1e9yrcomaxzHkoo
+    system: {}
+    changes:
+      - key: system.description.value
+        mode: 2
+        value: Bound Weapon
+        priority: 20
+      - key: activities[attack].attack.ability
+        mode: 5
+        value: cha
+        priority: 20
+      - key: name
+        mode: 5
+        value: Bound {}
+        priority: 20
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1768005019243
+    _key: '!items.effects!k7ggEwcJBqsr0iKu.C1e9yrcomaxzHkoo'
+  - name: Weapon Binding
+    img: modules/ak5e/icons/Skill-Honeyberry2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.k7ggEwcJBqsr0iKu
+    _id: 5570pjXcd76VgWBZ
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.weaponProf.value
+        mode: 0
+        value: hvm
+        priority: 20
+      - key: system.traits.weaponProf.value
+        mode: 0
+        value: spm
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1767876230377
+    _key: '!items.effects!k7ggEwcJBqsr0iKu.5570pjXcd76VgWBZ'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767824271643
+  modifiedTime: 1767876219538
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: k7ggEwcJBqsr0iKu
+sort: 118750
+_key: '!items!k7ggEwcJBqsr0iKu'

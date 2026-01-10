@@ -1,0 +1,45 @@
+folder: FNmG2sdf2PkjKSHw
+name: Radar Sweep (WIP)
+type: feat
+_id: um4w4uDBUA420vAg
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+  advancement: []
+  description:
+    value: ''
+    chat: ''
+  identifier: radar-sweep-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767619055022
+  modifiedTime: 1767619055022
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!um4w4uDBUA420vAg'

@@ -1,0 +1,53 @@
+folder: FNmG2sdf2PkjKSHw
+name: Flexible Camouflage (WIP)
+type: feat
+_id: 1ycUgaKJV1WuXeYx
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You are considered to be in Half Cover for the duration, unless you are
+      benefitting from other Cover. Additionally, Attacks against you from 30 or
+      more feet away are made with Disadvantage.</p>
+    chat: ''
+  identifier: flexible-camouflage-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767619014403
+  modifiedTime: 1767619027242
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!1ycUgaKJV1WuXeYx'

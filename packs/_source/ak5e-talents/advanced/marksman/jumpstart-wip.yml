@@ -1,0 +1,54 @@
+folder: AynL7yzSlptsmcjl
+name: Jumpstart (WIP)
+type: feat
+_id: rAcx8Q8Yghko9tSi
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>The Start SP of your Operator Skills is increased by
+      5.</p><p><strong>Module:</strong> The Start SP of your Operator Skills is
+      increased by 10 instead.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: jumpstart
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767738636078
+  modifiedTime: 1767996102307
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!rAcx8Q8Yghko9tSi'
