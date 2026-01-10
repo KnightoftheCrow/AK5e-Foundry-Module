@@ -6,7 +6,7 @@ system:
   uses:
     spent: 10
     recovery:
-      - period: sr
+      - period: lr
         type: formula
         formula: max(0, @scale.skillPoints.recovery - @item.uses.value)
     max: '10'
@@ -112,7 +112,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1766943177603
-  modifiedTime: 1768059258791
+  modifiedTime: 1768059974045
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0
