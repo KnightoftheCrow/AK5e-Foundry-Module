@@ -222,6 +222,60 @@ effects:
       modifiedTime: 1767921222948
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!2rCDt1z6WePSeJCA.bbw6DwYlOdDWeAsb'
+  - name: Hidden Might (Skill Points)
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA
+    _id: 1htoZLk7xhkowqiY
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 5
+        value: '5'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 5
+        value: '10'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768071141223
+      modifiedTime: 1768072616971
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!2rCDt1z6WePSeJCA.1htoZLk7xhkowqiY'
 sort: 100000
 ownership:
   default: 0

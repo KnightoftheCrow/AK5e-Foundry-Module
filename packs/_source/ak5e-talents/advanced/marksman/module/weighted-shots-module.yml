@@ -1,14 +1,12 @@
-folder: U1VvPUnEP8A2c7Xk
-name: Illuminant Eyes
+folder: 5ej4KENJRk8I9Ksg
+name: Weighted Shots (Module)
 type: feat
-_id: cdDqSuDN1Rr0ajwR
-img: modules/ak5e/icons/Skill-AspectOfAnnihilation.webp
+img: modules/ak5e/icons/Skill-Earthspirit1.webp
 system:
   activities:
-    D9NlHpUHWr4OZvDY:
+    xFxLIOsAfY4z1Dza:
       type: utility
-      name: Doubling range
-      _id: D9NlHpUHWr4OZvDY
+      _id: xFxLIOsAfY4z1Dza
       sort: 0
       activation:
         type: action
@@ -18,10 +16,7 @@ system:
         scaling:
           allowed: false
         spellSlot: true
-        targets:
-          - type: itemUses
-            value: '1'
-            target: ''
+        targets: []
       description:
         chatFlavor: ''
       duration:
@@ -29,13 +24,10 @@ system:
         concentration: false
         override: false
       effects:
-        - _id: OR63V2kqK7eY0ITl
-          level:
-            min: null
-            max: null
+        - _id: JEEXjjMzoZ3Aix8s
       flags: {}
       range:
-        units: self
+        units: any
         override: false
         special: ''
       target:
@@ -45,17 +37,15 @@ system:
           type: ''
         affects:
           choice: false
-          type: self
           count: ''
+          type: enemy
           special: ''
         override: false
         prompt: true
       uses:
         spent: 0
-        recovery:
-          - period: sr
-            type: recoverAll
-        max: '1'
+        recovery: []
+        max: ''
       visibility:
         level:
           min: null
@@ -67,8 +57,8 @@ system:
       roll:
         prompt: false
         visible: false
-        name: ''
         formula: ''
+        name: ''
       useConditionText: ''
       useConditionReason: ''
       effectConditionText: ''
@@ -87,7 +77,7 @@ system:
         triggeredActivityConditionText: ''
         triggeredActivityTargets: targets
         triggeredActivityRollAs: self
-        autoConsume: true
+        autoConsume: false
         forceConsumeDialog: default
         forceRollDialog: default
         forceDamageDialog: default
@@ -116,45 +106,24 @@ system:
         postRemoveConditionText: ''
       otherActivityId: none
       otherActivityAsParentType: true
+      name: Weighted Shots
       img: ''
   uses:
     spent: 0
-    recovery:
-      - period: sr
-        type: recoverAll
-    max: '1'
-  advancement:
-    - type: ItemChoice
-      _id: bCRPbmuNfRWaMkhI
-      configuration:
-        allowDrops: false
-        choices:
-          '8':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.wPXQs7reAu5TZKw3
-        restriction:
-          list: []
-        spell: null
-        type: null
-      value:
-        added: {}
-        replaced: {}
-      title: ''
-      hint: >-
-        Do you want to unlock talent's module effect, or take another basic
-        talent?
+    recovery: []
+    max: ''
+  advancement: []
   description:
     value: >-
-      <p>You gain 30 feet of Darkvision; if you already have Darkvision, it is
-      increased by 30 feet. Additionally, once per Short Rest as an Action, you
-      may double the range of your Darkvision for 1
-      minute.</p><p><strong>Module:</strong> When you use this Feature as an
-      Action, your Darkvision triples instead of
-      doubling.</p><p><strong>Automated.</strong></p>
+      <p>The first time you deal Damage to a Creature with an Attack, that
+      Creature’s Movement Speed is reduced by 15 feet until the end of their
+      Turn. It is considered to be the first time you hit a Creature if you have
+      rolled Initiative since the last time you hit them with an
+      Attack.</p><p><strong>Module:</strong> Their Speed is reduced by 30 feet
+      instead.</p><p><strong>Partially Automated:</strong> Use to impose speed
+      reduction on target.</p>
     chat: ''
-  identifier: illuminant-eyes
+  identifier: weighted-shots
   source:
     revision: 1
     rules: '2024'
@@ -163,7 +132,7 @@ system:
   prerequisites:
     items: []
     repeatable: false
-    level: 3
+    level: 13
   properties:
     - trait
   requirements: ''
@@ -171,23 +140,23 @@ system:
     value: class
     subtype: skillPoints
 effects:
-  - name: Illuminant Eyes
-    img: modules/ak5e/icons/Skill-AspectOfAnnihilation.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.cdDqSuDN1Rr0ajwR
-    _id: ly1R4GFPCS8R6lTq
+  - name: Weighted Shots (Module)
+    img: modules/ak5e/icons/Skill-Earthspirit1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.ZaIvc4eA3xpZpgad
+    _id: JEEXjjMzoZ3Aix8s
     type: base
     system: {}
     changes:
-      - key: system.attributes.senses.darkvision
-        mode: 2
-        value: '30'
+      - key: system.attributes.movement.all
+        mode: 0
+        value: '-30'
         priority: 20
     disabled: false
     duration:
       startTime: null
       combat: null
       seconds: null
-      rounds: null
+      rounds: 1
       turns: null
       startRound: null
       startTurn: null
@@ -217,72 +186,12 @@ effects:
       coreVersion: '13.351'
       systemId: dnd5e
       systemVersion: 5.2.4
-      createdTime: 1767898450069
-      modifiedTime: 1767899060694
+      createdTime: 1768068202555
+      modifiedTime: 1768068213460
       lastModifiedBy: GiT7LQTiCJxjm7mo
-    _key: '!items.effects!cdDqSuDN1Rr0ajwR.ly1R4GFPCS8R6lTq'
-  - name: Illuminant Eyes (Doubled)
-    img: modules/ak5e/icons/Skill-AspectOfAnnihilation.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.cdDqSuDN1Rr0ajwR
-    _id: OR63V2kqK7eY0ITl
-    type: base
-    system: {}
-    changes:
-      - key: system.attributes.senses.darkvision
-        mode: 2
-        value: '+30'
-        priority: 20
-    disabled: false
-    duration:
-      startTime: null
-      combat: null
-      seconds: 60
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    tint: '#ffffff'
-    transfer: false
-    statuses: []
-    sort: 0
-    flags:
-      dnd5e:
-        riders:
-          statuses: []
-      dae:
-        disableCondition: ''
-        stackable: noneName
-        showIcon: false
-        disableIncapacitated: false
-        durationExpression: ''
-        macroRepeat: none
-        specialDuration: []
-        enableCondition: ''
-        selfTarget: false
-        selfTargetAlways: true
-        dontApply: false
-      core:
-        overlay: false
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-      coreVersion: '13.351'
-      systemId: dnd5e
-      systemVersion: 5.2.4
-      createdTime: 1767898772857
-      modifiedTime: 1768067158822
-      lastModifiedBy: GiT7LQTiCJxjm7mo
-    _key: '!items.effects!cdDqSuDN1Rr0ajwR.OR63V2kqK7eY0ITl'
-sort: 1200000
-ownership:
-  default: 0
-  GiT7LQTiCJxjm7mo: 3
+    _key: '!items.effects!ZaIvc4eA3xpZpgad.JEEXjjMzoZ3Aix8s'
 flags:
-  dnd5e:
-    riders:
-      activity: []
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -290,7 +199,12 @@ _stats:
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
-  createdTime: 1767735341369
-  modifiedTime: 1767923541895
+  createdTime: 1768067973957
+  modifiedTime: 1768068217677
   lastModifiedBy: GiT7LQTiCJxjm7mo
-_key: '!items!cdDqSuDN1Rr0ajwR'
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: ZaIvc4eA3xpZpgad
+sort: 12500
+_key: '!items!ZaIvc4eA3xpZpgad'

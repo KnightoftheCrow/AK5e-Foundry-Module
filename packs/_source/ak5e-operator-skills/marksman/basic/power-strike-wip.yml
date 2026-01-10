@@ -36,7 +36,62 @@ system:
   type:
     value: ''
     subtype: ''
-effects: []
+effects:
+  - name: Power Strike (Skill Points)
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.JTK6NErx8Kvw3vOu
+    _id: e9FbYLL0sGXnn0sy
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 5
+        value: '5'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 5
+        value: '15'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768072773476
+      modifiedTime: 1768072795284
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!JTK6NErx8Kvw3vOu.e9FbYLL0sGXnn0sy'
 sort: 106250
 ownership:
   default: 0

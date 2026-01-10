@@ -15,7 +15,7 @@ system:
       <p>Attacks you make against Creatures with reduced Speed deal additional
       Damage equal to your Proficiency Bonus.</p><p><strong>Module:</strong> You
       may also deal this additional Damage against Creatures that have any
-      detrimental Status Condition.</p>
+      detrimental Status Condition.</p><p><strong>Not Automated.</strong></p>
     chat: ''
   identifier: opportunist
   source:
@@ -27,7 +27,8 @@ system:
     items: []
     repeatable: false
     level: 9
-  properties: []
+  properties:
+    - trait
   requirements: ''
   type:
     value: class
@@ -49,6 +50,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738693265
-  modifiedTime: 1767997626640
+  modifiedTime: 1768068631386
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!j07NEdLfMa6g8lY8'

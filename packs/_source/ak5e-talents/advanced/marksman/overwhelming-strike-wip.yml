@@ -17,7 +17,7 @@ system:
       for that Attack. The Damage Type is the same as one present on that Attack
       (your Choice, if there are multiple).</p><p><strong>Module:</strong> The
       additional Damage becomes equal to the Ability Score used for that
-      Attack.</p>
+      Attack.</p><p><strong>Not Automated.</strong></p>
     chat: ''
   identifier: overwhelming-strike
   source:
@@ -29,7 +29,8 @@ system:
     items: []
     repeatable: false
     level: 9
-  properties: []
+  properties:
+    - trait
   requirements: ''
   type:
     value: class
@@ -51,6 +52,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738700232
-  modifiedTime: 1768002135865
+  modifiedTime: 1768068370929
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!aW0bCeIhfhgxIa1D'

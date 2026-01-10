@@ -17,7 +17,7 @@ system:
       Disadvantage. You can use this Feature a number of times equal to your
       Proficiency Bonus, and regain all expended uses when you complete a Long
       Rest.</p><p><strong>Module:</strong> You can now use this Feature even
-      when the Attack has Advantage.</p>
+      when the Attack has Advantage.</p><p><strong>Not Automated.</strong></p>
     chat: ''
   identifier: one-with-shadow
   source:
@@ -29,7 +29,8 @@ system:
     items: []
     repeatable: false
     level: 9
-  properties: []
+  properties:
+    - trait
   requirements: ''
   type:
     value: class
@@ -51,6 +52,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738686298
-  modifiedTime: 1767997606476
+  modifiedTime: 1768068686217
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!QkpwGMxpGMK9cEyv'

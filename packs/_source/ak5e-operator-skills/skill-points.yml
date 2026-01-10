@@ -9,12 +9,25 @@ system:
       - period: lr
         type: formula
         formula: max(0, @scale.skillPoints.recovery - @item.uses.value)
-    max: '10'
+    max: max(1,@scale.skillPoints.maxsp)
   advancement:
     - type: ScaleValue
       _id: MPsy1IiQHflo1umX
       configuration:
         identifier: recovery
+        type: number
+        distance:
+          units: ''
+        scale:
+          '0':
+            value: 1
+      value: {}
+      title: ''
+      hint: ''
+    - type: ScaleValue
+      _id: DtebK7YcnL2mCCCC
+      configuration:
+        identifier: maxsp
         type: number
         distance:
           units: ''
@@ -108,12 +121,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1766943177603
-  modifiedTime: 1768059974045
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1768072594885
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

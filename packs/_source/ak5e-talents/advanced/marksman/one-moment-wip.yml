@@ -15,7 +15,7 @@ system:
       <p>While your Skill is Active, when you deal Damage to a Creature during
       your Turn, that Creature takes 1d6 Force
       Damage.</p><p><strong>Module:</strong> The Force Damage taken is increased
-      to 1d10.</p>
+      to 1d10.</p><p><strong>Not Automated.</strong></p>
     chat: ''
   identifier: one-moment
   source:
@@ -27,7 +27,8 @@ system:
     items: []
     repeatable: false
     level: 9
-  properties: []
+  properties:
+    - trait
   requirements: ''
   type:
     value: class
@@ -49,6 +50,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738669197
-  modifiedTime: 1767997599214
+  modifiedTime: 1768068710048
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!IjUlJY3ogPaLv6Ht'

@@ -335,6 +335,8 @@ system:
           - uuid: Compendium.ak5e.ak5e-items.Item.gQexKnwZdkamQcJ7
           - uuid: Compendium.ak5e.ak5e-items.Item.Ve5i7MSi8dzq0UJG
           - uuid: Compendium.ak5e.ak5e-items.Item.nkDWWkosdoJz2U6i
+          - uuid: Compendium.ak5e.ak5e-items.Item.8YnvqZkWkp8JrS0y
+          - uuid: Compendium.ak5e.ak5e-items.Item.KjYWdRFtdaAGe4yK
         restriction:
           list: []
         spell: null
@@ -897,7 +899,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767615327612
-  modifiedTime: 1768061859691
+  modifiedTime: 1768070853480
   lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0

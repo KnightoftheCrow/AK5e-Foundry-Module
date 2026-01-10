@@ -218,7 +218,7 @@ effects:
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1767862720967
-      modifiedTime: 1768063327282
+      modifiedTime: 1768065504395
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!hceNm4zFz9e5HTYm.P834Mz7SWu3zIXvE'
 sort: 1500000
@@ -237,6 +237,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767734408494
-  modifiedTime: 1768063315940
+  modifiedTime: 1768065507120
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!hceNm4zFz9e5HTYm'

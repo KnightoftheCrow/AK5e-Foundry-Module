@@ -15,7 +15,8 @@ system:
       <p>You gain the Equipment Modification Feature of the Inventor Specialist.
       However, your maximum number of Inventions is 1, and you cannot apply any
       Modification marked as Dangerous.</p><p><strong>Module:</strong> Your
-      maximum number of Inventions becomes 2.</p>
+      maximum number of Inventions becomes 2.</p><p><strong>Not
+      Automated.</strong></p>
     chat: ''
   identifier: part-time-inventor
   source:
@@ -27,7 +28,8 @@ system:
     items: []
     repeatable: false
     level: 9
-  properties: []
+  properties:
+    - trait
   requirements: ''
   type:
     value: class
@@ -49,6 +51,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738707833
-  modifiedTime: 1767997688587
+  modifiedTime: 1768068362196
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!cjPGozlLmepdrnwX'
