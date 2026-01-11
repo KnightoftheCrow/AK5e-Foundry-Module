@@ -1,0 +1,53 @@
+folder: 5ej4KENJRk8I9Ksg
+name: Overwhelming Strike (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Morgan1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module:</strong> The additional Damage becomes equal to the
+      Ability Score used for that Attack.</p>
+    chat: ''
+  identifier: overwhelming-strike
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768145925425
+  modifiedTime: 1768146499043
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: w9Dvr1RX6wHLVtwr
+sort: 94532
+_key: '!items!w9Dvr1RX6wHLVtwr'

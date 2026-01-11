@@ -1,0 +1,277 @@
+folder: FNmG2sdf2PkjKSHw
+name: Umbral Ambush
+type: feat
+_id: bFSrxWtc4TEYBFvt
+img: modules/ak5e/icons/Skill-Lunacub2.webp
+system:
+  activities:
+    oQhEraMS6UHBdYzr:
+      type: utility
+      name: Umbral Ambush
+      _id: oQhEraMS6UHBdYzr
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '40'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '2'
+      effects:
+        - _id: E8D5nDoLt1yk679H
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: true
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <ul><li><p><strong>Name</strong>: Umbral Ambush.</p></li><li><p><strong>SP
+      Cost:</strong> 40.</p></li><li><p><strong>Start SP:</strong>
+      10.</p></li><li><p><strong>Charging:</strong>
+      Offensive.</p></li><li><p><strong>Activation Cost:</strong> Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> You gain the Invisible
+      Condition; this Condition is not removed when you make an Attack. If you
+      reduce a Creature to 0 Hit Points while Invisible, the duration of this
+      Skill is extended by 1 Round, up to a maximum of 5
+      Rounds.</p></li><li><p><strong>Duration:</strong> 2
+      Rounds.</p></li></ul><p><strong>Partially Automated: </strong>Duration
+      extention not implemented.</p>
+    chat: ''
+  identifier: umbral-ambush-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 7
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Radar Sweep (Skill Points)
+    img: modules/ak5e/icons/Skill-Lunacub2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.bFSrxWtc4TEYBFvt
+    _id: sqi5JLFWs8QDA2SK
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 5
+        value: '10'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 5
+        value: '40'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768153976041
+      modifiedTime: 1768156212846
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!bFSrxWtc4TEYBFvt.sqi5JLFWs8QDA2SK'
+  - name: Umbral Ambush
+    img: modules/ak5e/icons/Skill-Lunacub2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.bFSrxWtc4TEYBFvt
+    transfer: false
+    _id: E8D5nDoLt1yk679H
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 2
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - invisible
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: true
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768156164475
+      modifiedTime: 1768156244892
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!bFSrxWtc4TEYBFvt.E8D5nDoLt1yk679H'
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767619128329
+  modifiedTime: 1768156297201
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!bFSrxWtc4TEYBFvt'

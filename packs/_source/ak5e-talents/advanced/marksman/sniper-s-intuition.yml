@@ -38,7 +38,7 @@ system:
     value: class
     subtype: skillPoints
 effects: []
-sort: 0
+sort: 1600000
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3
@@ -54,6 +54,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738721683
-  modifiedTime: 1768005742701
+  modifiedTime: 1768145448955
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!osCElO13K6JHa6bQ'

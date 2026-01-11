@@ -1,18 +1,134 @@
 folder: gux9mthtPInis7P3
 name: Eternal Hunt (WIP)
 type: feat
-_id: mcLUyAyZE5L72tGo
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: modules/ak5e/icons/64px-Skill-Typhon3.webp
 system:
-  activities: {}
+  activities:
+    xoNoIwPalnThTJEX:
+      type: utility
+      name: Eternal Hunt
+      _id: xoNoIwPalnThTJEX
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '65'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '2'
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: true
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
   uses:
     spent: 0
     recovery: []
+    max: ''
   advancement: []
   description:
-    value: ''
+    value: >-
+      <ul><li><p><strong>Name</strong>: Eternal Hunt.</p></li><li><p><strong>SP
+      Cost:</strong> 65.</p></li><li><p><strong>Start SP:</strong>
+      30.</p></li><li><p><strong>Charging:</strong>
+      Automatic.</p></li><li><p><strong>Activation Cost: </strong>Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> Choose a Creature you can
+      see within 100 feet. For the duration of the Skill, you can only target
+      that Creature with Attacks. However, your Attacks against it ignore the
+      benefits of Half and Three-Quarters Cover, and deal additional Weapon
+      Damage equal to half of your Character
+      Level.</p></li><li><p><strong>Duration:</strong> 2
+      Rounds.</p></li></ul><p><strong>Not Automated.</strong></p>
     chat: ''
-  identifier: eternal-hunt-wip
+  identifier: afterimage-wip
   source:
     revision: 1
     rules: '2024'
@@ -21,17 +137,70 @@ system:
   prerequisites:
     items: []
     repeatable: false
+    level: 14
   properties: []
   requirements: ''
   type:
-    value: ''
+    value: class
     subtype: ''
-effects: []
-sort: 0
-ownership:
-  default: 0
-  GiT7LQTiCJxjm7mo: 3
-flags: {}
+effects:
+  - name: Eternal Hunt (Skill Points)
+    img: modules/ak5e/icons/64px-Skill-Typhon3.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.lbrLzUNn1GgbrIi3
+    _id: DXFUOiWQeWl6gGq8
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 5
+        value: '30'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 5
+        value: '65'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1768157911401
+    _key: '!items.effects!lbrLzUNn1GgbrIi3.DXFUOiWQeWl6gGq8'
+flags:
+  dnd5e:
+    riders:
+      activity: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -39,7 +208,12 @@ _stats:
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
-  createdTime: 1767619542706
-  modifiedTime: 1767619542706
+  createdTime: 1768157894418
+  modifiedTime: 1768157894449
   lastModifiedBy: GiT7LQTiCJxjm7mo
-_key: '!items!mcLUyAyZE5L72tGo'
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: lbrLzUNn1GgbrIi3
+sort: 300000
+_key: '!items!lbrLzUNn1GgbrIi3'

@@ -1,0 +1,53 @@
+folder: 5ej4KENJRk8I9Ksg
+name: Kingslayer (Module)
+type: feat
+img: modules/ak5e/icons/Skill-TheBreacher3.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module:</strong> Your Attacks against Elite or Leader Creatures
+      deal an additional 1d8 Force Damage.</p>
+    chat: ''
+  identifier: kingslayer
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768144802107
+  modifiedTime: 1768144975436
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: asqpWDR8yqEbi90k
+sort: 400000
+_key: '!items!asqpWDR8yqEbi90k'

@@ -1,0 +1,289 @@
+folder: FNmG2sdf2PkjKSHw
+name: Search and Destroy
+type: feat
+_id: xEJtugdXspeK633F
+img: modules/ak5e/icons/64px-Skill-Dagda2.webp
+system:
+  activities:
+    goelC6hi4zREiTWC:
+      type: utility
+      name: Search and Destroy
+      _id: goelC6hi4zREiTWC
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '30'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '3'
+      effects:
+        - _id: KTQ39bEsc5OU6Sya
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: true
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <ul><li><p><strong>Name</strong>: Search and
+      Destroy.</p></li><li><p><strong>SP Cost:</strong>
+      30.</p></li><li><p><strong>Start SP:</strong>
+      10.</p></li><li><p><strong>Charging:</strong>
+      Automatic.</p></li><li><p><strong>Activation Cost:</strong> Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> For the duration, your
+      passive Perception is increased by 5, your Movement Speed increases by
+      20ft, and your Attacks deal 1d8 additional Damage to Creatures below their
+      Hit Point Maximum.</p></li><li><p><strong>Duration:</strong> 3
+      Rounds.</p></li></ul><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: search-and-destroy-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 7
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Radar Sweep (Skill Points)
+    img: modules/ak5e/icons/64px-Skill-Dagda2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.xEJtugdXspeK633F
+    _id: M64F0fhNJQuKkQx6
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 5
+        value: '10'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 5
+        value: '30'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768153965421
+      modifiedTime: 1768155809962
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!xEJtugdXspeK633F.M64F0fhNJQuKkQx6'
+  - name: Search and Destroy
+    img: modules/ak5e/icons/64px-Skill-Dagda2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.xEJtugdXspeK633F
+    transfer: false
+    _id: KTQ39bEsc5OU6Sya
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.all
+        mode: 0
+        value: '+20'
+        priority: 20
+      - key: system.skills.prc.bonuses.passive
+        mode: 2
+        value: '5'
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.bonus
+        mode: 2
+        value: >-
+          bonus=1d8; hasAttack && opponentActor.attributes.hp.value <
+          opponentActor.attributes.hp.max;
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: true
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768154939038
+      modifiedTime: 1768155062828
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!xEJtugdXspeK633F.KTQ39bEsc5OU6Sya'
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767619096192
+  modifiedTime: 1768155805663
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!xEJtugdXspeK633F'

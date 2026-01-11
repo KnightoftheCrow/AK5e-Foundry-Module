@@ -1,0 +1,377 @@
+folder: FNmG2sdf2PkjKSHw
+name: Breacher Round
+type: feat
+_id: IxcO6uUCImdtVlKp
+img: modules/ak5e/icons/64px-Skill-Ash3.webp
+system:
+  activities:
+    yIuU8QpqEhRoAT47:
+      type: save
+      _id: yIuU8QpqEhRoAT47
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '40'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags:
+        region-attacher:
+          attachRegionToTemplate: false
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: line
+          size: '60'
+          width: '5'
+          count: ''
+        affects:
+          choice: false
+          type: any
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        onSave: none
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 6
+            bonus: ''
+            types:
+              - piercing
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: dex
+          formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: ''
+      otherActivityAsParentType: true
+      friendlySave: default
+      name: Line Attack
+      img: ''
+    JpuNhAjMV77MUgs7:
+      type: save
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags:
+        region-attacher:
+          attachRegionToTemplate: false
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          count: ''
+          type: sphere
+          size: '7.5'
+          width: '5'
+        affects:
+          choice: false
+          count: ''
+          type: any
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        onSave: half
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 8
+            denomination: 6
+            bonus: ''
+            types:
+              - thunder
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: ''
+          formula: '18'
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: ''
+      otherActivityAsParentType: true
+      friendlySave: default
+      name: Sphere Attack
+      _id: JpuNhAjMV77MUgs7
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <ul><li><p><strong>Name</strong>: Breacher
+      Round.</p></li><li><p><strong>SP Cost:</strong>
+      40.</p></li><li><p><strong>Start SP:</strong>
+      20.</p></li><li><p><strong>Charging:</strong>
+      Automatic.</p></li><li><p><strong>Activation Cost:</strong>
+      Action.</p></li><li><p><strong>Effect:</strong> You fire an explosive
+      shell in a 60 foot long, 5 ft wide Line originating from you. All
+      Creatures on this Line must succeed on a Dexterity Saving Throw against
+      your Martial DC, or take 4d6 Piercing Damage. If this line intersects with
+      a wall or other structure, the shell explodes; all Creatures within a 15
+      foot Sphere centred on the point of intersection must make a DC18
+      Dexterity Saving Throw. On a failed Save, they take 8d6 Thunder Damage. On
+      a successful Save, they take half as much Damage. When you use this
+      Operator Skill, you can optionally designate one wall or object no more
+      than 1 foot thick that intersects with the line; the shell drills through
+      this wall without exploding, and will explode on its next contact with a
+      wall or object.</p></li><li><p><strong>Duration:</strong>
+      Instant.</p></li></ul><p><strong>Automated.</strong></p><p></p><p></p>
+    chat: ''
+  identifier: breacher-round
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 7
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Breacher Round (Skill Points)
+    img: modules/ak5e/icons/64px-Skill-Ash3.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.IxcO6uUCImdtVlKp
+    _id: VAJIz1FBK1MalgHM
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 5
+        value: '20'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 5
+        value: '40'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768147400473
+      modifiedTime: 1768151856482
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!IxcO6uUCImdtVlKp.VAJIz1FBK1MalgHM'
+sort: 0
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+  region-attacher:
+    attachRegionToTemplate:
+      yIuU8QpqEhRoAT47: false
+    regionBehaviors:
+      yIuU8QpqEhRoAT47: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767618731933
+  modifiedTime: 1768151850667
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!IxcO6uUCImdtVlKp'

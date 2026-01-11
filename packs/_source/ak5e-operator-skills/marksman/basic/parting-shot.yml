@@ -1,0 +1,233 @@
+folder: q9mrRuD7Bdhth58y
+name: Parting Shot
+type: feat
+_id: BmmsZ7gAjQabQNFz
+img: modules/ak5e/icons/Skill-Pinecone2.webp
+system:
+  activities:
+    bu7z96tTP9fWez52:
+      type: save
+      _id: bu7z96tTP9fWez52
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '20'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        onSave: ''
+        critical:
+          allow: false
+        parts: []
+      save:
+        ability:
+          - str
+        dc:
+          calculation: dex
+          formula: '8'
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: true
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: ''
+      otherActivityAsParentType: true
+      friendlySave: default
+      name: Parting Shot
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <ul><li><p><strong>Name</strong>: Parting Shot.</p></li><li><p><strong>SP
+      Cost:</strong> 20.</p></li><li><p><strong>Start SP:</strong>
+      5.</p></li><li><p><strong>Charging:</strong>
+      Offensive.</p></li><li><p><strong>Activation Cost:</strong>
+      Action.</p></li><li><p><strong>Effect:</strong> Choose a Large or smaller
+      Creature you can see within 30 feet; that Creature must make a Strength
+      Saving Throw against your Martial DC as you blast them backwards. On a
+      failed Save, they are knocked 30 feet directly away from you. On a
+      successful Save, they are only knocked away 10 feet. If they hit a wall
+      during this movement, they take 3d6 Bludgeoning Damage. If they hit a
+      Creature during this movement, both Creatures take 3d6 Bludgeoning
+      Damage.</p></li><li><p><strong>Duration:</strong>
+      Instant.</p></li></ul><p><strong>Not Automated:</strong> Use only to
+      prompt Save Throw and track SP.</p><p></p><p></p>
+    chat: ''
+  identifier: parting-shot
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Parting Shot (Skill Points)
+    img: modules/ak5e/icons/Skill-Pinecone2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.BmmsZ7gAjQabQNFz
+    _id: gN3DHxzjSzmfZeHS
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 5
+        value: '5'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 5
+        value: '20'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768072710120
+      modifiedTime: 1768135743254
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!BmmsZ7gAjQabQNFz.gN3DHxzjSzmfZeHS'
+sort: 112500
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767618458814
+  modifiedTime: 1768140792628
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!BmmsZ7gAjQabQNFz'

@@ -1,0 +1,205 @@
+folder: AynL7yzSlptsmcjl
+name: Lieutenant
+type: feat
+img: modules/ak5e/icons/Skill-TacticalEquipment.png
+system:
+  activities:
+    Dgzg8M0IXdTkK58I:
+      type: utility
+      name: Lieutenant
+      _id: Dgzg8M0IXdTkK58I
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: true
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+  uses:
+    spent: 1
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@scale.lieutenant.dice.number'
+  advancement:
+    - type: ScaleValue
+      _id: wiTDyhcIlCo1CRQo
+      configuration:
+        identifier: dice
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '9':
+            number: 2
+            faces: 6
+            modifiers: []
+      value: {}
+      title: ''
+      hint: ''
+    - type: ItemChoice
+      _id: gSUncQeQZwvVG615
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.DOuG9z5mp6s3kCfJ
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>You learn two Instructions of your Choice from the Instructor Branch of
+      the Guard Class. Furthermore, you gain 2 Instruction Dice, which are d6s.
+      While you have Instruction Dice remaining, you may take the Help Action to
+      aid an ally in attacking a Creature as a Bonus Action, and the target of
+      that Attack can be within 30ft of you, rather than within 5ft. However, if
+      you do so, you must use an Instruction as part of that Help Action. You
+      regain all expended Instruction Dice upon completing a Long
+      Rest.</p><p><strong>Module:</strong> You gain a third Instruction Dice,
+      and your Instruction Dice become d8s.</p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: lieutenant
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+  ak5e:
+    trackingBar: true
+    barFirstColor: '#4361ee'
+    barSecondColor: '#4cc9f0'
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768145448896
+  modifiedTime: 1768145499527
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: UnNVP185qAyYfpjg
+sort: 2000000
+_key: '!items!UnNVP185qAyYfpjg'

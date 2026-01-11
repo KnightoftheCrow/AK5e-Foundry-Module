@@ -1,0 +1,107 @@
+folder: 5ej4KENJRk8I9Ksg
+name: Lieutenant (Module)
+type: feat
+img: modules/ak5e/icons/Skill-TacticalEquipment.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module:</strong> You gain a third Instruction Dice, and your
+      Instruction Dice become d8s.</p>
+    chat: ''
+  identifier: lieutenant
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Lieutenant (Module)
+    img: modules/ak5e/icons/Skill-TacticalEquipment.png
+    origin: Compendium.ak5e.ak5e-talents.Item.DOuG9z5mp6s3kCfJ
+    _id: uzkrBbfJYVC8dvIW
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.lieutenant.dice.number
+        mode: 5
+        value: '3'
+        priority: 20
+      - key: system.scale.lieutenant.dice.faces
+        mode: 5
+        value: '8'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768145118170
+      modifiedTime: 1768145302368
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!DOuG9z5mp6s3kCfJ.uzkrBbfJYVC8dvIW'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768145102101
+  modifiedTime: 1768145294648
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: DOuG9z5mp6s3kCfJ
+sort: 78125
+_key: '!items!DOuG9z5mp6s3kCfJ'

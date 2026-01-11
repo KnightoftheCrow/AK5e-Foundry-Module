@@ -1,18 +1,134 @@
 folder: gux9mthtPInis7P3
 name: The Hunt is On (WIP)
 type: feat
-_id: kxmoO5VnSzmfQmVj
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: modules/ak5e/icons/Skill-Diamante1.webp
 system:
-  activities: {}
+  activities:
+    xoNoIwPalnThTJEX:
+      type: utility
+      name: The Hunt is On
+      _id: xoNoIwPalnThTJEX
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '35'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: '3'
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: true
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
   uses:
     spent: 0
     recovery: []
+    max: ''
   advancement: []
   description:
-    value: ''
+    value: >-
+      <ul><li><p><strong>Name</strong>: The Hunt is
+      On.</p></li><li><p><strong>SP Cost:</strong>
+      35.</p></li><li><p><strong>Start SP:</strong>
+      35.</p></li><li><p><strong>Charging:</strong>
+      Automatic.</p></li><li><p><strong>Activation Cost:</strong>
+      Reaction.</p></li><li><p><strong>Effect:</strong> You may Activate this
+      Skill as a Reaction after Initiative has been rolled; you may immediately
+      take a full Turn before any other Creature takes theirs. Then, you take
+      your rolled place in the Initiative Order and continue as
+      normal.</p></li><li><p><strong>Duration:</strong>
+      Instant.</p></li></ul><p><strong>Not Automated.</strong></p>
     chat: ''
-  identifier: the-hunt-is-on-wip
+  identifier: afterimage-wip
   source:
     revision: 1
     rules: '2024'
@@ -21,17 +137,69 @@ system:
   prerequisites:
     items: []
     repeatable: false
+    level: 14
   properties: []
   requirements: ''
   type:
-    value: ''
+    value: class
     subtype: ''
-effects: []
-sort: 0
-ownership:
-  default: 0
-  GiT7LQTiCJxjm7mo: 3
-flags: {}
+effects:
+  - name: The Hunt is On (Skill Points)
+    img: modules/ak5e/icons/Skill-Diamante1.webp
+    origin: Item.JhXHXrmNcdx7u1Go
+    _id: DXFUOiWQeWl6gGq8
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 5
+        value: '35'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 5
+        value: '35'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!wfKEXUanlyTLgLts.DXFUOiWQeWl6gGq8'
+flags:
+  dnd5e:
+    riders:
+      activity: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -39,7 +207,12 @@ _stats:
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
-  createdTime: 1767619615928
-  modifiedTime: 1767619615928
+  createdTime: 1768159106804
+  modifiedTime: 1768159106832
   lastModifiedBy: GiT7LQTiCJxjm7mo
-_key: '!items!kxmoO5VnSzmfQmVj'
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: wfKEXUanlyTLgLts
+sort: 237500
+_key: '!items!wfKEXUanlyTLgLts'

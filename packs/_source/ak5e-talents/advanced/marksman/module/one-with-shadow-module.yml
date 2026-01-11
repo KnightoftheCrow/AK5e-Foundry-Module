@@ -1,0 +1,53 @@
+folder: 5ej4KENJRk8I9Ksg
+name: One With Shadow (Module)
+type: feat
+img: modules/ak5e/icons/Skill-HeavyInsulatedConcrete.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module:</strong> You can now use this Feature even when the
+      Attack has Advantage.</p>
+    chat: ''
+  identifier: one-with-shadow
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768145922584
+  modifiedTime: 1768146235642
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: dip5BZWPTq1qaU36
+sort: 79688
+_key: '!items!dip5BZWPTq1qaU36'

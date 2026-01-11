@@ -143,11 +143,11 @@ system:
   prerequisites:
     items: []
     repeatable: false
-    level: null
+    level: 2
   properties: []
   requirements: ''
   type:
-    value: ''
+    value: class
     subtype: ''
 effects:
   - name: Mark Prey (Skill Points)
@@ -275,6 +275,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767618331739
-  modifiedTime: 1768073756675
+  modifiedTime: 1768140772977
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!XGWbACi5cic6PXa8'

@@ -1,0 +1,281 @@
+folder: q9mrRuD7Bdhth58y
+name: Overpacked Charges
+type: feat
+_id: 56nAXgeuXzabMUHj
+img: modules/ak5e/icons/Skill-Ifrit2.webp
+system:
+  activities:
+    cRYRZQlEe4ZZa6qz:
+      type: utility
+      _id: cRYRZQlEe4ZZa6qz
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '15'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '2'
+      effects:
+        - _id: l7zu6n3AhvT6NJKz
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: true
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Overpacked Charges
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <ul><li><p><strong>Name</strong>: Overpacked
+      Charges.</p></li><li><p><strong>SP Cost:</strong>
+      15.</p></li><li><p><strong>Start SP:</strong>
+      5.</p></li><li><p><strong>Charging:</strong>
+      Offensive.</p></li><li><p><strong>Activation Cost:</strong> Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> For the duration, the size
+      of any effect created by you that affects a Sphere, Cube, Cylinder, or
+      Cone is increased by 10 feet. Additionally, If these effects involve a
+      Saving Throw, the DC of that Saving Throw is increased by
+      1.</p></li><li><p><strong>Duration:</strong> 2
+      Rounds.</p></li></ul><p><strong>Partially Automated:</strong> Then you
+      target Creature you impose -1 to their saving throw. </p>
+    chat: ''
+  identifier: overpacked-charges-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Overpacked Charges (Skill Points)
+    img: modules/ak5e/icons/Skill-Ifrit2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.56nAXgeuXzabMUHj
+    _id: 8UScDFa5NFEbqdcG
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 5
+        value: '5'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 5
+        value: '15'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768072690737
+      modifiedTime: 1768135195298
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!56nAXgeuXzabMUHj.8UScDFa5NFEbqdcG'
+  - name: Overpacked Charges
+    img: modules/ak5e/icons/Skill-Ifrit2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.56nAXgeuXzabMUHj
+    transfer: false
+    _id: l7zu6n3AhvT6NJKz
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.save.bonus
+        mode: 2
+        value: bonus=-1;
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: true
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768134690481
+      modifiedTime: 1768135185716
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!56nAXgeuXzabMUHj.l7zu6n3AhvT6NJKz'
+sort: 125000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767618434762
+  modifiedTime: 1768140787475
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!56nAXgeuXzabMUHj'

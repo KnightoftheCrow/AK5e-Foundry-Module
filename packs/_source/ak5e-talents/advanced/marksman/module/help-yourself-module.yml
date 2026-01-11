@@ -1,0 +1,53 @@
+folder: 5ej4KENJRk8I9Ksg
+name: Help Yourself (Module)
+type: feat
+img: modules/ak5e/icons/Skill-ProtectiveGearGiver.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module:</strong> The amount of Damage Reduction you steal when
+      you hit a Creature with an Attack is increased to 2.</p>
+    chat: ''
+  identifier: help-yourself
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768143966309
+  modifiedTime: 1768143987640
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: dx6dAUbF6YHqThXm
+sort: 84375
+_key: '!items!dx6dAUbF6YHqThXm'

@@ -1,0 +1,88 @@
+folder: AynL7yzSlptsmcjl
+name: Part-Time Inventor
+type: feat
+_id: cjPGozlLmepdrnwX
+img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: '@scale.part-time-inventor.invent'
+  advancement:
+    - type: ScaleValue
+      _id: j4sZKdoMmqpd1fll
+      configuration:
+        identifier: invent
+        type: number
+        distance:
+          units: ''
+        scale:
+          '9':
+            value: 1
+      value: {}
+      title: ''
+      hint: ''
+    - type: ItemChoice
+      _id: Rzgp6qSxzRgnaF0r
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.1wKWIN8qqEbSgBVb
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>You gain the Equipment Modification Feature of the Inventor Specialist.
+      However, your maximum number of Inventions is 1, and you cannot apply any
+      Modification marked as Dangerous.</p><p><strong>Module:</strong> Your
+      maximum number of Inventions becomes 2.</p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: part-time-inventor
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 1100000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767738707833
+  modifiedTime: 1768145756325
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!cjPGozlLmepdrnwX'

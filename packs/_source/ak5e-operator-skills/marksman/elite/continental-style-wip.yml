@@ -1,18 +1,137 @@
 folder: gux9mthtPInis7P3
 name: Continental Style (WIP)
 type: feat
-_id: 3N1H3KtwP5NQvYqK
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: modules/ak5e/icons/Skill-Sora2.webp
 system:
-  activities: {}
+  activities:
+    xoNoIwPalnThTJEX:
+      type: utility
+      name: Continental Style
+      _id: xoNoIwPalnThTJEX
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '40'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '5'
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: true
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
   uses:
     spent: 0
     recovery: []
+    max: ''
   advancement: []
   description:
-    value: ''
+    value: >-
+      <ul><li><p><strong>Name</strong>: Continental
+      Style.</p></li><li><p><strong>SP Cost:</strong>
+      40.</p></li><li><p><strong>Start SP:</strong>
+      30.</p></li><li><p><strong>Charging:</strong>
+      Automatic.</p></li><li><p><strong>Activation Cost: </strong>Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> You do not have
+      Disadvantage on Ranged Attack Rolls when there is a hostile Creature
+      within 5 feet of you. Additionally, for each Ranged Attack you make during
+      a Turn, you may make a single Melee Attack during that Turn (no Action
+      required); a Creature that you have made a Melee Attack against cannot
+      make Opportunity Attacks against you for the remainder of the Turn.
+      However, you can only make one Melee Attack per Turn in this way against
+      each Creature.</p></li><li><p><strong>Duration:</strong> 5
+      Rounds.</p></li></ul><p><strong>Not Automated.</strong></p>
     chat: ''
-  identifier: continental-style-wip
+  identifier: afterimage-wip
   source:
     revision: 1
     rules: '2024'
@@ -21,17 +140,69 @@ system:
   prerequisites:
     items: []
     repeatable: false
+    level: 14
   properties: []
   requirements: ''
   type:
-    value: ''
+    value: class
     subtype: ''
-effects: []
-sort: 0
-ownership:
-  default: 0
-  GiT7LQTiCJxjm7mo: 3
-flags: {}
+effects:
+  - name: Continental Style (Skill Points)
+    img: modules/ak5e/icons/Skill-Sora2.webp
+    origin: Item.JhXHXrmNcdx7u1Go
+    _id: DXFUOiWQeWl6gGq8
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 5
+        value: '30'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 5
+        value: '40'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!5sWZleYraTedgntR.DXFUOiWQeWl6gGq8'
+flags:
+  dnd5e:
+    riders:
+      activity: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -39,7 +210,12 @@ _stats:
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
-  createdTime: 1767619529306
-  modifiedTime: 1767619529306
+  createdTime: 1768157723209
+  modifiedTime: 1768157723239
   lastModifiedBy: GiT7LQTiCJxjm7mo
-_key: '!items!3N1H3KtwP5NQvYqK'
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: 5sWZleYraTedgntR
+sort: 200000
+_key: '!items!5sWZleYraTedgntR'

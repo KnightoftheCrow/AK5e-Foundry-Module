@@ -1,0 +1,78 @@
+folder: AynL7yzSlptsmcjl
+name: Help Yourself
+type: feat
+_id: N0B8L9Y09HXmafE6
+img: modules/ak5e/icons/Skill-ProtectiveGearGiver.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: payOCETEdBdlMvsR
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.dx6dAUbF6YHqThXm
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>When you hit a Creature that has Physical Damage Reduction with an
+      Attack, you steal 1 of their Damage Reduction, reducing their Damage
+      Reduction by 1 and increasing yours by 1. At the end of your Turn, if you
+      have not hit a Creature with an Attack, you lose any Damage Reduction you
+      gained from this Feature, and it is returned to the Creatures you stole it
+      from.</p><p><strong>Module:</strong> The amount of Damage Reduction you
+      steal when you hit a Creature with an Attack is increased to
+      2.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: help-yourself
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 600000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767738628529
+  modifiedTime: 1768145448955
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!N0B8L9Y09HXmafE6'

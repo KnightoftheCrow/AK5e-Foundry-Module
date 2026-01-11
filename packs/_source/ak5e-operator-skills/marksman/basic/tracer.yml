@@ -1,0 +1,282 @@
+folder: q9mrRuD7Bdhth58y
+name: Tracer
+type: feat
+_id: 9H9l8JePvyeOfv6p
+img: modules/ak5e/icons/Skill-Indigo1.webp
+system:
+  activities:
+    k0b09SEsVI9YXQb1:
+      type: utility
+      _id: k0b09SEsVI9YXQb1
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '20'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: WSJvMuDxQzMrVRUL
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: enemy
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: true
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Tracer
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <ul><li><p><strong>Name</strong>: Tracer.</p></li><li><p><strong>SP
+      Cost:</strong> 20.</p></li><li><p><strong>Start SP:</strong>
+      10.</p></li><li><p><strong>Charging:</strong>
+      Offensive.</p></li><li><p><strong>Activation Cost:</strong> Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> Your next Weapon Attack
+      causes all Creatures hit to glow with 10 feet of dim light for 3 Rounds.
+      While they are glowing in this way, Creatures within 15 feet of you have
+      Advantage on Ranged Attacks against that
+      Creature.</p></li><li><p><strong>Duration:</strong> 1
+      Attack.</p></li></ul><p><strong>Automated:</strong> Use to apply effect on
+      targeted Creature.</p>
+    chat: ''
+  identifier: tracer-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Tracer (Skill Points)
+    img: modules/ak5e/icons/Skill-Indigo1.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.9H9l8JePvyeOfv6p
+    _id: CBy4dKBdvzNO0rO0
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 5
+        value: '10'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 5
+        value: '20'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768072840379
+      modifiedTime: 1768140616396
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!9H9l8JePvyeOfv6p.CBy4dKBdvzNO0rO0'
+  - name: Tracer
+    img: modules/ak5e/icons/Skill-Indigo1.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.9H9l8JePvyeOfv6p
+    _id: WSJvMuDxQzMrVRUL
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.attack.advantage
+        mode: 0
+        value: |-
+          actionType.rwak && 
+          checkNearby(effectOriginTokenId, 'different', 15);
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 3
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768137147981
+      modifiedTime: 1768140629149
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!9H9l8JePvyeOfv6p.WSJvMuDxQzMrVRUL'
+sort: 101563
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767618563722
+  modifiedTime: 1768140810300
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!9H9l8JePvyeOfv6p'

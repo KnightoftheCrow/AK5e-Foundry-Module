@@ -1,18 +1,136 @@
 folder: gux9mthtPInis7P3
 name: Harpoon Shot (WIP)
 type: feat
-_id: 2QzCc5nDYNbrO5GU
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: modules/ak5e/icons/64px-Skill-A3.webp
 system:
-  activities: {}
+  activities:
+    xoNoIwPalnThTJEX:
+      type: utility
+      name: Harpoon Shot
+      _id: xoNoIwPalnThTJEX
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '65'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: '3'
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: true
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
   uses:
     spent: 0
     recovery: []
+    max: ''
   advancement: []
   description:
-    value: ''
+    value: >-
+      <ul><li><p><strong>Name</strong>: Harpoon Shot.</p></li><li><p><strong>SP
+      Cost:</strong> 65.</p></li><li><p><strong>Start SP:</strong>
+      30.</p></li><li><p><strong>Charging:</strong>
+      Automatic.</p></li><li><p><strong>Activation Cost:</strong>
+      Action.</p></li><li><p><strong>Effect:</strong> Choose a Creature you can
+      see within 100 feet. That Creature must make a Dexterity Saving Throw
+      against your Martial DC; on a failed Save, they take 6d8 Piercing Damage
+      and are tethered. On a successful Save, they take half as much Damage, but
+      are not tethered. A tethered Creature has its Speed halved, and takes3d8
+      Piercing Damage at the beginning of each of its Turns. As an Action during
+      its Turn, a tethered Creature may reattempt the Saving Throw, ending the
+      tether on asuccess.</p></li><li><p><strong>Duration:</strong>
+      Instant.</p></li></ul><p><strong>Not Automated.</strong></p>
     chat: ''
-  identifier: harpoon-shot-wip
+  identifier: afterimage-wip
   source:
     revision: 1
     rules: '2024'
@@ -21,17 +139,70 @@ system:
   prerequisites:
     items: []
     repeatable: false
+    level: 14
   properties: []
   requirements: ''
   type:
-    value: ''
+    value: class
     subtype: ''
-effects: []
-sort: 0
-ownership:
-  default: 0
-  GiT7LQTiCJxjm7mo: 3
-flags: {}
+effects:
+  - name: Harpoon Shot (Skill Points)
+    img: modules/ak5e/icons/64px-Skill-A3.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.ulYiNdkc8NfwUHMe
+    _id: DXFUOiWQeWl6gGq8
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 5
+        value: '30'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 5
+        value: '65'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1768158269863
+    _key: '!items.effects!ulYiNdkc8NfwUHMe.DXFUOiWQeWl6gGq8'
+flags:
+  dnd5e:
+    riders:
+      activity: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -39,7 +210,12 @@ _stats:
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
-  createdTime: 1767619568358
-  modifiedTime: 1767619568358
+  createdTime: 1768158239993
+  modifiedTime: 1768158240021
   lastModifiedBy: GiT7LQTiCJxjm7mo
-_key: '!items!2QzCc5nDYNbrO5GU'
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: ulYiNdkc8NfwUHMe
+sort: 225000
+_key: '!items!ulYiNdkc8NfwUHMe'

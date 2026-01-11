@@ -144,7 +144,7 @@ effects:
     system: {}
     sort: 0
     _key: '!items.effects!r19GGpWRcO5KigI5.waeG7ZDIB5myAbe6'
-sort: 0
+sort: 1800000
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3
@@ -160,6 +160,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738728850
-  modifiedTime: 1768003512171
+  modifiedTime: 1768145448955
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!r19GGpWRcO5KigI5'

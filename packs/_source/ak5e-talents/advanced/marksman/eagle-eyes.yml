@@ -117,7 +117,7 @@ effects:
       modifiedTime: 1767990166692
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!wl1K4E167035p5yf.OpAje3EoycDM3t8h'
-sort: 0
+sort: 2300000
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3
@@ -133,6 +133,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738535257
-  modifiedTime: 1767990140901
+  modifiedTime: 1768145448955
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!wl1K4E167035p5yf'

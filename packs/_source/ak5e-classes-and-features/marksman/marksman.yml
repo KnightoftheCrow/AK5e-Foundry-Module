@@ -445,7 +445,7 @@ system:
     - type: ItemChoice
       _id: XoTnVpHGJRc2tLpM
       configuration:
-        allowDrops: true
+        allowDrops: false
         choices:
           '3':
             count: 1
@@ -488,7 +488,7 @@ system:
         choices:
           '7':
             count: 1
-            replacement: true
+            replacement: false
         pool:
           - uuid: Compendium.ak5e.ak5e-operator-skills.Item.LI9k302x9A4TZuh8
           - uuid: Compendium.ak5e.ak5e-operator-skills.Item.OtDq86Ro9qTIk8k1
@@ -557,23 +557,23 @@ system:
     - type: ItemChoice
       _id: 3ToDZe1Q32surMq2
       configuration:
-        allowDrops: true
+        allowDrops: false
         choices:
           '14':
             count: 1
-            replacement: true
+            replacement: false
         pool:
           - uuid: Compendium.ak5e.ak5e-operator-skills.Item.MqATemsDRm92DUPJ
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.urZvtfIxeSFgnzhI
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.3N1H3KtwP5NQvYqK
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.mcLUyAyZE5L72tGo
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.3X643zQ28KyONf1K
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.2QzCc5nDYNbrO5GU
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.RgZBc0h1C1XvsBiw
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.vfnMqgMx2TudGW96
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.eYLxDbAOFZ1vBX3o
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.FfU6wjcNaHvn41Hg
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.kxmoO5VnSzmfQmVj
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.K7vx6s1GtrQfjKvt
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.5sWZleYraTedgntR
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.lbrLzUNn1GgbrIi3
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.wZ4atsCZsGJmuUCA
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.ulYiNdkc8NfwUHMe
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.Zemql0WUbzUsdpwc
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.SoqW7a5SZoAbJVRP
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.IYp7lxFiWqsM8so5
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.KfjZeQxNh5mHQQut
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.wfKEXUanlyTLgLts
         restriction:
           list: []
         spell: null
@@ -639,7 +639,7 @@ system:
     - type: ItemChoice
       _id: y7uv31gMaCMhrekv
       configuration:
-        allowDrops: true
+        allowDrops: false
         choices:
           '8':
             count: 1
@@ -684,7 +684,7 @@ system:
         choices:
           '13':
             count: 1
-            replacement: true
+            replacement: false
         pool:
           - uuid: Compendium.ak5e.ak5e-talents.Item.o0GnFDZnQv6sXcbC
           - uuid: Compendium.ak5e.ak5e-talents.Item.udvf7UywCar8aRw6
@@ -698,7 +698,6 @@ system:
           - uuid: Compendium.ak5e.ak5e-talents.Item.N0B8L9Y09HXmafE6
           - uuid: Compendium.ak5e.ak5e-talents.Item.rAcx8Q8Yghko9tSi
           - uuid: Compendium.ak5e.ak5e-talents.Item.mlANfWU9dVkEcDSi
-          - uuid: Compendium.ak5e.ak5e-talents.Item.sTkdcWLiTwVAcdax
           - uuid: Compendium.ak5e.ak5e-talents.Item.LSsRvyoRKzBAFTy5
           - uuid: Compendium.ak5e.ak5e-talents.Item.IjUlJY3ogPaLv6Ht
           - uuid: Compendium.ak5e.ak5e-talents.Item.QkpwGMxpGMK9cEyv
@@ -709,6 +708,7 @@ system:
           - uuid: Compendium.ak5e.ak5e-talents.Item.osCElO13K6JHa6bQ
           - uuid: Compendium.ak5e.ak5e-talents.Item.r19GGpWRcO5KigI5
           - uuid: Compendium.ak5e.ak5e-talents.Item.tFQX4Mvc3zrePzmi
+          - uuid: Compendium.ak5e.ak5e-talents.Item.UnNVP185qAyYfpjg
         restriction:
           list: []
           type: class
@@ -899,7 +899,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767615327612
-  modifiedTime: 1768070853480
+  modifiedTime: 1768160136977
   lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0

@@ -1,18 +1,137 @@
 folder: gux9mthtPInis7P3
 name: No Escape (WIP)
 type: feat
-_id: eYLxDbAOFZ1vBX3o
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: modules/ak5e/icons/Skill-Titi1.webp
 system:
-  activities: {}
+  activities:
+    xoNoIwPalnThTJEX:
+      type: utility
+      name: No Escape
+      _id: xoNoIwPalnThTJEX
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '65'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '2'
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: true
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
   uses:
     spent: 0
     recovery: []
+    max: ''
   advancement: []
   description:
-    value: ''
+    value: >-
+      <ul><li><p><strong>Name</strong>: No Escape.</p></li><li><p><strong>SP
+      Cost:</strong> 65.</p></li><li><p><strong>Start SP:</strong>
+      30.</p></li><li><p><strong>Charging:</strong>
+      Automatic.</p></li><li><p><strong>Activation Cost:</strong> Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> When you make a Ranged
+      Attack, it now targets a point within the Normal Range of that Attack. All
+      Creatures within a 5-foot-wide line from the origin of the Attack to the
+      chosen point are considered targets for the Attack; you make one Attack
+      Roll, but check the result against the Armour Class of all targets
+      seperately. In addition, these Attacks are capable of travelling through
+      up to 5 feet of solid material, allowing them to pierce total Cover, and
+      negating any benefits of Half orThree Quarters
+      Cover.</p></li><li><p><strong>Duration:</strong> 2
+      Rounds.</p></li></ul><p><strong>Not Automated.</strong></p>
     chat: ''
-  identifier: no-escape-wip
+  identifier: afterimage-wip
   source:
     revision: 1
     rules: '2024'
@@ -21,17 +140,69 @@ system:
   prerequisites:
     items: []
     repeatable: false
+    level: 14
   properties: []
   requirements: ''
   type:
-    value: ''
+    value: class
     subtype: ''
-effects: []
-sort: 0
-ownership:
-  default: 0
-  GiT7LQTiCJxjm7mo: 3
-flags: {}
+effects:
+  - name: No Escape (Skill Points)
+    img: modules/ak5e/icons/Skill-Titi1.webp
+    origin: Item.JhXHXrmNcdx7u1Go
+    _id: DXFUOiWQeWl6gGq8
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 5
+        value: '30'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 5
+        value: '65'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!IYp7lxFiWqsM8so5.DXFUOiWQeWl6gGq8'
+flags:
+  dnd5e:
+    riders:
+      activity: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -39,7 +210,12 @@ _stats:
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
-  createdTime: 1767619594976
-  modifiedTime: 1767619594976
+  createdTime: 1768158669193
+  modifiedTime: 1768158669227
   lastModifiedBy: GiT7LQTiCJxjm7mo
-_key: '!items!eYLxDbAOFZ1vBX3o'
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: IYp7lxFiWqsM8so5
+sort: 400000
+_key: '!items!IYp7lxFiWqsM8so5'

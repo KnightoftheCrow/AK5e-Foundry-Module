@@ -1,0 +1,102 @@
+folder: 5ej4KENJRk8I9Ksg
+name: Part-Time Inventor (Module)
+type: feat
+img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module:</strong> Your maximum number of Inventions becomes
+      2.</p>
+    chat: ''
+  identifier: part-time-inventor
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Part-Time Inventor (Module)
+    img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
+    origin: Compendium.ak5e.ak5e-talents.Item.1wKWIN8qqEbSgBVb
+    _id: JX2jU1CEK8woPShl
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.part-time-inventor.invent
+        mode: 5
+        value: '2'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1768145781857
+    _key: '!items.effects!1wKWIN8qqEbSgBVb.JX2jU1CEK8woPShl'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768145722621
+  modifiedTime: 1768145772179
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: 1wKWIN8qqEbSgBVb
+sort: 82813
+_key: '!items!1wKWIN8qqEbSgBVb'

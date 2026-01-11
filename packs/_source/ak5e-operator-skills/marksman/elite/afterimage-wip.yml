@@ -2,15 +2,133 @@ folder: gux9mthtPInis7P3
 name: Afterimage (WIP)
 type: feat
 _id: MqATemsDRm92DUPJ
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: modules/ak5e/icons/Skill-Rockrock2.webp
 system:
-  activities: {}
+  activities:
+    xoNoIwPalnThTJEX:
+      type: utility
+      name: Afterimage
+      _id: xoNoIwPalnThTJEX
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '80'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '3'
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: true
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      img: ''
   uses:
     spent: 0
     recovery: []
+    max: ''
   advancement: []
   description:
-    value: ''
+    value: >-
+      <ul><li><p><strong>Name</strong>: Afterimage.</p></li><li><p><strong>SP
+      Cost:</strong> 80.</p></li><li><p><strong>Start SP:</strong>
+      40.</p></li><li><p><strong>Charging:</strong>
+      Automatic.</p></li><li><p><strong>Activation Cost:</strong> Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> After you make an Attack,
+      you may repeat that Attack (no Action required); you must target the same
+      Creature, and if it hits, that Attack deals half Damage. These additional
+      Attacks cannot generate further Attacks. Additionally, if you have made an
+      Attack during your Turn while this Skill is Active, your AC is increased
+      by a value equal to your Proficiency Bonus until the beginning of your
+      next Turn.</p></li><li><p><strong>Duration:</strong> 3
+      Round.</p></li></ul><p><strong>Not Automated.</strong></p>
     chat: ''
   identifier: afterimage-wip
   source:
@@ -21,17 +139,74 @@ system:
   prerequisites:
     items: []
     repeatable: false
+    level: 14
   properties: []
   requirements: ''
   type:
-    value: ''
+    value: class
     subtype: ''
-effects: []
+effects:
+  - name: Wounding Blow (Skill Points)
+    img: modules/ak5e/icons/Skill-Rockrock2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.MqATemsDRm92DUPJ
+    _id: DXFUOiWQeWl6gGq8
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 5
+        value: '40'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 5
+        value: '80'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768157107790
+      modifiedTime: 1768157193060
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!MqATemsDRm92DUPJ.DXFUOiWQeWl6gGq8'
 sort: 0
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3
-flags: {}
+flags:
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -40,6 +215,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767619501554
-  modifiedTime: 1767619501554
+  modifiedTime: 1768157373735
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!MqATemsDRm92DUPJ'
