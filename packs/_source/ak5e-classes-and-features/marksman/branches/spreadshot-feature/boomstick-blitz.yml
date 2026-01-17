@@ -1,14 +1,16 @@
 folder: DjSTH0TXN7YZwjfY
-name: Boomstick Blitz (WIP)
+name: Boomstick Blitz
 type: feat
 _id: WcwBPZTUeEMe0BO6
-img: icons/skills/ranged/cannon-barrel-firing-orange.webp
+img: modules/ak5e/icons/Skill-Enforcer2.webp
 system:
   activities: {}
   uses:
     spent: 0
-    recovery: []
-    max: ''
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
   advancement: []
   description:
     value: >-
@@ -18,7 +20,7 @@ system:
       Creature of your choice that you can see within 30 feet of you. You can
       only Attack each Creature once as part of this Action.</p><p>Once you have
       used this Feature, you may not do so again until you have completed a Long
-      Rest.</p>
+      Rest.</p><p><strong>Not Automated.</strong></p>
     chat: ''
   identifier: boomstick-blitz-wip
   source:
@@ -52,6 +54,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767626149652
-  modifiedTime: 1767733610553
+  modifiedTime: 1768654681915
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!WcwBPZTUeEMe0BO6'

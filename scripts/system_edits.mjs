@@ -22,7 +22,6 @@ Hooks.once("init", () => {
   
 	// Removes the default Firearm Property so there's no overlap for possible automation
      CONFIG.DND5E.validProperties.weapon.delete("fir");
- 
   
 	// Adds AK5e Weapon Types
 	CONFIG.DND5E.weaponTypes.lightM = "Light Melee"
@@ -343,7 +342,9 @@ Hooks.once("init", () => {
     id: "Compendium.ak5e.ak5e-items.Item.2MfZHPX5xtOxH4Zr"
 	};
 
+// Add Drone Vehicle Type
 
+	CONFIG.DND5E.vehicleTypes.drone = "ak5e.VEHICLE.Type.Drone.label"
 	
 // Adds LMD Currency	
 	

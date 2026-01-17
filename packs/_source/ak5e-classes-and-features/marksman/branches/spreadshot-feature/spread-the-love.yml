@@ -1,8 +1,8 @@
 folder: DjSTH0TXN7YZwjfY
-name: Spread the Love (WIP)
+name: Spread the Love
 type: feat
 _id: p8sd4C5qnnxm9lAx
-img: icons/skills/ranged/bullets-triple-ball-orange.webp
+img: modules/ak5e/icons/Skill-Holungday1.webp
 system:
   activities: {}
   uses:
@@ -17,7 +17,7 @@ system:
       the Spread Property, you may deal the Piercing Damage to an additional
       Creature within 5ft of the original target.</p><p><strong>Wide
       Fire.</strong> Light or Heavy Ranged Weapons gain the Spread Property
-      while they are wielded by you.</p>
+      while they are wielded by you.</p><p><strong>Not Automated.</strong></p>
     chat: ''
   identifier: spread-the-love-wip
   source:
@@ -51,6 +51,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767626095669
-  modifiedTime: 1767733628105
+  modifiedTime: 1768656769392
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!p8sd4C5qnnxm9lAx'

@@ -1,8 +1,8 @@
 folder: DjSTH0TXN7YZwjfY
-name: Breach and Clear (WIP)
+name: Breach and Clear
 type: feat
 _id: rtFRQ65V6lRwsdCJ
-img: icons/skills/wounds/injury-pain-body-orange.webp
+img: modules/ak5e/icons/Skill-Enforcer1.webp
 system:
   activities: {}
   uses:
@@ -18,7 +18,8 @@ system:
       to make Opportunity Attacks until the beginning of your next Turn. If you
       score a Critical Hit against a Creature, or they fail a Saving Throw
       against your Pepperbox or Centre of Mass Feature, they instead cannot take
-      any Reactions until the start of your next Turn.</p>
+      any Reactions until the start of your next Turn.</p><p><strong>Not
+      Automated.</strong></p>
     chat: ''
   identifier: breach-and-clear-wip
   source:
@@ -52,6 +53,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767626135254
-  modifiedTime: 1767733613771
+  modifiedTime: 1768654734177
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!rtFRQ65V6lRwsdCJ'

@@ -534,7 +534,6 @@ system:
           - uuid: Compendium.ak5e.ak5e-talents.Item.N0B8L9Y09HXmafE6
           - uuid: Compendium.ak5e.ak5e-talents.Item.rAcx8Q8Yghko9tSi
           - uuid: Compendium.ak5e.ak5e-talents.Item.mlANfWU9dVkEcDSi
-          - uuid: Compendium.ak5e.ak5e-talents.Item.sTkdcWLiTwVAcdax
           - uuid: Compendium.ak5e.ak5e-talents.Item.LSsRvyoRKzBAFTy5
           - uuid: Compendium.ak5e.ak5e-talents.Item.IjUlJY3ogPaLv6Ht
           - uuid: Compendium.ak5e.ak5e-talents.Item.QkpwGMxpGMK9cEyv
@@ -545,6 +544,7 @@ system:
           - uuid: Compendium.ak5e.ak5e-talents.Item.osCElO13K6JHa6bQ
           - uuid: Compendium.ak5e.ak5e-talents.Item.r19GGpWRcO5KigI5
           - uuid: Compendium.ak5e.ak5e-talents.Item.tFQX4Mvc3zrePzmi
+          - uuid: Compendium.ak5e.ak5e-talents.Item.UnNVP185qAyYfpjg
         restriction:
           list: []
         spell: null
@@ -899,7 +899,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767615327612
-  modifiedTime: 1768160136977
+  modifiedTime: 1768654307987
   lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0

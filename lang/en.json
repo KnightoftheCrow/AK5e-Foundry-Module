@@ -76,6 +76,13 @@
 			"condTypeNerve": " Nervous Impairment",
 			"condTypeSilen": "Silenced"
         },
+        "VEHICLE": {
+            "Type": {
+                "Drone": {
+                    "label": "Drone"
+                }
+            }
+        },
         "Language": {
             "Aegirian": "Aegirian",
             "Durinese": "Durinese",
