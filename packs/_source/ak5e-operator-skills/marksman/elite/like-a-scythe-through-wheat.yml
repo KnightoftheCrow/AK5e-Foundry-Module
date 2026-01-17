@@ -1,16 +1,16 @@
 folder: gux9mthtPInis7P3
-name: Continental Style (WIP)
+name: Like a Scythe through Wheat
 type: feat
-img: modules/ak5e/icons/Skill-Sora2.webp
+img: modules/ak5e/icons/Skill-Dusk2.webp
 system:
   activities:
     xoNoIwPalnThTJEX:
       type: utility
-      name: Continental Style
+      name: Like a Scythe through Wheat
       _id: xoNoIwPalnThTJEX
       sort: 0
       activation:
-        type: bonus
+        type: reaction
         override: false
         condition: ''
       consumption:
@@ -19,7 +19,7 @@ system:
         spellSlot: true
         targets:
           - type: itemUses
-            value: '40'
+            value: '65'
             target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
@@ -28,8 +28,9 @@ system:
         units: round
         concentration: false
         override: false
-        value: '5'
-      effects: []
+        value: '3'
+      effects:
+        - _id: IFi5u4PA0Zc9Qcuf
       flags: {}
       range:
         units: self
@@ -116,20 +117,17 @@ system:
   advancement: []
   description:
     value: >-
-      <ul><li><p><strong>Name</strong>: Continental
-      Style.</p></li><li><p><strong>SP Cost:</strong>
-      40.</p></li><li><p><strong>Start SP:</strong>
+      <ul><li><p><strong>Name</strong>: Like a Scythe through
+      Wheat.</p></li><li><p><strong>SP Cost:</strong>
+      65.</p></li><li><p><strong>Start SP:</strong>
       30.</p></li><li><p><strong>Charging:</strong>
-      Automatic.</p></li><li><p><strong>Activation Cost: </strong>Bonus
-      Action.</p></li><li><p><strong>Effect:</strong> You do not have
-      Disadvantage on Ranged Attack Rolls when there is a hostile Creature
-      within 5 feet of you. Additionally, for each Ranged Attack you make during
-      a Turn, you may make a single Melee Attack during that Turn (no Action
-      required); a Creature that you have made a Melee Attack against cannot
-      make Opportunity Attacks against you for the remainder of the Turn.
-      However, you can only make one Melee Attack per Turn in this way against
-      each Creature.</p></li><li><p><strong>Duration:</strong> 5
-      Rounds.</p></li></ul><p><strong>Not Automated.</strong></p>
+      Offensive.</p></li><li><p><strong>Activation Cost:</strong> Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> When you make an Attack,
+      you may target 1 additional Creature as part of that Attack. In addition,
+      if you hit a Creature who is not missing any Hit Points with an Attack,
+      that Attack deals an additional 1d10
+      Damage.</p></li><li><p><strong>Duration:</strong> 3
+      Rounds.</p></li></ul><p><strong>Automated.</strong></p>
     chat: ''
   identifier: afterimage-wip
   source:
@@ -147,20 +145,20 @@ system:
     value: class
     subtype: ''
 effects:
-  - name: Continental Style (Skill Points)
-    img: modules/ak5e/icons/Skill-Sora2.webp
-    origin: Item.JhXHXrmNcdx7u1Go
+  - name: Like a Scythe through Wheat (Skill Points)
+    img: modules/ak5e/icons/Skill-Dusk2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.SoqW7a5SZoAbJVRP
     _id: DXFUOiWQeWl6gGq8
     type: base
     system: {}
     changes:
       - key: system.scale.skillPoints.recovery
-        mode: 5
+        mode: 4
         value: '30'
         priority: 20
       - key: system.scale.skillPoints.maxsp
-        mode: 5
-        value: '40'
+        mode: 4
+        value: '65'
         priority: 20
     disabled: false
     duration:
@@ -197,8 +195,65 @@ effects:
       coreVersion: '13.351'
       systemId: dnd5e
       systemVersion: 5.2.4
-      lastModifiedBy: null
-    _key: '!items.effects!5sWZleYraTedgntR.DXFUOiWQeWl6gGq8'
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1768652865031
+    _key: '!items.effects!SoqW7a5SZoAbJVRP.DXFUOiWQeWl6gGq8'
+  - name: Like a Scythe through Wheat
+    img: modules/ak5e/icons/Skill-Dusk2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.SoqW7a5SZoAbJVRP
+    transfer: false
+    _id: IFi5u4PA0Zc9Qcuf
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.bonus
+        mode: 2
+        value: >-
+          bonus=1d10; hasAttack && (opponentActor.attributes.hp.value ===
+          opponentActor.attributes.hp.max)
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 3
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768652848577
+      modifiedTime: 1768653107782
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!SoqW7a5SZoAbJVRP.IFi5u4PA0Zc9Qcuf'
 flags:
   dnd5e:
     riders:
@@ -210,12 +265,12 @@ _stats:
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
-  createdTime: 1768157723209
-  modifiedTime: 1768157723239
+  createdTime: 1768159295206
+  modifiedTime: 1768653158060
   lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3
-_id: 5sWZleYraTedgntR
-sort: 200000
-_key: '!items!5sWZleYraTedgntR'
+_id: SoqW7a5SZoAbJVRP
+sort: 287500
+_key: '!items!SoqW7a5SZoAbJVRP'

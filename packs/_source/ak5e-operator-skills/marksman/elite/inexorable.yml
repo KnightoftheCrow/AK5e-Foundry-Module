@@ -1,12 +1,12 @@
 folder: gux9mthtPInis7P3
-name: No Escape (WIP)
+name: Inexorable
 type: feat
-img: modules/ak5e/icons/Skill-Titi1.webp
+img: modules/ak5e/icons/Skill-Suzuran3.webp
 system:
   activities:
     xoNoIwPalnThTJEX:
       type: utility
-      name: No Escape
+      name: Inexorable
       _id: xoNoIwPalnThTJEX
       sort: 0
       activation:
@@ -19,7 +19,7 @@ system:
         spellSlot: true
         targets:
           - type: itemUses
-            value: '65'
+            value: '80'
             target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
@@ -28,7 +28,7 @@ system:
         units: round
         concentration: false
         override: false
-        value: '2'
+        value: '3'
       effects: []
       flags: {}
       range:
@@ -116,19 +116,15 @@ system:
   advancement: []
   description:
     value: >-
-      <ul><li><p><strong>Name</strong>: No Escape.</p></li><li><p><strong>SP
-      Cost:</strong> 65.</p></li><li><p><strong>Start SP:</strong>
-      30.</p></li><li><p><strong>Charging:</strong>
-      Automatic.</p></li><li><p><strong>Activation Cost:</strong> Bonus
-      Action.</p></li><li><p><strong>Effect:</strong> When you make a Ranged
-      Attack, it now targets a point within the Normal Range of that Attack. All
-      Creatures within a 5-foot-wide line from the origin of the Attack to the
-      chosen point are considered targets for the Attack; you make one Attack
-      Roll, but check the result against the Armour Class of all targets
-      seperately. In addition, these Attacks are capable of travelling through
-      up to 5 feet of solid material, allowing them to pierce total Cover, and
-      negating any benefits of Half orThree Quarters
-      Cover.</p></li><li><p><strong>Duration:</strong> 2
+      <ul><li><p><strong>Name</strong>: Inexorable.</p></li><li><p><strong>SP
+      Cost:</strong> 80.</p></li><li><p><strong>Start SP:</strong>
+      35.</p></li><li><p><strong>Charging:</strong>
+      Offensive.</p></li><li><p><strong>Activation Cost:</strong> Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> Your missed Attacks still
+      deal half of their Damage to their intended target(s). Furthermore, if a
+      Creature would take half Damage as a result of passing a Saving Throw
+      imposed by you, they still take the full
+      Damage.</p></li><li><p><strong>Duration:</strong> 3
       Rounds.</p></li></ul><p><strong>Not Automated.</strong></p>
     chat: ''
   identifier: afterimage-wip
@@ -147,20 +143,20 @@ system:
     value: class
     subtype: ''
 effects:
-  - name: No Escape (Skill Points)
-    img: modules/ak5e/icons/Skill-Titi1.webp
-    origin: Item.JhXHXrmNcdx7u1Go
+  - name: Inexorable  (Skill Points)
+    img: modules/ak5e/icons/Skill-Suzuran3.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.Zemql0WUbzUsdpwc
     _id: DXFUOiWQeWl6gGq8
     type: base
     system: {}
     changes:
       - key: system.scale.skillPoints.recovery
-        mode: 5
-        value: '30'
+        mode: 4
+        value: '35'
         priority: 20
       - key: system.scale.skillPoints.maxsp
-        mode: 5
-        value: '65'
+        mode: 4
+        value: '80'
         priority: 20
     disabled: false
     duration:
@@ -197,8 +193,9 @@ effects:
       coreVersion: '13.351'
       systemId: dnd5e
       systemVersion: 5.2.4
-      lastModifiedBy: null
-    _key: '!items.effects!IYp7lxFiWqsM8so5.DXFUOiWQeWl6gGq8'
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1768652823760
+    _key: '!items.effects!Zemql0WUbzUsdpwc.DXFUOiWQeWl6gGq8'
 flags:
   dnd5e:
     riders:
@@ -210,12 +207,12 @@ _stats:
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
-  createdTime: 1768158669193
-  modifiedTime: 1768158669227
+  createdTime: 1768158460356
+  modifiedTime: 1768652817557
   lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3
-_id: IYp7lxFiWqsM8so5
-sort: 400000
-_key: '!items!IYp7lxFiWqsM8so5'
+_id: Zemql0WUbzUsdpwc
+sort: 275000
+_key: '!items!Zemql0WUbzUsdpwc'

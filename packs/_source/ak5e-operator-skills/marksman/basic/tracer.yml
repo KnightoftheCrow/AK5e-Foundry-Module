@@ -158,11 +158,11 @@ effects:
     system: {}
     changes:
       - key: system.scale.skillPoints.recovery
-        mode: 5
+        mode: 4
         value: '10'
         priority: 20
       - key: system.scale.skillPoints.maxsp
-        mode: 5
+        mode: 4
         value: '20'
         priority: 20
     disabled: false
@@ -202,7 +202,7 @@ effects:
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1768072840379
-      modifiedTime: 1768140616396
+      modifiedTime: 1768651420024
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!9H9l8JePvyeOfv6p.CBy4dKBdvzNO0rO0'
   - name: Tracer

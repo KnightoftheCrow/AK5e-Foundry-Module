@@ -1,12 +1,12 @@
 folder: gux9mthtPInis7P3
-name: Inexorable (WIP)
+name: Eternal Hunt
 type: feat
-img: modules/ak5e/icons/Skill-Suzuran3.webp
+img: modules/ak5e/icons/64px-Skill-Typhon3.webp
 system:
   activities:
     xoNoIwPalnThTJEX:
       type: utility
-      name: Inexorable
+      name: Eternal Hunt
       _id: xoNoIwPalnThTJEX
       sort: 0
       activation:
@@ -19,22 +19,26 @@ system:
         spellSlot: true
         targets:
           - type: itemUses
-            value: '80'
+            value: '65'
             target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
         units: round
         concentration: false
         override: false
-        value: '3'
-      effects: []
+        value: '2'
+      effects:
+        - _id: GRxWtDVT4Mm5H5EP
+          level:
+            min: null
+            max: null
       flags: {}
       range:
-        units: self
+        units: ft
         override: false
         special: ''
+        value: '100'
       target:
         template:
           contiguous: false
@@ -42,7 +46,9 @@ system:
           type: ''
         affects:
           choice: false
-          type: ''
+          type: creature
+          count: '1'
+          special: ''
         override: false
         prompt: true
       uses:
@@ -109,6 +115,7 @@ system:
         postRemoveConditionText: ''
       otherActivityId: none
       otherActivityAsParentType: true
+      img: ''
   uses:
     spent: 0
     recovery: []
@@ -116,15 +123,16 @@ system:
   advancement: []
   description:
     value: >-
-      <ul><li><p><strong>Name</strong>: Inexorable.</p></li><li><p><strong>SP
-      Cost:</strong> 80.</p></li><li><p><strong>Start SP:</strong>
-      35.</p></li><li><p><strong>Charging:</strong>
-      Offensive.</p></li><li><p><strong>Activation Cost:</strong> Bonus
-      Action.</p></li><li><p><strong>Effect:</strong> Your missed Attacks still
-      deal half of their Damage to their intended target(s). Furthermore, if a
-      Creature would take half Damage as a result of passing a Saving Throw
-      imposed by you, they still take the full
-      Damage.</p></li><li><p><strong>Duration:</strong> 3
+      <ul><li><p><strong>Name</strong>: Eternal Hunt.</p></li><li><p><strong>SP
+      Cost:</strong> 65.</p></li><li><p><strong>Start SP:</strong>
+      30.</p></li><li><p><strong>Charging:</strong>
+      Automatic.</p></li><li><p><strong>Activation Cost: </strong>Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> Choose a Creature you can
+      see within 100 feet. For the duration of the Skill, you can only target
+      that Creature with Attacks. However, your Attacks against it ignore the
+      benefits of Half and Three-Quarters Cover, and deal additional Weapon
+      Damage equal to half of your Character
+      Level.</p></li><li><p><strong>Duration:</strong> 2
       Rounds.</p></li></ul><p><strong>Not Automated.</strong></p>
     chat: ''
   identifier: afterimage-wip
@@ -143,20 +151,20 @@ system:
     value: class
     subtype: ''
 effects:
-  - name: Inexorable  (Skill Points)
-    img: modules/ak5e/icons/Skill-Suzuran3.webp
-    origin: Item.JhXHXrmNcdx7u1Go
+  - name: Eternal Hunt (Skill Points)
+    img: modules/ak5e/icons/64px-Skill-Typhon3.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.lbrLzUNn1GgbrIi3
     _id: DXFUOiWQeWl6gGq8
     type: base
     system: {}
     changes:
       - key: system.scale.skillPoints.recovery
-        mode: 5
-        value: '35'
+        mode: 4
+        value: '30'
         priority: 20
       - key: system.scale.skillPoints.maxsp
-        mode: 5
-        value: '80'
+        mode: 4
+        value: '65'
         priority: 20
     disabled: false
     duration:
@@ -193,8 +201,65 @@ effects:
       coreVersion: '13.351'
       systemId: dnd5e
       systemVersion: 5.2.4
-      lastModifiedBy: null
-    _key: '!items.effects!Zemql0WUbzUsdpwc.DXFUOiWQeWl6gGq8'
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1768652694284
+    _key: '!items.effects!lbrLzUNn1GgbrIi3.DXFUOiWQeWl6gGq8'
+  - name: Eternal Hunt
+    img: modules/ak5e/icons/64px-Skill-Typhon3.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.lbrLzUNn1GgbrIi3
+    transfer: false
+    _id: GRxWtDVT4Mm5H5EP
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.damage.bonus
+        mode: 2
+        value: |-
+          bonus=effectOriginActor.level; hasAttack && 
+          (effectOriginTokenId === tokenId)
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 2
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768651614607
+      modifiedTime: 1768652687712
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!lbrLzUNn1GgbrIi3.GRxWtDVT4Mm5H5EP'
 flags:
   dnd5e:
     riders:
@@ -206,12 +271,12 @@ _stats:
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
-  createdTime: 1768158460356
-  modifiedTime: 1768158460385
+  createdTime: 1768157894418
+  modifiedTime: 1768651678169
   lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3
-_id: Zemql0WUbzUsdpwc
-sort: 275000
-_key: '!items!Zemql0WUbzUsdpwc'
+_id: lbrLzUNn1GgbrIi3
+sort: 300000
+_key: '!items!lbrLzUNn1GgbrIi3'

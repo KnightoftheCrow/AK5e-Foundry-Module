@@ -1,16 +1,15 @@
 folder: gux9mthtPInis7P3
-name: Like a Scythe through Wheat (WIP)
+name: Assault Tactics
 type: feat
-img: modules/ak5e/icons/Skill-Dusk2.webp
+img: modules/ak5e/icons/Skill-Robin1.webp
 system:
   activities:
-    xoNoIwPalnThTJEX:
-      type: utility
-      name: Like a Scythe through Wheat
-      _id: xoNoIwPalnThTJEX
+    sEuPNbQfmq9J1Haj:
+      type: save
+      _id: sEuPNbQfmq9J1Haj
       sort: 0
       activation:
-        type: reaction
+        type: action
         override: false
         condition: ''
       consumption:
@@ -19,30 +18,36 @@ system:
         spellSlot: true
         targets:
           - type: itemUses
-            value: '65'
+            value: '50'
             target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
-        units: round
+        units: inst
         concentration: false
         override: false
-        value: '3'
-      effects: []
-      flags: {}
+      effects:
+        - _id: ZkCySFOhGXed9zd1
+      flags:
+        region-attacher:
+          attachRegionToTemplate: false
       range:
-        units: self
+        units: ft
         override: false
         special: ''
+        value: '50'
       target:
         template:
           contiguous: false
           units: ft
-          type: ''
+          type: sphere
+          size: '20'
+          count: ''
         affects:
           choice: false
           type: ''
+          count: ''
+          special: ''
         override: false
         prompt: true
       uses:
@@ -57,11 +62,17 @@ system:
         requireIdentification: false
         requireMagic: false
         identifier: ''
-      roll:
-        prompt: false
-        visible: false
-        formula: ''
-        name: ''
+      damage:
+        onSave: none
+        critical:
+          allow: false
+        parts: []
+      save:
+        ability:
+          - con
+        dc:
+          calculation: dex
+          formula: ''
       useConditionText: ''
       useConditionReason: ''
       effectConditionText: ''
@@ -80,7 +91,7 @@ system:
         triggeredActivityConditionText: ''
         triggeredActivityTargets: targets
         triggeredActivityRollAs: self
-        autoConsume: true
+        autoConsume: false
         forceConsumeDialog: default
         forceRollDialog: default
         forceDamageDialog: default
@@ -107,8 +118,11 @@ system:
         saveRemoves: true
         preRemoveConditionText: ''
         postRemoveConditionText: ''
-      otherActivityId: none
+      otherActivityId: ''
       otherActivityAsParentType: true
+      friendlySave: default
+      name: Assault Tactics
+      img: ''
   uses:
     spent: 0
     recovery: []
@@ -116,17 +130,19 @@ system:
   advancement: []
   description:
     value: >-
-      <ul><li><p><strong>Name</strong>: Like a Scythe through
-      Wheat.</p></li><li><p><strong>SP Cost:</strong>
-      65.</p></li><li><p><strong>Start SP:</strong>
-      30.</p></li><li><p><strong>Charging:</strong>
-      Offensive.</p></li><li><p><strong>Activation Cost:</strong> Bonus
-      Action.</p></li><li><p><strong>Effect:</strong> When you make an Attack,
-      you may target 1 additional Creature as part of that Attack. In addition,
-      if you hit a Creature who is not missing any Hit Points with an Attack,
-      that Attack deals an additional 1d10
-      Damage.</p></li><li><p><strong>Duration:</strong> 3
-      Rounds.</p></li></ul><p><strong>Not Automated.</strong></p>
+      <ul><li><p><strong>Name</strong>: Assault
+      Tactics.</p></li><li><p><strong>SP Cost:</strong>
+      50.</p></li><li><p><strong>Start SP:</strong>
+      20.</p></li><li><p><strong>Charging:</strong>
+      Automatic.</p></li><li><p><strong>Activation Cost:
+      </strong>Action.</p></li><li><p><strong>Effect:</strong> Choose a point
+      you can see within 50 feet; all Creatures within a 20-foot-radius Sphere
+      centred on that point must make a Constitution Saving Throw against your
+      Martial DC as a disorientating burst of light and sound springs forth. On
+      a failed Save, they are Stunned and Blinded until the end of your next
+      Turn. On a successful Save, they are only Blinded until the end of your
+      next Turn.</p></li><li><p><strong>Duration:</strong>
+      Instant.</p></li></ul><p><strong>Automated.</strong></p>
     chat: ''
   identifier: afterimage-wip
   source:
@@ -144,20 +160,20 @@ system:
     value: class
     subtype: ''
 effects:
-  - name: Like a Scythe through Wheat (Skill Points)
-    img: modules/ak5e/icons/Skill-Dusk2.webp
-    origin: Item.JhXHXrmNcdx7u1Go
+  - name: Assault Tactics (Skill Points)
+    img: modules/ak5e/icons/Skill-Robin1.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.K7vx6s1GtrQfjKvt
     _id: DXFUOiWQeWl6gGq8
     type: base
     system: {}
     changes:
       - key: system.scale.skillPoints.recovery
-        mode: 5
-        value: '30'
+        mode: 4
+        value: '20'
         priority: 20
       - key: system.scale.skillPoints.maxsp
-        mode: 5
-        value: '65'
+        mode: 4
+        value: '50'
         priority: 20
     disabled: false
     duration:
@@ -194,8 +210,61 @@ effects:
       coreVersion: '13.351'
       systemId: dnd5e
       systemVersion: 5.2.4
-      lastModifiedBy: null
-    _key: '!items.effects!SoqW7a5SZoAbJVRP.DXFUOiWQeWl6gGq8'
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1768651875996
+    _key: '!items.effects!K7vx6s1GtrQfjKvt.DXFUOiWQeWl6gGq8'
+  - name: Assault Tactics
+    img: modules/ak5e/icons/Skill-Robin1.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.K7vx6s1GtrQfjKvt
+    transfer: false
+    _id: ZkCySFOhGXed9zd1
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - blinded
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses:
+            - stunned
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768650838994
+      modifiedTime: 1768650996487
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!K7vx6s1GtrQfjKvt.ZkCySFOhGXed9zd1'
 flags:
   dnd5e:
     riders:
@@ -207,12 +276,12 @@ _stats:
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
-  createdTime: 1768159295206
-  modifiedTime: 1768159295237
+  createdTime: 1768157468753
+  modifiedTime: 1768650990546
   lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3
-_id: SoqW7a5SZoAbJVRP
-sort: 287500
-_key: '!items!SoqW7a5SZoAbJVRP'
+_id: K7vx6s1GtrQfjKvt
+sort: 100000
+_key: '!items!K7vx6s1GtrQfjKvt'

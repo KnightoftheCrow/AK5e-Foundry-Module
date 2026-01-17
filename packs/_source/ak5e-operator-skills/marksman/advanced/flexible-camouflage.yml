@@ -157,11 +157,11 @@ effects:
     system: {}
     changes:
       - key: system.scale.skillPoints.recovery
-        mode: 5
+        mode: 4
         value: '15'
         priority: 20
       - key: system.scale.skillPoints.maxsp
-        mode: 5
+        mode: 4
         value: '35'
         priority: 20
     disabled: false
@@ -201,7 +201,7 @@ effects:
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1768152452173
-      modifiedTime: 1768152534042
+      modifiedTime: 1768651492179
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!1ycUgaKJV1WuXeYx.ByOunL2mRUwyeqrv'
   - name: Flexible Camouflage

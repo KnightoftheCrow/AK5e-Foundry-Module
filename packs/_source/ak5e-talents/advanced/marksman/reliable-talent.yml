@@ -33,7 +33,7 @@ system:
       <p>When you make a Check using a Skill you are Proficient in, treat any
       result on the d20 of 8 or less as an 8.</p><p><strong>Module:</strong> You
       cannot have Disadvantage on any Check using a Skill or Tool you are
-      Proficiency with.</p><p><strong>Automated: </strong>No Disadvantage not
+      Proficiency with.</p><p><strong>Automated: </strong>Disadvantage not
       implemented.</p>
     chat: ''
   identifier: reliable-talent
@@ -136,6 +136,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738714333
-  modifiedTime: 1768145448955
+  modifiedTime: 1768638493737
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!0B7CWEADSa2l7ZFb'

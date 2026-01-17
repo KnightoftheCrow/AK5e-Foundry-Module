@@ -157,11 +157,11 @@ effects:
     system: {}
     changes:
       - key: system.scale.skillPoints.recovery
-        mode: 5
+        mode: 4
         value: '10'
         priority: 20
       - key: system.scale.skillPoints.maxsp
-        mode: 5
+        mode: 4
         value: '30'
         priority: 20
     disabled: false
@@ -201,7 +201,7 @@ effects:
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1768153965421
-      modifiedTime: 1768155809962
+      modifiedTime: 1768651544236
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!xEJtugdXspeK633F.M64F0fhNJQuKkQx6'
   - name: Search and Destroy

@@ -156,11 +156,11 @@ effects:
     system: {}
     changes:
       - key: system.scale.skillPoints.recovery
-        mode: 5
+        mode: 4
         value: '0'
         priority: 20
       - key: system.scale.skillPoints.maxsp
-        mode: 5
+        mode: 4
         value: '15'
         priority: 20
     disabled: false
@@ -200,7 +200,7 @@ effects:
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1768072889493
-      modifiedTime: 1768141340606
+      modifiedTime: 1768651438056
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!ep2MJVEskzKTkT4y.NofukA6yJwZH3fsM'
   - name: Wounding Blow

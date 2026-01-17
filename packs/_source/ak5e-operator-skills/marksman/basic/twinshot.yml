@@ -151,11 +151,11 @@ effects:
     system: {}
     changes:
       - key: system.scale.skillPoints.recovery
-        mode: 5
+        mode: 4
         value: '10'
         priority: 20
       - key: system.scale.skillPoints.maxsp
-        mode: 5
+        mode: 4
         value: '15'
         priority: 20
     disabled: false
@@ -195,7 +195,7 @@ effects:
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1768072861317
-      modifiedTime: 1768156330532
+      modifiedTime: 1768651429545
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!QS35F2MZONQyjFF1.RcVZhLQmiiLZs4Hv'
 sort: 100782

@@ -1,5 +1,5 @@
 folder: gux9mthtPInis7P3
-name: Harpoon Shot (WIP)
+name: Harpoon Shot
 type: feat
 img: modules/ak5e/icons/64px-Skill-A3.webp
 system:
@@ -124,10 +124,10 @@ system:
       see within 100 feet. That Creature must make a Dexterity Saving Throw
       against your Martial DC; on a failed Save, they take 6d8 Piercing Damage
       and are tethered. On a successful Save, they take half as much Damage, but
-      are not tethered. A tethered Creature has its Speed halved, and takes3d8
+      are not tethered. A tethered Creature has its Speed halved, and takes 3d8
       Piercing Damage at the beginning of each of its Turns. As an Action during
       its Turn, a tethered Creature may reattempt the Saving Throw, ending the
-      tether on asuccess.</p></li><li><p><strong>Duration:</strong>
+      tether on a success.</p></li><li><p><strong>Duration:</strong>
       Instant.</p></li></ul><p><strong>Not Automated.</strong></p>
     chat: ''
   identifier: afterimage-wip
@@ -154,11 +154,11 @@ effects:
     system: {}
     changes:
       - key: system.scale.skillPoints.recovery
-        mode: 5
+        mode: 4
         value: '30'
         priority: 20
       - key: system.scale.skillPoints.maxsp
-        mode: 5
+        mode: 4
         value: '65'
         priority: 20
     disabled: false
@@ -197,7 +197,7 @@ effects:
       systemId: dnd5e
       systemVersion: 5.2.4
       lastModifiedBy: GiT7LQTiCJxjm7mo
-      modifiedTime: 1768158269863
+      modifiedTime: 1768653452111
     _key: '!items.effects!ulYiNdkc8NfwUHMe.DXFUOiWQeWl6gGq8'
 flags:
   dnd5e:
@@ -211,7 +211,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768158239993
-  modifiedTime: 1768158240021
+  modifiedTime: 1768653883554
   lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0

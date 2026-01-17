@@ -157,11 +157,11 @@ effects:
     system: {}
     changes:
       - key: system.scale.skillPoints.recovery
-        mode: 5
+        mode: 4
         value: '20'
         priority: 20
       - key: system.scale.skillPoints.maxsp
-        mode: 5
+        mode: 4
         value: '20'
         priority: 20
     disabled: false
@@ -201,7 +201,7 @@ effects:
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1768153437967
-      modifiedTime: 1768153478663
+      modifiedTime: 1768651515768
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!um4w4uDBUA420vAg.JHm0s1S3DjNum3qv'
   - name: Radar Sweep

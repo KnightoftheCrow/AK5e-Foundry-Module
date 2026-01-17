@@ -1,12 +1,12 @@
 folder: gux9mthtPInis7P3
-name: Eternal Hunt (WIP)
+name: Continental Style
 type: feat
-img: modules/ak5e/icons/64px-Skill-Typhon3.webp
+img: modules/ak5e/icons/Skill-Sora2.webp
 system:
   activities:
     xoNoIwPalnThTJEX:
       type: utility
-      name: Eternal Hunt
+      name: Continental Style
       _id: xoNoIwPalnThTJEX
       sort: 0
       activation:
@@ -19,7 +19,7 @@ system:
         spellSlot: true
         targets:
           - type: itemUses
-            value: '65'
+            value: '40'
             target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
@@ -28,8 +28,9 @@ system:
         units: round
         concentration: false
         override: false
-        value: '2'
-      effects: []
+        value: '5'
+      effects:
+        - _id: KnmeoxYng1BpAYHL
       flags: {}
       range:
         units: self
@@ -116,17 +117,21 @@ system:
   advancement: []
   description:
     value: >-
-      <ul><li><p><strong>Name</strong>: Eternal Hunt.</p></li><li><p><strong>SP
-      Cost:</strong> 65.</p></li><li><p><strong>Start SP:</strong>
+      <ul><li><p><strong>Name</strong>: Continental
+      Style.</p></li><li><p><strong>SP Cost:</strong>
+      40.</p></li><li><p><strong>Start SP:</strong>
       30.</p></li><li><p><strong>Charging:</strong>
       Automatic.</p></li><li><p><strong>Activation Cost: </strong>Bonus
-      Action.</p></li><li><p><strong>Effect:</strong> Choose a Creature you can
-      see within 100 feet. For the duration of the Skill, you can only target
-      that Creature with Attacks. However, your Attacks against it ignore the
-      benefits of Half and Three-Quarters Cover, and deal additional Weapon
-      Damage equal to half of your Character
-      Level.</p></li><li><p><strong>Duration:</strong> 2
-      Rounds.</p></li></ul><p><strong>Not Automated.</strong></p>
+      Action.</p></li><li><p><strong>Effect:</strong> You do not have
+      Disadvantage on Ranged Attack Rolls when there is a hostile Creature
+      within 5 feet of you. Additionally, for each Ranged Attack you make during
+      a Turn, you may make a single Melee Attack during that Turn (no Action
+      required); a Creature that you have made a Melee Attack against cannot
+      make Opportunity Attacks against you for the remainder of the Turn.
+      However, you can only make one Melee Attack per Turn in this way against
+      each Creature.</p></li><li><p><strong>Duration:</strong> 5
+      Rounds.</p></li></ul><p><strong>Partially Automated: </strong>Disable
+      Disadvantage on nearby foes.</p>
     chat: ''
   identifier: afterimage-wip
   source:
@@ -144,20 +149,20 @@ system:
     value: class
     subtype: ''
 effects:
-  - name: Eternal Hunt (Skill Points)
-    img: modules/ak5e/icons/64px-Skill-Typhon3.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.lbrLzUNn1GgbrIi3
+  - name: Continental Style (Skill Points)
+    img: modules/ak5e/icons/Skill-Sora2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.5sWZleYraTedgntR
     _id: DXFUOiWQeWl6gGq8
     type: base
     system: {}
     changes:
       - key: system.scale.skillPoints.recovery
-        mode: 5
+        mode: 4
         value: '30'
         priority: 20
       - key: system.scale.skillPoints.maxsp
-        mode: 5
-        value: '65'
+        mode: 4
+        value: '40'
         priority: 20
     disabled: false
     duration:
@@ -195,8 +200,62 @@ effects:
       systemId: dnd5e
       systemVersion: 5.2.4
       lastModifiedBy: GiT7LQTiCJxjm7mo
-      modifiedTime: 1768157911401
-    _key: '!items.effects!lbrLzUNn1GgbrIi3.DXFUOiWQeWl6gGq8'
+      modifiedTime: 1768651882215
+    _key: '!items.effects!5sWZleYraTedgntR.DXFUOiWQeWl6gGq8'
+  - name: Continental Style
+    img: modules/ak5e/icons/Skill-Sora2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.5sWZleYraTedgntR
+    transfer: false
+    _id: KnmeoxYng1BpAYHL
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.ignoreNearbyFoes
+        mode: 2
+        value: true; actionType.rwak
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 5
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1768651030985
+      modifiedTime: 1768651154119
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+    _key: '!items.effects!5sWZleYraTedgntR.KnmeoxYng1BpAYHL'
 flags:
   dnd5e:
     riders:
@@ -208,12 +267,12 @@ _stats:
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
-  createdTime: 1768157894418
-  modifiedTime: 1768157894449
+  createdTime: 1768157723209
+  modifiedTime: 1768651141224
   lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3
-_id: lbrLzUNn1GgbrIi3
-sort: 300000
-_key: '!items!lbrLzUNn1GgbrIi3'
+_id: 5sWZleYraTedgntR
+sort: 200000
+_key: '!items!5sWZleYraTedgntR'

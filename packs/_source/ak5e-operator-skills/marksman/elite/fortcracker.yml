@@ -1,13 +1,12 @@
 folder: gux9mthtPInis7P3
-name: Afterimage (WIP)
+name: Fortcracker
 type: feat
-_id: MqATemsDRm92DUPJ
-img: modules/ak5e/icons/Skill-Rockrock2.webp
+img: modules/ak5e/icons/64px-Skill-Toddifons2.webp
 system:
   activities:
     xoNoIwPalnThTJEX:
       type: utility
-      name: Afterimage
+      name: Fortcracker
       _id: xoNoIwPalnThTJEX
       sort: 0
       activation:
@@ -20,8 +19,9 @@ system:
         spellSlot: true
         targets:
           - type: itemUses
-            value: '80'
+            value: '65'
             target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -60,8 +60,8 @@ system:
       roll:
         prompt: false
         visible: false
-        name: ''
         formula: ''
+        name: ''
       useConditionText: ''
       useConditionReason: ''
       effectConditionText: ''
@@ -109,7 +109,6 @@ system:
         postRemoveConditionText: ''
       otherActivityId: none
       otherActivityAsParentType: true
-      img: ''
   uses:
     spent: 0
     recovery: []
@@ -117,18 +116,22 @@ system:
   advancement: []
   description:
     value: >-
-      <ul><li><p><strong>Name</strong>: Afterimage.</p></li><li><p><strong>SP
-      Cost:</strong> 80.</p></li><li><p><strong>Start SP:</strong>
-      40.</p></li><li><p><strong>Charging:</strong>
-      Automatic.</p></li><li><p><strong>Activation Cost:</strong> Bonus
-      Action.</p></li><li><p><strong>Effect:</strong> After you make an Attack,
-      you may repeat that Attack (no Action required); you must target the same
-      Creature, and if it hits, that Attack deals half Damage. These additional
-      Attacks cannot generate further Attacks. Additionally, if you have made an
-      Attack during your Turn while this Skill is Active, your AC is increased
-      by a value equal to your Proficiency Bonus until the beginning of your
-      next Turn.</p></li><li><p><strong>Duration:</strong> 3
-      Round.</p></li></ul><p><strong>Not Automated.</strong></p>
+      <ul><li><p><strong>Name</strong>: Eternal Hunt.</p></li><li><p><strong>SP
+      Cost:</strong> 65.</p></li><li><p><strong>Start SP:</strong>
+      30.</p></li><li><p><strong>Charging:</strong>
+      Automatic.</p></li><li><p><strong>Activation Cost: </strong>Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> You can only make one
+      Ranged Weapon Attack during each of your Turns. When you make a Ranged
+      Weapon Attack as part of the Attack Action, that Attack deals two
+      additional dice of Weapon Damage. Furthermore, after you make a Ranged
+      Weapon Attack under the effect of this Operator Skill. Creatures within 10
+      feet of the target you attacked must make a Dexterity Saving Throw against
+      your Martial DC. On a failed Save, they take Damage as if they had been
+      hit by the original Attack; however, this Damage is halved, and is
+      converted to Thunder Damage. On a successful Save, they take half of that
+      Damage. This Thunder Damage is doubled against
+      Structures.</p></li><li><p><strong>Duration:</strong> 3
+      Rounds.</p></li></ul><p><strong>Not Automated.</strong></p>
     chat: ''
   identifier: afterimage-wip
   source:
@@ -146,20 +149,20 @@ system:
     value: class
     subtype: ''
 effects:
-  - name: Wounding Blow (Skill Points)
-    img: modules/ak5e/icons/Skill-Rockrock2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.MqATemsDRm92DUPJ
+  - name: Fortcracker (Skill Points)
+    img: modules/ak5e/icons/64px-Skill-Toddifons2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.wZ4atsCZsGJmuUCA
     _id: DXFUOiWQeWl6gGq8
     type: base
     system: {}
     changes:
       - key: system.scale.skillPoints.recovery
-        mode: 5
-        value: '40'
+        mode: 4
+        value: '30'
         priority: 20
       - key: system.scale.skillPoints.maxsp
-        mode: 5
-        value: '80'
+        mode: 4
+        value: '65'
         priority: 20
     disabled: false
     duration:
@@ -190,23 +193,19 @@ effects:
       core:
         overlay: false
     _stats:
-      compendiumSource: >-
-        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+      compendiumSource: null
       duplicateSource: null
       exportSource: null
       coreVersion: '13.351'
       systemId: dnd5e
       systemVersion: 5.2.4
-      createdTime: 1768157107790
-      modifiedTime: 1768157193060
       lastModifiedBy: GiT7LQTiCJxjm7mo
-    _key: '!items.effects!MqATemsDRm92DUPJ.DXFUOiWQeWl6gGq8'
-sort: 0
-ownership:
-  default: 0
-  GiT7LQTiCJxjm7mo: 3
+      modifiedTime: 1768653437059
+    _key: '!items.effects!wZ4atsCZsGJmuUCA.DXFUOiWQeWl6gGq8'
 flags:
-  dnd5e: {}
+  dnd5e:
+    riders:
+      activity: []
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -214,7 +213,12 @@ _stats:
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
-  createdTime: 1767619501554
-  modifiedTime: 1768157373735
+  createdTime: 1768158074725
+  modifiedTime: 1768653879534
   lastModifiedBy: GiT7LQTiCJxjm7mo
-_key: '!items!MqATemsDRm92DUPJ'
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: wZ4atsCZsGJmuUCA
+sort: 250000
+_key: '!items!wZ4atsCZsGJmuUCA'

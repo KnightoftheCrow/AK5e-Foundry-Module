@@ -155,11 +155,11 @@ effects:
     system: {}
     changes:
       - key: system.scale.skillPoints.recovery
-        mode: 5
+        mode: 4
         value: '5'
         priority: 20
       - key: system.scale.skillPoints.maxsp
-        mode: 5
+        mode: 4
         value: '15'
         priority: 20
     disabled: false
@@ -199,7 +199,7 @@ effects:
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1768072773476
-      modifiedTime: 1768136345481
+      modifiedTime: 1768651400895
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!JTK6NErx8Kvw3vOu.e9FbYLL0sGXnn0sy'
   - name: Power Strike
