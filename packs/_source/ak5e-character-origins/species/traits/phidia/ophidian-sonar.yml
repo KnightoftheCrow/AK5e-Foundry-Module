@@ -1,0 +1,277 @@
+folder: dQdWqWAW0CkqPgiW
+name: Ophidian Sonar
+type: feat
+_id: xTCaK297EL7zunXZ
+img: icons/creatures/reptiles/serpent-horned-green.webp
+system:
+  activities:
+    bnBsWPAgFTQnK4NA:
+      type: utility
+      _id: bnBsWPAgFTQnK4NA
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: turn
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: uWGYVsQenigthhSa
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: radius
+          size: '100'
+          count: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Sonar Pulse
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Ophidian Sonar</h3><p>Like the Ophidians they represent, Phidia have
+      an extremely developed sensory system; it is unfair to say that they
+      simply have a good sense of hearing or smell, for the both are so
+      inherently intwined in a Phidia as to make no difference. When they are
+      paying close attention to their surroundings, you may see a Phidia with
+      their mouth slightly ajar, to better allow for smells and vibrations to
+      permeate through the biological sonar they possess. You gain the following
+      benefits:</p><p><strong>Sonar Pulse.</strong> As an Action, you can focus
+      completely on your hearing and smell at the exclusion of all else. If you
+      do so, you learn how many Creatures are within 100 feet of you; you learn
+      nothing of their intentions, affiliations or directions, but if they are
+      covered by a particularly strong scent (such as blood), you can detect
+      it.</p><p>However, when you use this Feature, you are considered to be
+      Blind until the beginning of your next
+      Turn.</p><p><strong>Tremorsense.</strong> You have 30 feet of
+      Tremorsense.</p><p><strong>Partially Automated. </strong>Places a template
+      so that the GM can easily see who is within the affected area.</p>
+    chat: ''
+  identifier: ophidian-sonar
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Tremorsense
+    img: icons/creatures/reptiles/serpent-horned-green.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.xTCaK297EL7zunXZ
+    _id: bZfKoGJPF64bnhHb
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.senses.tremorsense
+        mode: 2
+        value: '30'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!xTCaK297EL7zunXZ.bZfKoGJPF64bnhHb'
+  - name: Sonar Pulse
+    img: icons/creatures/reptiles/serpent-horned-green.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.xTCaK297EL7zunXZ
+    transfer: false
+    _id: uWGYVsQenigthhSa
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - blinded
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - turnStartSource
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!xTCaK297EL7zunXZ.uWGYVsQenigthhSa'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680318167
+  modifiedTime: 1768680318167
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!xTCaK297EL7zunXZ'

@@ -1,0 +1,125 @@
+folder: GIH5pkIjOQa8DIEb
+name: Pure Identity
+type: feat
+_id: AwNP1feiwFIIoGNh
+img: icons/creatures/mammals/deer-antlers-glowing-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Pure Identity</h3><p>Whatever else you may say about the Elafia, they
+      are fiercely individualistic, clinging to their desires, beliefs and goals
+      regardless of what may befall them. It would take a Catastrophe to sway
+      them from their course.</p><p>You are considered to be Proficient in any
+      Saving Throw to avoid or end the Charmed Condition or any other effect
+      that would force you to act against your will. If you are already
+      Proficient in that Saving Throw, your Proficiency Bonus is doubled for the
+      purpose of that Saving Throw.</p><p><strong>Partially Automated:
+      </strong>Will prompt you whenever you make a Wisdom or Charisma Saving
+      Throw.</p>
+    chat: ''
+  identifier: pure-identity
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Pure Identity
+    img: icons/creatures/mammals/deer-antlers-glowing-blue.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.AwNP1feiwFIIoGNh
+    _id: YQ60k9MJh4Nsd3gq
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.optional.pureIdentity.save.cha
+        mode: 2
+        value: '@prof'
+        priority: 20
+      - key: flags.midi-qol.optional.pureIdentity.save.wis
+        mode: 2
+        value: '@prof'
+        priority: 20
+      - key: flags.midi-qol.optional.pureIdentity.label
+        mode: 0
+        value: Bonus vs Charm or Control effects.
+        priority: 20
+      - key: flags.midi-qol.optional.NAME.count
+        mode: 5
+        value: every
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!AwNP1feiwFIIoGNh.YQ60k9MJh4Nsd3gq'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680302864
+  modifiedTime: 1768680302864
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!AwNP1feiwFIIoGNh'

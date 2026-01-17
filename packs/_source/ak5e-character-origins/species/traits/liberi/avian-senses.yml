@@ -1,0 +1,63 @@
+folder: h1ZaHqWXhgAO8OM0
+name: Avian Senses
+type: feat
+_id: KfDvRPHw7l01L6WO
+img: icons/creatures/birds/raptor-owl-flying-moon.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Avian Senses</h3><p>The Avian Characteristics of Liberi have provided
+      them with excellent hearing and eyesight, both for predation, and for
+      concealing themselves from predators. You gain the following
+      benefits:</p><p><strong>Nothing Beneath Notice.</strong> If you fail a
+      Wisdom (Perception) Check that relies upon hearing or sight, you may
+      reroll that Check with Advantage.</p><p><strong>Supreme Sight.</strong>
+      You can see into Lightly Obscured areas as if they were not Obscured, and
+      into Heavily Obscured areas as if they were Lightly
+      Obscured.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: avian-senses
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680310513
+  modifiedTime: 1768680310513
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!KfDvRPHw7l01L6WO'

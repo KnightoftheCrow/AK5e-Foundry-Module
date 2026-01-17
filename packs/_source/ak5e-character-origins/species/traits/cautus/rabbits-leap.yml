@@ -1,0 +1,61 @@
+folder: tTSngUvYypYCRMJg
+name: Rabbit's Leap
+type: feat
+_id: ncEQ4mpMenur6gzO
+img: icons/creatures/mammals/rabbit-movement-glowing-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Rabbit’s Leap</h3><p>The Leporid genes of the Cautus that have
+      empowered their bodies for speed have had other effects; tightly-banded,
+      densely-packed leg musculature ensures a better performance to mass ratio
+      than most others are capable of.</p><p>Your Jump Height, both for Long
+      Jumps and High Jumps, is doubled.</p><p><strong>No Automation
+      required.</strong></p>
+    chat: ''
+  identifier: Rabbits-Leap
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680297411
+  modifiedTime: 1768680297411
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!ncEQ4mpMenur6gzO'

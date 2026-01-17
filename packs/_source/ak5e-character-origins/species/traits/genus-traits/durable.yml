@@ -1,0 +1,106 @@
+folder: tuUu0wUIM3wCQLdR
+name: Durable
+type: feat
+img: icons/skills/wounds/anatomy-organ-heart-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your Hit Point maximum increases by an amount equal to your Level.
+      Whenever you gain a Level thereafter, your Hit Point maximum increases by
+      an additional Hit Point.</p>
+    chat: ''
+  identifier: av-durable
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Durable
+    img: icons/skills/wounds/anatomy-organ-heart-red.webp
+    origin: Item.LH8i2GuJ2NCY7ml4
+    _id: Y7448URnPurMwOYY
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.hp.bonuses.level
+        mode: 2
+        value: '1'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!UO0RZSeaAkW9AAvQ.Y7448URnPurMwOYY'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680525061
+  modifiedTime: 1768680525094
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: UO0RZSeaAkW9AAvQ
+sort: 200000
+_key: '!items!UO0RZSeaAkW9AAvQ'

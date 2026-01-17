@@ -1,0 +1,316 @@
+folder: Sx8mwtXKv0lozFr6
+name: To Mold Mud and Rock
+type: feat
+_id: LzZYNELTLdJ1hJ5H
+img: icons/magic/earth/projectile-moonrock-asteroid.webp
+system:
+  activities:
+    JO6ejc0ZfdWDaYEQ:
+      type: summon
+      _id: JO6ejc0ZfdWDaYEQ
+      sort: 0
+      activation:
+        type: minute
+        override: false
+        condition: ''
+        value: 10
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: hour
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      flags: {}
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: '@prof*10'
+        attackDamage: ''
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: false
+        disposition: true
+        proficiency: true
+        saves: false
+        ability: ''
+      profiles:
+        - uuid: Compendium.ak5e.ak5e-bestiary.Actor.niDFLjZT9tuHPYSR
+          _id: AHFNWPfpCdVyF7dY
+          level: {}
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      friendlySummon: false
+      name: Create Earthen Golem
+    v2if6HcnBqq3zqoq:
+      type: summon
+      sort: 0
+      activation:
+        type: minute
+        override: false
+        value: 10
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: hour
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      flags: {}
+      range:
+        units: touch
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 7
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: '@prof*15'
+        attackDamage: ''
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: false
+        disposition: true
+        proficiency: true
+        saves: false
+        ability: ''
+      profiles:
+        - uuid: Compendium.ak5e.ak5e-bestiary.Actor.oqgc55sHBP7zqsPh
+          _id: eqLJUov6zDnMio4Y
+          level: {}
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      friendlySummon: false
+      name: Create Earthen Colossus
+      _id: v2if6HcnBqq3zqoq
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <h3>To Mold Mud and Rock</h3><p>Once per Long Rest, over the course of a
+      ten minute ritual, you can create an
+      @UUID[Compendium.ak5e.ak5e-bestiary.Actor.niDFLjZT9tuHPYSR]{Earthen
+      Golem}. From 7th Level, you may summon a
+      @UUID[Compendium.ak5e.ak5e-bestiary.Actor.oqgc55sHBP7zqsPh]{Earthen
+      Colossus} instead. The Construct lasts for 1 hour, or until it reduced to
+      0 Hit Points, wherein it crumbles to dust.</p><p>In combat, the Earthen
+      Golem takes its Turn immediately after you, and is allied to you and your
+      allies. You can communicate with the Golem telepathically up to 1 mile,
+      and the Golem attempts to fulfil any order you give it. If you do not
+      issue any command, it will use its Turn to attempt to protect
+      you.</p><p><strong>Automated. </strong>However, the summons will have 1
+      additional Hit Point; this is just a relic of Foundry handling of
+      summons.</p>
+    chat: ''
+  identifier: to-mold-mud-and-rock
+  source:
+    revision: 1
+    rules: '2014'
+    book: AK5e
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680372929
+  modifiedTime: 1768680372929
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!LzZYNELTLdJ1hJ5H'

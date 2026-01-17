@@ -1,0 +1,72 @@
+folder: vi5HmKIcmhX4pzp6
+name: The Frozen North
+type: feat
+_id: arSJpZtSnZX4cWod
+img: icons/environment/wilderness/terrain-forest-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: S83GDyCTAJA3hROH
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - dr:cold
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <h3>The Frozen North</h3><p>The Ursi originate from snow-blasted wastes
+      and tundra with precious little to eat, even in favourable months. They
+      have had no choice but to adapt to that environment. You gain the
+      following benefits:</p><p><strong>Damage Resistance.</strong> You are
+      Resistant to Cold Damage.</p><p><strong>Hunger Resistance.</strong> You
+      can go three times as long as normal without food.</p>
+    chat: ''
+  identifier: frozen-north
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680535308
+  modifiedTime: 1768680535308
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!arSJpZtSnZX4cWod'

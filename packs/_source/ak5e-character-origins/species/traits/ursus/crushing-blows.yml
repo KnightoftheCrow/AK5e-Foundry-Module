@@ -1,0 +1,76 @@
+folder: vi5HmKIcmhX4pzp6
+name: Crushing Blows
+type: feat
+_id: wT8eFdglCGldsRtT
+img: icons/skills/melee/shield-damaged-broken-gold.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      _id: 5j7A4ZiSdmSlpgWE
+      configuration:
+        items:
+          - uuid: Item.8A2XPdYTRQXhWVBH
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <h3>Crushing Blows</h3><p>Despite not being the largest Species, the
+      physical strength of the Ursus is well documented, crushing some foes with
+      a single primal blow. You gain the following
+      benefits:</p><p><strong>Improved Unarmed Strikes</strong>. Your Unarmed
+      Strikes can deal Bludgeoning Damage equal to 1d4 + your Strength Modifier
+      on a hit.</p><p><strong>Proven Strength.</strong> When you roll to
+      determine the Damage of a Melee Attack, you may replace the result of one
+      of those die with your Strength Modifier. If your Strength Modifier is
+      higher than the maximum possible value on that die, instead treat it as if
+      you had rolled the maximum for that die.</p><p><strong>Not Automated.
+      </strong>Does add an Unarmed Strike Action with the correct Damage.
+      However, the Proven Strength aspect is not automated in any way.</p>
+    chat: ''
+  identifier: crushing-blows
+  source:
+    revision: 1
+    rules: '2014'
+    book: AK5e
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 400000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680535308
+  modifiedTime: 1768680535308
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!wT8eFdglCGldsRtT'

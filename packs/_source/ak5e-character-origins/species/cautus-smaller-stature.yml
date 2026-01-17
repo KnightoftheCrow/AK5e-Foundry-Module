@@ -1,0 +1,155 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Cautus (Smaller Stature)
+type: race
+img: icons/creatures/mammals/rabbit-movement-glowing-green.webp
+system:
+  advancement:
+    - type: Size
+      _id: 7S64MBalPrHUtT68
+      configuration:
+        sizes:
+          - sm
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - type: AbilityScoreImprovement
+      _id: KzQy2kNVXzyNmdIA
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 2
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - dex
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: f129HTfliLY71Knu
+      configuration:
+        items:
+          - uuid: Item.jgIA3fePwiDzzTHq
+            optional: false
+          - uuid: Item.SwEdZQO7hbBwru9u
+            optional: false
+          - uuid: Item.ncEQ4mpMenur6gzO
+            optional: false
+          - uuid: Item.547ctSSj45OJdK7B
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Cautus are leporid in nature, having the traits of rabbits and hares;
+      large ears, short fluffy tails, and generally short stature. They are
+      quick and nimble physically, and quick to mature and reproduce when
+      compared to many races on Terra. For many Cautus, the family unit is of
+      extreme importance to them; they often live communally, and work together
+      to construct large multi-generational dwellings. Even when family members
+      are away from the rest of their family, it is not uncommon for them to
+      receive support (whether material or otherwise) from their family at
+      home.</p><p>Many Cautus hail from Rim Billiton, a corporatocratic
+      conglomerate formed of many different mines and guilds banded together to
+      form a nation. These businesses are family owned and run, due in no small
+      part to the familial nature of the Cautuses that make up the majority of
+      the population.</p><h1>Cautus Traits</h1><p><strong>Creature
+      Type:</strong> You are Humanoid.</p><p><strong>Size:</strong> Cautus are
+      small, nimble and light, as befitting the creatures they represent; their
+      height typically falls between 4 and a half and 5 and a half feet on
+      average, weighing in at around 110 pounds. Your size is
+      Medium.</p><blockquote><p><strong>Variant: Smaller
+      Stature</strong></p><p>When you choose this species, you can choose for
+      your size to be Small. If you do, your base Walking Speed increases by
+      5ft, but you cannot wear equipment that isn’t made for someone of your
+      size.</p></blockquote><p><strong>Life Expectancy:</strong> Cautus reach
+      maturity earlier than other races, reaching adulthood between 12 and 16,
+      and living for around 60 years on average.</p><p><strong>Speed:</strong>
+      Your base Walking Speed is 30 feet.</p><p><strong>Ability Score
+      Improvement:</strong> Your Dexterity Score increases by 2, and two other
+      scores of your choice increase by 1.</p><h1>Cautus Features</h1><p>As a
+      Cautus, you gain the following benefits:</p><h3>Cautus Luck</h3><p>Is it
+      luck, base cunning, or a combination of the two? Regardless of the reason,
+      Cautus seem to have a knack for “landing on their feet”, even when they
+      have no business doing so.</p><p>When you roll a 1 on the d20 for an
+      Attack Roll, Ability Check, or Saving Throw, you can reroll the die and
+      must use the new roll.</p><h3>Move First or Move Never</h3><p>Cautus live
+      fast in many respects; many on Terra have them beat in terms of raw
+      strength or size. In order to match them, the Cautus simply have to be
+      faster off the mark, either to run; or to strike.</p><p>When you roll
+      Initiative, you may add twice your Dexterity Modifier rather than just
+      your Dexterity Modifier.</p><h3>Rabbit’s Leap</h3><p>The Leporid genes of
+      the Cautus that have empowered their bodies for speed have had other
+      effects; tightly-banded, densely-packed leg musculature ensures a better
+      performance to mass ratio than most others are capable of.</p><p>Your Jump
+      Height, both for Long Jumps and High Jumps, is doubled.</p><h3>Ancient
+      Versatility</h3><p>The Ancient Species seized the world of Terra from the
+      Teekaz, and have since spread all over its surface, to all its climes and
+      domains. As such, those of an Ancient Species possess a versatility not
+      seen in the Teekaz. Choose one from the following benefits when you select
+      this Species:</p><p><strong>Durable</strong>. Your Hit Point maximum
+      increases by an amount equal to your Level. Whenever you gain a Level
+      thereafter, your Hit Point maximum increases by an additional Hit
+      Point.</p><p><strong>Reliable.</strong> You gain Proficiency in one Skill
+      of your choice.</p><p><strong>Tenacious.</strong> You can add half of your
+      Proficiency Bonus (rounded down) to any Saving Throw you are not
+      Proficient in.</p>
+    chat: ''
+  identifier: cautus-species-small
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '35'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 106250
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: Item.kgN43RjiUygN1yBs
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680297411
+  modifiedTime: 1768680574345
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: vSBPwxlQlBGRPm4j
+_key: '!items!vSBPwxlQlBGRPm4j'

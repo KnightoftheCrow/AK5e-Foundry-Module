@@ -1,0 +1,231 @@
+folder: KuKYmZlgT6QfxYbI
+name: Until the Last Breath
+type: feat
+_id: RWATM7PYIAAUaCVz
+img: icons/skills/wounds/anatomy-organ-heart-red.webp
+system:
+  activities:
+    T5dRte9kMkm8Jnn2:
+      type: utility
+      _id: T5dRte9kMkm8Jnn2
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: rRZuQ7sturKrlzc5
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: never
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: ''
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <h3>Until the Last Breath</h3><p>Kuranta are skilled fighters; this is
+      something everybody knows. When you see their blinding speed and bravery,
+      it is easy to assume those are the only reasons. Under the skin, however,
+      the hidden engine of their power pulses hot; they don’t have to beat you,
+      just outlast you.</p><p>You may activate this Feature as a Bonus Action;
+      for the next minute you gain 1d6 + your Constitution Modifier (minimum of
+      1) Temporary Hit Points at the beginning of each of your Turns. Once you
+      have used this Feature, you may not do so again until you have completed a
+      Long Rest.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: until-the-last-breath
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Until the Last Breath
+    img: icons/skills/wounds/anatomy-organ-heart-red.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.RWATM7PYIAAUaCVz
+    transfer: false
+    _id: rRZuQ7sturKrlzc5
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.OverTime
+        mode: 5
+        value: |-
+          turn=start,
+          damageRoll=1d6+@abilities.con.mod,
+          damageType=temphp,
+          label=Until the Last Breath
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!RWATM7PYIAAUaCVz.rRZuQ7sturKrlzc5'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680307075
+  modifiedTime: 1768680307075
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!RWATM7PYIAAUaCVz'

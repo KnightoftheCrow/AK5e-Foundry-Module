@@ -1,0 +1,1205 @@
+folder: ypzzy8VbNlo7i18c
+name: Voice of Ruin
+type: feat
+_id: lCBBG0OI9YNQ9IOy
+img: icons/magic/sonic/scream-wail-shout-teal.webp
+system:
+  activities:
+    USEpM7oOMxluo4ef:
+      type: cast
+      sort: 100000
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Item.GVZrWxtUvwgYApeA
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      spell:
+        challenge:
+          override: false
+        properties:
+          - somatic
+          - material
+        spellbook: true
+        uuid: Compendium.ak5e.ak5e-arts.Item.ekwWi7h5Gyz1FipB
+        ability: ''
+        level: 1
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: never
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: ''
+      _id: USEpM7oOMxluo4ef
+    EGuFL17dp8dZ19mv:
+      type: cast
+      sort: 200000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Item.GVZrWxtUvwgYApeA
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 7
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      spell:
+        challenge:
+          override: false
+        properties:
+          - somatic
+          - material
+        spellbook: true
+        uuid: Compendium.ak5e.ak5e-arts.Item.Qwtl3zyqKFBSIoAd
+        ability: ''
+        level: 2
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: never
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: ''
+      _id: EGuFL17dp8dZ19mv
+    QcT6Yp9fUgd6DS3q:
+      type: cast
+      sort: 300000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Item.GVZrWxtUvwgYApeA
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 13
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      spell:
+        challenge:
+          override: false
+        properties:
+          - somatic
+          - material
+        spellbook: true
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBestowCurs
+        ability: ''
+        level: 3
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: never
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: ''
+      _id: QcT6Yp9fUgd6DS3q
+    faHaFWKWOl2rMRPc:
+      type: cast
+      sort: 500000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Item.GVZrWxtUvwgYApeA
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 19
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      spell:
+        challenge:
+          override: false
+        properties:
+          - somatic
+          - material
+        spellbook: true
+        uuid: Compendium.ak5e.ak5e-arts.Item.lRfOSq1LJPAijngD
+        ability: ''
+        level: 4
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: never
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: ''
+      _id: faHaFWKWOl2rMRPc
+    lbOlr0TU0OUgiYCb:
+      type: cast
+      sort: 250000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Item.GVZrWxtUvwgYApeA
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 7
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      spell:
+        challenge:
+          override: false
+        properties:
+          - somatic
+          - material
+        spellbook: true
+        uuid: Compendium.ak5e.ak5e-arts.Item.kDw2o9btNh42DVOI
+        ability: ''
+        level: 2
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: never
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: ''
+      _id: lbOlr0TU0OUgiYCb
+    PtPXwhsxcs2GNO39:
+      type: cast
+      sort: 300000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Item.GVZrWxtUvwgYApeA
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 13
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      spell:
+        challenge:
+          override: false
+        properties:
+          - somatic
+          - material
+        spellbook: true
+        uuid: Compendium.ak5e.ak5e-arts.Item.1oqQtvtRt7sski62
+        ability: ''
+        level: 3
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: never
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: ''
+      _id: PtPXwhsxcs2GNO39
+    xWn36H1c6GDKHxu9:
+      type: cast
+      sort: 300000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Item.GVZrWxtUvwgYApeA
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 13
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      spell:
+        challenge:
+          override: false
+        properties:
+          - somatic
+          - material
+        spellbook: true
+        uuid: Compendium.ak5e.ak5e-arts.Item.TyFjjFy8Z9fcV9QA
+        ability: ''
+        level: 3
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: never
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: ''
+      _id: xWn36H1c6GDKHxu9
+    ULmzwv0Q9ldsOlr9:
+      type: cast
+      sort: 300000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Item.GVZrWxtUvwgYApeA
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 13
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      spell:
+        challenge:
+          override: false
+        properties:
+          - somatic
+          - material
+        spellbook: true
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplRemoveCurs
+        ability: ''
+        level: 3
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: never
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: ''
+      _id: ULmzwv0Q9ldsOlr9
+    seRHkIh7nAB7vWyG:
+      type: cast
+      sort: 300000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Item.GVZrWxtUvwgYApeA
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 13
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      spell:
+        challenge:
+          override: false
+        properties:
+          - somatic
+          - material
+        spellbook: true
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithD
+        ability: ''
+        level: 3
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: never
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: ''
+      _id: seRHkIh7nAB7vWyG
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.ak5e.ak5e-arts.Item.ekwWi7h5Gyz1FipB
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
+      _id: YzCb5aBwMxT1uPUP
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-arts.Item.Qwtl3zyqKFBSIoAd
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.kDw2o9btNh42DVOI
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      title: ''
+      hint: ''
+      _id: puSuQultRVr8Kfws
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-arts.Item.lRfOSq1LJPAijngD
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 7
+      title: ''
+      hint: ''
+      _id: 5wEDjYPxvIplX5VK
+    - type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.ak5e.ak5e-arts.Item.ATpb9Ted3GPPjwPd
+          - optional: false
+            uuid: Compendium.ak5e.ak5e-arts.Item.LYYy8TAR37M05kWJ
+          - optional: false
+            uuid: Compendium.ak5e.ak5e-arts.Item.LG72kQqgLtd09aQn
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      title: ''
+      hint: ''
+      _id: 1wFNO1U1htJQc8So
+    - type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordF
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 13
+      title: ''
+      hint: ''
+      _id: UCLhgh6cgvLDuWfY
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordH
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordK
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 17
+      title: ''
+      hint: ''
+      _id: 3lrohK57WwzowN7T
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-arts.Item.KJCNwRWGIXbVBVLg
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.XVVNl8g0KbX9g7Nv
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 11
+      title: ''
+      hint: ''
+      _id: i8BYWv5DpcCeHTVN
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-arts.Item.X4a8gccUevej3Bub
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordS
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 15
+      title: ''
+      hint: ''
+      _id: V25xDdhr11kq0vwm
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBestowCurs
+            optional: false
+          - uuid: Item.1oqQtvtRt7sski62
+            optional: false
+          - uuid: Item.TyFjjFy8Z9fcV9QA
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplRemoveCurs
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithD
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      title: ''
+      hint: ''
+      _id: 5Vj9ikuHaCQomxtt
+  description:
+    value: >-
+      <h3>Voice of Ruin</h3><p>The Banshee of the Sarkaz are lethal and
+      beautiful in equal measure. Their voice can sooth hearts or stop them,
+      their song calm seas or crack walls.</p><p>You have access to the Banshee
+      Arts Pool; these are Sarkaz Arts. If you do not have the Ability to cast
+      Arts in another way, Charisma is your Arts Casting Ability for these Arts;
+      you do not need a weapon with the Casting Unit Property to cast these
+      Arts.</p><h4>Banshee Arts</h4><p>Banshee Arts, like many Sarkaz Arts, are
+      not so much Arts in the modern context as they are rituals. Rituals
+      require a goal, and most notably, a cost. How the Caster defines these
+      things is a crucial component in the end result. For Banshees, they
+      manifest their Arts through word and song; in other words, language. To a
+      Banshee, the power of language is in its rules and constraints; in fact
+      and definition, not interpretation and imagination. Through imposing these
+      limitations on language to themselves, they can pay the “cost” for their
+      Rituals in a way less mortal than other Sarkaz.</p><p>The end result of
+      this is that Banshee Arts simply cause things to happen; the limitations
+      imposed ensure that the intended result either happens, or it doesn’t.
+      There is no room for doubt in the words of a
+      Banshee.</p><table><thead><tr><td><p
+      style="text-align:center"><strong>Arts Level</strong></p></td><td><p
+      style="text-align:center"><strong>Arts</strong></p></td></tr></thead><tbody><tr><td><p>Cantrip</p></td><td><p>-</p></td></tr><tr><td><p>1st</p></td><td><p>Power
+      Word Push</p></td></tr><tr><td><p>2nd</p></td><td><p>Power Word Kneel,
+      Power Word Shield</p></td></tr><tr><td><p>3rd</p></td><td><p>Bestow Curse,
+      Power Word Bleed, Power Word Despair, Remove Curse, Speak with
+      Dead</p></td></tr><tr><td><p>4th</p></td><td><p>Power Word
+      Stupefy</p></td></tr><tr><td><p>5th</p></td><td><p>Altar of Weeping, Power
+      Word Aegis, Power Word
+      Succumb</p></td></tr><tr><td><p>6th</p></td><td><p>Power Word Forget,
+      Power Word Mute</p></td></tr><tr><td><p>7th</p></td><td><p>Power Word
+      Fortify, Power Word Pain</p></td></tr><tr><td><p>8th</p></td><td><p>Power
+      Word Stop, Power Word Stun</p></td></tr><tr><td><p>9th</p></td><td>Power
+      Word Heal, Power Word Kill</td></tr></tbody></table>
+    chat: ''
+  identifier: voice-of-ruin
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680339548
+  modifiedTime: 1768680339548
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!lCBBG0OI9YNQ9IOy'

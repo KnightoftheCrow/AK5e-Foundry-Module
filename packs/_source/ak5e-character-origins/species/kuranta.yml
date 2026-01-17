@@ -1,0 +1,151 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Kuranta
+type: race
+_id: atK9ScXHFeoNNut8
+img: icons/environment/creatures/horses.webp
+system:
+  advancement:
+    - type: Size
+      _id: H8FzzBUrs3h8wRys
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: AbilityScoreImprovement
+      _id: gZwJqxAcmViWyl0L
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 0
+          con: 2
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - con
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: 7Ta5ltwF5aY6Jz7p
+      configuration:
+        items:
+          - uuid: Item.JYUKDlTcrMUxNcrN
+            optional: false
+          - uuid: Item.8Z7sMZLdeBIExkmq
+            optional: false
+          - uuid: Item.RWATM7PYIAAUaCVz
+            optional: false
+          - uuid: Item.547ctSSj45OJdK7B
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Kuranta are fast and potent fighters, running down their foes in a blur
+      of speed and moving to the next without pause. Their strength and speed
+      come from the animals they inherit from; equines. Tall of stature, bearing
+      funnel-shaped ears and long-haired tails, they lack the raw strength of
+      Ursi or Forte, but none can match a Kuranta for stamina.</p><p>Most
+      Kuranta originate from Kazimierz; a land torn between traditionalist
+      feudal beliefs and modern capitalism. As such, many Kuranta subscribe to
+      one of these ideals, of the old honour, or the new progress. Of course,
+      some choose a different path; a middle path, or neither
+      path.</p><h1>Kuranta Traits</h1><p><strong>Creature Type:</strong> You are
+      a Humanoid.</p><p><strong>Size:</strong> Kuranta are marginally taller
+      than some other races, clocking in between 5 and a half and 6 feet on
+      average, but pack a lot of dense muscle into their frames; thus, they
+      weigh about 190 pounds on average. Their size is
+      Medium.</p><p><strong>Life Expectancy:</strong> Kuranta reach adulthood
+      around the age of 18, and have a life expectancy of around 80
+      years.</p><p><strong>Speed:</strong> Your base walking speed is 30
+      feet.</p><p><strong>Ability Score Improvement:</strong> Your Constitution
+      Score increases by 2, and two other scores of your choice increase by
+      1.</p><h1>Kuranta Features</h1><p>As a Kuranta, you gain the following
+      Features:</p><h3>Ever Onward</h3><p>No matter their destiny, no matter
+      their objective, no matter how hopeless; the Kuranta charge
+      onwards.</p><p>When you would be subjected to an effect that would
+      decrease your Speed or prevent you from moving, you may expend 1d8 Hit
+      Points as a Reaction to ignore that aspect of the effect. All other
+      aspects of the triggering effect (such as Damage dealt, and other
+      Conditions) are applied as normal.</p><h3>Run Them Down</h3><p>Kuranta are
+      naturally suited to battle by their stunning speed, opening up the
+      opportunities for those lightning fast clashes that make the Kuranta
+      Knights of Kazimierz so enthralling to watch.</p><p>You may take the Dash
+      Action as a Bonus Action; when you do so using this Feature, you lose 1d8
+      Hit Points.</p><h3>Until the Last Breath</h3><p>Kuranta are skilled
+      fighters; this is something everybody knows. When you see their blinding
+      speed and bravery, it is easy to assume those are the only reasons. Under
+      the skin, however, the hidden engine of their power pulses hot; they don’t
+      have to beat you, just outlast you.</p><p>You may activate this Feature as
+      a Bonus Action; for the next minute you gain 1d6 + your Constitution
+      Modifier (minimum of 1) Temporary Hit Points at the beginning of each of
+      your Turns. Once you have used this Feature, you may not do so again until
+      you have completed a Long Rest.</p><h3>Ancient Versatility</h3><p>The
+      Ancient Species seized the world of Terra from the Teekaz, and have since
+      spread all over its surface, to all its climes and domains. As such, those
+      of an Ancient Species possess a versatility not seen in the Teekaz. Choose
+      one from the following benefits when you select this
+      Species:</p><p><strong>Durable.</strong> Your Hit Point maximum increases
+      by an amount equal to your Level. Whenever you gain a Level thereafter,
+      your Hit Point maximum increases by an additional Hit
+      Point.</p><p><strong>Reliable.</strong> You gain Proficiency in one Skill
+      of your choice.</p><p><strong>Tenacious.</strong> You can add half of your
+      Proficiency Bonus (rounded down) to any Saving Throw you are not
+      Proficient in.</p><p></p>
+    chat: ''
+  identifier: kuranta-species
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 100782
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680307075
+  modifiedTime: 1768680590817
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!atK9ScXHFeoNNut8'

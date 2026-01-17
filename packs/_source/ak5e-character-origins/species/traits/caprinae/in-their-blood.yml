@@ -1,0 +1,142 @@
+folder: gx0h6lGFR5x8a8Lq
+name: In Their Blood
+type: feat
+_id: QQ6lJsL16UvfY9uq
+img: icons/magic/control/silhouette-hold-beam-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: E6rAIuPG6CZGdmC9
+      configuration:
+        allowDrops: true
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        pool: []
+        restriction:
+          list: []
+          level: '0'
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: innate
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+        type: spell
+      value:
+        added: {}
+        replaced: {}
+      title: Choose a Cantrip
+      hint: >-
+        You learn one Cantrip of your choice from a Standard Arts Pool; drop it
+        here.
+    - type: ItemChoice
+      configuration:
+        allowDrops: true
+        choices:
+          '7':
+            count: 1
+            replacement: false
+        pool: []
+        restriction:
+          list: []
+          level: '1'
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: innate
+          uses:
+            max: '1'
+            per: sr
+            requireSlot: false
+          prepared: 0
+        type: spell
+      value:
+        added: {}
+        replaced: {}
+      title: Choose a 1st Level Art
+      hint: >-
+        You learn a 1st Level Art from the same Arts Pool as the Cantrip you
+        gained from this Feature; drop it here.
+      _id: zBzv7oV47jgjqg5h
+    - type: Trait
+      _id: sByt7tX3S7pgBEed
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:arc
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <h3>In Their Blood</h3><p>Caprinae have a natural affinity for Arts; even
+      those who do not choose to pursue it have that might imprinted upon them
+      from birth. You gain the following benefits:</p><p><strong>Arts
+      Proficiency.</strong> You gain Proficiency in the Arts
+      Skill.</p><p><strong>Inherent Magic.</strong> Choose one of the Arts Pools
+      available to the Caster Class; you learn the Cantrips for that Arts Pool.
+      At 7th Level, you learn a 1st Level Art of your choice from the chosen
+      Arts Pool; this Art is always prepared, and once per Short Rest you may
+      cast it at 1st Level without expending any Arts
+      Points.</p><p>Intelligence, Wisdom, or Charisma is your Spellcasting
+      Ability for these Arts (choose when you gain this Feature). Additionally,
+      you do not require a weapon with the Casting Unit Property or Oripathy to
+      cast the Arts you gain through this
+      Feature.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: in-their-blood
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680294541
+  modifiedTime: 1768680294541
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!QQ6lJsL16UvfY9uq'

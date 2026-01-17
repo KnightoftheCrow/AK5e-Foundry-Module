@@ -1,0 +1,137 @@
+folder: 2qpkdtrtIRVh9vEa
+name: Odore di Sangue
+type: feat
+_id: UesJRtzSK9QmpcvN
+img: icons/creatures/mammals/wolf-shadow-black.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Odore di Sangue</h3><p>Lupi do not allow prey to escape easily; when
+      the scent of blood is in the air, they are at their most
+      vicious.</p><p>Once per Turn, when you would make an Attack on which you
+      have Advantage against a Creature with less than half of its maximum Hit
+      Points remaining, you can cause that Attack to deal 1d8 additional Damage
+      (no Action required).</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: odore-di-sangue
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Odore di Sangue
+    img: icons/creatures/mammals/wolf-shadow-black.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.UesJRtzSK9QmpcvN
+    _id: oCv9TTRKDepjAvhD
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.optional.odore.damage.mwak
+        mode: 0
+        value: 1d8
+        priority: 20
+      - key: flags.midi-qol.optional.odore.damage.msak
+        mode: 0
+        value: 1d8
+        priority: 20
+      - key: flags.midi-qol.optional.odore.damage.rwak
+        mode: 0
+        value: 1d8
+        priority: 20
+      - key: flags.midi-qol.optional.odore.damage.rsak
+        mode: 0
+        value: 1d8
+        priority: 20
+      - key: flags.midi-qol.optional.odore.count
+        mode: 0
+        value: each-turn
+        priority: 20
+      - key: flags.midi-qol.optional.odore.criticalDamage
+        mode: 0
+        value: 'true'
+        priority: 20
+      - key: flags.midi-qol.optional.odore.activation
+        mode: 0
+        value: target.attributes.hp.pct < 50 && workflow.advantage
+        priority: 20
+      - key: flags.midi-qol.optional.odore.label
+        mode: 0
+        value: Odore di Sangue - Bonus Damage
+        priority: 20
+    disabled: false
+    duration:
+      startTime: 840
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: 107
+      startTurn: 0
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Actor.j5qUpsgLWW6QtAFt.Item.165It27EOOLdhDv0.ActiveEffect.arib910mH1f5ykEQ
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!UesJRtzSK9QmpcvN.oCv9TTRKDepjAvhD'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680313150
+  modifiedTime: 1768680313150
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!UesJRtzSK9QmpcvN'

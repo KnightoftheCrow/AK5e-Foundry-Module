@@ -1,0 +1,125 @@
+folder: 8lDfV52AZG84jtdD
+name: Witchcraft Arts
+type: feat
+img: icons/magic/symbols/star-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      _id: W12tkZFVwpzpcNQ3
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBane000000
+          - optional: false
+            uuid: Compendium.ak5e.ak5e-arts.Item.subv958XI90ZVt76
+          - optional: false
+            uuid: Compendium.ak5e.ak5e-arts.Item.mweZm0F8OYVbY8aa
+          - optional: false
+            uuid: Compendium.ak5e.ak5e-arts.Item.7vRU2jRxD3MWmYw7
+          - optional: false
+            uuid: Compendium.ak5e.ak5e-arts.Item.YePZCywOf77mCdJA
+          - optional: false
+            uuid: Compendium.ak5e.ak5e-arts.Item.VyqUhxKj3kXlvkKp
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplLegendLore
+          - optional: false
+            uuid: Compendium.ak5e.ak5e-arts.Item.wBFiKcAZpP3zjGpf
+          - optional: false
+            uuid: Compendium.ak5e.ak5e-arts.Item.bmYsgYkSbU96lpFu
+        optional: false
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          method: innate
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>“Witchcraft” is, in actuality, a derogatory term for the unique Arts of
+      the Sarkaz. The official term is “Incantation”, but outside of scholars,
+      and those that deal in such incantations, Witchcraft is a more prevalent
+      term.</p><p>What divides Incantations from typical Arts is the
+      methodology. “Classical Arts”, as they are sometimes called, uses the
+      energy contained within Originium to manipulate energy in the world;
+      essentially allowing the Caster to impose their will on the world around
+      them. In contrast, Incantations do not rely on the energy of Originium,
+      but instead through defining both the “intention” of the Incantation and
+      “cost” that will be paid. The Caster of an Incantation defines these
+      things through their own understanding and conventional wisdom. As a
+      result, Incantations are highly ritualistic in nature, far more than
+      Classical Arts, as tradition and rules help define these costs and
+      intentions.</p><p>Because these Incantations do not require Originium in
+      the same way Classical Arts do, almost every Sarkaz has some limited
+      affinity with them. Most Sarkaz, however, will steer away from such
+      rituals without extreme cause. Just as the different Sarkaz clans have
+      penned meaning and cost to their own Incantations, millennia and suffering
+      has assigned its own cost to these unshackled Incantations, and it is a
+      heavy price to pay.</p><table><thead><tr><td><p
+      style="text-align:center"><strong>Arts Level</strong></p></td><td><p
+      style="text-align:center"><strong>Arts</strong></p></td></tr></thead><tbody><tr><td><p>Cantrip</p></td><td><p>-</p></td></tr><tr><td><p>1st</p></td><td><p>Bane,
+      Hex</p></td></tr><tr><td><p>2nd</p></td><td><p>Altar of Fealty, Altar of
+      Sacrifice, Borrowed
+      Knowledge</p></td></tr><tr><td><p>3rd</p></td><td><p>Altar of Fury, Altar
+      of Retribution</p></td></tr><tr><td><p>4th</p></td><td><p>Altar of
+      Craving</p></td></tr><tr><td><p>5th</p></td><td><p>Legend Lore, Skill
+      Empowerment</p></td></tr><tr><td><p>6th</p></td><td><p>-</p></td></tr><tr><td><p>7th</p></td><td><p>Altar
+      of
+      Hatred</p></td></tr><tr><td><p>8th</p></td><td><p>-</p></td></tr><tr><td><p>9th</p></td><td>Altar
+      of Ending</td></tr></tbody></table>
+    chat: ''
+  identifier: witchcraft-arts
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768059292675
+  modifiedTime: 1768059292740
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: yWdte17ohqJ2yHoy
+sort: 300000
+_key: '!items!yWdte17ohqJ2yHoy'

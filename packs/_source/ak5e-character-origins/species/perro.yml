@@ -1,0 +1,156 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Perro
+type: race
+_id: 42H68stlUTWh88eA
+img: icons/creatures/mammals/dog-husky-white-blue.webp
+system:
+  advancement:
+    - type: Size
+      _id: VcnuUKSDybGXViSR
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: AbilityScoreImprovement
+      _id: lh9ORkbzwQylNlic
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 0
+          con: 2
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - con
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: LpqKwyo9mZXFhKha
+      configuration:
+        items:
+          - uuid: Item.NcTRZhX7syfyuEX5
+            optional: false
+          - uuid: Item.KJ2DX1j5bcKlY3Hw
+            optional: false
+          - uuid: Item.k5kImoEjkIYokHn9
+            optional: false
+          - uuid: Item.547ctSSj45OJdK7B
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Perro are caniforms representing a huge spectrum of different canids
+      (notably excluding wolves and hyenas). A Perro’s traits can be seen most
+      prevalently in their ears and tails, of which there are countless
+      varieties, and less prevalently in their keen sense of smell and
+      demeanour. Like the animals from which they take their traits, Perro are
+      typically known for their positive attitudes, gregarious nature, and
+      irrepressible resolve; often willing to lend a hand, especially towards
+      friends and family. In Perro communities, individual families are often
+      seen as part of the wider “family” in the community, fostering a culture
+      of cooperation and loyalty to this new “family”.</p><p>Many Perro
+      originate from Bolivar, but neighbouring Columbia also has a significant
+      population. That said, Perro can really be found anywhere in some
+      capacity, and their penchant for community usually means you won’t have to
+      look far. This willingness to “get stuck in” as it were, alongside others,
+      means that Perro are often found on the borderlands of civilisation,
+      pushing forward with a smile.</p><h1>Perro Traits</h1><p><strong>Creature
+      Type:</strong> You are a Humanoid.</p><p><strong>Size:</strong> Perro are
+      typically between 5 and 6 feet in height, trending towards the bottom half
+      of that bracket. Thanks to their slightly smaller height, their average
+      weight is 130 pounds. Your size is Medium.</p><p><strong>Life
+      Expectancy:</strong> Perro reach adulthood around the age of 18, and have
+      a life expectancy of around 80 years.</p><p><strong>Speed:</strong> Your
+      base Walking Speed is 30 feet.</p><p><strong>Ability Score
+      Improvement:</strong> Your Constitution Score increases by 2, and two
+      other scores of your choice increase by 1.</p><h1>Perro Features</h1><p>As
+      a Perro, you gain the following Features:</p><h3>Can’t Keep Them
+      Down</h3><p>The Perro have been through a lot in the recent history of
+      Terra. Perhaps, if they were aught else, they would have broken under the
+      strain, but as the saying goes; you can’t keep a good dog down.</p><p>When
+      you roll a Hit Dice, if the natural result on the dice is less than half
+      the maximum possible result on that dice, that roll becomes equal to half
+      the maximum roll (I.E If your Hit Dice was 1d12, any natural roll of less
+      than a 6 would become a 6).</p><h3>Irrepressible</h3><p>The recent history
+      of the Perro is one of war and tragedy, yet their spirits remain unbroken.
+      Gregarious, perhaps to a fault, the Perro are personable and always
+      willing to lend a hand, even if they disguise this side of them under a
+      serious demeanour.</p><p>You may take the Help Action as a Bonus Action.
+      Starting at 7th Level, whenever you take the Help Action, your target
+      gains Temporary Hit Points equal to your Proficiency Bonus.</p><h3>Survive
+      and Adapt</h3><p>Perro can be found all over the world. If there is a
+      thread that ties these disparate people together, it is their ingenuity
+      and their will to survive.</p><p>When you take Damage from a hostile
+      Creature, you can use your Reaction to halve that Damage. Once you use
+      this Feature, you cannot use it again until you complete a Short or Long
+      Rest.</p><h3>Ancient Versatility</h3><p>The Ancient Species seized the
+      world of Terra from the Teekaz, and have since spread all over its
+      surface, to all its climes and domains. As such, those of an Ancient
+      Species possess a versatility not seen in the Teekaz. Choose one from the
+      following benefits when you select this
+      Species:</p><p><strong>Durable</strong>. Your Hit Point maximum increases
+      by an amount equal to your Level. Whenever you gain a Level thereafter,
+      your Hit Point maximum increases by an additional Hit
+      Point.</p><p><strong>Reliable.</strong> You gain Proficiency in one Skill
+      of your choice.</p><p><strong>Tenacious.</strong> You can add half of your
+      Proficiency Bonus (rounded down) to any Saving Throw you are not
+      Proficient in.</p>
+    chat: ''
+  identifier: perro-species
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 400000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680315690
+  modifiedTime: 1768680606277
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!42H68stlUTWh88eA'

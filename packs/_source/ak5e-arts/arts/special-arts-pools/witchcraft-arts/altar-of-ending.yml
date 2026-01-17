@@ -234,14 +234,14 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.1.2
   createdTime: 1758563363515
-  modifiedTime: 1758563363515
+  modifiedTime: 1768059292740
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: bmYsgYkSbU96lpFu
-sort: 0
+sort: 500000
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

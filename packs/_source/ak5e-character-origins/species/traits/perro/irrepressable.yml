@@ -1,0 +1,782 @@
+name: Irrepressable
+type: feat
+img: icons/skills/social/diplomacy-handshake-blue.webp
+system:
+  description:
+    value: >-
+      <h3>Irrepressible</h3><p>The recent history of the Perro is one of war and
+      tragedy, yet their spirits remain unbroken. Gregarious, perhaps to a
+      fault, the Perro are personable and always willing to lend a hand, even if
+      they disguise this side of them under a serious demeanour.</p><p>You may
+      take the Help Action as a Bonus Action. Starting at 7th Level, whenever
+      you take the Help Action targeting an allied Creature, or a Creature makes
+      an Attack with Advantage as a result of your Help Action, that Creature
+      gains Temporary Hit Points equal to your Proficiency
+      Bonus.</p><p><strong>Partially Automated: </strong>Provides the benefit of
+      the Help Action. From 7th Level, using the (Ability Checks) Activity on an
+      allied Creature will also grant them Temporary HP; for the (Distract
+      Enemy) version, you must manually apply the Temporary HP using the "Grant
+      Temp HP" activity.</p>
+    chat: ''
+  source:
+    custom: ''
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    license: ''
+  uses:
+    max: ''
+    spent: 0
+    recovery: []
+  type:
+    value: race
+    subtype: ''
+  requirements: ''
+  properties: []
+  prerequisites:
+    level: null
+    items: []
+    repeatable: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects:
+        - _id: lmeB5ExWLKD99Ixd
+          level:
+            min: null
+            max: null
+      range:
+        units: ft
+        special: ''
+        override: false
+        value: '5'
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: '1'
+          type: ally
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 100000
+      useConditionText: ''
+      effectConditionText: ''
+      useConditionReason: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        forceDamageDialog: ''
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: false
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: none
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        skipConcentrationCheck: false
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Help (Ability Checks)
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: 6
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+    WOkxy0i2GNtOsRLV:
+      type: heal
+      _id: WOkxy0i2GNtOsRLV
+      sort: 400000
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ally
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: 7
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      healing:
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@prof'
+        scaling:
+          number: 1
+        number: null
+        denomination: null
+        bonus: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: never
+        forceDamageDialog: never
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: Grant Temp HP
+    w8HlUmG4ue00LjpF:
+      type: utility
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects:
+        - _id: VA6xOgSWq03hyxqY
+          level: {}
+      range:
+        units: ft
+        special: ''
+        override: false
+        value: '5'
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: '1'
+          type: enemy
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 150000
+      useConditionText: ''
+      effectConditionText: ''
+      useConditionReason: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        forceDamageDialog: ''
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: false
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: none
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        skipConcentrationCheck: false
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Help (Distract Enemy)
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: 6
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      _id: w8HlUmG4ue00LjpF
+    9a5jurIXgB7BRBQ7:
+      type: utility
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects:
+        - _id: lmeB5ExWLKD99Ixd
+          level:
+            min: null
+            max: null
+      range:
+        units: ft
+        special: ''
+        override: false
+        value: '5'
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: '1'
+          type: ally
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 275000
+      useConditionText: ''
+      effectConditionText: ''
+      useConditionReason: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: irrepressable-temp-hp
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        forceDamageDialog: ''
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: false
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: none
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        skipConcentrationCheck: false
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Help (Ability Checks)
+      flags: {}
+      visibility:
+        level:
+          min: 7
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      _id: 9a5jurIXgB7BRBQ7
+    9gCuxhMiGDzSyWoh:
+      type: utility
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects:
+        - _id: VA6xOgSWq03hyxqY
+          level: {}
+      range:
+        units: ft
+        special: ''
+        override: false
+        value: '5'
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: '1'
+          type: enemy
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 337500
+      useConditionText: ''
+      effectConditionText: ''
+      useConditionReason: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        forceDamageDialog: ''
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: false
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: none
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        skipConcentrationCheck: false
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Help (Distract Enemy)
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: 6
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      _id: 9gCuxhMiGDzSyWoh
+  identifier: irrepressable
+  enchant: {}
+  advancement: []
+  crewed: false
+effects:
+  - name: Helped (Ability Checks)
+    img: icons/skills/social/diplomacy-handshake-blue.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.KJ2DX1j5bcKlY3Hw
+    transfer: false
+    _id: lmeB5ExWLKD99Ixd
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.advantage.ability.check.all
+        mode: 2
+        value: 'true'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - turnStartSource
+          - isCheck
+          - isSkill
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!KJ2DX1j5bcKlY3Hw.lmeB5ExWLKD99Ixd'
+  - name: Distracted
+    img: icons/skills/social/diplomacy-handshake-blue.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.KJ2DX1j5bcKlY3Hw
+    transfer: false
+    _id: VA6xOgSWq03hyxqY
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.grants.advantage.attack.all
+        mode: 5
+        value: 'true'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - isAttacked
+          - turnStartSource
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!KJ2DX1j5bcKlY3Hw.VA6xOgSWq03hyxqY'
+flags:
+  midi-qol:
+    effectActivation: false
+    onUseMacroName: ''
+    rollAttackPerTarget: default
+    itemCondition: ''
+    effectCondition: ''
+    AoETargetType: any
+    AoETargetTypeIncludeSelf: true
+    autoTarget: default
+    removeAttackDamageButtons: default
+    reactionCondition: ''
+    otherCondition: ''
+  midiProperties:
+    nodam: false
+    fulldam: false
+    halfdam: false
+    autoFailFriendly: false
+    autoSaveFriendly: false
+    rollOther: false
+    critOther: false
+    offHandWeapon: false
+    magicdam: false
+    magiceffect: false
+    concentration: false
+    toggleEffect: false
+    ignoreTotalCover: false
+    confirmTargets: default
+    noConcentrationCheck: false
+    idr: false
+    idi: false
+    idv: false
+    ida: false
+  core: {}
+  dnd5e:
+    last:
+      WOkxy0i2GNtOsRLV:
+        damageType:
+          '0': temphp
+    riders:
+      activity: []
+  tidy5e-sheet:
+    section: Actions
+  chris-premades: {}
+  ak5e:
+    trackingBar: false
+    barFirstColor: '#4361ee'
+    barSecondColor: '#4cc9f0'
+folder: 54BCDgKv4tHAoShi
+_stats:
+  compendiumSource: Actor.j5qUpsgLWW6QtAFt.Item.ucrJmp5TUQOdDbOb
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680315690
+  modifiedTime: 1768680315690
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: KJ2DX1j5bcKlY3Hw
+_key: '!items!KJ2DX1j5bcKlY3Hw'

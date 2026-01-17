@@ -1,4 +1,19 @@
 {
+  "name": "ak5e",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/KnightoftheCrow/AK5e-Foundry-Module#readme",
+  "bugs": {
+    "url": "https://github.com/KnightoftheCrow/AK5e-Foundry-Module/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KnightoftheCrow/AK5e-Foundry-Module.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "pack": "node ./utils/package.mjs pack",
     "unpack": "node ./utils/package.mjs unpack"

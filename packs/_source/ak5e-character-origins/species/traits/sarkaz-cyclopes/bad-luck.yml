@@ -1,0 +1,174 @@
+folder: iShcVeMKJDBY9WTy
+name: Bad Luck
+type: feat
+_id: QgwLjVeWD2BihZtP
+img: icons/magic/unholy/orb-hands-pink.webp
+system:
+  activities:
+    1uOixFDEMziLcsQR:
+      type: utility
+      _id: 1uOixFDEMziLcsQR
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: The Unlucky Number is...
+        formula: 1d20
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Roll to determine Unlucky Number
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: loseAll
+    max: '20'
+  advancement: []
+  description:
+    value: >-
+      <h3>Bad Luck</h3><p>The source of their power, the dead and damned,
+      ensures that no matter how noble their intentions, their prophecies will
+      often reflect poorly onto themselves, and those around them. For this
+      reason, many Cyclopes choose to live in isolation.</p><p>Your other
+      Species Features generate points of Bad Luck when used (consult those
+      Features to see how much they generate). When a point of Bad Luck is
+      generated, roll a d20 and record the result. Whenever you roll a d20 (not
+      including Death Saves), if the natural result on the dice is equal to a
+      number you have rolled for a point of Bad Luck, then that roll
+      automatically fails, regardless of the final score. That Bad Luck Point is
+      then removed.</p><p>If you roll the same number for multiple Bad Luck
+      points, only the first point applies. All points of Bad Luck are removed
+      whenever you finish a Long Rest.</p><p><strong>Partially Automated:
+      </strong>Features will increase your Bad Luck (the uses on this item), and
+      they are removed on a Long Rest. However, you use the Feature on this item
+      to determine which number is unlucky, and must account for that
+      manually.</p>
+    chat: ''
+  identifier: bad-luck
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680363097
+  modifiedTime: 1768680363097
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!QgwLjVeWD2BihZtP'

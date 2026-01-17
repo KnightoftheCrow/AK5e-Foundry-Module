@@ -1,0 +1,212 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Sarkaz Cyclopes
+type: race
+img: icons/magic/perception/third-eye-blue-red.webp
+system:
+  advancement:
+    - type: Size
+      _id: eJiFA5fdfqm2cPgd
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: AbilityScoreImprovement
+      _id: FySmLGV3IE7DMT5B
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 2
+          cha: 0
+        locked:
+          - wis
+        points: 1
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: Lm8yuD3q8CoG2zOL
+      configuration:
+        items:
+          - uuid: Item.ejgax1OwuL7CjBS2
+            optional: false
+          - uuid: Item.GVZrWxtUvwgYApeA
+            optional: false
+          - uuid: Item.nJUXt9ipJiL6Wu6l
+            optional: false
+          - uuid: Item.QgwLjVeWD2BihZtP
+            optional: false
+          - uuid: Item.bQOLio0HY5zBbV0R
+            optional: false
+          - uuid: Item.WjyyJ6wp70178Sar
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Towering over their sister Tribes amongst the Sarkaz, the Cyclopes have
+      not one eye but three, a third “sightless” eye situated in the centre of
+      their forehead. It is this eye which grants them the power they are most
+      known for; the gift, or curse, or prophecy. By tapping into the Nephesh,
+      the Cyclopes can divine the future, using the collective consciousness of
+      countless dead Sarkaz to calculate the correct conclusion. However,
+      Cyclopean prophesies are often tinged with tragedy, and unfortunately more
+      often than not are true, at least in that respect. The Nephesh is a place
+      driven by grief and rage, and anything drawn from it is similarly tainted.
+      To be a Cyclopes is to struggle against a sorrowful destiny, knowing that
+      it will come to pass.</p><p>The Cyclopes are extremely rarely seen; the
+      majority remaining have exiled themselves to the Sami Ice-fields to combat
+      the threat of the Collapsals they foresaw, fighting alongside the
+      Samifjod. Even aside from those, their foresight and tendency for tragedy
+      to befall them and those around them means that a majority live a hermit’s
+      lifestyle, in the caves and mountains of Terra. Occasionally, however, a
+      prophecy will move one so greatly as to bring them out of
+      isolation.</p><h1>Sarkaz Cyclopes Traits</h1><p><strong>Creature
+      Type:</strong> As the direct descendants of the Teekaz, you are a Fiend
+      (Humanoid).</p><p><strong>Size:</strong> As the Sarkaz are, in reality, a
+      collection of related subspecies joined under one heading, their physical
+      size and build can vary greatly. Generally speaking, however, they fall
+      between 5 feet and 6 and a half feet in height, and around 160 pounds in
+      weight. Male Sarkaz tend to be taller and heavier, but it is not a given.
+      Your size is Medium.</p><blockquote><p><strong>Variant: Giant
+      Stature</strong></p><p>You are notably taller than most other Sarkaz,
+      falling above 6 and a half feet in height, while many can be over seven
+      feet tall. Your size is Medium.</p><p>When you choose this species, you
+      can choose for your size to be Large. If you do, your Strength Score
+      increases by 1, but you cannot wear equipment that isn’t made for someone
+      of your size.</p></blockquote><p><strong>Life Expectancy:</strong> The
+      Sarkaz mature at the same rate as many other races, reaching adulthood
+      around 18, but have a vastly extended lifespan, able to live for many
+      centuries. Most, however, do not live this long; the life of the Sarkaz is
+      hard, fraught with peril, and Oripathy can shorten their lifespan
+      dramatically, as it does all others.</p><p><strong>Speed:</strong> Your
+      base Walking Speed is 30 feet.</p><p><strong>Ability Score
+      Improvement:</strong> Your Wisdom Score increases by 2, and one other
+      score of your choice increase by 1.</p><h1>Sarkaz Cyclopes
+      Features</h1><p>As a Sarkaz Cyclopes, you gain the following
+      Features:</p><h3>Nephesh</h3><p>All Sarkaz have an intrinsic, genetic
+      connection to the Sarkaz of the past and present. The memories of the
+      Sarkaz are embedded in their very genetics, allowing modern Sarkaz to
+      recall the events of centuries ago as if they were there, under the right
+      conditions. You gain the following benefits:</p><p><strong>Ancestral
+      Knowledge.</strong> Whenever you would make a Lore Check regarding the
+      history of the Sarkaz, or events that directly pertain to it, you are
+      treated as having Expertise in that skill. If you already have Expertise,
+      you make that Check at Advantage.</p><p><strong>Lifelink.</strong> When a
+      Sarkaz you know dies, you immediately become aware of it, though you learn
+      nothing about the circumstances.</p><h3>Witchcraft</h3><p>Sarkaz have a
+      tighter bond with Originum and the curse of Oripathy than other races, and
+      can wield it to destructive effect; both for themselves and their
+      foes.</p><p>You have access to the Witchcraft Arts Pool; these are Sarkaz
+      Arts. These Arts are always prepared. If you cannot cast Arts in another
+      way, Wisdom is your Spellcasting Ability for these Arts; you do not need a
+      weapon with the Casting Unit Property to cast these Arts.</p><p>Once per
+      Long Rest, you can cast a Sarkaz Art without expending any Arts Points.
+      The maximum level of Sarkaz Art you can cast in this way is controlled by
+      your Character Level. At 7th Level, you can cast Sarkaz Arts in this way
+      twice per Long Rest.</p><table><thead><tr><td><p
+      style="text-align:center"><strong>Character Level</strong></p></td><td><p
+      style="text-align:center"><strong>Maximum Arts
+      Level</strong></p></td></tr></thead><tbody><tr><td><p>1</p></td><td><p>1</p></td></tr><tr><td><p>2</p></td><td><p>1</p></td></tr><tr><td><p>3</p></td><td><p>1</p></td></tr><tr><td><p>4</p></td><td><p>1</p></td></tr><tr><td><p>5</p></td><td><p>1</p></td></tr><tr><td><p>6</p></td><td><p>1</p></td></tr><tr><td><p>7</p></td><td><p>2</p></td></tr><tr><td><p>8</p></td><td><p>2</p></td></tr><tr><td><p>9</p></td><td><p>2</p></td></tr><tr><td><p>10</p></td><td><p>2</p></td></tr><tr><td><p>11</p></td><td><p>2</p></td></tr><tr><td><p>12</p></td><td><p>2</p></td></tr><tr><td><p>13</p></td><td><p>2</p></td></tr><tr><td><p>14</p></td><td><p>3</p></td></tr><tr><td><p>15</p></td><td><p>3</p></td></tr><tr><td><p>16</p></td><td><p>3</p></td></tr><tr><td><p>17</p></td><td><p>3</p></td></tr><tr><td><p>18</p></td><td><p>3</p></td></tr><tr><td><p>19</p></td><td><p>4</p></td></tr><tr><td><p>20</p></td><td><p>4</p></td></tr></tbody></table><p></p><blockquote><p><strong>Bad
+      Luck</strong></p><p>The source of their power, the dead and damned,
+      ensures that no matter how noble their intentions, their prophecies will
+      often reflect poorly onto themselves, and those around them. For this
+      reason, many Cyclopes choose to live in isolation.</p><p>Your other
+      Species Features generate points of Bad Luck when used (consult those
+      Features to see how much they generate). When a point of Bad Luck is
+      generated, roll a d20 and record the result. Whenever you roll a d20 (not
+      including Death Saves), if the natural result on the dice is equal to a
+      number you have rolled for a point of Bad Luck, then that roll
+      automatically fails, regardless of the final score. That Bad Luck Point is
+      then removed.</p><p>If you roll the same number for multiple Bad Luck
+      points, only the first point applies. All points of Bad Luck are removed
+      whenever you finish a Long Rest.</p></blockquote><h3>Divine the
+      Spirits</h3><p>By inquiring into the Nephesh, the spirits of long dead
+      Sarkaz, a Cyclopes can seemingly divine the future. As the origin of these
+      predictions is itself tragic, however, such tends to invite bad luck upon
+      the Cyclopes.</p><p>By conducting a 10 minute ritual, you can commune with
+      the collective spirits of all the countless dead Sarkaz. For the next
+      minute, you can ask the spirits up to three questions. The spirits can
+      only give three possible answers to your question; “yes”, “no”, or they
+      can refuse to answer. They are capable of speculating about future events,
+      and are relatively up to date on current events as each dead Sarkaz adds
+      to their knowledge (For the sake of convenience, its safe to say that if
+      an event happened more than a week ago, they could know of it). However,
+      they will not know things which they could not have known in life, such as
+      well-kept secrets that do not concern the Sarkaz, or things no-one was
+      there to witness. Ultimately, what the spirits know is down to DM
+      discretion. They are not capable of directly lying to you, but their
+      information is always tainted with sorrow and rage, and they may attempt
+      to mislead you to satisfy vengeance or spite. After the time is up or you
+      have asked three questions, the ritual ends.</p><p>You can only use this
+      Feature once per Short Rest. Additionally, if you use this Feature, you
+      generate a point of Bad Luck.</p><h3>Precognitive</h3><p>The third eye of
+      the Cyclopes allows them to see not just into the distant future, but also
+      the immediate; a warning shout, a nudge, a grabbed collar to prevent a
+      fall; they act on reflex, based on the flashes their eye shows
+      them.</p><p>When a Creature you can see within 30ft of you makes a d20
+      Roll, as a Reaction you can either;</p><ul><li><p>Roll 1d6, and subtract
+      the amount rolled from the result of that Roll.</p></li><li><p>Roll 1d6,
+      and add the amount rolled to the result of that Roll.</p></li></ul><p>If
+      you do, you generate a point of Bad Luck. A Creature can only be affected
+      by this Feature once per Turn.</p><h3>Cling to the World</h3><p>The Teekaz
+      lost this world to the Ancients long ago, and yet they remain; stubbornly
+      clinging to their lives, and their place on Terra.</p><p>When you make a
+      Death Saving Throw, you may add your Proficiency Bonus to the result of
+      the roll.</p>
+    chat: ''
+  identifier: sarkaz-cyclopes-species
+  source:
+    revision: 1
+    rules: '2024'
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: fiend
+    custom: ''
+    subtype: Humanoid
+effects: []
+sort: 700000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: Item.JDo05rh0POS2j190
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680363097
+  modifiedTime: 1768680634611
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: nIb8KMYKqhlyobud
+_key: '!items!nIb8KMYKqhlyobud'

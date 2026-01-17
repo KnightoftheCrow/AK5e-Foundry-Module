@@ -1,0 +1,61 @@
+folder: zsvveZcxSAb55UEZ
+name: Wyvern's Might
+type: feat
+_id: RN7QR95qvS5xFHBM
+img: icons/creatures/reptiles/dragon-horned-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Wyvern’s Might</h3><p>Vouivre originate from harsh desert land with
+      harsher wildlife, and have adapted to survive in that environment. You
+      gain the following benefits:</p><p><strong>Earthmover.</strong> You count
+      as one size larger when determining your carrying capacity and the weight
+      you can push, drag, or lift.</p><p><strong>Survivalist.</strong> You can
+      go twice as long as normal without food or water.</p><p><strong>Does not
+      require automation.</strong></p>
+    chat: ''
+  identifier: wyverns-might
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680538261
+  modifiedTime: 1768680538261
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!RN7QR95qvS5xFHBM'

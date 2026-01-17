@@ -1,0 +1,136 @@
+folder: yiXty7I7KQYSFUc4
+name: Lawbringers
+type: feat
+_id: YVG3GfEuK7uT3eFU
+img: icons/skills/ranged/target-bullseye-arrow-white.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@prof'
+  advancement: []
+  description:
+    value: >-
+      <h3>Lawbringers</h3><p>The Sankta tend to prefer ranged combat, not out of
+      cowardice, but because that is where they can best apply their frightening
+      accuracy.</p><p>When you make an Attack Roll using a Weapon you are
+      Proficient with or as part of an Art, you may choose to double your
+      Proficiency Bonus for that Attack Roll.</p><p>You can use this Feature a
+      number of times equal to your Proficiency Bonus, regaining all expended
+      uses when you finish a Long Rest, and may only do so once per
+      Attack.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: lawbringers
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Lawbringers
+    img: icons/skills/ranged/target-bullseye-arrow-white.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.YVG3GfEuK7uT3eFU
+    _id: CI8Ad3E0McgsgrcY
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.optional.lawbringers.attack.rsak
+        mode: 2
+        value: '@prof'
+        priority: 20
+      - key: flags.midi-qol.optional.lawbringers.attack.rwak
+        mode: 2
+        value: '@prof'
+        priority: 20
+      - key: flags.midi-qol.optional.lawbringers.attack.msak
+        mode: 2
+        value: '@prof'
+        priority: 20
+      - key: flags.midi-qol.optional.lawbringers.attack.mwak
+        mode: 2
+        value: '@prof'
+        priority: 20
+      - key: flags.midi-qol.optional.lawbringers.label
+        mode: 0
+        value: Lawbringers - Attack Bonus
+        priority: 20
+      - key: flags.midi-qol.optional.lawbringers.count
+        mode: 0
+        value: every
+        priority: 20
+      - key: flags.midi-qol.optional.lawbringers.countAlt
+        mode: 0
+        value: ItemUses.exactNameMatch.Lawbringers
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!YVG3GfEuK7uT3eFU.CI8Ad3E0McgsgrcY'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680322247
+  modifiedTime: 1768680322247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!YVG3GfEuK7uT3eFU'

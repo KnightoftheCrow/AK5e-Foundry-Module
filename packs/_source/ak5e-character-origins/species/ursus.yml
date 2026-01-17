@@ -1,0 +1,164 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Ursus
+type: race
+_id: OcxukcsqJ7ErjxKU
+img: icons/creatures/abilities/bear-roar-bite-brown.webp
+system:
+  advancement:
+    - type: AbilityScoreImprovement
+      _id: oocKH4l7bU4bkoQr
+      configuration:
+        cap: 1
+        fixed:
+          str: 2
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - str
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: Size
+      _id: rxICqusEoVEUDE1K
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: ItemGrant
+      _id: Zt41211tBtzzQ5FC
+      configuration:
+        items:
+          - uuid: Item.TtgHIUxVhANgC74k
+            optional: false
+          - uuid: Item.wT8eFdglCGldsRtT
+            optional: false
+          - uuid: Item.arSJpZtSnZX4cWod
+            optional: false
+          - uuid: Item.547ctSSj45OJdK7B
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Ursi (Singular: Ursus) are the largest and most physically powerful of
+      all the caniform representatives amongst the Ancient Races, having the
+      traits of bears. This can be most clearly seen in their rounded ears,
+      short rounded tails, and the previously mentioned powerful build.
+      Originating from the frigid north, their resilience to these conditions
+      baffles people not from those climes, a fact that the Ursus typically lord
+      over the southerners. Ursus tend to emphasise their physical strength,
+      preferring work that allows them to best put it to use rather than more
+      learned pursuits. Of course, there are those who buck such trends,
+      preferring to use their brain rather than their muscles. Even amongst
+      those people, however, the strength of the Ursi is not something to be
+      ignored; the most bookish Ursus can throw a punch to put a prize fighter
+      to shame.</p><p>Most Ursi hail from the nation they gave their name to,
+      the Ursus Empire; a cold and hostile land that plays home to a cold and
+      hostile state; expansionist and militaristic. Ursi then, have a certain
+      reputation that precedes them, but they are not all grim-faced imperial
+      loyalists by any stretch of the imagination. Other populations of Ursus
+      can be found in lands more southerly than Ursus (but still geographically
+      northern) such as Yan, Kjerag, and Kazimierz.</p><h1>Ursus
+      Traits</h1><p><strong>Creature Type:</strong> You are a
+      Humanoid.</p><p><strong>Size:</strong> Ursi are on average between five
+      and six feet in height, trending towards the upper half of that range.
+      There is no difference in average height between males and females of the
+      race. Their dense musculature makes them heavier than others their size,
+      clocking in around 180 pounds on average. Your size is
+      Medium.</p><p><strong>Life Expectancy:</strong> Ursi reach adulthood
+      around the age of 18, and have a life expectancy of around 80
+      years.</p><p><strong>Speed:</strong> Your base Walking Speed is 30
+      feet.</p><p><strong>Ability Score Improvement:</strong> Your Strength
+      Score increases by 2, and two other scores of your choice increase by
+      1.</p><h1>Ursus Features</h1><p>As an Ursus, you gain the following
+      Features:</p><h3>Blood of Ursus</h3><p>Ursus is a grim place at the best
+      of times, and this has left its mark on its people; they are
+      stereotypically taciturn, and when they do joke, they are prone to gallows
+      humour or flippancy. Let none doubt their efficacy and resilience,
+      however; Ursi can grit their teeth and bear situations that would reduce
+      others to ruin.</p><p>During your Turn, you can end the Frightened
+      Condition on yourself as an Action.</p><h3>Crushing Blows</h3><p>Despite
+      not being the largest Species, the physical strength of the Ursus is well
+      documented, crushing some foes with a single primal blow. You gain the
+      following benefits:</p><p><strong>Improved Unarmed Strikes</strong>. Your
+      Unarmed Strikes can deal Bludgeoning Damage equal to 1d4 + your Strength
+      Modifier on a hit.</p><p><strong>Proven Strength.</strong> When you roll
+      to determine the Damage of a Melee Attack, you may replace the result of
+      one of those die with your Strength Modifier. If your Strength Modifier is
+      higher than the maximum possible value on that die, instead treat it as if
+      you had rolled the maximum for that die.</p><h3>The Frozen
+      North</h3><p>The Ursi originate from snow-blasted wastes and tundra with
+      precious little to eat, even in favourable months. They have had no choice
+      but to adapt to that environment. You gain the following
+      benefits:</p><p><strong>Damage Resistance.</strong> You are Resistant to
+      Cold Damage.</p><p><strong>Hunger Resistance.</strong> You can go three
+      times as long as normal without food.</p><h3>Ancient
+      Versatility</h3><p>The Ancient Species seized the world of Terra from the
+      Teekaz, and have since spread all over its surface, to all its climes and
+      domains. As such, those of an Ancient Species possess a versatility not
+      seen in the Teekaz. Choose one from the following benefits when you select
+      this Species:</p><p><strong>Durable</strong>. Your Hit Point maximum
+      increases by an amount equal to your Level. Whenever you gain a Level
+      thereafter, your Hit Point maximum increases by an additional Hit
+      Point.</p><p><strong>Reliable.</strong> You gain Proficiency in one Skill
+      of your choice.</p><p><strong>Tenacious.</strong> You can add half of your
+      Proficiency Bonus (rounded down) to any Saving Throw you are not
+      Proficient in.</p>
+    chat: ''
+  identifier: ursus-species
+  source:
+    revision: 1
+    rules: '2014'
+    book: AK5e
+    page: ''
+    custom: ''
+    license: ''
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 1100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680535308
+  modifiedTime: 1768680650062
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!OcxukcsqJ7ErjxKU'

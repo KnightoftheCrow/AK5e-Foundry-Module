@@ -1,0 +1,112 @@
+folder: jZPu5ZNms5zp54RS
+name: Prey Sense
+type: feat
+_id: sBmV7GGrGnroBAcL
+img: icons/magic/control/silhouette-grow-shrink-tan.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Prey Sense</h3><p>The Zalak have always been prey, not predator, and
+      they intrinsically know how best to conceal themselves.</p><p>When you
+      take the Hide Action, you can immediately use your Bonus Action to grant
+      yourself a +5 Bonus to that Dexterity (Stealth)
+      Check.</p><p><strong>Automated. </strong>You will be prompted when you
+      make a Stealth Check.</p>
+    chat: ''
+  identifier: prey-sense
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects:
+  - name: Prey Sense
+    img: icons/magic/control/silhouette-grow-shrink-tan.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.sBmV7GGrGnroBAcL
+    _id: Y12rS5jzkbtX6r4a
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.optional.preySense.skill.ste
+        mode: 2
+        value: '+5'
+        priority: 20
+      - key: flags.midi-qol.optional.preySense.count
+        mode: 0
+        value: bonusAction
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!sBmV7GGrGnroBAcL.Y12rS5jzkbtX6r4a'
+sort: 300000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.sBmV7GGrGnroBAcL
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680545138
+  modifiedTime: 1768680545138
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!sBmV7GGrGnroBAcL'

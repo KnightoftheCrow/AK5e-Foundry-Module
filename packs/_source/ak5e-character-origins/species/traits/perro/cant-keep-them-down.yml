@@ -1,0 +1,88 @@
+folder: 54BCDgKv4tHAoShi
+name: Can't Keep Them Down
+type: feat
+_id: NcTRZhX7syfyuEX5
+img: icons/skills/social/thumbsup-approval-like.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Can’t Keep Them Down</h3><p>The Perro have been through a lot in the
+      recent history of Terra. Perhaps, if they were aught else, they would have
+      broken under the strain, but as the saying goes; you can’t keep a good dog
+      down.</p><p>When you roll a Hit Dice, if the natural result on the dice is
+      less than half the maximum possible result on that dice, that roll becomes
+      equal to half the maximum roll (I.E If your Hit Dice was 1d12, any natural
+      roll of less than a 6 would become a 6).</p><p><strong>Can't be
+      Automated.</strong></p>
+    chat: ''
+  identifier: cant-keep-them-down
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 300000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+  dae:
+    macro:
+      name: Can't Keep Them Down
+      img: systems/dnd5e/icons/svg/items/feature.svg
+      type: script
+      scope: global
+      command: |-
+        Hooks.on('dnd5e.preRollHitDie', (config)=>{
+            const denom = config.denomination;
+            config.rolls[0].parts = [`1${denom}min${denom.split('d')[1]} + @abilities.con.mod`];
+        })
+      author: 9KtVYqHDTWORuJDZ
+      ownership:
+        default: 3
+      _id: null
+      folder: null
+      sort: 0
+      flags: {}
+      _stats:
+        coreVersion: '13.348'
+        systemId: dnd5e
+        systemVersion: 5.2.4
+        lastModifiedBy: null
+        compendiumSource: null
+        duplicateSource: null
+        exportSource: null
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680315690
+  modifiedTime: 1768680315690
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!NcTRZhX7syfyuEX5'

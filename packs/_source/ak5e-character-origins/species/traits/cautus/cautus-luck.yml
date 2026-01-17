@@ -1,0 +1,108 @@
+folder: tTSngUvYypYCRMJg
+name: Cautus Luck
+type: feat
+_id: jgIA3fePwiDzzTHq
+img: icons/magic/control/buff-luck-fortune-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Cautus Luck</h3><p>Is it luck, base cunning, or a combination of the
+      two? Regardless of the reason, Cautus seem to have a knack for “landing on
+      their feet”, even when they have no business doing so.</p><p>When you roll
+      a 1 on the d20 for an Attack Roll, Ability Check, or Saving Throw, you can
+      reroll the die and must use the new
+      roll.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: cautus-luck
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects:
+  - name: Cautus Luck
+    img: icons/magic/control/buff-luck-fortune-green.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.jgIA3fePwiDzzTHq
+    _id: zEVr0YhnUI4j2UYJ
+    type: base
+    system: {}
+    changes:
+      - key: flags.dnd5e.halflingLucky
+        mode: 2
+        value: 'true'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!jgIA3fePwiDzzTHq.zEVr0YhnUI4j2UYJ'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680297411
+  modifiedTime: 1768680297411
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!jgIA3fePwiDzzTHq'

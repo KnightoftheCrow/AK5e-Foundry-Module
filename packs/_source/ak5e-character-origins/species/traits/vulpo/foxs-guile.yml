@@ -1,0 +1,123 @@
+folder: 4V9Q0VG5s7MgLcvX
+name: Fox's Guile
+type: feat
+_id: rkxEBKmKKqD6OPQ1
+img: icons/skills/trades/academics-study-reading-book.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: ubPhRqMVQ1rCPBiR
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:inv
+        mode: upgrade
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <h3>Fox’s Guile</h3><p>Your finely tuned ears and nose allow you to
+      ascertain what is and isn’t real. You gain the following
+      benefits:</p><p><strong>Skill Expertise.</strong> You gain Proficiency in
+      the Investigation Skill. If you would gain Proficiency in that skill from
+      a non-Species Feature source, you instead gain Expertise in that
+      skill.</p><p><strong>Sniffer Dog.</strong> You have Advantage on any
+      Investigation check to see through illusions or
+      disguises.</p><p><strong>Automated. </strong>You will be prompted when you
+      make an Investigation check.</p>
+    chat: ''
+  identifier: foxs-guile
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects:
+  - name: Advantage to see through Illusions
+    img: icons/skills/trades/academics-study-reading-book.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.rkxEBKmKKqD6OPQ1
+    _id: M6HLCP9zdYVdfLbQ
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.advantage.skill.inv
+        mode: 0
+        value: confirm('Is this check to see through an illusion or disguise?')
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!rkxEBKmKKqD6OPQ1.M6HLCP9zdYVdfLbQ'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680541395
+  modifiedTime: 1768680541395
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!rkxEBKmKKqD6OPQ1'

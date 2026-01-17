@@ -1,0 +1,182 @@
+folder: 2qpkdtrtIRVh9vEa
+name: Zanne del Lupo
+type: feat
+_id: 5eiEiDLgHBFt6dmZ
+img: icons/creatures/mammals/wolf-howl-moon-black.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Zanne del Lupo</h3><p>A Lone Wolf is dangerous enough, but a pack of
+      wolves can tear even large threats to pieces.</p><p>Your first Attack you
+      make each Turn against a Creature is made at Advantage if that Creature is
+      within the Reach of at least one of your allies, and that ally is not
+      Incapacitated.</p><p>From 7th Level, all Attacks you make against a
+      Creature are made at Advantage if that Creature is within the Reach of at
+      least one of your allies, and that ally is not
+      Incapacitated.</p><p><strong>Automated: </strong>Your first Attack is
+      rolled twice, but this is not shown correctly in the chat. From 7th Level,
+      all your Attacks are rerolled.</p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects:
+  - name: Zanne del Lupo
+    img: icons/creatures/mammals/wolf-howl-moon-black.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.5eiEiDLgHBFt6dmZ
+    _id: A554LnjXNIVu1aB8
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.optional.zanne.attack.all
+        mode: 0
+        value: replace 2d20kh
+        priority: 20
+      - key: flags.midi-qol.optional.zanne.count
+        mode: 0
+        value: each-turn
+        priority: 20
+      - key: flags.midi-qol.optional.zanne.force
+        mode: 0
+        value: 'true'
+        priority: 20
+      - key: flags.midi-qol.optional.zanne.activation
+        mode: 0
+        value: findNearbyCount(-1, targetUuid, 5) >= 1
+        priority: 20
+    disabled: false
+    duration:
+      startTime: 858
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: 110
+      startTurn: 0
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Actor.j5qUpsgLWW6QtAFt.Item.WaCm1rpdVNHQDkUe.ActiveEffect.U3BSULyi6f3PQgjc
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!5eiEiDLgHBFt6dmZ.A554LnjXNIVu1aB8'
+  - name: Zanne del Lupo (Level 7+)
+    img: icons/creatures/mammals/wolf-howl-moon-black.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.5eiEiDLgHBFt6dmZ
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.optional.zanne.attack.all
+        mode: 0
+        value: replace 2d20kh
+        priority: 20
+      - key: flags.midi-qol.optional.zanne.count
+        mode: 0
+        value: every
+        priority: 20
+      - key: flags.midi-qol.optional.zanne.force
+        mode: 0
+        value: 'true'
+        priority: 20
+      - key: flags.midi-qol.optional.zanne.activation
+        mode: 0
+        value: findNearbyCount(-1, targetUuid, 5) >= 1 && details.level > 6
+        priority: 20
+    disabled: false
+    duration:
+      startTime: 858
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: 110
+      startTurn: 0
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Actor.j5qUpsgLWW6QtAFt.Item.WaCm1rpdVNHQDkUe.ActiveEffect.U3BSULyi6f3PQgjc
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: pEULtbsUAAVUNUpE
+    _key: '!items.effects!5eiEiDLgHBFt6dmZ.pEULtbsUAAVUNUpE'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680313150
+  modifiedTime: 1768680313150
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!5eiEiDLgHBFt6dmZ'

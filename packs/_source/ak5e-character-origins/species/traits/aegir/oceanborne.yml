@@ -1,0 +1,190 @@
+folder: lquHv1ovd9TbXUCY
+name: Oceanborne
+type: feat
+_id: ry89CLEPmkWmyH73
+img: icons/magic/water/orb-water-bubbles-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Oceanborne</h3><p>Aegir did not originally evolve under the water.
+      They are semi-aquatic, and originally lived on the land near sources of
+      water, before migrating en masse into the ocean for reasons unproven. They
+      have since evolved further in those conditions, gaining an affinity for
+      the water that is unmatched by other species.</p><p><strong>Blessing of
+      the Sea.</strong> You cannot contract Oripathy through mundane
+      means.</p><p><strong>Darkvision.</strong> You have 30 feet of
+      Darkvision.</p><p><strong>Duck and Dive.</strong> While you are swimming,
+      you have Advantage on Dexterity Saving Throws.</p><p><strong>Oxygenated
+      Blood.</strong> You can hold your breath for five times as long as
+      normal.</p><p></p><p><strong>Semi-Automated: </strong>You will be prompted
+      on whether you are swimming when you make a Dexterity Saving Throw; this
+      will provide Advantage if you choose "yes".</p>
+    chat: ''
+  identifier: oceanborne
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects:
+  - name: Darkvision
+    img: icons/magic/water/orb-water-bubbles-blue.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.ry89CLEPmkWmyH73
+    _id: KsFbnfUYoASQu4iZ
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.senses.darkvision
+        mode: 2
+        value: '30'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: 780
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: 97
+      startTurn: 0
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!ry89CLEPmkWmyH73.KsFbnfUYoASQu4iZ'
+  - name: Dexterity Save Advantage
+    img: icons/magic/water/orb-water-bubbles-blue.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.ry89CLEPmkWmyH73
+    _id: XpnNOU4w3xBxsFWS
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.advantage.ability.save.dex
+        mode: 5
+        value: confirm('(Oceanborne) Are you currently swimming ?')
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!ry89CLEPmkWmyH73.XpnNOU4w3xBxsFWS'
+sort: 50000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+  dae:
+    macro:
+      name: Oceanborne
+      img: icons/magic/water/orb-water-bubbles-blue.webp
+      type: script
+      scope: global
+      command: ''
+      author: 9KtVYqHDTWORuJDZ
+      ownership:
+        default: 3
+      _id: null
+      folder: null
+      sort: 0
+      flags: {}
+      _stats:
+        coreVersion: '13.348'
+        systemId: dnd5e
+        systemVersion: 5.2.3
+        lastModifiedBy: null
+        compendiumSource: null
+        duplicateSource: null
+        exportSource: null
+  ak5e:
+    trackingBar: false
+    barFirstColor: '#4361ee'
+    barSecondColor: '#4cc9f0'
+_stats:
+  compendiumSource: Item.8QG8Qa4ZQOeLgacM
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680286308
+  modifiedTime: 1768680286308
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!ry89CLEPmkWmyH73'

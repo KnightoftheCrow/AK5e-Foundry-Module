@@ -1,0 +1,126 @@
+folder: KwBV54ibG0i2c2cL
+name: Blood of the Swamp
+type: feat
+_id: 7IkZL0NBFK3LEPur
+img: icons/creatures/amphibians/frog-water-teal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: 9vl3IexpNJZgKn2D
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - dr:poison
+        mode: default
+      level: 0
+      title: Poison Resistance
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <h3>Blood of the Swamp</h3><p>The Anura are naturally toxic, and originate
+      from deep, dank swamps full of equally venomous creatures. They have
+      developed a strong resistance to all toxins. You gain the following
+      benefits:</p><p><strong>Legacy of Venom.</strong> You have Advantage on
+      Saving Throws you make to avoid or end the Poisoned Condition or the
+      effect of any Toxin.</p><p><strong>Poison Resistance.</strong> You have
+      Resistance to Poison Damage.</p><p><strong>Self-Toxin Immunity.</strong>
+      You are immune to the Damage and Effects of Toxins you produce using your
+      Toxin Glands Feature.</p><p></p><p><strong>Partially Automated:
+      </strong>Advantage on Saving Throws against Poison, and Poison Resistance
+      are automatic; immunity to your own Poison is not.</p>
+    chat: ''
+  identifier: Blood-of-the-Swamp
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Poisoned Condition Resistance
+    img: icons/creatures/amphibians/frog-water-teal.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.7IkZL0NBFK3LEPur
+    _id: cbpOizqbvX1EaHIQ
+    type: base
+    system: {}
+    changes:
+      - key: flags.chris-premades.CR.poisoned
+        mode: 5
+        value: 'true'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!7IkZL0NBFK3LEPur.cbpOizqbvX1EaHIQ'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680290139
+  modifiedTime: 1768680290139
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!7IkZL0NBFK3LEPur'

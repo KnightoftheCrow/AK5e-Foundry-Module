@@ -1,0 +1,171 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Aegir
+type: race
+_id: ZZiA36wILKz9XB9B
+img: icons/creatures/fish/fish-marlin-swordfight-blue.webp
+system:
+  advancement:
+    - type: Size
+      _id: JWFhMO6b6Qpj59pP
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: AbilityScoreImprovement
+      _id: hAbZbBXRTRUlOp71
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 2
+        locked:
+          - cha
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: sTBIRcasYW8bSwml
+      configuration:
+        items:
+          - uuid: Item.ry89CLEPmkWmyH73
+            optional: false
+          - uuid: Item.HsX3HDZSwSN2MbJz
+            optional: false
+          - uuid: Item.sh0R8KyrWYdQarX4
+            optional: false
+          - uuid: Item.547ctSSj45OJdK7B
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+      title: Species Features
+      hint: ''
+  description:
+    value: >-
+      <p>Aegir originate from the oceans beyond the land borders of Terra, and
+      have the traits of a wide variety of different sea creatures, including
+      fish, cetaceans, cephalopods, and crustaceans. Outside of the water, they
+      suffer from very dry skin, facing severe symptoms up to and including
+      seizures if they do not maintain their skin’s moisture semi-regularly.
+      Despite ostensibly hailing from the ocean and being excellent swimmers,
+      most Aegir cannot breathe underwater; the Aegir cities are gigantic
+      biodomes within the ocean.</p><p>While most Aegir live in the nation of
+      Aegir, some coastal regions such as Iberia and Higashi have notable Aegir
+      populations who dwell on land. Some of these are multi-generational, and
+      the current generation have never seen the cities of the Aegir, but others
+      are recent immigrants, leaving their homes for personal
+      reasons.</p><h2>Aegirian Traits</h2><p><strong>Creature Type:</strong> You
+      are a Humanoid (Aegir).</p><p><strong>Size:</strong> Aegir stand between 5
+      and 6 feet, and average 150 pounds. Your size is
+      Medium.</p><p><strong>Life Expectancy:</strong> The technology of Aegir
+      combined with the natural characteristics of the race has extended their
+      lifespan dramatically. Aegir reach adulthood around the age of 18, but
+      have an average lifespan of 150 years.</p><p><strong>Speed:</strong> Your
+      base Walking Speed is 30 feet. You have a Swimming Speed that is equal to
+      twice your Walking Speed.</p><p><strong>Ability Score
+      Improvement:</strong> Your Charisma Score increases by 2, and two other
+      Scores of your choice increase by 1.</p><h2>Aegirian Features</h2><p>As an
+      Aegir, you gain the following features:</p><h3>Oceanborne</h3><p>Aegir did
+      not originally evolve under the water. They are semi-aquatic, and
+      originally lived on the land near sources of water, before migrating en
+      masse into the ocean for reasons unproven. They have since evolved further
+      in those conditions, gaining an affinity for the water that is unmatched
+      by other species.</p><p><strong>Blessing of the Sea.</strong> You cannot
+      contract Oripathy through mundane
+      means.</p><p><strong>Darkvision.</strong> You have 30 feet of
+      Darkvision.</p><p><strong>Duck and Dive.</strong> While you are swimming,
+      you have Advantage on Dexterity Saving Throws.</p><p><strong>Oxygenated
+      Blood.</strong> You can hold your breath for five times as long as
+      normal.</p><h3>Ever the Student, Ever the Master</h3><p>As a Long Rest
+      Activity, you can choose a willing Creature and either become their
+      Student or their Teacher as a Long Rest Activity, gaining the
+      corresponding benefit below:. You can only have one Student or Teacher at
+      a time; choosing a new one immediately replaces the old
+      choice.</p><p><strong>Student</strong>. When you become a Creature’s
+      Student, they choose one Skill that they are Proficient in; while you
+      remain their Student, you are considered to be Proficient in that Skill.
+      If you already have Proficiency in the Skill, you are considered to have
+      Expertise instead.</p><p><strong>Teacher.</strong> When you become a
+      Creature’s Teacher, you choose one Skill that you are Proficient in; while
+      they remain your Student, they are considered to be Proficient in that
+      Skill. If you have Expertise in that Skill, they are considered to have
+      Expertise instead.</p><h3>Logic Engine</h3><p>As a Short Rest Activity,
+      you can analyse any weapon, armour, or toolkit you are not Proficient
+      with; you must remain in contact with the item for the entire duration,
+      testing and studying it. At the end of that Short Rest, you are considered
+      to be Proficient with that item. The maximum number of items you can have
+      Proficiency in as a result of this Feature is 1; if you gain Proficiency
+      in an item through this Feature while you are at your maximum number, you
+      lose Proficiency in the oldest item you are currently Proficient with as a
+      result of this Feature.</p><p>Starting at 7th level, the maximum number of
+      items you can have Proficiency in through this Feature is increased to
+      2.</p><h3>Ancient Versatility</h3><p>The Ancient Species seized the world
+      of Terra from the Teekaz, and have since spread all over its surface, to
+      all its climes and domains. As such, those of an Ancient Species possess a
+      versatility not seen in the Teekaz. Choose one from the following benefits
+      when you select this Species:</p><p><strong>Durable.</strong> Your Hit
+      Point maximum increases by an amount equal to your Level. Whenever you
+      gain a Level thereafter, your Hit Point maximum increases by an additional
+      Hit Point.</p><p><strong>Reliable.</strong> You gain Proficiency in one
+      Skill of your choice.</p><p><strong>Tenacious.</strong> You can add half
+      of your Proficiency Bonus (rounded down) to any Saving Throw you are not
+      Proficient in.</p>
+    chat: ''
+  identifier: aegir-species
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain:
+      - liquid
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: '60'
+  senses:
+    darkvision: 30
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680286308
+  modifiedTime: 1768680554848
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!ZZiA36wILKz9XB9B'

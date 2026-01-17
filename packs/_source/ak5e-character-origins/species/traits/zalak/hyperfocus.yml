@@ -1,0 +1,187 @@
+folder: jZPu5ZNms5zp54RS
+name: Hyperfocus
+type: feat
+img: icons/magic/perception/eye-tendrils-web-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <h3>Hyperfocus</h3><p>Zalak are difficult to catch off guard, but even
+      harder to pin down when they are the ones dictating the flow of action.
+      You gain the following benefits:</p><p><strong>Hair Trigger.</strong>
+      During your Turn:</p><ul><li><p>You have Advantage on Saving Throws
+      against effects you can see, or against traps</p></li><li><p>Any Attack
+      Roll made against you is made at
+      Disadvantage.</p></li></ul><p><strong>Spring-Loaded.</strong> When you
+      fail a Strength or Dexterity Saving Throw against an effect you can see,
+      you can reroll that Saving Throw, but must use the new result. If this
+      causes you to pass, and if you would take Half Damage as a result of
+      passing that Saving Throw, you instead take no Damage. Once you have used
+      this Feature, you cannot do so again until you have completed a Short
+      Rest.</p><p><strong>Partially Automated. </strong>No part of Hair Trigger
+      is automated. Spring-Loaded is automated.</p>
+    chat: ''
+  identifier: hyperfocus
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Hyperfocus
+    img: icons/magic/perception/eye-tendrils-web-purple.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.b4pwGXuFx1xZcSS1
+    _id: TuytzuMufirGTr3E
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.optional.hyperfocus.save.fail.dex
+        mode: 0
+        value: reroll
+        priority: 20
+      - key: flags.midi-qol.optional.hyperfocus.save.fail.str
+        mode: 0
+        value: reroll
+        priority: 20
+      - key: flags.midi-qol.optional.hyperfocus.count
+        mode: 0
+        value: ItemUses.identifier.hyperfocus
+        priority: 20
+      - key: flags.midi-qol.optional.hyperfocus.label
+        mode: 0
+        value: Hyperfocus- Reroll Saving Throw
+        priority: 20
+      - key: flags.midi-qol.optional.hyperfocus.macroToCall
+        mode: 0
+        value: ItemMacro
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!b4pwGXuFx1xZcSS1.TuytzuMufirGTr3E'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+  dae:
+    macro:
+      name: Hyperfocus
+      img: icons/magic/perception/eye-tendrils-web-purple.webp
+      type: script
+      scope: global
+      command: |-
+        const effectData = {
+          name: "No Damage on Save",
+          icon: "assets/icons/magic/perception/eye-tendrils-web-purple.webp",
+          changes: [
+            {
+              key: "flags.midi-qol.semiSuperSaver.all",
+              mode: 2,
+              value: `1`
+            }
+          ],
+          duration: 
+        {
+              startTime: null,
+              combat: null,
+              seconds: 1,
+              rounds: null,
+              turns: 1,
+              startRound: null,
+              startTurn: null
+        },
+          flags: {
+            dae: {
+              showIcon: true,
+              specialDuration: ["isDamaged"]
+            }
+          }
+        };
+
+        await actor.createEmbeddedDocuments("ActiveEffect", [effectData]);
+
+        return "reroll"
+      author: 9KtVYqHDTWORuJDZ
+      ownership:
+        default: 3
+      _id: null
+      folder: null
+      sort: 0
+      flags: {}
+      _stats:
+        coreVersion: '13.348'
+        systemId: dnd5e
+        systemVersion: 5.2.4
+        lastModifiedBy: null
+        compendiumSource: null
+        duplicateSource: null
+        exportSource: null
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-character-origins.Item.TvM8NNYod0FNLzkR
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680545138
+  modifiedTime: 1768680545138
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: b4pwGXuFx1xZcSS1
+sort: 200000
+_key: '!items!b4pwGXuFx1xZcSS1'

@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Species
+color: null
+sorting: a
+_id: xhxeMDVgdSwHD9Xw
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680263080
+  modifiedTime: 1768680263080
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!folders!xhxeMDVgdSwHD9Xw'

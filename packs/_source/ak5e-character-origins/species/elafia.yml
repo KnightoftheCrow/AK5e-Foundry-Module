@@ -1,0 +1,181 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Elafia
+type: race
+_id: 1HlPrysCFquM0O9O
+img: icons/creatures/mammals/deer-movement-leap-green.webp
+system:
+  advancement:
+    - type: Size
+      _id: t2fadyShhVsFhHgD
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: AbilityScoreImprovement
+      _id: 7mykpckVY9IZjGlf
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: Add 2 to one Score of your choice.
+    - type: AbilityScoreImprovement
+      _id: pt0YUwOBz1QQrMde
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: Add 1 to two scores of your choice, except the one you added 2 to.
+    - type: ItemGrant
+      _id: yQpe28fgZehMU3UH
+      configuration:
+        items:
+          - uuid: Item.2pGYhfScAwPMCRxr
+            optional: false
+          - uuid: Item.0XAAVW24ZRinoFkY
+            optional: false
+          - uuid: Item.AwNP1feiwFIIoGNh
+            optional: false
+          - uuid: Item.547ctSSj45OJdK7B
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Elafia are deer-folk, bearing large antlers and a tendency for
+      wanderlust. As befitting their status as wanderers, Elafians tend to have
+      a natural knack for learning, able to very quickly pick up new skills and
+      new jobs to serve themselves and others as they wander. Whether they
+      wander or not, Elafia tend to be fiercely individualistic, greatly
+      reluctant to rely upon anyone except themselves. For some, this can come
+      across as abrasive or unfriendly, while in others it manifests as a
+      distance between themselves and others. That is not to say they are
+      incapable of vulnerability, however.</p><p>As befitting their nature as
+      wanderers, Elafians can be found all over Terra. The largest population of
+      them, however, is found in icy Sami; anthropologists believe it might have
+      been their original homeland, in a time long passed.</p><h1>Elafian
+      Traits</h1><p><strong>Creature Type:</strong> You are
+      Humanoid.</p><p><strong>Size:</strong> Elafia are naturally tall, even
+      excluding their antlers, clocking in between 5 and a half and 6 and a half
+      feet in height. Despite their height, their physique is not ordinarily
+      notable, and thus they weigh around 170 pounds on average. Your size is
+      Medium.</p><p><strong>Life Expectancy:</strong> Elafia reach adulthood
+      around the age of 18, and have a life expectancy of around 80
+      years.</p><p><strong>Speed:</strong> Your base Walking Speed is 30
+      feet.</p><p><strong>Ability Score Improvement:</strong> One Score of your
+      choice increases by 2, and two other scores of your choice increase by
+      1.</p><h1>Elafian Features</h1><p>As an Elafia, you gain the following
+      Features:</p><h3>Jack-of-Trades</h3><p>Perhaps it comes from their Sami
+      ancestry, but Elafia are prone to wanderlust. It is useful then, that they
+      find it easy to learn new skills and adapt on the fly to wherever their
+      travels and travails take them.</p><p>You may add half of your Proficiency
+      Bonus (rounding up) to all Checks made for Skills you are not Proficient
+      in.</p><h3>Lock Horns</h3><p>In a more primitive past, the horns of the
+      Elafia were used for both defence and intraspecies competition. Thus, the
+      frontal bone and crown of the Elafian skull has been reinforced by thick
+      bone, to better facilitate this crashing and bashing. An Elafia can be
+      unarmed, but they are never defenceless.</p><p>You can use your horns, or
+      at least your rock-hard skull, to make an Unarmed Strike. You can use
+      Dexterity instead of Strength for the Attack and Damage Rolls. On hit,
+      they deal Bludgeoning Damage equal to 1d4 + Ability Modifier instead of
+      the normal Damage.</p><p>Additionally, if you hit a Creature no more than
+      one size larger than you with an Attack using your horns, that Creature
+      must make a Strength Saving Throw against your Martial DC. On a failed
+      save, you push that Creature 20 feet directly away from you. On a
+      successful save, you push them up to 10 feet away from you.</p><p>Once you
+      have attacked with your horns, you cannot do so again until the beginning
+      of your next Turn.</p><h3>Pure Identity</h3><p>Whatever else you may say
+      about the Elafia, they are fiercely individualistic, clinging to their
+      desires, beliefs and goals regardless of what may befall them. It would
+      take a Catastrophe to sway them from their course.</p><p>You are
+      considered to be Proficient in any Saving Throw to avoid or end the
+      Charmed Condition or any other effect that would force you to act against
+      your will. If you are already Proficient in that Saving Throw, your
+      Proficiency Bonus is doubled for the purpose of that Saving
+      Throw.</p><h3>Ancient Versatility</h3><p>The Ancient Species seized the
+      world of Terra from the Teekaz, and have since spread all over its
+      surface, to all its climes and domains. As such, those of an Ancient
+      Species possess a versatility not seen in the Teekaz. Choose one from the
+      following benefits when you select this
+      Species:</p><p><strong>Durable.</strong> Your Hit Point maximum increases
+      by an amount equal to your Level. Whenever you gain a Level thereafter,
+      your Hit Point maximum increases by an additional Hit
+      Point.</p><p><strong>Reliable</strong>. You gain Proficiency in one Skill
+      of your choice.</p><p><strong>Tenacious</strong>. You can add half of your
+      Proficiency Bonus (rounded down) to any Saving Throw you are not
+      Proficient in.</p>
+    chat: ''
+  identifier: elafia-species
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 103125
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680302864
+  modifiedTime: 1768680582646
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!1HlPrysCFquM0O9O'

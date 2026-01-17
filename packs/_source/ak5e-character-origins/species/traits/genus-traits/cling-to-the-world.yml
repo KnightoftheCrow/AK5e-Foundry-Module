@@ -1,0 +1,107 @@
+folder: tuUu0wUIM3wCQLdR
+name: Cling to the World
+type: feat
+img: icons/magic/unholy/hand-claw-glow-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Cling to the World</h3><p>The Teekaz lost this world to the Ancients
+      long ago, and yet they remain; stubbornly clinging to their lives, and
+      their place on Terra.</p><p>When you make a Death Saving Throw, you may
+      add your Proficiency Bonus to the result of the roll.</p>
+    chat: ''
+  identifier: Cling-to-the-World
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Death Saving Throw Bonus
+    img: icons/magic/unholy/hand-claw-glow-orange.webp
+    origin: Item.nJUXt9ipJiL6Wu6l
+    _id: l2XlrTqVBkZGhNqa
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.death.bonuses.save
+        mode: 2
+        value: '@prof'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!5iNk6VNE8AWCZBS7.l2XlrTqVBkZGhNqa'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680529883
+  modifiedTime: 1768680529917
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: 5iNk6VNE8AWCZBS7
+sort: 300000
+_key: '!items!5iNk6VNE8AWCZBS7'

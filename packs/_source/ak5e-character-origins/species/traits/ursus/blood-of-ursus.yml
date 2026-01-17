@@ -1,0 +1,185 @@
+folder: vi5HmKIcmhX4pzp6
+name: Blood of Ursus
+type: feat
+_id: TtgHIUxVhANgC74k
+img: icons/creatures/abilities/bear-roar-bite-brown-green.webp
+system:
+  activities:
+    65Z3Ey7NbKGFMF25:
+      type: utility
+      _id: 65Z3Ey7NbKGFMF25
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: End Frightened Condition
+        command: >-
+          let frightenedEffect = await
+          chrisPremades.utils.effectUtils.getEffectByStatusID(token.actor,
+          "frightened")
+
+          let originUUID = frightenedEffect.origin;
+
+          let removedParent = false;
+
+          if (originUUID) {
+              let parent = await fromUuid(originUUID);
+              if (parent?.documentName === "ActiveEffect") {
+                  const isConcentration = parent.name?.toLowerCase().startsWith("concentrating:") || (parent.statuses instanceof Set && parent.statuses.has("concentrating"));
+                  if (!isConcentration) {
+                      await chrisPremades.utils.genericUtils.remove(parent);
+                      removedParent = true;
+                  }
+              }
+          }
+
+          if (!removedParent) {
+              await chrisPremades.utils.genericUtils.remove(frightenedEffect);
+          }
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: End Frightened Condition
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Blood of Ursus</h3><p>Ursus is a grim place at the best of times, and
+      this has left its mark on its people; they are stereotypically taciturn,
+      and when they do joke, they are prone to gallows humour or flippancy. Let
+      none doubt their efficacy and resilience, however; Ursi can grit their
+      teeth and bear situations that would reduce others to ruin.</p><p>During
+      your Turn, you can end the Frightened Condition on yourself as an
+      Action.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: blood-of-ursus
+  source:
+    revision: 1
+    rules: '2014'
+    book: AK5e
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+  midi-qol:
+    onUseMacroName: '[postActiveEffects]ActivityMacro-65Z3Ey7NbKGFMF25'
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680535308
+  modifiedTime: 1768680535308
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!TtgHIUxVhANgC74k'

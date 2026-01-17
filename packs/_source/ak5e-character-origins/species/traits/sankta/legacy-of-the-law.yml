@@ -1,0 +1,100 @@
+folder: yiXty7I7KQYSFUc4
+name: Legacy of the Law
+type: feat
+_id: sYu0VrMVVOEAhYut
+img: icons/skills/ranged/rifle-scoped-gray-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: d4cyX4SnlTg71jqT
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:ltr:handgun
+          - weapon:hvr:machinegun
+          - weapon:hvr:rifle
+          - weapon:hvr:shotgun
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - type: ItemChoice
+      _id: BRO2jbi8mXGwIHqh
+      configuration:
+        allowDrops: false
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-items.Item.GUk1cU5RDuYL3OOj
+          - uuid: Compendium.ak5e.ak5e-items.Item.83TFCWS78pu6wFbu
+          - uuid: Compendium.ak5e.ak5e-items.Item.IRMIzg2gLDqpCi2W
+          - uuid: Compendium.ak5e.ak5e-items.Item.xtQm4gHdpMpPG44x
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: Choose your Patron Firearm
+      hint: ''
+  description:
+    value: >-
+      <h3>Legacy of the Law</h3><p>Firearms are a major feature of Lateran
+      faith, and the Sankta are the best at using them, skilled as they are in
+      fine and precise application of Arts.</p><p>You are Proficient in all
+      Weapons that have the Firearm Property. You gain a Patron Firearm version
+      of one of those Weapons as Starting Equipment (your choice). When wielded
+      by a Fallen Sankta, or a non-Sankta, Attacks made with that Patron Firearm
+      are made at Disadvantage.</p><p>If you become a Fallen Sankta, you
+      maintain your Proficiency with Firearms, but you have Disadvantage when
+      using your Patron Firearm.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: legacy-of-the-law
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680322247
+  modifiedTime: 1768680322247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!sYu0VrMVVOEAhYut'

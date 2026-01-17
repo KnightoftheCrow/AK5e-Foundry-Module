@@ -1,0 +1,80 @@
+folder: 2qpkdtrtIRVh9vEa
+name: La Forza del Lupo
+type: feat
+_id: fUWo3BQ2GNdduEln
+img: icons/skills/melee/swords-triple-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: MuXoRRsiQVRmh9UG
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - skills:acr
+              - skills:ath
+        grants: []
+        mode: upgrade
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <h3>La Forza del Lupo</h3><p>The Lupo are hunters, through and through;
+      battle and danger runs in their blood like magma, due in part to the
+      influence of the Beast Lords upon their society. In and out of combat, the
+      way Lupi move is hard to replicate.</p><p>Choose either Strength
+      (Athletics) or Dexterity (Acrobatics). You gain Proficiency in the chosen
+      skill. If you would gain Proficiency in that skill from a non-Species
+      Feature source, you instead gain Expertise in that
+      Skill.</p><p><strong>Partially Automated: </strong>This Feature will grant
+      you Expertise in the chosen skill if you already have Proficiency in it,
+      but will not grant you the expertise if you would later gain it.</p>
+    chat: ''
+  identifier: La-Forza-del-Lupo
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680313150
+  modifiedTime: 1768680313150
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!fUWo3BQ2GNdduEln'

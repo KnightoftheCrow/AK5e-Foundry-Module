@@ -1,0 +1,120 @@
+folder: jZPu5ZNms5zp54RS
+name: Nervous Disposition
+type: feat
+_id: 6dJdhtaGclkpREVA
+img: icons/magic/perception/silhouette-stealth-shadow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: NtDTyUogENSNeqPh
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - ci:surprised
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <h3>Nervous Disposition</h3><p>The alert nature of the Zalak is well
+      documented. Their senses perpetually scan for threats, practically
+      autonomously, granting them awareness others can only dream of. You gain
+      the following benefits:</p><p><strong>Avoidant.</strong> You cannot be
+      Surprised while you are not Incapacitated.</p><p><strong>Aware.</strong>
+      You have a +5 bonus to your passive Wisdom (Perception) score.</p>
+    chat: ''
+  identifier: nervous-disposition
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: +5 Passive Perception
+    img: icons/magic/perception/silhouette-stealth-shadow.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.6dJdhtaGclkpREVA
+    _id: dRfAeViTYGMoqK86
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.prc.bonuses.passive
+        mode: 2
+        value: '+5'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!6dJdhtaGclkpREVA.dRfAeViTYGMoqK86'
+sort: 100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.6dJdhtaGclkpREVA
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680545138
+  modifiedTime: 1768680545138
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!6dJdhtaGclkpREVA'

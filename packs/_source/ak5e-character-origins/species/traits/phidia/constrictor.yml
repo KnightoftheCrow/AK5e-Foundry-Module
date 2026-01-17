@@ -1,0 +1,221 @@
+folder: dQdWqWAW0CkqPgiW
+name: Constrictor
+type: feat
+_id: tqT0oEayOKdjlppp
+img: icons/creatures/reptiles/snake-poised-white.webp
+system:
+  activities:
+    yBKZbUMxbshqXO6o:
+      type: utility
+      _id: yBKZbUMxbshqXO6o
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: perm
+        concentration: false
+        override: false
+      effects:
+        - _id: id7Ponulc5PvH42p
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: true
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Toggle Dexterity Athletics
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Constrictor</h3><p>The thin tail of a Phidia is not built for striking
+      in the way of their Archosaurian cousins. The lean muscle of a Phidian
+      tail is bent to the task of grasping and constricting, almost
+      approximating a prehensile limb. You gain the following
+      benefits:</p><p><strong>Prehensile.</strong> During each of your Turns,
+      you can interact with two objects without having to use your Action, as
+      opposed to one.</p><p><strong>Python Strike.</strong> When you take the
+      Grapple Action, you can do so using your tail and thus not requiring a
+      free hand. When you make a Athletics Check to initiate a Grapple in this
+      way, or prevent a Creature grappled by your tail from escaping, you may
+      use your Dexterity Bonus instead of Strength.</p><p><strong>Partially
+      Automated: </strong>Use the "Toggle Dexterity Athletics" Activity to
+      toggle your Athletics using your Dexterity Bonus. Remember to toggle this
+      off outside of Grappling!</p>
+    chat: ''
+  identifier: constrictor
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Athletics Override
+    img: icons/creatures/reptiles/snake-poised-white.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.tqT0oEayOKdjlppp
+    _id: id7Ponulc5PvH42p
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.ath.ability
+        mode: 5
+        value: dex
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!tqT0oEayOKdjlppp.id7Ponulc5PvH42p'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680318167
+  modifiedTime: 1768680318167
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!tqT0oEayOKdjlppp'

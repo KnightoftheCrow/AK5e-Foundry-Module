@@ -1,0 +1,184 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Archosauria
+type: race
+_id: DZmJ1C9RZBIvfjVu
+img: icons/creatures/reptiles/lizard-iguana-green.webp
+system:
+  advancement:
+    - type: Size
+      _id: hMRHByYHIoitZz4u
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: AbilityScoreImprovement
+      _id: fnO39Dk3Hbf46212
+      configuration:
+        cap: 1
+        fixed:
+          str: 2
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - str
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: 1zaNoJb9xOrZ5O5N
+      configuration:
+        items:
+          - uuid: Item.nnPKwchr3Zd18zjc
+            optional: false
+          - uuid: Item.zHmRSyDmMwy4DuFE
+            optional: false
+          - uuid: Item.547ctSSj45OJdK7B
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+    - type: ItemChoice
+      _id: kAbzUUH4V4pg44zF
+      configuration:
+        allowDrops: false
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Item.jKV15tzBnL2sDuy7
+          - uuid: Item.171nWZExUlxaAfSH
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: Choose Thick or Thin Tail
+      hint: Thick Tails scale with Strength; Thin Tails with Dexterity.
+  description:
+    value: >-
+      <p>With long, armour-scaled tails, scales found elsewhere upon their body,
+      and their long, pointed ears, the Archosaurians cast a unique silhouette.
+      The animals they inherit from are crocodilians, complete with their
+      strength and endurance. They are not just physically imposing, but also
+      socially; Archosaurians often have “larger than life” personalities, and
+      are quick to jump to casual violence and competition. They do not
+      typically do this out of malice, however, as even these fights are
+      friendly; though they will not look that way to outsiders, and certainly
+      not to any non-Archosaurs who are involved.</p><p>Archosaurians also have
+      a large degree of sexual dimorphism present in their race, with males
+      being much more scaled and anthropomorphic than their female counterparts.
+      They primarily hail from the tribes of Acahualla, in Sargon, where the
+      culture emphasises strength and skill as virtues; that is not to say they
+      look down upon intellectual pursuits, though they often pursue them for
+      the sake of martial benefit.</p><p>While not the most common Species on
+      Terra, Archosauria can be found en masse in the rainforests of Sargon,
+      especially in the region known as Acahualla. Their insular, tribal society
+      means that it is rare (but not unheard of) for an Acahuallan to venture
+      forth from the forests, but this is becoming more common as the world
+      continues to advance, and the Acahuallans are drawn into the modern
+      world.</p><h1>Archosaurian Traits</h1><p><strong>Creature Type:</strong>
+      You are a Humanoid.</p><p><strong>Size:</strong> Archosaurians tend to be
+      quite short in stature, falling between five and five and a half feet,
+      typically. Their size belies their strength, however, and heavy tails mean
+      they are deceptively heavy, at around 170 pounds. Your size is
+      Medium.</p><p><strong>Life Expectancy:</strong> Archosauria reach
+      adulthood around the age of 18, and have a life expectancy of around 80
+      years.</p><p><strong>Speed:</strong> Your base Walking Speed is 30
+      feet.</p><p><strong>Ability Score Improvement:</strong> Your Strength
+      Score increases by 2, and two other scores of your choice increase by
+      1.</p><h1>Archosaurian Features</h1><p>As an Archosauria, you gain the
+      following Features:</p><h3>Exult in Violence</h3><p>Archosaurians have a
+      very cavalier attitude to violence, with it often forming a casual part of
+      their life. As such, they are more used to being on the receiving end of
+      blows than they perhaps should be.</p><p>When you are hit by an Attack,
+      you may use your Reaction to gain Temporary Hit Points equal to 1d6 + your
+      Constitution Modifier (minimum of 1).</p><p>You can use this Feature a
+      number of times equal to your Proficiency Bonus, regaining all expended
+      uses when you complete a Long Rest.</p><h3>Reckless</h3><p>Archosaurians
+      tend towards loud, bombastic personalities and an exaltation of strength
+      and violence. They are not bloodthirsty, but they will dive into a fight
+      with unconcealed relish to swing their fists.</p><p>Whenever a Creature
+      within your Reach is reduced to 0 Hit Points, you may use your Reaction to
+      move up to half your Speed towards a hostile Creature you can
+      see.</p><h3>Tail Strike</h3><p>Archosaurians continue to argue whether it
+      is better to have a thick tail or a thin tail; regardless, it is an
+      effective weapon.</p><p>When you select this Species, choose either a
+      Thick Tail or a Thin Tail. Both options allow you to use your tail to make
+      Unarmed Strikes, which deals 1d6 + your Ability Modifier in Bludgeoning
+      Damage, instead of the normal Bludgeoning Damage for an Unarmed
+      Strike.</p><ul><li><p>If you choose a Thick Tail, these Tail Strikes use
+      your Strength Bonus for the Attack and Damage rolls.</p></li><li><p>If you
+      choose a Thin Tail, they instead use your Dexterity Bonus for the Attack
+      and Damage rolls.</p></li></ul><p>From 7th Level, you may make an Unarmed
+      Strike using your tail as a Bonus Action.</p><h3>Ancient
+      Versatility</h3><p>The Ancient Species seized the world of Terra from the
+      Teekaz, and have since spread all over its surface, to all its climes and
+      domains. As such, those of an Ancient Species possess a versatility not
+      seen in the Teekaz. Choose one from the following benefits when you select
+      this Species:</p><p><strong>Durable.</strong> Your Hit Point maximum
+      increases by an amount equal to your Level. Whenever you gain a Level
+      thereafter, your Hit Point maximum increases by an additional Hit
+      Point.</p><p><strong>Reliable.</strong> You gain Proficiency in one Skill
+      of your choice.</p><p><strong>Tenacious.</strong> You can add half of your
+      Proficiency Bonus (rounded down) to any Saving Throw you are not
+      Proficient in.</p>
+    chat: ''
+  identifier: archosauria-species
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 150000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680292602
+  modifiedTime: 1768680565180
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!DZmJ1C9RZBIvfjVu'

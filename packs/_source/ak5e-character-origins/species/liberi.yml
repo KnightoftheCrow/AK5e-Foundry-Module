@@ -1,0 +1,173 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Liberi
+type: race
+_id: WddW3J1voglqEgob
+img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+system:
+  advancement:
+    - type: Size
+      _id: CTmZlqaWZSi0GDS8
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: AbilityScoreImprovement
+      _id: boCb8JkhemQ0KxdE
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 2
+        locked:
+          - cha
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: AvmleVaGuXOCr8mC
+      configuration:
+        items:
+          - uuid: Item.KfDvRPHw7l01L6WO
+            optional: false
+          - uuid: Item.sXQvZHUNaAFY10E0
+            optional: false
+          - uuid: Item.UojlIgMfuIvrJvYl
+            optional: false
+          - uuid: Item.547ctSSj45OJdK7B
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Liberi are the second most populous race on Terra (depending on who you
+      ask, they may be the most populous). They have spread to its four corners,
+      and can be found in almost every society, in every social strata; they are
+      generalists, not possessed of extreme strength and speed of some Species,
+      but possessing a little of everything, with a dash of natural charm. They
+      possess the traits of birds and other avian beings, though these traits
+      are often subtle, and hard to generalise; some have feathers in and
+      amongst their hair, others tail feathers and plumage, others still who’s
+      arms are almost wing-like. A generalised trait possessed by many Liberi,
+      and the one that they are most famous for, is their spectacular eyesight
+      and hearing.</p><p>Liberi can be found all over the world, but a notably
+      large population exists within Iberia, as it is nation founded by Liberi
+      expatriates from neighbouring Laterano. Outside of Iberia’s haunting
+      shores, large populations still exist within Laterano itself, but also
+      within Columbia; many of the original immigrants to the newly-independent
+      Columbia were Liberi, driven to perhaps quite literally spread their wings
+      in this new land of opportunity.</p><h1>Liberi
+      Traits</h1><p><strong>Creature Type:</strong> You are a
+      Humanoid.</p><p><strong>Size:</strong> A Liberi’s height often falls
+      between 5 and five and a half feet, though male Liberi can be taller than
+      this, sometimes reaching over 6 feet. They weigh in at around 140 pounds
+      on average. Your size is Medium.</p><p><strong>Life Expectancy:</strong>
+      Liberi reach adulthood around the age of 18, and have a life expectancy of
+      around 80 years.</p><p><strong>Speed:</strong> Your base walking speed is
+      30 feet.</p><p><strong>Ability Score Improvement:</strong> Your Charisma
+      Score increases by 2, and two other scores of your choice increase by
+      1.</p><h1>Liberi Features</h1><p>As a Liberi, you gain the following
+      benefits:</p><h3>Avian Senses</h3><p>The Avian Characteristics of Liberi
+      have provided them with excellent hearing and eyesight, both for
+      predation, and for concealing themselves from predators. You gain the
+      following benefits:</p><p><strong>Nothing Beneath Notice.</strong> If you
+      fail a Wisdom (Perception) Check that relies upon hearing or sight, you
+      may reroll that Check with Advantage.</p><p><strong>Supreme
+      Sight.</strong> You can see into Lightly Obscured areas as if they were
+      not Obscured, and into Heavily Obscured areas as if they were Lightly
+      Obscured.</p><h3>Birds of a Feather</h3><p>Some Liberi have been known to
+      give one or more of their feathers to those they hold dear, and to those
+      they trust. It is a symbolic gesture, but the feelings and intentions
+      behind it are anything but, and shouldn’t be done lightly!</p><p>Upon
+      finishing a Long Rest, you may gift one of your feathers to a Creature;
+      that Creature becomes part of your Flock. You and that ally gain the
+      following benefits:</p><p><strong>Birds of Prey</strong>. When you would
+      make an Attack Roll against a Creature that has already been Attacked or
+      Damaged by a member of your Flock since your last Turn, you may give
+      yourself Advantage on that Attack Roll (no Action required). You may use
+      this Feature once per Short Rest.</p><p><strong>Nestmakers.</strong> When
+      you roll to determine the amount of Hit Points you restore or Temporary
+      Hit Points you grant to a member of your Flock, you can roll those dice
+      twice and take either total (no Action required). You may use this Feature
+      once per Short Rest.</p><p><strong>Flock Members.</strong> The maximum
+      number of members that can be in your Flock (not including you) is equal
+      to half your Proficiency Bonus, rounding up. A Creature cannot be in more
+      than one Flock; if it joins a second Flock, it is removed from the first
+      one. You can remove a Creature from your Flock at any
+      time.</p><h3>Preening Feathers</h3><p>Liberi hold the distinction of being
+      (debatably) Terra’s most populous race. One might wonder why, until you
+      see them in action; most Liberi are possessed of an easy charm and a fair
+      countenance, exacerbated by their ability to tailor their wings and
+      feathers to better suit their intended impression.</p><p>As a Short Rest
+      Activity, you can choose to “preen” yourself. This is not literal, but
+      represents you curating your appearance using your feathers and natural
+      talent to project a particular impression. Choose either Persuasion or
+      Intimidation. Until you next complete a Short or Long Rest, when you make
+      a Check using the chosen Skill, you do so at Advantage.</p><p>Once you
+      have used this Feature, you cannot use it again until you complete a Long
+      Rest.</p><h3>Ancient Versatility</h3><p>The Ancient Species seized the
+      world of Terra from the Teekaz, and have since spread all over its
+      surface, to all its climes and domains. As such, those of an Ancient
+      Species possess a versatility not seen in the Teekaz. Choose one from the
+      following benefits when you select this
+      Species:</p><p><strong>Durable</strong>. Your Hit Point maximum increases
+      by an amount equal to your Level. Whenever you gain a Level thereafter,
+      your Hit Point maximum increases by an additional Hit
+      Point.</p><p><strong>Reliable.</strong> You gain Proficiency in one Skill
+      of your choice.</p><p><strong>Tenacious.</strong> You can add half of your
+      Proficiency Bonus (rounded down) to any Saving Throw you are not
+      Proficient in.</p>
+    chat: ''
+  identifier: liberi-species
+  source:
+    revision: 1
+    rules: '2024'
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 100391
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680310513
+  modifiedTime: 1768680595011
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!WddW3J1voglqEgob'

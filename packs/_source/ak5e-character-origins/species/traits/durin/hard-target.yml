@@ -1,0 +1,115 @@
+folder: eqUa94qJGdHaVwWV
+name: Hard Target
+type: feat
+_id: ktV90mFsVAFFuAJL
+img: icons/skills/movement/figure-running-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Hard Target</h3><p>The diminutive size of the Durin would, at first
+      glance, appear to be a crushing disadvantage in combat. However, in
+      practice, the difference in height has an uncanny habit of throwing off
+      their opponents, who struggle to keep up.</p><p>Your base Armour Class is
+      equal to 12 + your Dexterity Modifier. You can use this base Armour Class
+      even while wearing Armour if your Armour Class would be lower than
+      this.</p><p><strong>Automated: </strong>Use the "Custom Formula" AC
+      Calculation when you want to use this AC.</p>
+    chat: ''
+  identifier: hard-target
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Base AC Increase
+    img: icons/skills/movement/figure-running-gray.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.ktV90mFsVAFFuAJL
+    _id: GahoKfpXBQo87p8j
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.ac.calc
+        mode: 5
+        value: custom
+        priority: 20
+      - key: system.attributes.ac.formula
+        mode: 5
+        value: 12+@abilities.dex.mod
+        priority: 20
+    disabled: false
+    duration:
+      startTime: 840
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: 107
+      startTurn: 0
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!ktV90mFsVAFFuAJL.GahoKfpXBQo87p8j'
+sort: 250000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.psinvB345MAPTjlV
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680300464
+  modifiedTime: 1768680300464
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!ktV90mFsVAFFuAJL'

@@ -1,0 +1,81 @@
+folder: dQdWqWAW0CkqPgiW
+name: Agendum
+type: feat
+_id: 5fugG4u8MTqDOV4T
+img: icons/sundries/scrolls/scroll-writing-brown-grey.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Agendum</h3><p>Phidia are notoriously single-minded. That is not to
+      say that they are bull-headed or stubborn (though some may accuse them of
+      this), but that when they have set themselves on a goal, little short of
+      death will sway them from it. Theirs is not the nigh-fanatical obsession
+      of the Zalak, but an unrelenting, resolute march.</p><p>When you choose
+      this Species, you must also work with your DM to choose an
+      Agenda.</p><blockquote><p><strong>What’s an Agenda?</strong></p><p>An
+      Agenda is a long-term goal representing the Phidian tendency for
+      obsession; an Agenda can be something with a concrete end, such as “I want
+      to kill Regent Theresis” or something more abstract, such as “My passion
+      is toxicology, and I want to pursue it”. You should consider why this is
+      important enough to your character for them to obsess over
+      it.</p></blockquote><p>When you perform a Skill Check directly related to
+      pursuing your Agenda, you may do so with Advantage. The DM has discretion
+      on whether a Skill Check relates to pursuing your Agenda. When you
+      complete a major task towards following your Agenda (DM discretion), you
+      gain a special Inspiration that only expires when you succeed on a d20
+      roll as a result of using it.</p><p>If you complete your Agenda, work with
+      your DM to create another one.</p><blockquote><p><strong>Example:
+      Following your Agenda</strong></p><p>If your Agenda was “I want to kill
+      Regent Theresis”, then using Intimidation to coerce information out of a
+      Sarkaz soldier with no direct connection to the Regent would not count as
+      pursuing your Agenda. However, doing the same to an officer who knows
+      where you might find the Regent would count.</p><p>Completing a major task
+      for this Agenda may involve taking down a officer close to the Regent, or
+      interfering with his plans in a major
+      way.</p></blockquote><p><strong>Can't be automated.</strong></p>
+    chat: ''
+  identifier: agendum
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680318167
+  modifiedTime: 1768680318167
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!5fugG4u8MTqDOV4T'

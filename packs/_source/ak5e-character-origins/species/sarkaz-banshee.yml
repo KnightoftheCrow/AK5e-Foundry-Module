@@ -1,0 +1,180 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Sarkaz Banshee
+type: race
+img: icons/magic/unholy/silhouette-light-fire-blue.webp
+system:
+  advancement:
+    - type: Size
+      _id: eJiFA5fdfqm2cPgd
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: AbilityScoreImprovement
+      _id: FySmLGV3IE7DMT5B
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 1
+          cha: 1
+        locked:
+          - wis
+        points: 1
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: Lm8yuD3q8CoG2zOL
+      configuration:
+        items:
+          - uuid: Item.ejgax1OwuL7CjBS2
+            optional: false
+          - uuid: Item.GVZrWxtUvwgYApeA
+            optional: false
+          - uuid: Item.nJUXt9ipJiL6Wu6l
+            optional: false
+          - uuid: Item.yC1XdUPxNXaYeixL
+            optional: false
+          - uuid: Item.lCBBG0OI9YNQ9IOy
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Even amongst the Sarkaz, the Banshee are unusual. To begin, a majority
+      of Banshee are female; male Banshee are principally rare, with their
+      current Great Banshee being one such specimen. Despite the fact that their
+      current de jure leader is male, Banshee society is matriarchal, due in no
+      small part to the fact there simply aren’t many men. Unlike their sister
+      Species in the Sarkaz, Banshee do not have tails, but do have horns which
+      grow into branch-like shapes, complete with offshoots. They also possess
+      wing-like feathered structures on their head, which can sometimes lead to
+      them being mistaken for Liberi, and are widely considered to be highly
+      physically attractive. There is, however, no mistaking the power of a
+      Banshee. Their supreme oral Arts are renowned and feared, and many Banshee
+      can cast or manifest Arts by simply speaking or singing.</p><p>In Sarkaz
+      society, Banshees are considered to be guardians, or shepherds, of the
+      dead, guiding the consciousness of the Sarkaz back to their afterlife
+      within the Nephesh. To hear the Banshee’s elegy is to know your life is at
+      an end, and they will take you on winds of song to your afterlife. For
+      particularly prominent figures or moments, Banshee have a bone whistle
+      that is blown to signify the passing of such a moment, and the lamentation
+      it represents. Due to their associations with death, the sound of that
+      bonewhistle is feared across Terra.</p><h1>Sarkaz Banshee
+      Traits</h1><p><strong>Creature Type:</strong> As the direct descendants of
+      the Teekaz, you are a Fiend (Humanoid).</p><p><strong>Size:</strong> As
+      the Sarkaz are, in reality, a collection of related subspecies joined
+      under one heading, their physical size and build can vary greatly.
+      Generally speaking, however, they fall between 5 feet and 6 and a half
+      feet in height, and around 160 pounds in weight. Male Sarkaz tend to be
+      taller and heavier, but it is not a given. Your size is
+      Medium.</p><p><strong>Life Expectancy:</strong> The Sarkaz mature at the
+      same rate as many other races, reaching adulthood around 18, but have a
+      vastly extended lifespan, able to live for many centuries. Most, however,
+      do not live this long; the life of the Sarkaz is hard, fraught with peril,
+      and Oripathy can shorten their lifespan dramatically, as it does all
+      others.</p><p><strong>Speed:</strong> Your base Walking Speed is 30
+      feet.</p><p><strong>Ability Score Improvement:</strong> Your Wisdom and
+      Charisma Scores increase by 1, and one other score of your choice increase
+      by 1.</p><h1>Sarkaz Banshee Features</h1><p>As a Sarkaz Banshee, you gain
+      the following Features:</p><h3>Nephesh</h3><p>All Sarkaz have an
+      intrinsic, genetic connection to the Sarkaz of the past and present. The
+      memories of the Sarkaz are embedded in their very genetics, allowing
+      modern Sarkaz to recall the events of centuries ago as if they were there,
+      under the right conditions. You gain the following
+      benefits:</p><p><strong>Ancestral Knowledge.</strong> Whenever you would
+      make a Lore Check regarding the history of the Sarkaz, or events that
+      directly pertain to it, you are treated as having Expertise in that skill.
+      If you already have Expertise, you make that Check at
+      Advantage.</p><p><strong>Lifelink.</strong> When a Sarkaz you know dies,
+      you immediately become aware of it, though you learn nothing about the
+      circumstances.</p><h3>Witchcraft</h3><p>Sarkaz have a tighter bond with
+      Originum and the curse of Oripathy than other races, and can wield it to
+      destructive effect; both for themselves and their foes.</p><p>You have
+      access to the Witchcraft Arts Pool; these are Sarkaz Arts. These Arts are
+      always prepared. If you cannot cast Arts in another way, Wisdom is your
+      Spellcasting Ability for these Arts; you do not need a weapon with the
+      Casting Unit Property to cast these Arts.</p><p>Once per Long Rest, you
+      can cast a Sarkaz Art without expending any Arts Points. The maximum level
+      of Sarkaz Art you can cast in this way is controlled by your Character
+      Level. At 7th Level, you can cast Sarkaz Arts in this way twice per Long
+      Rest.</p><table><thead><tr><td><p
+      style="text-align:center"><strong>Character Level</strong></p></td><td><p
+      style="text-align:center"><strong>Maximum Arts
+      Level</strong></p></td></tr></thead><tbody><tr><td><p>1</p></td><td><p>1</p></td></tr><tr><td><p>2</p></td><td><p>1</p></td></tr><tr><td><p>3</p></td><td><p>1</p></td></tr><tr><td><p>4</p></td><td><p>1</p></td></tr><tr><td><p>5</p></td><td><p>1</p></td></tr><tr><td><p>6</p></td><td><p>1</p></td></tr><tr><td><p>7</p></td><td><p>2</p></td></tr><tr><td><p>8</p></td><td><p>2</p></td></tr><tr><td><p>9</p></td><td><p>2</p></td></tr><tr><td><p>10</p></td><td><p>2</p></td></tr><tr><td><p>11</p></td><td><p>2</p></td></tr><tr><td><p>12</p></td><td><p>2</p></td></tr><tr><td><p>13</p></td><td><p>2</p></td></tr><tr><td><p>14</p></td><td><p>3</p></td></tr><tr><td><p>15</p></td><td><p>3</p></td></tr><tr><td><p>16</p></td><td><p>3</p></td></tr><tr><td><p>17</p></td><td><p>3</p></td></tr><tr><td><p>18</p></td><td><p>3</p></td></tr><tr><td><p>19</p></td><td><p>4</p></td></tr><tr><td><p>20</p></td><td><p>4</p></td></tr></tbody></table><h3>Shepherd
+      of the Dead</h3><p>While your song can carry away the souls of the Sarkaz
+      to the afterlife, it can also serve as an anchor point, fixing the life of
+      a being to the earth. You gain the following benefits:</p><p><strong>Death
+      Ward.</strong> You can cast the Death Ward Art using a Bone Whistle or
+      your singing as the Casting Unit, but only as a Ritual.</p><p><strong>Tool
+      Proficiency.</strong> You are Proficient in Instrument (Bone Whistle) and
+      Instrument (Microphone), and gain both as starting Equipment. The Bone
+      Whistle costs the same as any other Instrument to replace, but can only be
+      acquired from Banshee craftswomen.</p><h3>Voice of Ruin</h3><p>The Banshee
+      of the Sarkaz are lethal and beautiful in equal measure. Their voice can
+      sooth hearts or stop them, their song calm seas or crack walls.</p><p>You
+      have access to the Banshee Arts Pool; these are Sarkaz Arts. If you do not
+      have the Ability to cast Arts in another way, Charisma is your Arts
+      Casting Ability for these Arts; you do not need a weapon with the Casting
+      Unit Property to cast these Arts.</p><h3>Cling to the World</h3><p>The
+      Teekaz lost this world to the Ancients long ago, and yet they remain;
+      stubbornly clinging to their lives, and their place on Terra.</p><p>When
+      you make a Death Saving Throw, you may add your Proficiency Bonus to the
+      result of the roll.</p>
+    chat: ''
+  identifier: sarkaz-species
+  source:
+    revision: 1
+    rules: '2024'
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: fiend
+    custom: ''
+    subtype: Humanoid
+effects: []
+sort: 500000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: Item.JDo05rh0POS2j190
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680339548
+  modifiedTime: 1768680626748
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: SmENMA3kOsXEqW8h
+_key: '!items!SmENMA3kOsXEqW8h'

@@ -1,0 +1,87 @@
+folder: tuUu0wUIM3wCQLdR
+name: Ancient Versatility
+type: feat
+img: icons/sundries/documents/document-torn-diagram-tan.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemChoice
+      _id: LCCab3Xvj2tGtTAY
+      configuration:
+        allowDrops: false
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Item.LH8i2GuJ2NCY7ml4
+          - uuid: Item.BfEHCXnx6w2IQJ1a
+          - uuid: Item.sDF10GwbAt4Vf1zm
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: Choose Ancient Versatility option
+      hint: ''
+  description:
+    value: >-
+      <h3>Ancient Versatility</h3><p>The Ancient Species seized the world of
+      Terra from the Teekaz, and have since spread all over its surface, to all
+      its climes and domains. As such, those of an Ancient Species possess a
+      versatility not seen in the Teekaz. Choose one from the following benefits
+      when you select this Species:</p><p><strong>Durable.</strong> Your Hit
+      Point maximum increases by an amount equal to your Level. Whenever you
+      gain a Level thereafter, your Hit Point maximum increases by an additional
+      Hit Point.</p><p><strong>Reliable.</strong> You gain Proficiency in one
+      Skill of your choice.</p><p><strong>Tenacious.</strong> You can add half
+      of your Proficiency Bonus (rounded down) to any Saving Throw you are not
+      Proficient in.</p>
+    chat: ''
+  identifier: ancient-versatility
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680522601
+  modifiedTime: 1768680522637
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: 1TxciocDhjUUeXjV
+sort: 100000
+_key: '!items!1TxciocDhjUUeXjV'

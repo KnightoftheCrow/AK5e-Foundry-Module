@@ -1,0 +1,163 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Lupo
+type: race
+_id: YOUdWNde69aD94YC
+img: icons/creatures/mammals/wolf-howl-moon-gray.webp
+system:
+  advancement:
+    - type: Size
+      _id: zYjd1QCsBzecG12o
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: AbilityScoreImprovement
+      _id: X9TIC7oVrmgFESGJ
+      configuration:
+        cap: 1
+        fixed:
+          str: 2
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - str
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: gD8yls4PIqIvRfDE
+      configuration:
+        items:
+          - uuid: Item.fUWo3BQ2GNdduEln
+            optional: false
+          - uuid: Item.UesJRtzSK9QmpcvN
+            optional: false
+          - uuid: Item.5eiEiDLgHBFt6dmZ
+            optional: false
+          - uuid: Item.547ctSSj45OJdK7B
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Though often conflated with the similarly canine Perro and Vulpo, any
+      comparison swiftly ends with the physical appearance. Lupi have the
+      pricked, fluffy ears, bushy tails, and carnivorous fangs of wolves; those
+      ancient pack hunters. Unlike the jovial and familial Perros, Lupi are
+      typically taciturn and competitive, if not outright combative. Lupo often
+      have a twisted relationship with family; they place massive value on
+      family identification, often dyeing their fur or wearing icongraphy to
+      mark them as a member of particular family. To be excluded from one’s
+      family is to be a social pariah; “lone wolf” is a derogatory term for
+      these renegades. Despite their prideful association, however, many Lupi
+      see their family as competition rather than companions. They fight
+      constantly amongst themselves, yet against a rival family, they will band
+      together and fight shoulder to shoulder. Also unlike their Perro cousins,
+      Lupi tend not to use their ears and tails to communicate, believing it a
+      waste of energy.</p><p>Not every Lupo falls under these headings, however.
+      The mark of the predator sits heavy on the Lupi; battle is in their blood,
+      and they excel at it with relative ease. That does not mean they
+      necessarily enjoy the life of conflict forced upon them in their own
+      communities, with some choosing to flee to try for a quieter
+      life.</p><p>Lupi can be found all over Terra, but without a doubt they are
+      most associated with Siracusa; a land run by Lupo Mafia families, under
+      the secretive leadership of Signora Sicilia. It is a land with a rich
+      culture of art and music, but every brick, every stone, is steeped in
+      violence and blood. Larger Lupo populations can also be found in Victoria
+      and Leithanien, and less commonly in Columbia and Ursus.</p><h1>Lupo
+      Traits</h1><p><strong>Creature Type:</strong> You are a
+      Humanoid.</p><p><strong>Size:</strong> A Lupo’s height typically falls in
+      the upper regions of 5 to 6 feet, with no discernable difference between
+      sexes. Similarly, while they tend to be physically powerful, their muscle
+      structure means their forms still remain lithe, weighing in at around 170
+      pounds on average. Your size is Medium.</p><p><strong>Life
+      Expectancy:</strong> Lupi reach adulthood around the age of 18, and have a
+      life expectancy of around 80 years.</p><p><strong>Speed:</strong> Your
+      base Walking Speed is 30 feet.</p><p><strong>Ability Score
+      Improvement:</strong> Your Strength Score increases by 2, and two other
+      scores of your choice increase by 1.</p><h1>Lupo Features</h1><p>As a
+      Lupo, you gain the following Features:</p><h3>La Forza del Lupo</h3><p>The
+      Lupo are hunters, through and through; battle and danger runs in their
+      blood like magma, due in part to the influence of the Beast Lords upon
+      their society. In and out of combat, the way Lupi move is hard to
+      replicate.</p><p>Choose either Strength (Athletics) or Dexterity
+      (Acrobatics). You gain Proficiency in the chosen skill. If you would gain
+      Proficiency in that skill from a non-Species Feature source, you instead
+      gain Expertise in that Skill.</p><h3>Odore di Sangue</h3><p>Lupi do not
+      allow prey to escape easily; when the scent of blood is in the air, they
+      are at their most vicious.</p><p>Once per Turn, when you would make an
+      Attack on which you have Advantage against a Creature with less than half
+      of its maximum Hit Points remaining, you can cause that Attack to deal 1d8
+      additional Damage (no Action required).</p><h3>Zanne del Lupo</h3><p>A
+      Lone Wolf is dangerous enough, but a pack of wolves can tear even large
+      threats to pieces.</p><p>Your first Attack you make each Turn against a
+      Creature is made at Advantage if that Creature is within the Reach of at
+      least one of your allies, and that ally is not Incapacitated.</p><p>From
+      7th Level, all Attacks you make against a Creature are made at Advantage
+      if that Creature is within the Reach of at least one of your allies, and
+      that ally is not Incapacitated.</p><h3>Ancient Versatility</h3><p>The
+      Ancient Species seized the world of Terra from the Teekaz, and have since
+      spread all over its surface, to all its climes and domains. As such, those
+      of an Ancient Species possess a versatility not seen in the Teekaz. Choose
+      one from the following benefits when you select this
+      Species:</p><p><strong>Durable</strong>. Your Hit Point maximum increases
+      by an amount equal to your Level. Whenever you gain a Level thereafter,
+      your Hit Point maximum increases by an additional Hit
+      Point.</p><p><strong>Reliable.</strong> You gain Proficiency in one Skill
+      of your choice.</p><p><strong>Tenacious.</strong> You can add half of your
+      Proficiency Bonus (rounded down) to any Saving Throw you are not
+      Proficient in.</p>
+    chat: ''
+  identifier: lupo-species
+  source:
+    revision: 1
+    rules: '2024'
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 100196
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680313150
+  modifiedTime: 1768680602114
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!YOUdWNde69aD94YC'

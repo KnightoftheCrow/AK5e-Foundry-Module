@@ -1,0 +1,150 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Vouivre
+type: race
+_id: y6LjYaWEq4Izir8c
+img: icons/creatures/abilities/dragon-breath-purple.webp
+system:
+  advancement:
+    - type: AbilityScoreImprovement
+      _id: vLDvTXFn92ba3LZg
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 0
+          con: 2
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - con
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: Size
+      _id: fpGWmGlLaIiLndXZ
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: ItemGrant
+      _id: BAHlrBfTFPZcVy6y
+      configuration:
+        items:
+          - uuid: Item.YMsryyGruXlSEvTI
+            optional: false
+          - uuid: Item.Pype90SOkv2YVy1v
+            optional: false
+          - uuid: Item.RN7QR95qvS5xFHBM
+            optional: false
+          - uuid: Item.547ctSSj45OJdK7B
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Unlike many Terran Species, who draw their animalistic traits from
+      mundane creatures, the Vouivre draw theirs from wyverns, drakes, hydra,
+      and various other “lesser dragons.” As befitting those descended from
+      dragons, they have large imposing horns, a stature to match, and large
+      reptilian tails. It is their might and endurance that defines the Vouivre,
+      as they can often be found where their might can best be leveraged;
+      military work, construction, demolition, to name but a few. A lesser known
+      fact about Vouivre is their ability to regulate their own internal
+      metabolism, owing to their evolution within the desolate deserts of Terra.
+      As a result, they can go for an exceptional amount of time without food or
+      water, further adding to their merit as soldiers.</p><p>Vouivre are not as
+      common as many Terran Species, being found mostly in Sargon, with a lesser
+      population in Victoria descended from Sargonian expatriates. They can be
+      found in other places around the world, as most Terrans can, but only in
+      sparse numbers. Within the Sargonian desert, there can be found the
+      eponymous Vouivre Alliance, an semi-autonomous region within Sargon where
+      even now, a significant population of Terra’s Vouivre
+      originate.</p><h1>Vouivre Traits</h1><p><strong>Creature Type:</strong>
+      You are a Humanoid.</p><p><strong>Size:</strong> Vouivre typically stand
+      between 5ft and a half feet, and 6 and a half feet in height, and average
+      at 180 pounds in weight. Your size is Medium.</p><p><strong>Life
+      Expectancy:</strong> Vouivre reach adulthood at about 18 years old. Their
+      enhanced constitution gives them a longer life expectancy of around 120
+      years.</p><p><strong>Speed</strong>: Your base Walking Speed is 30
+      feet.</p><p><strong>Ability Score Improvement:</strong> Your Constitution
+      Score increases by 2, and two other scores of your choice increase by
+      1.</p><h1>Vouivre Features</h1><p>As a Vouivre, you gain the following
+      Features:</p><h3>Dragonscale</h3><p>While the Vouivre tribes were subdued
+      during the Aslanian conquest, the struggle was so intense that the
+      Aslanians had no choice but to recognise their might. This might has not
+      faded.</p><p>You have 3 DR against Physical Damage.</p><h3>Tough as
+      Nails</h3><p>The endurance of the Vouivre is legendary, able to weather
+      storms and blows that would fell other races.</p><p>When you would take
+      Damage, you can use your Reaction to gain Resistance to those Damage Types
+      until the beginning of your next Turn.</p><p>Once you have used this
+      Feature, you cannot do so again until you complete a Short or Long
+      Rest.</p><h3>Wyvern’s Might</h3><p>Vouivre originate from harsh desert
+      land with harsher wildlife, and have adapted to survive in that
+      environment. You gain the following
+      benefits:</p><p><strong>Earthmover.</strong> You count as one size larger
+      when determining your carrying capacity and the weight you can push, drag,
+      or lift.</p><p><strong>Survivalist.</strong> You can go twice as long as
+      normal without food or water.</p><h3>Ancient Versatility</h3><p>The
+      Ancient Species seized the world of Terra from the Teekaz, and have since
+      spread all over its surface, to all its climes and domains. As such, those
+      of an Ancient Species possess a versatility not seen in the Teekaz. Choose
+      one from the following benefits when you select this
+      Species:</p><p><strong>Durable</strong>. Your Hit Point maximum increases
+      by an amount equal to your Level. Whenever you gain a Level thereafter,
+      your Hit Point maximum increases by an additional Hit
+      Point.</p><p><strong>Reliable.</strong> You gain Proficiency in one Skill
+      of your choice.</p><p><strong>Tenacious.</strong> You can add half of your
+      Proficiency Bonus (rounded down) to any Saving Throw you are not
+      Proficient in.</p>
+    chat: ''
+  identifier: vouivre-species
+  source:
+    revision: 1
+    rules: '2014'
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 100007
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680538261
+  modifiedTime: 1768680653678
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!y6LjYaWEq4Izir8c'

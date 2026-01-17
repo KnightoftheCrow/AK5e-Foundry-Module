@@ -1,0 +1,122 @@
+folder: 0y574SNwEgqxqc59
+name: Natural Skulkers
+type: feat
+_id: M677moCWjjTRd3iE
+img: icons/magic/perception/silhouette-stealth-shadow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: 4H2XdNaXpr01rzNd
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:ste
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <h3>Natural Skulkers</h3><p>Felines are naturally adapted to quiet,
+      stealthy movement. Even the most heavyfooted Feline can be far stealthier
+      than they have any right to be. You gain the following
+      benefits:</p><p><strong>Footpad.</strong> Whenever you make a Stealth
+      Check, if the on the d20 is less than your Proficiency Bonus, it becomes
+      equal to your Proficiency Bonus.</p><p><strong>Stealth
+      Proficiency.</strong> You gain Proficiency in Stealth.</p>
+    chat: ''
+  identifier: natural-skulkers
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Minimum Stealth Roll
+    img: icons/magic/perception/silhouette-stealth-shadow.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.M677moCWjjTRd3iE
+    _id: vvwXId0AtTzO155V
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.ste.roll.min
+        mode: 5
+        value: '@prof'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!M677moCWjjTRd3iE.vvwXId0AtTzO155V'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680304928
+  modifiedTime: 1768680304928
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!M677moCWjjTRd3iE'

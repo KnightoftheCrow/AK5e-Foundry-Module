@@ -1,0 +1,125 @@
+folder: tuUu0wUIM3wCQLdR
+name: Tenacious
+type: feat
+img: icons/skills/social/intimidation-impressing.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You can add half of your Proficiency Bonus (rounded down) to any Saving
+      Throw you are not Proficient in.</p>
+    chat: ''
+  identifier: av-tenacious
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Tenacious
+    img: icons/skills/social/intimidation-impressing.webp
+    origin: Item.sDF10GwbAt4Vf1zm
+    _id: aKFTGFFhaVERZVSk
+    type: base
+    system: {}
+    changes:
+      - key: system.abilities.str.proficient
+        mode: 4
+        value: '0.5'
+        priority: 20
+      - key: system.abilities.dex.proficient
+        mode: 4
+        value: '0.5'
+        priority: 20
+      - key: system.abilities.con.proficient
+        mode: 4
+        value: '0.5'
+        priority: 20
+      - key: system.abilities.int.proficient
+        mode: 4
+        value: '0.5'
+        priority: 20
+      - key: system.abilities.wis.proficient
+        mode: 4
+        value: '0.5'
+        priority: 20
+      - key: system.abilities.cha.proficient
+        mode: 4
+        value: '0.5'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!cz2CkMWBt6gsLmh7.aKFTGFFhaVERZVSk'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680528324
+  modifiedTime: 1768680528357
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: cz2CkMWBt6gsLmh7
+sort: 125000
+_key: '!items!cz2CkMWBt6gsLmh7'

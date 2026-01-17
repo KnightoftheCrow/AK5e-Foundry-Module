@@ -1,0 +1,96 @@
+folder: ypzzy8VbNlo7i18c
+name: Shepherd of the Dead
+type: feat
+_id: yC1XdUPxNXaYeixL
+img: icons/magic/unholy/hands-praying-fire-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: g31uN2pgev0o7mPR
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - tool:music:instrumentflute
+          - tool:music:instrumentmicrophone
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      _id: ZJbUVoKjsWUAxDMv
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.ak5e.ak5e-items.Item.K2HT1b80PeacbKTS
+          - optional: false
+            uuid: Compendium.ak5e.ak5e-items.Item.dqXsCaK1P0JhtYC4
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0
+        optional: false
+        spell:
+          ability:
+            - cha
+          method: ritual
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 0
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <h3>Shepherd of the Dead</h3><p>While your song can carry away the souls
+      of the Sarkaz to the afterlife, it can also serve as an anchor point,
+      fixing the life of a being to the earth. You gain the following
+      benefits:</p><p><strong>Death Ward.</strong> You can cast the Death Ward
+      Art using a Bone Whistle or your singing as the Casting Unit, but only as
+      a Ritual.</p><p><strong>Tool Proficiency.</strong> You are Proficient in
+      Instrument (Bone Whistle) and Instrument (Microphone), and gain both as
+      starting Equipment. The Bone Whistle costs the same as a flute to replace,
+      but can only be acquired from Banshee craftswomen.</p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680339548
+  modifiedTime: 1768680339548
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!yC1XdUPxNXaYeixL'

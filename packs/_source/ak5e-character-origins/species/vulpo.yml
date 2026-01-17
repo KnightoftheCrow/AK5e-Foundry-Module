@@ -1,0 +1,154 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Vulpo
+type: race
+_id: i8nNggVFJYuDSjMI
+img: icons/creatures/mammals/dog-husky-white-blue.webp
+system:
+  advancement:
+    - type: AbilityScoreImprovement
+      _id: 8t3NwjK5wkfMVPth
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 2
+          wis: 0
+          cha: 0
+        locked:
+          - int
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: Size
+      _id: CWMgZvJttITs21uS
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: ItemGrant
+      _id: BEiebxnz7ULwi7RZ
+      configuration:
+        items:
+          - uuid: Item.rkxEBKmKKqD6OPQ1
+            optional: false
+          - uuid: Item.Wb6YPKLD6ii86efc
+            optional: false
+          - uuid: Item.mwd8DqaXPV30ZRD5
+            optional: false
+          - uuid: Item.547ctSSj45OJdK7B
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Vulpo are of average height and build, set apart by their incredible
+      sense of hearing and especially smell. They are caniforms, similar to
+      Perro and Lupi, but draw their traits from foxes and similar canids. As
+      such, large protruding ears and long, brush-like tails set them apart from
+      their canid cousins. Even amongst caniforms, the Vulpo have a truly
+      incredible sense of smell; almost nothing can escape their notice, though
+      this sensitivity does come at the cost of discomfort in particularly
+      foul-smelling locations. When combined with their natural agility and
+      guile, Vulpo make excellent scouts, messengers, and merchants, and have
+      filled these roles since the dawn of Terran civilisation.</p><p>Vulpo are
+      a relatively common species, not quite reaching the population levels of
+      the Perro, but more populous than some other species and as such, they can
+      be found all over Terra. However, like Felines, the Vulpo do not have a
+      particular homeland to call their own, though a significant population can
+      be found in Siracusa.</p><h1>Vulpo Traits</h1><p><strong>Creature
+      Type:</strong> You are a Humanoid.</p><p><strong>Size:</strong> Vulpo are
+      typically between 5 and 6 feet in height, trending towards the lower end,
+      with an average weight of 130lbs. On average, male Vulpo are taller than
+      their female counterparts. Your size is Medium.</p><p><strong>Life
+      Expectancy:</strong> Vulpo reach adulthood around the age of 18, and have
+      a life expectancy of around 80 years.</p><p><strong>Speed:</strong> Your
+      base Walking Speed is 30 feet.</p><p><strong>Ability Score
+      Improvement:</strong> Your Intelligence Score increases by 2, and two
+      other scores of your choice increase by 1.</p><h1>Vulpo Features</h1><p>As
+      a Vulpo, you gain the following Features:</p><h3>Fox’s Guile</h3><p>Your
+      finely tuned ears and nose allow you to ascertain what is and isn’t real.
+      You gain the following benefits:</p><p><strong>Skill Expertise.</strong>
+      You gain Proficiency in the Investigation Skill. If you would gain
+      Proficiency in that skill from a non-Species Feature source, you instead
+      gain Expertise in that skill.</p><p><strong>Sniffer Dog.</strong> You have
+      Advantage on any Investigation check to see through illusions or
+      disguises.</p><h3>Incredible Sense of Smell</h3><p>The Vulpo’s sense of
+      smell is so adept, their other senses can sometimes take a
+      backseat.</p><p>As long as you have access to your sense of smell, you
+      have 20 feet of Blindsight. From 7th level, you can also see Invisible
+      Creatures within this range.</p><h3>Inescapable</h3><p>Your sense of smell
+      gives you incredible tracking ability. When you focus, you can
+      differentiate smells from each other that others aren’t even aware
+      exist.</p><p>If you spend 10 minutes examining an area, you can make a
+      DC15 Investigation Check. If you pass, you may ask the GM three questions
+      about Creatures that have been present in this location in the last week.
+      These questions should be things like “How many people were here?”, “Was
+      the same person as last time here?”, or “How long ago was someone last
+      here?” Regardless, the GM can only answer these Questions with one-word
+      answers, or provide a value (such as “three days ago”). If you fail, you
+      may only ask one question.</p><p>Once you have used this Feature, you must
+      complete a Short Rest before you can use it again.</p><h3>Ancient
+      Versatility</h3><p>The Ancient Species seized the world of Terra from the
+      Teekaz, and have since spread all over its surface, to all its climes and
+      domains. As such, those of an Ancient Species possess a versatility not
+      seen in the Teekaz. Choose one from the following benefits when you select
+      this Species:</p><p><strong>Durable</strong>. Your Hit Point maximum
+      increases by an amount equal to your Level. Whenever you gain a Level
+      thereafter, your Hit Point maximum increases by an additional Hit
+      Point.</p><p><strong>Reliable.</strong> You gain Proficiency in one Skill
+      of your choice.</p><p><strong>Tenacious.</strong> You can add half of your
+      Proficiency Bonus (rounded down) to any Saving Throw you are not
+      Proficient in.</p>
+    chat: ''
+  identifier: vulpo-species
+  source:
+    revision: 1
+    rules: '2014'
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: null
+    blindsight: 20
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 100004
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680541395
+  modifiedTime: 1768680658348
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!i8nNggVFJYuDSjMI'

@@ -1,0 +1,333 @@
+folder: GIH5pkIjOQa8DIEb
+name: Lock Horns
+type: feat
+_id: 0XAAVW24ZRinoFkY
+img: icons/creatures/mammals/deer-antlers-blue.webp
+system:
+  activities:
+    tFCMBUQeNKpINBMC:
+      type: attack
+      _id: tFCMBUQeNKpINBMC
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: ft
+        override: false
+        value: '5'
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: unarmed
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 4
+            bonus: ''
+            types:
+              - bludgeoning
+            scaling:
+              number: 1
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: false
+      attackMode: ''
+      ammunition: ''
+      otherActivityUuid: ''
+      attackRollPerTarget: default
+      fumbleThreshold: 1
+      name: ''
+    PX8dEkpsDovxAYX5:
+      type: save
+      _id: PX8dEkpsDovxAYX5
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        onSave: none
+        critical:
+          allow: false
+        parts: []
+      save:
+        ability:
+          - str
+        dc:
+          calculation: str
+          formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: never
+        forceRollDialog: default
+        forceDamageDialog: never
+        confirmTargets: never
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: ''
+      otherActivityAsParentType: true
+      friendlySave: default
+      name: Knockback
+  uses:
+    spent: 0
+    recovery:
+      - period: turnStart
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <h3>Lock Horns</h3><p>In a more primitive past, the horns of the Elafia
+      were used for both defence and intraspecies competition. Thus, the frontal
+      bone and crown of the Elafian skull has been reinforced by thick bone, to
+      better facilitate this crashing and bashing. An Elafia can be unarmed, but
+      they are never defenceless.</p><p>You can use your horns, or at least your
+      rock-hard skull, to make an Unarmed Strike. You can use Dexterity instead
+      of Strength for the Attack and Damage Rolls. On hit, they deal Bludgeoning
+      Damage equal to 1d4 + Ability Modifier instead of the normal
+      Damage.</p><p>Additionally, if you hit a Creature no more than one size
+      larger than you with an Attack using your horns, that Creature must make a
+      Strength Saving Throw against your Martial DC. On a failed save, you push
+      that Creature 20 feet directly away from you. On a successful save, you
+      push them up to 10 feet away from you.</p><p>Once you have attacked with
+      your horns, you cannot do so again until the beginning of your next
+      Turn.</p><p><strong>Partially Automated: </strong>Will apply the Strength
+      Saving Throw to Creatures hit by the Attack, and knock them back 20 feet
+      on a failed save. However, it will not push them the 10 feet on a
+      successful save.</p>
+    chat: ''
+  identifier: lock-horns
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+  chris-premades:
+    config:
+      generic:
+        autoPush:
+          applied: true
+          hit: false
+          activities:
+            - PX8dEkpsDovxAYX5
+          distance: 20
+          maxSize: lg
+          failed: true
+    macros:
+      midi:
+        item:
+          - autoPush
+  ak5e:
+    trackingBar: false
+    barFirstColor: '#4361ee'
+    barSecondColor: '#4cc9f0'
+_stats:
+  compendiumSource: Item.ABYcSGwlwBH2yyeM
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680302864
+  modifiedTime: 1768680302864
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!0XAAVW24ZRinoFkY'

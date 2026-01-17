@@ -1,0 +1,189 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Sankta
+type: race
+_id: ZJh27CA2jD9mcjTL
+img: icons/magic/holy/angel-winged-humanoid-blue.webp
+system:
+  advancement:
+    - type: Size
+      _id: EDVGQShBy6XbaI78
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: AbilityScoreImprovement
+      _id: nuY9QCpPu9NIuZ0J
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 2
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - dex
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: sph7BhrYGtbMfxPW
+      configuration:
+        items:
+          - uuid: Item.cdATsgaxaFGmcRJg
+            optional: false
+          - uuid: Item.YVG3GfEuK7uT3eFU
+            optional: false
+          - uuid: Item.sYu0VrMVVOEAhYut
+            optional: false
+          - uuid: Item.nJUXt9ipJiL6Wu6l
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Once upon a time, the Sankta did not exist at all, and those that would
+      become Sankta were simply Sarkaz; or the Teekaz, as they were then known.
+      It was the discovery of The Law, a god-like, near-omnipotent computer
+      intelligence that transformed its discoverers into the first Sankta, and
+      it is The Law that binds them now. The Sankta have the traits of abrahamic
+      angels, complete with glowing wings and a halo. They cannot fly with these
+      wings, but they and the halo are both physical objects, and clothes must
+      be designed around them. Their halo grants them a “sixth sense” of
+      “empathy”, which allows them to feel the emotions of nearby
+      Sankta.</p><p>However, a Sankta can fall from grace if they act against
+      The Law’s wishes, cracking their halo and wings, and regrowing the
+      devil-esque horns and tails of their Sarkaz cousins, in addition to losing
+      their “Empathy” and the ability to use their Patron Firearm. They are
+      known simply as Fallen. The decree of The Law is to preserve the existence
+      of the Sankta, and by extension Laterano. With that in mind, what exactly
+      causes a Sankta to fall is determined by The Law without clear definition,
+      but any of the following are likely to cause a fall;</p><ul><li><p>Using
+      your Patron Firearm to attack another Sankta.</p></li><li><p>Stealing from
+      Lateran citizens.</p></li><li><p>Causing harm, or through inaction
+      allowing harm, to Laterano or the Sankta as a
+      whole.</p></li><li><p>Refusing to aid or save Sankta when the opportunity
+      presents, in favour of other goals.</p></li></ul><p>Sankta almost
+      universally originate from Laterano, which is a theocratic nation with The
+      Law at its centre, and a Pope as its de jure head. This is because Sankta
+      can only be born from two Sankta parents, except in rare circumstances
+      that are permitted by The Law. A child with a Sankta parent and a parent
+      of another Species will thus almost unilaterally be born as the species of
+      the non-Sankta parent. As most Sankta are faithful adherents of The Law,
+      most live in Laterano.</p><h1>Sankta Traits</h1><p><strong>Creature
+      Type:</strong> As one of those uplifted by The Law, you are a Celestial
+      (Humanoid).</p><p><strong>Size:</strong> Sankta typically fall in the
+      upper ranges of five to 6 feet in terms of height, and have an average
+      weight of around 150 pounds. Your size is Medium.</p><p><strong>Life
+      Expectancy:</strong> As members of the Teekaz, the lifespan of the Sankta
+      is extended beyond what many races on Terra can hope for. However,
+      possibly due to the effects The Law has had on them, they do not have the
+      ludicrous lifespans of the Sarkaz cousins. They reach maturity around 18
+      years old, and can live for over a hundred years, though not not as far as
+      200.</p><p><strong>Speed:</strong> Your base Walking Speed is 30
+      feet.</p><p><strong>Ability Score Improvement:</strong> Your Dexterity
+      Score increases by 2, and two other scores of your choice increase by
+      1.</p><h1>Sankta Features</h1><p>As a Sankta, you gain the following
+      Features:</p><h3>Empathy</h3><p>The ascension of the Sankta by The Law
+      granted them their wings, and their halos. It is these halos that bind
+      them together, in an almost literal sense.</p><p>Your Law-granted traits
+      allow you to access the sixth sense of the Sankta, known as Empathy. You
+      can feel the emotions of any non-fallen Sankta within a number of feet of
+      you equal to 10 times your Character Level, as they can for you. You can
+      use this to facilitate very rudimentary communication; focusing on a
+      particular emotion or feeling will allow you to convey that feeling to
+      Sankta within your range (Mechanically, for other Sankta, you can
+      communicate telepathically with them, but only in terms of emotions, such
+      as Fear, Anger, Unsure, etc)</p><p>Additionally, you gain a +10 Modifier
+      on Wisdom (Insight), Charisma (Persuasion), and Charisma (Intimidation)
+      Checks against non-Fallen Sankta.</p><p>If you become a Fallen Sankta, you
+      lose access to this Feature.</p><h3>Lawbringers</h3><p>The Sankta tend to
+      prefer ranged combat, not out of cowardice, but because that is where they
+      can best apply their frightening accuracy.</p><p>When you make an Attack
+      Roll using a Weapon you are Proficient with or as part of an Art, you may
+      choose to double your Proficiency Bonus for that Attack Roll.</p><p>You
+      can use this Feature a number of times equal to your Proficiency Bonus,
+      regaining all expended uses when you finish a Long Rest, and may only do
+      so once per Attack.</p><h3>Legacy of the Law</h3><p>Firearms are a major
+      feature of Lateran faith, and the Sankta are the best at using them,
+      skilled as they are in fine and precise application of Arts.</p><p>You are
+      Proficient in all Weapons that have the Firearm Property. You gain a
+      Patron Firearm version of one of those Weapons as Starting Equipment (your
+      choice). When wielded by a Fallen Sankta, or a non-Sankta, Attacks made
+      with that Patron Firearm are made at Disadvantage.</p><p>If you become a
+      Fallen Sankta, you maintain your Proficiency with Firearms, but you have
+      Disadvantage when using your Patron Firearm.</p><h3>Cling to the
+      World</h3><p>The Teekaz lost this world to the Ancients long ago, and yet
+      they remain; stubbornly clinging to their lives, and their place on
+      Terra.</p><p>When you make a Death Saving Throw, you may add your
+      Proficiency Bonus to the result of the
+      roll.</p><blockquote><p><strong>Fallen Sankta Feature:
+      Scorn</strong></p><p>If you become a Fallen Sankta, you lose access to
+      your Empathy Feature and are rejected by your Patron Firearm. In return,
+      you gain the following Feature:</p><p><strong>Foundry Note: </strong>If
+      you become a Fallen Sankta, replace your Species with the Fallen Sankta
+      Species.</p><h3>Scorn</h3><p>Regardless of the reason for their fall,
+      Fallen Sankta have plenty of experience from their previous life of
+      controlling their thoughts and feelings. They can channel their hate,
+      their anger, and their fear; woe betide anyone who brushes their mind
+      against it. You gain the following benefits:</p><p><strong>Mental
+      Fortress.</strong> You have Advantage on Saving Throws against effects
+      that would sense your emotions, read your thoughts, or control your
+      mind.</p><p><strong>Mental Inversion.</strong> Whenever you succeed on an
+      Intelligence, Wisdom, or Charisma Saving Throw, you can use your Reaction
+      to inflict Psychic Damage equal to your Character Level to the Creature
+      that was the source of that Saving Throw.</p></blockquote>
+    chat: ''
+  identifier: sankta-species
+  source:
+    revision: 1
+    rules: '2024'
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: celestial
+    custom: ''
+    subtype: Humanoid
+effects: []
+sort: 100025
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680322247
+  modifiedTime: 1768680618197
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!ZJh27CA2jD9mcjTL'

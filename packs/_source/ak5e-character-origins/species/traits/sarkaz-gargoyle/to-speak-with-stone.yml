@@ -1,0 +1,169 @@
+folder: Sx8mwtXKv0lozFr6
+name: To Speak with Stone
+type: feat
+_id: 7No7Ao7ZygpKTH4U
+img: icons/magic/earth/lava-stone-fire-eye.webp
+system:
+  activities:
+    a7r3MDuSkJk7PZFL:
+      type: cast
+      spell:
+        uuid: Compendium.dnd5e.spells.Item.dp6xny4v8PDoIGjh
+        challenge:
+          override: false
+        properties:
+          - vocal
+          - somatic
+        spellbook: true
+        ability: ''
+        level: 5
+      _id: a7r3MDuSkJk7PZFL
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: never
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: Speak with Stone
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <h3>To Speak with Stone</h3><p>How the Gargoyles glean their information
+      from the earth and soil, none can truly say. There is no denying, however,
+      that sometimes when they speak, a voice only they can hear answers,
+      telling them things they should not know.</p><p>You learn the Commune with
+      Nature Art. It is always considered Prepared, and you may cast it once per
+      Short Rest without expending any Arts Points. Furthermore, it is
+      considered to be a Sarkaz Art, no longer has a limited range in caves and
+      underground settings, and does not lose function in artificial or urban
+      areas, as long as your feet are touching the
+      ground.</p><p><strong>Automated. </strong>Use the "Speak with Stone"
+      Activity when you wish to cast it without using Arts Points.</p>
+    chat: ''
+  identifier: speak-with-stone
+  source:
+    revision: 1
+    rules: '2014'
+    book: AK5e
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680372929
+  modifiedTime: 1768680372929
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!7No7Ao7ZygpKTH4U'

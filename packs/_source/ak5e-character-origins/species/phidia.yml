@@ -1,0 +1,197 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Phidia
+type: race
+_id: ntn3g26R3lcuWzXi
+img: icons/creatures/reptiles/snake-fangs-bite-green.webp
+system:
+  advancement:
+    - type: Size
+      _id: Zpd1CSKIpkV2hJeT
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: AbilityScoreImprovement
+      _id: qULSCkbTBi0NSQM6
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 2
+          wis: 0
+          cha: 0
+        locked:
+          - int
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: I7kJdswk4JAotPpm
+      configuration:
+        items:
+          - uuid: Item.5fugG4u8MTqDOV4T
+            optional: false
+          - uuid: Item.tqT0oEayOKdjlppp
+            optional: false
+          - uuid: Item.xTCaK297EL7zunXZ
+            optional: false
+          - uuid: Item.547ctSSj45OJdK7B
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Oft conflated with their Archosaurian cousins, the Phidia could hardly
+      differ more mentally from their brutish distant relatives, despite surface
+      level similiarity. Both possess pointed ears, scaled skin, and long,
+      scaled tails; there the comparison ends. Where Archosaurians are stocky
+      and powerful, Phidia are tall and lithe, even gangly. Where Archosaurians
+      are tough and resilient, Phidia are comparitively frail, though the
+      emphasis falls on “comparitively”. Even their tails are different if one
+      cares to learn; Archosaurian tails are built for striking and whipping,
+      while Phidian tails have much greater flexibility and can be used to pick
+      up and even hold objects with some conditioning.</p><p>Unfortunately,
+      false comparisons to Archosauria are not the only stereotypes and
+      misunderstandings to which the Phidia are subject. They are often prone to
+      obsessive behaviour when chasing an objective; when a Phidia has set their
+      mind to something, they will often work away at that goal to the exclusion
+      of most else, giving them an air of eccentricity that sets many at edge.
+      Furthermore, their incredibly adept senses allow them to seemingly “know”
+      things they should not, by picking up on scents and sounds beyond the
+      range of many others; when the whole package is considered, many have a
+      distrustful view of Phidia as sly and cold-hearted.</p><p>Phidia can be
+      found all over Terra, living around the outskirts of civilization, or with
+      a scant tribe of those that accept them and their eccentricities. Unlike
+      many Terran species, Phidia are distinctly solitary, and it is a rare
+      Phidia indeed that can be found in a highly populated area.</p><h1>Phidia
+      Traits</h1><p><strong>Creature Type:</strong> You are a
+      Humanoid.</p><p><strong>Size:</strong> Phidians are typically between 5
+      and a half and 6 and a half feet in height, trending towards the top half
+      of that bracket, and weighing around 160 pounds. Your size is
+      Medium.</p><p><strong>Life Expectancy:</strong> Phidia reach adulthood
+      around the age of 18, and have a life expectancy of around 80
+      years.</p><p><strong>Speed:</strong> Your base Walking Speed is 30
+      feet.</p><p><strong>Ability Score Improvement:</strong> Your Intelligence
+      Score increases by 2, and two other scores of your choice increase by
+      1.</p><blockquote><p><strong>Variant: Larger Stature</strong></p><p>When
+      you choose this species, you can choose for your size to be Large. If you
+      do, your base Walking Speed increases by 5ft, but you cannot wear
+      equipment that isn’t made for someone of your
+      size.</p></blockquote><h1>Phidia Features</h1><p>As a Phidia, you gain the
+      following Features:</p><h3>Agendum</h3><p>Phidia are notoriously
+      single-minded. That is not to say that they are bull-headed or stubborn
+      (though some may accuse them of this), but that when they have set
+      themselves on a goal, little short of death will sway them from it. Theirs
+      is not the nigh-fanatical obsession of the Zalak, but an unrelenting,
+      resolute march.</p><p>When you choose this Species, you must also work
+      with your DM to choose an Agenda.</p><blockquote><p><strong>What’s an
+      Agenda?</strong></p><p>An Agenda is a long-term goal representing the
+      Phidian tendency for obsession; an Agenda can be something with a concrete
+      end, such as “I want to kill Regent Theresis” or something more abstract,
+      such as “My passion is toxicology, and I want to pursue it”. You should
+      consider why this is important enough to your character for them to obsess
+      over it.</p></blockquote><p>When you perform a Skill Check directly
+      related to pursuing your Agenda, you may do so with Advantage. The DM has
+      discretion on whether a Skill Check relates to pursuing your Agenda. When
+      you complete a major task towards following your Agenda (DM discretion),
+      you gain a special Inspiration that only expires when you succeed on a d20
+      roll as a result of using it.</p><p>If you complete your Agenda, work with
+      your DM to create another one.</p><blockquote><p><strong>Example:
+      Following your Agenda</strong></p><p>If your Agenda was “I want to kill
+      Regent Theresis”, then using Intimidation to coerce information out of a
+      Sarkaz soldier with no direct connection to the Regent would not count as
+      pursuing your Agenda. However, doing the same to an officer who knows
+      where you might find the Regent would count.</p><p>Completing a major task
+      for this Agenda may involve taking down a officer close to the Regent, or
+      interfering with his plans in a major
+      way.</p></blockquote><h3>Constrictor</h3><p>The thin tail of a Phidia is
+      not built for striking in the way of their Archosaurian cousins. The lean
+      muscle of a Phidian tail is bent to the task of grasping and constricting,
+      almost approximating a prehensile limb. You gain the following
+      benefits:</p><p><strong>Prehensile.</strong> During each of your Turns,
+      you can interact with two objects without having to use your Action, as
+      opposed to one.</p><p><strong>Python Strike.</strong> When you take the
+      Grapple Action, you can do so using your tail and thus not requiring a
+      free hand. When you make a Athletics Check to initiate a Grapple in this
+      way, or prevent a Creature grappled by your tail from escaping, you may
+      use your Dexterity Bonus instead of Strength.</p><h3>Ophidian
+      Sonar</h3><p>Like the Ophidians they represent, Phidia have an extremely
+      developed sensory system; it is unfair to say that they simply have a good
+      sense of hearing or smell, for the both are so inherently intwined in a
+      Phidia as to make no difference. When they are paying close attention to
+      their surroundings, you may see a Phidia with their mouth slightly ajar,
+      to better allow for smells and vibrations to permeate through the
+      biological sonar they possess. You gain the following
+      benefits:</p><p><strong>Sonar Pulse.</strong> As an Action, you can focus
+      completely on your hearing and smell at the exclusion of all else. If you
+      do so, you learn how many Creatures are within 100 feet of you; you learn
+      nothing of their intentions, affiliations or directions, but if they are
+      covered by a particularly strong scent (such as blood), you can detect
+      it.</p><p>However, when you use this Feature, you are considered to be
+      Blind until the beginning of your next
+      Turn.</p><p><strong>Tremorsense.</strong> You have 30 feet of
+      Tremorsense.</p><h3>Ancient Versatility</h3><p>The Ancient Species seized
+      the world of Terra from the Teekaz, and have since spread all over its
+      surface, to all its climes and domains. As such, those of an Ancient
+      Species possess a versatility not seen in the Teekaz. Choose one from the
+      following benefits when you select this
+      Species:</p><p><strong>Durable</strong>. Your Hit Point maximum increases
+      by an amount equal to your Level. Whenever you gain a Level thereafter,
+      your Hit Point maximum increases by an additional Hit
+      Point.</p><p><strong>Reliable.</strong> You gain Proficiency in one Skill
+      of your choice.</p><p><strong>Tenacious.</strong> You can add half of your
+      Proficiency Bonus (rounded down) to any Saving Throw you are not
+      Proficient in.</p>
+    chat: ''
+  identifier: phidia-species
+  source:
+    revision: 1
+    rules: '2024'
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 100098
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680318167
+  modifiedTime: 1768680611230
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!ntn3g26R3lcuWzXi'

@@ -1,0 +1,109 @@
+folder: tTSngUvYypYCRMJg
+name: Move First or Move Never
+type: feat
+_id: SwEdZQO7hbBwru9u
+img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Move First or Move Never</h3><p>Cautus live fast in many respects;
+      many on Terra have them beat in terms of raw strength or size. In order to
+      match them, the Cautus simply have to be faster off the mark, either to
+      run; or to strike.</p><p>When you roll Initiative, you may add twice your
+      Dexterity Modifier rather than just your Dexterity
+      Modifier.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: Move-First-or-Move-Never
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Move First or Move Never
+    img: icons/magic/movement/trail-streak-zigzag-yellow.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.SwEdZQO7hbBwru9u
+    _id: Knt3G4LUsf8PihbH
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.init.bonus
+        mode: 2
+        value: '@abilities.dex.mod'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!SwEdZQO7hbBwru9u.Knt3G4LUsf8PihbH'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680297411
+  modifiedTime: 1768680297411
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!SwEdZQO7hbBwru9u'

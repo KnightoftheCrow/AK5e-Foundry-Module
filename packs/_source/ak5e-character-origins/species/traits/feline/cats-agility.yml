@@ -1,0 +1,62 @@
+folder: 0y574SNwEgqxqc59
+name: Cat's Agility
+type: feat
+_id: B60pL4jAkEAFKeHX
+img: icons/creatures/abilities/paw-print-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Cat’s Agility</h3><p>Cats always land on their feet, or so the saying
+      goes. Whatever the truth, Felines are undoubtedly agile. You gain the
+      following benefits:</p><p><strong>On Your Feet.</strong> You can rise from
+      a Prone position at the cost of 5 feet of Movement.</p><p><strong>Terminal
+      Velocity.</strong> Whenever you would take Damage as a result of falling,
+      you can use your Reaction to halve the damage you take from that
+      fall.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: cats-agility
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680304928
+  modifiedTime: 1768680304928
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!B60pL4jAkEAFKeHX'

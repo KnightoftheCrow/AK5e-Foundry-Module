@@ -1,0 +1,59 @@
+folder: KwBV54ibG0i2c2cL
+name: Partially Amphibious
+type: feat
+_id: WdESLwHzQFKwPLhW
+img: icons/magic/water/bubbles-air-water-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Partially Amphibious</h3><p>The Anura are not a purely water-dwelling
+      people, but they have dwelled in and around water for as long as any in
+      their homelands can recall.</p><p>You can hold your breath for twice as
+      long as normal.</p><p><strong>Does not require Automation.</strong></p>
+    chat: ''
+  identifier: Partially-Amphibious
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680290139
+  modifiedTime: 1768680290139
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!WdESLwHzQFKwPLhW'

@@ -1,0 +1,110 @@
+folder: zsvveZcxSAb55UEZ
+name: Dragonscale
+type: feat
+_id: YMsryyGruXlSEvTI
+img: icons/commodities/leather/scales-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Dragonscale</h3><p>While the Vouivre tribes were subdued during the
+      Aslanian conquest, the struggle was so intense that the Aslanians had no
+      choice but to recognise their might. This might has not faded.</p><p>You
+      have 3 DR against Physical Damage.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: dragonscale
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects:
+  - name: Damage Reduction (3, Physical)
+    img: icons/commodities/leather/scales-blue.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.YMsryyGruXlSEvTI
+    _id: fdS5fNtEHLySz9hh
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.midi.non-magical-physical
+        mode: 2
+        value: '-3'
+        priority: 20
+      - key: system.traits.dm.amount.thunder
+        mode: 2
+        value: '-3'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!YMsryyGruXlSEvTI.fdS5fNtEHLySz9hh'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680538261
+  modifiedTime: 1768680538261
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!YMsryyGruXlSEvTI'

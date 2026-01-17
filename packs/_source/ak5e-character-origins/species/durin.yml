@@ -1,0 +1,157 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Durin
+type: race
+_id: vI9KWI0sEp3H1RLh
+img: icons/environment/wilderness/cave-entrance-rocky.webp
+system:
+  advancement:
+    - type: Size
+      _id: 2ujAKCbXOuwbYarw
+      configuration:
+        sizes:
+          - sm
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - type: AbilityScoreImprovement
+      _id: SbvfbNvuXzEE0cat
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 2
+        locked:
+          - cha
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: RIOpGUra0JQmf7ig
+      configuration:
+        items:
+          - uuid: Item.OfKh06BhfMWA2sC5
+            optional: false
+          - uuid: Item.hW51ZQdcGLM0ML9k
+            optional: false
+          - uuid: Item.ktV90mFsVAFFuAJL
+            optional: false
+          - uuid: Item.nJUXt9ipJiL6Wu6l
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Durin are small folk of even smaller stature, with pointed ears and of
+      peaceful nature, that hail from the underground of Terra. They resemble
+      dwarves of various mythologies, with a penchant for alcohol and
+      sensitivity to geography and topology, but notably lack the bulky body
+      shape typically associated with those fantastical Species. Durin tend to
+      be simple but happy folk, content to take each day as it comes, so long as
+      there’s some fun to be had amongst good company. With that said, this
+      stagnation chafes at an increasing number of Durin, who are abandoning
+      their underground roots for adventure on the surface.</p><p>The
+      Underground Durin Cities are paradises in many respects; City-States built
+      inside giant biodomes deep under Terra. It is a realm mostly unexplored by
+      surface dwellers, as common contact with the Durin is a modern development
+      thanks to the invention of the great lifts that connect the cities to the
+      surface. Most claim that their migration is due to boredom, but some
+      scholars doubt their sincerity in this regard.</p><h1>Durin
+      Traits</h1><p><strong>Creature Type:</strong> You are a
+      Humanoid.</p><p><strong>Size:</strong> Durin are small folk, averaging
+      around 4 feet in height. Equally diminutive is their stature, with
+      relatively feeble strength when compared to other races. On average, the
+      Durin weigh around 80 pounds. Your size is Small.</p><p><strong>Life
+      Expectancy:</strong> Durin reach adulthood around the age of 18, and have
+      a life expectancy of around 300 years.</p><p><strong>Speed:</strong> Your
+      base Walking Speed is 25 feet. However, you are not slowed by Difficult
+      Terrain.</p><p><strong>Ability Score Improvement:</strong> Your Charisma
+      Score increases by 2, and two other scores of your choice increase by
+      1.</p><h1>Durin Features</h1><p>As a Durin, you gain the following
+      benefits:</p><h3>Dwellers of the Underground</h3><p>The Durin live most of
+      their lives underground; all of it, in many cases. A majority of life is
+      spent within their cities, but it was not always so, as they dwelled
+      within the tunnels and caves of the earth. Even now, they maintain that
+      old knowledge. You gain the following
+      benefits:</p><p><strong>Darkvision.</strong> You have 30 feet of
+      Darkvision.</p><p><strong>Undergrounder.</strong> If you are underground
+      or within a building, you have 60 feet of Tremorsense; this Tremorsense
+      does not extend outside of the building you are in.</p><h3>Don’t Look Down
+      on Me!</h3><p>Durin that venture to the surface often find themselves
+      being treated with ‘kid gloves’ as a result of their size and appearance.
+      While some are happy to be patronized, others develop something of a
+      complex about their height.</p><p>When you deal Damage to a Creature who
+      is one or more sizes larger than you, you can cause that Creature to take
+      additional Damage equal to your Proficiency Bonus (no Action
+      required).</p><p>You can use this Feature a number of times equal to your
+      Proficiency Bonus, regaining all expended uses when you complete a Long
+      Rest, and you can use it no more than once per Turn.</p><h3>Hard
+      Target</h3><p>The diminutive size of the Durin would, at first glance,
+      appear to be a crushing disadvantage in combat. However, in practice, the
+      difference in height has an uncanny habit of throwing off their opponents,
+      who struggle to keep up.</p><p>Your base Armour Class is equal to 12 +
+      your Dexterity Modifier. You can use this base Armour Class even while
+      wearing Armour if your Armour Class would be lower than this.</p><h3>Cling
+      to the World</h3><p>The Teekaz lost this world to the Ancients long ago,
+      and yet they remain; stubbornly clinging to their lives, and their place
+      on Terra.</p><p>When you make a Death Saving Throw, you may add your
+      Proficiency Bonus to the result of the roll.</p>
+    chat: ''
+  identifier: durin-species
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain:
+      - all
+    walk: '25'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 300000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680300464
+  modifiedTime: 1768680579329
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!vI9KWI0sEp3H1RLh'

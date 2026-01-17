@@ -1,0 +1,127 @@
+folder: eqUa94qJGdHaVwWV
+name: Don't look down on me!
+type: feat
+_id: hW51ZQdcGLM0ML9k
+img: icons/creatures/mammals/humanoid-fox-cat-archer.webp
+system:
+  activities: {}
+  uses:
+    spent: null
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '@prof'
+  advancement: []
+  description:
+    value: >-
+      <h3>Don’t Look Down on Me!</h3><p>Durin that venture to the surface often
+      find themselves being treated with ‘kid gloves’ as a result of their size
+      and appearance. While some are happy to be patronized, others develop
+      something of a complex about their height.</p><p>When you deal Damage to a
+      Creature who is one or more sizes larger than you, you can cause that
+      Creature to take additional Damage equal to your Proficiency Bonus (no
+      Action required).</p><p>You can use this Feature a number of times equal
+      to your Proficiency Bonus, regaining all expended uses when you complete a
+      Long Rest, and you can use it no more than once per
+      Turn.</p><p><strong>Automated: </strong>Will Prompt you when you deal
+      Damage to a Creature of Medium size or greater.</p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Don't look down on me!
+    img: icons/creatures/mammals/humanoid-fox-cat-archer.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.hW51ZQdcGLM0ML9k
+    _id: kqEfZyCObp6rhzHM
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.optional.DLDOM.damage.all
+        mode: 2
+        value: '@prof'
+        priority: 20
+      - key: flags.midi-qol.optional.DLDOM.label
+        mode: 5
+        value: Don't Look Down on Me additional Damage
+        priority: 20
+      - key: flags.midi-qol.optional.DLDOM.count
+        mode: 5
+        value: turn
+        priority: 20
+      - key: flags.midi-qol.optional.DLDOM.countAlt
+        mode: 0
+        value: ItemUses.Don't look down on me!
+        priority: 20
+      - key: flags.midi-qol.optional.DLDOM.activation
+        mode: 0
+        value: '!["tiny","sm"].includes(target.traits.size)'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: 780
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: 97
+      startTurn: 0
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!hW51ZQdcGLM0ML9k.kqEfZyCObp6rhzHM'
+sort: 200000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.gd79KjzfNa4y4Qba
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680300464
+  modifiedTime: 1768680300464
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!hW51ZQdcGLM0ML9k'

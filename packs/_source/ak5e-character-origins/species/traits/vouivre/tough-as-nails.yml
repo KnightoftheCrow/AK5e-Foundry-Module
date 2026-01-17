@@ -1,0 +1,1064 @@
+folder: zsvveZcxSAb55UEZ
+name: Tough as Nails
+type: feat
+_id: Pype90SOkv2YVy1v
+img: icons/commodities/metal/mail-chain-steel.webp
+system:
+  activities:
+    7p72KRbPYbFiGhBD:
+      type: utility
+      _id: 7p72KRbPYbFiGhBD
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: turn
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: zg7sClQZUqGRPbBH
+          level:
+            min: null
+            max: null
+        - _id: Cuqet7Vq8SzijtmH
+          level:
+            min: null
+            max: null
+        - _id: MWsEsZl7AHnOus6s
+          level:
+            min: null
+            max: null
+        - _id: mRJ4zwUNP2PrRuuv
+          level:
+            min: null
+            max: null
+        - _id: 8QtouB4qxH12gu4P
+          level:
+            min: null
+            max: null
+        - _id: CY14GlOe4g60kCpx
+          level:
+            min: null
+            max: null
+        - _id: 3W15NzdlHyG1z2V1
+          level:
+            min: null
+            max: null
+        - _id: kedGl27umU4XhVKR
+          level:
+            min: null
+            max: null
+        - _id: LXeIEnHhiplN35mz
+          level:
+            min: null
+            max: null
+        - _id: YEUhpdDqY3F4iOIW
+          level:
+            min: null
+            max: null
+        - _id: FFNX34aIoyRfZvqp
+          level:
+            min: null
+            max: null
+        - _id: gSVlrWhQj6s09ruy
+          level:
+            min: null
+            max: null
+        - _id: OSEKh6E3LJrmK6ww
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: second-resistance
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: true
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: ''
+    sNNd6MQyhj5qb9yS:
+      type: utility
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: turn
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: zg7sClQZUqGRPbBH
+          level:
+            min: null
+            max: null
+        - _id: Cuqet7Vq8SzijtmH
+          level:
+            min: null
+            max: null
+        - _id: MWsEsZl7AHnOus6s
+          level:
+            min: null
+            max: null
+        - _id: mRJ4zwUNP2PrRuuv
+          level:
+            min: null
+            max: null
+        - _id: 8QtouB4qxH12gu4P
+          level:
+            min: null
+            max: null
+        - _id: CY14GlOe4g60kCpx
+          level:
+            min: null
+            max: null
+        - _id: 3W15NzdlHyG1z2V1
+          level:
+            min: null
+            max: null
+        - _id: kedGl27umU4XhVKR
+          level:
+            min: null
+            max: null
+        - _id: LXeIEnHhiplN35mz
+          level:
+            min: null
+            max: null
+        - _id: YEUhpdDqY3F4iOIW
+          level:
+            min: null
+            max: null
+        - _id: FFNX34aIoyRfZvqp
+          level:
+            min: null
+            max: null
+        - _id: gSVlrWhQj6s09ruy
+          level:
+            min: null
+            max: null
+        - _id: OSEKh6E3LJrmK6ww
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: true
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: true
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Second Resistance
+      _id: sNNd6MQyhj5qb9yS
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <h3>Tough as Nails</h3><p>The endurance of the Vouivre is legendary, able
+      to weather storms and blows that would fell other races.</p><p>When you
+      would take Damage, you can use your Reaction to gain Resistance to those
+      Damage Types until the beginning of your next Turn.</p><p>Once you have
+      used this Feature, you cannot do so again until you complete a Short or
+      Long Rest.</p><p><strong>Automated. </strong>When you use this Feature, it
+      will bring up two consecutive windows to choose the resistances you should
+      gain.</p>
+    chat: ''
+  identifier: tough-as-nails
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Acid Resistance
+    img: icons/commodities/metal/mail-chain-steel.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    _id: zg7sClQZUqGRPbBH
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 0
+        value: acid
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!Pype90SOkv2YVy1v.zg7sClQZUqGRPbBH'
+  - name: Bludgeoning Resistance
+    img: icons/commodities/metal/mail-chain-steel.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 0
+        value: bludgeoning
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - None
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: Cuqet7Vq8SzijtmH
+    _key: '!items.effects!Pype90SOkv2YVy1v.Cuqet7Vq8SzijtmH'
+  - name: Cold Resistance
+    img: icons/commodities/metal/mail-chain-steel.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 0
+        value: cold
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - None
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: MWsEsZl7AHnOus6s
+    _key: '!items.effects!Pype90SOkv2YVy1v.MWsEsZl7AHnOus6s'
+  - name: Fire Resistance
+    img: icons/commodities/metal/mail-chain-steel.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 0
+        value: fire
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - None
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: mRJ4zwUNP2PrRuuv
+    _key: '!items.effects!Pype90SOkv2YVy1v.mRJ4zwUNP2PrRuuv'
+  - name: Force Resistance
+    img: icons/commodities/metal/mail-chain-steel.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 0
+        value: force
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - None
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: 8QtouB4qxH12gu4P
+    _key: '!items.effects!Pype90SOkv2YVy1v.8QtouB4qxH12gu4P'
+  - name: Lightning Resistance
+    img: icons/commodities/metal/mail-chain-steel.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 0
+        value: lightning
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - None
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: CY14GlOe4g60kCpx
+    _key: '!items.effects!Pype90SOkv2YVy1v.CY14GlOe4g60kCpx'
+  - name: Necrotic Resistance
+    img: icons/commodities/metal/mail-chain-steel.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 0
+        value: necrotic
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - None
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: 3W15NzdlHyG1z2V1
+    _key: '!items.effects!Pype90SOkv2YVy1v.3W15NzdlHyG1z2V1'
+  - name: Piercing Resistance
+    img: icons/commodities/metal/mail-chain-steel.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 0
+        value: piercing
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - None
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: kedGl27umU4XhVKR
+    _key: '!items.effects!Pype90SOkv2YVy1v.kedGl27umU4XhVKR'
+  - name: Poison Resistance
+    img: icons/commodities/metal/mail-chain-steel.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 0
+        value: poison
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - None
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: LXeIEnHhiplN35mz
+    _key: '!items.effects!Pype90SOkv2YVy1v.LXeIEnHhiplN35mz'
+  - name: Psychic Resistance
+    img: icons/commodities/metal/mail-chain-steel.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 0
+        value: psychic
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - None
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: YEUhpdDqY3F4iOIW
+    _key: '!items.effects!Pype90SOkv2YVy1v.YEUhpdDqY3F4iOIW'
+  - name: Radiant Resistance
+    img: icons/commodities/metal/mail-chain-steel.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 0
+        value: radiant
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - None
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: FFNX34aIoyRfZvqp
+    _key: '!items.effects!Pype90SOkv2YVy1v.FFNX34aIoyRfZvqp'
+  - name: Slashing Resistance
+    img: icons/commodities/metal/mail-chain-steel.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 0
+        value: slashing
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - None
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: gSVlrWhQj6s09ruy
+    _key: '!items.effects!Pype90SOkv2YVy1v.gSVlrWhQj6s09ruy'
+  - name: Thunder Resistance
+    img: icons/commodities/metal/mail-chain-steel.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 0
+        value: thunder
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - None
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: OSEKh6E3LJrmK6ww
+    _key: '!items.effects!Pype90SOkv2YVy1v.OSEKh6E3LJrmK6ww'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680538261
+  modifiedTime: 1768680538261
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!Pype90SOkv2YVy1v'

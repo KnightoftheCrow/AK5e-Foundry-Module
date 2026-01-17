@@ -1,0 +1,144 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Feline
+type: race
+_id: UKaOzd91TZ7c0vN7
+img: icons/creatures/mammals/cat-hunched-glowing-red.webp
+system:
+  advancement:
+    - type: Size
+      _id: KTqeLF5FHdez1fXO
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: AbilityScoreImprovement
+      _id: 6WoDMa0u05WYsVv1
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 2
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - dex
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: ZQR6lE5EQNTE6WxG
+      configuration:
+        items:
+          - uuid: Item.B60pL4jAkEAFKeHX
+            optional: false
+          - uuid: Item.M677moCWjjTRd3iE
+            optional: false
+          - uuid: Item.547ctSSj45OJdK7B
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Felines are humanoids with Feliform traits, shown prominently in ears,
+      tails, eye colour, and teeth structure. Much like their namesake, they
+      have a reputation for stealth (if not outright guile). They are the most
+      populous race on Terra, able to adapt to any and all circumstances. Such
+      is their ubiquity that a Gaulish proverb “Où que tu ailles, un Félin suit
+      (Wherever you go, a Feline follows)” has outlived the empire that it
+      originated from.</p><p>Despite being one of the most populous races on the
+      surface of Terra, Felines have never ruled a land of their own, always
+      serving under the banner of another. They are leal and able allies, found
+      anywhere and everywhere, but they have never yet had a land to call
+      home.</p><h1>Feline Traits</h1><p><strong>Creature Type:</strong> You are
+      a Humanoid.</p><p><strong>Size:</strong> Felines stand between 5 and 6
+      feet, and average 140 pounds. Your size is Medium.</p><p><strong>Life
+      Expectancy:</strong> Felines reach adulthood around the age of 18, and
+      have a life expectancy of around 80 years.</p><p><strong>Speed:</strong>
+      Your base Walking Speed is 30 feet. You have a Climbing Speed equal to
+      your Walking Speed.</p><p><strong>Ability Score Improvement:</strong> Your
+      Dexterity Score increases by 2, and two other scores of your choice
+      increase by 1.</p><h1>Feline Features</h1><p>As a Feline, you gain the
+      following Features:</p><h3>Cat’s Agility</h3><p>Cats always land on their
+      feet, or so the saying goes. Whatever the truth, Felines are undoubtedly
+      agile. You gain the following benefits:</p><p><strong>On Your
+      Feet.</strong> You can rise from a Prone position at the cost of 5 feet of
+      Movement.</p><p><strong>Terminal Velocity.</strong> Whenever you would
+      take Damage as a result of falling, you can use your Reaction to halve the
+      damage you take from that fall.</p><h3>Darkvision</h3><p>The specially
+      adapted eyes of the Felines give you a distinct advantage. You gain 120
+      feet of Darkvision. Remember to update the vision range.</p><h3>Natural
+      Skulkers</h3><p>Felines are naturally adapted to quiet, stealthy movement.
+      Even the most heavyfooted Feline can be far stealthier than they have any
+      right to be. You gain the following
+      benefits:</p><p><strong>Footpad.</strong> Whenever you make a Stealth
+      Check, if the on the d20 is less than your Proficiency Bonus, it becomes
+      equal to your Proficiency Bonus.</p><p><strong>Stealth
+      Proficiency.</strong> You gain Proficiency in Stealth.</p><h3>Ancient
+      Versatility</h3><p>The Ancient Species seized the world of Terra from the
+      Teekaz, and have since spread all over its surface, to all its climes and
+      domains. As such, those of an Ancient Species possess a versatility not
+      seen in the Teekaz. Choose one from the following benefits when you select
+      this Species:</p><p><strong>Durable.</strong> Your Hit Point maximum
+      increases by an amount equal to your Level. Whenever you gain a Level
+      thereafter, your Hit Point maximum increases by an additional Hit
+      Point.</p><p><strong>Reliable.</strong> You gain Proficiency in one Skill
+      of your choice.</p><p><strong>Tenacious.</strong> You can add half of your
+      Proficiency Bonus (rounded down) to any Saving Throw you are not
+      Proficient in.</p>
+    chat: ''
+  identifier: feline-species
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: '30'
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: 120
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 101563
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680304928
+  modifiedTime: 1768680586334
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!UKaOzd91TZ7c0vN7'

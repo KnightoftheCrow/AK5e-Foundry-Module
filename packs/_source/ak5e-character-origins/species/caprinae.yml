@@ -1,0 +1,157 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Caprinae
+type: race
+_id: awxlOzo01blwv008
+img: icons/creatures/mammals/goat-horned-blue.webp
+system:
+  advancement:
+    - type: Size
+      _id: Bn6CYfjri3uPX1xd
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: AbilityScoreImprovement
+      _id: yDtLs28Njk4vTKxV
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 2
+          cha: 0
+        locked:
+          - wis
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: K5ZSxobAe8IyfeYy
+      configuration:
+        items:
+          - uuid: Item.60NkObMKvCzEHDM1
+            optional: false
+          - uuid: Item.Y8mjiTNFXaDoFlI1
+            optional: false
+          - uuid: Item.QQ6lJsL16UvfY9uq
+            optional: false
+          - uuid: Item.547ctSSj45OJdK7B
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>If battle runs in the blood of the Lupi, Arts must run in the blood of
+      the Caprinae. They have the traits of goats and sheep, notably including
+      curved horns like a ram for both sexes. Some of the most prolific and
+      powerful Arts Casters in the history of Terra have been Caprinae,
+      including the late Witch King, and Caprinae Casters are often leaders in
+      their respective fields. The horns of a Caprinae are integral to their
+      identity; even amongst other horned Species such as Forte, Elafians, or
+      Sarkaz, Caprinae tend to put the most stock into their horns, caring for
+      them as part of their appearance as many others would their hair. For most
+      (but not all) Caprinae, to lose their horns would be a most mortal
+      blow.</p><p>Many Caprinae originate from Leithanien, a land that
+      constantly seeks to further the study of Originium Arts, and even actively
+      discriminates against those who cannot wield Arts. However, large
+      populations can also be found in surrounding terrorites such as Victoria
+      and Siracusa, where they are highly valued for their talent in both
+      Originium and performing Arts.</p><h1>Caprinae
+      Traits</h1><p><strong>Creature Type:</strong> You are a
+      Humanoid.</p><p><strong>Size:</strong> Caprinae reach adulthood around the
+      age of 18, and have a life expectancy of around 80 years. They weigh
+      around 150 pounds on average; your size is Medium.</p><p><strong>Life
+      Expectancy:</strong> Caprinae reach adulthood around the age of 18, and
+      have a life expectancy of around 80 years. They weigh around 160 pounds on
+      average.</p><p><strong>Speed:</strong> Your base Walking Speed is 30
+      feet.</p><p><strong>Ability Score Improvement:</strong> Your Wisdom Score
+      increases by 2, and two other scores of your choice increase by
+      1.</p><h1>Caprinae Features</h1><p>As a Caprinae, you gain the following
+      Features:</p><h3>Arts Resistance</h3><p>The inherent affinity of Caprinae
+      with Arts does not just apply to their use, but also defence against
+      them.</p><p>When you would make a Saving Throw against an Art or Art-like
+      effect, you can make that Saving Throw with Advantage.</p><p>Once you use
+      this Feature, you may not use it again until you finish a Short or Long
+      Rest.</p><h3>Fine Tuning</h3><p>Perhaps due to their natural affinity for
+      Arts tuning them into the flow of things at a subconscious level, Caprinae
+      can place their blows and their Arts to achieve maximum effect.</p><p>Once
+      per Turn, when you roll to determine the Damage you deal, or the Hit
+      Points you restore with an Art, you can roll one additional die and
+      discard the die with the lowest result.</p><h3>In Their
+      Blood</h3><p>Caprinae have a natural affinity for Arts; even those who do
+      not choose to pursue it have that might imprinted upon them from birth.
+      You gain the following benefits:</p><p><strong>Arts Proficiency.</strong>
+      You gain Proficiency in the Arts Skill.</p><p><strong>Inherent
+      Magic.</strong> Choose one of the Arts Pools available to the Caster
+      Class; you learn the Cantrips for that Arts Pool. At 7th Level, you learn
+      a 1st Level Art of your choice from the chosen Arts Pool; this Art is
+      always prepared, and once per Short Rest you may cast it at 1st Level
+      without expending any Arts Points.</p><p>Intelligence, Wisdom, or Charisma
+      is your Spellcasting Ability for these Arts (choose when you gain this
+      Feature). Additionally, you do not require a weapon with the Casting Unit
+      Property or Oripathy to cast the Arts you gain through this
+      Feature.</p><h3>Ancient Versatility</h3><p>The Ancient Species seized the
+      world of Terra from the Teekaz, and have since spread all over its
+      surface, to all its climes and domains. As such, those of an Ancient
+      Species possess a versatility not seen in the Teekaz. Choose one from the
+      following benefits when you select this
+      Species:</p><p><strong>Durable.</strong> Your Hit Point maximum increases
+      by an amount equal to your Level. Whenever you gain a Level thereafter,
+      your Hit Point maximum increases by an additional Hit
+      Point.</p><p><strong>Reliable.</strong> You gain Proficiency in one Skill
+      of your choice.</p><p><strong>Tenacious.</strong> You can add half of your
+      Proficiency Bonus (rounded down) to any Saving Throw you are not
+      Proficient in.</p>
+    chat: ''
+  identifier: caprinae-species
+  source:
+    revision: 1
+    rules: '2024'
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 125000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680294541
+  modifiedTime: 1768680568460
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!awxlOzo01blwv008'

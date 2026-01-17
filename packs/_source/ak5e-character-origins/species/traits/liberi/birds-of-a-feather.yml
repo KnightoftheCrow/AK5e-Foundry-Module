@@ -1,0 +1,261 @@
+folder: h1ZaHqWXhgAO8OM0
+name: Birds of a Feather
+type: feat
+_id: sXQvZHUNaAFY10E0
+img: icons/creatures/birds/raptor-hawk-flying.webp
+system:
+  activities:
+    Wq1Xa2w9cQrkwjry:
+      type: utility
+      _id: Wq1Xa2w9cQrkwjry
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: perm
+        concentration: false
+        override: false
+      effects:
+        - _id: 5DENy2rnHlf8MwYk
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ally
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Gift Feather
+  uses:
+    spent: 0
+    recovery: []
+    max: round(@prof/2)
+  advancement:
+    - type: ItemGrant
+      _id: uqNHJpLuViYjlfwb
+      configuration:
+        items:
+          - uuid: Item.GXqXqO8Lu1hoS9yg
+            optional: false
+          - uuid: Item.QiKm9xxoarYlIzbI
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <h3>Birds of a Feather</h3><p>Some Liberi have been known to give one or
+      more of their feathers to those they hold dear, and to those they trust.
+      It is a symbolic gesture, but the feelings and intentions behind it are
+      anything but, and shouldn’t be done lightly!</p><p>Upon finishing a Long
+      Rest, you may gift one of your feathers to a Creature; that Creature
+      becomes part of your Flock. You and that ally gain the following
+      benefits:</p><p><strong>Birds of Prey</strong>. When you would make an
+      Attack Roll against a Creature that has already been Attacked or Damaged
+      by a member of your Flock since your last Turn, you may give yourself
+      Advantage on that Attack Roll (no Action required). You may use this
+      Feature once per Short Rest.</p><p><strong>Nestmakers.</strong> When you
+      roll to determine the amount of Hit Points you restore or Temporary Hit
+      Points you grant to a member of your Flock, you can roll those dice twice
+      and take either total (no Action required). You may use this Feature once
+      per Short Rest.</p><p><strong>Flock Members.</strong> The maximum number
+      of members that can be in your Flock (not including you) is equal to half
+      your Proficiency Bonus, rounding up. A Creature cannot be in more than one
+      Flock; if it joins a second Flock, it is removed from the first one. You
+      can remove a Creature from your Flock at any time.</p><p><strong>Partially
+      Automated: </strong>Grants the Birds of Prey and Nestmaker Features to
+      Creatures marked as a member of your Flock.</p>
+    chat: ''
+  identifier: birds-of-a-feather
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Flock Member
+    img: icons/creatures/birds/raptor-hawk-flying.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.sXQvZHUNaAFY10E0
+    transfer: false
+    _id: 5DENy2rnHlf8MwYk
+    type: base
+    system: {}
+    changes:
+      - key: macro.createItem
+        mode: 0
+        value: Item.GXqXqO8Lu1hoS9yg
+        priority: 20
+      - key: macro.createItem
+        mode: 0
+        value: Item.QiKm9xxoarYlIzbI
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You and that ally gain the following benefits:</p><p><strong>Birds of
+      Prey</strong>. When you would make an Attack Roll against a Creature that
+      has already been Attacked or Damaged by a member of your Flock since your
+      last Turn, you may give yourself Advantage on that Attack Roll (no Action
+      required). You may use this Feature once per Short
+      Rest.</p><p><strong>Nestmakers.</strong> When you roll to determine the
+      amount of Hit Points you restore or Temporary Hit Points you grant to a
+      member of your Flock, you can roll those dice twice and take either total
+      (no Action required). You may use this Feature once per Short Rest.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!sXQvZHUNaAFY10E0.5DENy2rnHlf8MwYk'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680310513
+  modifiedTime: 1768680310513
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!sXQvZHUNaAFY10E0'

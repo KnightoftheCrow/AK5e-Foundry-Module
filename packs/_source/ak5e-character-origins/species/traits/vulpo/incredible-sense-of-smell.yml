@@ -1,0 +1,60 @@
+folder: 4V9Q0VG5s7MgLcvX
+name: Incredible Sense of Smell
+type: feat
+_id: Wb6YPKLD6ii86efc
+img: icons/skills/targeting/target-glowing-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Incredible Sense of Smell</h3><p>The Vulpo’s sense of smell is so
+      adept, their other senses can sometimes take a backseat.</p><p>As long as
+      you have access to your sense of smell, you have 20 feet of Blindsight.
+      From 7th level, you can also see Invisible Creatures within this
+      range.</p><p><strong>Partially Automated. </strong>Remember to update the
+      vision range.</p>
+    chat: ''
+  identifier: incredible-smell
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680541395
+  modifiedTime: 1768680541395
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!Wb6YPKLD6ii86efc'

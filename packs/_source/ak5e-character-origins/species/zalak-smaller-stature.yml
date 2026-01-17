@@ -1,0 +1,167 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Zalak (Smaller Stature)
+type: race
+img: icons/creatures/mammals/rodent-rat-diseaed-gray.webp
+system:
+  advancement:
+    - type: AbilityScoreImprovement
+      _id: D1Z1cWgUIpxSHj15
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 2
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - dex
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - type: Size
+      _id: 92DBigiY4Mv8oEqn
+      configuration:
+        sizes:
+          - sm
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      _id: NzdllvtCwn2MHmzD
+      configuration:
+        items:
+          - uuid: Item.b4pwGXuFx1xZcSS1
+            optional: false
+          - uuid: Item.6dJdhtaGclkpREVA
+            optional: false
+          - uuid: Item.sBmV7GGrGnroBAcL
+            optional: false
+          - uuid: Item.547ctSSj45OJdK7B
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Small, slight, nimble, cunning; the heritage of rodents and
+      rodent-adjacent animals shines bright in the Zalak. Much like the Perro,
+      there is a great degree of variation amongst Zalak, much of which is
+      regional. Pointed and rounded ears, thin whip-like tails and bushy tails,
+      even the general thickness of their fur can vary from individual to
+      individual. What they do have in common is their short stature, high
+      fertility, and disposition. Thanks to the aforementioned high fertility,
+      Zalak populations continue to explode in the wake of modern medicine. What
+      was once a method to ensure that some children survived the wilds is now
+      resulting in a rapid growth of Zalak families in places such as Kazimierz,
+      Columbia, or Rim Billiton.</p><p>While the physical prowess of the Zalak
+      might be nothing to write home about, it is their mental strengths (and
+      pitfalls) that set them apart from other Species, allowing them to compete
+      in a field of predators. They possess a naturally nervous disposition, and
+      are always on high alert, even amongst friends. The stress of this
+      hyper-awareness leads to their second characteristic; Zalak are obsessive,
+      picking a goal or concept or a person and devoting themselves to it. For
+      some, this allows them to accomplish great things; for others, it can
+      destroy them and others. For many years, this “Zalak Syndrome” as it is
+      called was used as a derogatory descriptor of their obsessive, preparatory
+      tendencies, but gradually has been rebranded through the Columbian Film
+      Industry into a positive idiom for one who prepares ahead of
+      time.</p><h1>Zalak Traits</h1><p><strong>Creature Type:</strong> Your
+      Creature Type is Humanoid.</p><p><strong>Size:</strong> Zalak stand
+      between 4.5 and 5.5 feet, typically towards the lower end of that bracket,
+      and average 110 pounds. Your size is Medium.</p><p><strong>Life
+      Expectancy:</strong> Zalak reach reach maturity earlier than other races,
+      reaching adulthood between 12 and 16, and living for around 60 years on
+      average.</p><p><strong>Speed:</strong> Your base Walking Speed is 30
+      feet.</p><p><strong>Ability Score Improvement:</strong> Your Dexterity
+      Score increases by 2, and two other scores of your choice increase by
+      1.</p><blockquote><p><strong>Variant: Smaller Stature</strong></p><p>When
+      you choose this species, you can choose for your size to be Small. If you
+      do, your base Walking Speed increases by 5ft, but you cannot wear
+      equipment that isn’t made for someone of your
+      size.</p></blockquote><h1>Zalak Features</h1><p>As a Zalak, you gain the
+      following Features:</p><h3>Hyperfocus</h3><p>Zalak are difficult to catch
+      off guard, but even harder to pin down when they are the ones dictating
+      the flow of action. You gain the following benefits:</p><p><strong>Hair
+      Trigger.</strong> During your Turn:</p><ul><li><p>You have Advantage on
+      Saving Throws against effects you can see, or against
+      traps</p></li><li><p>Any Attack Roll made against you is made at
+      Disadvantage.</p></li></ul><p><strong>Spring-Loaded.</strong> When you
+      fail a Strength or Dexterity Saving Throw against an effect you can see,
+      you can reroll that Saving Throw, but must use the new result. If this
+      causes you to pass, and if you would take Half Damage as a result of
+      passing that Saving Throw, you instead take no Damage. Once you have used
+      this Feature, you cannot do so again until you have completed a Short
+      Rest.</p><h3>Nervous Disposition</h3><p>The alert nature of the Zalak is
+      well documented. Their senses perpetually scan for threats, practically
+      autonomously, granting them awareness others can only dream of. You gain
+      the following benefits:</p><p><strong>Avoidant.</strong> You cannot be
+      Surprised while you are not Incapacitated.</p><p><strong>Aware.</strong>
+      You have a +5 bonus to your passive Wisdom (Perception) score.</p><h3>Prey
+      Sense</h3><p>The Zalak have always been prey, not predator, and they
+      intrinsically know how best to conceal themselves.</p><p>When you take the
+      Hide Action, you can immediately use your Bonus Action to grant yourself a
+      +5 Bonus to that Dexterity (Stealth) Check.</p><h3>Ancient
+      Versatility</h3><p>The Ancient Species seized the world of Terra from the
+      Teekaz, and have since spread all over its surface, to all its climes and
+      domains. As such, those of an Ancient Species possess a versatility not
+      seen in the Teekaz. Choose one from the following benefits when you select
+      this Species:</p><p><strong>Durable.</strong> Your Hit Point maximum
+      increases by an amount equal to your Level. Whenever you gain a Level
+      thereafter, your Hit Point maximum increases by an additional Hit
+      Point.</p><p><strong>Reliable.</strong> You gain Proficiency in one Skill
+      of your choice.</p><p><strong>Tenacious.</strong> You can add half of your
+      Proficiency Bonus (rounded down) to any Saving Throw you are not
+      Proficient in.</p>
+    chat: ''
+  identifier: zalak-species-small
+  source:
+    revision: 1
+    rules: '2014'
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '35'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: ''
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 1300000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: Item.KuM1jo2Rbdq6UDf3
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680545138
+  modifiedTime: 1768680663916
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: zdMKyI9DMhfJaLRm
+_key: '!items!zdMKyI9DMhfJaLRm'

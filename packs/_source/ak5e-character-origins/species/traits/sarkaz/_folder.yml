@@ -1,0 +1,20 @@
+type: Item
+folder: p0hCStL5XAee5iXT
+name: Sarkaz
+color: null
+sorting: a
+_id: oGfi5z7DvV3sk6HC
+description: ''
+sort: 2000000
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680418819
+  modifiedTime: 1768680423890
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!folders!oGfi5z7DvV3sk6HC'

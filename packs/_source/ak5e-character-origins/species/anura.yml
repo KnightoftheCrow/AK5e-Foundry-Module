@@ -1,0 +1,154 @@
+folder: xhxeMDVgdSwHD9Xw
+name: Anura
+type: race
+_id: QM3Pi9BPG8lJwzdt
+img: icons/creatures/amphibians/bullfrog-glass-teal.webp
+system:
+  advancement:
+    - type: Size
+      _id: 88Rtfo4kpW2ojHTo
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: ItemGrant
+      _id: 5NWAq8LFKjmGzY03
+      configuration:
+        items:
+          - uuid: Item.7IkZL0NBFK3LEPur
+            optional: false
+          - uuid: Item.pSaLDSuMoSgM2SXW
+            optional: false
+          - uuid: Item.WdESLwHzQFKwPLhW
+            optional: false
+          - uuid: Item.547ctSSj45OJdK7B
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+    - type: AbilityScoreImprovement
+      _id: x8wXNwFce2gV8sKV
+      configuration:
+        cap: 1
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 2
+          wis: 0
+          cha: 0
+        locked:
+          - int
+        points: 2
+        recommendation: null
+        max: null
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>Anura have the traits of frogs and toads, though their animalistic
+      traits can be hard to spot, mostly shown in their eyes, and in patches of
+      scales over their bodies. Anura internally produce a very potent toxin
+      which they can secrete through glands on their neck and back. As such,
+      they are often skilled in toxicology and use of these poisons and toxins;
+      it is a reputation that precedes them, as many are fearful of the Anura,
+      fearing to even touch them, or eat food that they’ve prepared. However,
+      the Anura are capable of controlling the toxicity of their poison, and
+      thus pose little actual risk.</p><p>The Anura are rare, originating from
+      the rainforests of Sargon and Bolivar. These humid, swampy regions suit
+      their natural constitution, and thus they sometimes come into contact with
+      the Archosaurians who also dwell in these regions. In modern times, some
+      Anura are beginning to migrate from their rainforest home into nomadic
+      cities; though they still prefer those with abundant greenery and good
+      access to water.</p><h1>Anuran Traits</h1><p><strong>Creature
+      Type:</strong> You are a Humanoid.</p><p><strong>Size:</strong> Anura
+      stand between 5 and 5.5 feet, and average 130 pounds. Your size is
+      Medium.</p><p><strong>Life Expectancy:</strong> Anura reach adulthood
+      around the age of 18, and have a life expectancy of around 80
+      years.</p><p><strong>Speed:</strong> Your base Walking Speed is 30 feet.
+      You have a Swimming Speed equal to your Walking
+      Speed.</p><p><strong>Ability Score Improvement:</strong> Your Intelligence
+      Score increases by 2, and two other scores of your choice increase by
+      1.</p><h1>Anuran Features</h1><p>As an Anura, you gain the following
+      features:</p><h3>Blood of the Swamp</h3><p>The Anura are naturally toxic,
+      and originate from deep, dank swamps full of equally venomous creatures.
+      They have developed a strong resistance to all toxins. You gain the
+      following benefits:</p><p><strong>Legacy of Venom.</strong> You have
+      Advantage on Saving Throws you make to avoid or end the Poisoned Condition
+      or the effect of any Toxin.</p><p><strong>Poison Resistance.</strong> You
+      have Resistance to Poison Damage.</p><p><strong>Self-Toxin
+      Immunity.</strong> You are immune to the Damage and Effects of Toxins you
+      produce using your Toxin Glands Feature.</p><h3>Toxin Glands</h3><p>The
+      Anura can secrete their venom to make use of it in their lives; as such,
+      they have a somewhat unsavoury reputation in the wider world outside of
+      their tribes. Many are afraid to touch them, to share utensils, or to even
+      eat food prepared by them.</p><p>Once per Short Rest, you can secrete 1x
+      Cytotoxin as an Action. If this toxin is not used within 10 minutes, it
+      becomes inert.</p><p>From 7th Level, you can secrete 1x Neurotoxin
+      instead.</p><h3>Partially Amphibious</h3><p>The Anura are not a purely
+      water-dwelling people, but they have dwelled in and around water for as
+      long as any in their homelands can recall.</p><p>You can hold your breath
+      for twice as long as normal.</p><h3>Ancient Versatility</h3><p>The Ancient
+      Species seized the world of Terra from the Teekaz, and have since spread
+      all over its surface, to all its climes and domains. As such, those of an
+      Ancient Species possess a versatility not seen in the Teekaz. Choose one
+      from the following benefits when you select this
+      Species:</p><p><strong>Durable.</strong> Your Hit Point maximum increases
+      by an amount equal to your Level. Whenever you gain a Level thereafter,
+      your Hit Point maximum increases by an additional Hit
+      Point.</p><p><strong>Reliable.</strong> You gain Proficiency in one Skill
+      of your choice.</p><p><strong>Tenacious.</strong> You can add half of your
+      Proficiency Bonus (rounded down) to any Saving Throw you are not
+      Proficient in.</p>
+    chat: ''
+  identifier: anura-species
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  movement:
+    units: ft
+    hover: false
+    ignoredDifficultTerrain: []
+    walk: '30'
+    burrow: ''
+    climb: ''
+    fly: ''
+    swim: '30'
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: ft
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680290139
+  modifiedTime: 1768680561128
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!QM3Pi9BPG8lJwzdt'

@@ -1,0 +1,271 @@
+folder: eqUa94qJGdHaVwWV
+name: Dwellers of the Underground
+type: feat
+_id: OfKh06BhfMWA2sC5
+img: icons/environment/wilderness/mine-exterior-entrance.webp
+system:
+  activities:
+    6xYRRw8jRutwpF6z:
+      type: utility
+      _id: 6xYRRw8jRutwpF6z
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: false
+      effects:
+        - _id: dnVHwjA9281XDI0y
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: false
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: true
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        autoCEEffects: default
+        skipConcentrationCheck: false
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Toggle Tremorsense
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <h3>Dwellers of the Underground</h3><p>The Durin live most of their lives
+      underground; all of it, in many cases. A majority of life is spent within
+      their cities, but it was not always so, as they dwelled within the tunnels
+      and caves of the earth. Even now, they maintain that old knowledge. You
+      gain the following benefits:</p><p><strong>Darkvision.</strong> You have
+      30 feet of Darkvision.</p><p><strong>Undergrounder.</strong> If you are
+      underground or within a building, you have 60 feet of Tremorsense; this
+      Tremorsense does not extend outside of the building you are
+      in.</p><p><strong>Partially Automated: </strong>Provides Darkvision. Use
+      the Toggle Tremorsense Activity to turn your Tremorsense on and off when
+      appropriate. Remember to update the vision range.</p>
+    chat: ''
+  identifier: Dwellers-of-the-Underground
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: race
+    subtype: ''
+effects:
+  - name: Darkvision
+    img: icons/environment/wilderness/mine-exterior-entrance.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.OfKh06BhfMWA2sC5
+    _id: wz2ekG97KSwKDwZf
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.senses.darkvision
+        mode: 2
+        value: '30'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!OfKh06BhfMWA2sC5.wz2ekG97KSwKDwZf'
+  - name: Tremorsense
+    img: icons/environment/wilderness/mine-exterior-entrance.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.OfKh06BhfMWA2sC5
+    transfer: false
+    _id: dnVHwjA9281XDI0y
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.senses.tremorsense
+        mode: 2
+        value: '60'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!OfKh06BhfMWA2sC5.dnVHwjA9281XDI0y'
+sort: 300000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680300464
+  modifiedTime: 1768680300464
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!OfKh06BhfMWA2sC5'

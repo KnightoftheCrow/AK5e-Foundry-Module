@@ -1,0 +1,285 @@
+_id: 8A2XPdYTRQXhWVBH
+name: Unarmed Strike
+type: weapon
+img: icons/skills/melee/unarmed-punch-fist-yellow-red.webp
+system:
+  activities:
+    H9sA759bPJSda7L3:
+      _id: H9sA759bPJSda7L3
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: unarmed
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: ''
+      otherActivityAsParentType: true
+      attackMode: oneHanded
+      ammunition: ''
+      otherActivityUuid: ''
+      attackRollPerTarget: default
+      fumbleThreshold: 1
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: <p>[[/attack extended]], [[/damage extended]].</p>
+    chat: ''
+  identifier: unarmed-strike
+  source:
+    revision: 2
+    rules: '2014'
+    book: AK5e
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  armor:
+    value: null
+  cover: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: natural
+    baseItem: ''
+  ammunition: {}
+  damage:
+    base:
+      number: 1
+      denomination: 4
+      types:
+        - bludgeoning
+      custom:
+        enabled: false
+        formula: '@scale.monk.die + @mod'
+      scaling:
+        number: 1
+      bonus: ''
+    versatile:
+      number: null
+      denomination: null
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+  magicalBonus: null
+  properties: []
+  proficient: 1
+  range:
+    value: null
+    long: null
+    reach: 5
+    units: ft
+  mastery: ''
+  crew:
+    value: []
+effects:
+  - name: Grappled
+    img: systems/dnd5e/icons/svg/statuses/grappled.svg
+    origin: Compendium.ak5e.ak5e-character-origins.Item.8A2XPdYTRQXhWVBH
+    transfer: false
+    _id: OM3Rt1nQv3WKS0pc
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - grappled
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: >-
+        Compendium.dnd-players-handbook.equipment.Item.phbUnarmedStrike.ActiveEffect.bdG1d6kwc7F8Gbfg
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!8A2XPdYTRQXhWVBH.OM3Rt1nQv3WKS0pc'
+  - name: Prone
+    img: systems/dnd5e/icons/svg/statuses/prone.svg
+    origin: Compendium.ak5e.ak5e-character-origins.Item.8A2XPdYTRQXhWVBH
+    transfer: false
+    _id: OgkonP6JL0AdFtQN
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses:
+      - prone
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: >-
+        Compendium.dnd-players-handbook.equipment.Item.phbUnarmedStrike.ActiveEffect.SfM8X3xktY0PR0Kz
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!8A2XPdYTRQXhWVBH.OgkonP6JL0AdFtQN'
+folder: vi5HmKIcmhX4pzp6
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.dnd-players-handbook.classes.Item.phbmnkUnarmedStr
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1768680535308
+  modifiedTime: 1768680535308
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+sort: 300000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!8A2XPdYTRQXhWVBH'
