@@ -69,6 +69,17 @@
 }
 
 
+.dnd5e2.sheet.actor.character .sheet-body .pill-lg.ak5e\.nationality {
+  cursor: var(--cursor-pointer);
+}
+.dnd5e2.sheet.actor.character .sheet-body .pill-lg.ak5e\.nationality:hover:not(:has(a:hover)) {
+  box-shadow: 0 0 12px var(--dnd5e-color-gold);
+}
+.dnd5e2.sheet.actor.character .sheet-body .pill-lg.texture.ak5e\.nationality {
+  background: url("./../../../systems/dnd5e/ui/official/pill-texture-background.webp") no-repeat right, var(--pill-background-color);
+}
+
+
 @keyframes scroll {
   0% {
     background-position: 0 0

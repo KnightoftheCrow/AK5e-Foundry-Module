@@ -1,4 +1,12 @@
 {
+    "TYPES.Item": {
+        "ak5e.nationality": "Nationality",
+        "ak5e": {
+            "Nationality": "Nationality",
+            "NationalityPl": "Nationality"
+        }
+    },
+
     "ak5e": {
         "EnableTrackingBar": "Enable Tracking Bar",
         "TrackingBarAnimation": "Tracking Bar Animation",
@@ -101,6 +109,24 @@
             "Yanese": "Yanese",
             "Gaulish": "Gaulish",
             "SignLanguage": "Sign"
+        },
+        "sheet": {
+            "characterSheet" : "AK5e Character Sheet"
+        },
+        "NationalityAdd": "Add Nationality"
+    },
+
+    "AK5E": {
+        "ADVANCEMENT": {
+            "Defaults": {
+                "NationalityProficiencies": "National Proficiencies",
+                "NationalityFeature": "National Feature",
+                "NationalityFeat": "National Feat"
+            }
         }
-    }
+    },
+    
+    "TYPES.Item.ak5e.nationality": "Nationality"
 }
+
+

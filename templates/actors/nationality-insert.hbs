@@ -1,0 +1,23 @@
+{{#if item}}
+<div class="draggable pill-lg texture {{type}} item-tooltip " data-action="showDocument" 
+    data-item-id="{{ item.id }}" data-uuid="{{ item.uuid }}"
+    aria-label="{{ localize (ifThen actor.isOwner DND5E.ItemEdit DND5E.ItemView) }}">
+    {{#if item.img}}
+    <img class="gold-icon" src="{{ item.img }}" alt="{{ item.name }}">
+    {{/if}}
+    <div class="name name-stacked">
+        <span class="title">{{ item.name }}</span>
+    </div>
+    {{#if editable}}
+    <button type="button" class="config-button unbutton" data-action="deleteDocument"
+            data-tooltip="DND5E.ItemDelete" aria-label="{{ localize 'DND5E.ItemDelete' }}"
+            data-tooltip-class data-tooltip-direction>
+        <i class="fas fa-trash" inert></i>
+    </button>
+    {{/if}}
+</div>
+{{else if actor.isOwner}}
+<div class="pill-lg empty roboto-upper" data-action="findItem" data-item-type="{{type}}">
+    {{ localize "ak5e.NationalityAdd" }}
+</div>
+{{/if}}

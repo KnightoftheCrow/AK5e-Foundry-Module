@@ -1,27 +1,42 @@
+import { registerCharacterSheet } from "./character-sheet.mjs";
+import NationalityData from "./nationalityData.mjs";
+
+function addTabs() {
+    const tabs = dnd5e.applications.CompendiumBrowser.TABS;
+    const NationalityTab = {
+        tab: "nationality",
+        label: "TYPES.Item.ak5e.NationalityPl",
+        svg: "modules/ak5e/icons/nationality/nationality.svg",
+        documentClass: "Item",
+        types: ["ak5e.nationality"]
+    }
+    tabs.splice(4, 0, NationalityTab);
+}
+
 Hooks.once("init", () => { 
   
 	// Add ak5e item properties and push to validProperties so they're available on item sheets
 	const ak5eItemProps = {
-    bnd: "ak5e.weaponProperties.weaponPropBound",
-    brc: "ak5e.weaponProperties.weaponPropBrace",
-    cst: "ak5e.weaponProperties.weaponPropCasting",
-    cnd: "ak5e.weaponProperties.weaponPropConductive",
-    chc: "ak5e.weaponProperties.weaponPropCouch",
-    ded: "ak5e.weaponProperties.weaponPropDeadly",
-    frm: "ak5e.weaponProperties.weaponPropFirearm",
-    crs: "ak5e.weaponProperties.weaponPropCrush",
-    rpd: "ak5e.weaponProperties.weaponPropRapidFire",
-	spl: "ak5e.weaponProperties.weaponPropSplash",
-	spd: "ak5e.weaponProperties.weaponPropSpread",
-  };
+    	bnd: "ak5e.weaponProperties.weaponPropBound",
+    	brc: "ak5e.weaponProperties.weaponPropBrace",
+    	cst: "ak5e.weaponProperties.weaponPropCasting",
+    	cnd: "ak5e.weaponProperties.weaponPropConductive",
+    	chc: "ak5e.weaponProperties.weaponPropCouch",
+    	ded: "ak5e.weaponProperties.weaponPropDeadly",
+    	frm: "ak5e.weaponProperties.weaponPropFirearm",
+    	crs: "ak5e.weaponProperties.weaponPropCrush",
+    	rpd: "ak5e.weaponProperties.weaponPropRapidFire",
+		spl: "ak5e.weaponProperties.weaponPropSplash",
+		spd: "ak5e.weaponProperties.weaponPropSpread",
+    };
   
 	for (const [k, v] of Object.entries(ak5eItemProps)) {
-    CONFIG.DND5E.itemProperties[k] = { label: v };
-    CONFIG.DND5E.validProperties.weapon.add(k);
-  };
+    	CONFIG.DND5E.itemProperties[k] = { label: v };
+    	CONFIG.DND5E.validProperties.weapon.add(k);
+    };
   
 	// Removes the default Firearm Property so there's no overlap for possible automation
-     CONFIG.DND5E.validProperties.weapon.delete("fir");
+    CONFIG.DND5E.validProperties.weapon.delete("fir");
   
 	// Adds AK5e Weapon Types
 	CONFIG.DND5E.weaponTypes.lightM = "Light Melee"
@@ -232,8 +247,6 @@ Hooks.once("init", () => {
 	delete CONFIG.DND5E.armorIds.splint;
 	delete CONFIG.DND5E.armorIds.studded;
 	delete CONFIG.DND5E.shieldIds.shield;
-
-
 
 // Adds Toolkit Profs
 
@@ -494,7 +507,47 @@ Hooks.once("init", () => {
     delete CONFIG.DND5E.languages.exotic.children.sylvan;
     delete CONFIG.DND5E.languages.exotic.children.undercommon;
 
+	// Register Character Sheet
+	registerCharacterSheet();
+
+	// Add Nationality Item Type
+	for (const advType of ['ItemChoice', 'ItemGrant', 'ScaleValue', 'Trait']) {
+    	CONFIG.DND5E.advancementTypes[advType].validItemTypes.add(
+        	'ak5e.nationality'
+    	);
+	}
+
+    Object.assign(CONFIG.Item.dataModels, {
+        "ak5e.nationality": NationalityData
+  	});
+
+	addTabs();
+
+	CONFIG.DND5E.defaultArtwork.Item["ak5e.nationality"] = "modules/ak5e/icons/nationality/nationality.svg";
+
 });
+
+async function AddNationalityBar(sheet, html, { editable, ...context }) {
+  /**
+   * Nationality
+   */
+
+  const parser = new DOMParser();
+  const originInfo = html.childNodes[3].childNodes[1].childNodes[0].childNodes[1].childNodes[0].childNodes[3].childNodes[1].childNodes[3];
+  const actor = sheet.actor;
+  const itemTypes = actor.itemTypes;
+  const nationality = itemTypes['ak5e.nationality'][0];
+  const nationalityPill = await foundry.applications.handlebars.renderTemplate(
+    'modules/ak5e/templates/actors/nationality-insert.hbs',
+    {
+      actor,
+      item: nationality,
+      type: 'ak5e.nationality',
+      editable
+    }
+  );
+  originInfo.replaceChild(parser.parseFromString(nationalityPill, 'text/html').body.childNodes[0], originInfo.childNodes[5]);
+}
 
 Hooks.on("preCreateActiveEffect", (effect) => {
   if (effect._id !== "dnd5efrozen00000") return;
@@ -556,6 +609,7 @@ Hooks.on("renderItemSheet5e", async (app, html, data) => {
 
 Hooks.on("renderActorSheetV2", (app, html, data) => {
   TrackingBars.alterCharacterSheet(app, html, data);
+  AddNationalityBar(app, html, context);
 });
 
 Hooks.on("updateItem", TrackingBars.updateTrackingBars);

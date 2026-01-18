@@ -176,6 +176,21 @@
     "verified": "13",
     "maximum": "13"
   },
+  "documentTypes": {
+    "Item": {
+      "nationality": {
+        "filePathFields": {
+          "advancement.*.icon": [
+            "IMAGE"
+          ]
+        },
+        "htmlFields": [
+          "description.value",
+          "description.chat"
+        ]
+      }
+    }
+  },
   "url": "https://github.com/KnightoftheCrow/AK5e-Foundry-Module",
   "description": ""
 }
