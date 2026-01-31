@@ -1,0 +1,224 @@
+folder: YchJtvsiH0SgRWhD
+name: Pistole e Ordine
+type: feat
+_id: bfPdkxEX9seNA43F
+img: icons/weapons/guns/gun-pistol-flintlock-metal.webp
+system:
+  activities:
+    PTIp33lKxFTyTf9h:
+      type: check
+      _id: PTIp33lKxFTyTf9h
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      check:
+        associated:
+          - itm
+        dc:
+          calculation: ''
+          formula: 8 + @skills.itm.total + @scaling
+        ability: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      damage:
+        onSave: half
+        parts: []
+        critical:
+          allow: false
+      friendlySave: default
+      name: Intimidation Check
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>“Pistole e Ordine,” the “Guns and Order”; through violence will there
+      be peace. Family culture and Faith teaches that violence is always an
+      available solution for problems, so long as you apply enough of
+      it.</p><ul><li><p>Your Melee Attacks against Creatures with a Speed of 0
+      (such as tied up Creatures) deal additional Damage equal to your
+      Proficiency Bonus.</p></li><li><p>When you make an Intimidation Check, you
+      may add a bonus to that Check equal to the last Damage you dealt to them
+      with a Melee Attack.</p></li></ul><p><strong>Partially Automated:
+      </strong>The Additional Damage to Creatures with 0 Speed is automated. Use
+      the "Intimidation Check" Activity on this Item, and then enter the damage
+      dealt with the last melee attack as the scaling option for that check to
+      get the bonus.</p>
+    chat: ''
+  identifier: pistole-e-ordine
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects:
+  - name: Bonus Damage to Creatures with 0 Speed
+    img: icons/weapons/guns/gun-pistol-flintlock-metal.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.bfPdkxEX9seNA43F
+    _id: Dl0ExJPYT3FtCw4U
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.bonus
+        mode: 2
+        value: >-
+          bonus=rollingActor.prof; actionType.mwak || actionType.msak &&
+          !opponentActor.canMove
+        priority: 20
+    disabled: false
+    duration:
+      startTime: 894
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: 4
+      startTurn: 0
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!bfPdkxEX9seNA43F.Dl0ExJPYT3FtCw4U'
+sort: 2400000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.CHV28QZWnE2BZHSF
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!bfPdkxEX9seNA43F'

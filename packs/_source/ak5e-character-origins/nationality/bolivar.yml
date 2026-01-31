@@ -1,0 +1,157 @@
+folder: 7G1D42jSHLcgp1sX
+name: Bolivar
+type: ak5e.nationality
+_id: SPgUC3ztWmz6TRSk
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: WTVCDcH33yNyutp5
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:ins
+              - skills:itm
+              - skills:prc
+              - skills:prf
+              - skills:ste
+              - skills:nat
+        grants:
+          - languages:standard:iberian
+          - languages:standard:victorian
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: HaMCGhTP5Gw9tiBn
+      configuration:
+        items:
+          - uuid: Item.x7JXINCBfq9uvW9q
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>The history of Bolivar has always been troubled. The nation began as a
+      colonial nation established by the Iberians due to its rich mines and
+      soil, kickstarting a great colonial movement from Terra’s superpowers.
+      Eventually, Iberia was forced to release the colony due to international
+      pressure, granting Bolivar a brief period of independence before it fell
+      under Leithanien influence, becoming a puppet state. Even this did not
+      last; neighbouring Columbia broke free from its colonial masters in
+      Victoria, and began to expand their own sphere of influence into Bolivar,
+      resulting in a proxy conflict between them and Leithanien. The conflict
+      continues to this day, and none can say who has the upper hand; but the
+      Bolivarians themselves are the ones who suffer.</p><p>Bolivar is a nation
+      divided, gripped by civil war. Politically speaking, Bolivar is not one
+      state but two; the Kingdom of Bolivar, ruled by the Leithanien-backed
+      Singas Dynasty, and the Sovereign State of Bolivar, ruled by the
+      Columbian-backed Coalition Government. Both are fragile, ineffectual
+      governments, and both compensate for this with authoritarian rule.
+      Unofficially, there are two more factions; the True Bolivarians, and the
+      city of Dossoles.</p><p>The True Bolivarians are a paramilitary junta made
+      from a coalition of militias seeking to remove foreign powers from their
+      land. The ideology of these militias range from extremists who want only
+      anarchy to conformists to socialist revolutionaries, united only by the
+      fact that their dislike of foreign powers is greater than their dislike
+      for each other.</p><p>Finally, the city of Dossoles is the de jure capital
+      of Bolivar, a city independent from any of the warring factions. It is a
+      major economic and tourist hub for the region of the world, and does
+      business with all three factions. As such, it is treated as a neutral
+      ground, and left well enough alone.</p><p>Life in Bolivar can be
+      drastically different depending on where one lives. The civil war is very
+      much ongoing, with territory being gained and lost alongside the lives
+      used to fight for them. As anyone who has experienced war knows, it is
+      never just the soldiers who suffer. Even in cities where the fighting has
+      strayed from at present, the weak influence of either of the official
+      governments means that lawlessness is the norm.</p><p>The True Bolivarian
+      territories are no better for another reason, as iron-fisted authoritarian
+      rule traps its citizens in a life of fear. While the True Bolivarians have
+      an organised chain of command, differing ideologies amongst the junta
+      means that corruption is commonplace, leading to wanton destruction and
+      looting that often goes unpunished.</p><p>Dossoles is, on the surface,
+      free from the conflict. It is a city with a veneer of glitz and glamour,
+      and politically neutral. Beneath the gloss however, all three warring
+      factions in Bolivar have their fingers in the pie. The conflict is alive
+      and well in Dossoles, but it is not fought with weapons.</p><p>The
+      international perception of Bolivar is that of a poor, war-torn nation,
+      but despite it all, Bolivar still retains a vibrant culture. As one of
+      Terra’s first colonies, and the subject of the first colonial boom, almost
+      every culture from across the world has blended in Bolivar. The war and
+      its impact on education has meant that many Bolivarians are illiterate,
+      but almost every Bolivarian can speak three or more languages fluently;
+      all the better to enjoy the energetic music and dance the nation is known
+      for.</p><blockquote><p><strong>The Infected Question</strong></p><p>As a
+      nation founded on the mining of Originium, Oripathy is not at all
+      uncommon. The prospects for Infected within Bolivar are poor; while not
+      legally discriminated against by the State, they very much face social
+      discrimination. As a result, they are often forced to live in slums with
+      similarly downtrodden people. Furthermore, thanks to the wartorn nation of
+      Bolivar, medical aid for the Infected is few and far
+      between.</p></blockquote><h1>Bolivarian
+      Features</h1><p><strong>Languages:</strong> Victorian + Iberian + 2
+      Languages of your Choice</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Wilderness</p></li><li><p>Perception</p></li><li><p>Intimidation</p></li><li><p>Performance</p></li><li><p>Insight</p></li><li><p>Stealth</p></li></ul><p><strong>Nationality
+      Feat (A Land Divided, A People United):</strong> Bolivar is wracked by
+      internal strife. When you do not know what tomorrow brings, the only thing
+      you can trust is the here and now, and the people at your side.</p><p>When
+      you finish a movement next to an allied Creature with less than half of
+      their maximum Hit Points remaining, you can expend your Reaction to grant
+      both you and that allied Creature 1d6 Temporary Hit Points.</p><h3>Unique
+      Background (The Black Heart of Bolivar):</h3><p>Dossoles is a place of two
+      sides; the glitz and glamour of its tourist industry, and the smog and
+      corruption of its underground and industry. For the people that live
+      there, having contact with both halves is inevitable. It is a part of
+      life, and you must learn to accept
+      it.</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Mechanism Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Unsuspected):</strong> Unless they
+      have evidence, or the other possible explanations are too fantastical,
+      your nonchalance towards criminal activity makes people unwilling to
+      suspect you before other options. Furthermore, you have Advantage on any
+      Charisma based Skill Check to convince people to overlook suspicious
+      activity.</p>
+    chat: ''
+  identifier: bolivar
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!SPgUC3ztWmz6TRSk'

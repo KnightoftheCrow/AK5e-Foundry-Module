@@ -1,0 +1,77 @@
+folder: olZLY5YOp06af4qn
+name: Pioneer
+type: background
+_id: eISePaMuXAgeAjd3
+img: icons/environment/wilderness/camp-improvised.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: Vy5Ujx9RtT1SM60P
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:messenger
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: WIVLLvpiL5lP7A61
+      configuration:
+        items:
+          - uuid: Item.RlD4M7lHFxMRJ9f4
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>You are used to living in rough terrain. You are good with both people,
+      plants, animals, understanding their behaviour and needs in a practical
+      sense, though life on the Pioneer is far from kind and often requires use
+      of force.</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Messenger Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Frontier Knowledge):</strong> When
+      you complete a Long Rest, you can determine what types of animals and
+      plants are available in the biome in which you rested, and know where you
+      might look to find them. After doing so, until you next finish a Long
+      Rest:</p><ul><li><p>You have Advantage on Animal Handling and Wilderness
+      Checks regarding the Flora and Fauna in that
+      area.</p></li><li><p>Furthermore, once per Turn, when you would deal
+      Damage to a Creature of the Beast or Plant type, you can deal additional
+      Damage to them equal to your Proficiency Bonus.</p></li></ul>
+    chat: ''
+  identifier: pioneer
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 800000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.eISePaMuXAgeAjd3
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!eISePaMuXAgeAjd3'

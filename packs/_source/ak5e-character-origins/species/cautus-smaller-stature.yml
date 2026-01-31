@@ -46,6 +46,8 @@ system:
             optional: false
           - uuid: Item.547ctSSj45OJdK7B
             optional: false
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -149,7 +151,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768680297411
-  modifiedTime: 1768680574345
+  modifiedTime: 1769881472615
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: vSBPwxlQlBGRPm4j
 _key: '!items!vSBPwxlQlBGRPm4j'

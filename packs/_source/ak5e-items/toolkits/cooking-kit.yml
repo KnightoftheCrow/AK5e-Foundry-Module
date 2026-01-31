@@ -250,7 +250,7 @@ system:
   attuned: false
   equipped: false
   type:
-    value: art
+    value: toolkit
     baseItem: cooking
   ability: wis
   chatFlavor: ''
@@ -269,9 +269,9 @@ _stats:
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.2.3
+  systemVersion: 5.2.4
   createdTime: 1756485612973
-  modifiedTime: 1766937789852
+  modifiedTime: 1769446311304
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: cx7nNrpfLvAHIfmq
 sort: 300000

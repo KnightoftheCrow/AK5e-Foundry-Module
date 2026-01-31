@@ -1,0 +1,80 @@
+folder: olZLY5YOp06af4qn
+name: Vagabond
+type: background
+_id: bV14f7eh0gfeGxPS
+img: icons/environment/people/cleric-orange.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: GEcO71JnCdr7Gdpw
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit:brewing
+              - tool:toolkit:cooking
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants: []
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: pZcKc0NQgYi8GMij
+      configuration:
+        items:
+          - uuid: Item.oFD9s21Kqy1vjE2F
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>The Sarkaz are familiar as people on the outskirts of society, even in
+      their homeland. Your perspective as an outsider allows you to see things
+      others might miss.</p><p><strong>Proficiencies:</strong> You are
+      Proficient in the Cooking Kit or Brewing Kit, and one other Tool/Vehicle
+      of your choice.</p><p><strong>Background Feat (The Exiled):</strong> If
+      you spend a day within a population centre listening in, you can quickly
+      pick up on things like balance of power, pressing issues, news, and who is
+      important, even if these things aren’t directly stated or talked about.
+      Many people will prefer not to acknowledge you, and thus might talk about
+      things as if you weren’t there. However, people will tend not to trust you
+      on face value, and will especially not react kindly to you snooping
+      about.</p><p>Additionally, you reduce the penalty to your Passive
+      Perception for travelling at a Fast Pace or in a Vehicle by 5 for yourself
+      only (EG. a -5 becomes 0, a -10 becomes -5).</p>
+    chat: ''
+  identifier: vagabond
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 112500
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.bV14f7eh0gfeGxPS
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!bV14f7eh0gfeGxPS'

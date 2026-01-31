@@ -1,0 +1,196 @@
+folder: 7G1D42jSHLcgp1sX
+name: Siracusa
+type: ak5e.nationality
+_id: HCDUHdbj2j5fltRC
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: RreYkyFByaReYl9l
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:acr
+              - skills:ath
+              - skills:dec
+              - skills:itm
+              - skills:slt
+              - skills:ste
+        grants:
+          - languages:standard:leithanian
+          - languages:standard:siracusan
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: Tt7nib9Xqkyv9DHG
+      configuration:
+        items:
+          - uuid: Item.IreMFbiQu1nmrNaX
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Siracusa is a confederation of twenty-two autonomous cities under the
+      de facto leadership of twelve mafia families, the Dodici Famiglie. While
+      it is not a place without laws, it is still a lawless place, as the
+      judicial system has little to no power over the families; unless they
+      overstep the boundaries laid out by Signora Sicilia, the rarely seen but
+      highly influential head of state, and founder of the modern Siracusa. It
+      is a place where everything is controlled by the mafias, and the line
+      between civilian and mafia is dangerously blurred at times. Siracusa’s
+      frequent rains clean away the spilled blood, but the rain cannot cleanse
+      the marks on the soul.</p><p>A vast majority of Siracusa’s populace are
+      Lupo, with a decent sub-populace of Vulpo. The Lupo have dwelled in this
+      region since the tribal era, living in small family units; eventually
+      these prehistoric Lupo came into contact with the predatory Beastlords,
+      the Signori del Lupi. To survive, those families banded together into the
+      first regional tribes, and established a strict hierarchy within these
+      tribes based on power; social or physical. These tribes were the basis of
+      what would become the Famiglie; bound by blood, both theirs and others,
+      but constantly in contest with one another.</p><p>Later, the tribes of
+      Siracusa would join hands with Leithanien, becoming the 10th Kreis
+      (province) of what would become Leithanien. This arrangement did not last,
+      however, and after being mistreated for centuries by the Leithaniens, the
+      Siracusans sought independence. After a period of great unrest, in 979,
+      the newly ascended Witch King granted them the independence they
+      sought.</p><p>For 70 years after obtaining independence, the Famiglia
+      openly struggled with each-other to establish dominance, with anarchy
+      ruling the streets. The anarchy was quelled by the return of Signora
+      Sicilia, head of the prestigious Sicilia Famiglia, from studies in
+      Laterano. She brought with her the Lateran faith, and a doctrine that
+      still holds today; “Pistole e Ordine,” the “Guns and Order.” Through
+      political machination and violence, she quelled the Famiglia and
+      introduced her Guns and Order. The concept behind Guns and Order is
+      violence to end all violence, and an order established through the threat
+      of this violence. To the Famiglia, this means that they are relatively
+      free to do what they please, so long as they do not overstep the mark, and
+      bring this violence down upon themselves. Her ironclad law is that no open
+      warfare must occur between the Famiglia.</p><p>For the average person, in
+      theory, this means that they are relatively safe, so long as they obey the
+      Famiglia; the Famiglia protect their own and reward service. In practice,
+      however, many people often find their loyalties torn between several
+      Famiglia, or find their morals in contrast to their Famiglie loyalties.
+      There is no question that involvement with the Famiglia is dangerous, but
+      for many Siracusans, they feel there is no other
+      choice.</p><blockquote><p><strong>The Infected
+      Question</strong></p><p>Healthcare in Siracusa is divided into public and
+      private, with the latter being controlled by the Families. The care is
+      generally better in the private hospitals, though not for lack of effort
+      by public medical staff; they are simply better funded. Of course, if you
+      have done anything to upset the Family in charge of that hospital, you
+      likely won’t be admitted.</p><p>Regardless, Siracusa has several notable
+      medical academies (such as Palermo) despite its small landmass. It does
+      not actively discriminate against Infected in the same way that other
+      nations do, but they are treated as sufferers of a terminal, potentially
+      infectious disease. As such, many are confined to Intensive Care Wards,
+      though people in early stages of infection may be treated as an
+      outpatient.</p></blockquote><p>The Famiglie, however, are not Siracusa’s
+      de jure government. The Confederate Council of Siracusa is a governmental
+      organisation run by non-Famiglie, responsible for transport, public works,
+      commerce, etc. They are elected representatives, and the internally
+      elected Confederate Chancellor is the de jure head of state for Siracusa.
+      The de facto government, however, is the Grey Hall; established by Signora
+      Sicilia as a neutral place of diplomacy for the Dodici Famiglie, the
+      Twelve Families. Here is where a majority of decisions for Siracusa are
+      actually made, and schemes plotted, all to maintain Guns and Order.</p><p
+      style="text-align:center"><em>The government is just the cloth draped over
+      Grey Hall’s round table.</em></p><p
+      style="text-align:center"><em><strong>Signora
+      Sicilia</strong></em></p><p>All in all, Siracusa is incredibly, wilfully
+      corrupt, with almost everything controlled by the Famiglia either directly
+      or indirectly. They are even mostly exempt from the judicial system; there
+      are no police in Siracusa, but judges have the right and responsibility to
+      uphold the law, and are armed to do so. However, even they cannot
+      interfere in Famiglie affairs unless civilians are imperiled. Despite its
+      lawless nature, life goes on in Siracusa; underneath the fear and the
+      violence, there is a bizarre order to things, especially for those not
+      directly involved in Famiglie business. Thanks to its longstanding culture
+      of service to others, it has developed thriving industries in cuisine,
+      cosmetics, film, and healthcare. In particular, Siracusans take their
+      national cuisine extremely seriously, having once almost caused a
+      diplomatic incident over it. This culture of servitude and submission has
+      its negative aspects too, however; most children are taught to always obey
+      their parents no matter what, and as a result it is rare for a Siracusan
+      to break away from their family even after experiencing
+      abuse.</p><blockquote><p><strong>The Lateran
+      Faith</strong></p><p>Alongside Iberia, Siracusa is the other non-Lateran
+      nation to be heavily influenced by the Lateran Church and its religion.
+      Much like Iberia, however, the doctrine of the Siracusan faith and the
+      Lateran Faith differs greatly. While the Laterans worship “The Law”, the
+      Siracusans worship Order, and this order is achieved through Signora
+      Sicilia’s Guns and Order. As a result, while Lateran Clergy are typically
+      armed, they preach peace; Siracusan Clergy, on the other hand, are not
+      above using violence to achieve repentance and maintain order. This faith
+      is extremely strong in Siracusa, and most children are raised believing in
+      it, even if they later question those
+      beliefs.</p></blockquote><h1>Siracusan
+      Features</h1><p><strong>Languages:</strong> Siracusan + Lethanian + 1
+      Language of your Choice.</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Intimidation</p></li><li><p>Deception</p></li><li><p>Athletics</p></li><li><p>Acrobatics</p></li><li><p>Sleight
+      of Hand</p></li><li><p>Stealth</p></li></ul><p><strong>Nationality Feat
+      (To Know your Own Place):</strong> No matter how high you climb in the
+      social ranks of Siracusa, you never forget the lessons drilled into you as
+      a child; sometimes, you can just sense danger in the air, and know you
+      need to be somewhere else.</p><p>You can instinctively tell who the most
+      dangerous person in an area is, and have Advantage on Insight Checks to
+      determine if a person has hostile intent towards you.</p><h3>Unique
+      Background (Famigilia Member):</h3><p>The violent nature of the Lupi is a
+      potent and heady mix when combined with the activities of a mafioso, and
+      you know best how to exert your strength to get what you
+      want.</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Mechanism Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Pistole e Ordine):</strong>
+      “Pistole e Ordine,” the “Guns and Order”; through violence will there be
+      peace. Family culture and Faith teaches that violence is always an
+      available solution for problems, so long as you apply enough of
+      it.</p><p>Your Melee Attacks against Creatures with a Speed of 0 (such as
+      tied up Creatures) deal additional Damage equal to your Proficiency
+      Bonus.</p><p>When you make an Intimidation Check, you may add a bonus to
+      that Check equal to the last Damage you dealt to them with a Melee
+      Attack.</p>
+    chat: ''
+  identifier: siracusa
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!HCDUHdbj2j5fltRC'

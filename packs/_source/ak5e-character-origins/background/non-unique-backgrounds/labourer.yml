@@ -1,0 +1,77 @@
+folder: MkGCwSTO7HeQOsMl
+name: Labourer
+type: background
+_id: 7aVoeprGlFYFNaSw
+img: icons/environment/wilderness/mine-exterior-entrance.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: BnrGYL4sWEvdKAwh
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:vehicle:land
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: LqfgKzheREFEH6JV
+      configuration:
+        items:
+          - uuid: Item.CTvYDCiWg9y8lqJq
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Your expertise is in manual labour; the moving, building, and breaking
+      of things. Siracusa’s foresters, Rim Billiton’s engineers, Yan’s farmers;
+      all of these folk are labourers despite their different
+      backgrounds.</p><p><strong>Proficiencies:</strong> You are Proficient in
+      Land Vehicles, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Breaking Common Ground):</strong>
+      Other labourers and working class folks recognise you as one of their own,
+      a person of good stock and hard work.</p><ul><li><p>You know how to endear
+      yourself to other working class folks; you can find lodgings and
+      sustenance amongst such people with ease. However, they will not endanger
+      themselves for you or go against their morals based on shared background
+      alone.</p></li><li><p>Your Hit Point maximum increases by an amount equal
+      to your Level. Whenever you gain a Level thereafter, your Hit Point
+      maximum increases by an additional Hit Point.</p></li></ul>
+    chat: ''
+  identifier: labourer
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 150000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.7aVoeprGlFYFNaSw
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!7aVoeprGlFYFNaSw'

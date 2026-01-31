@@ -1,0 +1,77 @@
+folder: MkGCwSTO7HeQOsMl
+name: Soldier
+type: background
+_id: alYefkdRDgUvttnj
+img: icons/environment/people/infantry-armored.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: b0Ncszrmeav4hXCB
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:maintenance
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: j51e5CnfbqFJUp7w
+      configuration:
+        items:
+          - uuid: Item.ceuAU1Nn50Pi3Een
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Terra is a war-torn land at the best of times. Even its periods of
+      peace feel like mere armistice, with another threat always on the horizon.
+      You are one of the people who has sworn to do something about it, whether
+      you volunteered or were “recruited”.</p><p><strong>Proficiencies:</strong>
+      You are Proficient in the Maintenance Kit, and one other Tool/Vehicle of
+      your choice.</p><p><strong>Background Feat (Military Training):</strong>
+      Wherever you served, you learn to trust the weapon in your hand as much as
+      you trust the comrade at your side. The lessons you learned, for better or
+      worse, will never leave you. You gain Proficiency in one Weapon of your
+      choice from one of the following categories that does not have the Firearm
+      Property:</p><ul><li><p>Light Melee</p></li><li><p>Heavy
+      Melee</p></li><li><p>Light Ranged</p></li><li><p>Heavy
+      Ranged</p></li></ul><p>Furthermore, the Weapon you choose is added to your
+      Starting Equipment.</p>
+    chat: ''
+  identifier: soldier
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 101563
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.alYefkdRDgUvttnj
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!alYefkdRDgUvttnj'

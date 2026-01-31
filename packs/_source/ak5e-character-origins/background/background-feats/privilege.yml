@@ -1,0 +1,62 @@
+folder: YchJtvsiH0SgRWhD
+name: Privilege
+type: feat
+_id: 5jrWml8AmMPHzcCd
+img: icons/equipment/head/crown-gold-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You know best how to carry yourself and exert your
+      influence.</p><ul><li><p>If you make a reasonable request to someone who
+      recognises your status, they will do their best to comply with your wishes
+      without needing to be convinced.</p></li><li><p>When you make a
+      Charisma-based Skill Check to make someone perform an action, you do so at
+      Advantage providing they recognise you as being superior to
+      them.</p></li></ul><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: privilege
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 2600000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!5jrWml8AmMPHzcCd'

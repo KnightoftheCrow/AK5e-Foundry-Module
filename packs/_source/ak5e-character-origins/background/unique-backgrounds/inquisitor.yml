@@ -1,0 +1,79 @@
+folder: olZLY5YOp06af4qn
+name: Inquisitor
+type: background
+_id: XVlFlKCfLX0NjjPl
+img: icons/sundries/lights/torch-brown-lit.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: MAGOYiUe8pbi7Jsa
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:messenger
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: E1kr0Qt5fNT3POls
+      configuration:
+        items:
+          - uuid: Item.PYVScpl8Kz4959CR
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>The Iberian Inquistion is an oppressive, theocratic regime that has the
+      Iberian people locked tight within its grip of fear. This is truth. They
+      are also the only reason the Seaborn have not overrun those who remain;
+      this too is truth.</p><p><strong>Proficiencies:</strong> You are
+      Proficient in the Messenger Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Arms of Justice):</strong> As an
+      Inquisitor, you are skilled with the Inquisition’s
+      tools.</p><ul><li><p>You are Proficient with the Sword, and gain one as
+      Starting Equipment.</p><ul><li><p>You gain one of the Lanterns of the
+      Iberian Inquisition as Starting Equipment. The Lantern has the same
+      Profile as an Arts Wand, but does not have the Casting Unit Property.
+      While you are wielding the Lantern:</p></li><li><p>Allied Creatures within
+      10 feet of you add your Proficiency Bonus to Wisdom Saving Throws they
+      make; this effect is not cumulative.</p></li></ul></li><li><p>Aberration
+      (Seaborn) Creatures have Disadvantage on Attack Rolls against
+      you.</p></li></ul>
+    chat: ''
+  identifier: inquisitor
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 1600000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.XVlFlKCfLX0NjjPl
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!XVlFlKCfLX0NjjPl'

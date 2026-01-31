@@ -1,0 +1,180 @@
+folder: 7G1D42jSHLcgp1sX
+name: Kjerag
+type: ak5e.nationality
+_id: hWIXJv3sVJ71AyWA
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: S76Bso9G1EMoZjOj
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:ani
+              - skills:ath
+              - skills:dec
+              - skills:med
+              - skills:per
+              - skills:nat
+        grants:
+          - languages:standard:kjeragian
+          - languages:standard:victorian
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: A5yPZFENkR3hunH8
+      configuration:
+        items:
+          - uuid: Item.8Eodr2kNAJStimUu
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Kjerag is a cold, frozen land; but its people are not. While its people
+      have always been insular, the xenophobia that plagues many similar places
+      has not found root in Kjerag, and they are generally welcoming to
+      outsiders, especially those that share their faith. As long as you are
+      willing to pull your weight and help out where you can, foreigners can
+      generally expect to be welcomed in Kjerag. It is good that it is so, as
+      rapid industrial development in the south of the nation, spearheaded by
+      the Silverash Clan, has brought an influx of foreigners and foreign
+      technology.</p><p>For centuries, Kjerag has been ruled by the Tri-Clan
+      Council, a national council assembled from the Patriarch of the three most
+      prevalent families in Kjerag; the Silverash, Browntail, and Paleroche
+      clans. These meetings are mediated by the Vine-Bear Court, a religious
+      order that is the cornerstone of the Cult of Kjeragandr, the principal
+      faith in Kjerag, centred around Mount Karlan and its Saintess. The clans
+      and tribes are somewhat akin to feudal lords from other realms; they are
+      the masters of their own domain, though they do not claim ownership of
+      their vassals in the same way other lords might. Until 1097, Kjerag as a
+      nation itself was more conceptual than practical; the territory was simply
+      divided up between the Clans, and none were subservient to
+      another.</p><p>In 1097, a civil war within Kjerag between the progressive
+      but Machiavellian Silverash Clan and the other clans of the Tri-Clan
+      Council seemed an inevitability, referred to as the “Snowcap Incident”.
+      Kickstarted by a Silverash mining operation at the foot of mount Karlan,
+      seen as a blasphemy against Kjeragandr, and culminating in the
+      assassination of the Great Elder of the Vine Bear Court, soldiers from
+      both sides met in the streets, moments from bloodshed. In what has been
+      called a miracle, the Karlan Saintess descended from the mountain to put a
+      stop to the conflict, and all three clans pledged their allegiance to the
+      Saintess, unifying Kjerag under one banner for the first time in history.
+      Following this incident, though the three Clans retain much of their
+      political power, executive control of the nation has been handed to a
+      formal secular parliament led by a speaker, following the Victorian model.
+      The Vine-Bear order remains the leading authority on the Kjeragandr faith
+      below the Saintess herself, but no longer has direct influence over
+      secular matters.</p><p>Thus, while Parliament controls a vast majority of
+      Kjerag’s activity, the official Head of State of Kjerag is the incumbent
+      Saintess of Kjeragandr, the Karlan Saintess, who rules from the temple at
+      the foot of Mount Karlan, atop which Kjeragandr herself is said to rest.
+      As the Saintess, she has final say in any and all religious matters, and
+      has a not-insignificant authority to wield in secular as well as holy
+      matters; though how much official power she wields is unclear, none would
+      gainsay her without reason.</p><p>Kjerag is, all in all, a deeply unusual
+      land when compared to many places on Terra. Its relative freedom from
+      Catastrophes and Oripathy has given its culture a chance to thrive rather
+      than simply survive, and its inhospitable, difficult geography has
+      protected it up to now from colonisation by foreign powers. In the south,
+      the three Clans lead fledgling Kjerag onto the world stage through their
+      own industrial revolution, and construction of a major railway hub to
+      connect local nations and in doing so, attract investment into the nation.
+      This brings threats of its own, however; increased connection to the
+      outside world means greater pressure placed on the fledgling nation by the
+      powers of the world, especially neighbouring Victoria. Whatever lies ahead
+      for Kjerag, it will never be the same again.</p><p><strong>The Infected
+      Question</strong></p><p>As a place comparatively sparse on Catastrophes
+      and, until recently, industry, Oripathy is somewhat uncommon in Kjerag.
+      The incidence rate of cases has never been zero, and is experiencing an
+      uptick as a result of advancing industrialisation, but Kjerag simply has
+      not had reason or cause to develop the distrust (and sometimes outright
+      hatred) some nations have for the Infected. To be an Infected in Kjerag is
+      to be anyone else with a terminal illness; pitiable, but not the object of
+      hatred.</p><p>Equally, however, its inexperience with this condition means
+      that it has similarly not developed appropriate treatments, holistic or
+      otherwise, for the condition.</p><h1>Kjeragian
+      Features</h1><p><strong>Languages:</strong> Kjeragian + Victorian + 1
+      Language of your Choice.</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Animal
+      Handling</p></li><li><p>Wilderness</p></li><li><p>Deception</p></li><li><p>Persuasion</p></li><li><p>Medicine</p></li><li><p>Athletics</p></li></ul><p><strong>Nationality
+      Feat (One Nation under Kjeragandr):</strong> Kjerag is an unusual land
+      amongst the nations of Terra. It exists directly between two of Terra’s
+      most powerful nations, and yet has never been subject to imperial
+      ambitions. Until recent years, its impact on world affairs was
+      non-existent. Its people dwell not in nomadic cities, but in stationary
+      towns and villages, untouched by Catastrophes. This is thanks in no small
+      part to the mountainous geography protecting them, but many in Kjerag
+      would place the “blame” at the feet of their goddess, Kjeragandr. Dwelling
+      atop the highest peak in the land, she is the patron of Kjerag; her
+      blizzards are its shield, her love its warmth.</p><p>The people of Kjerag
+      believe wholeheartedly in the protection of their Goddess. Real or not,
+      their faith gives them strength where they should not.</p><ul><li><p>You
+      are Proficient in the Lore Skill.</p></li><li><p>Once per Long Rest, when
+      you would make a Saving Throw, you can choose to make a Lore Check
+      instead. If the result of the Lore Check is equal to or greater than the
+      Difficulty Class of the original effect, then that Saving Throw is
+      successful.</p></li></ul><h3>Unique Background (Karlan Trade
+      Operative):</h3><p>Karlan Trade is very new on the world stage, but has
+      established itself as the primary link between the insular land of Kjerag
+      and the outside world. Merchants clamouring to do business with an
+      untapped market had to do so through Karlan, and thus they have rapidly
+      developed a wealth of expertise.</p><p><strong>Proficiencies:</strong> You
+      are Proficient in the Maintenance Kit or Tailoring Kit, and one other
+      Tool/Vehicle of your choice.</p><p><strong>Background Feat (Discerning
+      Eye):</strong> You might not directly be a Karlan trader, but you have
+      seen and handled many items.</p><p>If given five minutes to examine an
+      item, you can tell its provenance down to the person or organization
+      likely responsible for its creation. If the item’s rarity is Very Rare or
+      greater, or it is Unique, you might only be able to tell the nationality
+      of the item. You also learn some of the recent history of the item;
+      weapons and equipment bear marks of use, travel leaves marks on many
+      items.</p><p>Additionally, you also have an inherent ability to tell when
+      someone is trying to rip you off when buying or selling an item. You might
+      not know how much the item is actually worth, but you will know if you’re
+      being asked for too much or too little.</p>
+    chat: ''
+  identifier: kjerag
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!hWIXJv3sVJ71AyWA'

@@ -1,0 +1,182 @@
+folder: YchJtvsiH0SgRWhD
+name: Legacy of the Predecessors
+type: feat
+_id: UAerETFqjpAOf3F2
+img: icons/commodities/tech/console-steel.webp
+system:
+  activities:
+    7lwXOyWbHPW6NS0m:
+      type: check
+      _id: 7lwXOyWbHPW6NS0m
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      check:
+        associated:
+          - tech
+        dc:
+          calculation: ''
+          formula: ''
+        ability: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      damage:
+        onSave: half
+        parts: []
+        critical:
+          allow: false
+      friendlySave: default
+      name: Technology Check
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  advancement:
+    - type: Trait
+      _id: z9d5lVTeIzB0smJQ
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:tech
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <p>Pedestrian technologies in Ægir are the stuff of science fiction novels
+      to the land-bound, and thus Ægirians have no issues mastering their
+      technology.</p><ul><li><p>You are Proficient in the Technology
+      Skill.</p></li><li><p>Once per Short Rest, when you would make a Skill
+      Check using your Intelligence Score, you can choose to make a Technology
+      Check instead. If the result of the Technology Check is higher than the DC
+      of the Skill Check, you succeed on that Skill Check.</p></li></ul>
+    chat: ''
+  identifier: legacy-of-the-predecessors
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!UAerETFqjpAOf3F2'

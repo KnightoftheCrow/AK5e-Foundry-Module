@@ -1,0 +1,75 @@
+folder: MkGCwSTO7HeQOsMl
+name: Downtrodden
+type: background
+_id: vFje7wGiVVp6L6ie
+img: icons/environment/settlement/building-rubble.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: TAcVcq9PlhcjyC6g
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - skills:*
+              - tool:toolkit
+              - tool:vehicle
+        grants: []
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: pVdF4hWGso3njnlh
+      configuration:
+        items:
+          - uuid: Item.A6a2vzFQTpyGhuo8
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Your life has been hard. Whether you are an outcast, a refugee, a
+      nomad, or a survivor, your versatility and resilience are your greatest
+      strengths.</p><p><strong>Proficiencies:</strong> You are Proficient in two
+      Tools/Vehicles of your choice.</p><p><strong>Background Feat
+      (Survivor):</strong> All that matters is that you live to see the sun
+      shine again; if you don’t, what was it all worth?</p><p>During a Long
+      Rest, you can find suitable places to rest out of the weather, and
+      scavenge enough food to (badly) feed yourself and a number of other
+      Creatures equal to your Proficiency Bonus. Additionally, you can rely on
+      the comradeship of others who are, or have been, in the same position;
+      other downtrodden people will treat you as a friend unless you do
+      something to anger or upset them.</p>
+    chat: ''
+  identifier: downtrodden
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.vFje7wGiVVp6L6ie
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!vFje7wGiVVp6L6ie'

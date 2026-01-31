@@ -1,0 +1,86 @@
+folder: HfS1eUQfMj2UTzmH
+name: The Thirteen Rights
+type: feat
+_id: 11bLRmGP4ZIH0Gwh
+img: icons/magic/holy/angel-wings-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Lateran Citizens are entitled to their rights, even abroad, so long as
+      they do not do something to permanently estrange themselves from
+      Laterano.</p><p>The Executors of the Notarial Hall enforce these rights
+      even for Sankta abroad, and will do so for you if you call upon them. They
+      cannot act on things they do not know about, and if you abuse their
+      protection, they may disavow you.</p><p>When the Executors are dispatched,
+      they are deployed in teams of 1-3. They are heavily armed, but are not
+      there to cause violence if it can be avoided; they are essentially
+      gun-toting lawyers. Their only focus is to ensure your rights, and so
+      while they will not be actively hostile to non-Laterans, they will not
+      care about them if not necessary. They also will not throw their lives
+      away; if a situation is too much for them to handle, they will retreat and
+      reassess the situation.</p><blockquote><h3><strong>The Thirteen
+      Rights</strong></h3><ol><li><p>All Lateran Citizens are born free and
+      equal, and should act towards each other as such.</p></li><li><p>All
+      Lateran Citizens have the right to life and safety.</p></li><li><p>No
+      Lateran Citizen shall be held in slavery or bondage.</p></li><li><p>No
+      Lateran Citizen shall be subject to torture or similar
+      cruelty.</p></li><li><p>No Lateran Citizen shall be subject to arbitrary
+      or unfair imprisonment or detention.</p></li><li><p>All Lateran Citizens
+      are permitted to bear a Patron Firearm</p></li><li><p>All Lateran Citizens
+      are entitled to a funeral and recovery of the deceased’s Patron Firearm
+      upon death, to be returned to their next of kin.</p></li><li><p>All
+      Lateran Citizens are entitled to the essential medical care they require
+      to survive in case of injury.</p></li><li><p>All Lateran Citizens are
+      entitled to a standard of living adequate for their health and
+      wellbeing.</p></li><li><p>All Lateran Citizens are entitled to have their
+      legal contracts honoured.</p></li><li><p>No Lateran Citizen shall be
+      subject to arbitrary, malicious, or judicious deprivation of their
+      property.</p></li><li><p>All Lateran Citizens are entitled to partake in
+      the worship and rituals of the Lateran Church.</p></li><li><p>All Lateran
+      Citizens below 16 years of age are entitled to social protection that is
+      conducive to a constructive childhood. It is the responsibility of their
+      parental figures to provide this, or otherwise find someone who
+      can.</p></li></ol></blockquote><p><strong>Automation not
+      required.</strong></p>
+    chat: ''
+  identifier: the-thirteen-rights
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.11bLRmGP4ZIH0Gwh
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!11bLRmGP4ZIH0Gwh'

@@ -184,8 +184,8 @@ system:
   attuned: false
   equipped: false
   type:
-    value: music
-    baseItem: ''
+    value: toolkit
+    baseItem: instrumentother
   ability: cha
   chatFlavor: ''
   proficient: null
@@ -201,11 +201,11 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.1.2
+  systemVersion: 5.2.4
   createdTime: 1756485615653
-  modifiedTime: 1756570886585
+  modifiedTime: 1769446406980
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: sIWoR9fKRrec9UfW
 sort: 350000

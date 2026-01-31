@@ -1,0 +1,291 @@
+folder: YchJtvsiH0SgRWhD
+name: Frontier Knowledge
+type: feat
+_id: RlD4M7lHFxMRJ9f4
+img: icons/environment/wilderness/tree-spruce.webp
+system:
+  activities:
+    8m1dyhnnxJfeBHY1:
+      type: utility
+      _id: 8m1dyhnnxJfeBHY1
+      sort: 0
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: false
+      effects:
+        - _id: FhXHWU6FBmEonbmw
+          level: {}
+        - _id: oHLhd7MnMZwtpooD
+          level: {}
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Survey
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>When you complete a Long Rest, you can determine what types of animals
+      and plants are available in the biome in which you rested, and know where
+      you might look to find them. After doing so, until you next finish a Long
+      Rest:</p><ul><li><p>You have Advantage on Animal Handling and Wilderness
+      Checks regarding the Flora and Fauna in that
+      area.</p></li><li><p>Furthermore, once per Turn, when you would deal
+      Damage to a Creature of the Beast or Plant type, you can deal additional
+      Damage to them equal to your Proficiency
+      Bonus.</p></li></ul><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: frontier-knowledge
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects:
+  - name: Frontier Knowledge Skill Bonuses
+    img: icons/environment/wilderness/tree-spruce.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.RlD4M7lHFxMRJ9f4
+    transfer: false
+    _id: FhXHWU6FBmEonbmw
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.advantage.skill.ani
+        mode: 2
+        value: confirm{'Frontier Knowledge- Advantage?')
+        priority: 20
+      - key: flags.midi-qol.advantage.skill.nat
+        mode: 2
+        value: confirm{'Frontier Knowledge- Advantage?')
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - longRest
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!RlD4M7lHFxMRJ9f4.FhXHWU6FBmEonbmw'
+  - name: Bonus Damage vs Beast/Plant
+    img: icons/environment/wilderness/tree-spruce.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.RlD4M7lHFxMRJ9f4
+    transfer: false
+    _id: oHLhd7MnMZwtpooD
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.optional.frontierKnowledge.damage.all
+        mode: 0
+        value: '@prof'
+        priority: 20
+      - key: flags.midi-qol.optional.frontierKnowledge.label
+        mode: 0
+        value: Frontier Knowledge- Bonus Damage vs Plants/Beasts
+        priority: 20
+      - key: flags.midi-qol.optional.frontierKnowledge.count
+        mode: 0
+        value: turn
+        priority: 20
+      - key: flags.midi-qol.optional.frontierKnowledge.activation
+        mode: 0
+        value: raceOrType.includes('beast','plant')
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - longRest
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!RlD4M7lHFxMRJ9f4.oHLhd7MnMZwtpooD'
+sort: 2800000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!RlD4M7lHFxMRJ9f4'

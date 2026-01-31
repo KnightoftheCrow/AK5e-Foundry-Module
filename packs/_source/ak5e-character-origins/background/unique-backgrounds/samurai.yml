@@ -1,0 +1,84 @@
+folder: olZLY5YOp06af4qn
+name: Samurai
+type: background
+_id: RJr9nUBR9PDb5vAi
+img: icons/weapons/swords/sword-katana.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: kSLDNzFaQlVX2fvv
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:maintenance
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: nZq2u3XU2bAdlWCg
+      configuration:
+        items:
+          - uuid: Item.t1YBMoMGlvkdjTFd
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>The Samurai began their history as noble retainers, and in the modern
+      age are simply a professional military. They protect Higashi from any and
+      all who might threaten her.</p><p><strong>Proficiencies:</strong> You are
+      Proficient in the Maintenance Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Bushido Spirit):</strong>
+      Higashinese Samurai have battled man and monster for a thousand years,
+      proud and potent warriors. It is not easy to put down these
+      aspersions.</p><p>You have a special resource called Pride; your maximum
+      amount of Pride is two, and you regain all expended Pride when you
+      complete a Long Rest. You may spend Pride during your Turn (no Action
+      required) to do one of the following things:</p><ul><li><p>Reroll a failed
+      Attack Roll; you must use the new result.</p></li><li><p>Move half of your
+      Speed directly towards a hostile Creature.</p></li><li><p>Grant yourself
+      Advantage on a Saving Throw to resist or end the Frightened
+      Condition.</p></li></ul><p>However, if you are defeated, your Pride is
+      permanently damaged. When you are reduced to 0 Hit Points, your maximum
+      number of Pride is reduced by 1, to a minimum of 0. When your maximum
+      number of Pride is reduced, it cannot be reduced again until you roll
+      Initiative.</p><p>You may regain a lost Pride by landing the killing blow
+      on a Leader Creature, or by performing a similarly impressive combat feat
+      based on GM discretion.</p>
+    chat: ''
+  identifier: samurai
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 600000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.RJr9nUBR9PDb5vAi
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!RJr9nUBR9PDb5vAi'

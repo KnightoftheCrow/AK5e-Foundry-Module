@@ -1,0 +1,148 @@
+folder: 7G1D42jSHLcgp1sX
+name: Higashi
+type: ak5e.nationality
+_id: CeJOFhm4NVAUHafj
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: ktyQ80FWVQy4XeWR
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:acr
+              - skills:ath
+              - skills:ins
+              - skills:rel
+              - skills:prc
+              - skills:tech
+        grants:
+          - languages:standard:higashinese
+          - languages:standard:yanese
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: rzFHcerMduc12zjR
+      configuration:
+        items:
+          - uuid: Item.hXmiSHTFhJuH8BwZ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Found in the far north-east of Terra, Higashi is a nation split in
+      twain, yet not truly apart. When originally founded, Higashi was a unified
+      state known as Ko-ashihara, ruled by the Toukou, descendants of the
+      original Empress. However, this unit was not to last, with disagreement on
+      succession leading to the nation dividing itself in two; the north ruled
+      by the militaristic Kougon, and the south by the entrepreneurial
+      Mitsumoto. The period of conflict following this divide is known as the
+      North-South War, and lasted for three entire centuries, though the
+      conflict heated and cooled countless times over the period.</p><p>At the
+      end of this period, with no victor conclusively established, and both
+      sides exhausted by generations of conflict, an uneasy peace was signed,
+      bringing an end to military action between the two halves of Higashi.
+      Non-military conflict, such as defections and sabotage continued until
+      1072, where an invasion by the Empire of Ursus forced the two Higashinese
+      houses to work together. Together, they dealt the Ursus a crushing blow
+      during the Battle of Bloodpeak, bringing a swift end to the war, but not
+      without devastating losses of their own. The Kougon in particular had
+      suffered greatly, and were forced to rely upon the Mitsumoto. Thus, a
+      period of true peace and rebuilding began, mediated by Yanese
+      diplomats.</p><p>In the modern day, Higashi is an evolving nation, slowly
+      climbing to the centre of the world stage. A majority of its population
+      are Oni or Aegir, though as its industry and culture continues to attract
+      more migrants, the diaspora has begun to broaden.</p><p>North Higashi is a
+      grim, industrial place, with good reason; they face threat from both the
+      insidious Seaborn and the corrosive Collapsals. Higashinese Samurai are
+      amongst the foremost “Monster Hunters” on Terra, trained and supplied by
+      the brutal north.</p><p>By contrast, south Higashi is a rising star in the
+      eyes of Terra due to its advanced electronics. This electronic revolution
+      has bought forth a pop culture based around visual media such as video
+      games and films, many of which depict the Higashinese warrior
+      history.</p><blockquote><p><strong>The Infected Question</strong></p><p>As
+      a place bound by societal convention, almost more so than its legal
+      structure, the Infected in Higashi have no legal precedent against
+      them.</p><p>However, it is socially expected that they retire from all
+      public-facing roles and jobs, instead picking up often dangerous or risky
+      jobs in the nation’s developing industry, which itself is contributing to
+      a rise in cases. Medical professionals in the nation are ill-equipped to
+      treat anything but the symptoms of the condition, and advise those who can
+      afford it to instead seek aid from specialist organisations such as Rhodes
+      Island.</p></blockquote><h1>Higashinese
+      Features</h1><p><strong>Languages:</strong> Higashinese + Yanese + 1
+      Language of your Choice</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Athletics</p></li><li><p>Acrobatics</p></li><li><p>Lore</p></li><li><p>Perception</p></li><li><p>Insight</p></li><li><p>Tech</p></li></ul><p><strong>Nationality
+      Feat (Electronic Revolution):</strong> A new sort of technological
+      revolution has come from the east, and it flows from
+      Higashi.</p><p>Whenever you make a Skill Check to interact with
+      electronics, you make that check as if you are Proficient in that Skill.
+      If you are already Proficient in that Skill, you make that Check with
+      Advantage.</p><h3>Unique Background (Samurai):</h3><p>The Samurai began
+      their history as noble retainers, and in the modern age are simply a
+      professional military. They protect Higashi from any and all who might
+      threaten her.</p><p><strong>Proficiencies:</strong> You are Proficient in
+      the Maintenance Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Bushido Spirit):</strong>
+      Higashinese Samurai have battled man and monster for a thousand years,
+      proud and potent warriors. It is not easy to put down these
+      aspersions.</p><p>You have a special resource called Pride; your maximum
+      amount of Pride is two, and you regain all expended Pride when you
+      complete a Long Rest. You may spend Pride during your Turn (no Action
+      required) to do one of the following things:</p><ul><li><p>Reroll a failed
+      Attack Roll; you must use the new result.</p></li><li><p>Move half of your
+      Speed directly towards a hostile Creature.</p></li><li><p>Grant yourself
+      Advantage on a Saving Throw to resist or end the Frightened
+      Condition.</p></li></ul><p>However, if you are defeated, your Pride is
+      permanently damaged. When you are reduced to 0 Hit Points, your maximum
+      number of Pride is reduced by 1, to a minimum of 0. When your maximum
+      number of Pride is reduced, it cannot be reduced again until you roll
+      Initiative.</p><p>You may regain a lost Pride by landing the killing blow
+      on a Leader Creature, or by performing a similarly impressive combat feat
+      based on GM discretion.</p>
+    chat: ''
+  identifier: higashi
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!CeJOFhm4NVAUHafj'

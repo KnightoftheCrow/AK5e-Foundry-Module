@@ -1,0 +1,125 @@
+folder: YchJtvsiH0SgRWhD
+name: Military Training
+type: feat
+_id: ceuAU1Nn50Pi3Een
+img: icons/environment/people/infantry-army.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: n7NSXC3FmnY0vFfB
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - weapon:ltm:*
+              - weapon:hvm:*
+              - weapon:ltr:bow
+              - weapon:ltr:crossbow
+              - weapon:ltr:handcrossbow
+              - weapon:ltr:nailgun
+              - weapon:ltr:throwingdisc
+              - weapon:hvr:greatbow
+              - weapon:hvr:heavycrossbow
+              - weapon:hvr:heavythrowingdisc
+        grants: []
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - type: ItemChoice
+      _id: GZBSzrQPqFQCqGeD
+      configuration:
+        allowDrops: false
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-items.Item.8YnvqZkWkp8JrS0y
+          - uuid: Compendium.ak5e.ak5e-items.Item.KjYWdRFtdaAGe4yK
+          - uuid: Compendium.ak5e.ak5e-items.Item.FPznW6rW4nghDh1r
+          - uuid: Compendium.ak5e.ak5e-items.Item.yRwC4x79xE5iUW7K
+          - uuid: Compendium.ak5e.ak5e-items.Item.EXF9dlqFHPDHi3KF
+          - uuid: Compendium.ak5e.ak5e-items.Item.gQexKnwZdkamQcJ7
+          - uuid: Compendium.ak5e.ak5e-items.Item.Ve5i7MSi8dzq0UJG
+          - uuid: Compendium.ak5e.ak5e-items.Item.nkDWWkosdoJz2U6i
+          - uuid: Compendium.ak5e.ak5e-items.Item.RVaNysRBX2kS1VKR
+          - uuid: Compendium.ak5e.ak5e-items.Item.fPUfPJOelKu6a97f
+          - uuid: Compendium.ak5e.ak5e-items.Item.a0RPD5m4b1rj0cQT
+          - uuid: Compendium.ak5e.ak5e-items.Item.XAvfUySa6K27SHTU
+          - uuid: Compendium.ak5e.ak5e-items.Item.AVXlB27KScRknIiD
+          - uuid: Compendium.ak5e.ak5e-items.Item.o1kUk2al1bphk50J
+          - uuid: Compendium.ak5e.ak5e-items.Item.LqVtxMaqJotYLr9a
+          - uuid: Compendium.ak5e.ak5e-items.Item.jjpPLGFHOZsiWFBA
+          - uuid: Compendium.ak5e.ak5e-items.Item.EIPiQurk25Of8x3e
+          - uuid: Compendium.ak5e.ak5e-items.Item.z109grp29YIkpXSu
+          - uuid: Compendium.ak5e.ak5e-items.Item.866oxgC2YP2qYU9g
+          - uuid: Compendium.ak5e.ak5e-items.Item.Dhmp8MJX2KGACQh7
+        restriction:
+          list: []
+        spell: null
+        type: weapon
+      value:
+        added: {}
+        replaced: {}
+      title: Choose Weapon
+      hint: ''
+  description:
+    value: >-
+      <p>Wherever you served, you learn to trust the weapon in your hand as much
+      as you trust the comrade at your side. The lessons you learned, for better
+      or worse, will never leave you. You gain Proficiency in one Weapon of your
+      choice from one of the following categories that does not have the Firearm
+      Property:</p><ul><li><p>Light Melee</p></li><li><p>Heavy
+      Melee</p></li><li><p>Light Ranged</p></li><li><p>Heavy
+      Ranged</p></li></ul><p>Furthermore, the Weapon you choose is added to your
+      Starting Equipment.</p><p><strong>Partially Automated: </strong>There's no
+      way to automate that the weapon you pick is the same one you chose
+      Proficiency in. Make sure you pick the right one!</p>
+    chat: ''
+  identifier: military-training
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 2500000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!ceuAU1Nn50Pi3Een'

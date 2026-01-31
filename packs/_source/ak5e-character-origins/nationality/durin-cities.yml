@@ -1,0 +1,154 @@
+folder: 7G1D42jSHLcgp1sX
+name: Durin Cities
+type: ak5e.nationality
+_id: kNDcyOepm4JamJ73
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: qEOk4HrY28H3P6Bu
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:arc
+              - skills:rel
+              - skills:prc
+              - skills:per
+              - skills:tech
+              - skills:nat
+        grants:
+          - languages:standard:durinese
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: Z7QAw8UgwRmTEzxt
+      configuration:
+        items:
+          - uuid: Item.MSqBc1twbsJqtEOk
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Deep underneath Terra lies a world mostly unseen by those who dwell
+      above it- the underground world of the Durin. A vast underground system of
+      caves, tunnels, and dangers; these joyful, entrepreneurial folk call it
+      their home. The origin of these underground settlements, and the people
+      that live there, is the subject of great mystery. However, some amongst
+      the Sarkaz believe the Durin to be descended from Dur’akham, an ancient
+      Teekaz who led his people into the underground world to escape the
+      incursions of The First Civilisation and the Ancients. The truth of this
+      will perhaps never be known, as the Durin have long forgotten their own
+      origin.</p><p>Regardless, the Durin have been geographically isolated for
+      millennia, bearing no desire to explore the surface world. Recently,
+      however, a development in their technology caused a change in perspective;
+      advanced machinery allowed them to mine directly upwards safely, and to do
+      so they created gargantuan lifts to facilitate this operation. In time,
+      the surface was only a scant few steps away, and some adventurous Durin
+      began to establish contact with the outside
+      world.</p><blockquote><p><strong>The Infected
+      Question</strong></p><p>Infected Durin are relatively uncommon, though the
+      incidence rate is increasing as Originium spreads through Terra as a
+      consequence to the crystallisation era.</p><p>Discrimination or
+      segregation against Infected Durin is essentially non-existent, but nor do
+      they have the technology to suppress the condition effectively. Thus, the
+      life of an Infected Durin without outside help is likely to be short, but
+      free of social pressures.</p></blockquote><p>Each Durin City is a
+      City-State governed by a mayor, with crucial decision made through
+      referendum. Every citizen’s voice is counted equally, even non-Durin or
+      Infected, making it one of, if not the most, equitable place on Terra. The
+      Durin cities themselves are great underground domes with features that
+      allow them to replicate the surface world, such as a “blue sky” and
+      temperature regulation, connected by railways and tunnels. Due to the
+      innately peaceful nature of the Durin, there have been almost no wars or
+      conflict amongst them, with the very concept of weaponry being foreign to
+      some Durin.</p><p>As to be expected for those that live underground, the
+      Durin have advanced greatly within the fields of architecture, mining, and
+      engineering; all supported by advanced robotics. Durin cities are not
+      static edifices; huge sections of the cities are redesigned and rebuilt to
+      suit their whims. On rare occasion, if the location of a city becomes too
+      dangerous (such as a result of geological instability or Originium Crystal
+      incursion, the entire city will recycle what they can and migrate to a new
+      location, constructing a new city there. This is an occasion worthy of
+      great ceremony in Durin culture, and what remains of the old city will
+      often be decorated and adorned as a sort of monument.</p><p>Culturally,
+      while Durin are serious about their work, they place high value on leisure
+      time. For many, this leisure time is the reason they even work in the
+      first place; entire industries are dedicated to the pursuit of leisure. As
+      a result, the rare surface dwellers that have visited these cities often
+      view them as utopic, but an increasing number of Durin are leaving their
+      homes for the surface. Most Durin claim that they are doing so to seek
+      excitement away from their idyllic but stale homes, but who knows whether
+      that is the whole truth?</p><h1>Durinese
+      Features</h1><p><strong>Languages:</strong> Durinese + 2 Languages of your
+      Choice.</p><p><strong>Proficiencies:</strong> Three
+      from:</p><ul><li><p>Lore</p></li><li><p>Tech</p></li><li><p>Arts</p></li><li><p>Wilderness</p></li><li><p>Perception</p></li><li><p>Persuasion</p></li></ul><p><strong>Nationality
+      Feat (Joy of Living):</strong> In the cities of Durin, life is to be
+      enjoyed. Their paradisaical realms are built to facilitate this pursuit of
+      joy. One works so that they may play and party, preferably with alcohol,
+      and this fervor for life colours their every interaction.</p><p>If you
+      have not rolled Initiative since the last time you completed a Long Rest,
+      you have Advantage on Persuasion Checks.</p><p>As a Short Rest Activity,
+      if you consume Alcohol and spend that time making merry, you may roll one
+      of your Hit Dice and regain Hit Points equal to the amount rolled + your
+      Constitution Modifier; this does not consume this Hit Dice.</p><h3>Unique
+      Background (Durin Engineer):</h3><p>The Durin are master builders and
+      engineers; anyone who has had the opportunity to visit any of their
+      underground cities could tell you that. Building such a paradise under
+      such conditions, with such limitations, is nothing short of genius.
+      However, the Durin in charge of these designs and buildings rarely find
+      reason to leave the underground, content with their work and lives. If one
+      was to leave their domain, however…</p><p><strong>Proficiencies:</strong>
+      You are Proficient in the Engineering Kit, and one other Tool/Vehicle of
+      your choice.</p><p><strong>Background Feat (Structural
+      Knowledge):</strong> If you spend ten minutes studying a Construct or
+      Structure, or the plans for one, you learn about its construction,
+      relative age, and provenance; enough that you could draw a floorplan of
+      the structure. Additionally, for the next 24 hours, Damage dealt by you
+      ignores the Resistances of the Construct or Structure you
+      studied.</p><p></p><p></p>
+    chat: ''
+  identifier: durin-cities
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!kNDcyOepm4JamJ73'

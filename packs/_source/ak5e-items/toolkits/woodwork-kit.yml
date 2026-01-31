@@ -377,7 +377,7 @@ system:
   attuned: false
   equipped: false
   type:
-    value: art
+    value: toolkit
     baseItem: woodwork
   ability: str
   chatFlavor: ''
@@ -452,9 +452,9 @@ _stats:
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.2.3
+  systemVersion: 5.2.4
   createdTime: 1756485629164
-  modifiedTime: 1766942695174
+  modifiedTime: 1769446997027
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: 2MfZHPX5xtOxH4Zr
 sort: 462500

@@ -1,0 +1,77 @@
+folder: olZLY5YOp06af4qn
+name: Pontifica Cohors Lateran
+type: background
+_id: wLu62yGKyN819eNm
+img: icons/magic/holy/saint-glass-portrait-halo.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: m4Kh6tq50SLbH0Z0
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:maintenance
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: mKpXqp8PkOZleLPy
+      configuration:
+        items:
+          - uuid: Item.sMORL8Xblp9A19zb
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>The Cohors Lateran are one of two military arms of Laterano, and are
+      primarily responsible for defending Laterano and its citizens, and
+      securing Lateran interests. The other side is the Apostolic Knights, who
+      occupy a more offensive-orientated
+      niche.</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Maintenance Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Legion of Heaven):</strong> If
+      another Creature you can see is hit by an Attack, you can expend your
+      Reaction to choose a weapon you are wielding. If the attacked Creature is
+      within the Reach or the Normal Range for that weapon, you can make an
+      Attack Roll using it; if the result of that Attack Roll is equal to or
+      greater than the result of triggering Attack, the triggering Attack misses
+      the attacked Creature.</p><p>Once you have used this Feature, you must
+      complete a Short or Long Rest before you can do so again.</p>
+    chat: ''
+  identifier: pontifica-cohors-lateran
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 700000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.wLu62yGKyN819eNm
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!wLu62yGKyN819eNm'

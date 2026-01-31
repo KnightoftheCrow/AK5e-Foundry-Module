@@ -1,0 +1,177 @@
+folder: 7G1D42jSHLcgp1sX
+name: Sargon
+type: ak5e.nationality
+_id: 02HlES9Phk9pEYGD
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: BJpCiLquszCZZIGq
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:acr
+              - skills:ani
+              - skills:ath
+              - skills:itm
+              - skills:prc
+              - skills:nat
+        grants:
+          - languages:standard:sargonic
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: VAm8iBqvjJxjbPYB
+      configuration:
+        items:
+          - uuid: Item.9hNjLdjg8uedTdBD
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Sargon is the oldest non-Teekaz civilisation on Terra, and was the
+      first superpower, once ruling the Terran heartland. It is an Imperial
+      Monarchy that occupies the deserts in the south of Terra, though this was
+      not always so. At the zenith of Sargon, much of the region was covered in
+      lush jungles extremely conducive to life, allowing the empire to grow
+      large with an almost infinite supply of food. A cataclysmic event nearly
+      two millennia ago converted these lush jungles into arid desert, forever
+      putting an end to the superpower that was Sargon, and leaving the dying
+      empire that still clings to life today.</p><p>At the heyday of the Empire
+      of Sargon, they faced a two-fold problem; to their south, a vast incursion
+      of demons (what would be called Collapsals today) threatened the people
+      and the very land with their corruption. To the north, the marauding
+      hordes of the Nightzmoran Khaganate were sweeping the world to raid and
+      pillage, and had now arrived at Sargon’s door. In an unheard of move, the
+      Shah of Sargon befriended the Khan, and the two agreed to band their
+      forces together to defeat the demons. They were successful; to this day
+      the demons have not been seen again in Sargon.</p><p>Their victory,
+      however, came at unimaginable cost. A catastrophic explosion rang from the
+      deep south, eradicating the Khaganate, the Shah, and most of their forces.
+      Furthermore, most of the lush jungles of Sargon were destroyed, with an
+      ever greater amount killed off by the surging heat waves that would begin
+      to emerge from this southern area, that would become known as the Foehn
+      Hotlands. With the exception of the Acahuallan region, Sargon underwent a
+      great desertification. When combined with the eradication of their royal
+      line and much of their leadership, Sargon suffered a mortal blow that it
+      has never recovered from.</p><p>Sargon’s head of state is the Shahanshah
+      (sometimes just called the Shah). The Shah is the de facto leader of the
+      nation, but also of every tribe sworn to Sargon’s banner, in addition to
+      being the absolute commander of all of Sargon’s armies. These are all
+      responsibilities which they naturally cannot carry out alone, and so
+      regions of Sargon are ruled by Padishah, who rule a province on behalf of
+      the Shah, or by Lords Ameer, who represent a group of tribes in a
+      province. These nobles have significant autonomy in the governance of
+      their respective areas, so long as they maintain loyalty to the Shah and
+      imperial law. As such, it is extremely difficult to enact meaningful
+      change over Sargon as a whole, even as the Shah; individual Padishah,
+      while they may not directly disobey the Shah, can indirectly disobey them
+      or otherwise make the process difficult, if it is not something they
+      personally agree with.</p><p>This political squabbling is a large reason
+      why Sargon has fallen so far behind in the modern era; a general sense of
+      disunity prevails, and so innovation and development takes a long time to
+      spread from province to province, if it ever does, as many Padishah are
+      loyal to only their own province, and the
+      Shah.</p><blockquote><p><strong>The Infected Question</strong></p><p>As
+      each individual province has laws unto itself, it is difficult to
+      generalise what the experience of being a Sargonian Infected is like.
+      There is no imperial law that discriminates against them, but many
+      individual provinces choose to segregate their living quarters from
+      uninfected individuals. Furthermore, due to the absence of modern
+      technology in many regions of Sargon, treatment for Oripathy is extremely
+      sparse, and mostly relies on natural methods. Even in the cities, Infected
+      care is often subletted to other more specialised
+      organisations.</p><p>However, because of Sargon’s lack of industry and
+      relatively rare Catastrophe rate, overall Oripathy infection rates are
+      low.</p></blockquote><p>Life in Sargon can be very different depending on
+      where one lives; even this dilapidated empire covers a vast area.
+      Furthermore, Sargon typically does not insist subjugated peoples integrate
+      with Sargon, only swear loyalty to the Shah. As a result, many unique
+      cultures are preserved in Sargon. In the jungles to the east are a wide
+      spread of tribes, from the Acahuallan Archosaurians to the secretive
+      Anura. These tribes, while they do have a Lord Ameer, do not have much
+      connection with Sargon or even the outside world as a whole. For the
+      desert dwellers, it wholly depends on whether one lives in the cities, or
+      the villages and tribes. The cities are not too dissimilar from other
+      cities on Terra, accounting for differences in climate, with modern
+      luxuries and commodities. Notably, however, Sargon has very few nomadic
+      cities, as the region is not often struck by Catastrophes. The cities of
+      Sargon stand where they stood millennia ago.</p><p>For those that live in
+      the villages and tribes, however, many live what might be considered a
+      backwards life elsewhere on Terra. For many, Originium technology and the
+      advent of the industrial revolution has not reached them. They practice
+      subsistence farming, and live difficult but fulfilling lives. It is not
+      uncommon to not identify as a Sargonian at all, but instead as a member of
+      their tribe due to their narrow world-view. Despite their primitiveness,
+      they are not hated or discriminated against by other Sargonians, who view
+      them as citizens of Sargon like any other.</p><h1>Sargonian
+      Features</h1><p><strong>Languages:</strong> Sargonic + 2 Languages of your
+      Choice.</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Athletics</p></li><li><p>Acrobatics</p></li><li><p>Wilderness</p></li><li><p>Intimidation</p></li><li><p>Perception</p></li><li><p>Animal
+      Handling</p></li></ul><p><strong>Nationality Feat (Under the Beating
+      Sun):</strong> North of the inhospitable Foehn Hotlands, the deserts of
+      Sargon are scarcely better. Visitors to the region find themselves
+      withered by the beating heat upon the sands, and exhausted by the effort
+      of walking in the unstable desert. The natives have no such
+      problem.</p><p>You do not gain Exhaustion as a result of hot environmental
+      conditions, and you only need half as much water per day.</p><p>You have
+      Advantage on any Saving Throw to avoid being knocked Prone.</p><h3>Unique
+      Background (Acahualla Tribesman)</h3><p>The tribes-people of Acahualla,
+      specifically its Archosaurian inhabitants, are known for their scrappy
+      nature. Violence to them is barely a hostile action most of the time; it’s
+      just a way to settle disputes like any other contest, nothing to get
+      overly upset over. Besides, its fun to brawl and then drink after. Suffice
+      to say, even if you’re not an Archosaurian, you’re used to
+      it.</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Brewing Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Never Counted Out):</strong> Your
+      lust for battle and contest fuels you through injury.</p><p>Whenever a
+      combat you were involved in ends, you recover missing Hit Points equal to
+      your Proficiency Bonus + your Constitution Modifier (minimum of
+      1).</p><p></p>
+    chat: ''
+  identifier: sargon
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!02HlES9Phk9pEYGD'

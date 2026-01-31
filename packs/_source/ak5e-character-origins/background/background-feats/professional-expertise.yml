@@ -1,0 +1,86 @@
+folder: YchJtvsiH0SgRWhD
+name: Professional Expertise
+type: feat
+_id: BW5S20JFN7cVNiFG
+img: icons/tools/laboratory/vials-blue-pink.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: oqJb1wAOkHnoYofd
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - skills:*
+        grants: []
+        mode: default
+      level: 0
+      title: Gain Proficiency
+      hint: ''
+      value: {}
+    - type: Trait
+      _id: 4x9OsYWW38OChGFa
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - skills:*
+        grants: []
+        mode: expertise
+      level: 0
+      title: Gain Expertise
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <p>You are a consummate professional, undoubtedly skilled at what you
+      do.</p><ul><li><p>You gain Proficiency in two Skills of your
+      choice.</p></li><li><p>You gain Expertise in one Skill of your choice that
+      you have Proficiency in.</p></li></ul><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: professional-expertise
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 2300000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!BW5S20JFN7cVNiFG'

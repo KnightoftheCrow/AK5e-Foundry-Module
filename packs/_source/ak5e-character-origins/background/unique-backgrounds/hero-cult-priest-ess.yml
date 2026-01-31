@@ -1,0 +1,77 @@
+folder: olZLY5YOp06af4qn
+name: Hero Cult Priest/ess
+type: background
+_id: rsYDNcTwuLgn0lhJ
+img: icons/skills/social/diplomacy-peace-alliance.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: T0cIwKsb8xiLuWXg
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:medical
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: cz9p2whhMQGgvd7l
+      configuration:
+        items:
+          - uuid: Item.VtyXbLu5PKiOC2TC
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Those who lead the Hero Cult cannot afford to fall short- to fail
+      themselves is to fail Minos. This is especially true if they can be
+      seen.</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Medical Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Aspirant):</strong> The very
+      essence of a Hero is to succeed where others fail, especially on behalf of
+      others, or to overcome your own weakness. You must stand tall, even when
+      others bow, so that you may lift them up.</p><p>When you take the Help
+      Action against a Creature with less current Hit Points than you, you
+      additionally grant a 1d4 bonus to that Creature’s next Attack Roll or
+      Skill Check they make within the next minute. This effect is not
+      cumulative.</p><p>Starting from 7th Level, the Range at which you can
+      perform the Help Action is increased to 30 feet, but the target must be
+      able to hear you, and have less Hit Points than you.</p>
+    chat: ''
+  identifier: hero-cult-priest-ess
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 1700000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.rsYDNcTwuLgn0lhJ
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!rsYDNcTwuLgn0lhJ'

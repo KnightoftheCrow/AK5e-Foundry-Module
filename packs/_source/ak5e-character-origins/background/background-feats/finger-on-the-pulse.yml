@@ -1,0 +1,408 @@
+folder: YchJtvsiH0SgRWhD
+name: Finger on the Pulse
+type: feat
+_id: mL180bpwR1RA671d
+img: icons/tools/instruments/harp-lap-brown.webp
+system:
+  activities:
+    yjO8bmoKebDamiLv:
+      type: utility
+      _id: yjO8bmoKebDamiLv
+      sort: 0
+      activation:
+        type: shortRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        special: ''
+      effects:
+        - _id: tsZISq7TooyTIfeo
+          level: {}
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '@skills.prf.bonus'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Grant Temporary Inspiration
+    VMB4hziBFzhGenIp:
+      type: utility
+      _id: VMB4hziBFzhGenIp
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: false
+      effects:
+        - _id: Whm8GtG3uqO8PAoY
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: true
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Toggle Charisma Check Advantage
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>You can read a room, and direct the flow of its emotion, without having
+      to try too hard.</p><ul><li><p>When you make a Charisma Skill Check to
+      influence a large group of people, such as a room or a stadium, you do so
+      with Advantage.</p></li><li><p>As a Short Rest Activity, you may perform
+      for a number of Creatures up to your Perfomance Modifier. Those Creatures
+      gain a temporary Inspiration that expires when used, or when they finish a
+      Long Rest. Once you have used this Feature, you may not do so again until
+      you complete a Long Rest.</p></li></ul>
+    chat: ''
+  identifier: finger-on-the-pulse
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects:
+  - name: Temporary Inspiration
+    img: icons/tools/instruments/harp-lap-brown.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.mL180bpwR1RA671d
+    _id: tsZISq7TooyTIfeo
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.optional.fotp.attack.all
+        mode: 0
+        value: reroll
+        priority: 20
+      - key: flags.midi-qol.optional.fotp.check.all
+        mode: 0
+        value: reroll
+        priority: 20
+      - key: flags.midi-qol.optional.fotp.save.all
+        mode: 0
+        value: reroll
+        priority: 20
+      - key: flags.midi-qol.optional.fotp.count
+        mode: 0
+        value: once
+        priority: 20
+      - key: flags.midi-qol.optional.fotp.label
+        mode: 0
+        value: Temporary Inspiration - Expend to reroll
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - longRest
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!mL180bpwR1RA671d.tsZISq7TooyTIfeo'
+  - name: Influencing Large Crowds
+    img: icons/tools/instruments/harp-lap-brown.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.mL180bpwR1RA671d
+    _id: Whm8GtG3uqO8PAoY
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.advantage.skill.per
+        mode: 0
+        value: confirm("Are you trying to influence a large group?")
+        priority: 20
+      - key: flags.midi-qol.advantage.skill.itm
+        mode: 0
+        value: confirm("Are you trying to influence a large group?")
+        priority: 20
+      - key: flags.midi-qol.advantage.skill.dec
+        mode: 0
+        value: confirm("Are you trying to influence a large group?")
+        priority: 20
+      - key: flags.midi-qol.advantage.skill.prf
+        mode: 0
+        value: confirm("Are you trying to influence a large group?")
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!mL180bpwR1RA671d.Whm8GtG3uqO8PAoY'
+sort: 1700000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!mL180bpwR1RA671d'

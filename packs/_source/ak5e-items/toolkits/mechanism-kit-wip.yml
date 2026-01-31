@@ -257,7 +257,7 @@ system:
   attuned: false
   equipped: false
   type:
-    value: art
+    value: toolkit
     baseItem: mechanism
   ability: ''
   chatFlavor: ''
@@ -330,9 +330,9 @@ _stats:
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.2.3
+  systemVersion: 5.2.4
   createdTime: 1756485622214
-  modifiedTime: 1766942311956
+  modifiedTime: 1769446458979
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: IIulvylBDhw2Zz4F
 sort: 425000

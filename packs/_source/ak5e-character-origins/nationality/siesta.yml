@@ -1,0 +1,159 @@
+folder: 7G1D42jSHLcgp1sX
+name: Siesta
+type: ak5e.nationality
+_id: XqcT6Dxqa7vz6SmL
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: V61iNxrdsD7Qydao
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:dec
+              - skills:ins
+              - skills:prc
+              - skills:prf
+              - skills:per
+              - skills:slt
+        grants:
+          - languages:standard:iberian
+          - languages:standard:victorian
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: L0GsDXAM7FpHcEon
+      configuration:
+        items:
+          - uuid: Item.nmeQssyrsVEW6EGo
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Siesta is an independent nomadic city-state that can mostly be found on
+      the coastline of the Sea of Clariside, an inland sea that became a bay
+      during the Profound Silence. It is nominally a commonwealth of Columbia,
+      but maintains complete autonomy as of the turn of the 12th century,
+      despite intense political pressure from Columbia and Victoria. It is famed
+      internationally as a desirable tourist destination, but for the people
+      that live there, it is a melting pot of almost every Terran culture, with
+      an internationally beloved culture of music and dance. To be Siestan is to
+      be submerged in all the cultures of the world a small amount.</p><p>Siesta
+      did not begin independent. Originally established as a trading post by
+      Columbian pioneers, it was built on the site of a long abandoned Sargonic
+      great road, from the heartlands down to the Iberian coasts. Columbia
+      intended to reopen this old route to trade with the Iberians, who were at
+      the height of their power. With the aid of the Columbian Army, the trading
+      town of Siesta was established, and named for the Iberian word for
+      “afternoon nap”, to represent its low Catastrophe
+      rate.</p><blockquote><p><strong>The Infected
+      Question</strong></p><p>Siesta’s handling of Oripathy is very relaxed when
+      compared to some states. It does not legally discriminate against them,
+      and Siesta’s open minded culture means that they are typically treated
+      well. Furthermore, an Infected Treatment Centre developed in partnership
+      with Rhodes Island has recently opened within the city, designed to ensure
+      Infected can access the treatment they need.</p><p>However, as it is still
+      nominally a Columbian commonwealth, the Columbian government has been
+      pressuring the Siestan council to implement a number of Columbian laws,
+      including its medical insurance premiums that are placed upon Infected,
+      which results in many becoming bankrupt. The Siestans have not yet moved
+      an inch, but who knows what the future holds?</p></blockquote><p>When the
+      Profound Silence decimated Iberia, all trade to and from Iberia stopped
+      practically overnight. A majority of Iberia’s major settlements, including
+      the capital, were destroyed, along with most of the nation’s industry.
+      Civil order disintegrated in what was left of Iberia, and no-one could buy
+      the Columbian goods. The Columbian Army, citing a lack of strategic value,
+      withdrew from Siesta. In the years to come, while they would attempt to
+      return, their failure in the Bolivar Campaign led to congress keeping them
+      on a short leash, and thus the Siestans were left on their
+      own.</p><p>Thus, they developed independent of any other nation, taking in
+      wave after wave of immigrants and refugees from all over Terra; it was
+      these myriad cultures that gave rise to the vibrant Siestan culture seen
+      today. With its beautiful beaches, open and accepting culture, and
+      extremely profitable obsidian mining industry, Siesta established itself
+      as an independent power not tied to any one nation.</p><p>In 1097, the
+      long dormant Mount Siesta began to show signs of activity due to obsidian
+      mining, and plans were made to relocate the citizens into a nomadic “New
+      Siesta”. In 1099, the expected eruption occurred, and what was once Siesta
+      was buried under ash and rubble. New Siesta maintains the spirit and soul
+      of the old city, travelling around the beaches of the Sea of Clariside.
+      With outside investment, it has fashioned itself into an important
+      international trading hub as well as a tourist destination, reprising its
+      original role from all those years ago.</p><p>Siesta is famous for its
+      personal freedom and open culture, accepting of all people and species.
+      The amalgam culture of Siesta continues to grow and develop as the years
+      advance, with more and more people moving to the growing financial hub to
+      seek work or to support the work that is already there.</p><p>As a tourist
+      destination, partying and generally making merry is a typical past-time
+      even for natives, typically when accompanied by music; if there is one
+      element of Siesta that can be said to be truly Siestan, it is their music.
+      Many people play instruments, and many of those will join bands as
+      hobbyists. In fact, music is so important to the Siestans that the world’s
+      largest music festival, the Obsidian Festival, in held within Siesta
+      annually.</p><h1>Siestan Features</h1><p><strong>Languages:</strong>
+      Victorian + Iberian + 1 Language of your
+      Choice</p><p><strong>Proficiencies:</strong> 3 from:</p><ul><li><p>Sleight
+      of
+      Hand</p></li><li><p>Insight</p></li><li><p>Perception</p></li><li><p>Deception</p></li><li><p>Performance</p></li><li><p>Persuasion</p></li></ul><p><strong>Nationality
+      Feat (Home of Tourism):</strong> Siesta sees a thousand faces from a
+      thousand places, and to be a Siestan is to learn to interact with and more
+      importantly, profit from all these people.</p><p>You can understand any
+      language spoken on modern Terra; this does not allow you to speak the
+      language, however.</p><h3>Unique Background (Siestan
+      Socialite):</h3><p>Siesta’s busy streets and parties have given you a
+      knack for dealing with crowds of
+      partygoers.</p><p><strong>Proficiencies:</strong> You are Proficient in a
+      Brewing Kit or an Instrument (your choice), and one other Tool/Vehicle of
+      your choice.</p><p><strong>Background Feat (Party Animal):</strong> You
+      can move through crowds without difficulty, and know the places parties
+      tend to congregate, even “off the books” parties.</p><ul><li><p>While in
+      an urban environment, your Travel Speed (and the Travel Speed of anyone
+      travelling with you) is doubled.</p></li><li><p>You are not slowed by
+      having to move through crowds.</p></li><li><p>While in a building, you
+      always know where the nearest exit is.</p></li></ul>
+    chat: ''
+  identifier: siesta
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!XqcT6Dxqa7vz6SmL'

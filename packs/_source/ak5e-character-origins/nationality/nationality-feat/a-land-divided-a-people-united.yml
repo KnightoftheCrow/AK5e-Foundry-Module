@@ -1,0 +1,164 @@
+folder: HfS1eUQfMj2UTzmH
+name: A Land Divided, A People United
+type: feat
+_id: x7JXINCBfq9uvW9q
+img: icons/environment/people/group.webp
+system:
+  activities:
+    gtQB8pZHOp2NY2gn:
+      type: heal
+      _id: gtQB8pZHOp2NY2gn
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: touch
+        override: false
+        special: ''
+        value: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ally
+          count: '2'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      healing:
+        types:
+          - temphp
+        custom:
+          enabled: false
+          formula: ''
+        scaling:
+          number: 1
+        number: 1
+        denomination: 6
+        bonus: ''
+      useConditionText: 'false'
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: Provide Temporary HP
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Bolivar is wracked by internal strife. When you do not know what
+      tomorrow brings, the only thing you can trust is the here and now, and the
+      people at your side.</p><p>When you finish a movement next to an allied
+      Creature with less than half of their maximum Hit Points remaining, you
+      can expend your Reaction to grant both you and that allied Creature 1d6
+      Temporary Hit Points.</p><p><strong>Partially Automated: </strong>Trigger
+      the "Provide Temporary HP" Activity when you want to use this Feature.</p>
+    chat: ''
+  identifier: a-land-divided-a-people-united
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.x7JXINCBfq9uvW9q
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!x7JXINCBfq9uvW9q'

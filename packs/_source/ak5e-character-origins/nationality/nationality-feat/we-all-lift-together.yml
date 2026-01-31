@@ -1,0 +1,64 @@
+folder: HfS1eUQfMj2UTzmH
+name: We All Lift Together
+type: feat
+_id: SNomwb1gGb9oNHAd
+img: icons/skills/melee/hand-grip-staff-yellow-brown.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Rim Billiton is a place of heavy industry; almost everyone works in the
+      mining industry, or in an industry that supports, or is supported by,
+      mining. As such, almost every Rim Billy native learns to use the equipment
+      associated with it, but also becomes indoctrinated in the culture that
+      surrounds it. Billitonians tend not to care if you’re a Cautus or not, or
+      even where you come from at all; as long as you can pull your weight on
+      the job, and are up for some fun afterwards, you can be a complete
+      stranger.</p><p>When you are performing a manual labour based task
+      alongside other Creatures (such as moving cargo, mining, maintaining
+      weaponry), you may use the Help Action as a Bonus Action, targeting all
+      Creatures that are performing the same task as you. However, you can only
+      grant Advantage on Skill Checks using Help in this
+      way.</p><p><strong>Automation not required.</strong></p>
+    chat: ''
+  identifier: we-all-lift-together
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.SNomwb1gGb9oNHAd
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!SNomwb1gGb9oNHAd'

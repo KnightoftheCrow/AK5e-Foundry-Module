@@ -1,0 +1,250 @@
+folder: YchJtvsiH0SgRWhD
+name: Gallant Demeanor
+type: feat
+_id: coAa8Tp0PHTb174e
+img: icons/environment/people/infantry-armored.webp
+system:
+  activities:
+    Yqe0ntyS7prxle1L:
+      type: utility
+      _id: Yqe0ntyS7prxle1L
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: false
+      effects:
+        - _id: ZSktjo5hWoDyq6kt
+          level: {}
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Make Vow
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: dD2i1xg3KKyw98Bd
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:ltm:spear
+          - weapon:hvm:polearm
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - type: ItemChoice
+      _id: LDOoNMvp8iHje4ju
+      configuration:
+        allowDrops: false
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-items.Item.gQexKnwZdkamQcJ7
+          - uuid: Compendium.ak5e.ak5e-items.Item.XAvfUySa6K27SHTU
+        restriction:
+          list: []
+        spell: null
+        type: weapon
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>Regardless of your relationship with them, your time with them has
+      changed your demeanour, making you appear reliable and trustworthy. When
+      you promise someone that you will do something, you can make them a vow;
+      if you do, you gain a +10 bonus to Charisma based Checks against that
+      person, as long as it relates to the vow you made, until you either
+      complete your vow or break it. You can only have one active vow at a time.
+      If you break your vow, it marks your demeanour as much as your honour; the
+      bonus you gain from this Feature is permanently reduced by 5, to a minimum
+      of 0.</p><p>Furthermore, you are Proficient with the Spear and Polearm,
+      and you may choose one of these to gain as Starting
+      Equipment.</p><p><strong>Partially Automated: </strong>The Proficiencies
+      and Weapons are automated. The vow is not; using the "Make Vow" Activity
+      simply marks a Creature as the target of your Vow.</p>
+    chat: ''
+  identifier: gallant-demeanor
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects:
+  - name: A Vow Made
+    img: icons/environment/people/infantry-armored.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.coAa8Tp0PHTb174e
+    transfer: false
+    _id: ZSktjo5hWoDyq6kt
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: <p>A powerful, binding vow has been made to this Creature.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: none
+        showIcon: true
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!coAa8Tp0PHTb174e.ZSktjo5hWoDyq6kt'
+sort: 300000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!coAa8Tp0PHTb174e'

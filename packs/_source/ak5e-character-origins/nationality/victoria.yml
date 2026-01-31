@@ -1,0 +1,211 @@
+folder: 7G1D42jSHLcgp1sX
+name: Victoria
+type: ak5e.nationality
+_id: qSZSgXRiLbiobZ1U
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: oU4ehOXXa1nPlyE1
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:acr
+              - skills:arc
+              - skills:ath
+              - skills:rel
+              - skills:prc
+              - skills:per
+        grants:
+          - languages:standard:victorian
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: 7GBGc7njIdnnLPei
+      configuration:
+        items:
+          - uuid: Item.MQKjBvchhePhbRQq
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Victoria, one of Terra’s superpowers, is an imperial nation occupying
+      the fertile lands in Terra’s heartland. Its territory encompasses much of
+      what was Gaul, and all of what was Tara. It is hard to oversell Victoria’s
+      influence, as the nation responsible for the beginning of the industrial
+      revolution. Through the power of their leading industry and enterprising
+      culture, Victoria gained fingers in almost every pie, including the
+      establishment of two foreign colonies. Political crisis has led to its
+      stagnation over the previous two decades, however, with their position as
+      leader of industry actively challenged by Columbia and Kazimierz. To make
+      matters worse, as of the turn of the 12th century, it is embroiled in a
+      three way internal conflict between Taran seperatists, Victorian
+      loyalists, and Kazdellian occupiers.</p><p>Victoria was originally founded
+      by a large nomadic tribe led by a number of Draco by making a pact with a
+      neighbouring tribe of Draco, who agreed to settle elsewhere; these lands
+      would become known as Victoria and Tara, respectively. Later, to resist
+      the Nightzmoran Khaganate, the Victorians forcefully annexed the Tarans,
+      but allowed them to keep much of their autonomy, including their own king.
+      In 737, Aslan exiles arrived en masse from Sargon, and were accepted and
+      integrated into Victorian society. However, their natural charisma allowed
+      them to gain strong popular support. In time, the Aslan houses began a
+      coup against the Draco, quickly seizing power despite resistance from the
+      Tarans.</p><p>The Victorian Draco and the Aslan formed a dual monarchy;
+      the Taran Draco, while promised autonomy, never truly received it, with
+      most of their affairs controlled by Victorian delegates. In the ninth
+      century, the Aslan house made a further bid for power, dethroning the
+      Victorian Draco to establish themselves as the de facto rulers of
+      Victoria. Tara became the final stronghold for the Draco people, but after
+      an exhausting conflict, the Taran King surrendered to the Victorian Aslan;
+      an act that earned him an assassination from Taran loyalists who refused
+      to accept the surrender.</p><p>Politically, Victoria has always been a
+      Constitutional Monarchy, divided between the royal house and Parliament.
+      The reigning monarch is the speaker of parliament, and is responsible for
+      the nobility and military. Parliament is formed from two houses (Lords and
+      Commons), which are both comprised of councillors formed into departments
+      and committees responsible for the day-to-day running of the nation. The
+      structure of Parliament is also mirrored in County Councils, meaning each
+      county is theoretically capable of independent function. The structure of
+      Victoria’s Parliament has been extremely influential on several nations;
+      most notably Columbia and Kjerag.</p><p>In the past twenty years, however,
+      the situation in Victoria has changed drastically. In 1072, the same year
+      as the Draco Royal House was purged, Victoria was on the cusp of a
+      financial crisis, as its vast coffers were depleted by foreign affairs; a
+      giant breaking under its own weight. This was in no small part due to
+      inequality in wealth between the nobles and the populace, and the current
+      king threatened to impose higher taxes on the aristocracy. Feeling their
+      power was under threat, members of the nobility manufactured a popular
+      uprising against the King, claiming he had become an obstacle to Victoria.
+      The King and much of his family were publicly hung in the garden of the
+      Royal Palace.</p><p>This move caused great confusion within Victoria; many
+      Victorians did not understand the reason why the uprising had even
+      occurred, and many more had conflicting reasons. To compound matters, the
+      eight grand dukes seized their opportunity and ruled without a king,
+      forbidding any noble from entering the capital without permission. Thus
+      Victoria, practically if not politically, fractured into eight different
+      states, all technically sharing a capital that they were forbidden to
+      enter.</p><blockquote><p><strong>The Infected
+      Question</strong></p><p>Infected laws can vary between the individual
+      counties of Victoria, as local nobles have a degree of autonomy in their
+      laws, and what laws they enforce strongly. Generally speaking though,
+      Infected are the lowest social class in Victoria, and are treated as such,
+      especially by business owners and industrialists; in most areas they are
+      forcibly segregated, and sheltering an Infected is a serious crime that
+      can carry a prison sentence. To make matters worse, Victoria’s heavy
+      industry has ensured that the Oripathy infection rate has continued to
+      rise over time.</p><p>Before the Londinium Crisis, measures were beginning
+      to be taken to end the social segregation of Victorian Infected and
+      improve living conditions; these were partially implemented, but the
+      Infected still face heavy difficulty accessing many
+      services.</p></blockquote><p>For twenty years, the Grand Dukes have ruled
+      their own fiefs, with the capital of Londinium under Parliament’s control.
+      This has not been a positive experience for Victoria, causing
+      technological and political stagnation. Taran Nationalism reached a new
+      high, workers strikes and protests began to occur, and Gallic restoration
+      movements sprang up in the former regions of Gaul. Amidst the crisis, the
+      Duke of Cavendish invited the Military Commission of Kazdel to Londinium
+      to discuss cooperation and restoring order. However, the Kazdellians
+      betrayed the Duke, executing him and his supporters and seizing control of
+      the capital, beginning the Londinium Crisis. Thus began a military crisis
+      between the eight Dukes and the occupying Kazdellians, with the average
+      Victorian caught in the crossfire.</p><p>Thus, Victoria is now a nation at
+      war. Those that live in Londinium now live in an active war zone, under
+      siege by their own countrymen. Those outside of Londinium often have
+      martial law pressed upon them, regimenting many aspects of their lives.
+      For those outside of the war zone, however; life goes on. The factories
+      continue to work, the farms are more important than ever, and for many
+      people, the war is a thing happening somewhere else. Victorian culture has
+      influenced almost every nation on Terra, and in turn has been influenced
+      by it; Victorian novels are read all over the world, depicting events and
+      characters from other cultures. Cinematography and film originated in
+      Victoria, and for those outside of the war-zone, is still a popular and
+      thriving hobby. The villages are agrarian; not subsistence agriculture,
+      but economic, utilising Victoria’s famous heavy machinery. The towns and
+      cities are bustling hubs of industry and culture, and a general patriotic
+      spirit. Victoria is wounded, but the sun has not set on the Empire just
+      yet.</p><h1>Victorian Features</h1><p><strong>Languages:</strong>
+      Victorian + 2 Languages of your
+      choice.</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Athletics</p></li><li><p>Acrobatics</p></li><li><p>Arts</p></li><li><p>Perception</p></li><li><p>Lore</p></li><li><p>Persuasion</p></li></ul><p><strong>Nationality
+      Feat (Hegemonic Culture):</strong> Victoria has its fingers in pies all
+      over the world; in any major population centre, there are likely to be
+      Victorian expatriates, and you can track them down easily and request
+      their aid.</p><p>As a Long Rest Activity while you are resting in any
+      major settlement, you can attempt to contact fellow Victorians in that
+      location. If there are any, you make contact at the end of that Long Rest.
+      These folk recognise you as a fellow Victorian, and will shelter you and
+      your allies, as well as providing whatever services they can. They will
+      even hide you, should you require it, but they will not risk their lives
+      for you on shared nationality alone.</p><h3>Unique Background (Military
+      School Graduate):</h3><p>Victoria is, debatably, the foremost superpower
+      on Terra. There are a number of factors for this, such as their
+      geographical location, historical victories, and pervasive culture; but
+      these alone wouldn’t be enough to maintain their dominance. What does so
+      is the elite Victorian military, led by officers trained at their
+      prodigious military academies. Such is the prestige of these academies
+      that even foreign officers and nobles come to study at these illustrious
+      institutions.</p><p><strong>Proficiencies:</strong> You are Proficient in
+      the Messenger Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Officer):</strong> Your training
+      gives you a tactical flexibility that most others simply do not
+      possess.</p><p>Choose two of the Basic Tactics available to the Tactician
+      Subclass; you may use these Tactics as if you were a Tactician. Your
+      maximum Acumen to use these Tactics is 3, and you regain all expended
+      Acumen when you complete a Long Rest. If you later choose the Tactician
+      Branch, your maximum Acumen is instead increased by 3.</p><h3>Unique
+      Background (Taran Nationalist):</h3><p>Tara’s history is one of blood and
+      betrayal. For centuries they have been beaten down, backstabbed, and
+      misled. Even now, Tarans find themselves in the midst of a cataclysmic
+      conflict in Victoria, and torn further still between the Red and Purple
+      Dragons of Tara. Yet, Tara endures.</p><p><strong>Proficiencies:</strong>
+      You are Proficient in the Tailoring Kit, and one other Tool/Vehicle of
+      your choice.</p><p><strong>Background Feat (Great Flame of Tara):</strong>
+      The Flame will never be extinguished.</p><p>Once per Long Rest, while you
+      are Dying, you can grant yourself Mettle equal to your Proficiency Bonus
+      (no Action required)</p>
+    chat: ''
+  identifier: victoria
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!qSZSgXRiLbiobZ1U'

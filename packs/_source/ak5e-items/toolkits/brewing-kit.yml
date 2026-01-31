@@ -263,7 +263,7 @@ system:
   attuned: false
   equipped: false
   type:
-    value: art
+    value: toolkit
     baseItem: brewing
   ability: wis
   chatFlavor: ''
@@ -282,9 +282,9 @@ _stats:
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.2.3
+  systemVersion: 5.2.4
   createdTime: 1756485611404
-  modifiedTime: 1766937748109
+  modifiedTime: 1769446305984
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: Ildgv7odyqeahxmy
 sort: 200000

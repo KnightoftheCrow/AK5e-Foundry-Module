@@ -1,0 +1,79 @@
+folder: MkGCwSTO7HeQOsMl
+name: Upper Class
+type: background
+_id: fmaKU7wL9TEpCeFa
+img: icons/commodities/treasure/crown-gold-laurel-wreath.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: 2vVmAiIxZFj7lEOO
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+          - count: 1
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+        grants: []
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: vQFj8jRk4LGWZn0k
+      configuration:
+        items:
+          - uuid: Item.5jrWml8AmMPHzcCd
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Nobility can be found in a majority of Terran lands. Even in lands
+      without traditional nobility, there are always those who hold more wealth
+      or status than those around them. You are one such person; did you earn
+      your status, or inherit it? How do you view the people not as fortunate as
+      you?</p><p><strong>Proficiencies:</strong> You are Proficient in one
+      Tool/Vehicle of your choice, and learn a Language of your
+      choice.</p><p><strong>Background Feat (Privilege):</strong> You know best
+      how to carry yourself and exert your influence.</p><ul><li><p>If you make
+      a reasonable request to someone who recognises your status, they will do
+      their best to comply with your wishes without needing to be
+      convinced.</p></li><li><p>When you make a Charisma-based Skill Check to
+      make someone perform an action, you do so at Advantage providing they
+      recognise you as being superior to them.</p></li></ul>
+    chat: ''
+  identifier: upper-class
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 100782
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.fmaKU7wL9TEpCeFa
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!fmaKU7wL9TEpCeFa'

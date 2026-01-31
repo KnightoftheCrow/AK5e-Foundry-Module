@@ -1,0 +1,94 @@
+folder: olZLY5YOp06af4qn
+name: Patronaged Prodigy
+type: background
+_id: MonqhpNvipst7cLB
+img: icons/tools/instruments/harp-lap-brown.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: vE7OjPme0lXhkrUw
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit:art
+              - tool:toolkit:instrumentbagpipes
+              - tool:toolkit:instrumentbass
+              - tool:toolkit:instrumentcello
+              - tool:toolkit:instrumentdrums
+              - tool:toolkit:instrumentflute
+              - tool:toolkit:instrumentguitar
+              - tool:toolkit:instrumentharp
+              - tool:toolkit:instrumentkeyboard
+              - tool:toolkit:instrumentmicrophone
+              - tool:toolkit:instrumentother
+              - tool:toolkit:instrumenttrombone
+              - tool:toolkit:instrumenttuba
+              - tool:toolkit:instrumentturntable
+              - tool:toolkit:instrumentviolin
+              - tool:toolkit:makeover
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants: []
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: E1g3F2Nku2GnSEeu
+      configuration:
+        items:
+          - uuid: Item.hT9xQirDexpId6YQ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>The upper class of Leithanien are often willing to sponsor upcoming
+      talent, to free them from drudgery so that they may focus on their art,
+      music, or whatever else they are good at. Of course, this is rarely done
+      for altruistic purposes; most just want a hand in the development of these
+      talents, to mould them and thus secure their own claim to
+      fame.</p><p><strong>Proficiencies:</strong> You are Proficient in either
+      the Art Kit, an Instrument, or the Makeover Kit. In addition, you are
+      Proficient in one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Patronage):</strong> Your art,
+      whatever it may be, is impressive enough to have attracted attention. You
+      have a Patron to support you. They will bankroll you, provide you with
+      modest accommodation, spread your works and possibly gain you fame.
+      However, if you abuse their patronage or do not produce adequate work, you
+      will lose that patronage.</p>
+    chat: ''
+  identifier: patronaged-prodigy
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 900000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.MonqhpNvipst7cLB
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!MonqhpNvipst7cLB'

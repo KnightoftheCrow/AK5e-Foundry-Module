@@ -1,0 +1,81 @@
+folder: olZLY5YOp06af4qn
+name: Pathfinder
+type: background
+_id: RkuU84FzHBuiSpkF
+img: icons/tools/navigation/compass-brass-blue-red.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: GyPllYyEek6JRIsR
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants: []
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: Kt7C7YUdjgaDfgaE
+      configuration:
+        items:
+          - uuid: Item.o6upX7UyDUMg90J1
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>The Pathfinders are a heretical organisation that seeks to end the
+      isolationism of Laterano and bring aid to the unfortunate of the world,
+      rather than promising heaven. They accept all faithful, including Sarkaz.
+      They find their own path, and refuse to follow the path laid out for
+      them.</p><p><strong>Proficiencies:</strong> You are Proficient in two
+      Tools/Vehicles of your choice.</p><p><strong>Background Feat (Find the
+      Path):</strong> You lose all Skill Proficiencies from your Species and
+      Nationality, and cannot gain any Skill Proficiencies. Instead, you have
+      Proficiency Points; you start off with 3 at Level 1, and gain 1 every
+      Level thereafter. You invest these points into your Skills when you get
+      them; each one you invest gives you a +1 Bonus to Skill Checks and your
+      Passive Score using that Skill. The maximum points you can have invested
+      into a Skill is equal to your Character Level +3.</p><p>If you would gain
+      a Skill Proficiency from a different source, such as from your Class, you
+      instead gain 1 Proficiency Point; if you would gain Expertise in a Skill,
+      you instead gain 3 Proficiency Points.</p><p>You are considered Proficient
+      in any Skill you have Proficiency Points invested in. If the amount of
+      points you have invested in a Skill is greater than your Proficiency
+      Bonus, you are considered to have Expertise in that Skill.</p>
+    chat: ''
+  identifier: pathfinder
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 1000000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.RkuU84FzHBuiSpkF
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!RkuU84FzHBuiSpkF'

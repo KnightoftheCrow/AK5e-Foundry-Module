@@ -1,0 +1,77 @@
+folder: olZLY5YOp06af4qn
+name: Miner
+type: background
+_id: VDsGTam0N83FyyHr
+img: icons/weapons/axes/pickaxe-gray.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: aaPhgBk75GkR2m9i
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:engineering
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: R3PiWPVDiZhPsHoO
+      configuration:
+        items:
+          - uuid: Item.7lhV6LQR0bAZY4tt
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>A majority of Rim Billitonians work in the mines the nation is known
+      for. It is far from easy work, cracking through dangerous, dark terrain in
+      search of an even more dangerous mineral. That said, it does tend to build
+      up a certain kind of strength and skill set; one that lends itself quite
+      well to cathartic destruction.</p><p><strong>Proficiencies:</strong> You
+      are Proficient in the Engineering Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Groundbreaker):</strong> Your
+      undergrounder lifestyle has equipped you with the following
+      benefits:</p><ul><li><p>You have 10 feet of Blindsight. If you have, or
+      gain, any other source of Blindsight, the range of that Blindsight is
+      increased by 10 feet.</p></li><li><p>You deal double Damage to Objects and
+      Structures with your Attacks.</p></li><li><p>You gain Proficiency with the
+      Greataxe and Heavy Hammer, and can choose one to add to your Starting
+      Equipment.</p></li></ul>
+    chat: ''
+  identifier: miner
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 1100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.VDsGTam0N83FyyHr
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!VDsGTam0N83FyyHr'

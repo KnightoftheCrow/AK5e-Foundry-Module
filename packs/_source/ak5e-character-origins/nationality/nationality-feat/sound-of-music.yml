@@ -1,0 +1,124 @@
+folder: HfS1eUQfMj2UTzmH
+name: Sound of Music
+type: feat
+_id: qB14YEh1xWmc7f7h
+img: icons/tools/instruments/drum-snare-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: 0WX2Zkq1Xd7xBgif
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit:instrumentbagpipes
+              - tool:toolkit:instrumentbass
+              - tool:toolkit:instrumentcello
+              - tool:toolkit:instrumentdrums
+              - tool:toolkit:instrumentflute
+              - tool:toolkit:instrumentguitar
+              - tool:toolkit:instrumentharp
+              - tool:toolkit:instrumentkeyboard
+              - tool:toolkit:instrumentmicrophone
+              - tool:toolkit:instrumentother
+              - tool:toolkit:instrumenttrombone
+              - tool:toolkit:instrumenttuba
+              - tool:toolkit:instrumentturntable
+              - tool:toolkit:instrumentviolin
+        grants:
+          - skills:prf
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - type: ItemChoice
+      _id: otQXspABU4akzbtD
+      configuration:
+        allowDrops: false
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-items.Item.ZuHZkt1h2YP8lgwu
+          - uuid: Compendium.ak5e.ak5e-items.Item.SCHjE2T5gXZRtIpX
+          - uuid: Compendium.ak5e.ak5e-items.Item.96vApcsV1yyaPTyD
+          - uuid: Compendium.ak5e.ak5e-items.Item.QvzlfvutcIIezpDs
+          - uuid: Compendium.ak5e.ak5e-items.Item.gFr3mcd57Og1c0pZ
+          - uuid: Compendium.ak5e.ak5e-items.Item.Hs0mF5dzKXUqdAdP
+          - uuid: Compendium.ak5e.ak5e-items.Item.5l64laM4rk4Ivi0m
+          - uuid: Compendium.ak5e.ak5e-items.Item.YAl6BnAF78PaYlDX
+          - uuid: Compendium.ak5e.ak5e-items.Item.dqXsCaK1P0JhtYC4
+          - uuid: Compendium.ak5e.ak5e-items.Item.sIWoR9fKRrec9UfW
+          - uuid: Compendium.ak5e.ak5e-items.Item.Nng70cKI1btONIpk
+          - uuid: Compendium.ak5e.ak5e-items.Item.8kQVIEXNMpMwu0XE
+          - uuid: Compendium.ak5e.ak5e-items.Item.tDJPOjB3go7yh1at
+          - uuid: Compendium.ak5e.ak5e-items.Item.YRaUmzhRyxMbjH3U
+        restriction:
+          list: []
+        spell: null
+        type: tool
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>In Leithanien, music, art, and the performance of it are more than a
+      virtue; they are core to society itself. Learning an instrument as a child
+      is as rudimentary as learning to read and write. Leithanien’s fabled Arts
+      often integrate music and sound into its casting, the legendary
+      Güldenesgesatz being the archetypal example of it.</p><ul><li><p>You gain
+      Proficiency in the Performance Skill.</p></li><li><p>You gain Proficiency
+      with an Instrument of your choice, and gain that Instrument as Starting
+      Equipment.</p></li><li><p>When you play that Instrument, you are
+      considered to have Expertise in the Performance Skill. If you already have
+      Expertise in Performance, you additionally have Advantage on Performance
+      Checks to play that Instrument.</p></li></ul><p><strong>Not Automated:
+      </strong>The final effect providing expertise, or advantage when you have
+      expertise, is not automated.</p>
+    chat: ''
+  identifier: sound-of-music
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.qB14YEh1xWmc7f7h
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!qB14YEh1xWmc7f7h'

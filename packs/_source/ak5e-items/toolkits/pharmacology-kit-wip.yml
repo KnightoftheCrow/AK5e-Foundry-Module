@@ -422,7 +422,7 @@ system:
   attuned: false
   equipped: false
   type:
-    value: art
+    value: toolkit
     baseItem: pharmacology
   ability: ''
   chatFlavor: ''
@@ -441,9 +441,9 @@ _stats:
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.2.3
+  systemVersion: 5.2.4
   createdTime: 1756485625877
-  modifiedTime: 1766942334680
+  modifiedTime: 1769446986771
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: YWNh0sRApVhTseeC
 sort: 356250

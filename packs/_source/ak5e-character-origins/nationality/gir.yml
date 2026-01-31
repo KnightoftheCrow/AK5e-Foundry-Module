@@ -1,0 +1,153 @@
+folder: 7G1D42jSHLcgp1sX
+name: Ægir
+type: ak5e.nationality
+_id: WKatWIKl6rK9MckA
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: yasBE9v35QZFd9LI
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 3
+            pool:
+              - skills:rel
+              - skills:med
+              - skills:prc
+              - skills:prf
+              - skills:per
+              - skills:tech
+        grants: []
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: nIYCZvUc0HEtw3rk
+      configuration:
+        items:
+          - uuid: Item.V0Wag5cTIBP584oY
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Up until around two centuries ago, Ægir was believed to be a myth; a
+      thing of legend. It is not hard to see why. On the base of the ocean, off
+      the southern coastline of Iberia, lie the cities of the Aegir; great
+      biodomes built by harnessing the technology left behind by The First
+      Civilisation. In the ninth century, refugees from Ægir fled to the shores
+      of land, taking their technology with them. Iberia capitalised on the
+      arrival of these “Islanders”, as they were known, and enjoyed a brief but
+      prosperous period of co-operation, catapulting Iberia into the position of
+      the foremost naval power on Terra behind Ægir herself. However, they took
+      the boons of the Ægirians without heeding their warnings, leading to the
+      great tsunami knows the Profound Silence. The Profound Silence all but
+      destroyed Iberia, ending their golden age, and stranded the Ægir
+      “Islanders” on dry land. Cut off from the mainland by the Seaborn, Ægir
+      itself became legend once again; succeeded only by the works and people
+      left behind.</p><blockquote><p><strong>Non-Aegir in
+      Ægir</strong></p><p>Thanks to its geographical location and political
+      isolation, non-Aegir citizens of Ægir are unheard of. To be so is not
+      strictly impossible, but would require a very good
+      explanation.</p></blockquote><p>Ægir has no head of state; each Ægir city
+      is a city-state, ruled by a Consul and their Senate, which is itself
+      comprised of two houses; the Academy of Sciences and the Academy of
+      Technology. These Academies are made from the leading minds in their
+      respective fields; if a proposal is agreed by both houses within a city
+      and approved by the consul, that proposal is passed into law for all Ægir
+      cities. Within each city, governance is carried out through debates in the
+      Sophontheatrum; an amphitheatre open to any citizen to observe or engage
+      with governance.</p><p>Individual life within Ægir is vastly different to
+      anywhere else on Terra. Ægirians believe strongly in the concept of human
+      centrism; despite their incredible technology, science and progress is a
+      means, not an end. They strongly reject any idea of augmenting themselves
+      with technology, believing that such a path would lead them to losing the
+      humanity they value so strongly. In that same vein, Ægirian citizens are
+      encouraged to pursue distinctly human pastimes; art, music, dance,
+      sculpting, writing, just to name a few. Manual labour in Ægir is performed
+      by machines and merely overseen by people, meaning that Ægirians have
+      enough time to pursue these hobbies.</p><p>One of the most notable ways in
+      which Ægir differs from many Terran civilisations is their separation from
+      family; Ægirian children are rarely raised by their parents, instead
+      raised in state-run public childcare. The role of a parent in Ægir society
+      is more akin to that of a sponsor than a caregiver. Throughout their
+      childhood, parents are allowed to keep contact with their children,
+      assuming they do nothing to indicate that such a thing would be harmful.
+      When a child comes of age, they are provided their future career by the
+      city, to ensure a stable transition to adulthood.</p><p>In the modern age,
+      Ægir has been forced to re-evaluate its isolationist stance. The threat of
+      the Seaborn grows by the day, threatening to swamp Ægir if they stand
+      alone. Recently, however, the lighthouses of Iberia, symbols of the
+      co-operation between the nations and silent for almost a century, have
+      begun to light again. The Iberians are fighting back, and thus Ægir
+      prepares to cast off its shackles and return to the world stage, before
+      there is nothing left to save.</p><blockquote><p><strong>The Infected
+      Question</strong></p><p>Originium is all but completely absent in the
+      ocean, and thus Oripathy is hardly ever observed amongst native Ægirians.
+      Furthermore, all Ægirians are entitled to free healthcare provided by the
+      state, and thus any who were to become Infected likely have good
+      prospects. Finally, if it comes to this, Ægir practices voluntary
+      euthanasia for the terminally ill.</p></blockquote><h3>Ægirian
+      Features</h3><p><strong>Languages</strong>: Aegirian + 2 other Languages
+      of your Choice.</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Medicine</p></li><li><p>Lore</p></li><li><p>Perception</p></li><li><p>Performance</p></li><li><p>Persuasion</p></li><li><p>Tech</p></li></ul><p><strong>Nationality
+      Feat (Sophontheatri):</strong> The social architecture of modern Ægir has
+      been heavily influenced by the teachings of Martus the Sage. Though now a
+      reviled figure, Ægir clings to his traditions of public debate to solve
+      issues, and thus every Ægirian is intimately familiar with the art of
+      debate.</p><p>When you fail a Persuasion Check to convince someone of your
+      point of view, you may reroll that Check.</p><h3>Unique Background (Ægir
+      Sage):</h3><p>The highly insular nation of Ægir has eclipsed the
+      technology Level of surface dwellers in most respects. You are someone who
+      is particular versed in Ægir’s scientific advancements; a beacon of
+      enlightened thought and knowledge. To you, there is no distinction between
+      study and reality.</p><p><strong>Proficiencies:</strong> You are
+      Proficient in the Engineering Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Legacy of The
+      Predecessors):</strong> Pedestrian technologies in Ægir are the stuff of
+      science fiction novels to the land-bound, and thus Ægirians have no issues
+      mastering their technology.</p><ul><li><p>You are Proficient in the
+      Technology Skill.</p></li><li><p>Once per Short Rest, when you would make
+      a Skill Check using your Intelligence Score, you can choose to make a
+      Technology Check instead. If the result of the Technology Check is higher
+      than the DC of the Skill Check, you succeed on that Skill
+      Check.</p></li></ul>
+    chat: ''
+  identifier: aegir-nationality
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!WKatWIKl6rK9MckA'

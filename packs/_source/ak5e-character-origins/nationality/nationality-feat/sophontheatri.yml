@@ -1,0 +1,116 @@
+folder: HfS1eUQfMj2UTzmH
+name: Sophontheatri
+type: feat
+_id: V0Wag5cTIBP584oY
+img: icons/environment/settlement/temple-night.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>The social architecture of modern Ægir has been heavily influenced by
+      the teachings of Martus the Sage. Though now a reviled figure, Ægir clings
+      to his traditions of public debate to solve issues, and thus every Ægirian
+      is intimately familiar with the art of debate.</p><p>When you fail a
+      Persuasion Check to convince someone of your point of view, you may reroll
+      that Check, but must use the new result.</p>
+    chat: ''
+  identifier: sophontheatri
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects:
+  - name: Sophontheatri
+    img: icons/environment/settlement/temple-night.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.V0Wag5cTIBP584oY
+    _id: pwBpeAkJaoncn2eo
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.optional.sophontheatri.skill.per
+        mode: 0
+        value: reroll
+        priority: 20
+      - key: flags.midi-qol.optional.sophontheatri.count
+        mode: 0
+        value: every
+        priority: 20
+      - key: flags.midi-qol.optional.sophontheatri.label
+        mode: 0
+        value: Sophontheatri - Reroll to Persuade
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!V0Wag5cTIBP584oY.pwBpeAkJaoncn2eo'
+sort: 100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!V0Wag5cTIBP584oY'

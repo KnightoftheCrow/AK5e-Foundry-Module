@@ -1,0 +1,105 @@
+folder: YchJtvsiH0SgRWhD
+name: Lifesaver
+type: feat
+_id: 1I5cvc4eLrqtSWwC
+img: icons/magic/life/heart-hand-gold-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Whatever your medical background, from self-taught Sargonians to
+      university educated Siracusans, your main goal is to preserve and save
+      life.</p><ul><li><p>When you use a Healer’s Kit to restore Hit Points to a
+      Creature, the amount restored is doubled.</p></li><li><p>Whenever you roll
+      dice to determine the amount of Hit Points you restore to another
+      Creature, you can reroll any result of 1 on those dice, but must use the
+      new result.</p></li></ul>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects:
+  - name: Reroll 1's for Healing
+    img: icons/magic/life/heart-hand-gold-green.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.1I5cvc4eLrqtSWwC
+    _id: Y9lAJ9Y4GcyZEqQo
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.rollModifiers.damage.heal.all
+        mode: 0
+        value: r1
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!1I5cvc4eLrqtSWwC.Y9lAJ9Y4GcyZEqQo'
+sort: 1800000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!1I5cvc4eLrqtSWwC'

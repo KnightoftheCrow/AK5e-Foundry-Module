@@ -1,0 +1,74 @@
+folder: MkGCwSTO7HeQOsMl
+name: Professional
+type: background
+_id: caVPB8f4D4fuEwYj
+img: icons/environment/settlement/house-farmland.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: L7EwYY5MVxjzUtqj
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants: []
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: gP0DL4upHYdqzwjp
+      configuration:
+        items:
+          - uuid: Item.BW5S20JFN7cVNiFG
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Terra is replete with career professionals since the industrial
+      revolution- people working in tertiary or quaternary industries.
+      Regardless of what your specific job is, you sell your knowledge and
+      experience in the career for money, and you are damn good at it. Many
+      professionals are also graduates of higher education, which may have
+      exposed you to alternative viewpoints you had never
+      considered.</p><p><strong>Proficiencies:</strong> You are Proficient in
+      two Tools/Vehicles of your choice.</p><p><strong>Background Feat
+      (Professional Expertise):</strong> You are a consummate professional,
+      undoubtedly skilled at what you do.</p><ul><li><p>You gain Proficiency in
+      two Skills of your choice.</p></li><li><p>You gain Expertise in one Skill
+      of your choice that you have Proficiency in.</p></li></ul>
+    chat: ''
+  identifier: professional
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 103125
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.caVPB8f4D4fuEwYj
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!caVPB8f4D4fuEwYj'

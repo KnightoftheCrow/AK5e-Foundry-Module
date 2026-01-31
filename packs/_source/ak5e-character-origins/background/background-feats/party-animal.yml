@@ -1,0 +1,59 @@
+folder: YchJtvsiH0SgRWhD
+name: Party Animal
+type: feat
+_id: 4bI9O05VE2sGVD2h
+img: icons/consumables/drinks/wine-bottle-glass-white.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You can move through crowds without difficulty, and know the places
+      parties tend to congregate, even “off the books”
+      parties.</p><ul><li><p>While in an urban environment, your Travel Speed
+      (and the Travel Speed of anyone travelling with you) is
+      doubled.</p></li><li><p>You are not slowed by having to move through
+      crowds.</p></li><li><p>While in a building, you always know where the
+      nearest exit is.</p></li></ul><p><strong>Automation not
+      required.</strong></p>
+    chat: ''
+  identifier: party-animal
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 1400000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!4bI9O05VE2sGVD2h'

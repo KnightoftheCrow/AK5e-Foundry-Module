@@ -1,0 +1,74 @@
+folder: olZLY5YOp06af4qn
+name: Stuoraveahka
+type: background
+_id: ty1lcXc1yTFURKTC
+img: icons/skills/melee/hand-grip-hammer-spiked-blue.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: few60pBnX3It62L5
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:woodwork
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: VbV6aT0xaJ4i0AlF
+      configuration:
+        items:
+          - uuid: Item.2BTzYLwOvUYBFOdo
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>You have dwelled Sami’s northern wastes, and battled the demons that
+      pour from the north; an endless tide of illusion, misdirection, and death.
+      It has hardened your mind and spirit against the predations of the
+      Collapsals.</p><p><strong>Proficiencies:</strong> You are Proficient in
+      the Woodwork Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Demon Hunter):</strong> While you
+      are affected by illusion-esque effects and Arts, such as Phantasmal
+      Killer, you can end that effect as an Action. Additionally, even if you
+      fail a Skill Check to detect an illusion, you will know that something is
+      wrong, even if you cannot identify what. Finally, you have Advantage on
+      Saving Throws against Aberrations.</p>
+    chat: ''
+  identifier: stuoraveahka
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 300000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.ty1lcXc1yTFURKTC
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!ty1lcXc1yTFURKTC'

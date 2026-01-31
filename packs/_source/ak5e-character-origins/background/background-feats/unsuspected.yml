@@ -1,0 +1,60 @@
+folder: YchJtvsiH0SgRWhD
+name: Unsuspected
+type: feat
+_id: EsmHMacpci7rRITq
+img: icons/skills/social/thumbsup-approval-like.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Unless they have evidence, or the other possible explanations are too
+      fantastical, your nonchalance towards criminal activity makes people
+      unwilling to suspect you before other options.</p><p>Furthermore, you have
+      Advantage on any Charisma based Skill Check to convince people to overlook
+      suspicious activity.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: unsuspected
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 2700000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!EsmHMacpci7rRITq'

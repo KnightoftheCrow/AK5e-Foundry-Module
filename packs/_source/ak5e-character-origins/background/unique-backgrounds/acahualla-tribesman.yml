@@ -1,0 +1,75 @@
+folder: olZLY5YOp06af4qn
+name: Acahualla Tribesman
+type: background
+_id: 8pWsuTE9dKHkMkBn
+img: icons/magic/nature/root-vine-entangled-humanoid.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: UDklYUtwXn9fIiFV
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:brewing
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: I3U9b7iwIPAMa4fk
+      configuration:
+        items:
+          - uuid: Item.6NNZkFp4Q0r0xLhc
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>The tribes-people of Acahualla, specifically its Archosaurian
+      inhabitants, are known for their scrappy nature. Violence to them is
+      barely a hostile action most of the time; it’s just a way to settle
+      disputes like any other contest, nothing to get overly upset over.
+      Besides, its fun to brawl and then drink after. Suffice to say, even if
+      you’re not an Archosaurian, you’re used to
+      it.</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Brewing Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Never Counted Out):</strong> Your
+      lust for battle and contest fuels you through injury.</p><p>Whenever a
+      combat you were involved in ends, you recover missing Hit Points equal to
+      your Proficiency Bonus + your Constitution Modifier (minimum of 1).</p>
+    chat: ''
+  identifier: acahualla-tribesman
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.8pWsuTE9dKHkMkBn
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!8pWsuTE9dKHkMkBn'

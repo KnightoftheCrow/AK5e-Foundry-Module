@@ -279,7 +279,7 @@ system:
   attuned: false
   equipped: false
   type:
-    value: art
+    value: toolkit
     baseItem: makeover
   ability: ''
   chatFlavor: ''
@@ -565,9 +565,9 @@ _stats:
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.2.3
+  systemVersion: 5.2.4
   createdTime: 1756485620647
-  modifiedTime: 1766942102002
+  modifiedTime: 1769446440641
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: 0ft9PxeRW8FoUjgb
 sort: 450000

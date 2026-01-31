@@ -1,0 +1,88 @@
+folder: YchJtvsiH0SgRWhD
+name: Arms of Justice
+type: feat
+_id: PYVScpl8Kz4959CR
+img: icons/sundries/lights/lantern-bullseye-signal-copper.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: Zf9fBRQgyUosdHiR
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:ltm:sword
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      _id: yMa28VyveI2fpJFK
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-items.Item.Ve5i7MSi8dzq0UJG
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-items.Item.HnCl11KcXVsf8ePQ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>As an Inquisitor, you are skilled with the Inquisition’s
+      tools.</p><ul><li><p>You are Proficient with the Sword, and gain one as
+      Starting Equipment.</p></li><li><p>You gain one of the Lanterns of the
+      Iberian Inquisition as Starting Equipment. The Lantern has the same
+      Profile as an Arts Wand, but does not have the Casting Unit Property.
+      While you are wielding the Lantern:</p><ul><li><p>Allied Creatures within
+      10 feet of you add your Proficiency Bonus to Wisdom Saving Throws they
+      make; this effect is not cumulative.</p></li><li><p>Aberration (Seaborn)
+      Creatures have Disadvantage on Attack Rolls against
+      you.</p></li></ul></li></ul><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: arms-of-justice
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!PYVScpl8Kz4959CR'

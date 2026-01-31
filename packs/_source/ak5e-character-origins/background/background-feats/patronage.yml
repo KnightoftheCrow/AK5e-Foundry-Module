@@ -1,0 +1,61 @@
+folder: YchJtvsiH0SgRWhD
+name: Patronage
+type: feat
+_id: hT9xQirDexpId6YQ
+img: icons/commodities/currency/coins-plain-stack-gold-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your art, whatever it may be, is impressive enough to have attracted
+      attention. You have a Patron to support you. They will bankroll you,
+      provide you with modest accommodation, spread your works and possibly gain
+      you fame. However, if you abuse their patronage or do not produce adequate
+      work, you will lose that patronage.</p><p><strong>Automation not
+      required.</strong></p>
+    chat: ''
+  identifier: patronage
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 700000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!hT9xQirDexpId6YQ'

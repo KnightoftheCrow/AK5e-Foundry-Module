@@ -1,0 +1,227 @@
+folder: YchJtvsiH0SgRWhD
+name: Aspirant
+type: feat
+_id: VtyXbLu5PKiOC2TC
+img: icons/skills/social/intimidation-impressing.webp
+system:
+  activities:
+    gHKQIpPLvatxeXkp:
+      type: utility
+      _id: gHKQIpPLvatxeXkp
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: hhIsGFDDFvtZxm1a
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ally
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: target.attributes.hp.value < attributes.hp.value
+      useConditionReason: Their Hit Points are not lower than yours.
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Provide 1d4 Bonus
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>The very essence of a Hero is to succeed where others fail, especially
+      on behalf of others, or to overcome your own weakness. You must stand
+      tall, even when others bow, so that you may lift them up.</p><p>When you
+      take the Help Action against a Creature with less current Hit Points than
+      you, you additionally grant a 1d4 bonus to that Creature’s next Attack
+      Roll or Skill Check they make within the next minute. This effect is not
+      cumulative.</p><p>Starting from 7th Level, the Range at which you can
+      perform the Help Action is increased to 30 feet, but the target must be
+      able to hear you, and have less Hit Points than
+      you.</p><p><strong>Partially Automated: </strong>The "Provide 1d4 Bonus"
+      Activity on this Feature provides the appropriate bonus, and only if they
+      have less HP than you. However, you must manually trigger this when you
+      take the Help Action.</p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects:
+  - name: +1d4 to next Attack/Skill Check
+    img: icons/skills/social/intimidation-impressing.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.VtyXbLu5PKiOC2TC
+    transfer: false
+    _id: hhIsGFDDFvtZxm1a
+    type: base
+    system: {}
+    changes:
+      - key: system.bonuses.All-Attacks
+        mode: 2
+        value: 1d4
+        priority: 20
+      - key: system.bonuses.abilities.skill
+        mode: 2
+        value: 1d4
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 60
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - 1Attack
+          - isSkill
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!VtyXbLu5PKiOC2TC.hhIsGFDDFvtZxm1a'
+sort: 900000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!VtyXbLu5PKiOC2TC'

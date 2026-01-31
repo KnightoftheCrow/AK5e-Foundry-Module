@@ -1,0 +1,170 @@
+folder: 7G1D42jSHLcgp1sX
+name: Minos
+type: ak5e.nationality
+_id: 0C1C5yhxalyd9bOe
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: TCBGIagmAjzrubua
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:acr
+              - skills:ani
+              - skills:ath
+              - skills:rel
+              - skills:med
+              - skills:nat
+        grants:
+          - languages:standard:sargonic
+          - languages:standard:victorian
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: qGv9vfdOResJszFX
+      configuration:
+        items:
+          - uuid: Item.zzt3Gl2CNOFpupUa
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>To some, Minos might seem a simple, agrarian land that has fallen
+      behind the times. While there may be some truth to that, there is no
+      discounting their numerous achievements; much of Terra’s original
+      political philosophy originates from Minos. There are Minoan sports that
+      are played all around Terra, and while they do not produce much, Minoan
+      goods are known to be of superlative quality; all from a nation only newly
+      freed from the yoke of colonial oppression.</p><p>Minos’s founding myth
+      tells that it was founded by a refugee leader named Ceresia, who searched
+      for a place free from strife. Over time, the settlements grew and
+      expanded, eventually becoming 10 city-states all loosely identifying with
+      one another. It was during this time the Hero Cult had its beginnings; the
+      oral retelling and performance of great deeds performed by Minoan
+      exemplars. These 10 city-states were eventually unified under three
+      banners, which are the modern day states of Minos; Athenus, Corinia, and
+      Lachedamon. These states, while loosely aligned, could and would compete
+      against each-other, but never to a point of conquest or eradication.
+      Eventually, tired of the blood of Minoans being shed, they agreed to
+      settle their difference with individual competitions between warriors. To
+      begin, these were martial contests, but eventually would encompass other
+      skills; this was the foundation for many Minoan sports.</p><p>Around 200
+      years ago, the neighbouring nation of Sargon declared a war of annexation
+      against Minos. Though the Sargonians paid a high, bloody price, they were
+      successful in occupying Minos, and thus began the era of the Province of
+      Minos. Under Sargonian rule, a heavily-Sargonized version of Minoan
+      culture was pushed by their overlords, and any element of Minoan culture
+      that could stir feelings of rebellion were outlawed; a majority of sports,
+      many plays, and the Hero Cult itself. Rebellion against Sargonian rule was
+      punished with slavery or death, and the Minoan culture itself was on the
+      verge of dying out.</p><p>In 1038, however, political turmoil in Sargon
+      gave the Minoans the opportunity to rise up, led by the now-deified Twelve
+      Heroes of Hymnoi. The rebellion was successful in ousting the Sargonians
+      and declaring independence, though the Sargonians still do not officially
+      recognise it and periodically conduct raids upon the border. Since then,
+      the Minoans have been reclaiming their culture, bringing the Hero Cult to
+      the forefront of government and public conscience, and relearning old
+      sports long outlawed. The Hymnoi Wisdom, named for the heroes, is a
+      sporting event covering many disciplines that notable athletes from all
+      over the world are sometimes invited to.</p><blockquote><p><strong>The
+      Hero Cult</strong></p><p>The Hero Cult worships historical figures who
+      have been influential enough to be enlisted in their pantheon, the Hall of
+      Heroes. This worship comes in the form of trying to live their lives like
+      the heroes did, but also in stage plays, songs, retellings, and artwork
+      (especially statues).</p><p>Notably, to be a hero doesn’t necessarily mean
+      to be a good person, as many of the heroes were deeply flawed. The
+      contributions they make, and their efforts to overcome their flaws for the
+      sake of others, is what makes a hero.</p></blockquote><p>Outside of the
+      sporting events, life in Minos is mostly agricultural thanks to its very
+      fertile land. There are several subsidiary industries such as brewing and
+      textiles, but almost everything is connected to the land in some way. Each
+      state rules itself, and thus there is no de facto head of state, but each
+      state is a direct democracy overseen by the Priests of the Hero Cult. Each
+      state has a Senate that guides day-to-day discussion, but any citizen is
+      welcome to contribute and vote.</p><blockquote><p><strong>The Infected
+      Question</strong></p><p>Infected are treated comparatively well in Minos
+      thanks to the benevolence espoused in the Hero Cult that a majority of
+      Minoans follow. They suffer no persecution, and are able to receive
+      healthcare; though Minoan Oripathy care is unfortunately limited, it is
+      infinitely better than nothing. They also are not segregated, except in
+      one notable example; Infected are not allowed to be clergymen/women of the
+      Hero Cult. The reasons for this vary depending on who is asked, but the
+      end result is the same. It is not to say, however, that there is no
+      suspicion of Oripathy in Minos, just that most, but not all, are willing
+      to look past it.</p></blockquote><h1>Minoan
+      Features</h1><p><strong>Languages:</strong> Sargonese + Victorian + 1
+      Language of your Choice</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Athletics</p></li><li><p>Acrobatics</p></li><li><p>Lore</p></li><li><p>Medicine</p></li><li><p>Animal
+      Handling</p></li><li><p>Wilderness</p></li></ul><p><strong>Nationality
+      Feat (Resurrected Culture, Resurrected Spirit):</strong> Under Sargonian
+      occupation, the venerable culture of Minos almost crumbled away to
+      nothing, crushed to dust under the world-changing weight of imperialism.
+      Now freed from the heel of their oppressors, Minoans have restored their
+      culture with a fervor bending on fanaticism, and none will ever quash them
+      again. You gain the following benefits:</p><ul><li><p>When making a Skill
+      Check to do with playing a Sport, you are considered to be Proficient in
+      that Skills. If you are already Proficient, you have Advantage on that
+      Check.</p></li><li><p>When you make a Saving Throw to avoid or end an
+      effect that would force you to take an Action or Actions against your
+      will, you have Advantage on that Saving Throw.</p></li></ul><h3>Unique
+      Background (Hero Cult Priest/ess)</h3><p>Those who lead the Hero Cult
+      cannot afford to fall short- to fail themselves is to fail Minos. This is
+      especially true if they can be seen.</p><p><strong>Proficiencies:</strong>
+      You are Proficient in the Medical Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Aspirant):</strong> The very
+      essence of a Hero is to succeed where others fail, especially on behalf of
+      others, or to overcome your own weakness. You must stand tall, even when
+      others bow, so that you may lift them up.</p><p>When you take the Help
+      Action against a Creature with less current Hit Points than you, you
+      additionally grant a 1d4 bonus to that Creature’s next Attack Roll or
+      Skill Check they make within the next minute. This effect is not
+      cumulative.</p><p>Starting from 7th Level, the Range at which you can
+      perform the Help Action is increased to 30 feet, but the target must be
+      able to hear you, and have less Hit Points than you.</p>
+    chat: ''
+  identifier: minos
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!0C1C5yhxalyd9bOe'

@@ -1,0 +1,147 @@
+folder: 7G1D42jSHLcgp1sX
+name: Kazdel
+type: ak5e.nationality
+_id: ZkeaHKA4gOqSlA8l
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: gO9Ra3K8tjLAGjtN
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:acr
+              - skills:ath
+              - skills:itm
+              - skills:prc
+              - skills:ste
+              - skills:nat
+        grants:
+          - languages:standard:sarkazian
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: p2PQkGX0mCVAOdcP
+      configuration:
+        items:
+          - uuid: Item.V1UsPFuyXR9ePOuy
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Kazdel; the promised land, the home that was, and shall be. Kazdel,
+      once named Teekaz for the people who built their first settlement there.
+      Kazdel, a place reduced to rubble countless times, and yet rising again
+      each time. Kazdel is not just a city, but a concept, an idea that means
+      something different to every Sarkaz that would call it home.</p><p>As one
+      of the oldest settlements on Terra, summating its millennia of history
+      with any degree of integrity is a nigh impossible task, beyond even the
+      finest of Terran scholars. What can be collated is its modern history; its
+      rebirth into the Kazdel of today. In 898, a crusading force with elements
+      from Victoria, Gaul, and Leithanian set out to eradicate the city of
+      Kazdel once more. In some ways, the crusade was a success; the city of
+      Kazdel was once more, nought but ash and ruin. History, however, would
+      assign the victory, however pyhrric, to the Kazdelians, as the Six Heroes
+      of Kazdel put the Crusaders to flight. It was two of these heroes who
+      would orchestrate the rebuilding of Kazdel into a modern nomadic city,
+      through the combined efforts of all surviving Sarkaz tribes. After painful
+      years of effort, the fires of Kazdel’s engines roared into life, fuelled
+      by the Soul Furnace and the Revenants that dwelled within it. Great
+      factories pumped out smoke into the black air; farmland platforms,
+      hospitals, schools, all freshly established. At great effort, Kazdel had
+      entered the modern era.</p><p>It has not been smooth sailing since then.
+      Kazdel itself has been riven by civil war between the two Heroes who
+      rebuilt the city. The death and defeat of one of those heroes at the hands
+      of someone close to her ushered in a new era of ultra-nationalism at the
+      hands of Regent Theresis and his Military Commission. Life in Kazdel is
+      not easy. It is a cramped, polluted place shrouded in smog, through which
+      the Soul Furnace casts its infernal radiance, making it uncomfortably warm
+      anywhere outside. Mercenaries, soldiers, and worse can be found on every
+      street. Yet, despite everything, many Sarkaz are deeply nationalistic, and
+      proud of Kazdel. Perhaps, they have good reason to be; it is the one place
+      in the world that the Sarkaz are truly welcome, and at the turn of the
+      12th Terran Century a period of peace and rebuilding has fell upon Kazdel,
+      with a provisional government taking the reigns from the Royal Court for
+      the first time since the city’s inception.</p><blockquote><p><strong>The
+      Infected Question</strong></p><p>“It’s normal for the Sarkaz to be
+      Infected.” is an oft-touted quote that shows an unfortunate reality.
+      Kazdel is not a clean place; day and night, great factories plume smog
+      over the city, the very city itself is built around an almighty Originium
+      crystal in the form of the Soul Furnace. Thus, the people have little
+      protection against Oripathy, and the condition is commonplace.</p><p>That
+      said, thanks to millennia of experience, the Sarkaz have a number of
+      holistic treatments for the condition, to ease an Infected’s suffering;
+      their lifespan is still cut tragically short, but it is a marginally less
+      fatal condition than in other parts of
+      Terra.</p></blockquote><h1>Kazdelian
+      Features</h1><p><strong>Languages:</strong> Sarkaz + 2 Languages of your
+      Choice</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Athletics</p></li><li><p>Acrobatics</p></li><li><p>Stealth</p></li><li><p>Wilderness</p></li><li><p>Perception</p></li><li><p>Intimidation</p></li></ul><p><strong>Nationality
+      Feat (Trust no-one):</strong> While it seems as if things are changing,
+      Kazdel can be a dangerous place to close one’s eyes for noble and commoner
+      alike. You’re used to sleeping with “one eye open”, as it
+      were.</p><p>While you are sleeping, Attacks against you do not gain
+      Advantage, nor do Attacks made against you from within 5 feet
+      automatically score a Critical Hit. Additionally, while you are asleep,
+      your Passive Perception is increased by 5 for the purpose of causing you
+      to wake up if there is potential danger.</p><h3>Unique Background
+      (Vagabond):</h3><p>The Sarkaz are familiar as people on the outskirts of
+      society, even in their homeland. Your perspective as an outsider allows
+      you to see things others might miss.</p><p><strong>Proficiencies:</strong>
+      You are Proficient in the Cooking Kit or Brewing Kit, and one other
+      Tool/Vehicle of your choice.</p><p><strong>Background Feat (The
+      Exiled):</strong> If you spend a day within a population centre listening
+      in, you can quickly pick up on things like balance of power, pressing
+      issues, news, and who is important, even if these things aren’t directly
+      stated or talked about. Many people will prefer not to acknowledge you,
+      and thus might talk about things as if you weren’t there. However, people
+      will tend not to trust you on face value, and will especially not react
+      kindly to you snooping about.</p><p>Additionally, you reduce the penalty
+      to your Passive Perception for travelling at a Fast Pace or in a Vehicle
+      by 5 for yourself only (EG. a -5 becomes 0, a -10 becomes -5).</p>
+    chat: ''
+  identifier: kazdel
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!ZkeaHKA4gOqSlA8l'

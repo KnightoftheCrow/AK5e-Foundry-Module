@@ -1,0 +1,364 @@
+folder: HfS1eUQfMj2UTzmH
+name: One Nation Under Kjeragandr
+type: feat
+_id: 8Eodr2kNAJStimUu
+img: icons/magic/water/water-hand.webp
+system:
+  activities:
+    PvKKjdtZ75L0D3JW:
+      type: check
+      _id: PvKKjdtZ75L0D3JW
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      check:
+        associated:
+          - rel
+        dc:
+          calculation: ''
+          formula: '@scaling'
+        ability: ''
+      useConditionText: reaction == 'isSave'
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: save-succeeds
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: saveTargets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: true
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      damage:
+        onSave: none
+        parts: []
+        critical:
+          allow: false
+      friendlySave: default
+      name: Replace Save with Lore Check
+    MtA74gQVa4lVnvmI:
+      type: utility
+      _id: MtA74gQVa4lVnvmI
+      sort: 0
+      activation:
+        type: ''
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: CcZrBscp0njUzQtF
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: true
+        forceConsumeDialog: never
+        forceRollDialog: never
+        forceDamageDialog: never
+        confirmTargets: never
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: true
+        otherActivityCompatible: false
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Save Succeeds
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement:
+    - type: Trait
+      _id: BbnkeZ0DY975fXGw
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - skills:rel
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+  description:
+    value: >-
+      <p>Kjerag is an unusual land amongst the nations of Terra. It exists
+      directly between two of Terra’s most powerful nations, and yet has never
+      been subject to imperial ambitions. Until recent years, its impact on
+      world affairs was non-existent. Its people dwell not in nomadic cities,
+      but in stationary towns and villages, untouched by Catastrophes. This is
+      thanks in no small part to the mountainous geography protecting them, but
+      many in Kjerag would place the “blame” at the feet of their goddess,
+      Kjeragandr. Dwelling atop the highest peak in the land, she is the patron
+      of Kjerag; her blizzards are its shield, her love its warmth.</p><p>The
+      people of Kjerag believe wholeheartedly in the protection of their
+      Goddess. Real or not, their faith gives them strength where they should
+      not.</p><ul><li><p>You are Proficient in the Lore
+      Skill.</p></li><li><p>Once per Long Rest, when you would make a Saving
+      Throw, you can choose to make a Lore Check instead. If the result of the
+      Lore Check is equal to or greater than the Difficulty Class of the
+      original effect, then that Saving Throw is
+      successful.</p></li></ul><p><strong>Automated: </strong>When you are
+      caused to make a Saving Throw, you will be prompted to use this Feature.
+      Enter the DC of that Saving Throw as the Scaling Value for this
+      Feature.</p>
+    chat: ''
+  identifier: one-nation-under-kjeragandr
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects:
+  - name: Save Passes
+    img: icons/magic/water/water-hand.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.8Eodr2kNAJStimUu
+    transfer: false
+    _id: CcZrBscp0njUzQtF
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.save.success
+        mode: 0
+        value: once
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!8Eodr2kNAJStimUu.CcZrBscp0njUzQtF'
+sort: -100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+  ak5e:
+    trackingBar: false
+    barFirstColor: '#4361ee'
+    barSecondColor: '#4cc9f0'
+_stats:
+  compendiumSource: Item.IHT1rbdkN3M8j8Fc
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!8Eodr2kNAJStimUu'

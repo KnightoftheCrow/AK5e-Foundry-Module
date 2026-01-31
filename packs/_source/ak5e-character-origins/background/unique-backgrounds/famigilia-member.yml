@@ -1,0 +1,76 @@
+folder: olZLY5YOp06af4qn
+name: Famigilia Member
+type: background
+_id: XNqTJn8egS2qMfaq
+img: icons/commodities/treasure/token-gold-cross.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: uHGC7ebD05UmyiUX
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:mechanism
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: 0oOvJAZfBfdxFjfe
+      configuration:
+        items:
+          - uuid: Item.bfPdkxEX9seNA43F
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>The violent nature of the Lupi is a potent and heady mix when combined
+      with the activities of a mafioso, and you know best how to exert your
+      strength to get what you want.</p><p><strong>Proficiencies:</strong> You
+      are Proficient in the Mechanism Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Pistole e Ordine):</strong>
+      “Pistole e Ordine,” the “Guns and Order”; through violence will there be
+      peace. Family culture and Faith teaches that violence is always an
+      available solution for problems, so long as you apply enough of
+      it.</p><ul><li><p>Your Melee Attacks against Creatures with a Speed of 0
+      (such as tied up Creatures) deal additional Damage equal to your
+      Proficiency Bonus.</p></li><li><p>When you make an Intimidation Check, you
+      may add a bonus to that Check equal to the last Damage you dealt to them
+      with a Melee Attack.</p></li></ul>
+    chat: ''
+  identifier: famigilia-member
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 1800000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.XNqTJn8egS2qMfaq
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!XNqTJn8egS2qMfaq'

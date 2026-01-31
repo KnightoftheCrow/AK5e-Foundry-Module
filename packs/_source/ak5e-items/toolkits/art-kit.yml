@@ -212,7 +212,7 @@ system:
   attuned: false
   equipped: false
   type:
-    value: art
+    value: toolkit
     baseItem: art
   ability: wis
   chatFlavor: ''
@@ -231,9 +231,9 @@ _stats:
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.2.3
+  systemVersion: 5.2.4
   createdTime: 1756485609654
-  modifiedTime: 1766937648031
+  modifiedTime: 1769446300909
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: uJv6rhzPijvjHznJ
 sort: 100000

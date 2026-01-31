@@ -1,0 +1,75 @@
+folder: olZLY5YOp06af4qn
+name: The Black Heart of Bolivar
+type: background
+_id: zUhlhPnzjKV04YM5
+img: icons/magic/unholy/silhouette-robe-evil-power.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: oG06SyONfsSieGu7
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:mechanism
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: Q4x0ZwCJDi1CuqyI
+      configuration:
+        items:
+          - uuid: Item.EsmHMacpci7rRITq
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Dossoles is a place of two sides; the glitz and glamour of its tourist
+      industry, and the smog and corruption of its underground and industry. For
+      the people that live there, having contact with both halves is inevitable.
+      It is a part of life, and you must learn to accept
+      it.</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Mechanism Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Unsuspected):</strong> Unless they
+      have evidence, or the other possible explanations are too fantastical,
+      your nonchalance towards criminal activity makes people unwilling to
+      suspect you before other options. Furthermore, you have Advantage on any
+      Charisma based Skill Check to convince people to overlook suspicious
+      activity.</p>
+    chat: ''
+  identifier: the-black-heart-of-bolivar
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 150000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.zUhlhPnzjKV04YM5
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!zUhlhPnzjKV04YM5'

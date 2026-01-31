@@ -1,0 +1,60 @@
+folder: olZLY5YOp06af4qn
+name: Ursus Army Veteran
+type: background
+_id: IPlbiQS2D84nE84S
+img: icons/environment/people/infantry-army.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: WbenhFkAIoDOpFVJ
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - tool:toolkit:maintenance
+          - tool:vehicle:drone
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: mI960iOr81EJV4ko
+      configuration:
+        items:
+          - uuid: Item.enKSl72KyMn6RWwj
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: ''
+    chat: ''
+  identifier: ursus-army-veteran
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 125000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.IPlbiQS2D84nE84S
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!IPlbiQS2D84nE84S'

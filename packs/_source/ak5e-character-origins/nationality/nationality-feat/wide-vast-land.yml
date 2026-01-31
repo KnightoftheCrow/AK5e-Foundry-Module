@@ -1,0 +1,154 @@
+folder: HfS1eUQfMj2UTzmH
+name: Wide, Vast Land
+type: feat
+_id: Rr617n0OudHqReqn
+img: icons/skills/social/diplomacy-unity-alliance.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>Yan is a massive nation; the most populated nation on Terra, to be
+      precise. The Yanese are not comprised of one or two predominant species,
+      but many; especially in places like Lungmen, the mixing of culture, race,
+      heritage, and creed is unlike any other.The people of Yan choose not to
+      think of others as members of their species, as many other places in Terra
+      would, but instead as fellow countrymen. As a result, they have developed
+      a certain talent for smoothing over disagreements and closing
+      deals.</p><p>You have Advantage on Persuasion or Intimidation Skill Checks
+      during negotiations between two or more parties that you are not part of
+      (you may negotiate on behalf of one of these parties but you may not use
+      it for the direct benefit of a conversation that you are the main
+      beneficiary of). </p><p>Once per Long Rest, you may roll 1d6 and add it to
+      the result of one Persuasion or Intimidation Skill Check during a
+      negotiation like this.</p>
+    chat: ''
+  identifier: wide-vast-land
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects:
+  - name: Diplomacy Advantage
+    img: icons/skills/social/diplomacy-unity-alliance.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Rr617n0OudHqReqn
+    _id: P87AajN6MZsgrH45
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.optional.diplo.skill.per
+        mode: 0
+        value: reroll-kh
+        priority: 20
+      - key: flags.midi-qol.optional.diplo.skill.itm
+        mode: 0
+        value: reroll-kh
+        priority: 20
+      - key: flags.midi-qol.optional.diplo.count
+        mode: 0
+        value: every
+        priority: 20
+      - key: flags.midi-qol.optional.diplo.label
+        mode: 0
+        value: Wide, Vast Land- Advantage on Diplomacy between other parties
+        priority: 20
+      - key: flags.midi-qol.optional.diploplus.skill.per
+        mode: 0
+        value: reroll-kh
+        priority: 20
+      - key: flags.midi-qol.optional.diploplus.skill.itm
+        mode: 0
+        value: reroll-kh
+        priority: 20
+      - key: flags.midi-qol.optional.diploplus.count
+        mode: 0
+        value: ItemUses.identifier.wide-vast-land
+        priority: 20
+      - key: flags.midi-qol.optional.diploplus.label
+        mode: 0
+        value: Wide, Vast Land- +1d6 Bonus
+        priority: 20
+      - key: flags.midi-qol.optional.diploplus.skill.per
+        mode: 0
+        value: +1d6
+        priority: 20
+      - key: flags.midi-qol.optional.diploplus.skill.itm
+        mode: 2
+        value: +1d6
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!Rr617n0OudHqReqn.P87AajN6MZsgrH45'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.Rr617n0OudHqReqn
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!Rr617n0OudHqReqn'

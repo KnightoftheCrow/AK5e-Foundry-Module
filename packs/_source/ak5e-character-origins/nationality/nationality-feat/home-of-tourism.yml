@@ -1,0 +1,56 @@
+folder: HfS1eUQfMj2UTzmH
+name: Home of Tourism
+type: feat
+_id: nmeQssyrsVEW6EGo
+img: icons/skills/social/peace-luck-insult.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Siesta sees a thousand faces from a thousand places, and to be a
+      Siestan is to learn to interact with and more importantly, profit from all
+      these people.</p><p>You can understand any language spoken on modern
+      Terra; this does not allow you to speak the language,
+      however.</p><p><strong>Automation not required.</strong></p>
+    chat: ''
+  identifier: home-of-tourism
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.nmeQssyrsVEW6EGo
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!nmeQssyrsVEW6EGo'

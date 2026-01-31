@@ -269,7 +269,7 @@ system:
   attuned: false
   equipped: false
   type:
-    value: art
+    value: toolkit
     baseItem: medical
   ability: ''
   chatFlavor: ''
@@ -396,9 +396,9 @@ _stats:
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.2.3
+  systemVersion: 5.2.4
   createdTime: 1756485623408
-  modifiedTime: 1766942263721
+  modifiedTime: 1769446465266
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: JAmRuAi1wbg4Zwdm
 sort: 375000

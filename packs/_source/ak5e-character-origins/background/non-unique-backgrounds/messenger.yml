@@ -1,0 +1,81 @@
+folder: MkGCwSTO7HeQOsMl
+name: Messenger
+type: background
+_id: 6pD9osXdrjMB0ZS3
+img: icons/environment/wilderness/terrain-river-road-gray.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: joBCkSq28A3bJgq3
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:messenger
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: rmXx3SLiAHsOIT2P
+      configuration:
+        items:
+          - uuid: Item.IQe6BbQJJZTG9X0L
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Since the dawn of Terran civilisation, the role of a messenger has been
+      an invaluable but oft unappreciated one; not just for the delivering of
+      typical messages, but also for relaying information about oncoming
+      Catastrophes. Even into the modern age, where the establishment of
+      communication relays reduces the need for physical messengers, Catastrophe
+      messengers still must maintain the equipment, and in areas uncovered by
+      the relays, deliver these lifesaving messages
+      personally.</p><p><strong>Proficiencies:</strong> You are Proficient in
+      the Messenger Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Deliverance):</strong> Whether you
+      maintain the communication stations, or deliver the messages manually, in
+      the Catastrophe ridden world of Terra, your services are essential. It is
+      you who braves the storm, all to ensure the people along the path might
+      have the chance to survive.</p><ul><li><p>It only costs you 5 feet of
+      movement for you to get up from a Prone position.</p></li><li><p>You have
+      Advantage on any Skill Check or Saving Throw to navigate and survive
+      against the environment, such as to avoid falling rocks, scramble up a
+      collapsing cliff, or resist hostile weather.</p></li></ul>
+    chat: ''
+  identifier: messenger
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 112500
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.6pD9osXdrjMB0ZS3
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!6pD9osXdrjMB0ZS3'

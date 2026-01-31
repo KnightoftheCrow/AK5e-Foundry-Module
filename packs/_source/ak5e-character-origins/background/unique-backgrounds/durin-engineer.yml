@@ -1,0 +1,77 @@
+folder: olZLY5YOp06af4qn
+name: Durin Engineer
+type: background
+_id: BGaPQ4fx0fAHMk3n
+img: icons/commodities/tech/transmission.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: IOuhjJaS9ksLGExe
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:engineering
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: On6VhbZ9kiBwjBGt
+      configuration:
+        items:
+          - uuid: Item.XbIGufBUabd85T8Z
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>The Durin are master builders and engineers; anyone who has had the
+      opportunity to visit any of their underground cities could tell you that.
+      Building such a paradise under such conditions, with such limitations, is
+      nothing short of genius. However, the Durin in charge of these designs and
+      buildings rarely find reason to leave the underground, content with their
+      work and lives. If one was to leave their domain,
+      however…</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Engineering Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Structural Knowledge):</strong> If
+      you spend ten minutes studying a Construct or Structure, or the plans for
+      one, you learn about its construction, relative age, and provenance;
+      enough that you could draw a floorplan of the structure. Additionally, for
+      the next 24 hours, Damage dealt by you ignores the Resistances of the
+      Construct or Structure you studied.</p>
+    chat: ''
+  identifier: durin-engineer
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 1900000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.BGaPQ4fx0fAHMk3n
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!BGaPQ4fx0fAHMk3n'

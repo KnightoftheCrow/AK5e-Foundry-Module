@@ -1,0 +1,65 @@
+folder: YchJtvsiH0SgRWhD
+name: The Exiled
+type: feat
+_id: oFD9s21Kqy1vjE2F
+img: icons/environment/settlement/tent.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>If you spend a day within a population centre listening in, you can
+      quickly pick up on things like balance of power, pressing issues, news,
+      and who is important, even if these things aren’t directly stated or
+      talked about. Many people will prefer not to acknowledge you, and thus
+      might talk about things as if you weren’t there. However, people will tend
+      not to trust you on face value, and will especially not react kindly to
+      you snooping about.</p><p>Additionally, you reduce the penalty to your
+      Passive Perception for travelling at a Fast Pace or in a Vehicle by 5 for
+      yourself only (EG. a -5 becomes 0, a -10 becomes
+      -5).</p><p><strong>Automation not required.</strong></p>
+    chat: ''
+  identifier: exiled
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!oFD9s21Kqy1vjE2F'

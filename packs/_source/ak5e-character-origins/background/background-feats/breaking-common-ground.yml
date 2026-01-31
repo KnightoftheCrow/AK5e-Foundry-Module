@@ -1,0 +1,112 @@
+folder: YchJtvsiH0SgRWhD
+name: Breaking Common Ground
+type: feat
+img: icons/environment/people/group.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Other labourers and working class folks recognise you as one of their
+      own, a person of good stock and hard work.</p><ul><li><p>You know how to
+      endear yourself to other working class folks; you can find lodgings and
+      sustenance amongst such people with ease. However, they will not endanger
+      themselves for you or go against their morals based on shared background
+      alone.</p></li><li><p>Your Hit Point maximum increases by an amount equal
+      to your Level. Whenever you gain a Level thereafter, your Hit Point
+      maximum increases by an additional Hit Point.</p></li></ul><p><strong>HP
+      increase automated.</strong></p>
+    chat: ''
+  identifier: breaking-common-ground
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects:
+  - name: HP per level bonus
+    img: icons/environment/people/group.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.CTvYDCiWg9y8lqJq
+    _id: GBRGsJUHV3SFTb5P
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.hp.bonuses.level
+        mode: 2
+        value: '1'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!CTvYDCiWg9y8lqJq.GBRGsJUHV3SFTb5P'
+sort: 2000000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: Item.A6a2vzFQTpyGhuo8
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: CTvYDCiWg9y8lqJq
+_key: '!items!CTvYDCiWg9y8lqJq'

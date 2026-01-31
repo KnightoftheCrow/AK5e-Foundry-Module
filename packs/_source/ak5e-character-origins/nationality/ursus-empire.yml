@@ -1,0 +1,192 @@
+folder: 7G1D42jSHLcgp1sX
+name: Ursus Empire
+type: ak5e.nationality
+_id: WMNDS79krMDuEzgT
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: KT7ZyZSyFQRpEt6J
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:ath
+              - skills:dec
+              - skills:ins
+              - skills:itm
+              - skills:inv
+              - skills:nat
+        grants:
+          - languages:standard:ursine
+          - languages:standard:yanese
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: KmHjtxcz6Qve1EW9
+      configuration:
+        items:
+          - uuid: Item.cZAnUmUxyOKPm925
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>The Empire of Ursus, often just called Ursus (not to be confused with
+      the species it takes its name from, Ursus) is a militaristic, xenophobic
+      empire occupying much of the Terran north. Its expansionist behaviour has
+      given it a reputation as something of an international boogeyman, but
+      cultural change is on the rise; a series of devastating losses has allowed
+      a new generation of progressives to rise; no less patriotic, but who
+      believe Ursus’ value lies in its industry and culture, rather than its
+      strength of arms. It is a cold, hard place, oft mirrored by the people who
+      live there; but on occasion, warmth can shine through the
+      permafrost.</p><p>What would become Ursus began as the Hippogryph Empire,
+      who enslaved many species including the Ursus. In the year 31, the
+      Hippogryph Empire collapsed internally, and the Ursus rose up from the
+      ashes, taking what remained of the old Empire to form the Ursus Empire.
+      For almost a millennia, the Ursus Empire reclaimed the old Hippogryph
+      lands, including occupying Kazimierz for nearly a century.</p><p>Centuries
+      of grinding conflict are acceptable as long as one is reaping the spoils,
+      but in the 11th century, the Empire had reached a stalemate with its
+      neighbours; the home populace began to express great displeasure at the
+      harsh wartime conditions with no demonstrable gain. Seeking a scapegoat,
+      the Urusian government pinned the blame on the Infected, passing several
+      discriminatory laws to distract the population’s ire.</p><p>This could not
+      stop the fall, however, and in 1072 the Empire suffered an embarrassing
+      defeat at the hands of the much smaller Higashi, with the Kazimierzians
+      breaking free of Ursus occupation that same year. The fallout led to a
+      rebellion within the military two years later, a civil war between those
+      army elements loyal to the throne and those loyal to the army. The
+      royalists were the victors, but the damage inflicted to the Grand Army of
+      Ursus crushed any further imperial dreams for the foreseeable
+      future.</p><blockquote><p><strong>The Infected Question</strong></p><p>The
+      situation for Infected in Ursus is perhaps the worst anywhere in Terra,
+      with almost all rights stripped from them, especially for those who live
+      outside of the cities. Infected are regularly rounded up by Infected
+      Patrol Units; those not summarily executed for the slightest disobedience
+      are sent to Originium Mines to work as slaves until they die. Within the
+      cities, they can generally avoid notice unless their infection is obvious,
+      or they are inspected for other reasons. In or out of the cities, Infected
+      must rely upon the kindness of others to hide them or access
+      treatment.</p><p>The current Emperor and State Council are working slowly
+      to reverse this situation for Urusian Infected. However, they face
+      opposition at every turn by conservative elements, indoctrinated by
+      centuries of anti-Infected policy.</p></blockquote><p>Ursus is an Empire,
+      and thus is ruled by an Emperor. Though there are many divisions of power
+      below the Emperor, they are at least in theory the supreme executive power
+      in the nation. Directly beneath the Emperor is the aristocracy and the
+      Ursus State Council. The aristocracy is made from people raised to its
+      Level by the Emperor at the time, and their descendants; anyone who
+      contributes significantly to Ursus, such as commanders, scientists, and
+      industrialists, may be raised to the aristocracy. The State Council is
+      made of both nobles recommended by the Emperor and elected
+      representatives. They handle the legislation of Ursus and advise the
+      Emperor, but all their decisions must be ratified by the
+      Emperor.</p><p>Geographically as well as politically, Ursus is gigantic,
+      though much of its land is completely undeveloped. A majority of the
+      Urusians live in the lowlands in the west and south, where the climate is
+      slightly more temperate. The north is mostly frozen tundra thanks to its
+      proximity to the Infy Ice-field, and the east is highly mountainous. The
+      area of the Empire is divided into governorates, each formed of several
+      nomadic cities and stationary settlements. Each governorate is ruled by a
+      governor appointed by the Emperor. Each city has its own legal
+      jurisdiction, with its own laws and police; however, these courts are not
+      free of imperial interference. The military or emperor can legally
+      interfere in court proceedings, such as to issue a pardon, but such things
+      are rare.</p><p>Life is hard in Ursus, but it is especially true for those
+      who live rurally. Even in the cities, poor governance and a land that does
+      not lend itself to agriculture can lead to famines; in the rural areas,
+      famine is a constant threat. Ursine culture is almost universally related
+      to these hard experiences; whether to document them, celebrate surviving
+      them, or distract from them; boxing, drinking, and singing folk songs are
+      popular past times, each of which lends themself well to the natural
+      raucousness and strength of the Ursi. Ursus also has a long history of
+      literature and poetry, much of which is as grim as the land in which it
+      originates, but often with tones of hope shining through.</p><p>In recent
+      years, Ursus has been heavily culturally influenced by Columbian and
+      Kazimierzan popular culture. The powers that be in Ursus have taken steps
+      to suppress this, and thus those Ursi who want access, typically the
+      younger generations, must trade for them using underground markets.
+      Culturally, the influence of the military and militarism over Ursus still
+      cannot be understated, but the developments of the last century have
+      opened the way for a changing political landscape. Not everyone in Ursus
+      is pleased about this, however, least of all the military, and the country
+      is seemingly forever a bad day away from another rebellion.</p><h1>Urusian
+      Features</h1><p><strong>Languages:</strong> Ursine + Yanese + 1 Language
+      of your Choice.</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Athletics</p></li><li><p>Investigation</p></li><li><p>Insight</p></li><li><p>Wilderness</p></li><li><p>Intimidation</p></li><li><p>Deception</p></li></ul><p><strong>Nationality
+      Feat (Life is Cheap, Friends are Priceless):</strong> Internationally,
+      Ursus is something of a boogeyman; a threat breathing down the necks of
+      those in the north and centrum of Terra, waiting for an exposed vein to
+      strike at. Internally, however, Ursus is a monster eating itself. It is
+      all the average person of Ursus can do to bear it; their ears are filled
+      with words of hate, words of spite, all you can trust in is your neighbour
+      (assuming they’re uninfected, of course), and the cold outside.</p><p>When
+      an allied Creature within 10 feet of you is hit by an Attack, you can use
+      this Feature as a Reaction; you may immediately move the shortest route to
+      interpose yourself between the attacking Creature and the target, or
+      otherwise move as close as you can to doing so. If you do so, you become
+      the target of that Attack. Furthermore, you are considered to be
+      Vulnerable to the Damage of that Attack.</p><h3>Unique Background (Ursus
+      Army Veteran):</h3><p>The Imperial Army is gargantuan. It is divided into
+      seven armies, and each of these armies is capable of taking on a smaller
+      nation. The Third Army was poised to take Lungmen, the Sixth Army fought
+      against the combined might of Higashi in the Bloodpeak Campaign. Ursus
+      military doctrine favours heavily armoured troops and powerful artillery,
+      which has contributed to their international reputation as destructive
+      tyrants.</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Maintenance Kit, and Vehicles (Drones).</p><p><strong>Background Feat
+      (Stormtrooper):</strong> As a former soldier of the Ursus Army, you are
+      familiar with their chosen tools of war; heavy armour, backed by heavier
+      firepower. When the enemy break, they are run down, and the invincible
+      army tramples o’er their corpses.</p><ul><li><p>You are Proficient with
+      one of the following, and may add one of them to your Starting Equipment;
+      Combat Gear, Polearm, Crossbow.</p></li><li><p>Your first Attack each Turn
+      against a Creature with the Frightened Condition, or Creatures that are
+      not wielding a weapon, deals additional Damage equal to your Proficiency
+      Bonus.</p></li></ul>
+    chat: ''
+  identifier: ursus-empire
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!WMNDS79krMDuEzgT'

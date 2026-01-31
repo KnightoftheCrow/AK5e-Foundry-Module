@@ -1,0 +1,82 @@
+folder: MkGCwSTO7HeQOsMl
+name: Outlaw
+type: background
+_id: Wj4wIl7BcC6lAfiM
+img: icons/environment/people/charge.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: tYUszXx9jU7hGxT4
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:mechanism
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: WdE24uofnvUBE9zR
+      configuration:
+        items:
+          - uuid: Item.IrLOZAG5mYeUXYSh
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Living in the underbelly, or on the fringes, of civilisation, you make
+      your living through… unconventional means. How did you end up here, and if
+      you intend to change your ways; why
+      now?</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Mechanism Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Honour Among Thieves):</strong>
+      Whatever your profession in the criminal underworld, you have learned how
+      the other side lives, and how best to fit in with that underbelly. The
+      nature of being outside the law means you must rely on unconventional
+      means and connections.</p><ul><li><p>You know the behaviours and language
+      that allow you to fit in with most types of people outside the law; more
+      specialist groups may be beyond you, but “ordinary” outlaws are usually
+      willing to accept you, if not trust you.</p></li><li><p>As a Long Rest
+      Activity while in a major settlement, you can establish communication with
+      a contact you know, or perhaps have heard of, to do you a favour. Perhaps
+      they are an armoursmith willing to give you a discount, or a doctor
+      willing to treat Infected. Regardless, you can usually find these people,
+      but they will usually want something in return for their
+      services.</p></li></ul>
+    chat: ''
+  identifier: outlaw
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 106250
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.Wj4wIl7BcC6lAfiM
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!Wj4wIl7BcC6lAfiM'

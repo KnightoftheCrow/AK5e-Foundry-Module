@@ -1,0 +1,109 @@
+folder: HfS1eUQfMj2UTzmH
+name: Under the Beating Sun
+type: feat
+_id: 9hNjLdjg8uedTdBD
+img: icons/magic/light/explosion-star-glow-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>North of the inhospitable Foehn Hotlands, the deserts of Sargon are
+      scarcely better. Visitors to the region find themselves withered by the
+      beating heat upon the sands, and exhausted by the effort of walking in the
+      unstable desert. The natives have no such problem.</p><ul><li><p>You do
+      not gain Exhaustion as a result of hot environmental conditions, and you
+      only need half as much water per day.</p></li><li><p>You have Advantage on
+      any Saving Throw to avoid being knocked
+      Prone.</p></li></ul><p><strong>Partially Automated: </strong>The
+      Resistance to the Prone Condition is automated, the exhaustion cannot be
+      automated.</p>
+    chat: ''
+  identifier: under-the-beating-sun
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects:
+  - name: Resistance to Prone Condition
+    img: icons/magic/light/explosion-star-glow-orange.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.9hNjLdjg8uedTdBD
+    _id: 5bEs2wgd3Shlmkk1
+    type: base
+    system: {}
+    changes:
+      - key: flags.chris-premades.CR.prone
+        mode: 5
+        value: 'true'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!9hNjLdjg8uedTdBD.5bEs2wgd3Shlmkk1'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.9hNjLdjg8uedTdBD
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!9hNjLdjg8uedTdBD'

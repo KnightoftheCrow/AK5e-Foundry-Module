@@ -1,0 +1,73 @@
+folder: olZLY5YOp06af4qn
+name: Taran Nationalist
+type: background
+_id: mdbrDl4fohNN07Uj
+img: icons/equipment/head/crown-thorns-gold.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: 3kturmRZcDHVQMTN
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:tailoring
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: 3Y2iLFFCho8PtFqz
+      configuration:
+        items:
+          - uuid: Item.hoUELTuLkpWjk54N
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Tara’s history is one of blood and betrayal. For centuries they have
+      been beaten down, backstabbed, and misled. Even now, Tarans find
+      themselves in the midst of a cataclysmic conflict in Victoria, and torn
+      further still between the Red and Purple Dragons of Tara. Yet, Tara
+      endures.</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Tailoring Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Great Flame of Tara):</strong> The
+      Flame will never be extinguished.</p><p>Once per Long Rest, while you are
+      Dying, you can grant yourself Mettle equal to your Proficiency Bonus (no
+      Action required)</p>
+    chat: ''
+  identifier: taran-nationalist
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.mdbrDl4fohNN07Uj
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!mdbrDl4fohNN07Uj'

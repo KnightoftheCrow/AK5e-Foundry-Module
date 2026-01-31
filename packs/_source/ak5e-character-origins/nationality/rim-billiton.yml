@@ -1,0 +1,173 @@
+folder: 7G1D42jSHLcgp1sX
+name: Rim Billiton
+type: ak5e.nationality
+_id: 9c6WP3vdjktvOAjJ
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: w41z3pIH05zpP44s
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:ath
+              - skills:inv
+              - skills:prc
+              - skills:per
+              - skills:slt
+              - skills:nat
+        grants:
+          - languages:standard:victorian
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: H1ZbcT1g419zWm7Y
+      configuration:
+        items:
+          - uuid: Item.SNomwb1gGb9oNHAd
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Rim Billiton, known in slang as Rim Billy, and officially as the Rim
+      Mining Industry Association (RMIA), is unique amongst established Terran
+      nations as being an anarchic state with no central government or head of
+      state. It differs from more tribal locations like Sami, who are not
+      considered a nation unto themselves, in that Rim Billiton is considered a
+      political power in its own regard. Rim Billy is heavy industry manifested,
+      relying on skilled families and their acquired knowledge to keep the
+      engines of the world running.</p><p>The main denomination of Rim
+      Billitonians are Cautus. Tribes of Cautus were the first settlers of the
+      land, who made their homes underground or within caves to avoid the common
+      Catastrophes that affect the region, often with an entire tribe living in
+      one location. Over the centuries, several waves of people from various
+      nations tried and failed to colonise the region, each being driven off or
+      destroyed by the lethal environment. The survivors of these expeditions
+      found themselves taken in by the local Cautus, and integrated into their
+      large families. It is this idea; huge, non-blood related families working
+      towards a single goal that is the very core of Billitonian culture
+      today.</p><p>Rim Billiton is divided up into autonomous districts. These
+      districts are grass-roots communities run by the families that live there;
+      a district may be entirely owned by one family, though these families are
+      not necessarily blood related, with huge numbers of biological families
+      under that umbrella. As the industrial revolution has progressed, these
+      families have begun to become subdivided into industries; guilders,
+      miners, production teams, etc. They are still considered to be part of the
+      same family, but generally speaking a Billitonian interacts more with
+      their own subdivision than others. These areas are truly autonomous, and
+      handle all of their own affairs unless it is an emergency, or related to
+      national matters. There is a saying oft touted by Billitonians when asked
+      about their unique system; “The bigger the problem, the more frequent a
+      meeting is held, and the more time is
+      wasted.”</p><blockquote><p><strong>The Infected
+      Question</strong></p><p>Thanks to its mining and industry, Rim Billiton
+      has a vast Infected population. The treatment of the Infected varies from
+      zone to zone, as there is no central government. While this means that
+      there is no codified discrimination against them like in some nations,
+      they are known to be treated as more disposable workers and given the
+      riskier jobs, such as pitsinking. In other regions, they may be detained,
+      especially if a Catastrophe has recently occurred. Some Rim Billy Infected
+      will also place themselves into self exile to prevent any potential harm
+      to their family.</p></blockquote><p>Their anarchic system has meant that
+      they have struggled for their sovereignty for centuries, as the bigger
+      powers in the world refuse to acknowledge their statehood. On several
+      occasions, they have been forced to repel foreign incursions with tools
+      and machinery against trained soldiers. Their knowledge of the land,
+      combined with their innate unity, has meant a foreign power has never
+      succeeded for very long. Thus, Billitonians have developed a reputation
+      for being somewhat scrappy; contact sports are widely practised, including
+      some inherited from Minos when they were banned there. In the modern age,
+      Rim Billiton is responsible for so much of the world’s Originium mining
+      that the superpowers have been forced to accept their sovereignty to
+      ensure trade remains open.</p><p>Billiton itself is divided into two
+      distinct categories; heavy industry, and the outback. Within and around
+      the cities, everything in the nation is devoted to heavy industry. Almost
+      everyone works in mining or an associated industry; construction,
+      transportation, processing, manufacturing, etc. As a result, it is not
+      uncommon to see children at work, even in the mines. Education rates in
+      general are rather poor, with most people learning through experience
+      rather than any formal education, though some families may opt to set up
+      proper schooling for children, even if only part time. Everything else is
+      arid shrubland and desert, which the locals call the Outback. Constant
+      massive Catastrophes change the very geography, opening up new
+      opportunities for mining the Targanglis Originium Prime vein, which is the
+      densest vein on the continent. It is so large and so dense that it
+      penetrates the surface, and represents 60% of all uncovered Originium
+      deposits on Terra.</p><h1>Rim Billitonian
+      Features</h1><p><strong>Languages:</strong> Victorian + 2 Languages of
+      your Choice.</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Athletics</p></li><li><p>Wilderness</p></li><li><p>Investigation</p></li><li><p>Perception</p></li><li><p>Persuasion</p></li><li><p>Sleight
+      of Hand</p></li></ul><p><strong>Nationality Feat (We All Lift
+      Together):</strong> Rim Billiton is a place of heavy industry; almost
+      everyone works in the mining industry, or in an industry that supports, or
+      is supported by, mining. As such, almost every Rim Billy native learns to
+      use the equipment associated with it, but also becomes indoctrinated in
+      the culture that surrounds it. Billitonians tend not to care if you’re a
+      Cautus or not, or even where you come from at all; as long as you can pull
+      your weight on the job, and are up for some fun afterwards, you can be a
+      complete stranger.</p><p>When you are performing a manual labour based
+      task alongside other Creatures (such as moving cargo, mining, maintaining
+      weaponry), you may use the Help Action as a Bonus Action, targeting all
+      Creatures that are performing the same task as you. However, you can only
+      grant Advantage on Skill Checks using Help in this way.</p><h3>Unique
+      Background (Miner)</h3><p>A majority of Rim Billitonians work in the mines
+      the nation is known for. It is far from easy work, cracking through
+      dangerous, dark terrain in search of an even more dangerous mineral. That
+      said, it does tend to build up a certain kind of strength and skill set;
+      one that lends itself quite well to cathartic
+      destruction.</p><p><strong>Proficiencies:</strong> You are Proficient in
+      the Engineering Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Groundbreaker):</strong> Your
+      undergrounder lifestyle has equipped you with the following
+      benefits:</p><ul><li><p>You have 10 feet of Blindsight. If you have, or
+      gain, any other source of Blindsight, the range of that Blindsight is
+      increased by 10 feet.</p></li><li><p>You deal double Damage to Objects and
+      Structures with your Attacks.</p></li><li><p>You gain Proficiency with the
+      Greataxe and Heavy Hammer, and can choose one to add to your Starting
+      Equipment.</p></li></ul>
+    chat: ''
+  identifier: rim-billiton
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!9c6WP3vdjktvOAjJ'

@@ -1,0 +1,198 @@
+folder: 7G1D42jSHLcgp1sX
+name: Yan
+type: ak5e.nationality
+_id: ZrSPIhkTf8PqgaCI
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: zJbR5RGQBcVWx1vY
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:acr
+              - skills:ath
+              - skills:ins
+              - skills:itm
+              - skills:rel
+              - skills:prf
+        grants:
+          - languages:standard:yanese
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: yj7HIuUZq4CTn3xY
+      configuration:
+        items:
+          - uuid: Item.Rr617n0OudHqReqn
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Yan, formally called Great Yan, is one of two Terran superpowers that
+      do not occupy the central heartland, instead being found in the east. It
+      is a gargantuan place, comparable even to mighty Ursus, and has an equally
+      large bureaucracy to match; while it is an empire, it is not feudal like
+      many others, instead having a stratified system of government responsible
+      for the entire nation. It has a rich, ancient culture that is traditional
+      without being inflexible, and has adapted to the vagaries of the modern
+      age without too much difficulty. Great Yan is, and has always been, a
+      place of racial acceptance; those who serve Yan are tongxiang
+      (countrymen). This acceptance has led to them becoming diplomats and
+      mediators in the modern era.</p><p>Yan, along with Sargon, is one of the
+      oldest still extant nations on Terra. It was formed from the “Hundred
+      Clans” by a warlord known as Yan, who would give his name to the region.
+      In this ancient era, Feranmuts still openly roamed the lands, especially
+      in the fertile lands of Yan, and the people worshipped and feared them as
+      divine beings. However, an expedition led by the man who would later
+      become the first Emperor discovered the bones of dead Feranmuts, proving
+      that they were indeed mortal, and could perhaps be killed. Eventually,
+      this lead to an event known as The Grand Hunt, where the people of Yan
+      would carry out a campaign against the Feranmuts, killing many and driving
+      more from their land.</p><p>For millennia following the Grand Hunt, Yan’s
+      distance from the heartland of Terra resulted in it being mostly absent
+      from conflict in the region. Its rich and fertile land allowed it to grow
+      in isolation, though it impressed political influence on other eastern
+      nations such as Higashi, mediating in their longstanding civil war. Upon
+      the dawn of the industrial revolution, the then Emperor decided that Yan
+      could no longer remain by itself, and opened up diplomatic and economic
+      relations with the Terran heartland, who were grateful for the new trade
+      opportunities provided by Yan. Cities closest to the heartland such as
+      Lungmen profited so drastically that they are almost city-states unto
+      themselves, though still owing allegiance to greater
+      Yan.</p><blockquote><p><strong>The Infected Question</strong></p><p>Yanese
+      treatment of Infected mirrors many nations in that their freedom of
+      mobility is strictly curtailed, only able to move from region to region
+      with the express permission of The Ministry of Personnel. Beyond this,
+      they are normal citizens of Yan, including being responsible for their own
+      healthcare. This is well enough achieved in urban Yan; less so for those
+      in rural locations, especially the northern folk who experience frequent
+      Catastrophes.</p></blockquote><p>an is a wide, vast land, with differing
+      climate and geography in its various regions. The centre of the nation,
+      between the two rivers that course through Yan, has become the industrial
+      heartland of the nation thanks to those very rivers, as well as its
+      proximity to the Jingyu Prime Originium vein.</p><p>South of the rivers is
+      humid and wet, and is the seat of much of Yan’s agriculture, as well as a
+      majority of its 300 million population.</p><p>North of the rivers is the
+      relatively barren Saibei region, where a majority of military activity
+      takes place due to incursions by northern Collapsals.</p><p>Yanese culture
+      can differ strongly between north and south, especially when it comes to
+      cuisine. Festivals play a great part in Yanese culture, and typically
+      involve fireworks which are, technically, miniature Arts Wands.
+      Traditional Yanese literature and boardgames are popular all over the
+      country, and are enjoyed by people of all social classes.</p><p>As stated,
+      Great Yan is an empire, with its head of state being the Zhenlong/True
+      Long, often translated as Emperor. The Emperor holds supreme executive
+      power, but is advised by his cabinet, made of three “Grand Dukes”; the
+      Grand Secretariat, Grand Tutor, and Grand Commandant, responsible for
+      statecraft, education, and defence respectively. These Grand Dukes speak
+      with the Emperor’s authority, and assist him in governing the realm.
+      Beneath the three Grand Dukes are the Six Ministries; these Ministries are
+      the main organisations that run Yan on a day-to-day basis. Anyone, noble
+      or commoner, can become a minister, but to do so they must pass an
+      entrance exam; as such, education is considered highly important to Yan,
+      and roaming teachers attempt to spread education to more rural
+      areas.</p><p>In cities all over Yan, life is not too dissimilar to urban
+      life across Terra; the industrial revolution found a home in Yan as it did
+      many other places, and Yanese cities are as much a concrete jungle as any
+      other region. However, perhaps because of its centralised nature, Yanese
+      architecture and design has a distinct style, honouring the ethos of its
+      ancient culture even in modern construction.</p><p>In rural Yan, a
+      majority of settlements fall into two categories; trading posts/rest
+      stops, and agricultural hubs. The people of rural Yan are technologically
+      undeveloped when compared to urban Yan, but they are not as far removed
+      from the industrial age as Sargonian tribes-people; most have heard of and
+      may even own some Originium technology, but things such as electricity are
+      not common household utilities. This is likely to change in the near
+      future; the nation is currently pouring funding into research to
+      revolutionise agriculture into a more scientific endeavour, creating
+      mobile hydroponics facilities which would change the fates of many Yanese,
+      for better or worse.</p><blockquote><p><strong>The Six Ministries of
+      Yan</strong></p><ol><li><p>The Ministry of Personnel, which governs civil
+      appointments as well as merits and demotion of
+      officials.</p></li><li><p>The Ministry of Revenue, which handles national
+      treasury, tax-collection, and census on its population.</p></li><li><p>The
+      Ministry of Rites, which observes state ceremonies, rituals and sacrifices
+      as well as accomplishing historiography, with one of their important goals
+      being supervising the surviving Feranmuts.</p></li><li><p>The Ministry of
+      War, which governs the military such as military officials and
+      weaponry.</p></li><li><p>The Ministry of Justice, which is in charge of
+      judicial and penal processes.</p></li><li><p>The Ministry of Works, which
+      governs civic matters such as infrastructure and farmland
+      distribution.</p></li></ol></blockquote><h1>Yanese
+      Features</h1><p><strong>Languages:</strong> Yanese + 2 Languages of your
+      Choice.</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Athletics</p></li><li><p>Acrobatics</p></li><li><p>Lore</p></li><li><p>Insight</p></li><li><p>Intimidation</p></li><li><p>Performance</p></li></ul><p><strong>Nationality
+      Feat (Wide, Vast Land):</strong> Yan is a massive nation; the most
+      populated nation on Terra, to be precise. The Yanese are not comprised of
+      one or two predominant species, but many; especially in places like
+      Lungmen, the mixing of culture, race, heritage, and creed is unlike any
+      other.The people of Yan choose not to think of others as members of their
+      species, as many other places in Terra would, but instead as fellow
+      countrymen. As a result, they have developed a certain talent for
+      smoothing over disagreements and closing deals.</p><p>You have Advantage
+      on Persuasion or Intimidation Skill Checks during negotiations between two
+      or more parties that you are not part of (you may negotiate on behalf of
+      one of these parties but you may not use it for the direct benefit of a
+      conversation that you are the main beneficiary of). Once per Long Rest,
+      you may roll 1d6 and add it to the result of one Persuasion or
+      Intimidation Skill Check during a negotiation like this.</p><h3>Unique
+      Background (Martial Arts Practitioner)</h3><p>There are a great number of
+      schools of Martial Arts in Yan; some are commercialised, teaching self
+      defence to the masses and hosting publicised tournaments, while others are
+      traditional, holding to the idea that Martial Arts are a tool for
+      preserving peace, first and
+      foremost.</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Art Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Wuxia):</strong> Whichever
+      philosophy you subscribe to, you have learned a thing or two.</p><p>After
+      you hit a Creature within 5 feet of you with an Attack, you may attempt
+      the Shove Action against that Creature as a Bonus Action. You may use this
+      Feature a number of times equal to your Proficiency Bonus, regaining all
+      uses when you finish a Long Rest.</p>
+    chat: ''
+  identifier: yan
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!ZrSPIhkTf8PqgaCI'

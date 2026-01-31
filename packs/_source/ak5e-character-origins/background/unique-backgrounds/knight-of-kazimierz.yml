@@ -1,0 +1,81 @@
+folder: olZLY5YOp06af4qn
+name: Knight of Kazimierz
+type: background
+_id: 1xsMYsZaTauUlQIa
+img: icons/environment/people/cavalry-heavy.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: i7Qx2PMxWaYZeLhS
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:maintenance
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: 7mjF5isNAxhzcVRZ
+      configuration:
+        items:
+          - uuid: Item.coAa8Tp0PHTb174e
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>You are, or were, part of a Knightly organisation. Decide with your GM
+      when you select this background some more details about it, and your
+      relationship with them; do you belong to an old family, or a knightclub?
+      Are they commercial knights, or campaign knights? What is their stance on
+      the Infected? Are you still on good terms with
+      them?</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Maintenance Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Gallant Demeanour):</strong>
+      Regardless of your relationship with them, your time with them has changed
+      your demeanour, making you appear reliable and trustworthy. When you
+      promise someone that you will do something, you can make them a vow; if
+      you do, you gain a +10 bonus to Charisma based Checks against that person,
+      as long as it relates to the vow you made, until you either complete your
+      vow or break it. You can only have one active vow at a time. If you break
+      your vow, it marks your demeanour as much as your honour; the bonus you
+      gain from this Feature is permanently reduced by 5, to a minimum of
+      0.</p><p>Furthermore, you are Proficient with the Spear and Polearm, and
+      you may choose one of these to gain as Starting Equipment.</p>
+    chat: ''
+  identifier: knight-of-kazimierz
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 1400000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.1xsMYsZaTauUlQIa
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!1xsMYsZaTauUlQIa'

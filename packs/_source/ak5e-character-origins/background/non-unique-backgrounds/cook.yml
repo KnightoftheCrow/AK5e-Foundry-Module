@@ -1,0 +1,81 @@
+folder: MkGCwSTO7HeQOsMl
+name: Cook
+type: background
+_id: 6pXK4G6J0VqdpD8N
+img: icons/tools/cooking/bowl-steaming-brown.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: S6ACLCf8EQX9KxMa
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:art:cooking
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: vpAdD6TUoGyFggor
+      configuration:
+        items:
+          - uuid: Item.gL68Ffrey1JYQRer
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>An army marches on its stomach, or so the saying goes. You are an
+      expert in this department, and even a simple dish whipped up by you can
+      invigorate the weariest soul.</p><p><strong>Proficiencies:</strong> You
+      are Proficient in the Cooking Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Chef’s Touch):</strong> The food
+      you can prepare can sate even the most voracious. Furthermore, your
+      experience with a variety of ingredients gives you a good sense for what
+      is and isn’t safe to eat.</p><ul><li><p>When you use a Cooking Kit to
+      prepare a Meal, the amount of Temporary Hit Points you grant is
+      doubled.</p></li><li><p>You can identify whether food is safe or dangerous
+      to eat by succeeding on a DC15 Perception Check. If you have a Cooking Kit
+      and are Proficient in it, you have Advantage on this Check. At GM
+      Discretion, this DC may be raised or lowered based on what has been used
+      to make the food dangerous; if it even is.</p></li></ul>
+    chat: ''
+  identifier: cook
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.6pXK4G6J0VqdpD8N
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!6pXK4G6J0VqdpD8N'

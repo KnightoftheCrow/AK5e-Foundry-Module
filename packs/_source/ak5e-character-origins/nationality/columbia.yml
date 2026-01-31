@@ -1,0 +1,153 @@
+folder: 7G1D42jSHLcgp1sX
+name: Columbia
+type: ak5e.nationality
+_id: RWpYENn4Jscomxlv
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: xAZWT5k9xhu0BoUq
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:ani
+              - skills:itm
+              - skills:rel
+              - skills:per
+              - skills:tech
+              - skills:nat
+        grants:
+          - languages:standard:iberian
+          - languages:standard:victorian
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: igrAtPsojAw8CQIZ
+      configuration:
+        items:
+          - uuid: Item.MjYcbeghMw18ffj8
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>The Columbian Union (typically shortened to Columbia) began as a
+      Victorian Colony, established in the late 10th century due to the
+      discovery of a huge Originium prime vein that was signficantly more stable
+      that the similarly sized vein in Rim Billiton. The letter the explorers
+      wrote home to the Victorian Parliament is mostly forgotten, but for one
+      quote that would define Victorian politics even to the present day:</p><p
+      style="text-align:center"><em>“If a plot of a land can hold a boot, then
+      it should belong to Victoria.”</em></p><p
+      style="text-align:center"><em>Unnamed Explorer</em></p><p>As a result of a
+      gigantic pioneer effort and mass immigration from Bolivar and Kazimierz,
+      Columbia swiftly became the most prosperous colony in the region, and a
+      power in its own right. Thus, when the years and oppressive policies from
+      the colonial governor began to weigh heavy, the Columbians rose up in
+      revolution against their Victorian overlords in the first half of the 11th
+      century. Even with the Victorians distracted by Leithanien and Gaulish
+      aggression, the revolutionaries were no match for the professional army of
+      the Victorians, until two things changed; military aid from Gaul, and the
+      emergence of Mark Max, a man who would become a legendary war hero. With
+      his tactical acumen and the Gaulish support, Columbia won its
+      independence, clearing the way for it to become to superpower it is
+      today.</p><p>Ostensibly, Columbia is a federal republic under a national,
+      democratic government. However, the presidential position has been
+      occupied since Columbia’s independence by the hero Mark Max, who has been
+      elected every single term, as there is no term limit. Externally, while
+      Columbia has only ever been directly involved in two conflicts (those
+      being their own Revolutionary War and the Bolivarian Civil War), they
+      continue a soft “culture” war to this day. In Sargon, Columbian funding
+      finds its way into the hands of pro-Columbian or anti-Sargon factions. In
+      Sami, scientific research teams probing the ice-fields bring with them
+      Columbian culture, which finds its way into the hands of the locals,
+      alongside a little anti-Ursus sentiment.</p><p>For the city folk, Columbia
+      is a sprawling metropolis with elements from cultures all over the world
+      due to its colonial heritage. It is the primary hub for much of Terra’s
+      media, such as the film industry, and when combined with government
+      backing, Columbian art and sports has gotten its hooks into almost all
+      nations on Terra. Columbia proclaims itself a land of equity where all,
+      including Sarkaz and Infected, are given equal opportunity.</p><p>On the
+      surface, this is true; secretly, however, these folk are enticed to the
+      rough frontier rather than the cities, leading the difficult process of
+      expansion where crime is rampant, medical care (especially for Infected)
+      is scarce, and Catastrophes are common.</p><blockquote><p><strong>The
+      Infected Question</strong></p><p>Columbia’s origins as a mining colony and
+      its modern status as an industrial powerhouse mean that Oripathy is a
+      present threat. Those with Oripathy are not directly discriminated
+      against, but taken advantage of in a more insidious way; Infected must
+      regularly pay for insurance, ostensibly to pay for any care they require.
+      In practice however, this is a payment to be allowed to keep their jobs,
+      and the premiums for this insurance is often far in excess of what most
+      can comfortably afford. Those who are forced to default on their debts as
+      a result of these insurance payments are given the choice of moving into
+      slum-like quarantine zones, or becoming pioneers of the frontier to
+      continue the great westward push.</p></blockquote><h1>Columbian
+      Features</h1><p><strong>Languages:</strong> Victorian + Iberian + 1
+      Language of your choice.</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Animal
+      Handling</p></li><li><p>Wilderness</p></li><li><p>Persuasion</p></li><li><p>Intimidation</p></li><li><p>Lore</p></li><li><p>Tech</p></li></ul><p><strong>Nationality
+      Feat (One Amongst Many):</strong> Columbia is a bustling, cosmopolitan
+      place, playing host to people from all races and walks of life. It is a
+      place where people mostly pursue their own business, and tend not to look
+      into others too deeply.</p><p>You have Advantage on Stealth Checks to
+      blend into crowds and other groups of people.</p><h3>Unique Background
+      (Pioneer):</h3><p>You are used to living in rough terrain. You are good
+      with both people, plants, animals, understanding their behaviour and needs
+      in a practical sense, though life on the Pioneer is far from kind and
+      often requires use of force.</p><p><strong>Proficiencies:</strong> You are
+      Proficient in the Messenger Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Frontier Knowledge):</strong> When
+      you complete a Long Rest, you can determine what types of animals and
+      plants are available in the biome in which you rested, and know where you
+      might look to find them. After doing so, until you next finish a Long
+      Rest:</p><p>You have Advantage on Animal Handling and Wilderness Checks
+      regarding the Flora and Fauna in that area.</p><p>Furthermore, once per
+      Turn, when you would deal Damage to a Creature of the Beast or Plant type,
+      you can deal additional Damage to them equal to your Proficiency
+      Bonus.</p>
+    chat: ''
+  identifier: columbia
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!RWpYENn4Jscomxlv'

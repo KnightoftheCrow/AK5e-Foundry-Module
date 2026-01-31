@@ -1,0 +1,61 @@
+folder: HfS1eUQfMj2UTzmH
+name: Resurrected Culture, Resurrected Spirit
+type: feat
+_id: zzt3Gl2CNOFpupUa
+img: icons/tools/instruments/harp-gold-glowing.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Under Sargonian occupation, the venerable culture of Minos almost
+      crumbled away to nothing, crushed to dust under the world-changing weight
+      of imperialism. Now freed from the heel of their oppressors, Minoans have
+      restored their culture with a fervor bending on fanaticism, and none will
+      ever quash them again. You gain the following benefits:</p><ul><li><p>When
+      making a Skill Check to do with playing a Sport, you are considered to be
+      Proficient in that Skills. If you are already Proficient, you have
+      Advantage on that Check.</p></li><li><p>When you make a Saving Throw to
+      avoid or end an effect that would force you to take an Action or Actions
+      against your will, you have Advantage on that Saving
+      Throw.</p></li></ul><p><strong>Cannot be automated.</strong></p>
+    chat: ''
+  identifier: resurrected-culture-resurrected-spirit
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.zzt3Gl2CNOFpupUa
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!zzt3Gl2CNOFpupUa'

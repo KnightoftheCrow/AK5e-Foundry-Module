@@ -1,0 +1,90 @@
+folder: olZLY5YOp06af4qn
+name: Siestan Socialite
+type: background
+_id: cdOBKNeKjjTPhINQ
+img: icons/consumables/drinks/wine-bottle-glass-white.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: 7xgL5K0GwdOuDfGh
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit:brewing
+              - tool:toolkit:instrumentbagpipes
+              - tool:toolkit:instrumentbass
+              - tool:toolkit:instrumentcello
+              - tool:toolkit:instrumentdrums
+              - tool:toolkit:instrumentflute
+              - tool:toolkit:instrumentguitar
+              - tool:toolkit:instrumentharp
+              - tool:toolkit:instrumentkeyboard
+              - tool:toolkit:instrumentmicrophone
+              - tool:toolkit:instrumentother
+              - tool:toolkit:instrumenttrombone
+              - tool:toolkit:instrumenttuba
+              - tool:toolkit:instrumentturntable
+              - tool:toolkit:instrumentviolin
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants: []
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: YNl7letVRlGuqRTm
+      configuration:
+        items:
+          - uuid: Item.4bI9O05VE2sGVD2h
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Siesta’s busy streets and parties have given you a knack for dealing
+      with crowds of partygoers.</p><p><strong>Proficiencies:</strong> You are
+      Proficient in a Brewing Kit or an Instrument (your choice), and one other
+      Tool/Vehicle of your choice.</p><p><strong>Background Feat (Party
+      Animal):</strong> You can move through crowds without difficulty, and know
+      the places parties tend to congregate, even “off the books”
+      parties.</p><ul><li><p>While in an urban environment, your Travel Speed
+      (and the Travel Speed of anyone travelling with you) is
+      doubled.</p></li><li><p>You are not slowed by having to move through
+      crowds.</p></li><li><p>While in a building, you always know where the
+      nearest exit is.</p></li></ul>
+    chat: ''
+  identifier: siestan-socialite
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 500000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.cdOBKNeKjjTPhINQ
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!cdOBKNeKjjTPhINQ'

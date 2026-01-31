@@ -1,0 +1,149 @@
+folder: YchJtvsiH0SgRWhD
+name: Stormtrooper
+type: feat
+_id: enKSl72KyMn6RWwj
+img: icons/environment/people/charge.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: TG82uvw8aF7Y5TwO
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - weapon:hvm:polearm
+              - weapon:ltr:crossbow
+              - armor:med:combatgear
+        grants: []
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - type: ItemChoice
+      _id: joecNHa6BWXzKi8L
+      configuration:
+        allowDrops: true
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-items.Item.XAvfUySa6K27SHTU
+          - uuid: Compendium.ak5e.ak5e-items.Item.o1kUk2al1bphk50J
+          - uuid: Compendium.ak5e.ak5e-items.Item.Cec4UmE7i2g5ZJdm
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: Choose the equipment you chose your Proficiency in.
+  description:
+    value: >-
+      <p>As a former soldier of the Ursus Army, you are familiar with their
+      chosen tools of war; heavy armour, backed by heavier firepower. When the
+      enemy break, they are run down, and the invincible army tramples o’er
+      their corpses.</p><ul><li><p>You are Proficient with one of the following,
+      and may add one of them to your Starting Equipment; Combat Gear, Polearm,
+      Crossbow.</p></li><li><p>Your first Attack each Turn against a Creature
+      with the Frightened Condition, or Creatures that are not wielding a
+      weapon, deals additional Damage equal to your Proficiency
+      Bonus.</p></li></ul><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: stormtrooper
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects:
+  - name: Bonus Damage vs Frightened
+    img: icons/environment/people/charge.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.enKSl72KyMn6RWwj
+    _id: lPwEIsErrlQoor2v
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.bonus
+        mode: 2
+        value: >-
+          bonus=rollingActor.prof; opponentActor.statuses.frightened &&
+          !actionType.save ||
+
+          !opponentActor.items.some(i=>i.type === 'weapon' && i.equipped) &&
+          !actionType.save
+        priority: 20
+    disabled: false
+    duration:
+      startTime: 894
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: 4
+      startTurn: 0
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!enKSl72KyMn6RWwj.lPwEIsErrlQoor2v'
+sort: 800000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.tV84Xa6UAhcva7fF
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!enKSl72KyMn6RWwj'

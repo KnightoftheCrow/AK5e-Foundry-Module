@@ -1,0 +1,167 @@
+folder: YchJtvsiH0SgRWhD
+name: Amma's Guidance
+type: feat
+_id: mhcx7OnWuDTHGRtD
+img: icons/environment/wilderness/terrain-forest-gray.webp
+system:
+  activities:
+    g1J42PlcQ6fbI15u:
+      type: utility
+      name: Divine Message
+      _id: g1J42PlcQ6fbI15u
+      sort: 0
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>As a Long Rest Activity, you may divine messages from nature. You may
+      ask a question about an action you intend to perform in the next 24 hours
+      (such as “crossing the canyon”, “attacking that convoy”, etc); the DM
+      chooses an omen for you regarding that action from the following
+      table:</p><table><thead><tr><td><p><strong>Omen</strong></p></td><td><p><strong>For
+      results that are likely to
+      be</strong></p></td></tr></thead><tbody><tr><td><p>Weal</p></td><td><p>Good</p></td></tr><tr><td><p>Woe</p></td><td><p>Bad</p></td></tr><tr><td><p>Weal
+      and Woe</p></td><td><p>Good and
+      Bad</p></td></tr><tr><td><p>Indifference</p></td><td><p>Neither Good nor
+      Bad</p></td></tr></tbody></table><p>This should be truthful to the best of
+      the DM’s knowledge at the time. If there is a trap in place, then a Woe
+      result might be appropriate. If there is no current DM plans for anything
+      to go awry, a Weal result might be appropriate. However, this does not
+      account for changes in circumstance; something may happen between then and
+      now that changes this result; it is merely a prediction, not an accurate
+      telling of the future.</p>
+    chat: ''
+  identifier: ammas-guidance
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 1200000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!mhcx7OnWuDTHGRtD'

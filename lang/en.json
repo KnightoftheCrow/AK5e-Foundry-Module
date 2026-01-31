@@ -84,6 +84,12 @@
 			"condTypeNerve": " Nervous Impairment",
 			"condTypeSilen": "Silenced"
         },
+		"toolTypes": {
+			"toolkit": "Tool Kit"
+		},
+		"toolProficiencies": {
+			"toolkit": "Tool Kit"
+		},
         "VEHICLE": {
             "Type": {
                 "Drone": {

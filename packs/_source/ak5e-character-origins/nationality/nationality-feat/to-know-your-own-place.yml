@@ -1,0 +1,107 @@
+folder: HfS1eUQfMj2UTzmH
+name: To Know your Own Place
+type: feat
+_id: IreMFbiQu1nmrNaX
+img: icons/creatures/mammals/wolf-shadow-black.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>No matter how high you climb in the social ranks of Siracusa, you never
+      forget the lessons drilled into you as a child; sometimes, you can just
+      sense danger in the air, and know you need to be somewhere else.</p><p>You
+      can instinctively tell who the most dangerous person in an area is, and
+      have Advantage on Insight Checks to determine if a person has hostile
+      intent towards you.</p><p><strong>Partially Automated: </strong>You will
+      be prompted when you make an Insight Check; the danger sense cannot be
+      automated.</p>
+    chat: ''
+  identifier: to-know-your-own-place
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects:
+  - name: Hostility Check Advantage
+    img: icons/creatures/mammals/wolf-shadow-black.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.IreMFbiQu1nmrNaX
+    _id: 1mkuGmL9RD5uiRvd
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.advantage.skill.ins
+        mode: 2
+        value: confirm('Are you checking for hostile intent?')
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!IreMFbiQu1nmrNaX.1mkuGmL9RD5uiRvd'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.IreMFbiQu1nmrNaX
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!IreMFbiQu1nmrNaX'

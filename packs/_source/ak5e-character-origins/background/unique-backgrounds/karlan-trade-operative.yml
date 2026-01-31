@@ -1,0 +1,84 @@
+folder: olZLY5YOp06af4qn
+name: Karlan Trade Operative
+type: background
+_id: Ksc8zxy9wPOYLPLT
+img: icons/tools/hand/scale-balances-merchant-brown.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: G2il8GjjiFcfUDWi
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit:maintenance
+              - tool:toolkit:tailoring
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants: []
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: sCbyuZVtYIaMxCac
+      configuration:
+        items:
+          - uuid: Item.IdG0R5YeLodXHGOf
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Karlan Trade is very new on the world stage, but has established itself
+      as the primary link between the insular land of Kjerag and the outside
+      world. Merchants clamouring to do business with an untapped market had to
+      do so through Karlan, and thus they have rapidly developed a wealth of
+      expertise.</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Maintenance Kit or Tailoring Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Discerning Eye):</strong> You might
+      not directly be a Karlan trader, but you have seen and handled many
+      items.</p><p>If given five minutes to examine an item, you can tell its
+      provenance down to the person or organization likely responsible for its
+      creation. If the item’s rarity is Very Rare or greater, or it is Unique,
+      you might only be able to tell the nationality of the item. You also learn
+      some of the recent history of the item; weapons and equipment bear marks
+      of use, travel leaves marks on many items.</p><p>Additionally, you also
+      have an inherent ability to tell when someone is trying to rip you off
+      when buying or selling an item. You might not know how much the item is
+      actually worth, but you will know if you’re being asked for too much or
+      too little.</p>
+    chat: ''
+  identifier: karlan-trade-operative
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 1500000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.Ksc8zxy9wPOYLPLT
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!Ksc8zxy9wPOYLPLT'

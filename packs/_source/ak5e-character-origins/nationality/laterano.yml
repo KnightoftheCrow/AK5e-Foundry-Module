@@ -1,0 +1,272 @@
+folder: 7G1D42jSHLcgp1sX
+name: Laterano
+type: ak5e.nationality
+_id: p1DqxkW500eTIBwh
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: 454O7vzhFl85OJY4
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:acr
+              - skills:arc
+              - skills:inv
+              - skills:rel
+              - skills:prc
+              - skills:tech
+        grants:
+          - languages:standard:iberian
+          - languages:standard:lateran
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: n399Qn23Bk2orNoF
+      configuration:
+        items:
+          - uuid: Item.11bLRmGP4ZIH0Gwh
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Formally known as the Lateran City, Laterano is a singular, but highly
+      influential city-state bordering Victoria and Iberia. It is the origin and
+      the homeland of the Sankta; an overwhelming majority of extant Sankta hail
+      from Laterano, even in the increasingly globalised world. Possessed of a
+      culture unlike anywhere else on Terra, professed by some to be
+      paradisical, Laterano is a place of extreme personal freedom so long as
+      they exist within the confines of The Law; a somewhat abstract set of
+      teachings interpreted by the clergy of the Lateran Church, the largest
+      organised religion on Terra. Despite the absence of a traditional police
+      force, and the aforementioned personal freedoms, the crime rate in
+      Laterano is extremely low. This is attributed to the Sankta’s “Empathy”,
+      which allows them to resolve conflict easily as there can be no
+      misunderstanding around a person’s feelings on a matter. Such are their
+      powers of conflict resolution amongst themselves, that there is a popular
+      proverb that covers it; “Duae halos satis sunt omnes conflictus resolvere.
+      (Two halos are sufficient to resolve all conflicts).”</p><p>The true
+      origin of the Sankta, and thus, Laterano, is different to the widely
+      publicised answer, teaching that the first Saints founded Laterano after
+      being hunted nearly to extinction by the Sarkaz.</p><p
+      style="text-align:center"><em>“During the day,</em></p><p
+      style="text-align:center"><em>The Sankta looked up at the sky to find
+      darkness shrouding even the sun. At night, the devil’s army came and
+      slaughtered countless Sankta. The Sankta lost much of their
+      radiance.</em></p><p style="text-align:center"><em>“The saints said:
+      follow me. Thus they rose.</em></p><p style="text-align:center"><em>The
+      saints said: listen to me. Thus, the bells began to ring.</em></p><p
+      style="text-align:center"><em>“The bells echoed throughout the wilderness,
+      uniting all the Sankta.</em></p><p style="text-align:center"><em>“This is
+      a revelation. This is an exhortation.</em></p><p
+      style="text-align:center"><em>“There will be light throughout the day, and
+      it shall never be shrouded again.</em></p><p
+      style="text-align:center"><em>“The saints said: build a city. It will be
+      the Sankta’s paradise.</em></p><p style="text-align:center"><em>“The
+      saints said: this city shall be called Lateran.”</em></p><p
+      style="text-align:center"><em><strong>First Chapter of the Lateran
+      Scripture</strong></em></p><p>The truth, however, is that there originally
+      were no Sankta; those who would become Sankta were Sarkaz (or Teekaz, as
+      they were then) themselves. They sought for a way to preserve their
+      civilisation against the incursions of the Ancient Races, and while
+      digging through forbidden ruins, came face to face with The Law, an alien,
+      incredibly powerful supercomputer with the ability to manipulate reality
+      itself. It offered salvation to that lost people, and when they accepted,
+      warped those Sarkaz into the Sankta, granting them their Halo and Empathy.
+      It was these new Sankta that settled Laterano around The Law. They later
+      came into conflict with the Sarkaz, as the Ancients not only spared the
+      Sankta, but accepted them into their ranks. This is known as The Betrayal,
+      and is the root cause for the millennia of racial tension between the
+      Sarkaz and Sankta, even if few actually know the
+      reason.</p><blockquote><p><strong>The Law/Lateran Faith</strong></p><p>The
+      Law and the Lateran Faith is difficult to understand, but is important to
+      playing almost any Lateran character. “The Law” refers to both the rules
+      and regulations set out by the Lateran Church, and also the machine entity
+      responsible for passing down these rules and regulations; the main
+      responsibility of the Pope is to interpret the Law’s teaching and pass
+      them into legal law. While they may refer to The Law as “Lord” or “God”,
+      it is not a creator god nor a philosophical concept, but a physical being.
+      However, almost every Sankta does not know the truth of what The Law is;
+      only the current Pope and a select few are permitted to view it or have
+      audience with it, conducted through a screen. The proof of The Law’s
+      influence is the halo and wings that are characteristic of the Sankta,
+      along with their sixth sense of Empathy.</p><p>Laterano’s unique social
+      structure is the result of teachings passed down by The Law, and the
+      Church states that it is Empathy which allows them to intrinsically
+      understand these teachings. Thus, while non-Sankta can hold positions in
+      the Faith, the Papal position is reserved for
+      Sankta.</p></blockquote><p>Since then, the Sankta have taken great pains
+      to free themselves from the truth of their origin, even (allegedly) going
+      so far as to assassinate archeologists that uncovered evidence of it. Up
+      until this day, Lateran culture still holds extreme prejudice towards the
+      Sarkaz and Kazdel, as the Sarkaz are the only Terrans to not be permitted
+      access to the Holy City. The current Pope, Yvangelista XI, holds no such
+      feelings of animosity towards the Sarkaz, but believes that such things
+      are now impossible to change.</p><blockquote><p><strong>Firearms and
+      Laterano</strong></p><p>Laterano has had until recently, an unchallenged
+      monopoly on Terra’s firearms industry. They were the first to discover
+      firearms as a result of The Law’s guidance, though these are not firearms
+      in the sense of real-world guns, as gunpowder cannot be manufactured on
+      Terra; Terran firearms and their ammunition are instead operated, like
+      almost everything else, through Originium Arts. In essence, Terran
+      Firearms are Arts Units that are specialised to deliver the wielder’s Arts
+      to the bullets, which do not have a conventional primer but an
+      Originium-based primer that produces the prerequisite explosion to
+      accelerate the ammunition. For this reason, Terran Firearms are not simple
+      to operate unlike conventional firearms, requiring either talents and
+      training or the natural Arts precision of the Sankta. The Sankta see
+      firearms as the ultimate expression of The Law; raw violence restrained
+      and controlled through order and discipline, employed when and where
+      they’re required. Thus do firearms feature heavily in their religious
+      imagery and celebrations. Explosives, and Launchers however, do not
+      require the fine Arts control of firearms, and are thus the preferred
+      weapon of many non-Sankta Laterans.</p></blockquote><p>As of the age of
+      12, all Lateran Sankta are entitled to own a Patron Firearm given to them
+      by the Notarial Hall, though they must undergo training in its use for the
+      next four years. At the end of these years, they are required to pass a
+      permit test to formally register ownership and the right to bear it.
+      Assuming they pass, they must check in yearly with the Notarial Hall for
+      maintenance and permit renewal. Upon a Sankta’s death, their firearm is
+      retrieved by Executors to be handed out again in future.</p><p>Guided by
+      The Law’s teaching, Laterano has the most generous social welfare on
+      Terra; free education at all levels (those outside the cities often
+      receive their education in monasteries or through roaming teachers), free
+      healthcare, and property insurance. These welfares are given to all
+      citizens of Laterano, and any non-Sarkaz foreigner is welcome to apply for
+      Lateran citizenship through the Curia. While non-Sankta are guaranteed
+      fair legal treatment during all proceedings, there is a darker edge to a
+      society primarily run by people who can understand each other’s feelings
+      inherently; if you cannot do the same, there is an automatic social
+      barrier between you. While it is not malicious, the Sankta Laterans tend
+      to look down upon those without “Empathy”, and often (though usually
+      unintentionally) exclude non-Sankta from their discussions, as much of
+      Sankta-Sankta communication is non-verbal. As a result, there is a social
+      segregation between Sankta Laterans and those of others species, leading
+      to a certain degree of tension especially amongst the Liberi faithful, who
+      were the first immigrants to the Holy City and hold many high positions
+      within both the nation and the church.</p><blockquote><p><strong>The
+      Infected Question</strong></p><p>Laterano’s stance on Oripathy sufferers
+      is simultaneously draconian and considerate. Every citizen of Laterano is
+      required to have regular medical checkups, which includes monitoring for
+      Oripathy. Anyone found with the condition is exiled permanently from the
+      nation, but still retain all of their citizenship
+      rights.</p></blockquote><h1>Lateran
+      Features</h1><p><strong>Languages:</strong> Lateran + Iberian + 1 Language
+      of your Choice</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Lore</p></li><li><p>Investigation</p></li><li><p>Perception</p></li><li><p>Tech</p></li><li><p>Arts</p></li><li><p>Acrobatics</p></li></ul><p><strong>Nationality
+      Feat (The Thirteen Rights):</strong> Lateran Citizens are entitled to
+      their rights, even abroad, so long as they do not do something to
+      permanently estrange themselves from Laterano.</p><p>The Executors of the
+      Notarial Hall enforce these rights even for Sankta abroad, and will do so
+      for you if you call upon them. They cannot act on things they do not know
+      about, and if you abuse their protection, they may disavow you.</p><p>When
+      the Executors are dispatched, they are deployed in teams of 1-3. They are
+      heavily armed, but are not there to cause violence if it can be avoided;
+      they are essentially gun-toting lawyers. Their only focus is to ensure
+      your rights, and so while they will not be actively hostile to
+      non-Laterans, they will not care about them if not necessary. They also
+      will not throw their lives away; if a situation is too much for them to
+      handle, they will retreat and reassess the
+      situation.</p><blockquote><p><strong>The Thirteen
+      Rights</strong></p><ol><li><p>All Lateran Citizens are born free and
+      equal, and should act towards each other as such.</p></li><li><p>All
+      Lateran Citizens have the right to life and safety.</p></li><li><p>No
+      Lateran Citizen shall be held in slavery or bondage.</p></li><li><p>No
+      Lateran Citizen shall be subject to torture or similar
+      cruelty.</p></li><li><p>No Lateran Citizen shall be subject to arbitrary
+      or unfair imprisonment or detention.</p></li><li><p>All Lateran Citizens
+      are permitted to bear a Patron Firearm</p></li><li><p>All Lateran Citizens
+      are entitled to a funeral and recovery of the deceased’s Patron Firearm
+      upon death, to be returned to their next of kin.</p></li><li><p>All
+      Lateran Citizens are entitled to the essential medical care they require
+      to survive in case of injury.</p></li><li><p>All Lateran Citizens are
+      entitled to a standard of living adequate for their health and
+      wellbeing.</p></li><li><p>All Lateran Citizens are entitled to have their
+      legal contracts honoured.</p></li><li><p>No Lateran Citizen shall be
+      subject to arbitrary, malicious, or judicious deprivation of their
+      property.</p></li><li><p>All Lateran Citizens are entitled to partake in
+      the worship and rituals of the Lateran Church.</p></li><li><p>All Lateran
+      Citizens below 16 years of age are entitled to social protection that is
+      conducive to a constructive childhood. It is the responsibility of their
+      parental figures to provide this, or otherwise find someone who
+      can.</p></li></ol></blockquote><h3>Unique Background
+      (Pathfinder)</h3><p>The Pathfinders are a heretical organisation that
+      seeks to end the isolationism of Laterano and bring aid to the unfortunate
+      of the world, rather than promising heaven. They accept all faithful,
+      including Sarkaz. They find their own path, and refuse to follow the path
+      laid out for them.</p><p><strong>Proficiencies:</strong> You are
+      Proficient in two Tools/Vehicles of your choice.</p><p><strong>Background
+      Feat (Find the Path):</strong> You lose all Skill Proficiencies from your
+      Species and Nationality, and cannot gain any Skill Proficiencies. Instead,
+      you have Proficiency Points; you start off with 3 at Level 1, and gain 1
+      every Level thereafter. You invest these points into your Skills when you
+      get them; each one you invest gives you a +1 Bonus to Skill Checks and
+      your Passive Score using that Skill. The maximum points you can have
+      invested into a Skill is equal to your Character Level +3.</p><p>If you
+      would gain a Skill Proficiency from a different source, such as from your
+      Class, you instead gain 1 Proficiency Point; if you would gain Expertise
+      in a Skill, you instead gain 3 Proficiency Points.</p><p>You are
+      considered Proficient in any Skill you have Proficiency Points invested
+      in. If the amount of points you have invested in a Skill is greater than
+      your Proficiency Bonus, you are considered to have Expertise in that
+      Skill.</p><h3><strong>Unique Background (Pontifica Cohors
+      Lateran)</strong></h3><p>The Cohors Lateran are one of two military arms
+      of Laterano, and are primarily responsible for defending Laterano and its
+      citizens, and securing Lateran interests. The other side is the Apostolic
+      Knights, who occupy a more offensive-orientated
+      niche.</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Maintenance Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Legion of Heaven):</strong> If
+      another Creature you can see is hit by an Attack, you can expend your
+      Reaction to choose a weapon you are wielding. If the attacked Creature is
+      within the Reach or the Normal Range for that weapon, you can make an
+      Attack Roll using it; if the result of that Attack Roll is equal to or
+      greater than the result of triggering Attack, the triggering Attack misses
+      the attacked Creature.</p><p>Once you have used this Feature, you must
+      complete a Short or Long Rest before you can do so again.</p><p></p>
+    chat: ''
+  identifier: laterano
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!p1DqxkW500eTIBwh'

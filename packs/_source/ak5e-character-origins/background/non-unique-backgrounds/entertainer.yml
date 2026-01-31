@@ -1,0 +1,93 @@
+folder: MkGCwSTO7HeQOsMl
+name: Entertainer
+type: background
+_id: ccAax9PDnX8XgyCX
+img: icons/tools/instruments/lute-gold-brown.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: a47gvRse188J4D9n
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit:art
+              - tool:toolkit:instrumentbagpipes
+              - tool:toolkit:instrumentbass
+              - tool:toolkit:instrumentcello
+              - tool:toolkit:instrumentdrums
+              - tool:toolkit:instrumentflute
+              - tool:toolkit:instrumentguitar
+              - tool:toolkit:instrumentharp
+              - tool:toolkit:instrumentkeyboard
+              - tool:toolkit:instrumentmicrophone
+              - tool:toolkit:instrumentother
+              - tool:toolkit:instrumenttrombone
+              - tool:toolkit:instrumenttuba
+              - tool:toolkit:instrumentturntable
+              - tool:toolkit:instrumentviolin
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants: []
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: wZ9NpIQYcm2SCybH
+      configuration:
+        items:
+          - uuid: Item.mL180bpwR1RA671d
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Whether through music or some other form of entertainment, your calling
+      is exactly that; entertaining people. You love nothing more than to see an
+      adoring crowd, and have a natural talent for working groups of
+      people.</p><p><strong>Proficiencies:</strong> You are Proficient in an Art
+      Kit or an Instrument, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Finger on the Pulse):</strong> You
+      can read a room, and direct the flow of its emotion, without having to try
+      too hard.</p><ul><li><p>When you make a Charisma Skill Check to influence
+      a large group of people, such as a room or a stadium, you do so with
+      Advantage.</p></li><li><p>As a Short Rest Activity, you may perform for a
+      number of Creatures up to your Perfomance Modifier. Those Creatures gain a
+      temporary Inspiration that expires when used, or when they finish a Long
+      Rest. Once you have used this Feature, you may not do so again until you
+      complete a Long Rest.</p></li></ul>
+    chat: ''
+  identifier: entertainer
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 300000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.ccAax9PDnX8XgyCX
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!ccAax9PDnX8XgyCX'

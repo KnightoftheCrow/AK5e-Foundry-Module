@@ -1,0 +1,76 @@
+folder: MkGCwSTO7HeQOsMl
+name: Healer
+type: background
+_id: tDMRZ3pan1ci5s9P
+img: icons/magic/life/heart-cross-purple-orange.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: Wyenw5NcSSkdOOZ0
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:medical
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: Rb7WcseIzubW4v1l
+      configuration:
+        items:
+          - uuid: Item.1I5cvc4eLrqtSWwC
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Plain and simple, your life’s calling is to preserve the lives of
+      others, sometimes at the cost of your own safety. In the dangerous world
+      of Terra, a person willing to stick their own neck out for nothing but
+      morals is a noble soul indeed.</p><p><strong>Proficiencies:</strong> You
+      are Proficient in the Medical Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Lifesaver):</strong> Whatever your
+      medical background, from self-taught Sargonians to university educated
+      Siracusans, your main goal is to preserve and save
+      life.</p><ul><li><p>When you use a Healer’s Kit to restore Hit Points to a
+      Creature, the amount restored is doubled.</p></li><li><p>Whenever you roll
+      dice to determine the amount of Hit Points you restore to another
+      Creature, you can reroll any result of 1 on those dice, but must use the
+      new result.</p></li></ul>
+    chat: ''
+  identifier: healer
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 125000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.tDMRZ3pan1ci5s9P
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!tDMRZ3pan1ci5s9P'

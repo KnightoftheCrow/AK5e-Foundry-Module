@@ -1,0 +1,63 @@
+folder: YchJtvsiH0SgRWhD
+name: Survivor
+type: feat
+_id: A6a2vzFQTpyGhuo8
+img: icons/environment/people/cleric-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>All that matters is that you live to see the sun shine again; if you
+      don’t, what was it all worth?</p><p>During a Long Rest, you can find
+      suitable places to rest out of the weather, and scavenge enough food to
+      (badly) feed yourself and a number of other Creatures equal to your
+      Proficiency Bonus. Additionally, you can rely on the comradeship of others
+      who are, or have been, in the same position; other downtrodden people will
+      treat you as a friend unless you do something to anger or upset
+      them.</p><p><strong>Automation not needed.</strong></p>
+    chat: ''
+  identifier: survivor
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 1900000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!A6a2vzFQTpyGhuo8'

@@ -1,0 +1,55 @@
+folder: HfS1eUQfMj2UTzmH
+name: Electronic Revolution
+type: feat
+_id: hXmiSHTFhJuH8BwZ
+img: icons/commodities/tech/bulb-vacuum.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>A new sort of technological revolution has come from the east, and it
+      flows from Higashi.</p><p>Whenever you make a Skill Check to interact with
+      electronics, you make that check as if you are Proficient in that Skill.
+      If you are already Proficient in that Skill, you make that Check with
+      Advantage.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: electronic-revolution
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.hXmiSHTFhJuH8BwZ
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!hXmiSHTFhJuH8BwZ'

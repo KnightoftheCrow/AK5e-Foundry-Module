@@ -1,0 +1,64 @@
+folder: YchJtvsiH0SgRWhD
+name: Deliverance
+type: feat
+_id: IQe6BbQJJZTG9X0L
+img: icons/environment/wilderness/terrain-river-road-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Whether you maintain the communication stations, or deliver the
+      messages manually, in the Catastrophe ridden world of Terra, your services
+      are essential. It is you who braves the storm, all to ensure the people
+      along the path might have the chance to survive.</p><ul><li><p>It only
+      costs you 5 feet of movement for you to get up from a Prone
+      position.</p></li><li><p>You have Advantage on any Skill Check or Saving
+      Throw to navigate and survive against the environment, such as to avoid
+      falling rocks, scramble up a collapsing cliff, or resist hostile
+      weather.</p></li></ul><p><strong>Automation not required.</strong></p>
+    chat: ''
+  identifier: deliverance
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 2100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!IQe6BbQJJZTG9X0L'

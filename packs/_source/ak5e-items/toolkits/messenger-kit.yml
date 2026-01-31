@@ -256,7 +256,7 @@ system:
   attuned: false
   equipped: false
   type:
-    value: art
+    value: toolkit
     baseItem: messenger
   ability: ''
   chatFlavor: ''
@@ -330,9 +330,9 @@ _stats:
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.2.3
+  systemVersion: 5.2.4
   createdTime: 1756485624474
-  modifiedTime: 1766942294652
+  modifiedTime: 1769446470883
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: wqd3yeo5ea2DAqD9
 sort: 362500

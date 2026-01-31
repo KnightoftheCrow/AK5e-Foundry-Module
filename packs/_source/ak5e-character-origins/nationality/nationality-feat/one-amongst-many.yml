@@ -1,0 +1,104 @@
+folder: HfS1eUQfMj2UTzmH
+name: One Amongst Many
+type: feat
+_id: MjYcbeghMw18ffj8
+img: icons/environment/settlement/house-manor.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Columbia is a bustling, cosmopolitan place, playing host to people from
+      all races and walks of life. It is a place where people mostly pursue
+      their own business, and tend not to look into others too deeply.</p><p>You
+      have Advantage on Stealth Checks to blend into crowds and other groups of
+      people.</p>
+    chat: ''
+  identifier: one-amongst-many
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects:
+  - name: Advantage on blending into Crowds
+    img: icons/environment/settlement/house-manor.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.MjYcbeghMw18ffj8
+    _id: oAGd1IHB0EwIZAFL
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.advantage.skill.ste
+        mode: 2
+        value: confirm('Are you blending into a crowd?')
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!MjYcbeghMw18ffj8.oAGd1IHB0EwIZAFL'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.MjYcbeghMw18ffj8
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!MjYcbeghMw18ffj8'

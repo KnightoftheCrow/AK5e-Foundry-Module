@@ -1,0 +1,56 @@
+folder: YchJtvsiH0SgRWhD
+name: Officer (WIP)
+type: feat
+_id: hDslIRL9Ixk68gO8
+img: icons/environment/people/cavalry-heavy.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your training gives you a tactical flexibility that most others simply
+      do not possess.</p><p>Choose two of the Basic Tactics available to the
+      Tactician Subclass; you may use these Tactics as if you were a Tactician.
+      Your maximum Acumen to use these Tactics is 3, and you regain all expended
+      Acumen when you complete a Long Rest. If you later choose the Tactician
+      Branch, your maximum Acumen is instead increased by 3.</p>
+    chat: ''
+  identifier: officer
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!hDslIRL9Ixk68gO8'

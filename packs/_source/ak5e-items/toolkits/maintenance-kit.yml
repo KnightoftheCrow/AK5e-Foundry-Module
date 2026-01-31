@@ -192,8 +192,8 @@ system:
   attuned: false
   equipped: false
   type:
-    value: art
-    baseItem: ''
+    value: toolkit
+    baseItem: maintenance
   ability: str
   chatFlavor: ''
   proficient: null
@@ -362,9 +362,9 @@ _stats:
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.2.3
+  systemVersion: 5.2.4
   createdTime: 1756485616945
-  modifiedTime: 1766942008460
+  modifiedTime: 1769446435980
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: LL42rU6BBic45HZv
 sort: 500000

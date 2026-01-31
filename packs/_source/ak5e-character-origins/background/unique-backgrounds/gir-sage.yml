@@ -1,0 +1,78 @@
+folder: olZLY5YOp06af4qn
+name: Ægir Sage
+type: background
+_id: 9t6YKRU2APNPjnME
+img: icons/commodities/tech/tube-chamber-lightning.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: Alms99eqTfJXizNp
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:engineering
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: vrtgXiCUEgZ6EFGS
+      configuration:
+        items:
+          - uuid: Item.UAerETFqjpAOf3F2
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>The highly insular nation of Ægir has eclipsed the technology Level of
+      surface dwellers in most respects. You are someone who is particular
+      versed in Ægir’s scientific advancements; a beacon of enlightened thought
+      and knowledge. To you, there is no distinction between study and
+      reality.</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Engineering Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Legacy of The
+      Predecessors):</strong> Pedestrian technologies in Ægir are the stuff of
+      science fiction novels to the land-bound, and thus Ægirians have no issues
+      mastering their technology.</p><ul><li><p>You are Proficient in the
+      Technology Skill.</p></li><li><p>Once per Short Rest, when you would make
+      a Skill Check using your Intelligence Score, you can choose to make a
+      Technology Check instead. If the result of the Technology Check is higher
+      than the DC of the Skill Check, you succeed on that Skill
+      Check.</p></li></ul>
+    chat: ''
+  identifier: aegir-sage
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 2000000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.9t6YKRU2APNPjnME
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!9t6YKRU2APNPjnME'

@@ -1,0 +1,221 @@
+folder: HfS1eUQfMj2UTzmH
+name: Life is Cheap, Friends are Priceless
+type: feat
+_id: cZAnUmUxyOKPm925
+img: icons/environment/people/group.webp
+system:
+  activities:
+    ksSRyRu5n7xJzw4u:
+      type: utility
+      _id: ksSRyRu5n7xJzw4u
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: QHs4ZgBKiN05kHio
+          level: {}
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Internationally, Ursus is something of a boogeyman; a threat breathing
+      down the necks of those in the north and centrum of Terra, waiting for an
+      exposed vein to strike at. Internally, however, Ursus is a monster eating
+      itself. It is all the average person of Ursus can do to bear it; their
+      ears are filled with words of hate, words of spite, all you can trust in
+      is your neighbour (assuming they’re uninfected, of course), and the cold
+      outside.</p><p>When an allied Creature within 10 feet of you is hit by an
+      Attack, you can use this Feature as a Reaction; you may immediately move
+      the shortest route to interpose yourself between the attacking Creature
+      and the target, or otherwise move as close as you can to doing so. If you
+      do so, you become the target of that Attack. Furthermore, you are
+      considered to be Vulnerable to the Damage of that
+      Attack.</p><p><strong>Not Automated: </strong>The Reaction activity cannot
+      trigger when another Creature is attacked. It does provide Damage
+      vulnerability for 1 attack; you should use this feature, and the Creature
+      should then roll Damage against you instead.</p>
+    chat: ''
+  identifier: life-is-cheap-friends-are-priceless
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects:
+  - name: Damage Vulnerability
+    img: icons/environment/people/group.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.cZAnUmUxyOKPm925
+    transfer: false
+    _id: QHs4ZgBKiN05kHio
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dv.all
+        mode: 0
+        value: 'true'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - isHit
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!cZAnUmUxyOKPm925.QHs4ZgBKiN05kHio'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.cZAnUmUxyOKPm925
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!cZAnUmUxyOKPm925'

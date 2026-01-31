@@ -1,0 +1,85 @@
+folder: olZLY5YOp06af4qn
+name: Snowpriest
+type: background
+_id: Lwr2fWU41IY1TIP2
+img: icons/magic/light/orb-hands-humanoid-yellow.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: 4lrTqRuI4L12o8D1
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:pharmacology
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: jA16ovlsDxZ491fw
+      configuration:
+        items:
+          - uuid: Item.mhcx7OnWuDTHGRtD
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Given their importance to the Samifjod, Snowpriests do not tend to
+      wander much. On occasion, however, a vision or a premonition will be so
+      potent as to drive them to leave their post for a greater
+      cause.</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Pharmacology Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Amma’s Guidance):</strong> As a
+      Long Rest Activity, you may divine messages from nature. You may ask a
+      question about an action you intend to perform in the next 24 hours (such
+      as “crossing the canyon”, “attacking that convoy”, etc); the DM chooses an
+      omen for you regarding that action from the following
+      table:</p><table><thead><tr><td><p><strong>Omen</strong></p></td><td><p><strong>For
+      results that are likely to
+      be</strong></p></td></tr></thead><tbody><tr><td><p>Weal</p></td><td><p>Good</p></td></tr><tr><td><p>Woe</p></td><td><p>Bad</p></td></tr><tr><td><p>Weal
+      and Woe</p></td><td><p>Good and
+      Bad</p></td></tr><tr><td><p>Indifference</p></td><td><p>Neither Good nor
+      Bad</p></td></tr></tbody></table><p>This should be truthful to the best of
+      the DM’s knowledge at the time. If there is a trap in place, then a Woe
+      result might be appropriate. If there is no current DM plans for anything
+      to go awry, a Weal result might be appropriate. However, this does not
+      account for changes in circumstance; something may happen between then and
+      now that changes this result; it is merely a prediction, not an accurate
+      telling of the future.</p>
+    chat: ''
+  identifier: snowpriest
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 400000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.Lwr2fWU41IY1TIP2
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!Lwr2fWU41IY1TIP2'

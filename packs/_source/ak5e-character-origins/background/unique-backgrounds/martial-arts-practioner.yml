@@ -1,0 +1,75 @@
+folder: olZLY5YOp06af4qn
+name: Martial Arts Practioner
+type: background
+_id: IeUVMJkiwJbvkeyi
+img: icons/equipment/hand/glove-simple-leather-brown-blue.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: qfDniud0cUH7GO3w
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:art
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: IEZY7ZVngOjYEGjB
+      configuration:
+        items:
+          - uuid: Item.TTIkQzcwVAYCdsL3
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>There are a great number of schools of Martial Arts in Yan; some are
+      commercialised, teaching self defence to the masses and hosting publicised
+      tournaments, while others are traditional, holding to the idea that
+      Martial Arts are a tool for preserving peace, first and
+      foremost.</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Art Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Wuxia):</strong> Whichever
+      philosophy you subscribe to, you have learned a thing or two.</p><p>After
+      you hit a Creature within 5 feet of you with an Attack, you may attempt
+      the Shove Action against that Creature as a Bonus Action. You may use this
+      Feature a number of times equal to your Proficiency Bonus, regaining all
+      uses when you finish a Long Rest.</p>
+    chat: ''
+  identifier: martial-arts-practioner
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 1300000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.IeUVMJkiwJbvkeyi
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!IeUVMJkiwJbvkeyi'

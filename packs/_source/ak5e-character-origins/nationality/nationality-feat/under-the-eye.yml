@@ -1,0 +1,106 @@
+folder: HfS1eUQfMj2UTzmH
+name: Under the Eye
+type: feat
+_id: swJnNBcn0mXHjytR
+img: icons/magic/perception/hand-eye-black.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>All those who live in Iberia have lived in fear of the Inquisition for
+      at least some of their life. Saying the wrong thing is liable to get you
+      hauled away; thus, Iberians possess a talent for doublespeak, and
+      solidarity amongst the “little folk”.</p><p>When speaking, you know how to
+      say things without implicating anything or anyone. You have Advantage on
+      Deception Checks to deny knowledge or communicate a hidden message in
+      speech or writing.</p>
+    chat: ''
+  identifier: under-the-eye
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects:
+  - name: Deception Advantage
+    img: icons/magic/perception/hand-eye-black.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.swJnNBcn0mXHjytR
+    _id: qSoIxjGeXpCfPiv0
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.advantage.skill.dec
+        mode: 2
+        value: confirm('Denying knowledge or communicating a hidden message?'}
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!swJnNBcn0mXHjytR.qSoIxjGeXpCfPiv0'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.swJnNBcn0mXHjytR
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!swJnNBcn0mXHjytR'

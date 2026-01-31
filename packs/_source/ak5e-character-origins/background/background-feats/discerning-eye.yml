@@ -1,0 +1,67 @@
+folder: YchJtvsiH0SgRWhD
+name: Discerning Eye
+type: feat
+_id: IdG0R5YeLodXHGOf
+img: icons/tools/scribal/magnifying-glass.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You might not directly be a Karlan trader, but you have seen and
+      handled many items.</p><p>If given five minutes to examine an item, you
+      can tell its provenance down to the person or organization likely
+      responsible for its creation. If the item’s rarity is Very Rare or
+      greater, or it is Unique, you might only be able to tell the nationality
+      of the item. You also learn some of the recent history of the item;
+      weapons and equipment bear marks of use, travel leaves marks on many
+      items.</p><p>Additionally, you also have an inherent ability to tell when
+      someone is trying to rip you off when buying or selling an item. You might
+      not know how much the item is actually worth, but you will know if you’re
+      being asked for too much or too little.</p><p><strong>No automation
+      required.</strong></p>
+    chat: ''
+  identifier: discerning-eye
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects: []
+sort: 400000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!IdG0R5YeLodXHGOf'

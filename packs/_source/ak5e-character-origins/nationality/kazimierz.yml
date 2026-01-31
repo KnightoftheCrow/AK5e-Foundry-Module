@@ -1,0 +1,187 @@
+folder: 7G1D42jSHLcgp1sX
+name: Kazimierz
+type: ak5e.nationality
+_id: 8j05T43DxPljO7dy
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: msagyoRU4BKDrNaW
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:acr
+              - skills:ath
+              - skills:ins
+              - skills:rel
+              - skills:prf
+              - skills:per
+        grants:
+          - languages:standard:kazimierzian
+          - languages:standard:ursine
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: RwNqCNj3G15HDgEI
+      configuration:
+        items:
+          - uuid: Item.t5n5ThkkYNndouS6
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Kazimierz, officially the Kazimierz Alliance or the Przymierze
+      Kazimierza lies within Terra’s northern grasslands, bordering such mighty
+      nations as Leithanien, Ursus, and Victoria. It is a nation that has been
+      conquered on more than one occasion, and yet each time it rises from
+      underneath the boot heel and casts off their conquerers. While it began as
+      a confederation of feudal knightly orders, modern Kazimierz has drifted to
+      a more commerical aspect; yet many of the traditions remain, leading to
+      strife between conservative and capitalist elements.</p><p>Established as
+      a way for the Kuranta of the plains to defend themselves against
+      territorial aggression, the change in Kazimierz has been a gradual one. It
+      was once a highly stratified, feudal society. From the mightiest
+      knight-lords to chattel slaves (a practice still continued today in some
+      places in Kazimierz), everyone had a place; social mobility was extremely
+      limited. As the Knights were called away again and again to fight
+      aggressors, they were forced to hand over their property to their
+      retainers and branch families to maintain; so did much of the wealth leave
+      the hands of the knights, passing into these “new money” families who used
+      it to establish a solid foothold in the Kazimierzian economy. Over time,
+      the newly-emerged merchant class formed the Kazimierzian General Chamber
+      of Commerce (KGCC) as a united front, and controlled so much of the
+      happenings within the nation that the Knights were forced to seek
+      cooperation, creating an uneasy truce.</p><p>Kazimierz’s central
+      government is made of three bodies; the Adeptus Sprawiedliwi Kazimierz
+      (The Kazimierzian Ministry of Defense and Justice, and the ASK for short),
+      the Kazimierzian General Chamber of Commerce (KGCC), and the National
+      Council. The National Council represents the judicial and legislative
+      power in Kazimierz, and is responsible for maintaining order within the
+      nation. However, the official head of state remains the Grand Knight of
+      the ASK; in actuality, Kazimierz is under the shadow control of KGCC, who
+      control the flow of commerce that the nation now relies
+      upon.</p><p>Kazimierz is divided between the Knightly Orders, who value
+      the traditions of Kazimierz and control the military of the nation, and
+      the Chamber of Commerce, who control the economy of the nation and see the
+      aristocrats as stuck in the past. Nowhere is this rivalry more prevalent
+      than in discussions surrounding the Knight Competitions. The Kazimierz
+      Major, once an event designed for campaigning Knights to hone their skills
+      for the battlefield, is now a heavily commercialised competition. Many of
+      the competitors in this new style of Major do not belong to a Knightly
+      Order at all, and are known as Commercial Knights compared to the old
+      guard Campaign Knights. Many Campaign Knights lambast these Commercial
+      Knights and their Knightclubs as an affront to national defence, as a
+      majority are more akin to sponsored athletes than warriors. On the
+      reverse, the KGCC argues that the increasing accessibility of Knighthood
+      to those of exceptional skill and talents is a motivating factor for
+      Kazimierizians to take an interest in martial matters. It is hard to argue
+      that they are wrong about this; there is no doubt that across the nation
+      the frequency of amateur “jousts” and those who aspire to be Knights has
+      increased.</p><p>Tensions between the Adeptus Sprawiedliwi and the KGCC
+      are always riding high; while no large scale conflict has broken out,
+      there have been a number of skirmishes and stand-offs in the darkened
+      corners of the neon cities. For now, Kazimierz remains nominally
+      united.</p><p>All this assumes one even lives in the cities of Kazimierz;
+      the rural lands of the knightly nation are significantly less developed.
+      In these places, agriculture is still the primary industry, mostly for
+      their own subsistence, though the KGCC do purchase shares of their crops.
+      In some places, this contact with the KGCC is almost all of their contact
+      with the world at large, as technology such as radio and television is not
+      commonplace. Slowly though, these developments are becoming more common,
+      allowing these folk to join in on the excitement and intrigue of the
+      Kazimierz Major.</p><blockquote><p><strong>The Infected
+      Question</strong></p><p>Kazimierzian Infected have it comparatively good-
+      on the surface. The state does not actively discriminate against them, and
+      even builds mobile platforms for its cities to house them free of charge;
+      it does not take a genius to see that these are ghettos in all but name.
+      Ultimately, however, many Infected have little choice, as while the state
+      may not discriminate, the people are free to, and many Infected will
+      struggle to find gainful employment that would allow them to live outside
+      of the designated mobile plates.</p><p>Predating on this is the “Infected
+      Participation System”, which allows Infected to compete in a special
+      Knight Competition league to earn the right to participate with uninfected
+      Knights. Many Infected see this, and the wealth and prestige that
+      accompanies a successful Knight, as a way out of their position. However,
+      the matches fought in this Infected League are often poorly regulated,
+      more akin to gladiatorial combat, often no-holds-barred matches against
+      beasts and each other. Some of these “Infected Leagues” are even
+      falsehoods put on by charlatans as a mere bloodsport, unbeknownst to the
+      contestants. Regardless of whether it happens above or below ground, the
+      Infected are exploited for entertainment.</p></blockquote><h1>Kazimierzian
+      Features</h1><p><strong>Languages:</strong> Kazimierzian + Ursine + 1
+      Language of your Choice.</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Athletics</p></li><li><p>Acrobatics</p></li><li><p>Lore</p></li><li><p>Insight</p></li><li><p>Persuasion</p></li><li><p>Performance</p></li></ul><p><strong>Nationality
+      Feat (Competitive Spirit):</strong> Kazimierz is historically a place that
+      has been assailed by foes from many sides; the Khaganate, Ursus,
+      Lethanien. It has instilled a fierce sense of competition in its people-
+      in their cut-throat world, the choice to double down or accept defeat is
+      no choice at all.</p><p>When you lose a Check in which your result was
+      opposed to another Creature’s Check (such as Stealth vs Perception, or
+      Deception vs Insight), you may use this Feature (no Action required) to
+      reroll the result of that Check; each Check can only be rerolled in this
+      way once.</p><p>However, if you still lose the Check after the reroll,
+      that result is considered to be a Critical Fail.</p><h3>Unique Background
+      (Knight of Kazimierz):</h3><p>You are, or were, part of a Knightly
+      organisation. Decide with your GM when you select this background some
+      more details about it, and your relationship with them; do you belong to
+      an old family, or a knightclub? Are they commercial knights, or campaign
+      knights? What is their stance on the Infected? Are you still on good terms
+      with them?</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Maintenance Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Gallant Demeanour):</strong>
+      Regardless of your relationship with them, your time with them has changed
+      your demeanour, making you appear reliable and trustworthy. When you
+      promise someone that you will do something, you can make them a vow; if
+      you do, you gain a +10 bonus to Charisma based Checks against that person,
+      as long as it relates to the vow you made, until you either complete your
+      vow or break it. You can only have one active vow at a time. If you break
+      your vow, it marks your demeanour as much as your honour; the bonus you
+      gain from this Feature is permanently reduced by 5, to a minimum of
+      0.</p><p>Furthermore, you are Proficient with the Spear and Polearm, and
+      you may choose one of these to gain as Starting Equipment.</p>
+    chat: ''
+  identifier: kazimierz
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!8j05T43DxPljO7dy'

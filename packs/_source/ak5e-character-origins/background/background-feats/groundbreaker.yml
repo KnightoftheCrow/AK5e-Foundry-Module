@@ -1,0 +1,144 @@
+folder: YchJtvsiH0SgRWhD
+name: Groundbreaker
+type: feat
+_id: 7lhV6LQR0bAZY4tt
+img: icons/weapons/axes/axe-pick-white.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: Trait
+      _id: F9o8wMqpYx5851b6
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:hvm:greataxe
+          - weapon:hvm:heavyhammer
+        mode: default
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - type: ItemChoice
+      _id: zys2HTCo6v5pHWmU
+      configuration:
+        allowDrops: false
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-items.Item.fPUfPJOelKu6a97f
+          - uuid: Compendium.ak5e.ak5e-items.Item.a0RPD5m4b1rj0cQT
+        restriction:
+          list: []
+        spell: null
+        type: weapon
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>Your undergrounder lifestyle has equipped you with the following
+      benefits:</p><ul><li><p>You have 10 feet of Blindsight. If you have, or
+      gain, any other source of Blindsight, the range of that Blindsight is
+      increased by 10 feet.</p></li><li><p>You deal double Damage to Objects and
+      Structures with your Attacks.</p></li><li><p>You gain Proficiency with the
+      Greataxe and Heavy Hammer, and can choose one to add to your Starting
+      Equipment.</p></li></ul><p><strong>Partially Automated: </strong>The
+      double damage to objects and structures is not automated.</p>
+    chat: ''
+  identifier: groundbreaker
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: background
+    subtype: ''
+effects:
+  - name: Blindsight
+    img: icons/weapons/axes/axe-pick-white.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.7lhV6LQR0bAZY4tt
+    _id: nOFEMa9vudn6Qblg
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.senses.blindsight
+        mode: 2
+        value: '10'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!7lhV6LQR0bAZY4tt.nOFEMa9vudn6Qblg'
+sort: 1000000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!7lhV6LQR0bAZY4tt'

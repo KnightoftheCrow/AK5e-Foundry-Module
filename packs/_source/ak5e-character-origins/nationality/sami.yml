@@ -1,0 +1,232 @@
+folder: 7G1D42jSHLcgp1sX
+name: Sami
+type: ak5e.nationality
+_id: kmOPtrU3uqcKACvt
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: qrhFH2cyzdlkbFFv
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:ani
+              - skills:rel
+              - skills:med
+              - skills:prc
+              - skills:ste
+              - skills:nat
+        grants:
+          - languages:standard:samifjod
+          - languages:standard:siracusan
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: 4KTCo06XdD7UKlz4
+      configuration:
+        items:
+          - uuid: Item.SqucO7sQhtXu7d1Z
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Sami is not a nation in the conventional sense. It is a loose
+      confederation of hundreds of individual tribes that dwell in the same
+      region, and share a cultural heritage. Living in harmony with nature
+      rather than in spite of it, the Samifjod have battled against the
+      incursions of the northern Collapsals, known to them as Andskotarnir, or
+      Demons, for longer than many nations have existed. They are a complex but
+      primitive folk, often maligned by more “civilized” folk as simple
+      tribes-people.</p><p>Each individual tribe is ruled by a Chieftain and/or
+      a Snowpriest, the latter of which is also responsible for interpreting the
+      will of the land of Sami and its guardian Samivillin. It is rare that any
+      two tribes will join together beyond a passing meeting or trade, and
+      typically only occurs when multiple Snowpriests have received the same
+      signs to discuss what that might mean.</p><blockquote><p><strong>The
+      Infected Question</strong></p><p>Thanks to its almost complete lack of
+      industry and production, Oripathy in Sami is rare. Cases mostly occur due
+      to Catastrophes or storms stirring up particulate matter from the Kollosal
+      Originium Prime vein, which is more common the more northerly you
+      are.</p><p>The response to Oripathy can vary tribe by tribe, but generally
+      speaking, while they are not exiled, they begin to exist on the fringes of
+      the tribe rather than within it, acting as messengers or hunters.
+      Treatment for Oripathy essentially only exists in natural, holistic
+      methods; though the influx of Columbian culture means this may change in
+      future.</p></blockquote><p>Sami is divided into four regions, which
+      roughly define the types of people that live there.</p><p>Southern Sami is
+      cold bog and peatland, difficult to traverse on foot; as a result, the
+      southern tribes get around mostly using boats. It is the mostly densely
+      populated region of Sami, both in terms of natives and foreign
+      outposts.</p><p>Central Sami is a great forest known as the Myrkwood,
+      which is sacred to the Samifjod; the clans that live here worship its
+      grandest trees, known as Clan Trees, and often build their homes on or
+      around them.</p><p>Beyond the Myrkwood is a vast tundra until reaching the
+      Fjal Vetrtonn mountain range; almost no-one makes their homes here due to
+      the terrain, but especially in recent years as Collapsal pollution makes
+      the area dangerous to both body and mind.</p><p>Beyond even the Fjal
+      Vetrtonn is the Infy Ice-field, a mostly unexplored region of Terra that
+      precious few have ever returned from. There is a singular passage from the
+      tundra to the ice-field, and this is guarded by the Stuoraveahka; elite
+      warriors from all over Sami who dedicated themselves to its defence, and
+      the Cyclopes of the Sarkaz.</p><p>The Samifjod believe that Sami lies on
+      the body of their God, Samivillin, who was wounded defending humanity from
+      a flying monster called Valrhivta. Valrhivta is responsible for the storms
+      that plague Sami, and its eggs drew the original ire of the Collapsals.
+      Samivillin lies hibernating until its strength has returned, and it bid
+      its children to keep Sami safe until then. Before entering hibernation,
+      however, it is said that Samivillin created Amma, the ancestral spirit of
+      Sami. Amma cannot commune through words as Samivillin could, and must
+      communicate through nature, such as through fire and in ice. Interpreting
+      these messages gave rise to the first Snowpriests. When the Cyclopes came
+      to Sami to help in their battle against the demons, they shared with the
+      Samifjod their gift of divination, teaching them to read runes found in
+      bark to aid their divination, and communion with Amma.</p><p>All of this
+      compounds into the beliefs of the Samifjod, a form of animism. To them,
+      everything in nature has a spirit worthy of respect, and thus they should
+      try to disturb the natural order as little as possible. The natural order
+      to them is that of the Eternal Hunt; everything is either hunter or
+      hunted. When the hunter consumes the hunted, their spirits can commune and
+      become something more. As such, despite the dangerous wildlife of Sami,
+      the Samifjod choose to be the hunter, leading to their hunter/gatherer
+      culture in lieu of agriculture.</p><p>In the modern age, Sami’s situation
+      has been complicated by outside influence. Ursus and the Samifjod have
+      been engaging in border skirmishes for over a century, though neither side
+      perceive it as a war; simply a dispute over territory. Ursus wants greater
+      access to the Kollosal Prime Vein, one of the largest Originium Veins on
+      Terra, which is found under a significant amount of Sami, and Sami simply
+      does not want to give up the land. On the diplomatic side, Columbia and
+      Victoria have opened dialogue with the Sami tribes to establish trading
+      outposts and tourist resorts in the south, and send expeditionary teams to
+      the north. This has resulted in the Samifjod becoming exposed to these
+      southern cultures and technology, which has had its benefits. However,
+      some amongst the Sami fear that the meddling of these southerners weakens
+      the defence of the north; the scientific expeditions to study the
+      Collapsals may actually be strengthening them, and as Columbia and Ursus
+      put more pressure on the Samifjod, they are forced to divert more
+      resources south.</p><blockquote><p><strong>The Eight
+      Taboos</strong></p><p>Sami is a place where the evidence of one’s senses
+      cannot necessarily be trusted due to the influence of the Collapsals. Even
+      from far beyond the Fjal Vetrtonn, reality itself has a tenuous grip on
+      Sami. As such, there are certain things, typically involving learned
+      wisdom or natural remedies that must be done that seem unusual to
+      outsiders; this is especially prevalent in this modernised age where
+      foreign expeditions are not uncommon. The following list of warnings is
+      given to all outsiders to Sami, though it is far from the only things they
+      need to be concerned about.</p><ol><li><p>Sami has its own reasoning.
+      Whenever you feel it is necessary, silently recite this sentence to
+      yourself. But if you start questioning Sami, immediately run and leave
+      Sami.</p></li><li><p>Sami seems to have no logic at all. Whenever you feel
+      the need to doubt, do not hesitate; show your scepticism as you don’t
+      understand and comprehend Sami. If you feel confident at a moment when you
+      should doubt, immediately run and leave Sami.</p></li><li><p>People who
+      speak can generally be trusted. But if you encounter a quiet person or a
+      shadow that speaks, immediately run and leave Sami.</p></li><li><p>Respect
+      the customs of the locals. Do not touch their clan trees, let alone
+      stroking the tree’s shadows. If you do, immediately run and leave
+      Sami.</p></li><li><p>On nights when the Twin Moons are dim, do not spend
+      your night in the forest. If absolutely necessary, do not spend the night
+      with your companions; you must be separated out of each other’s sight. If
+      the condition does not allow this or if there is any factor around that
+      makes you and your companions afraid of staying alone which brings up the
+      mind of “we must not be separated,” immediately run and leave
+      Sami.</p></li><li><p>If you notice that your inner thoughts receive verbal
+      responses from others, do not answer. Immediately run and leave
+      Sami.</p></li><li><p>If you keep these warnings in mind, then when you
+      need to recall them, you will understand them eventually. But if you do
+      not keep these warnings in mind, immediately run and leave
+      Sami.</p></li><li><p>Do not bring back things from Sami that should not be
+      brought back. If you do, immediately run and bring it back to
+      Sami.</p></li></ol></blockquote><h1>Samifjod
+      Features</h1><p><strong>Languages:</strong> Samifjod + Ursine + 1 Language
+      of your Choice</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Stealth</p></li><li><p>Wilderness</p></li><li><p>Lore</p></li><li><p>Animal
+      Handling</p></li><li><p>Perception</p></li><li><p>Medicine</p></li></ul><p><strong>Nationality
+      Feat (Nature’s Gift):</strong> The people of Sami are tribal, but not
+      primitive. Theirs is a society that has developed in harmony with the
+      land, not in spite of it.</p><p>You do not gain Exhaustion as a result of
+      cold environmental conditions.</p><p>As a Long Rest Activity if you are
+      resting in a wooded or forested area, you can forage up enough supplies to
+      create a makeshift Medical Kit. This Kit has 3 Charges, a value of 0, and
+      will degrade into nothing after a week.</p><p>While Resting, as long as
+      you have a fire to cook on, you are treated as if you have a Cooking Kit.
+      However, you cannot use the Proficient Uses of this “kit”.</p><h3>Unique
+      Background (Stuoraveahka):</h3><p>You have dwelled Sami’s northern wastes,
+      and battled the demons that pour from the north; an endless tide of
+      illusion, misdirection, and death. It has hardened your mind and spirit
+      against the predations of the
+      Collapsals.</p><p><strong>Proficiencies:</strong> You are Proficient in
+      the Woodwork Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Demon Hunter):</strong> While you
+      are affected by illusion-esque effects and Arts, such as Phantasmal
+      Killer, you can end that effect as an Action. Additionally, even if you
+      fail a Skill Check to detect an illusion, you will know that something is
+      wrong, even if you cannot identify what. Finally, you have Advantage on
+      Saving Throws against Aberrations.</p><h3>Unique Background
+      (Snowpriest):</h3><p>Given their importance to the Samifjod, Snowpriests
+      do not tend to wander much. On occasion, however, a vision or a
+      premonition will be so potent as to drive them to leave their post for a
+      greater cause.</p><p><strong>Proficiencies:</strong> You are Proficient in
+      the Pharmacology Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Amma’s Guidance):</strong> As a
+      Long Rest Activity, you may divine messages from nature. You may ask a
+      question about an action you intend to perform in the next 24 hours (such
+      as “crossing the canyon”, “attacking that convoy”, etc); the DM chooses an
+      omen for you regarding that action from the following
+      table:</p><table><thead><tr><td><p><strong>Omen</strong></p></td><td><p><strong>For
+      results that are likely to
+      be</strong></p></td></tr></thead><tbody><tr><td><p>Weal</p></td><td><p>Good</p></td></tr><tr><td><p>Woe</p></td><td><p>Bad</p></td></tr><tr><td><p>Weal
+      and Woe</p></td><td><p>Good and
+      Bad</p></td></tr><tr><td><p>Indifference</p></td><td><p>Neither Good nor
+      Bad</p></td></tr></tbody></table><p>This should be truthful to the best of
+      the DM’s knowledge at the time. If there is a trap in place, then a Woe
+      result might be appropriate. If there is no current DM plans for anything
+      to go awry, a Weal result might be appropriate. However, this does not
+      account for changes in circumstance; something may happen between then and
+      now that changes this result; it is merely a prediction, not an accurate
+      telling of the future.</p>
+    chat: ''
+  identifier: sami
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!kmOPtrU3uqcKACvt'

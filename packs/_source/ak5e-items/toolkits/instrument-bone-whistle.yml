@@ -361,7 +361,7 @@ system:
   attuned: false
   equipped: false
   type:
-    value: music
+    value: toolkit
     baseItem: instrumentflute
   ability: cha
   chatFlavor: ''
@@ -382,7 +382,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768062159518
-  modifiedTime: 1768062159540
+  modifiedTime: 1769446329468
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0

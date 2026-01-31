@@ -1,0 +1,155 @@
+folder: 7G1D42jSHLcgp1sX
+name: Iberia
+type: ak5e.nationality
+_id: 09NRBv7pKJpSwoSY
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: pvxYiVjZuz0vIamv
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:arc
+              - skills:dec
+              - skills:ins
+              - skills:itm
+              - skills:inv
+              - skills:prc
+        grants:
+          - languages:standard:iberian
+          - languages:standard:lateran
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: nzsXvOuELa9M1lPV
+      configuration:
+        items:
+          - uuid: Item.swJnNBcn0mXHjytR
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Once the greatest naval power on Terra, the Iberia today is a shell of
+      what it once was, and what it could have been. Founded by Liberi
+      expatriates from Laterano, for centuries it was a nation of ardent faith
+      that shared close ties with Laterano. The Lateran faith and the Iberian
+      faith have since diverged following the cataclysmic tsunami known as the
+      Profound Silence, with the Iberian faith now a vehicle for the
+      Inquisition’s brutal regime.</p><p>Before it was bought to its knees,
+      Iberia was a monarchy, led by the Royal House of Iberia, and a major
+      contestant for the other superpowers on Terra. In no small part, this was
+      due to an influx of Aegir immigrants, dubbed “Islanders” by the Iberians,
+      who brought with them their technology. It was the technology of these
+      Ægirians that pushed the Iberians to true naval dominance, crushing the
+      Victorian fleet, and even beginning construction on the world’s first
+      amphibious nomadic cities. This would never come to pass; despite repeated
+      warnings from the Islanders about the threat posed by the Seaborn, the
+      Royal House saw them as little more than a curiosity.</p><p>In 1038,
+      Iberia’s coasts fell silent- no waves, no animals, nothing. Within an
+      hour, a tsunami of immeasurable proportions, struck the Iberian coast,
+      completely destroying ports and coastal settlements, including the
+      then-capital of Ria Iberia. The invincible Iberian armada was sunk, and
+      the geography of the Iberian coastline forever changed; the once fertile
+      flatlands around the coast are now underwater, leaving only the
+      comparatively barren highlands. This event, which became known as the
+      Profound Silence, wiped out Iberia’s royal house completely, leaving the
+      nation leaderless. In the vacuum, the Iberian Church established the
+      Iberian Inquisition to lead what remained of the Iberian people through
+      the crisis.</p><p>And yet, the crisis continues. Entire generations have
+      been born that do not remember Iberia’s golden age, only living under the
+      Inquisition’s oppressive thumb. Anyone suspected of having ties with the
+      Seaborn or the Seaborn-worshipping Church of the Deep is dragged away, and
+      almost never seen again. Who knows what happens to each; some may be
+      forced to join the Penal Battalions, others may simply never leave their
+      cell. For Aegir living within Iberia, they have fallen far in reputre
+      since the days of the Golden Age, none of it through their own doing.
+      Those who remain are seen with superstition and suspicion; such
+      persecution often has the effect of encouraging these unfortunates to seek
+      ties with the Church of the Deep, who accept them without complaint.
+      Despite the generational gap, most Iberians hope against hope for the
+      return of their Golden Age- even if they have never seen it. As a result,
+      many young Iberians join the Inquisition, to fight for their ideal future,
+      and to be a part of the machine rather than under
+      it.</p><blockquote><p><strong>The Infected Question</strong></p><p>Despite
+      the intense scrutiny of the Iberian Inquisition, their suspicion does not
+      extend to the Infected. This is perhaps because Iberia has a comparatively
+      low incidence rate of the disease; little industry survived the Profound
+      Silence, and there are no mines to be found.</p><p>If you are unfortunate
+      enough to develop Oripathy in Iberia, however, there is little help for
+      you to find. More than the most bare-bones of medical care can only be
+      found under the Inquisition’s control, and even they are not equipped to
+      fight the condition appropriately.</p></blockquote><h1>Iberian
+      Features</h1><p><strong>Languages:</strong> Iberian + Lateran + 1 Language
+      of your Choice.</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Arts</p></li><li><p>Deception</p></li><li><p>Intimidation</p></li><li><p>Insight</p></li><li><p>Investigation</p></li><li><p>Perception</p></li></ul><p><strong>Nationality
+      Feat (Under the Eye):</strong> All those who live in Iberia have lived in
+      fear of the Inquisition for at least some of their life. Saying the wrong
+      thing is liable to get you hauled away; thus, Iberians possess a talent
+      for doublespeak, and solidarity amongst the “little folk”.</p><p>When
+      speaking, you know how to say things without implicating anything or
+      anyone. You have Advantage on Deception Checks to deny knowledge or
+      communicate a hidden message in speech or writing.</p><h3>Unique
+      Background (Inquisitor):</h3><p>The Iberian Inquistion is an oppressive,
+      theocratic regime that has the Iberian people locked tight within its grip
+      of fear. This is truth. They are also the only reason the Seaborn have not
+      overrun those who remain; this too is
+      truth.</p><p><strong>Proficiencies:</strong> You are Proficient in the
+      Messenger Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Arms of Justice):</strong> As an
+      Inquisitor, you are skilled with the Inquisition’s
+      tools.</p><ul><li><p>You are Proficient with the Sword, and gain one as
+      Starting Equipment.</p></li><li><p>You gain one of the Lanterns of the
+      Iberian Inquisition as Starting Equipment. The Lantern has the same
+      Profile as an Arts Wand, but does not have the Casting Unit Property.
+      While you are wielding the Lantern:</p><ul><li><p>Allied Creatures within
+      10 feet of you add your Proficiency Bonus to Wisdom Saving Throws they
+      make; this effect is not cumulative.</p></li><li><p>Aberration (Seaborn)
+      Creatures have Disadvantage on Attack Rolls against
+      you.</p></li></ul></li></ul>
+    chat: ''
+  identifier: iberia
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!09NRBv7pKJpSwoSY'

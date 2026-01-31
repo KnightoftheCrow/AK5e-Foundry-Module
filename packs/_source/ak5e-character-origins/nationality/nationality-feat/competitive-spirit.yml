@@ -1,0 +1,119 @@
+folder: HfS1eUQfMj2UTzmH
+name: Competitive Spirit
+type: feat
+_id: t5n5ThkkYNndouS6
+img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Kazimierz is historically a place that has been assailed by foes from
+      many sides; the Khaganate, Ursus, Lethanien. It has instilled a fierce
+      sense of competition in its people- in their cut-throat world, the choice
+      to double down or accept defeat is no choice at all.</p><p>When you lose a
+      Check in which your result was opposed to another Creature’s Check (such
+      as Stealth vs Perception, or Deception vs Insight), you may use this
+      Feature (no Action required) to reroll the result of that Check; each
+      Check can only be rerolled in this way once.</p><p>However, if you still
+      lose the Check after the reroll, that result is considered to be a
+      Critical Fail.</p><p><strong>Partially Automated: </strong>This Feature
+      will prompt you when you make a check; there is no way to check if a check
+      is opposed, so it will prompt you for each. It will not automatically
+      convert the loss into a critical fail.</p>
+    chat: ''
+  identifier: competitive-spirit
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects:
+  - name: Competitive Spirit
+    img: icons/magic/control/buff-strength-muscle-damage-orange.webp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.t5n5ThkkYNndouS6
+    _id: hJnS4aUq3cGfQ7vq
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.optional.competitive.skill.all
+        mode: 0
+        value: reroll
+        priority: 20
+      - key: flags.midi-qol.optional.competitive.count
+        mode: 0
+        value: every
+        priority: 20
+      - key: flags.midi-qol.optional.competitive.label
+        mode: 0
+        value: Competitive Spirit - Reroll opposed Check?
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!t5n5ThkkYNndouS6.hJnS4aUq3cGfQ7vq'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.t5n5ThkkYNndouS6
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!t5n5ThkkYNndouS6'

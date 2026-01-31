@@ -248,6 +248,14 @@ Hooks.once("init", () => {
 	delete CONFIG.DND5E.armorIds.studded;
 	delete CONFIG.DND5E.shieldIds.shield;
 
+// Adds new Toolkit Category
+
+	CONFIG.DND5E.toolTypes.toolkit = "Tool Kit"
+	
+// Adds Toolkits as a Proficiency Category
+
+	CONFIG.DND5E.toolProficiencies.toolkit = "Tool Kit"
+
 // Adds Toolkit Profs
 
 	CONFIG.DND5E.tools.art = {

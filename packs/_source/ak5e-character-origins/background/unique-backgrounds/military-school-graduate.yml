@@ -1,0 +1,79 @@
+folder: olZLY5YOp06af4qn
+name: Military School Graduate
+type: background
+_id: r1HtzTN1w4m4gAzJ
+img: icons/equipment/head/hat-cocked-purple.webp
+system:
+  advancement:
+    - type: Trait
+      title: Background Proficiencies
+      _id: 35Wo6rYersqRlodq
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants:
+          - tool:toolkit:messenger
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: Background Feature
+      _id: TfV64nCLogvPaHy8
+      configuration:
+        items:
+          - uuid: Item.hDslIRL9Ixk68gO8
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>Victoria is, debatably, the foremost superpower on Terra. There are a
+      number of factors for this, such as their geographical location,
+      historical victories, and pervasive culture; but these alone wouldn’t be
+      enough to maintain their dominance. What does so is the elite Victorian
+      military, led by officers trained at their prodigious military academies.
+      Such is the prestige of these academies that even foreign officers and
+      nobles come to study at these illustrious
+      institutions.</p><p><strong>Proficiencies:</strong> You are Proficient in
+      the Messenger Kit, and one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Officer):</strong> Your training
+      gives you a tactical flexibility that most others simply do not
+      possess.</p><p>Choose two of the Basic Tactics available to the Tactician
+      Subclass; you may use these Tactics as if you were a Tactician. Your
+      maximum Acumen to use these Tactics is 3, and you regain all expended
+      Acumen when you complete a Long Rest. If you later choose the Tactician
+      Branch, your maximum Acumen is instead increased by 3.</p>
+    chat: ''
+  identifier: military-school-graduate
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 1200000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.r1HtzTN1w4m4gAzJ
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881347037
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!r1HtzTN1w4m4gAzJ'

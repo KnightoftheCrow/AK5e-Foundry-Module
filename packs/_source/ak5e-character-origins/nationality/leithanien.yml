@@ -1,0 +1,186 @@
+folder: 7G1D42jSHLcgp1sX
+name: Leithanien
+type: ak5e.nationality
+_id: cEVxm8yfmgodvN0n
+img: modules/ak5e/icons/nationality/nationality.svg
+system:
+  filePathFields:
+    advancement.*.icon:
+      - IMAGE
+  htmlFields:
+    - description.value
+    - description.chat
+  advancement:
+    - type: Trait
+      title: National Proficiencies
+      _id: iDJiLAetXRRVNGuK
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - languages:standard:*
+              - languages:exotic:*
+          - count: 3
+            pool:
+              - skills:arc
+              - skills:dec
+              - skills:inv
+              - skills:rel
+              - skills:per
+              - skills:tech
+        grants:
+          - languages:standard:leithanian
+        mode: default
+      level: 0
+      hint: ''
+      value: {}
+    - type: ItemGrant
+      title: National Feature
+      _id: d01g96EYpOB1cY0c
+      configuration:
+        items:
+          - uuid: Item.qB14YEh1xWmc7f7h
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  description:
+    value: >-
+      <p>The Leithanien Empire is a confederate elective monarchy bordering
+      Ursus, Victoria, Siracusa, and Kazimierz, and is one of five superpowers
+      on Terra alongside Victoria, Ursus, Columbia, and Yan; two of which it
+      directly borders. As a result, the history of the nation is one of
+      political and military jostling as it competes directly and indirectly
+      with its neighbours. Where Leithanien is unmatched is in its study of
+      Originium Arts, and its music; so entwined are the two that many Arts
+      terms that have their root in Leithanien are named using musical terms.
+      Arts and their study is so important to Leithanien culture that active
+      discrimination against those with weak proficiency for Arts is
+      commonplace, referring to them as “defects”.</p><p>Leithanien’s affinity
+      with Arts goes all the way back to its very origin as ten warring tribes
+      in the region that would become Leithanien. These tribes were eventually
+      unified under one of their number, a Caprinae tribe whose name is lost
+      possessing powerful oral Arts. This unity did not come with use of arms,
+      but with a need to ally against the oncoming Teekaz. The united tribes
+      succeeded in their defence, and under the witness of the Sarkaz Lord of
+      the Liches of the time, drafted the Güldenesgesatz; an arcane curse and
+      constitution in one. It is divided into three acts, and is the most
+      complex Art ever witnessed; the first section narrates the foundation of
+      Leithanien, the second section marks the borders of the ten Kreise
+      (provinces), and the third section implements the secular laws and morals
+      every Leithanien should follow. Even today, the very concept of Leithanien
+      is under the influence of the Güldenesgesatz, granting it political unity
+      even when the nation is unharmonious, as all within Leithanien are
+      compelled by it. Such is its presence and power that it can be wielded as
+      a weapon; the Gesatzswächters of Leithanien can invoke the Güldenesgesatz
+      to cast strange, powerful golden Arts to enforce its order.</p><p>This is
+      not without cost, however; if the concept of Leithanien is altered such as
+      in the Siracusan separatist movement, or the Güldenesgesatz is not
+      reinforced properly such as in the 23rd Kaiserinnenfest, the unravelling
+      of the Güldenesgesatz can cause catastrophic psychic pollution, allowing a
+      corrosive dimension known as the Void to breach through into reality. The
+      Güldenesgesatz can be, and has been, added to over the years, but
+      rewriting any section of it has only ever been achieved by two people; the
+      Witch King, and Empress Hildegard, which cost the latter her
+      life.</p><p>In the modern age, Leithanien is a place in recovery, finding
+      its feet again. In 1077 the Witch King, the most powerful Caster in
+      Leithanien history, and one of the most powerful casters Terra has ever
+      seen, was overthrown by the two who would become the Twin Empresses in a
+      grand rebellion known as Die Septemberaufstand. The Witch King’s rule,
+      while beginning as an exalted meritocracy, descended into iron fisted
+      tyranny for the last thirty years, casting a metaphorical cloud over the
+      nation that still remains today. During his time, the Witch King claimed
+      much of the power from the nobles of the nation, and with his demise they
+      seek to gather their power and establish themselves once again. So it is
+      that the class divide is stronger than it has ever been in Leithanien; the
+      only hope the common man has to rise beyond his station is through rts or
+      music, both of which require academic study. Leithanien has a measure of
+      state education, with a basic education provided to all citizens, and free
+      access to the highest academies for those with talent or skill. However,
+      since the Witch King’s fall, the rate of commoners accepted into these
+      academies has fallen from 35% to a measly 7%.</p><p>Music and other forms
+      of artistic expression are the very basis of Leithanien culture; almost
+      everyone will practice something related to this, at a variety of skill
+      levels. To Leithanien culture it is not just something for enjoyment, but
+      a way to express ideas, concepts and emotions in their purest form, and
+      through them can the nature of life be studied. Thus walking through the
+      streets of Leithanien, you can hear music being practised, see painters
+      and artists refining their work, and hear the people speaking about the
+      latest opera, or their experience at the academies. This all happens under
+      the shadow of the Spires; large towers in which the nobility live. The
+      Spires are often places of learning as well as dwellings, and many feature
+      Arts-amplification technology; during the War of the Four Emperors, Arts
+      amplified by these Spires allowed the Leithaniens to repel the Gaulish
+      advance. The taller the tower, the more knowledge and prestige held by the
+      residing noble. While multi-story buildings are common in other nations,
+      in Leithanien only the Spires are allowed to be above a certain height,
+      and thus all of Leithanien constantly falls under the shadow of
+      nobility.</p><blockquote><p><strong>The Infected
+      Question</strong></p><p>Thanks to its research into Originium and
+      Originium Arts, Leithanien has a better understanding of Oripathy than
+      many nations. That is not to say, however, they are necessarily treated
+      better than elsewhere. They are not restricted from accessing public
+      services, but are forced to live in special quarantine zones. Within these
+      zones, the gendarmie are often willing to turn a blind eye, especially if
+      the crimes committed are done on behalf of the noble they serve; there
+      have been examples of Infected being abducted and used in experimentation
+      or worse. Though these events are officially condemned, there is no doubt
+      that they still happen.</p></blockquote><h1>Leithanien
+      Features</h1><p><strong>Languages:</strong> Leithanian + 2 Languages of
+      your Choice</p><p><strong>Proficiencies:</strong> 3
+      from:</p><ul><li><p>Arts</p></li><li><p>Lore</p></li><li><p>Tech</p></li><li><p>Deception</p></li><li><p>Investigation</p></li><li><p>Persuasion</p></li></ul><p><strong>Nationality
+      Feat (Sound of Music):</strong> In Leithanien, music, art, and the
+      performance of it are more than a virtue; they are core to society itself.
+      Learning an instrument as a child is as rudimentary as learning to read
+      and write. Leithanien’s fabled Arts often integrate music and sound into
+      its casting, the legendary Güldenesgesatz being the archetypal example of
+      it.</p><ul><li><p>You gain Proficiency in the Performance
+      Skill.</p></li><li><p>You gain Proficiency with an Instrument of your
+      choice, and gain that Instrument as Starting
+      Equipment.</p></li><li><p>When you play that Instrument, you are
+      considered to have Expertise in the Performance Skill. If you already have
+      Expertise in Performance, you additionally have Advantage on Performance
+      Checks to play that Instrument.</p></li></ul><h3>Unique Background
+      (Patronaged Prodigy)</h3><p>The upper class of Leithanien are often
+      willing to sponsor upcoming talent, to free them from drudgery so that
+      they may focus on their art, music, or whatever else they are good at. Of
+      course, this is rarely done for altruistic purposes; most just want a hand
+      in the development of these talents, to mould them and thus secure their
+      own claim to fame.</p><p><strong>Proficiencies:</strong> You are
+      Proficient in either the Art Kit, an Instrument, or the Makeover Kit. In
+      addition, you are Proficient in one other Tool/Vehicle of your
+      choice.</p><p><strong>Background Feat (Patronage):</strong> Your art,
+      whatever it may be, is impressive enough to have attracted attention. You
+      have a Patron to support you. They will bankroll you, provide you with
+      modest accommodation, spread your works and possibly gain you fame.
+      However, if you abuse their patronage or do not produce adequate work, you
+      will lose that patronage.</p><p></p>
+    chat: ''
+  identifier: leithanien
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment: []
+  wealth: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1769881328247
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!cEVxm8yfmgodvN0n'
