@@ -1,0 +1,287 @@
+folder: null
+name: Frost Arts Pool
+type: feat
+img: icons/magic/water/snowflake-ice-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      _id: hOcBNrk9NoZlmRR7
+      configuration:
+        items:
+          - uuid: Item.1l9ntmX4YUt54xkL
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.ctW81uiX56xZR2c5
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplArmorofAga
+            optional: false
+          - uuid: Item.r9G090XaO648dxhX
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplIceKnife00
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 1
+      title: ''
+      hint: ''
+      _id: NABo3MwY4iduxq7N
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Item.zwpCHoEOqeslnwDD
+            optional: false
+          - uuid: Item.FTBqTsgwINEQQYXS
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      title: ''
+      hint: ''
+      _id: IXt1si7dhdRwfgKW
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Item.AE5gcTX3PHPIO3Gt
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.dhqBY4TvVjxVmOZd
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      title: ''
+      hint: ''
+      _id: jMthAthuKu3jDmob
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH
+            optional: false
+          - uuid: Item.4XZraewoItLOenQD
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 7
+      title: ''
+      hint: ''
+      _id: C7IWnQmAB9J6cUaJ
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.RpKjTlYASrfqUPVA
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      title: ''
+      hint: ''
+      _id: soeQVL26jp0JRVpB
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.MImfWCzEPRMYD3Xp
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.fzZnVKLmBMo2f5up
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 11
+      title: ''
+      hint: ''
+      _id: 2nENPeY91lFOuI7W
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Item.zlcr0nmSZUeRl15J
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 13
+      title: ''
+      hint: ''
+      _id: cpKswOWYpj91k6Wb
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Item.my1iUUvZfFKXVYI8
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 15
+      title: ''
+      hint: ''
+      _id: TvX8kmCZwEUSVT85
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Item.Y0ts6q26mL5S4gg1
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 17
+      title: ''
+      hint: ''
+      _id: tfgARHFzs7NG6V1w
+  description:
+    value: >-
+      <p>While Flame Arts are an exercise in the manipulation of the thermal and
+      chemical energy of an area, Frost Arts explore the temperature element to
+      a new degree. Often considered cross-disciplinary with Fluid Arts, Frost
+      Casters protect themselves and others; both directly, and by making the
+      area a frozen hell for their enemies.</p><p>(Arts that are <span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">underlined</span></span> require the
+      Player's Handbook. Arts that are in <em>italics</em> require Tasha's
+      Cauldron of Everything. Arts that are <strong>Bold</strong> are not
+      currently available in official content on Foundry; often Xanathar's Guide
+      to Everything.)</p><table><thead><tr><td><p
+      style="text-align:center"><strong>Arts Level</strong></p></td><td><p
+      style="text-align:center"><strong>Arts</strong></p></td></tr></thead><tbody><tr><td><p>Cantrip</p></td><td><p><strong>Frostbite</strong>,
+      Protect from Heat, Ray of
+      Frost</p></td></tr><tr><td><p>1st</p></td><td><p><span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">Armour of Agathys</span></span>, Ice
+      Barrier, <span style="text-decoration:underline"><span
+      style="text-decoration:underline">Ice
+      Knife</span></span></p></td></tr><tr><td><p>2nd</p></td><td><p>Ice Sheet,
+      <strong>Rime's Binding Ice</strong>, Snap
+      Freeze</p></td></tr><tr><td><p>3rd</p></td><td><p>Icicle Crash, Sleet
+      Storm</p></td></tr><tr><td><p>4th</p></td><td><p>Ice Storm,
+      Permafrost</p></td></tr><tr><td><p>5th</p></td><td><p>Cone of
+      Cold</p></td></tr><tr><td><p>6th</p></td><td><p>Freezing Sphere,
+      <strong>Investiture of Ice</strong>, Wall of
+      Ice</p></td></tr><tr><td><p>7th</p></td><td><p>Avalanche</p></td></tr><tr><td><p>8th</p></td><td><p>Fimbulvetr</p></td></tr><tr><td><p>9th</p></td><td>Absolute
+      Zero</td></tr></tbody></table>
+    chat: ''
+  identifier: frost-arts
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1770836360421
+  modifiedTime: 1770836360444
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: XZ04hHqv0UBoISse
+sort: 103125
+_key: '!items!XZ04hHqv0UBoISse'

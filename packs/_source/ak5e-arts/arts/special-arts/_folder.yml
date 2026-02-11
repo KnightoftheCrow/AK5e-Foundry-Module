@@ -1,18 +1,19 @@
 type: Item
 folder: 0S7rvSbmkBZo3Yev
-name: Standard Arts Pools
+name: Special Arts
 color: null
 sorting: a
-_id: nqfLOxPNMAjfoEBb
+_id: zEUcAf2MKSucBAqb
 description: ''
-sort: 1200000
+sort: 0
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.1.2
-  lastModifiedBy: null
-_key: '!folders!nqfLOxPNMAjfoEBb'
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1770836256629
+_key: '!folders!zEUcAf2MKSucBAqb'

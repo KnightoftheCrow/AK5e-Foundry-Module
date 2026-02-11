@@ -1,0 +1,284 @@
+folder: null
+name: Wind Arts Pool
+type: feat
+img: icons/magic/air/air-pressure-shield-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      _id: hOcBNrk9NoZlmRR7
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplThundercla
+            optional: false
+          - uuid: Item.iXIF2y6tWSFHniNY
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.zPGohqJRir6MyQ3U
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.pub0OWVEB71XQx1n
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.B0pnIcc52O6G8hi8
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 1
+      title: ''
+      hint: ''
+      _id: NABo3MwY4iduxq7N
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Item.zJ6pJA7nsedvmaWp
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      title: ''
+      hint: ''
+      _id: IXt1si7dhdRwfgKW
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.yfbK8gZqESlaoY5t
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.ew6GA8dJy2spQmFW
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      title: ''
+      hint: ''
+      _id: jMthAthuKu3jDmob
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.LkvI11Uue774QBKZ
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      title: ''
+      hint: ''
+      _id: C7IWnQmAB9J6cUaJ
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.8PJAsHmbu6UgDHC0
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 11
+      title: ''
+      hint: ''
+      _id: soeQVL26jp0JRVpB
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 13
+      title: ''
+      hint: ''
+      _id: 2nENPeY91lFOuI7W
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.ZPd73HtKF3At11jh
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 15
+      title: ''
+      hint: ''
+      _id: TvX8kmCZwEUSVT85
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Item.MZiCUrca9sh1LsnG
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 17
+      title: ''
+      hint: ''
+      _id: tfgARHFzs7NG6V1w
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 7
+      title: ''
+      hint: ''
+      _id: W1yGOF6IK8Z29WFw
+  description:
+    value: >-
+      <p>Wind Arts and Spatial Arts are, erroneously, sometimes considered one
+      and the same, but it easy to see why the mistake is made. Both involve the
+      manipulation of gravity to some extent, but while Spatial Arts are more
+      explicit with their effects, Wind Arts use their power to rapidly alter
+      air pressure, causing great winds and gusts, or preventing them. With
+      these winds at their back, a Wind Caster and their allies can move at
+      blinding speed, or abjure entire crowds of people with battering, slicing
+      winds.</p><p>(Arts that are <span style="text-decoration:underline"><span
+      style="text-decoration:underline">underlined</span></span> require the
+      Player's Handbook. Arts that are in <em>italics</em> require Tasha's
+      Cauldron of Everything. Arts that are <strong>Bold</strong> are not
+      currently available in official content on Foundry; often Xanathar's Guide
+      to Everything.)</p><table><thead><tr><td><p
+      style="text-align:center"><strong>Arts Level</strong></p></td><td><p
+      style="text-align:center"><strong>Arts</strong></p></td></tr></thead><tbody><tr><td><p>Cantrip</p></td><td><p><strong>Gust</strong>,
+      <span style="text-decoration:underline">Thunderclap</span>, Wind
+      Slash</p></td></tr><tr><td><p>1st</p></td><td><p>Expeditious Retreat,
+      Feather Fall, Longstrider</p></td></tr><tr><td><p>2nd</p></td><td><p>Air
+      Barrage, <strong>Dust Devil</strong>, Gust of Wind, <strong>Warding
+      Wind</strong></p></td></tr><tr><td><p>3rd</p></td><td><p>Fly, Stinking
+      Cloud, Wind Wall</p></td></tr><tr><td><p>4th</p></td><td><p>Freedom of
+      Movement, <strong>Storm
+      Sphere</strong></p></td></tr><tr><td><p>5th</p></td><td><p>Cloudkill,
+      <strong>Control
+      Winds</strong></p></td></tr><tr><td><p>6th</p></td><td><p><strong>Investiture
+      of Wind</strong>, Wind
+      Walk</p></td></tr><tr><td><p>7th</p></td><td><p><strong>Whirlwind</strong></p></td></tr><tr><td><p>8th</p></td><td><p>Control
+      Weather</p></td></tr><tr><td><p>9th</p></td><td>Avatar of
+      Wind</td></tr></tbody></table>
+    chat: ''
+  identifier: wind-arts
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1770836589017
+  modifiedTime: 1770836589041
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: BvXzdhH4e5vZc7WI
+sort: 100196
+_key: '!items!BvXzdhH4e5vZc7WI'

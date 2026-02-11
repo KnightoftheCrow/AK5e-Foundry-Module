@@ -1,0 +1,282 @@
+folder: null
+name: Flame Arts Pool
+type: feat
+img: icons/magic/fire/beam-strike-whip-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      _id: hOcBNrk9NoZlmRR7
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.EOmsUcFQJTfG2oio
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.eCPQuQkIabFKTl9u
+            optional: false
+          - uuid: Item.JmTAn8SnRZI9hash
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.22dPoeXfaaAv4K3h
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 1
+      title: ''
+      hint: ''
+      _id: NABo3MwY4iduxq7N
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.Advtckpz1B733bu9
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplFlamingSph
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      title: ''
+      hint: ''
+      _id: IXt1si7dhdRwfgKW
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      title: ''
+      hint: ''
+      _id: jMthAthuKu3jDmob
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 7
+      title: ''
+      hint: ''
+      _id: C7IWnQmAB9J6cUaJ
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.5e1xTohkzqFqbYH4
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      title: ''
+      hint: ''
+      _id: soeQVL26jp0JRVpB
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 11
+      title: ''
+      hint: ''
+      _id: 2nENPeY91lFOuI7W
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.AoTTjapz1FsGOIZz
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.J3uILDYS7MiOfmTJ
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 13
+      title: ''
+      hint: ''
+      _id: cpKswOWYpj91k6Wb
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.pV04y1iXoWiom6bp
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 15
+      title: ''
+      hint: ''
+      _id: TvX8kmCZwEUSVT85
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Item.Mo0Wts3dfCQpeKJo
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 17
+      title: ''
+      hint: ''
+      _id: tfgARHFzs7NG6V1w
+  description:
+    value: >-
+      <p>Flame Arts are an extremely popular and thus common school of study,
+      and it is not hard to understand why. Every living being understands to
+      some primal degree the danger fire represents. Flame Casters dwell in this
+      inferno, empowering themselves and incinerating huge swathes of
+      land.</p><p>(Arts that are <span style="text-decoration:underline"><span
+      style="text-decoration:underline">underlined</span></span> require the
+      Player's Handbook. Arts that are in <em>italics</em> require Tasha's
+      Cauldron of Everything. Arts that are <strong>Bold</strong> are not
+      currently available in official content on Foundry; often Xanathar's Guide
+      to Everything.)</p><table><thead><tr><td><p
+      style="text-align:center"><strong>Arts Level</strong></p></td><td><p
+      style="text-align:center"><strong>Arts</strong></p></td></tr></thead><tbody><tr><td><p>Cantrip</p></td><td><p>Fire
+      Bolt, Produce Flame, Protect from
+      Cold</p></td></tr><tr><td><p>1st</p></td><td><p>Burning Hands, Hellish
+      Rebuke</p></td></tr><tr><td><p>2nd</p></td><td><p><strong>Aganazzar's
+      Scorcher</strong>, Flame Blade, <span
+      style="text-decoration:underline">Flaming Sphere</span>, Scorching
+      Ray</p></td></tr><tr><td><p>3rd</p></td><td><p><strong>Ashardalon's
+      Stride</strong>, Fireball</p></td></tr><tr><td><p>4th</p></td><td><p>Fire
+      Shield, Wall of Fire</p></td></tr><tr><td><p>5th</p></td><td><p>Flame
+      Strike,
+      <strong>Immolation</strong></p></td></tr><tr><td><p>6th</p></td><td><p><strong>Investiture
+      of Flame</strong></p></td></tr><tr><td><p>7th</p></td><td><p>Delayed Blast
+      Fireball, Firestorm</p></td></tr><tr><td><p>8th</p></td><td><p>Incendiary
+      Cloud</p></td></tr><tr><td><p>9th</p></td><td>Pyroclasm</td></tr></tbody></table>
+    chat: ''
+  identifier: flame-arts
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1770836341034
+  modifiedTime: 1770836341052
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: 7axC2XEUQI8XvOXB
+sort: 112500
+_key: '!items!7axC2XEUQI8XvOXB'

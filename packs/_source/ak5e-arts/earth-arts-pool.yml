@@ -1,0 +1,258 @@
+folder: null
+name: Earth Arts Pool
+type: feat
+img: icons/magic/earth/barrier-stone-brown-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      _id: hOcBNrk9NoZlmRR7
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.kjmjY0zlE6IEiQVL
+            optional: false
+          - uuid: Item.K4XLyPVT0TMKHYoM
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 1
+      title: ''
+      hint: ''
+      _id: NABo3MwY4iduxq7N
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      title: ''
+      hint: ''
+      _id: IXt1si7dhdRwfgKW
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.64uo4fHriHLjRUrX
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      title: ''
+      hint: ''
+      _id: jMthAthuKu3jDmob
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.QvGcdRUSNRKEQJlK
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.ReMbjfeOKoSj3O79
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 7
+      title: ''
+      hint: ''
+      _id: C7IWnQmAB9J6cUaJ
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.d9MwcXi7Il3HROXd
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.NmoRmM1mhuM3pqnY
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      title: ''
+      hint: ''
+      _id: soeQVL26jp0JRVpB
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.kozNy29b0X6exFhY
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.yI0XWIgI0IGGsR3R
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 11
+      title: ''
+      hint: ''
+      _id: 2nENPeY91lFOuI7W
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplEarthquake
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 15
+      title: ''
+      hint: ''
+      _id: cpKswOWYpj91k6Wb
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Item.SUnEdyYchBlrUDTQ
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 17
+      title: ''
+      hint: ''
+      _id: TvX8kmCZwEUSVT85
+  description:
+    value: >-
+      <p>Earth Arts resolve around manipulating the very dirt and stone beneath
+      your feet, using the power of Originium to produce motion where there
+      should be none. Earth Arts excel at controlling the battlefield, both
+      literally and metaphorically, but are somewhat neutered when their feet
+      are not on solid ground.</p><p>(Arts that are <span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">underlined</span></span> require the
+      Player's Handbook. Arts that are in <em>italics</em> require Tasha's
+      Cauldron of Everything. Arts that are <strong>Bold</strong> are not
+      currently available in official content on Foundry; often Xanathar's Guide
+      to Everything.)</p><table><thead><tr><td><p
+      style="text-align:center"><strong>Arts Level</strong></p></td><td><p
+      style="text-align:center"><strong>Arts</strong></p></td></tr></thead><tbody><tr><td><p>Cantrip</p></td><td><p>Mending,
+      <strong>Mold Earth</strong>, Stone
+      Shower</p></td></tr><tr><td><p>1st</p></td><td><p><strong>Earth
+      Tremor</strong></p></td></tr><tr><td><p>2nd</p></td><td><p><strong>Earthbind,
+      Maximillian's Earthen
+      Grasp</strong></p></td></tr><tr><td><p>3rd</p></td><td><p><strong>Erupting
+      Earth</strong>, Meld into Stone, <strong>Wall of
+      Sand</strong></p></td></tr><tr><td><p>4th</p></td><td><p>Stone Shape,
+      Stone Skin</p></td></tr><tr><td><p>5th</p></td><td><p>Passwall,
+      <strong>Transmute Rock</strong>, Wall of
+      Stone</p></td></tr><tr><td><p>6th</p></td><td><p><strong>Bones of the
+      Earth</strong>, Flesh to Stone, <strong>Investiture of Stone</strong>,
+      Move
+      Earth</p></td></tr><tr><td><p>7th</p></td><td><p>-</p></td></tr><tr><td><p>8th</p></td><td><p><span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">Earthquake</span></span></p></td></tr><tr><td><p>9th</p></td><td>Mountainfall</td></tr></tbody></table>
+    chat: ''
+  identifier: earth-arts
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1770836323139
+  modifiedTime: 1770836323160
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: NIcET7TqSd5Sctpl
+sort: 150000
+_key: '!items!NIcET7TqSd5Sctpl'
