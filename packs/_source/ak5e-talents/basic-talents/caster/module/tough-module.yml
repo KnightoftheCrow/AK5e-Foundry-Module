@@ -24,7 +24,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.BzU742aJIgbGMSdF
+      - Compendium.ak5e.ak5e-talents.Item.PFTX0gYY2pJp9nNO
     repeatable: false
     level: 8
   properties:
@@ -51,6 +51,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1770924144147
-  modifiedTime: 1770924144147
+  modifiedTime: 1770924596170
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!FiukS1cZuafrF319'

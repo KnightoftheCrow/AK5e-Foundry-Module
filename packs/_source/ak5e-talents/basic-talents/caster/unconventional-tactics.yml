@@ -8,30 +8,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement:
-    - type: ItemChoice
-      _id: 9V3UFV2uMV2UY9X6
-      configuration:
-        allowDrops: true
-        choices:
-          '8':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.KZ8dgOb6jknQW938
-        restriction:
-          list: []
-          type: class
-          subtype: skillPoints
-        spell: null
-        type: feat
-      value:
-        added: {}
-        replaced: {}
-      title: ''
-      hint: >-
-        Do you want to unlock this talent's module effect, or take another basic
-        talent?
+  advancement: []
   description:
     value: >-
       <p>When you deal Damage to a Creature as a result of a Melee Spell Attack,
@@ -52,7 +29,7 @@ system:
   prerequisites:
     items: []
     repeatable: false
-    level: null
+    level: 3
   properties:
     - trait
   requirements: ''
@@ -120,7 +97,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1770924144147
-  modifiedTime: 1770924144147
+  modifiedTime: 1770924567654
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: hncWRB1FZxPbRZUz
 sort: -162500

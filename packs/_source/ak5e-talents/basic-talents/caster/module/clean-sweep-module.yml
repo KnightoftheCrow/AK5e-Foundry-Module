@@ -133,7 +133,8 @@ system:
   crewed: false
   enchant: {}
   prerequisites:
-    items: []
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.MaVekY5FOLYSPajW
     repeatable: false
     level: 8
   properties:
@@ -250,7 +251,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1770924144147
-  modifiedTime: 1770924144147
+  modifiedTime: 1770924688343
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0

@@ -8,30 +8,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement:
-    - type: ItemChoice
-      _id: Tsp22Dsy46GTKNCk
-      configuration:
-        allowDrops: true
-        choices:
-          '8':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.PworX43PVxyg3nWI
-        restriction:
-          list: []
-          type: class
-          subtype: skillPoints
-        spell: null
-        type: feat
-      value:
-        added: {}
-        replaced: {}
-      title: ''
-      hint: >-
-        Do you want to unlock this talent's module effect, or take another basic
-        talent?
+  advancement: []
   description:
     value: >-
       <p>You no longer have Disadvantage when making Ranged Spell Attacks while
@@ -127,7 +104,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1770924144147
-  modifiedTime: 1770924144147
+  modifiedTime: 1770924584527
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: p5XRnB4KDQZOihzo
 sort: -400000

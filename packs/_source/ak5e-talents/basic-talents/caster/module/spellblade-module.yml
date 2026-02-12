@@ -260,7 +260,8 @@ system:
   crewed: false
   enchant: {}
   prerequisites:
-    items: []
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.hbSR5Dvxs5fJjkV0
     repeatable: false
     level: 8
   properties:
@@ -337,7 +338,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1770924144147
-  modifiedTime: 1770924144147
+  modifiedTime: 1770924625753
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 sort: 150000
 ownership:
