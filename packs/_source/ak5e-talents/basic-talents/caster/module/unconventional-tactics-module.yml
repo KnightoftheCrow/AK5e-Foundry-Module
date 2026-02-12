@@ -1,0 +1,105 @@
+folder: SuzcwOsde1k6YNFn
+name: Unconventional Tactics (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Nian1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module Effect: </strong>Your Melee Spell Attacks have +1
+      Critical Range.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: unconventional-tactics-upgraded
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: +1 Critical Range for Spell Attacks
+    img: modules/ak5e/icons/Skill-Nian1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.7TlQ9RkJlKqiWKU7
+    _id: wLbDotrlxwn92HLB
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.attack.criticalThreshold
+        mode: 2
+        value: threshold='-1'; actionType.msak
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!7TlQ9RkJlKqiWKU7.wLbDotrlxwn92HLB'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-talents.Item.KZ8dgOb6jknQW938
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1770924144147
+  modifiedTime: 1770924144147
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: 7TlQ9RkJlKqiWKU7
+sort: 125000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!7TlQ9RkJlKqiWKU7'

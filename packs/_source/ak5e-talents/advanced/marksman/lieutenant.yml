@@ -130,25 +130,6 @@ system:
       value: {}
       title: ''
       hint: ''
-    - type: ItemChoice
-      _id: gSUncQeQZwvVG615
-      configuration:
-        allowDrops: false
-        choices:
-          '13':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.DOuG9z5mp6s3kCfJ
-        restriction:
-          list: []
-        spell: null
-        type: null
-      value:
-        added: {}
-        replaced: {}
-      title: ''
-      hint: ''
   description:
     value: >-
       <p>You learn two Instructions of your Choice from the Instructor Branch of
@@ -191,12 +172,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768145448896
-  modifiedTime: 1768145499527
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1770915142122
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

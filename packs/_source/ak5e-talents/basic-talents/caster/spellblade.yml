@@ -1,7 +1,7 @@
-folder: zWAk7cUjjJDFehud
+folder: qlhprYb2GHX3LPKU
 name: Spellblade
 type: feat
-img: icons/skills/melee/blade-tip-energy-green.webp
+img: modules/ak5e/icons/Skill-Irene3.webp
 system:
   activities:
     uamUisJfCCltY1J8:
@@ -63,7 +63,6 @@ system:
         max: ''
       enchant:
         self: false
-        identifier: ''
       restrictions:
         allowMagical: true
         categories: []
@@ -108,12 +107,19 @@ system:
         magicDamage: false
         noConcentrationCheck: false
         autoCEEffects: default
+        skipConcentrationCheck: false
       isOverTimeFlag: false
       overTimeProperties:
         saveRemoves: true
         preRemoveConditionText: ''
         postRemoveConditionText: ''
       name: Enchant Weapon
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     CwKGO2IPKskvxh1Z:
       type: attack
       _id: CwKGO2IPKskvxh1Z
@@ -205,6 +211,7 @@ system:
         magicDamage: false
         noConcentrationCheck: false
         autoCEEffects: default
+        skipConcentrationCheck: false
       isOverTimeFlag: false
       overTimeProperties:
         saveRemoves: true
@@ -218,6 +225,12 @@ system:
       attackRollPerTarget: default
       fumbleThreshold: 1
       name: Spellblade Attack
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
@@ -233,11 +246,7 @@ system:
       Rest.</p><p><strong>Module Effect: </strong>When casting Arts using the
       weapon you chose, you no longer need to perform Somatic Components for
       those Arts. In addition, Damage from that Weapon is considered to be Arts
-      Damage.</p><p><strong>Partially Automated: </strong>When you are of the
-      correct level to recieve the module effect, a new enchantment will be
-      available when you use this Feature called "Spellblade (Upgraded)". If you
-      chose not to take the module effect for this Talent, continue using the
-      original enchantment. Otherwise, use the upgraded one.</p>
+      Damage.</p><p><strong>Automated.</strong></p>
     chat: ''
   identifier: spellblade
   source:
@@ -252,7 +261,7 @@ system:
   prerequisites:
     items: []
     repeatable: false
-    level: 4
+    level: 3
   properties:
     - mgc
     - trait
@@ -305,83 +314,29 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.347'
+      coreVersion: '13.348'
       systemId: dnd5e
-      systemVersion: 5.1.2
+      systemVersion: 5.2.4
       lastModifiedBy: null
-    _key: '!items.effects!D087TmY8tk9pCMOs.hSs8eTCvBqzQHg3B'
-  - type: enchantment
-    name: Spellblade (Upgraded)
-    img: icons/skills/melee/blade-tip-energy-green.webp
-    disabled: true
-    _id: UE1tihn5U7fGKaSl
-    system: {}
-    changes:
-      - key: system.properties
-        mode: 2
-        value: cst
-        priority: 20
-      - key: system.properties
-        mode: 2
-        value: mgc
-        priority: 20
-    duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
-    description: ''
-    origin: null
-    tint: '#ffffff'
-    transfer: false
-    statuses: []
-    sort: 0
-    flags:
-      dnd5e:
-        riders:
-          statuses: []
-      dae:
-        enableCondition: ''
-        disableCondition: ''
-        stackable: noneName
-        showIcon: false
-        durationExpression: ''
-        macroRepeat: none
-        specialDuration:
-          - longRest
-      core:
-        overlay: false
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-      coreVersion: '13.347'
-      systemId: dnd5e
-      systemVersion: 5.1.2
-      lastModifiedBy: null
-    _key: '!items.effects!D087TmY8tk9pCMOs.UE1tihn5U7fGKaSl'
+    _key: '!items.effects!hbSR5Dvxs5fJjkV0.hSs8eTCvBqzQHg3B'
 flags:
   dnd5e:
     riders:
-      activity:
-        - CwKGO2IPKskvxh1Z
+      activity: []
       effect: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Compendium.ak5e.ak5e-talents.Item.D087TmY8tk9pCMOs
   duplicateSource: null
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1759004097571
-  modifiedTime: 1759662180350
+  systemVersion: 5.2.4
+  createdTime: 1770924144147
+  modifiedTime: 1770924144147
   lastModifiedBy: 9KtVYqHDTWORuJDZ
-_id: D087TmY8tk9pCMOs
-sort: 393750
+_id: hbSR5Dvxs5fJjkV0
+sort: -150000
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
-_key: '!items!D087TmY8tk9pCMOs'
+_key: '!items!hbSR5Dvxs5fJjkV0'

@@ -114,28 +114,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement:
-    - type: ItemChoice
-      _id: hEmWetoqCTsATqJg
-      configuration:
-        allowDrops: false
-        choices:
-          '8':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.70pckHl7L5GxO8lJ
-        restriction:
-          list: []
-        spell: null
-        type: null
-      value:
-        added: {}
-        replaced: {}
-      title: ''
-      hint: >-
-        Do you want to unlock talent's module effect, or take another basic
-        talent?
+  advancement: []
   description:
     value: >-
       <p>Your Ranged Attacks against Creatures not touching the ground deal
@@ -232,10 +211,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767734689429
-  modifiedTime: 1767910003447
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1770914372575
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!ed6qQk0urxaosAPg'

@@ -1,0 +1,108 @@
+folder: d0vcqeJPShhHZhaq
+name: Hunter (Undead)
+type: feat
+img: modules/ak5e/icons/Skill-Invincible1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your Attacks against Undead deal additional Damage equal to your
+      Proficiency Bonus.</p><p><strong>Module Effect: </strong>You gain a Bonus
+      to Attack Rolls against Creatures with that Creature Type equal to your
+      Proficiency Bonus.</p>
+    chat: ''
+  identifier: hunter-undead
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Hunter
+    img: modules/ak5e/icons/Skill-Invincible1.png
+    origin: Compendium.ak5e.ak5e-talents.Item.JOvirCcts7tnGbL7
+    _id: GNFjxq29W0Ikj0tl
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.bonus
+        mode: 5
+        value: bonus=1; opponentActor.creatureType.includes('undead');
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!JOvirCcts7tnGbL7.GNFjxq29W0Ikj0tl'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1770924144147
+  modifiedTime: 1770924144147
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+  9KtVYqHDTWORuJDZ: 3
+_id: JOvirCcts7tnGbL7
+sort: 262500
+_key: '!items!JOvirCcts7tnGbL7'

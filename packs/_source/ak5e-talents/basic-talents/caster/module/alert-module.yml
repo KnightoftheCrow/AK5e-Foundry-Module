@@ -1,0 +1,101 @@
+folder: SuzcwOsde1k6YNFn
+name: Alert (Module)
+type: feat
+_id: J8f8cJXLZxKgSBCg
+img: modules/ak5e/icons/Skill-PureCrystal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: <p><strong>Module:</strong> You have Advantage on Initiative Rolls.</p>
+    chat: ''
+  identifier: alert-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.6IL6kCJuT9hmCv97
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Alert (Module)
+    img: modules/ak5e/icons/Skill-PureCrystal.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.J8f8cJXLZxKgSBCg
+    _id: 8ww73gJFvYU1zzE1
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.initiative.advantage
+        mode: 2
+        value: true;
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!J8f8cJXLZxKgSBCg.8ww73gJFvYU1zzE1'
+sort: 137500
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-talents.Item.rhQX84XgtuE64ksy
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1770924144147
+  modifiedTime: 1770924144147
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!J8f8cJXLZxKgSBCg'

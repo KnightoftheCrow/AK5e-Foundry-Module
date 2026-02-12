@@ -1,0 +1,120 @@
+folder: SuzcwOsde1k6YNFn
+name: Enforcer (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Holungday3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module Effect: </strong>If one of your Arts reduces a Creature
+      to Hit Points equal to or less than your Character Level, they
+      die.</p><p><strong>Automated: </strong>Increases the Damage of your Arts
+      against Creatures below the Hit Point Threshold by 999.</p>
+    chat: ''
+  identifier: enforcer-upgrade
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 8
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Execute Creatures when HP < Your Level
+    img: modules/ak5e/icons/Skill-Holungday3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.OTYGPezfMEUfJbrE
+    _id: Xu2p3EpPj4X3ZUA6
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.optional.Enforcer.damage.all
+        mode: 0
+        value: '999'
+        priority: 20
+      - key: flags.midi-qol.optional.Enforcer.count
+        mode: 5
+        value: every
+        priority: 20
+      - key: flags.midi-qol.optional.Enforcer.label
+        mode: 5
+        value: Enforcer Execution
+        priority: 20
+      - key: flags.midi-qol.optional.Enforcer.force
+        mode: 5
+        value: >-
+          target.attributes.hp.value <= @details.level && item.itemType ==
+          'spell'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: 678
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: 80
+      startTurn: 0
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!OTYGPezfMEUfJbrE.Xu2p3EpPj4X3ZUA6'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-talents.Item.bgy7gNB8LAuSen9y
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1770924144147
+  modifiedTime: 1770924144147
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: OTYGPezfMEUfJbrE
+sort: 300000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!OTYGPezfMEUfJbrE'

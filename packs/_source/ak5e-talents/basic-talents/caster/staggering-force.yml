@@ -1,7 +1,7 @@
-folder: zWAk7cUjjJDFehud
+folder: qlhprYb2GHX3LPKU
 name: Staggering Force
 type: feat
-img: icons/skills/melee/strike-flail-destructive-yellow.webp
+img: modules/ak5e/icons/Skill-Mountain3.webp
 system:
   activities:
     ac9noccJfkT7cpRl:
@@ -25,6 +25,7 @@ system:
         override: false
       effects:
         - _id: mNWajOq3i25uGMZn
+          level: {}
       range:
         units: any
         override: false
@@ -89,6 +90,7 @@ system:
         magicDamage: false
         noConcentrationCheck: false
         autoCEEffects: default
+        skipConcentrationCheck: false
       isOverTimeFlag: false
       overTimeProperties:
         saveRemoves: true
@@ -97,34 +99,17 @@ system:
       otherActivityId: none
       otherActivityAsParentType: false
       name: Apply Slow
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement:
-    - type: ItemChoice
-      _id: nRO66WwJPi1kcK7x
-      configuration:
-        allowDrops: true
-        choices:
-          '8':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.mKKfOkQKk5Cu0rok
-        restriction:
-          list: []
-          type: class
-          subtype: skillPoints
-        spell: null
-        type: feat
-      value:
-        added: {}
-        replaced: {}
-      title: ''
-      hint: >-
-        Do you want to unlock this talent's module effect, or take another basic
-        talent?
+  advancement: []
   description:
     value: >-
       <p>When you hit a Creature with a Spell Attack, or a Creature fails a
@@ -150,7 +135,7 @@ system:
   prerequisites:
     items: []
     repeatable: false
-    level: 4
+    level: 3
   properties:
     - trait
   requirements: ''
@@ -158,9 +143,9 @@ system:
     value: class
     subtype: skillPoints
 effects:
-  - name: Staggering Force
-    img: icons/skills/melee/strike-flail-destructive-yellow.webp
-    origin: Item.MQE6mP084PVxV2iu
+  - name: '-10ft Speed'
+    img: modules/ak5e/icons/Skill-Mountain3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.OfIOhCdZemaspRND
     _id: mNWajOq3i25uGMZn
     type: base
     system: {}
@@ -208,28 +193,27 @@ effects:
       exportSource: null
       coreVersion: '13.348'
       systemId: dnd5e
-      systemVersion: 5.1.2
-      lastModifiedBy: 9KtVYqHDTWORuJDZ
-      modifiedTime: 1759662988829
-    _key: '!items.effects!ALdWBdKtEJNIg0gO.mNWajOq3i25uGMZn'
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!OfIOhCdZemaspRND.mNWajOq3i25uGMZn'
 flags:
   dnd5e:
     riders:
       activity: []
       effect: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Compendium.ak5e.ak5e-talents.Item.ALdWBdKtEJNIg0gO
   duplicateSource: null
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.2.3
-  createdTime: 1759004856429
-  modifiedTime: 1766944912953
+  systemVersion: 5.2.4
+  createdTime: 1770924144147
+  modifiedTime: 1770924144147
   lastModifiedBy: 9KtVYqHDTWORuJDZ
-_id: ALdWBdKtEJNIg0gO
-sort: 396875
+_id: OfIOhCdZemaspRND
+sort: -175000
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
-_key: '!items!ALdWBdKtEJNIg0gO'
+_key: '!items!OfIOhCdZemaspRND'

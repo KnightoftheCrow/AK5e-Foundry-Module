@@ -1,7 +1,7 @@
-folder: zWAk7cUjjJDFehud
+folder: qlhprYb2GHX3LPKU
 name: Unconventional Tactics
 type: feat
-img: icons/skills/melee/strike-weapon-polearm-ice-blue.webp
+img: modules/ak5e/icons/Skill-Nian1.webp
 system:
   activities: {}
   uses:
@@ -60,9 +60,9 @@ system:
     value: class
     subtype: skillPoints
 effects:
-  - name: Unconventional Tactics
-    img: icons/skills/melee/strike-weapon-polearm-ice-blue.webp
-    origin: Item.oM1TEXs5jX5gixVQ
+  - name: +1 Dice of Damage on Melee Spell Attacks
+    img: modules/ak5e/icons/Skill-Nian1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.hncWRB1FZxPbRZUz
     _id: wLbDotrlxwn92HLB
     type: base
     system: {}
@@ -103,25 +103,28 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.347'
+      coreVersion: '13.348'
       systemId: dnd5e
-      systemVersion: 5.1.9
+      systemVersion: 5.2.4
       lastModifiedBy: null
-    _key: '!items.effects!SCNRLKd3qmDrdPJT.wLbDotrlxwn92HLB'
-flags: {}
+    _key: '!items.effects!hncWRB1FZxPbRZUz.wLbDotrlxwn92HLB'
+flags:
+  dnd5e:
+    riders:
+      activity: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Compendium.ak5e.ak5e-talents.Item.SCNRLKd3qmDrdPJT
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1759424188203
-  modifiedTime: 1759425061393
+  systemVersion: 5.2.4
+  createdTime: 1770924144147
+  modifiedTime: 1770924144147
   lastModifiedBy: 9KtVYqHDTWORuJDZ
-_id: SCNRLKd3qmDrdPJT
-sort: 390625
+_id: hncWRB1FZxPbRZUz
+sort: -162500
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
-_key: '!items!SCNRLKd3qmDrdPJT'
+_key: '!items!hncWRB1FZxPbRZUz'

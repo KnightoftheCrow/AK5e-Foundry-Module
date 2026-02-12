@@ -1,0 +1,59 @@
+folder: SuzcwOsde1k6YNFn
+name: Unwavering Accuracy (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Lemuen2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module Effect: </strong>When you make a Spell Attack Roll, you
+      may ignore the effects of Half and Three-Quarters
+      Cover.</p><p><strong>Partially Automated: </strong>The removal of
+      Disadvantage, and the ignoring of cover are automated. However, the Range
+      increase is not automated.</p>
+    chat: ''
+  identifier: unwavering-accuracy-upgraded
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 8
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-talents.Item.PworX43PVxyg3nWI
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1770924144147
+  modifiedTime: 1770924144147
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: usM7rFZKyy1ZfKRZ
+sort: 500000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!usM7rFZKyy1ZfKRZ'

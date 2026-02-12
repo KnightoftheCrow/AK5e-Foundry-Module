@@ -1,57 +1,31 @@
-folder: zWAk7cUjjJDFehud
+folder: qlhprYb2GHX3LPKU
 name: Alacrity
 type: feat
-img: icons/skills/movement/feet-winged-sandals-tan.webp
+_id: 4a7sf8eAg0sy2k2w
+img: modules/ak5e/icons/Skill-Phantom1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement:
-    - type: ItemChoice
-      _id: OWpmsPzFFWSfujTp
-      configuration:
-        allowDrops: true
-        choices:
-          '8':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.fcfIzWUKOjoZ0LEP
-        restriction:
-          list: []
-          type: class
-          subtype: skillPoints
-        spell: null
-        type: feat
-      value:
-        added: {}
-        replaced: {}
-      title: ''
-      hint: >-
-        Do you want to unlock this talent's module effect, or take another basic
-        talent?
+  advancement: []
   description:
     value: >-
-      <p>Your Speed increases by 10 feet.</p><p><strong>Module Effect:
-      </strong>When you take the Dash Action, you add your Proficiency Bonus to
-      your Armour Class until the end of the Turn.</p>
+      <p>Your Speed increases by 10 feet.</p><p><strong>Module:</strong> When
+      you take the Dash Action, you add your Proficiency Bonus toyour Armour
+      Class until the end of the Turn.</p><p><strong>Automated.</strong></p>
     chat: ''
   identifier: alacrity
   source:
     revision: 1
-    rules: '2014'
-    book: ''
-    page: ''
-    custom: ''
-    license: ''
+    rules: '2024'
   crewed: false
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: 4
+    level: 3
   properties:
     - trait
   requirements: ''
@@ -59,10 +33,10 @@ system:
     value: class
     subtype: skillPoints
 effects:
-  - name: Alacrity
-    img: icons/skills/movement/feet-winged-sandals-tan.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.x56jXcB3ASm9LPRt
-    _id: ggnhEgbmh0JUEuWz
+  - name: +10ft Speed
+    img: modules/ak5e/icons/Skill-Phantom1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.4a7sf8eAg0sy2k2w
+    _id: RArwV8ib2svmfAr0
     type: base
     system: {}
     changes:
@@ -102,30 +76,28 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.351'
+      coreVersion: '13.348'
       systemId: dnd5e
-      systemVersion: 5.1.2
-      lastModifiedBy: GiT7LQTiCJxjm7mo
-      modifiedTime: 1767862226216
-    _key: '!items.effects!x56jXcB3ASm9LPRt.ggnhEgbmh0JUEuWz'
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!4a7sf8eAg0sy2k2w.RArwV8ib2svmfAr0'
+sort: 100000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+  9KtVYqHDTWORuJDZ: 3
 flags:
   dnd5e:
     riders:
       activity: []
-      effect: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Compendium.ak5e.ak5e-talents.Item.JtPzMai67p8ood8Z
   duplicateSource: null
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1758996841534
-  modifiedTime: 1759662115758
+  systemVersion: 5.2.4
+  createdTime: 1770924144147
+  modifiedTime: 1770924144147
   lastModifiedBy: 9KtVYqHDTWORuJDZ
-_id: x56jXcB3ASm9LPRt
-sort: 100000
-ownership:
-  default: 0
-  9KtVYqHDTWORuJDZ: 3
-_key: '!items!x56jXcB3ASm9LPRt'
+_key: '!items!4a7sf8eAg0sy2k2w'
