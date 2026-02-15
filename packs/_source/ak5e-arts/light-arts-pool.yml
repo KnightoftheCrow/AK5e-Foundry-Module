@@ -197,7 +197,7 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.aj2tqWYEu0gJebzh
+          - uuid: Compendium.ak5e.ak5e-arts.Item.aj2tqWYEu0gJebzh
             optional: false
         optional: false
         spell:
@@ -275,12 +275,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1770836370833
-  modifiedTime: 1770836370853
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1771159150768
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

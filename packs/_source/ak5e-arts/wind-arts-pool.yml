@@ -15,7 +15,7 @@ system:
         items:
           - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplThundercla
             optional: false
-          - uuid: Item.iXIF2y6tWSFHniNY
+          - uuid: Compendium.ak5e.ak5e-arts.Item.iXIF2y6tWSFHniNY
             optional: false
         optional: false
         spell:
@@ -56,9 +56,9 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.zJ6pJA7nsedvmaWp
-            optional: false
           - uuid: Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.zJ6pJA7nsedvmaWp
             optional: false
         optional: false
         spell:
@@ -174,7 +174,7 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.MZiCUrca9sh1LsnG
+          - uuid: Compendium.ak5e.ak5e-arts.Item.MZiCUrca9sh1LsnG
             optional: false
         optional: false
         spell:
@@ -270,12 +270,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1770836589017
-  modifiedTime: 1770836589041
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1771159245567
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

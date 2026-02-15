@@ -13,9 +13,9 @@ system:
       _id: hOcBNrk9NoZlmRR7
       configuration:
         items:
-          - uuid: Item.ghksRA7xgvMWw4Qy
-            optional: false
           - uuid: Compendium.dnd5e.spells.Item.XvbiNhNqXXIFisIy
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.ghksRA7xgvMWw4Qy
             optional: false
         optional: false
         spell:
@@ -33,9 +33,9 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.LpkiJ4CP2UQCTBKT
+          - uuid: Compendium.ak5e.ak5e-arts.Item.LpkiJ4CP2UQCTBKT
             optional: false
-          - uuid: Item.RvYWd35zRoiT45RI
+          - uuid: Compendium.ak5e.ak5e-arts.Item.RvYWd35zRoiT45RI
             optional: false
           - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplWitchBolt0
             optional: false
@@ -56,9 +56,7 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.EBkJPyToqGK2Prtw
-            optional: false
-          - uuid: Item.wJCmAq8fwS5PQT5Z
+          - uuid: Compendium.ak5e.ak5e-arts.Item.TsD5Y2wTOfvPynKP
             optional: false
         optional: false
         spell:
@@ -102,7 +100,7 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.5ubcVmR6TJcfrGcJ
+          - uuid: Compendium.ak5e.ak5e-arts.Item.5ubcVmR6TJcfrGcJ
             optional: false
         optional: false
         spell:
@@ -121,7 +119,7 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.436R7h6RIyBXoFKL
+          - uuid: Compendium.ak5e.ak5e-arts.Item.436R7h6RIyBXoFKL
             optional: false
         optional: false
         spell:
@@ -142,7 +140,7 @@ system:
         items:
           - uuid: Compendium.dnd5e.spells.Item.QbTxN5dWIbYZ4jLU
             optional: false
-          - uuid: Item.eTLw68bqpkFQAIPP
+          - uuid: Compendium.ak5e.ak5e-arts.Item.eTLw68bqpkFQAIPP
             optional: false
         optional: false
         spell:
@@ -161,7 +159,7 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.Ee25mROSfg8zHmCh
+          - uuid: Compendium.ak5e.ak5e-arts.Item.Ee25mROSfg8zHmCh
             optional: false
         optional: false
         spell:
@@ -180,7 +178,7 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.vXoPPH6jyab7FoEt
+          - uuid: Compendium.ak5e.ak5e-arts.Item.vXoPPH6jyab7FoEt
             optional: false
         optional: false
         spell:
@@ -255,12 +253,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1770836331073
-  modifiedTime: 1770836331095
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1771158973967
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
