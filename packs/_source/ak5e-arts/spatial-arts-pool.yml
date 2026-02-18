@@ -13,9 +13,9 @@ system:
       _id: hOcBNrk9NoZlmRR7
       configuration:
         items:
-          - uuid: Item.0izDxH4oH4AELvPD
-            optional: false
           - uuid: Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.0izDxH4oH4AELvPD
             optional: false
         optional: false
         spell:
@@ -33,11 +33,11 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.SBkPwTLNifZzWpGR
-            optional: false
           - uuid: Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7
             optional: false
           - uuid: Compendium.dnd5e.spells.Item.WTbOQBsarsL1LuXJ
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.SBkPwTLNifZzWpGR
             optional: false
         optional: false
         spell:
@@ -123,7 +123,7 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.n3SKjqSOlLN46yNF
+          - uuid: Compendium.ak5e.ak5e-arts.Item.n3SKjqSOlLN46yNF
             optional: false
         optional: false
         spell:
@@ -178,7 +178,7 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.BMkCWFjso6dZpycX
+          - uuid: Compendium.ak5e.ak5e-arts.Item.BMkCWFjso6dZpycX
             optional: false
         optional: false
         spell:
@@ -197,9 +197,9 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.DJl1FvWZP4jvyQv7
-            optional: false
           - uuid: Compendium.dnd5e.spells.Item.1ADstb0Xec6HHRcU
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.DJl1FvWZP4jvyQv7
             optional: false
         optional: false
         spell:
@@ -277,12 +277,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1770836575279
-  modifiedTime: 1770836575303
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1771159216573
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

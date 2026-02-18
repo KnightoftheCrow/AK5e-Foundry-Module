@@ -85,9 +85,9 @@ system:
         items:
           - uuid: Compendium.dnd5e.spells.Item.ImlCJQwR1VL40Qem
             optional: false
-          - uuid: Item.PWblHlrlIADjRjwu
-            optional: false
           - uuid: Compendium.dnd5e.spells.Item.j8NtLXOOJ3GAKF8I
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.PWblHlrlIADjRjwu
             optional: false
         optional: false
         spell:
@@ -106,7 +106,7 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.k3oIzcsSnbLFhBFS
+          - uuid: Compendium.ak5e.ak5e-arts.Item.k3oIzcsSnbLFhBFS
             optional: false
         optional: false
         spell:
@@ -144,9 +144,9 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.3ZgZrPohGG1I5lL2
-            optional: false
           - uuid: Compendium.dnd5e.spells.Item.HBHbOGKNVVprSlwn
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.3ZgZrPohGG1I5lL2
             optional: false
         optional: false
         spell:
@@ -165,7 +165,7 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.X8nzbK6ZY85FMQya
+          - uuid: Compendium.ak5e.ak5e-arts.Item.X8nzbK6ZY85FMQya
             optional: false
         optional: false
         spell:
@@ -184,7 +184,7 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.BzL30hkc8gHEZ4C9
+          - uuid: Compendium.ak5e.ak5e-arts.Item.BzL30hkc8gHEZ4C9
             optional: false
         optional: false
         spell:
@@ -258,12 +258,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1770836312844
-  modifiedTime: 1770836312866
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1771158810882
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

@@ -22,6 +22,35 @@ system:
       level: 1
       title: ''
       hint: ''
+    - type: ItemChoice
+      _id: jsVH4KTDJ2KZkoPf
+      configuration:
+        allowDrops: true
+        choices:
+          '1':
+            count: 2
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-arts.Item.nsm65jQ87gFuXzrf
+          - uuid: Compendium.ak5e.ak5e-arts.Item.nbODEQEbPVDkWT48
+          - uuid: Compendium.ak5e.ak5e-arts.Item.NIcET7TqSd5Sctpl
+          - uuid: Compendium.ak5e.ak5e-arts.Item.qUhZWZWFmn4NuZgJ
+          - uuid: Compendium.ak5e.ak5e-arts.Item.7axC2XEUQI8XvOXB
+          - uuid: Compendium.ak5e.ak5e-arts.Item.dGres586wEl9utMg
+          - uuid: Compendium.ak5e.ak5e-arts.Item.XZ04hHqv0UBoISse
+          - uuid: Compendium.ak5e.ak5e-arts.Item.ovADWJpt99yQldCq
+          - uuid: Compendium.ak5e.ak5e-arts.Item.RCUAoi5c53B7vhQO
+          - uuid: Compendium.ak5e.ak5e-arts.Item.EhIPULxvNcN4OoA3
+          - uuid: Compendium.ak5e.ak5e-arts.Item.BvXzdhH4e5vZc7WI
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: Choose Arts Pool
+      hint: ''
   description:
     value: >-
       <p>The Arts you use to manoeuvre your weapons can have other applications.
@@ -77,6 +106,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767621694607
-  modifiedTime: 1767876161668
+  modifiedTime: 1771153423329
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!If3R8HLnr1ePxiM4'

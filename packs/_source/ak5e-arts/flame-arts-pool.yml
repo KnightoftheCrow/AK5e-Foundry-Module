@@ -17,7 +17,7 @@ system:
             optional: false
           - uuid: Compendium.dnd5e.spells.Item.eCPQuQkIabFKTl9u
             optional: false
-          - uuid: Item.JmTAn8SnRZI9hash
+          - uuid: Compendium.ak5e.ak5e-arts.Item.JmTAn8SnRZI9hash
             optional: false
         optional: false
         spell:
@@ -195,7 +195,7 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Item.Mo0Wts3dfCQpeKJo
+          - uuid: Compendium.ak5e.ak5e-arts.Item.Mo0Wts3dfCQpeKJo
             optional: false
         optional: false
         spell:
@@ -268,12 +268,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1770836341034
-  modifiedTime: 1770836341052
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1771158997477
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

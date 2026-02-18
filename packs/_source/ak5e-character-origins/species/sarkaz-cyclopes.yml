@@ -9,7 +9,10 @@ system:
       configuration:
         sizes:
           - med
+          - lg
       level: 0
+      title: ''
+      hint: ''
       value: {}
     - type: AbilityScoreImprovement
       _id: FySmLGV3IE7DMT5B
@@ -36,19 +39,19 @@ system:
       _id: Lm8yuD3q8CoG2zOL
       configuration:
         items:
-          - uuid: Item.ejgax1OwuL7CjBS2
-            optional: false
-          - uuid: Item.GVZrWxtUvwgYApeA
-            optional: false
-          - uuid: Item.nJUXt9ipJiL6Wu6l
-            optional: false
-          - uuid: Item.QgwLjVeWD2BihZtP
-            optional: false
-          - uuid: Item.bQOLio0HY5zBbV0R
-            optional: false
-          - uuid: Item.WjyyJ6wp70178Sar
-            optional: false
           - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.QgwLjVeWD2BihZtP
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.bQOLio0HY5zBbV0R
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.WjyyJ6wp70178Sar
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.uLRDO4e8BPMdcGSn
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.7iK1fAyE2ce18NHL
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.5iNk6VNE8AWCZBS7
             optional: false
         optional: false
         spell: null
@@ -204,11 +207,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.JDo05rh0POS2j190
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768680363097
-  modifiedTime: 1769881793377
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1771157894968
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _id: nIb8KMYKqhlyobud
 _key: '!items!nIb8KMYKqhlyobud'

@@ -18,9 +18,9 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Item.LH8i2GuJ2NCY7ml4
-          - uuid: Item.BfEHCXnx6w2IQJ1a
-          - uuid: Item.sDF10GwbAt4Vf1zm
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.UO0RZSeaAkW9AAvQ
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.rZIv0zSgI53nWjBL
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.cz2CkMWBt6gsLmh7
         restriction:
           list: []
         spell: null
@@ -73,12 +73,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768680522601
-  modifiedTime: 1768680522637
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1771156663265
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
