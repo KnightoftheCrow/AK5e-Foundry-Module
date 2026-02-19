@@ -9,7 +9,26 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement:
+    - type: ItemChoice
+      _id: payOCETEdBdlMvsR
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.dx6dAUbF6YHqThXm
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
   description:
     value: >-
       <p>When you hit a Creature that has Physical Damage Reduction with an
@@ -50,10 +69,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738628529
-  modifiedTime: 1770915187844
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1768145448955
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!N0B8L9Y09HXmafE6'

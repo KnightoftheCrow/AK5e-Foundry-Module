@@ -1,0 +1,61 @@
+folder: 9MryoDbGKoSuHyVC
+name: The Last Option (WIP)
+type: feat
+_id: X7BBFOUOXAL3QT4f
+img: icons/sundries/flags/banner-flag-white-mountain.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Sometimes, when the chips are down, it is not sufficienct to carefully
+      weigh ones options and act prudently. Sometimes, it is better to do
+      anything rather than nothing. That sometimes is now.</p><p>You may
+      activate this Feature during your Turn (no Action required). Once on each
+      of your Turns for the next minute, you gain the following
+      benefits:</p><ul><li><p>You may use one of your <strong>Options</strong>
+      without expending a use of your Versatile Approach
+      Feature.</p></li><li><p>When you take the Attack Action, you may make one
+      additional Ranged Weapon Attack as part of that
+      Action.</p></li></ul><p>Once you have used this Feature, you may not do so
+      again until you have finished a Long Rest.</p>
+    chat: ''
+  identifier: the-last-option-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 18
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 106250
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767620014889
+  modifiedTime: 1767733092750
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!X7BBFOUOXAL3QT4f'

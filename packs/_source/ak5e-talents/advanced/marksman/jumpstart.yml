@@ -9,7 +9,26 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement:
+    - type: ItemChoice
+      _id: UlUHnv0DO61eP1g3
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.86tIY941JcOUVILB
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
   description:
     value: >-
       <p>The Start SP of your Operator Skills is increased by
@@ -95,10 +114,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738636078
-  modifiedTime: 1770915171892
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1768145448955
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!rAcx8Q8Yghko9tSi'

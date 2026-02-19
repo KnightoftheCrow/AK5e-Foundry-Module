@@ -1,14 +1,37 @@
-folder: qlhprYb2GHX3LPKU
+folder: zWAk7cUjjJDFehud
 name: Unconventional Tactics
 type: feat
-img: modules/ak5e/icons/Skill-Nian1.webp
+img: icons/skills/melee/strike-weapon-polearm-ice-blue.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement:
+    - type: ItemChoice
+      _id: 9V3UFV2uMV2UY9X6
+      configuration:
+        allowDrops: true
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.KZ8dgOb6jknQW938
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock this talent's module effect, or take another basic
+        talent?
   description:
     value: >-
       <p>When you deal Damage to a Creature as a result of a Melee Spell Attack,
@@ -29,7 +52,7 @@ system:
   prerequisites:
     items: []
     repeatable: false
-    level: 3
+    level: null
   properties:
     - trait
   requirements: ''
@@ -37,9 +60,9 @@ system:
     value: class
     subtype: skillPoints
 effects:
-  - name: +1 Dice of Damage on Melee Spell Attacks
-    img: modules/ak5e/icons/Skill-Nian1.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.hncWRB1FZxPbRZUz
+  - name: Unconventional Tactics
+    img: icons/skills/melee/strike-weapon-polearm-ice-blue.webp
+    origin: Item.oM1TEXs5jX5gixVQ
     _id: wLbDotrlxwn92HLB
     type: base
     system: {}
@@ -80,28 +103,25 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.348'
+      coreVersion: '13.347'
       systemId: dnd5e
-      systemVersion: 5.2.4
+      systemVersion: 5.1.9
       lastModifiedBy: null
-    _key: '!items.effects!hncWRB1FZxPbRZUz.wLbDotrlxwn92HLB'
-flags:
-  dnd5e:
-    riders:
-      activity: []
+    _key: '!items.effects!SCNRLKd3qmDrdPJT.wLbDotrlxwn92HLB'
+flags: {}
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-talents.Item.SCNRLKd3qmDrdPJT
+  compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 5.2.4
-  createdTime: 1770924144147
-  modifiedTime: 1770924567654
+  systemVersion: 5.1.9
+  createdTime: 1759424188203
+  modifiedTime: 1759425061393
   lastModifiedBy: 9KtVYqHDTWORuJDZ
-_id: hncWRB1FZxPbRZUz
-sort: -162500
+_id: SCNRLKd3qmDrdPJT
+sort: 390625
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
-_key: '!items!hncWRB1FZxPbRZUz'
+_key: '!items!SCNRLKd3qmDrdPJT'

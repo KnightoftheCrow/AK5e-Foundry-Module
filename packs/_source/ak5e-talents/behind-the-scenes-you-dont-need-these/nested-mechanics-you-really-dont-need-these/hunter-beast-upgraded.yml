@@ -1,0 +1,113 @@
+folder: EGFYFgpc7QMGLFXA
+name: Hunter (Beast) (Upgraded)
+type: feat
+img: icons/skills/targeting/crosshair-scope-sniper-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module Effect: </strong>You gain a Bonus to Attack Rolls
+      against Creatures with that Creature Type equal to your Proficiency
+      Bonus.</p>
+    chat: ''
+  identifier: hunter-beast-upgraded
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - hunter-beast
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Hunter
+    img: icons/skills/targeting/crosshair-scope-sniper-green.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.8XcjbsPZKIn8FPea
+    _id: GNFjxq29W0Ikj0tl
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.optional.Hunter.count
+        mode: 5
+        value: every
+        priority: 20
+      - key: flags.midi-qol.optional.Hunter.force
+        mode: 5
+        value: '"@target.details.type.value".includes("beast")'
+        priority: 20
+      - key: flags.midi-qol.optional.Hunter.attack.all
+        mode: 5
+        value: '@prof'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+      modifiedTime: 1759000118602
+    _key: '!items.effects!8XcjbsPZKIn8FPea.GNFjxq29W0Ikj0tl'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758572386666
+  modifiedTime: 1759000113784
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: 8XcjbsPZKIn8FPea
+sort: 400000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!8XcjbsPZKIn8FPea'

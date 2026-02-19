@@ -1,0 +1,58 @@
+folder: mhhCPYRgjBzheVER
+name: Deadshot (WIP)
+type: feat
+_id: CDG10QNnyWf5iB0x
+img: icons/skills/ranged/target-bullseye-arrow-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You may enter Deadshot State as a Bonus Action; Deadshot State ends at
+      the end of your Turn, or after you make an Attack. While in Deadshot
+      State, your Ranged Attacks gain the following
+      benefits:</p><p><strong>Additional Weapon Damage.</strong> Your Attacks
+      deal an additional die of Weapon Damage.</p><p><strong>Long Range
+      Shooting.</strong> You suffer no penalty for Attacking at Long
+      Range.</p><p><strong>Unerring Accuracy.</strong> Your Proficiency Bonus is
+      doubled for that Attack Roll.</p>
+    chat: ''
+  identifier: deadshot-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767621242308
+  modifiedTime: 1767733338948
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!CDG10QNnyWf5iB0x'

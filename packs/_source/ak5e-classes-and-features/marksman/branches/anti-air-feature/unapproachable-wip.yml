@@ -1,0 +1,58 @@
+folder: 9MryoDbGKoSuHyVC
+name: Unapproachable (WIP)
+type: feat
+_id: kE01jAgLtniDie4z
+img: icons/skills/social/intimidation-impressing.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>When a hostile Creature enters the normal range of a Ranged Weapon you
+      are wielding, or moves while within 30 feet of you, you may make a Ranged
+      Attack against them with that Weapon as a Reaction. If the Creature is
+      your Target, this does not expend your Reaction. However, once you have
+      attacked a Creature in this way, you may not attack that Creature in this
+      way again until the beginning of your next Turn.</p><p>After you make this
+      Attack, you may move up to half of your Speed; this movement does not
+      provoke Opportunity Attacks.</p>
+    chat: ''
+  identifier: unapproachable-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 125000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767619988221
+  modifiedTime: 1767733053988
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!kE01jAgLtniDie4z'

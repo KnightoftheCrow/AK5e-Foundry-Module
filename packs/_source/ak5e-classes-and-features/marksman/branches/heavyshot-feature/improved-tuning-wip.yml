@@ -1,0 +1,55 @@
+folder: JCxDQcgqE3WNSRZl
+name: Improved Tuning (WIP)
+type: feat
+_id: TMTQXJPTI5R4J7Xt
+img: icons/skills/trades/smithing-tongs-metal-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You have improved your “craftsmanship”, and gain the following
+      benefits:</p><p><strong>Additional Damage.</strong> Any Custom Job made by
+      you deals an additional die of Weapon Damage.</p><p><strong>Custom
+      Criticals.</strong> You can roll one additional Damage die when
+      determining the extra damage for a Critical Hit with your Custom Job.</p>
+    chat: ''
+  identifier: improved-tuning-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767625770666
+  modifiedTime: 1767733485058
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!TMTQXJPTI5R4J7Xt'

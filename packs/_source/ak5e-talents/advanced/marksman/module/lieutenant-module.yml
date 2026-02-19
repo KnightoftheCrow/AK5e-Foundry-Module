@@ -21,8 +21,7 @@ system:
   crewed: false
   enchant: {}
   prerequisites:
-    items:
-      - Compendium.ak5e.ak5e-talents.Item.UnNVP185qAyYfpjg
+    items: []
     repeatable: false
     level: 13
   properties:
@@ -94,12 +93,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768145102101
-  modifiedTime: 1770915144876
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1768145294648
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

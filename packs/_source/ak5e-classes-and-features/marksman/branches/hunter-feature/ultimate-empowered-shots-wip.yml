@@ -1,0 +1,61 @@
+folder: JQfn8YazPakYGtWZ
+name: Ultimate Empowered Shots (WIP)
+type: feat
+_id: m4oS20QOjc7xVeQi
+img: icons/skills/ranged/arrows-flying-salvo-blue-light.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your Empowered Shots are improved in the following
+      ways:</p><ul><li><p><strong>Concussive Shot:</strong> Creatures that fail
+      this Saving Throw also have their Movement Speed halved until the end
+      oftheir next Turn.</p></li><li><p><strong>Dazing Shot:</strong> Creatures
+      that fail this Saving Throw are now also Blinded until the end of their
+      next Turn.</p></li><li><p><strong>Fragmentation Shot:</strong> Creatures
+      now only need to be within 10 feet of the original Creature, and the
+      Damage isincreased to 1d12 Thunder Damage.</p></li><li><p><strong>Piercing
+      Shot:</strong> Instead deals 2d8 additional Force
+      Damage.</p></li><li><p><strong>Seeking Shot:</strong> Instead adds 2d4 to
+      the result of the Attack Roll.</p></li></ul>
+    chat: ''
+  identifier: ultimate-empowered-shots-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 106250
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767626052735
+  modifiedTime: 1767733576462
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!m4oS20QOjc7xVeQi'

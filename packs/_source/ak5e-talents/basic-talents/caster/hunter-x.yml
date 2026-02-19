@@ -1,7 +1,7 @@
-folder: qlhprYb2GHX3LPKU
+folder: zWAk7cUjjJDFehud
 name: Hunter (X)
 type: feat
-img: modules/ak5e/icons/Skill-Invincible1.png
+img: icons/skills/targeting/crosshair-scope-sniper-green.webp
 system:
   activities: {}
   uses:
@@ -10,31 +10,63 @@ system:
     max: ''
   advancement:
     - type: ItemChoice
-      _id: Pfh218Jwvn3srYdK
+      _id: npPfQOtj6DoYrx74
       configuration:
         allowDrops: false
         choices:
-          '3':
+          '4':
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.n1MZzBSHldA4Eoci
-          - uuid: Compendium.ak5e.ak5e-talents.Item.DzzAsvUYTZoMqhPb
-          - uuid: Compendium.ak5e.ak5e-talents.Item.mhJlyeY2zREm18YY
-          - uuid: Compendium.ak5e.ak5e-talents.Item.fDTkdUCEcbBpm1b4
-          - uuid: Compendium.ak5e.ak5e-talents.Item.2tKsJJmjhEN6pEGS
-          - uuid: Compendium.ak5e.ak5e-talents.Item.8mfBiKHHqRfKniXi
-          - uuid: Compendium.ak5e.ak5e-talents.Item.QkhRSyyuvhTKpuu2
-          - uuid: Compendium.ak5e.ak5e-talents.Item.JOvirCcts7tnGbL7
+          - uuid: Compendium.ak5e.ak5e-talents.Item.BA71iNiWfQVQnKJ4
+          - uuid: Compendium.ak5e.ak5e-talents.Item.bCLCgO8D2BV1Og8A
+          - uuid: Compendium.ak5e.ak5e-talents.Item.cRHfejiPp2cPjsc6
+          - uuid: Compendium.ak5e.ak5e-talents.Item.HFeJnzK8pcXvFipn
+          - uuid: Compendium.ak5e.ak5e-talents.Item.yud8dIW9weBz31Gm
+          - uuid: Compendium.ak5e.ak5e-talents.Item.yGwYw9t1Io70d2yX
+          - uuid: Compendium.ak5e.ak5e-talents.Item.HUO4DTRElAAiwn08
+          - uuid: Compendium.ak5e.ak5e-talents.Item.fjqO5Oir0LZzQl9x
         restriction:
           list: []
+          type: class
+          subtype: skillPoints
         spell: null
-        type: null
+        type: feat
       value:
         added: {}
         replaced: {}
-      title: Hunter Spec
-      hint: ''
+      title: Hunter Specialisation
+      hint: Choose your preferred prey!
+    - type: ItemChoice
+      _id: 59mIAMjYGEi4qdeK
+      configuration:
+        allowDrops: true
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.NIDdZeNyBImRP8UM
+          - uuid: Compendium.ak5e.ak5e-talents.Item.8XcjbsPZKIn8FPea
+          - uuid: Compendium.ak5e.ak5e-talents.Item.cLv8sHySxW0DjUCh
+          - uuid: Compendium.ak5e.ak5e-talents.Item.yZqWktPuuUHEa3Pz
+          - uuid: Compendium.ak5e.ak5e-talents.Item.RE3mTIYFy60wYGFn
+          - uuid: Compendium.ak5e.ak5e-talents.Item.jqXGNfX4ve80VoW3
+          - uuid: Compendium.ak5e.ak5e-talents.Item.ecH53MuNb1jhQyNG
+          - uuid: Compendium.ak5e.ak5e-talents.Item.Proh9tdBrtmZf9uT
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock this talent's module effect, or take another basic
+        talent?
   description:
     value: >-
       <p>Choose one from: Aberration, Beast, Celestials, Construct, Fiends,
@@ -53,7 +85,7 @@ system:
   prerequisites:
     items: []
     repeatable: false
-    level: 3
+    level: 4
   properties:
     - trait
   requirements: ''
@@ -61,24 +93,20 @@ system:
     value: class
     subtype: skillPoints
 effects: []
-flags:
-  dnd5e:
-    riders:
-      activity: []
+flags: {}
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-talents.Item.4MxiTCIDu9qPRbJF
+  compendiumSource: null
   duplicateSource: null
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.2.4
-  createdTime: 1770924144147
-  modifiedTime: 1770924144147
+  systemVersion: 5.1.9
+  createdTime: 1758996964150
+  modifiedTime: 1759662164839
   lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: J7Y57chWODJybvB1
+sort: 350000
 ownership:
   default: 0
-  GiT7LQTiCJxjm7mo: 3
   9KtVYqHDTWORuJDZ: 3
-_id: NnlD4Tl9znUkIbV5
-sort: -100000
-_key: '!items!NnlD4Tl9znUkIbV5'
+_key: '!items!J7Y57chWODJybvB1'

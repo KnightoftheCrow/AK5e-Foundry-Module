@@ -1,31 +1,57 @@
-folder: qlhprYb2GHX3LPKU
+folder: zWAk7cUjjJDFehud
 name: Alert
 type: feat
-_id: mal0NMyYylLCmiHZ
-img: modules/ak5e/icons/Skill-PureCrystal.webp
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement:
+    - type: ItemChoice
+      _id: 3LN90eYv5oeSv1qF
+      configuration:
+        allowDrops: true
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.3gua32GRjjIwwVJ0
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock this talent's module effect, or take another basic
+        talent?
   description:
     value: >-
       <p>You gain a Bonus to your Initiative Rolls equal to your Proficiency
-      Bonus.</p><p><strong>Module:</strong> You have Advantage on Initiative
-      Rolls.</p><p><strong>Automated.</strong></p>
+      Bonus.</p><p><strong>Module Effect: </strong>You have Advantage on
+      Initiative Rolls.</p>
     chat: ''
   identifier: alert
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: 3
+    level: 4
   properties:
     - trait
   requirements: ''
@@ -33,10 +59,10 @@ system:
     value: class
     subtype: skillPoints
 effects:
-  - name: +Prof Bonus to Initiative
-    img: modules/ak5e/icons/Skill-PureCrystal.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.mal0NMyYylLCmiHZ
-    _id: xYBI5fA8J3BUhPrf
+  - name: Alert
+    img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+    origin: Item.BQhCETtGCZr8YoaD
+    _id: rQ1eqgrQjeX5kPmS
     type: base
     system: {}
     changes:
@@ -76,28 +102,25 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.348'
+      coreVersion: '13.347'
       systemId: dnd5e
-      systemVersion: 5.2.4
+      systemVersion: 5.1.2
       lastModifiedBy: null
-    _key: '!items.effects!mal0NMyYylLCmiHZ.xYBI5fA8J3BUhPrf'
-sort: 0
-ownership:
-  default: 0
-  GiT7LQTiCJxjm7mo: 3
-  9KtVYqHDTWORuJDZ: 3
-flags:
-  dnd5e:
-    riders:
-      activity: []
+    _key: '!items.effects!YT3ghTodrp5oE0kC.rQ1eqgrQjeX5kPmS'
+flags: {}
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-talents.Item.6IL6kCJuT9hmCv97
+  compendiumSource: null
   duplicateSource: null
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.2.4
-  createdTime: 1770924144147
-  modifiedTime: 1770924144147
+  systemVersion: 5.1.9
+  createdTime: 1758996889411
+  modifiedTime: 1759662122924
   lastModifiedBy: 9KtVYqHDTWORuJDZ
-_key: '!items!mal0NMyYylLCmiHZ'
+_id: YT3ghTodrp5oE0kC
+sort: 300000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!YT3ghTodrp5oE0kC'

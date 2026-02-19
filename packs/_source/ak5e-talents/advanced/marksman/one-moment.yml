@@ -9,7 +9,26 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement:
+    - type: ItemChoice
+      _id: doaHEX6dE79XjbWq
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.SjifTMEu6CDpfsy1
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
   description:
     value: >-
       <p>While your Skill is Active, when you deal Damage to a Creature during
@@ -46,10 +65,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738669197
-  modifiedTime: 1770915106729
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1768145986362
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!IjUlJY3ogPaLv6Ht'

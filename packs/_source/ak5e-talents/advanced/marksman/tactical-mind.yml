@@ -11,7 +11,26 @@ system:
       - period: lr
         type: recoverAll
     max: '1'
-  advancement: []
+  advancement:
+    - type: ItemChoice
+      _id: bUOjtYgk4Pu8trws
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.fXbvDAjCMEh40323
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
   description:
     value: >-
       <p>When you roll a d20, you may reroll that die and add 1d10 to the result
@@ -136,10 +155,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738728850
-  modifiedTime: 1770914919295
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1768638472039
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!r19GGpWRcO5KigI5'

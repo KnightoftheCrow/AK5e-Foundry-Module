@@ -2,7 +2,7 @@ folder: 9MryoDbGKoSuHyVC
 name: Weight of Fire
 type: feat
 _id: vTm5mXnTRh3dCdje
-img: modules/ak5e/icons/Skill-StormeyeSP1.webp
+img: icons/weapons/ammunition/arrows-broadhead-white.webp
 system:
   activities:
     hHEcX32TGDOHjXgK:
@@ -157,6 +157,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767619876780
-  modifiedTime: 1771178776665
+  modifiedTime: 1767732892023
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!vTm5mXnTRh3dCdje'

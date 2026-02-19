@@ -1,0 +1,102 @@
+folder: zWAk7cUjjJDFehud
+name: Alert (Upgraded)
+type: feat
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module Effect: </strong>You have Advantage on Initiative
+      Rolls.</p>
+    chat: ''
+  identifier: alert-upgraded
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Alert (Upgraded)
+    img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+    origin: Item.LVeQwqaBAhrL4boR
+    _id: elvjXYEIyCMkJsvl
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.init.roll.mode
+        mode: 2
+        value: '1'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.2
+      lastModifiedBy: null
+    _key: '!items.effects!3gua32GRjjIwwVJ0.elvjXYEIyCMkJsvl'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  createdTime: 1758996891081
+  modifiedTime: 1758996891090
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: 3gua32GRjjIwwVJ0
+sort: 400000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!3gua32GRjjIwwVJ0'

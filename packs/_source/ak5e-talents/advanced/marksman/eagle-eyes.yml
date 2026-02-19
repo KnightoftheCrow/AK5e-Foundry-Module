@@ -9,7 +9,26 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement:
+    - type: ItemChoice
+      _id: wvsYRbngF72Zg79A
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.2emfNpzkqQbxf5dd
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
   description:
     value: >-
       <p>You have have a +5 Bonus to Perception and Investigation Checks based
@@ -110,10 +129,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738535257
-  modifiedTime: 1770915235174
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1768145448955
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!wl1K4E167035p5yf'

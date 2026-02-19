@@ -123,7 +123,28 @@ system:
       - period: turn
         type: recoverAll
     max: '1'
-  advancement: []
+  advancement:
+    - type: ItemChoice
+      _id: pAbVMZtnxrvTZmlZ
+      configuration:
+        allowDrops: false
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.CfDWkR31hCBL2M2L
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
   description:
     value: >-
       <p>When you hit a Creature missing any Hit Points with an Attack, that
@@ -217,10 +238,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767736446706
-  modifiedTime: 1770914464277
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1767913954915
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!qfNTsOkoFFat7oiu'

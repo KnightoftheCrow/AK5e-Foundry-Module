@@ -1,7 +1,7 @@
-folder: qlhprYb2GHX3LPKU
+folder: zWAk7cUjjJDFehud
 name: Clean Sweep
 type: feat
-img: modules/ak5e/icons/Skill-Hellagur3.webp
+img: icons/skills/melee/strike-scythe-fire-green.webp
 system:
   activities:
     AU9QufcAl5c7SO8Q:
@@ -19,7 +19,6 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -29,7 +28,6 @@ system:
         value: '1'
       effects:
         - _id: ZxBY8lo97JECtfP2
-          level: {}
       range:
         units: self
         override: false
@@ -93,7 +91,6 @@ system:
         magicDamage: false
         noConcentrationCheck: false
         autoCEEffects: default
-        skipConcentrationCheck: false
       isOverTimeFlag: false
       overTimeProperties:
         saveRemoves: true
@@ -102,19 +99,39 @@ system:
       otherActivityId: none
       otherActivityAsParentType: false
       name: Clean Sweep Recharge
-      flags: {}
-      visibility:
-        level: {}
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
+      img: ''
+      appliedEffects:
+        - ZxBY8lo97JECtfP2
   uses:
     spent: 0
     recovery:
       - period: turnStart
         type: recoverAll
     max: '1'
-  advancement: []
+  advancement:
+    - type: ItemChoice
+      _id: IDAHgiKVPCH6Lcpm
+      configuration:
+        allowDrops: true
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.z2MFO3uUJFTurMl2
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock this talent's module effect, or take another basic
+        talent?
   description:
     value: >-
       <p>Once per Round, when you roll to determine the Damage you deal to a
@@ -134,7 +151,7 @@ system:
   prerequisites:
     items: []
     repeatable: false
-    level: 3
+    level: 4
   properties:
     - trait
   requirements: ''
@@ -142,9 +159,9 @@ system:
     value: class
     subtype: skillPoints
 effects:
-  - name: +1 die of Damage to Creatures < 50% HP
-    img: modules/ak5e/icons/Skill-Hellagur3.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.MaVekY5FOLYSPajW
+  - name: Clean Sweep
+    img: icons/skills/melee/strike-scythe-fire-green.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.4s7JyL83Y2tSsu9z
     _id: ZxBY8lo97JECtfP2
     type: base
     system: {}
@@ -190,11 +207,12 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.348'
+      coreVersion: '13.351'
       systemId: dnd5e
-      systemVersion: 5.2.4
-      lastModifiedBy: null
-    _key: '!items.effects!MaVekY5FOLYSPajW.ZxBY8lo97JECtfP2'
+      systemVersion: 5.1.9
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1767869384567
+    _key: '!items.effects!4s7JyL83Y2tSsu9z.ZxBY8lo97JECtfP2'
 flags:
   ak5e:
     trackingBar: false
@@ -242,18 +260,18 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-talents.Item.4s7JyL83Y2tSsu9z
+  compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
-  createdTime: 1770924144147
-  modifiedTime: 1770924144147
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
-_id: MaVekY5FOLYSPajW
-sort: -225000
+  createdTime: 1759440406318
+  modifiedTime: 1767869496647
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_id: 4s7JyL83Y2tSsu9z
+sort: 359375
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
-_key: '!items!MaVekY5FOLYSPajW'
+_key: '!items!4s7JyL83Y2tSsu9z'

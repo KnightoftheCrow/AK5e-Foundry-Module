@@ -130,8 +130,7 @@ system:
   crewed: false
   enchant: {}
   prerequisites:
-    items:
-      - Compendium.ak5e.ak5e-talents.Item.tFQX4Mvc3zrePzmi
+    items: []
     repeatable: false
     level: 13
   properties:
@@ -192,19 +191,17 @@ effects:
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!ZaIvc4eA3xpZpgad.JEEXjjMzoZ3Aix8s'
 flags:
-  dnd5e:
-    riders:
-      activity: []
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768067973957
-  modifiedTime: 1770914900741
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1768068217677
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

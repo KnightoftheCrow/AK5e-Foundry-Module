@@ -1,0 +1,64 @@
+folder: JQfn8YazPakYGtWZ
+name: Empowered Shots (WIP)
+type: feat
+_id: a6EQ6Ifq0YgaecCA
+img: icons/skills/ranged/arrows-flying-salvo-blue-light.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Hunter Marksmen employ special technology to infusetheir weapons with
+      Arts, pushing them beyond whatpure mechanics can do
+      alone.</p><p><strong>Charges.</strong> You have a maximum of 2 Charges,
+      increasing to 4 at Level 7, and 6 at Level 14.</p><p><strong>Regaining
+      Charges.</strong> You may regain all of yourexpended Charges as an Action
+      during your Turn, orwhenever you finish a Short or Long
+      Rest.</p><p><strong>Expending Charges.</strong> Whenever you make a
+      RangedWeapon Attack, 1 Charge is expended to perform anEmpowered Shot. At
+      1st Level, you may only use thefollowing Empowered Shot; you gain
+      additional Optionsat 4th Level.</p><ul><li><p><strong>Piercing
+      Shot.</strong> If the Attack Hits, it deals 1d8 additional Piercing
+      Damage.</p></li></ul><p>When you would perform an Empowered Shot
+      againstyour Target, you do not expend Charge for the firstEmpowered Shot
+      option you use. This reduction canonly occur once per Attack.</p>
+    chat: ''
+  identifier: empowered-shots-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767625877333
+  modifiedTime: 1767733556627
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!a6EQ6Ifq0YgaecCA'

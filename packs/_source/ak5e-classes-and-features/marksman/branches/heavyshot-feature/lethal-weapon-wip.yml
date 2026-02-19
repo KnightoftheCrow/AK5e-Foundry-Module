@@ -1,0 +1,55 @@
+folder: JCxDQcgqE3WNSRZl
+name: Lethal Weapon (WIP)
+type: feat
+_id: g6evHg46WrHGd8FP
+img: icons/skills/ranged/archery-bow-attack-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>The sky is the limit when it comes to the damage you can
+      inflict.</p><p>You may also roll an additional die of the same size as
+      part of your Weapon Tuning Feature when a dice result during a Damage Roll
+      for an Attack with your Custom Job is the minimum possible value on that
+      dice.</p>
+    chat: ''
+  identifier: lethal-weapon-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 150000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767625800581
+  modifiedTime: 1767733490614
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!g6evHg46WrHGd8FP'

@@ -2,7 +2,7 @@ folder: 9MryoDbGKoSuHyVC
 name: Air Tracking
 type: feat
 _id: R582ILYssQOBgweH
-img: modules/ak5e/icons/Skill-Shining1.webp
+img: icons/weapons/bows/shortbow-recurve-yellow-blue.webp
 system:
   activities:
     3Bflsfipem8gakYM:
@@ -152,7 +152,7 @@ system:
     subtype: skillPoints
 effects:
   - name: Pigeon Shooting
-    img: modules/ak5e/icons/Skill-Shining1.webp
+    img: icons/weapons/bows/shortbow-recurve-yellow-blue.webp
     origin: Compendium.ak5e.ak5e-classes-and-features.Item.R582ILYssQOBgweH
     _id: enKA9t8i1Cjf4pdZ
     type: base
@@ -198,11 +198,11 @@ effects:
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1767689048326
-      modifiedTime: 1771178537875
+      modifiedTime: 1767690206680
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!R582ILYssQOBgweH.enKA9t8i1Cjf4pdZ'
   - name: Target
-    img: modules/ak5e/icons/Skill-Lemuen1.webp
+    img: assets/Skill-Lemuen1.webp
     origin: Compendium.ak5e.ak5e-classes-and-features.Item.R582ILYssQOBgweH
     _id: H4lKO3dPdQNYRFjw
     type: base
@@ -252,11 +252,11 @@ effects:
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1767690208823
-      modifiedTime: 1771177934766
+      modifiedTime: 1767690672149
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!R582ILYssQOBgweH.H4lKO3dPdQNYRFjw'
   - name: Enhanced Target
-    img: modules/ak5e/icons/Skill-Lemuen1.webp
+    img: assets/Skill-Lemuen1.webp
     origin: Compendium.ak5e.ak5e-classes-and-features.Item.R582ILYssQOBgweH
     _id: RCwGV86PdsnTrDhv
     type: base
@@ -306,7 +306,7 @@ effects:
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1767690426259
-      modifiedTime: 1771177944558
+      modifiedTime: 1767690618801
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!R582ILYssQOBgweH.RCwGV86PdsnTrDhv'
 sort: 100000
@@ -325,6 +325,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767619892281
-  modifiedTime: 1771178528590
+  modifiedTime: 1767732867860
   lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!R582ILYssQOBgweH'

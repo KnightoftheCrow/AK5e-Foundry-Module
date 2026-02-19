@@ -9,7 +9,26 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement:
+    - type: ItemChoice
+      _id: cFT0tKIhuZOQ24oW
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.Lxb0yt12a19ocMPz
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
   description:
     value: >-
       <p>While you are conscious, you have Advantage on Dexterity Saving Throws
@@ -96,10 +115,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738429649
-  modifiedTime: 1770915289682
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1768145448955
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!OKhxvBFfBEME93PU'

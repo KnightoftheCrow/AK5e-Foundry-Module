@@ -2,118 +2,9 @@ name: Skill Points
 type: feat
 img: icons/skills/movement/arrows-up-trio-red.webp
 system:
-  activities:
-    mKFEHUAp05XdCpzU:
-      type: utility
-      _id: mKFEHUAp05XdCpzU
-      sort: 0
-      activation:
-        type: turnEnd
-        override: false
-        condition: ''
-      consumption:
-        scaling:
-          allowed: true
-          max: ''
-        spellSlot: true
-        targets:
-          - type: itemUses
-            value: '-1'
-            target: ''
-            scaling:
-              mode: amount
-              formula: '-1'
-      description:
-        chatFlavor: How much SP did you gain this turn?
-      duration:
-        units: inst
-        concentration: false
-        override: false
-      effects: []
-      flags: {}
-      range:
-        units: self
-        override: false
-        special: ''
-      target:
-        template:
-          contiguous: false
-          units: ft
-          type: ''
-        affects:
-          choice: false
-          type: self
-          special: ''
-        override: false
-        prompt: true
-      uses:
-        spent: 0
-        recovery: []
-        max: ''
-      visibility:
-        level:
-          min: null
-          max: null
-        requireAttunement: false
-        requireIdentification: false
-        requireMagic: false
-        identifier: ''
-      roll:
-        prompt: false
-        visible: false
-        name: ''
-        formula: ''
-      useConditionText: ''
-      useConditionReason: ''
-      effectConditionText: ''
-      macroData:
-        name: ''
-        command: ''
-      ignoreTraits:
-        idi: false
-        idr: false
-        idv: false
-        ida: false
-        idm: false
-      midiProperties:
-        ignoreTraits: []
-        triggeredActivityId: none
-        triggeredActivityConditionText: ''
-        triggeredActivityTargets: targets
-        triggeredActivityRollAs: self
-        autoConsume: false
-        forceConsumeDialog: default
-        forceRollDialog: default
-        forceDamageDialog: default
-        confirmTargets: default
-        autoTargetType: any
-        autoTargetAction: default
-        automationOnly: false
-        otherActivityCompatible: true
-        otherActivityAsParentType: true
-        identifier: ''
-        displayActivityName: false
-        rollMode: default
-        chooseEffects: false
-        toggleEffect: false
-        ignoreFullCover: false
-        removeChatButtons: default
-        magicEffect: false
-        magicDamage: false
-        noConcentrationCheck: false
-        skipConcentrationCheck: false
-        autoCEEffects: default
-      isOverTimeFlag: false
-      overTimeProperties:
-        saveRemoves: true
-        preRemoveConditionText: ''
-        postRemoveConditionText: ''
-      otherActivityId: none
-      otherActivityAsParentType: true
-      name: Restore SP
-      img: ''
+  activities: {}
   uses:
-    spent: null
+    spent: 10
     recovery:
       - period: lr
         type: formula
@@ -131,7 +22,7 @@ system:
           '0':
             value: 1
       value: {}
-      title: SP recovery on Rest
+      title: ''
       hint: ''
     - type: ScaleValue
       _id: DtebK7YcnL2mCCCC
@@ -144,7 +35,7 @@ system:
           '0':
             value: 1
       value: {}
-      title: Max SP
+      title: ''
       hint: ''
   description:
     value: >-
@@ -194,11 +85,7 @@ system:
       style="text-decoration:underline">One Skill at a
       Time</span></span></p><p>A Character can only have one Operator Skill
       active at a time, even if they have the Skill Points to activate
-      another.</p></blockquote><p><strong>Partially Automated: </strong>You will
-      gain the correct amount of SP at the end of a Long Rest, and your maximum
-      SP will update automatically. The "Restore SP" Acitivity should activate
-      at the end of your Turn; set the scaling value to the amount of SP you
-      gained that Turn.</p>
+      another.</p></blockquote>
     chat: ''
   identifier: skillPoints
   source:
@@ -234,12 +121,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1766943177603
-  modifiedTime: 1771424766440
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1768072594885
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

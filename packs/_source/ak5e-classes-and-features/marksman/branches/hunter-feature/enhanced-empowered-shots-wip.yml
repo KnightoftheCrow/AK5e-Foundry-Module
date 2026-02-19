@@ -1,0 +1,67 @@
+folder: JQfn8YazPakYGtWZ
+name: Enhanced Empowered Shots (WIP)
+type: feat
+_id: fIs8ioJljFEzCG97
+img: icons/skills/ranged/arrows-flying-salvo-blue-light.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>The ways in which you can infuse your Attacks withyour technology
+      becomes more versatile. You gain thefollowing
+      benefits:</p><p><strong>Additional Empowered Shots.</strong> You gain the
+      followingEmpowered Shot options:</p><ul><li><p><strong>Concussive
+      Shot:</strong> If the Attack Hits, that Creaturemust succeed on a Strength
+      Saving Throw againstyour Martial DC or be knocked 10 feet directly
+      awayfrom you.</p></li><li><p><strong>Dazing Shot:</strong> If the Attack
+      Hits, that Creature mustsucceed on a Constitution Saving Throw againstyour
+      Martial DC or be Dazed until the end of theirnext
+      Turn.</p></li><li><p><strong>Fragmentation Shot:</strong> Other Creatures
+      behind thetarget Creature from your perspective and within 10feet of them
+      take 1d8 Thunder Damage.</p></li><li><p><strong>Seeking Shot:</strong>
+      Roll 1d6 and add the result to theresult of the Attack Roll for that
+      Attack.</p></li></ul><p><strong>Double Up.</strong> When you perform an
+      Empowered Shot,you may expend a Charge to apply an additionalEmpowered
+      Shot effect; you may not pick the sameoption twice for the same
+      Attack.</p>
+    chat: ''
+  identifier: enhanced-empowered-shots-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 150000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767625958902
+  modifiedTime: 1767733561083
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!fIs8ioJljFEzCG97'

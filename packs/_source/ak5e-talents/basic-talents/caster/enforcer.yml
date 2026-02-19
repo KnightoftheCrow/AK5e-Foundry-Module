@@ -1,21 +1,45 @@
-folder: qlhprYb2GHX3LPKU
+folder: zWAk7cUjjJDFehud
 name: Enforcer
 type: feat
-img: modules/ak5e/icons/Skill-Holungday3.webp
+img: icons/magic/sonic/scream-wail-shout-teal.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement:
+    - type: ItemChoice
+      _id: kYwIMN38mS3m4TOP
+      configuration:
+        allowDrops: true
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.bgy7gNB8LAuSen9y
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock this talent's module effect, or take another basic
+        talent?
   description:
     value: >-
       <p>Creatures with less than 50% of their maximum Hit Points remaining have
       Disadvantage on Saving Throws against your Arts.</p><p><strong>Module
       Effect: </strong>If one of your Arts reduces a Creature to Hit Points
       equal to or less than your Character Level, they
-      die.</p><p><strong>Automated.</strong></p>
+      die.</p><p><strong>Automated: </strong>Increases the Damage of your Arts
+      against Creatures below the Hit Point Threshold by 999.</p>
     chat: ''
   identifier: enforcer
   source:
@@ -30,7 +54,7 @@ system:
   prerequisites:
     items: []
     repeatable: false
-    level: 3
+    level: 4
   properties:
     - trait
   requirements: ''
@@ -39,8 +63,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Save Disadvantage
-    img: modules/ak5e/icons/Skill-Holungday3.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.7ipSBAQBKeiRzuni
+    img: icons/magic/sonic/scream-wail-shout-teal.webp
+    origin: Item.PlT3az2UNW6t4i7G
     _id: 7Mzw1MDVwCTnUprf
     type: base
     system: {}
@@ -86,28 +110,25 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.348'
+      coreVersion: '13.347'
       systemId: dnd5e
-      systemVersion: 5.2.4
+      systemVersion: 5.1.9
       lastModifiedBy: null
-    _key: '!items.effects!7ipSBAQBKeiRzuni.7Mzw1MDVwCTnUprf'
-flags:
-  dnd5e:
-    riders:
-      activity: []
+    _key: '!items.effects!qzdnrnBe4xAM5n5W.7Mzw1MDVwCTnUprf'
+flags: {}
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-talents.Item.qzdnrnBe4xAM5n5W
+  compendiumSource: null
   duplicateSource: null
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.2.4
-  createdTime: 1770924144147
-  modifiedTime: 1770924144147
+  systemVersion: 5.1.9
+  createdTime: 1759439619239
+  modifiedTime: 1759662146737
   lastModifiedBy: 9KtVYqHDTWORuJDZ
-_id: 7ipSBAQBKeiRzuni
-sort: -350000
+_id: qzdnrnBe4xAM5n5W
+sort: 391407
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
-_key: '!items!7ipSBAQBKeiRzuni'
+_key: '!items!qzdnrnBe4xAM5n5W'

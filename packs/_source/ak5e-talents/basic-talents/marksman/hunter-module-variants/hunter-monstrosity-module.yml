@@ -1,0 +1,106 @@
+folder: SMWEb9FiXWvchPWP
+name: Hunter (Monstrosity) (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Invincible1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module Effect: </strong>You gain a Bonus to Attack Rolls
+      against Creatures with that Creature Type equal to your Proficiency
+      Bonus.</p>
+    chat: ''
+  identifier: hunter-aberration
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Hunter (Module)
+    img: modules/ak5e/icons/Skill-Invincible1.png
+    origin: Item.N8cNydOK23f14u6t
+    _id: GNFjxq29W0Ikj0tl
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.attack.bonus
+        mode: 2
+        value: bonus=@prof; opponentActor.creatureType.includes('monstrosity');
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!fPoK0r3u6EvZKe68.GNFjxq29W0Ikj0tl'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767910556754
+  modifiedTime: 1767910811185
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: fPoK0r3u6EvZKe68
+sort: 162500
+_key: '!items!fPoK0r3u6EvZKe68'

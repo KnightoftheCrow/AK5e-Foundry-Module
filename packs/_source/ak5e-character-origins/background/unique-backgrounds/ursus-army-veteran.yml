@@ -23,31 +23,14 @@ system:
       _id: mI960iOr81EJV4ko
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.enKSl72KyMn6RWwj
+          - uuid: Item.enKSl72KyMn6RWwj
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
   description:
-    value: >-
-      <p>The Imperial Army is gargantuan. It is divided into seven armies, and
-      each of these armies is capable of taking on a smaller nation. The Third
-      Army was poised to take Lungmen, the Sixth Army fought against the
-      combined might of Higashi in the Bloodpeak Campaign. Ursus military
-      doctrine favours heavily armoured troops and powerful artillery, which has
-      contributed to their international reputation as destructive
-      tyrants.</p><p><strong>Proficiencies:</strong> You are Proficient in the
-      Maintenance Kit, and Vehicles (Drones).</p><p><strong>Background Feat
-      (Stormtrooper):</strong> As a former soldier of the Ursus Army, you are
-      familiar with their chosen tools of war; heavy armour, backed by heavier
-      firepower. When the enemy break, they are run down, and the invincible
-      army tramples o’er their corpses.</p><ul><li><p>You are Proficient with
-      one of the following, and may add one of them to your Starting Equipment;
-      Combat Gear, Polearm, Crossbow.</p></li><li><p>Your first Attack each Turn
-      against a Creature with the Frightened Condition, or Creatures that are
-      not wielding a weapon, deals additional Damage equal to your Proficiency
-      Bonus.</p></li></ul>
+    value: ''
     chat: ''
   identifier: ursus-army-veteran
   source:
@@ -68,10 +51,10 @@ _stats:
   compendiumSource: Item.IPlbiQS2D84nE84S
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1769881347037
-  modifiedTime: 1771155692793
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!IPlbiQS2D84nE84S'

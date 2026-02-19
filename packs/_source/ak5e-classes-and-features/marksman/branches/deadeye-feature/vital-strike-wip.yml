@@ -1,0 +1,54 @@
+folder: mhhCPYRgjBzheVER
+name: Vital Strike (WIP)
+type: feat
+_id: yBYmY2sbmNQS71ul
+img: icons/skills/wounds/bone-broken-knee-beam.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>As an Action, you make a Ranged Attack using a weapon you are wielding.
+      If it hits, it deals 3d6 additional Piercing Damage.</p><p>You may use
+      this Feature a number of times equal to your Proficiency Bonus, and
+      recover all expended uses upon finishing a Short Rest.</p>
+    chat: ''
+  identifier: vital-strike-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 106250
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767621308346
+  modifiedTime: 1767733377465
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!yBYmY2sbmNQS71ul'

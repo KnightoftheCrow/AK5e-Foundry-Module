@@ -357,6 +357,27 @@ system:
   identifier: lucky
   enchant: {}
   advancement:
+    - type: ItemChoice
+      _id: CzwM1vNxy9q9fV8W
+      configuration:
+        allowDrops: false
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.7bMFFwobIjVsIkT7
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
     - type: ScaleValue
       _id: nPiNaRjP1qTZZ93C
       configuration:
@@ -376,12 +397,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767873251358
-  modifiedTime: 1770914416577
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1768060703805
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 folder: U1VvPUnEP8A2c7Xk
 ownership:
   default: 0
