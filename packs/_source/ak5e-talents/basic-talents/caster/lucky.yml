@@ -1,6 +1,6 @@
 name: Lucky
 type: feat
-img: icons/magic/light/hand-sparks-glow-yellow.webp
+img: modules/ak5e/icons/Skill-CivilightEterna1.webp
 effects:
   - _id: e31tfoYwJoFTyCf6
     changes:
@@ -33,7 +33,7 @@ effects:
       turns: null
       startRound: 260
       startTurn: 1
-    origin: Item.t4xdDYmvgsfdXHD9
+    origin: Compendium.ak5e.ak5e-talents.Item.988LyB3yFcgsTeJP
     transfer: true
     flags:
       dae:
@@ -46,6 +46,7 @@ effects:
         selfTargetAlways: false
         disableIncapacitated: false
         showIcon: false
+        disableCondition: ''
       ActiveAuras:
         isAura: false
         radius: ''
@@ -61,9 +62,13 @@ effects:
         nameOverride: ''
         customCheck: ''
         wallsBlock: system
-      core: {}
+      core:
+        overlay: false
       dnd5e-helpers:
         rest-effect: Ignore
+      dnd5e:
+        riders:
+          statuses: []
     tint: '#ffffff'
     name: Luck Point
     description: ''
@@ -72,15 +77,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.347'
+      coreVersion: '13.348'
       systemId: dnd5e
-      systemVersion: 5.1.2
+      systemVersion: 5.2.4
       lastModifiedBy: null
-    img: icons/magic/light/hand-sparks-glow-yellow.webp
+    img: modules/ak5e/icons/Skill-CivilightEterna1.webp
     type: base
     system: {}
     sort: 0
-    _key: '!items.effects!Dc1hqsMghQe6Mli8.e31tfoYwJoFTyCf6'
+    _key: '!items.effects!988LyB3yFcgsTeJP.e31tfoYwJoFTyCf6'
 flags:
   core: {}
   midi-qol:
@@ -202,7 +207,9 @@ flags:
   tidy5e-sheet:
     section: ''
     actionSection: ''
-  dnd5e: {}
+  dnd5e:
+    riders:
+      activity: []
 system:
   description:
     value: >-
@@ -214,7 +221,8 @@ system:
       Bonus.</p><p><strong>Partially Automated: </strong>All effects regarding
       your D20 rolls are automated. Disadvantage on Attacks against you must be
       accounted for manually, and then the "Impose Disadvantage" Activity used
-      to expend the charge.</p>
+      to expend the charge. If you get Module, disable effect from previous
+      feat.</p>
     chat: ''
   source:
     custom: ''
@@ -224,7 +232,7 @@ system:
     page: ''
     license: ''
   uses:
-    max: '2'
+    max: '@scale.lucky.maxuses'
     recovery:
       - period: lr
         type: recoverAll
@@ -234,7 +242,7 @@ system:
     subtype: skillPoints
   requirements: ''
   prerequisites:
-    level: 4
+    level: 3
     repeatable: false
     items: []
   properties:
@@ -330,6 +338,7 @@ system:
         magicDamage: false
         noConcentrationCheck: false
         autoCEEffects: default
+        skipConcentrationCheck: false
       isOverTimeFlag: false
       overTimeProperties:
         saveRemoves: true
@@ -348,57 +357,35 @@ system:
   enchant: {}
   advancement:
     - type: ScaleValue
-      _id: vI5J9dNCVQc6bLCB
+      _id: nPiNaRjP1qTZZ93C
       configuration:
-        identifier: uses
-        type: number
+        identifier: maxuses
+        type: string
         distance:
           units: ''
         scale:
-          '0':
-            value: 2
+          '3':
+            value: '2'
       value: {}
-      title: Lucky Uses
-      hint: ''
-    - type: ItemChoice
-      _id: 0TNuOeBDH5Kup5dd
-      configuration:
-        allowDrops: true
-        choices:
-          '8':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.Ba6NFAnprhlPvaG7
-        restriction:
-          list: []
-          type: class
-          subtype: skillPoints
-        spell: null
-        type: feat
-      value:
-        added: {}
-        replaced: {}
       title: ''
-      hint: >-
-        Do you want to unlock this talent's module effect, or take another basic
-        talent?
+      hint: ''
   cover: null
   crewed: false
 _stats:
-  compendiumSource: null
+  compendiumSource: Compendium.ak5e.ak5e-talents.Item.TNysMEOsW57XDRxT
   duplicateSource: null
   exportSource: null
   coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.2.3
-  createdTime: 1758995065070
-  modifiedTime: 1766932690315
+  systemVersion: 5.2.4
+  createdTime: 1770924144147
+  modifiedTime: 1770924144147
   lastModifiedBy: 9KtVYqHDTWORuJDZ
-folder: zWAk7cUjjJDFehud
-_id: Dc1hqsMghQe6Mli8
-sort: 375000
+folder: qlhprYb2GHX3LPKU
 ownership:
   default: 0
+  GiT7LQTiCJxjm7mo: 3
   9KtVYqHDTWORuJDZ: 3
-_key: '!items!Dc1hqsMghQe6Mli8'
+_id: 988LyB3yFcgsTeJP
+sort: -200000
+_key: '!items!988LyB3yFcgsTeJP'

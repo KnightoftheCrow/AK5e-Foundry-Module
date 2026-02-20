@@ -22,7 +22,8 @@ system:
   crewed: false
   enchant: {}
   prerequisites:
-    items: []
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.1ZayOXSy5qjfyEaj
     repeatable: false
     level: 8
   properties:
@@ -44,10 +45,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767734654928
-  modifiedTime: 1767923715131
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1770914684820
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!ABQtBAOGunZV4taU'

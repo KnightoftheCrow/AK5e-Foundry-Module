@@ -1,37 +1,14 @@
-folder: zWAk7cUjjJDFehud
+folder: qlhprYb2GHX3LPKU
 name: Unwavering Accuracy
 type: feat
-img: icons/magic/light/beam-horizon-strike-yellow.webp
+img: modules/ak5e/icons/Skill-Lemuen2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement:
-    - type: ItemChoice
-      _id: Tsp22Dsy46GTKNCk
-      configuration:
-        allowDrops: true
-        choices:
-          '8':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.PworX43PVxyg3nWI
-        restriction:
-          list: []
-          type: class
-          subtype: skillPoints
-        spell: null
-        type: feat
-      value:
-        added: {}
-        replaced: {}
-      title: ''
-      hint: >-
-        Do you want to unlock this talent's module effect, or take another basic
-        talent?
+  advancement: []
   description:
     value: >-
       <p>You no longer have Disadvantage when making Ranged Spell Attacks while
@@ -56,16 +33,16 @@ system:
   prerequisites:
     items: []
     repeatable: false
-    level: null
+    level: 3
   properties: []
   requirements: ''
   type:
-    value: ''
-    subtype: ''
+    value: class
+    subtype: skillPoints
 effects:
-  - name: Unwavering Accuracy
-    img: icons/magic/light/beam-horizon-strike-yellow.webp
-    origin: Item.8t2bEo9UGXqFQuoA
+  - name: Ignore nearby Creatures and Cover for Ranged Attacks
+    img: modules/ak5e/icons/Skill-Lemuen2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.p5XRnB4KDQZOihzo
     _id: z4JVhlFb44VHhSEx
     type: base
     system: {}
@@ -110,25 +87,28 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.347'
+      coreVersion: '13.348'
       systemId: dnd5e
-      systemVersion: 5.1.9
+      systemVersion: 5.2.4
       lastModifiedBy: null
-    _key: '!items.effects!pGpBSUkuNXRaORpa.z4JVhlFb44VHhSEx'
-flags: {}
+    _key: '!items.effects!p5XRnB4KDQZOihzo.z4JVhlFb44VHhSEx'
+flags:
+  dnd5e:
+    riders:
+      activity: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Compendium.ak5e.ak5e-talents.Item.pGpBSUkuNXRaORpa
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1759429438314
-  modifiedTime: 1759429461833
+  systemVersion: 5.2.4
+  createdTime: 1770924144147
+  modifiedTime: 1770924584527
   lastModifiedBy: 9KtVYqHDTWORuJDZ
-_id: pGpBSUkuNXRaORpa
-sort: 397657
+_id: p5XRnB4KDQZOihzo
+sort: -400000
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
-_key: '!items!pGpBSUkuNXRaORpa'
+_key: '!items!p5XRnB4KDQZOihzo'

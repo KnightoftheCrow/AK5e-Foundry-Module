@@ -1,0 +1,261 @@
+folder: null
+name: Corrosion Arts Pool
+type: feat
+img: icons/magic/acid/dissolve-pool-bubbles.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      _id: hOcBNrk9NoZlmRR7
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.JLTQyqXEaJDrTXyW
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.ZcGLMeJBnl6RBdBq
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.L9KNkiqAh5KxKL90
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-arts.Item.xKNV5prT5LTXhrGv
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.H8oecLMN87nAixzC
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.P3K3ekWBKzYu6uY0
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 1
+      title: ''
+      hint: ''
+      _id: NABo3MwY4iduxq7N
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.4H6YgYdKgnX6ZQ8M
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.nm1ExoCSEowLFGax
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.740yzV2XVFY7WdQp
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.Bmwc0jRoTMw3qitx
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      title: ''
+      hint: ''
+      _id: IXt1si7dhdRwfgKW
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-arts.Item.1cFrOdrs089v5Nzm
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      title: ''
+      hint: ''
+      _id: jMthAthuKu3jDmob
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplVitriolicS
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.1bfhvFudQc5ZfIR4
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 7
+      title: ''
+      hint: ''
+      _id: C7IWnQmAB9J6cUaJ
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-arts.Item.ETCKm8SOuCUJ3aRF
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      title: ''
+      hint: ''
+      _id: soeQVL26jp0JRVpB
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-arts.Item.AqA4sMwkRGlyf1ox
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 11
+      title: ''
+      hint: ''
+      _id: 2nENPeY91lFOuI7W
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-arts.Item.jCXsY6BhFR8fWeFy
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 13
+      title: ''
+      hint: ''
+      _id: cpKswOWYpj91k6Wb
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-arts.Item.xkzFERSRNA5YVIyg
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 17
+      title: ''
+      hint: ''
+      _id: TvX8kmCZwEUSVT85
+  description:
+    value: >-
+      <p>One of the more brutalist applications of Arts, Corrosion Arts serve
+      only to harm and destroy. There is little subtlety in their application,
+      as Corrosion Casters bathe their targets in caustic gases and corrosive
+      fluids.</p><p>(Arts that are <span
+      style="text-decoration:underline">underlined</span> require the Player's
+      Handbook. Arts that are in <em>italics</em> require Tasha's Cauldron of
+      Everything. Arts that are <strong>Bold</strong> are not currently
+      available in official content on Foundry) </p><table><thead><tr><td><p
+      style="text-align:center"><strong>Arts Level</strong></p></td><td><p
+      style="text-align:center"><strong>Arts</strong></p></td></tr></thead><tbody><tr><td><p>Cantrip</p></td><td><p>Acid
+      Splash, Acid Surge, Produce
+      Acid</p></td></tr><tr><td><p>1st</p></td><td><p>Acid Armour, Acid Douse,
+      <em>Tasha's Caustic Brew</em>,
+      Corrode</p></td></tr><tr><td><p>2nd</p></td><td><p>Abrasive Aura, Acid
+      Arrow, Melting Mines,
+      Rust</p></td></tr><tr><td><p>3rd</p></td><td><p>Boiling Burst, Melting
+      Mist</p></td></tr><tr><td><p>4th</p></td><td><p>Acid Wave, <span
+      style="text-decoration:underline">Vitrolic
+      Sphere</span></p></td></tr><tr><td><p>5th</p></td><td><p>Acidify
+      Blood</p></td></tr><tr><td><p>6th</p></td><td><p>Acid
+      Rain</p></td></tr><tr><td><p>7th</p></td><td><p>Acerbic
+      Flow</p></td></tr><tr><td><p>8th</p></td><td><p>-</p></td></tr><tr><td><p>9th</p></td><td>Sea
+      of Acid</td></tr></tbody></table>
+    chat: ''
+  identifier: corrosion-arts
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1770836301774
+  modifiedTime: 1771158715493
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: nsm65jQ87gFuXzrf
+sort: 100000
+_key: '!items!nsm65jQ87gFuXzrf'

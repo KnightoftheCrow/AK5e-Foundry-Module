@@ -9,28 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement:
-    - type: ItemChoice
-      _id: MZ8m2WdIBxhRwvFu
-      configuration:
-        allowDrops: false
-        choices:
-          '8':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.xXoFEUm40eZWIHYx
-        restriction:
-          list: []
-        spell: null
-        type: null
-      value:
-        added: {}
-        replaced: {}
-      title: ''
-      hint: >-
-        Do you want to unlock talent's module effect, or take another basic
-        talent?
+  advancement: []
   description:
     value: >-
       <p>While you are wearing no Armour, your Speed increases by
@@ -122,10 +101,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767736701823
-  modifiedTime: 1767914856467
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1770914478416
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!djXI6GLIRAdKvd1j'

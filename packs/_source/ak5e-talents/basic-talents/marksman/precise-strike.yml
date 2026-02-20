@@ -9,28 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement:
-    - type: ItemChoice
-      _id: Kc7l74Gk5g0pssBj
-      configuration:
-        allowDrops: false
-        choices:
-          '8':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.oXrDMro8DgKx37aw
-        restriction:
-          list: []
-        spell: null
-        type: null
-      value:
-        added: {}
-        replaced: {}
-      title: ''
-      hint: >-
-        Do you want to unlock talent's module effect, or take another basic
-        talent?
+  advancement: []
   description:
     value: >-
       <p>Your Ranged Attacks against Creatures outside of the Normal Range of
@@ -124,10 +103,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767736360968
-  modifiedTime: 1768003533714
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1770914460258
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!rQs0HWi7n3P0iSBP'

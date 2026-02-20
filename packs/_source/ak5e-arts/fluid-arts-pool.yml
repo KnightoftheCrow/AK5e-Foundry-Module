@@ -1,0 +1,280 @@
+folder: null
+name: Fluid Arts Pool
+type: feat
+img: icons/magic/water/orb-water-bubbles.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    - type: ItemGrant
+      _id: hOcBNrk9NoZlmRR7
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-arts.Item.xyGw7JrfXb2SgbB0
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.YsWJe2CHwpWu6MA0
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.a3XtAO5n2GrqiAh5
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.IBJmWjzbQGu7M4UX
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.etgcR9wqmrhyZ0tx
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.Kn7K5PtYUJAKZTTp
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 1
+      title: ''
+      hint: ''
+      _id: NABo3MwY4iduxq7N
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.aWQwDt41B2XXT5Nf
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 3
+      title: ''
+      hint: ''
+      _id: IXt1si7dhdRwfgKW
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.13uVuBQP6VaiSPvC
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.YBda6nLKjxdT1LbS
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 5
+      title: ''
+      hint: ''
+      _id: jMthAthuKu3jDmob
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.7fFHlBk3UNX8gPKL
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 7
+      title: ''
+      hint: ''
+      _id: C7IWnQmAB9J6cUaJ
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 9
+      title: ''
+      hint: ''
+      _id: soeQVL26jp0JRVpB
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-arts.Item.k8MuY0fx9NmQD89G
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 11
+      title: ''
+      hint: ''
+      _id: 2nENPeY91lFOuI7W
+    - type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 13
+      title: ''
+      hint: ''
+      _id: cpKswOWYpj91k6Wb
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplTsunami000
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 15
+      title: ''
+      hint: ''
+      _id: TvX8kmCZwEUSVT85
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-arts.Item.SPHd0vvTHQCsBvEg
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      value: {}
+      level: 17
+      title: ''
+      hint: ''
+      _id: tfgARHFzs7NG6V1w
+  description:
+    value: >-
+      <p>An oft neglected field of Arts, Fluid Arts do exactly what their name
+      implies, and manipulate fluids. Typically, this is water, but it need not
+      be. Fluid Arts are less about raw destructive force, but utility; few can
+      resist the raging torrent pushing them around, and fewer still are immune
+      to drowning.</p><p>(Arts that are <span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">underlined</span></span> require the
+      Player's Handbook. Arts that are in <em>italics</em> require Tasha's
+      Cauldron of Everything. Arts that are <strong>Bold</strong> are not
+      currently available in official content on Foundry; often Xanathar's Guide
+      to Everything.)</p><table><thead><tr><td><p
+      style="text-align:center"><strong>Arts Level</strong></p></td><td><p
+      style="text-align:center"><strong>Arts</strong></p></td></tr></thead><tbody><tr><td><p>Cantrip</p></td><td><p>Aqua
+      Blade, <strong>Shape Water,</strong> Water
+      Bullet</p></td></tr><tr><td><p>1st</p></td><td><p>Create/Destroy Water,
+      Fog Cloud, Grease, Purify
+      Food/Drink</p></td></tr><tr><td><p>2nd</p></td><td><p>Misty Step, Water
+      Pulse</p></td></tr><tr><td><p>3rd</p></td><td><p><strong>Tidal
+      Wave</strong>, Water Breathing, Water Walk, <strong>Wall of
+      Water</strong></p></td></tr><tr><td><p>4th</p></td><td><p>Control Water,
+      <strong>Watery
+      Sphere</strong></p></td></tr><tr><td><p>5th</p></td><td><p><strong>Maelstrom</strong></p></td></tr><tr><td><p>6th</p></td><td><p><strong>Investiture
+      of
+      Water</strong></p></td></tr><tr><td><p>7th</p></td><td><p>-</p></td></tr><tr><td><p>8th</p></td><td><p><strong>Abi-Dalzim's
+      Horrid Wilting</strong>, <span
+      style="text-decoration:underline">Tsunami</span></p></td></tr><tr><td><p>9th</p></td><td>Fill
+      Lungs</td></tr></tbody></table>
+    chat: ''
+  identifier: fluid-arts
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1770836349442
+  modifiedTime: 1771159045384
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: dGres586wEl9utMg
+sort: 106250
+_key: '!items!dGres586wEl9utMg'

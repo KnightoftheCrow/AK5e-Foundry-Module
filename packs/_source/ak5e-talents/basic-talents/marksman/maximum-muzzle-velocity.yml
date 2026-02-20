@@ -9,28 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement:
-    - type: ItemChoice
-      _id: zTywDUQ1c2FoPk3V
-      configuration:
-        allowDrops: false
-        choices:
-          '8':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.z0QwdMcZdacDXUwC
-        restriction:
-          list: []
-        spell: null
-        type: null
-      value:
-        added: {}
-        replaced: {}
-      title: ''
-      hint: >-
-        Do you want to unlock talent's module effect, or take another basic
-        talent?
+  advancement: []
   description:
     value: >-
       <p>Your Ranged Weapon Attacks against Creatures within 30 feet of you gain
@@ -70,10 +49,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767736176239
-  modifiedTime: 1767909945035
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1770914428968
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!rBuQjsMnnEK0nQ2I'

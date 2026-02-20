@@ -9,26 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement:
-    - type: ItemChoice
-      _id: tAX2Keh4oC6AxdCf
-      configuration:
-        allowDrops: false
-        choices:
-          '13':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.asqpWDR8yqEbi90k
-        restriction:
-          list: []
-        spell: null
-        type: null
-      value:
-        added: {}
-        replaced: {}
-      title: ''
-      hint: ''
+  advancement: []
   description:
     value: >-
       <p>You have Damage Resistance against all Damage equal to your Proficiency
@@ -66,10 +47,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738645197
-  modifiedTime: 1768145448955
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1770915157228
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!mlANfWU9dVkEcDSi'

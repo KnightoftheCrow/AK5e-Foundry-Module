@@ -37,15 +37,15 @@ system:
       _id: sTBIRcasYW8bSwml
       configuration:
         items:
-          - uuid: Item.ry89CLEPmkWmyH73
-            optional: false
-          - uuid: Item.HsX3HDZSwSN2MbJz
-            optional: false
-          - uuid: Item.sh0R8KyrWYdQarX4
-            optional: false
-          - uuid: Item.547ctSSj45OJdK7B
-            optional: false
           - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.ry89CLEPmkWmyH73
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.HsX3HDZSwSN2MbJz
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.sh0R8KyrWYdQarX4
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1TxciocDhjUUeXjV
             optional: false
         optional: false
         spell: null
@@ -164,10 +164,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768680286308
-  modifiedTime: 1769881419346
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1771156638704
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!ZZiA36wILKz9XB9B'

@@ -9,26 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement:
-    - type: ItemChoice
-      _id: ugioAoiWupsokvp5
-      configuration:
-        allowDrops: false
-        choices:
-          '13':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.IuPBrdz8iyjMI1I8
-        restriction:
-          list: []
-        spell: null
-        type: null
-      value:
-        added: {}
-        replaced: {}
-      title: ''
-      hint: ''
+  advancement: []
   description:
     value: >-
       <p>Once per Turn, when you hit a Creature within 5 feet of an allied
@@ -118,10 +99,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738621760
-  modifiedTime: 1768145448955
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1770915203869
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!euKbo82wr4mpE7Dv'
