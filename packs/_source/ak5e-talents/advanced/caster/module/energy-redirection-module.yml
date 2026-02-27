@@ -1,0 +1,663 @@
+folder: xZIHKSAf1iQQkfT3
+name: Energy Redirection (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Pudding2.webp
+system:
+  activities:
+    OGqmgvaf0xwigjdJ:
+      type: utility
+      _id: OGqmgvaf0xwigjdJ
+      sort: 0
+      activation:
+        type: longRest
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: disp
+        concentration: false
+        override: false
+      effects:
+        - _id: ScQPrvQg8Vfs2KHt
+          level:
+            min: null
+            max: null
+        - _id: D3LGLhiQq2acR4ow
+          level:
+            min: null
+            max: null
+        - _id: P2jEmC40XQQEPXmw
+          level:
+            min: null
+            max: null
+        - _id: l7bMpjfpdGxToVtX
+          level:
+            min: null
+            max: null
+        - _id: htY14vJDbGbPQnc4
+          level:
+            min: null
+            max: null
+        - _id: i40gyXAz5QJ62y5s
+          level:
+            min: null
+            max: null
+        - _id: z2ceykDcSYO6NJnS
+          level:
+            min: null
+            max: null
+        - _id: 4tWOYBAhMmboS9Ep
+          level:
+            min: null
+            max: null
+        - _id: dCBmeTWSyjjyDvkl
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: true
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Choose Additional Resistance
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module: </strong>You may choose two Damage Types for this
+      Feature, as opposed to just one.</p><p><strong>Partially Automated:
+      </strong>Use the Activity on this Feature to choose a Damage Resistance;
+      however, when you reselect a new Damage Resistance, it will not delete the
+      old one. You will have to do this manually. The Reaction will trigger
+      whenever you are damaged, not just from corresponding damage types; make
+      sure you pick the right damage type for the Saving Throw.</p>
+    chat: ''
+  identifier: energy-redirection
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
+    repeatable: false
+    level: 13
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Acid Resistance
+    img: modules/ak5e/icons/Skill-Pudding2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.yBMBSybpQK1iAnFb
+    transfer: false
+    _id: ScQPrvQg8Vfs2KHt
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: acid
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: Item.kTbut5VOuncR3jvN.ActiveEffect.bIszxMotzttFGTKo
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!yBMBSybpQK1iAnFb.ScQPrvQg8Vfs2KHt'
+  - name: Cold Resistance
+    img: modules/ak5e/icons/Skill-Pudding2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.yBMBSybpQK1iAnFb
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: cold
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: Item.kTbut5VOuncR3jvN.ActiveEffect.bIszxMotzttFGTKo
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: D3LGLhiQq2acR4ow
+    _key: '!items.effects!yBMBSybpQK1iAnFb.D3LGLhiQq2acR4ow'
+  - name: Fire Resistance
+    img: modules/ak5e/icons/Skill-Pudding2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.yBMBSybpQK1iAnFb
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: fire
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: Item.kTbut5VOuncR3jvN.ActiveEffect.bIszxMotzttFGTKo
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: P2jEmC40XQQEPXmw
+    _key: '!items.effects!yBMBSybpQK1iAnFb.P2jEmC40XQQEPXmw'
+  - name: Force Resistance
+    img: modules/ak5e/icons/Skill-Pudding2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.yBMBSybpQK1iAnFb
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: force
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: Item.kTbut5VOuncR3jvN.ActiveEffect.bIszxMotzttFGTKo
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: l7bMpjfpdGxToVtX
+    _key: '!items.effects!yBMBSybpQK1iAnFb.l7bMpjfpdGxToVtX'
+  - name: Lightning Resistance
+    img: modules/ak5e/icons/Skill-Pudding2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.yBMBSybpQK1iAnFb
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: lightning
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: Item.kTbut5VOuncR3jvN.ActiveEffect.bIszxMotzttFGTKo
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: htY14vJDbGbPQnc4
+    _key: '!items.effects!yBMBSybpQK1iAnFb.htY14vJDbGbPQnc4'
+  - name: Necrotic Resistance
+    img: modules/ak5e/icons/Skill-Pudding2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.yBMBSybpQK1iAnFb
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: necrotic
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: Item.kTbut5VOuncR3jvN.ActiveEffect.bIszxMotzttFGTKo
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: i40gyXAz5QJ62y5s
+    _key: '!items.effects!yBMBSybpQK1iAnFb.i40gyXAz5QJ62y5s'
+  - name: Poison Resistance
+    img: modules/ak5e/icons/Skill-Pudding2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.yBMBSybpQK1iAnFb
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: poison
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: Item.kTbut5VOuncR3jvN.ActiveEffect.bIszxMotzttFGTKo
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: z2ceykDcSYO6NJnS
+    _key: '!items.effects!yBMBSybpQK1iAnFb.z2ceykDcSYO6NJnS'
+  - name: Psychic Resistance
+    img: modules/ak5e/icons/Skill-Pudding2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.yBMBSybpQK1iAnFb
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: psychic
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: Item.kTbut5VOuncR3jvN.ActiveEffect.bIszxMotzttFGTKo
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: 4tWOYBAhMmboS9Ep
+    _key: '!items.effects!yBMBSybpQK1iAnFb.4tWOYBAhMmboS9Ep'
+  - name: Radiant Resistance
+    img: modules/ak5e/icons/Skill-Pudding2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.yBMBSybpQK1iAnFb
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: radiant
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: Item.kTbut5VOuncR3jvN.ActiveEffect.bIszxMotzttFGTKo
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: dCBmeTWSyjjyDvkl
+    _key: '!items.effects!yBMBSybpQK1iAnFb.dCBmeTWSyjjyDvkl'
+sort: 106250
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: Item.h4Oi82fAZ8XgmOKz
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1772222746366
+  modifiedTime: 1772223220600
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: yBMBSybpQK1iAnFb
+_key: '!items!yBMBSybpQK1iAnFb'

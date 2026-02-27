@@ -1,0 +1,55 @@
+folder: xZIHKSAf1iQQkfT3
+name: Reliable Talent (Module)
+type: feat
+img: modules/ak5e/icons/Skill-TheParadigmatic1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module:</strong> You cannot have Disadvantage on any Check
+      using a Skill or Tool you are Proficiency with.</p>
+    chat: ''
+  identifier: reliable-talent
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.4SV7b7oKcQF3AiR2
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-talents.Item.aQ2FCQPTVkAj2IYO
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1772222746366
+  modifiedTime: 1772223119620
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+  9KtVYqHDTWORuJDZ: 3
+_id: ollzQbDpIKKUYZPS
+sort: 150000
+_key: '!items!ollzQbDpIKKUYZPS'

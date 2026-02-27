@@ -1,0 +1,53 @@
+folder: xZIHKSAf1iQQkfT3
+name: Flash of Insight (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Titi1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module: </strong>You may now roll up to 2 additional dice per
+      Art.</p><p><strong>Cannot be automated.</strong></p>
+    chat: ''
+  identifier: flash-of-insight
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.f2cj2K2YyC6E15Qt
+    repeatable: false
+    level: 13
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: Item.f2cj2K2YyC6E15Qt
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1772222746366
+  modifiedTime: 1772223188026
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: M35WhqZ6MOxF6vlT
+_key: '!items!M35WhqZ6MOxF6vlT'

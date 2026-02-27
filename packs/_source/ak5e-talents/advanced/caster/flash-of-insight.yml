@@ -1,0 +1,55 @@
+folder: cyW9fgrb9XaTddeH
+name: Flash of Insight
+type: feat
+_id: f2cj2K2YyC6E15Qt
+img: modules/ak5e/icons/Skill-Titi1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>When you roll Damage for an Art, if any result on a dice is the maximum
+      value that could be rolled on that dice, you may roll 1 additional die and
+      add it to the total Damage. You may only do so once per
+      Art.</p><p><strong>Module: </strong>You may now roll up to 2 additional
+      dice per Art.</p><p><strong>Cannot be automated.</strong></p>
+    chat: ''
+  identifier: flash-of-insight
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 500000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1772222746366
+  modifiedTime: 1772222746366
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!f2cj2K2YyC6E15Qt'
