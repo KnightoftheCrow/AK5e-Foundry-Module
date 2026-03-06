@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Caster
+color: null
+sorting: a
+_id: UnUs5BJlTCzknMdU
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1772821653232
+  modifiedTime: 1772821653232
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!folders!UnUs5BJlTCzknMdU'

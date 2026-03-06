@@ -861,7 +861,7 @@ system:
     ability: ''
   wealth: '1300'
 effects: []
-folder: null
+folder: iC3JKDqYvfc25vaP
 flags:
   dnd5e:
     riders:
@@ -874,7 +874,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1770915912760
-  modifiedTime: 1770915912794
+  modifiedTime: 1772813244251
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0

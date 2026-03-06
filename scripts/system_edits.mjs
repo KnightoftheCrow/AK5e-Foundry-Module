@@ -381,7 +381,8 @@ Hooks.once("init", () => {
 
 	CONFIG.DND5E.featureTypes.class.subtypes.artsPoints = "Arts Points"
 	CONFIG.DND5E.featureTypes.class.subtypes.skillPoints = "Skill Points"
-	CONFIG.DND5E.featureTypes.class.subtypes.skillPoints = "Talent"
+	CONFIG.DND5E.featureTypes.class.subtypes.talent = "Talent"
+	CONFIG.DND5E.featureTypes.class.subtypes.opSkill = "Operator Skill"
 	
 // Replaces Unused Skills
 

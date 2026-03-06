@@ -1,0 +1,354 @@
+folder: vfwGZsyVOPxfr1S3
+name: Caster
+type: class
+img: modules/ak5e/icons/48px-Caster.webp
+system:
+  advancement:
+    - type: HitPoints
+      _id: zU7ZNAvzBLkUQhuv
+      configuration: {}
+      value: {}
+    - type: Subclass
+      level: 1
+      _id: hrvvRpSjSLm2Vo2V
+      configuration: {}
+      value:
+        document: null
+        uuid: null
+      title: ''
+      hint: ''
+    - type: AbilityScoreImprovement
+      level: 4
+      _id: 3StjwCpRS0IfmYkc
+      configuration:
+        cap: 2
+        fixed: {}
+        locked: []
+        points: 2
+        recommendation: null
+      value:
+        type: asi
+    - type: AbilityScoreImprovement
+      level: 8
+      _id: NWMayRQrdXcm3IHK
+      configuration:
+        cap: 2
+        fixed: {}
+        locked: []
+        points: 2
+        recommendation: null
+      value:
+        type: asi
+    - type: AbilityScoreImprovement
+      level: 12
+      _id: Ay6KBFCCiTMNv7rF
+      configuration:
+        cap: 2
+        fixed: {}
+        locked: []
+        points: 2
+        recommendation: null
+      value:
+        type: asi
+    - type: AbilityScoreImprovement
+      level: 16
+      _id: 9Y2lbcrbiqdy5SB2
+      configuration:
+        cap: 2
+        fixed: {}
+        locked: []
+        points: 2
+        recommendation: null
+      value:
+        type: asi
+    - type: AbilityScoreImprovement
+      level: 19
+      _id: ewK1qNtgmOjQTrwo
+      configuration:
+        cap: 2
+        fixed: {}
+        locked: []
+        points: 2
+        recommendation: null
+      value:
+        type: asi
+    - type: Trait
+      _id: yijzMBEjhkBUCT2w
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 2
+            pool:
+              - saves:int
+              - saves:wis
+              - saves:cha
+        grants: []
+        mode: default
+      level: 1
+      title: ''
+      hint: ''
+      value: {}
+    - type: Trait
+      _id: BEXjlaT3Gn37ogcq
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - armor:lts
+        mode: default
+      level: 1
+      title: ''
+      hint: ''
+      value: {}
+    - type: Trait
+      _id: aixFk4qBXUVTNKYN
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 3
+            pool:
+              - skills:arc
+              - skills:ins
+              - skills:inv
+              - skills:rel
+              - skills:prc
+              - skills:tech
+        grants: []
+        mode: default
+      level: 1
+      title: ''
+      hint: ''
+      value: {}
+    - type: Trait
+      _id: Qdr2slIB1THGkXpC
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:ltm
+        mode: default
+      level: 1
+      title: ''
+      hint: ''
+      value: {}
+    - type: ItemChoice
+      _id: 1Hb8NpGQQLxs8ujI
+      configuration:
+        allowDrops: false
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-items.Item.8YnvqZkWkp8JrS0y
+          - uuid: Compendium.ak5e.ak5e-items.Item.KjYWdRFtdaAGe4yK
+          - uuid: Compendium.ak5e.ak5e-items.Item.FPznW6rW4nghDh1r
+          - uuid: Compendium.ak5e.ak5e-items.Item.yRwC4x79xE5iUW7K
+          - uuid: Compendium.ak5e.ak5e-items.Item.EXF9dlqFHPDHi3KF
+          - uuid: Compendium.ak5e.ak5e-items.Item.gQexKnwZdkamQcJ7
+          - uuid: Compendium.ak5e.ak5e-items.Item.Ve5i7MSi8dzq0UJG
+          - uuid: Compendium.ak5e.ak5e-items.Item.nkDWWkosdoJz2U6i
+          - uuid: Compendium.ak5e.ak5e-items.Item.ajnr0G1r5uS2J8BP
+          - uuid: Compendium.ak5e.ak5e-items.Item.DSudvLQbkLWPs6g8
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: Choose Light Melee or Light Shield
+      hint: ''
+    - type: ItemChoice
+      _id: jsqz7468T7O3d2Ry
+      configuration:
+        allowDrops: false
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-items.Item.8YnvqZkWkp8JrS0y
+          - uuid: Compendium.ak5e.ak5e-items.Item.KjYWdRFtdaAGe4yK
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: Choose Arts Wand or Arts Staff
+      hint: ''
+    - type: ItemChoice
+      _id: e12fjsdAVQV79Z4U
+      configuration:
+        allowDrops: false
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-items.Item.uJv6rhzPijvjHznJ
+          - uuid: Compendium.ak5e.ak5e-items.Item.Ildgv7odyqeahxmy
+          - uuid: Compendium.ak5e.ak5e-items.Item.cx7nNrpfLvAHIfmq
+          - uuid: Compendium.ak5e.ak5e-items.Item.XfS9C2RHzrrMdlip
+          - uuid: Compendium.ak5e.ak5e-items.Item.ZuHZkt1h2YP8lgwu
+          - uuid: Compendium.ak5e.ak5e-items.Item.SCHjE2T5gXZRtIpX
+          - uuid: Compendium.ak5e.ak5e-items.Item.96vApcsV1yyaPTyD
+          - uuid: Compendium.ak5e.ak5e-items.Item.QvzlfvutcIIezpDs
+          - uuid: Compendium.ak5e.ak5e-items.Item.gFr3mcd57Og1c0pZ
+          - uuid: Compendium.ak5e.ak5e-items.Item.Hs0mF5dzKXUqdAdP
+          - uuid: Compendium.ak5e.ak5e-items.Item.5l64laM4rk4Ivi0m
+          - uuid: Compendium.ak5e.ak5e-items.Item.YAl6BnAF78PaYlDX
+          - uuid: Compendium.ak5e.ak5e-items.Item.dqXsCaK1P0JhtYC4
+          - uuid: Compendium.ak5e.ak5e-items.Item.sIWoR9fKRrec9UfW
+          - uuid: Compendium.ak5e.ak5e-items.Item.Nng70cKI1btONIpk
+          - uuid: Compendium.ak5e.ak5e-items.Item.8kQVIEXNMpMwu0XE
+          - uuid: Compendium.ak5e.ak5e-items.Item.tDJPOjB3go7yh1at
+          - uuid: Compendium.ak5e.ak5e-items.Item.YRaUmzhRyxMbjH3U
+          - uuid: Compendium.ak5e.ak5e-items.Item.LL42rU6BBic45HZv
+          - uuid: Compendium.ak5e.ak5e-items.Item.0ft9PxeRW8FoUjgb
+          - uuid: Compendium.ak5e.ak5e-items.Item.IIulvylBDhw2Zz4F
+          - uuid: Compendium.ak5e.ak5e-items.Item.JAmRuAi1wbg4Zwdm
+          - uuid: Compendium.ak5e.ak5e-items.Item.wqd3yeo5ea2DAqD9
+          - uuid: Compendium.ak5e.ak5e-items.Item.YWNh0sRApVhTseeC
+          - uuid: Compendium.ak5e.ak5e-items.Item.yUbrNv1GkAtDTujE
+          - uuid: Compendium.ak5e.ak5e-items.Item.2MfZHPX5xtOxH4Zr
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: Choose a Tool Kit
+      hint: Choose a Tool Kit you are Proficient with.
+    - type: ItemGrant
+      _id: Nk39hs0nHbhuubJP
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Skill Points
+      hint: ''
+    - type: Trait
+      _id: gZfQfSgKmpM493Ae
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit
+              - tool:vehicle
+        grants: []
+        mode: default
+      level: 1
+      title: ''
+      hint: ''
+      value: {}
+  description:
+    value: ''
+    chat: ''
+  identifier: caster
+  source:
+    revision: 1
+    rules: '2014'
+  startingEquipment:
+    - type: OR
+      requiresProficiency: false
+      _id: RbfMcsy9PUMr11I5
+      group: Tbj4s3cN0p5uECUf
+      sort: 1200000
+    - type: tool
+      count: null
+      key: toolkit
+      requiresProficiency: false
+      _id: Ri4wOnlPUduboREw
+      group: RbfMcsy9PUMr11I5
+      sort: 800000
+    - type: AND
+      requiresProficiency: false
+      _id: Tbj4s3cN0p5uECUf
+      group: ''
+      sort: 900000
+    - type: OR
+      requiresProficiency: false
+      _id: chjzQrxSqOP3qTE1
+      group: Tbj4s3cN0p5uECUf
+      sort: 1000000
+    - type: armor
+      count: null
+      key: lightS
+      requiresProficiency: false
+      _id: WOylatClXmGIQDLC
+      group: chjzQrxSqOP3qTE1
+      sort: 250000
+    - type: weapon
+      count: null
+      key: ltm
+      requiresProficiency: false
+      _id: SSPWF3tVdVlJGLaK
+      group: chjzQrxSqOP3qTE1
+      sort: 300000
+    - type: OR
+      requiresProficiency: false
+      _id: yxLbVQ2CyzGnqAhh
+      group: Tbj4s3cN0p5uECUf
+      sort: 1100000
+    - type: linked
+      count: null
+      key: Compendium.ak5e.ak5e-items.Item.KjYWdRFtdaAGe4yK
+      requiresProficiency: false
+      _id: UW9PzOp2ncb8pFcO
+      group: yxLbVQ2CyzGnqAhh
+      sort: 600000
+    - type: linked
+      count: null
+      key: Compendium.ak5e.ak5e-items.Item.8YnvqZkWkp8JrS0y
+      requiresProficiency: false
+      _id: AnAIzyHTwWMXL0O0
+      group: yxLbVQ2CyzGnqAhh
+      sort: 700000
+  hd:
+    additional: ''
+    denomination: d6
+    spent: 0
+  levels: 1
+  primaryAbility:
+    value:
+      - int
+      - wis
+      - cha
+    all: false
+  properties: []
+  spellcasting:
+    progression: full
+    preparation:
+      formula: ''
+    ability: int
+  wealth: '1300'
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1772813234996
+  modifiedTime: 1772813361316
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: wz6ZIyWLQUFM3i8P
+sort: 100000
+_key: '!items!wz6ZIyWLQUFM3i8P'

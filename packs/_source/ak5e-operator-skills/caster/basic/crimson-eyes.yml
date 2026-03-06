@@ -1,0 +1,313 @@
+folder: wMYv1txZ65AOCzbH
+name: Crimson Eyes
+type: feat
+img: modules/ak5e/icons/Skill-Haze1.webp
+system:
+  activities:
+    wMGm6HNoPIk0dCBt:
+      type: damage
+      _id: wMGm6HNoPIk0dCBt
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: '9'
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '15'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            scaling:
+              mode: ''
+          - type: itemUses
+            value: '-1'
+            target: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+            scaling:
+              mode: amount
+              formula: '-1'
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 12
+            bonus: ''
+            types:
+              - none
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      name: Use
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
+      SP</p></td><td><p>Charging</p></td><td><p>Activation</p></td><td><p>Duration</p></td></tr></thead><tbody><tr><td><p>10</p></td><td><p>10</p></td><td><p>Automatic</p></td><td><p>Reaction</p></td><td><p>Instant</p></td></tr></tbody></table><p><strong>Effect:
+      </strong>When you cast an Art using Arts Points, you may use this Operator
+      Skill to lose Hit Points in intervals of 1d12. For each 1d12 you lose, one
+      of the Arts Points you used to cast that Art is
+      refunded.</p><p><strong>Automated: </strong>When you cast an Art you will
+      be prompted to use this; simply close the popup if you do not wish to.
+      There are limitations; you will be prompted for this when casting a
+      Cantrip; as Cantrips do not cost Arts Points, you cannot get a refund on
+      them. Additionally, you can technically choose to refund more Arts Points
+      than you have spent; this is not reccomended, as you will take the
+      appropriately scaled damage, and it is also cheating.</p>
+    chat: ''
+  identifier: crimson-eyes
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: opSkill
+effects:
+  - name: Crimson Eyes (Skill Points)
+    img: modules/ak5e/icons/Skill-Haze1.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.rXV6Lwg4pCzFRDZn
+    _id: flx7lohMTgQh5EDM
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 4
+        value: '10'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 4
+        value: '15'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!rXV6Lwg4pCzFRDZn.flx7lohMTgQh5EDM'
+  - name: Crimson Eyes
+    img: modules/ak5e/icons/Skill-Haze1.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.rXV6Lwg4pCzFRDZn
+    _id: oQFgfxYogpXYySzb
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.onUseMacroName
+        mode: 0
+        value: ItemMacro, postPreambleComplete
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!rXV6Lwg4pCzFRDZn.oQFgfxYogpXYySzb'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+  dae:
+    macro:
+      name: Crimson Eyes
+      img: modules/ak5e/icons/Skill-Haze1.webp
+      type: script
+      scope: global
+      command: >-
+        if (rolledItem.type === 'spell') await
+        MidiQOL.completeItemUse(macroItem);
+      author: 9KtVYqHDTWORuJDZ
+      ownership:
+        default: 3
+      _id: null
+      folder: null
+      sort: 0
+      flags: {}
+      _stats:
+        coreVersion: '13.348'
+        systemId: dnd5e
+        systemVersion: 5.2.4
+        lastModifiedBy: null
+        compendiumSource: null
+        duplicateSource: null
+        exportSource: null
+_stats:
+  compendiumSource: Item.rXV6Lwg4pCzFRDZn
+  duplicateSource: Item.tG00xmKgztcUdavW
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1772826442350
+  modifiedTime: 1772826442350
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: rXV6Lwg4pCzFRDZn
+_key: '!items!rXV6Lwg4pCzFRDZn'
