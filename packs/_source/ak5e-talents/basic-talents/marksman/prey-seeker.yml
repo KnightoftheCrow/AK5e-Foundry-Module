@@ -146,7 +146,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Prey Seeker
     img: modules/ak5e/icons/Skill-ProjektRed2.webp
@@ -221,6 +221,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767736446706
-  modifiedTime: 1770914464277
+  modifiedTime: 1774025754797
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!qfNTsOkoFFat7oiu'

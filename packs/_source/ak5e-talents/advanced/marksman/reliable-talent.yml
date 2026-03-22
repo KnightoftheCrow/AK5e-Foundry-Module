@@ -33,7 +33,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Reliable Talent
     img: modules/ak5e/icons/Skill-TheParadigmatic1.webp
@@ -118,6 +118,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738714333
-  modifiedTime: 1770914964574
+  modifiedTime: 1774026005233
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!0B7CWEADSa2l7ZFb'

@@ -33,7 +33,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Precise Strike
     img: modules/ak5e/icons/Skill-Haze1.webp
@@ -107,6 +107,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767736360968
-  modifiedTime: 1770914460258
+  modifiedTime: 1774025750911
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!rQs0HWi7n3P0iSBP'

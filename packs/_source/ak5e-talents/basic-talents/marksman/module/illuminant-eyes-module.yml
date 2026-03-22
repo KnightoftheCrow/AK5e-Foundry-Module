@@ -142,7 +142,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Illuminant Eyes (Tripled)
     img: modules/ak5e/icons/Skill-AspectOfAnnihilation.webp
@@ -215,6 +215,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767735398707
-  modifiedTime: 1770914609594
+  modifiedTime: 1774025820714
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!wPXQs7reAu5TZKw3'

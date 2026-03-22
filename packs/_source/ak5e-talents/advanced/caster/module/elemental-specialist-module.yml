@@ -231,7 +231,8 @@ effects:
       coreVersion: '13.348'
       systemId: dnd5e
       systemVersion: 5.2.4
-      lastModifiedBy: null
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+      modifiedTime: 1774094307964
     _key: '!items.effects!L39PLsWM1LcMBGNI.bIszxMotzttFGTKo'
   - name: Elemental Specialist Module (Cold)
     img: modules/ak5e/icons/Skill-Gnosis3.webp

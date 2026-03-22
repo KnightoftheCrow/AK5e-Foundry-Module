@@ -139,7 +139,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Weighted Shots (Module)
     img: modules/ak5e/icons/Skill-Earthspirit1.webp
@@ -203,7 +203,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768067973957
-  modifiedTime: 1770914900741
+  modifiedTime: 1774026126423
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0

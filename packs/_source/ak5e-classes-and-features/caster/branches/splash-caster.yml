@@ -1,0 +1,103 @@
+folder: dyuCaYuU6JBJPOoc
+name: Splash Caster
+type: subclass
+_id: Foq00ayIv3RuqXEm
+img: modules/ak5e/icons/Splash_Caster.webp
+system:
+  advancement:
+    - type: ItemGrant
+      _id: uwDUSNTC2W8DOyLA
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.anCtVfX14E7NFPWr
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+    - type: ItemGrant
+      _id: dGmUuVWL7M9g8iPO
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.2mdEUwfojo6UoTmS
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: SKNkMR3iUSMtcgWz
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.fJNwJVtynlVl2IX1
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: Kjz6FIdXTNcJ3ygx
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.mLTRKD1pqQ2grSC7
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: dgsm87KyuFBqnY5m
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.pQ5ygWo0vQUdPyTS
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>Precision is never the goal of a Splash Caster. Their goal is to wield
+      their power unrestrained and uncontrolled, lashing their foes with
+      unshackled Arts. Or at least, that is how it appears; in reality, the Arts
+      of a Splash Caster are tightly controlled and refined to inflict as much
+      damage as possible.</p>
+    chat: ''
+  identifier: splash-caster
+  source:
+    revision: 1
+    rules: '2014'
+  classIdentifier: caster
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1774180646469
+  modifiedTime: 1774180699045
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!Foq00ayIv3RuqXEm'

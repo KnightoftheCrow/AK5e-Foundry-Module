@@ -2,7 +2,7 @@ folder: zhZ3oJrVXiDxSCHH
 name: Levitated Weapon
 type: npc
 _id: v4RiQhDGNlNHfdTp
-img: icons/svg/sword.svg
+img: modules/ak5e/icons/Skill-Nian1.webp
 system:
   currency:
     credits: 0
@@ -458,7 +458,7 @@ prototypeToken:
   width: 0.5
   height: 0.5
   texture:
-    src: icons/svg/sword.svg
+    src: modules/ak5e/icons/Skill-Nian1.webp
     anchorX: 0.5
     anchorY: 0.5
     offsetX: 0
@@ -587,7 +587,7 @@ effects:
       modifiedTime: 1772821861384
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!actors.effects!v4RiQhDGNlNHfdTp.JIqzAAHGCbzBHYVm'
-sort: 0
+sort: 500000
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
@@ -600,6 +600,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1772821742314
-  modifiedTime: 1772821964718
+  modifiedTime: 1773572986301
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!actors!v4RiQhDGNlNHfdTp'

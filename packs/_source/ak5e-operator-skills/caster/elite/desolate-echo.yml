@@ -1,0 +1,251 @@
+folder: 30IfqyYT0cFgxAaa
+name: Desolate Echo
+type: feat
+_id: g9z5A33XTn2xMwZL
+img: modules/ak5e/icons/Skill-Ebenholz2.webp
+system:
+  activities:
+    YNadjztYPrXks89O:
+      type: summon
+      _id: YNadjztYPrXks89O
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '80'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '5'
+      effects: []
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: ''
+        attackDamage: ''
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: false
+        disposition: true
+        proficiency: false
+        saves: true
+        ability: ''
+      profiles:
+        - count: ''
+          name: ''
+          _id: Q2Vd3JRiwdwIp2G8
+          uuid: Compendium.ak5e.ak5e-bestiary.Actor.gQOkew8Y4QLh9zfn
+          level:
+            min: null
+            max: null
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      friendlySummon: true
+      name: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
+      SP</p></td><td><p>Charging</p></td><td><p>Activation</p></td><td><p>Duration</p></td></tr></thead><tbody><tr><td><p>80</p></td><td><p>30</p></td><td><p>Automatic</p></td><td><p>Action</p></td><td><p>5
+      Rounds</p></td></tr></tbody></table><p><strong>Effect: </strong>As part of
+      using this Skill, you may cast an Art with a Casting Time of an Action.
+      After you have cast that Art, an Echo appears within 5 feet of a Creature
+      affected by the original Art (your choice if there are multiple
+      Creatures). The Echo is a visible but intangible orb of Originium Arts.
+      When a hostile Creature enters a 20-foot-radius around the Echo, and is
+      not behind Full Cover from the Echo , they must make a Strength Saving
+      Throw against your Spell Save DC. On a failed Save, they take 6d6 Damage,
+      with the Damage Type being one of the Damage Types present on the original
+      Art (your choice), are pulled 15 feet towards the Echo, and have their
+      Movement Speed reduced by half (rounding down). On a successful Save, they
+      take half as much Damage, and suffer no other effects. A Creature only
+      needs to make this Save once per Turn.</p><p><strong>Partially Automated:
+      </strong>Use the "Summon" Activity to Create the Desolate Echo. The Save
+      and Damage is on the Desolate Echo.</p>
+    chat: ''
+  identifier: desolate-echo
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 14
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Desolate Echo (Skill Points)
+    img: modules/ak5e/icons/Skill-Ebenholz2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.g9z5A33XTn2xMwZL
+    _id: DXFUOiWQeWl6gGq8
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 4
+        value: '30'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 4
+        value: '80'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!g9z5A33XTn2xMwZL.DXFUOiWQeWl6gGq8'
+sort: 100000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1774023683571
+  modifiedTime: 1774023683571
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!g9z5A33XTn2xMwZL'

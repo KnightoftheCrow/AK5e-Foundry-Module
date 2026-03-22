@@ -588,7 +588,7 @@ prototypeToken:
 items: []
 effects: []
 folder: zhZ3oJrVXiDxSCHH
-sort: 100000
+sort: 600000
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
@@ -597,10 +597,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.1.2
   createdTime: 1757771362210
-  modifiedTime: 1758378718448
+  modifiedTime: 1772982710241
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!actors!xv4JbMXoqrnGr17b'

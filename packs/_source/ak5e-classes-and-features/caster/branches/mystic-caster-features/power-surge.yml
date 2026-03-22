@@ -1,0 +1,55 @@
+folder: 1RN2G127laeWSTpy
+name: Power Surge
+type: feat
+_id: oWi50ZHAdAas4rxR
+img: modules/ak5e/icons/Skill-Lightningbearer2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your strength is further concentrated into a single moment of
+      power.</p><p>You gain a +1 Bonus to your Spell Attack Rolls and Spell Save
+      DC for Cantrips for each Mystic Charge you have expended during the
+      current Turn.</p><p><strong>Automated: </strong>This is now accounted for
+      when you expend Mystic Charge using that Feature.</p>
+    chat: ''
+  identifier: power-surge
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 6
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 150000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1774109154652
+  modifiedTime: 1774180480061
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!oWi50ZHAdAas4rxR'

@@ -29,7 +29,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Alert (Module)
     img: modules/ak5e/icons/Skill-PureCrystal.webp
@@ -97,6 +97,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767734286520
-  modifiedTime: 1770914314235
+  modifiedTime: 1774025780142
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!rhQX84XgtuE64ksy'

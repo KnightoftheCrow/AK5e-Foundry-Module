@@ -35,7 +35,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - _id: waeG7ZDIB5myAbe6
     changes:
@@ -140,6 +140,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738728850
-  modifiedTime: 1770914919295
+  modifiedTime: 1774026012844
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!r19GGpWRcO5KigI5'

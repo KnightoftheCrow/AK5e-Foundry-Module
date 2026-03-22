@@ -1,0 +1,1188 @@
+folder: QmA37F3admePilsx
+name: Subtle Spark Upgraded
+type: feat
+_id: krc0JZKzL4QpMotT
+img: modules/ak5e/icons/Skill-Goldenglow3.webp
+system:
+  activities:
+    VYrOPKnt5Qpn9b8H:
+      type: utility
+      name: Accelerate Upgraded
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: igKcNTAwYsCXZI8D
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ally
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: true
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      _id: VYrOPKnt5Qpn9b8H
+      img: ''
+    fxtwmDNnjSHnt2bh:
+      type: utility
+      name: Bolster Defences Upgraded
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: UJ6Pz6jRxqZFgwsu
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ally
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: true
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      _id: fxtwmDNnjSHnt2bh
+      img: ''
+    esx49jn4fB4cG83I:
+      type: save
+      name: Decelerate Upgraded
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: YQwc1BQ09ZDzVFWp
+          onSave: false
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        onSave: half
+        critical:
+          allow: false
+        parts: []
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: true
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: true
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: ''
+      otherActivityAsParentType: true
+      friendlySave: default
+      _id: esx49jn4fB4cG83I
+      img: ''
+    KsSL99GHarPbyh6W:
+      type: save
+      name: Enervate Upgraded
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 27ijoHsht4UydROZ
+          onSave: false
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        onSave: half
+        critical:
+          allow: false
+        parts: []
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: true
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: true
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: ''
+      otherActivityAsParentType: true
+      friendlySave: default
+      _id: KsSL99GHarPbyh6W
+      img: ''
+    VNRxcjXdC8hJ7fxP:
+      type: utility
+      name: Innervate Upgraded
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: Im7Fz4YFR0txuifL
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ally
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: true
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      _id: VNRxcjXdC8hJ7fxP
+      img: ''
+    pYG7EKJ4eFA1zdes:
+      type: save
+      name: Shred Defences Upgraded
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: nTQp2qnx1ZJCvjgo
+          onSave: false
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        onSave: half
+        critical:
+          allow: false
+        parts: []
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: true
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: true
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: ''
+      otherActivityAsParentType: true
+      friendlySave: default
+      _id: pYG7EKJ4eFA1zdes
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>The application of your Sparks is as subtle as ever; the effects
+      anything but.</p><p>The effects of your Subtle Spark Feature are improved;
+      when you apply an additional effect using your Subtle Spark Feature, you
+      may instead apply the upgraded effect.</p><p><strong>Partially Automated:
+      </strong>Use these Activities to trigger your Sparks instead, as they have
+      the upgraded effects.</p>
+    chat: ''
+  identifier: subtle-spark-upgraded
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: +10ft Speed/+1d4 to Dex Saves
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
+    transfer: false
+    _id: igKcNTAwYsCXZI8D
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.all
+        mode: 0
+        value: '+10'
+        priority: 20
+      - key: system.abilities.dex.bonuses.save
+        mode: 2
+        value: 1d4
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: multi
+        showIcon: true
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - turnStartSource
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.FEnhLDKXI3UKIZU8
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1774099699217
+      modifiedTime: 1774099774135
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!krc0JZKzL4QpMotT.igKcNTAwYsCXZI8D'
+  - name: +4 DR
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
+    transfer: false
+    _id: UJ6Pz6jRxqZFgwsu
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.acid
+        mode: 2
+        value: '-4'
+        priority: 20
+      - key: system.traits.dm.amount.bludgeoning
+        mode: 2
+        value: '-4'
+        priority: 20
+      - key: system.traits.dm.amount.cold
+        mode: 2
+        value: '-4'
+        priority: 20
+      - key: system.traits.dm.amount.fire
+        mode: 2
+        value: '-4'
+        priority: 20
+      - key: system.traits.dm.amount.force
+        mode: 2
+        value: '-4'
+        priority: 20
+      - key: system.traits.dm.amount.lightning
+        mode: 2
+        value: '-4'
+        priority: 20
+      - key: system.traits.dm.amount.necrotic
+        mode: 2
+        value: '-4'
+        priority: 20
+      - key: system.traits.dm.amount.piercing
+        mode: 2
+        value: '-4'
+        priority: 20
+      - key: system.traits.dm.amount.poison
+        mode: 2
+        value: '-4'
+        priority: 20
+      - key: system.traits.dm.amount.psychic
+        mode: 2
+        value: '-4'
+        priority: 20
+      - key: system.traits.dm.amount.radiant
+        mode: 2
+        value: '-4'
+        priority: 20
+      - key: system.traits.dm.amount.slashing
+        mode: 2
+        value: '-4'
+        priority: 20
+      - key: system.traits.dm.amount.thunder
+        mode: 2
+        value: '-4'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: true
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - turnStartSource
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.kk13jUbxbo3jMcmR
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1774099700120
+      modifiedTime: 1774099803934
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!krc0JZKzL4QpMotT.UJ6Pz6jRxqZFgwsu'
+  - name: '-10ft Speed/-1d4 to Dex Saves'
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
+    transfer: false
+    _id: YQwc1BQ09ZDzVFWp
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.all
+        mode: 0
+        value: '-10'
+        priority: 20
+      - key: system.abilities.dex.bonuses.save
+        mode: 2
+        value: '-1d4'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: true
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - turnStartSource
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.3NQXq6ammdf67oKy
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1774099700938
+      modifiedTime: 1774099830397
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!krc0JZKzL4QpMotT.YQwc1BQ09ZDzVFWp'
+  - name: '-1d4 to Attack and Damage Rolls'
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
+    transfer: false
+    _id: 27ijoHsht4UydROZ
+    type: base
+    system: {}
+    changes:
+      - key: system.bonuses.All-Attacks
+        mode: 2
+        value: '-1d4'
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.bonus
+        mode: 5
+        value: bonus=-1d4
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: true
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - turnStartSource
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.5ssarri1C6JUXCay
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1774099701961
+      modifiedTime: 1774099847476
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!krc0JZKzL4QpMotT.27ijoHsht4UydROZ'
+  - name: +1d4 to Attack and Damage Rolls
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
+    transfer: false
+    _id: Im7Fz4YFR0txuifL
+    type: base
+    system: {}
+    changes:
+      - key: system.bonuses.All-Attacks
+        mode: 2
+        value: +1d4
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.bonus
+        mode: 5
+        value: bonus=+1d4
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: true
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - turnStartSource
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.YhA83KSbKhW3SRBE
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1774099703145
+      modifiedTime: 1774099856733
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!krc0JZKzL4QpMotT.Im7Fz4YFR0txuifL'
+  - name: '-4 DR'
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.acid
+        mode: 2
+        value: '4'
+        priority: 20
+      - key: system.traits.dm.amount.bludgeoning
+        mode: 2
+        value: '4'
+        priority: 20
+      - key: system.traits.dm.amount.cold
+        mode: 2
+        value: '4'
+        priority: 20
+      - key: system.traits.dm.amount.fire
+        mode: 2
+        value: '4'
+        priority: 20
+      - key: system.traits.dm.amount.force
+        mode: 2
+        value: '4'
+        priority: 20
+      - key: system.traits.dm.amount.lightning
+        mode: 2
+        value: '4'
+        priority: 20
+      - key: system.traits.dm.amount.necrotic
+        mode: 2
+        value: '4'
+        priority: 20
+      - key: system.traits.dm.amount.piercing
+        mode: 2
+        value: '4'
+        priority: 20
+      - key: system.traits.dm.amount.poison
+        mode: 2
+        value: '4'
+        priority: 20
+      - key: system.traits.dm.amount.psychic
+        mode: 2
+        value: '4'
+        priority: 20
+      - key: system.traits.dm.amount.radiant
+        mode: 2
+        value: '4'
+        priority: 20
+      - key: system.traits.dm.amount.slashing
+        mode: 2
+        value: '4'
+        priority: 20
+      - key: system.traits.dm.amount.thunder
+        mode: 2
+        value: '4'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: true
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - turnStartSource
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.kk13jUbxbo3jMcmR
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1774099704059
+      modifiedTime: 1774099882533
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _id: nTQp2qnx1ZJCvjgo
+    _key: '!items.effects!krc0JZKzL4QpMotT.nTQp2qnx1ZJCvjgo'
+sort: 87500
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1774099559836
+  modifiedTime: 1774178697257
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!krc0JZKzL4QpMotT'

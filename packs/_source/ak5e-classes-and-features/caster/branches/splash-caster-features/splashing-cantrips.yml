@@ -1,0 +1,465 @@
+folder: j0lfJHG1ty3jJ7kY
+name: Splashing Cantrips
+type: feat
+img: modules/ak5e/icons/Skill-TheIgnitingSpark1.webp
+system:
+  activities:
+    D6FTR02VMqG2GBcz:
+      type: save
+      name: Save
+      _id: D6FTR02VMqG2GBcz
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: 3kOqOWMuItTe4Fcw
+          onSave: false
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: sphere
+          size: '10'
+          count: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      damage:
+        onSave: none
+        critical:
+          allow: false
+        parts: []
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: false
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: true
+        magicDamage: true
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: false
+      friendlySave: default
+    NXbmK9vrS5tZYhBw:
+      type: enchant
+      name: Splash Cantrip
+      _id: NXbmK9vrS5tZYhBw
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: orRivzZWhpFIdb83
+          level:
+            min: null
+            max: null
+          riders:
+            activity:
+              - D6FTR02VMqG2GBcz
+            effect:
+              - OS2woem9EBMCe6UT
+            item: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: spell
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>When you would deal Damage to only one Creature with a Damaging
+      Cantrip, you may choose to halve the Damage dealt by that Cantrip. If you
+      do, all Creatures within 10 feet of the original target must succeed on a
+      Dexterity Saving Throw against your Spell Save DC, or take the halved
+      Damage of that Cantrip. This is considered to be casting an Art that
+      targets an Area for the purpose of your Controlled Detonation
+      Feature.</p><p>If you are within the area of your Splashing Cantrip, you
+      automatically pass the Saving Throw.</p><p><strong>Partially Automated:
+      </strong>Using this Feature creates an Enchantment on the Cantrip you
+      choose, which in turn creates a Save Activity on that Cantrip. Creatures
+      that fail this Saving Throw are marked with an effect that causes them to
+      always be hit by the next Spell Attack, or fail the next Saving Throw
+      against a Spell, but take half damage from it. Thus, you should use the
+      "main" activity on that Cantrip against Creatures that have this effect;
+      make sure to target all the Creatures at once, rather than one at a
+      time.</p>
+    chat: ''
+  identifier: splashing-cantrips
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - type: enchantment
+    name: Splashing Cantrips
+    img: modules/ak5e/icons/Skill-TheIgnitingSpark1.webp
+    disabled: true
+    _id: orRivzZWhpFIdb83
+    system: {}
+    changes:
+      - key: system.target.affects.count
+        mode: 5
+        value: '999'
+        priority: 20
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - DamageDealt
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!2mdEUwfojo6UoTmS.orRivzZWhpFIdb83'
+  - name: Failed Splashing Cantrip Save
+    img: modules/ak5e/icons/Skill-TheIgnitingSpark1.webp
+    origin: Actor.zvMPACiY7cfwzP3s.Item.jbAFLYJMuLMB55Nm
+    _id: 3kOqOWMuItTe4Fcw
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.attack.success
+        mode: 5
+        value: isCantrip
+        priority: 20
+      - key: flags.automated-conditions-5e.save.fail
+        mode: 5
+        value: isCantrip
+        priority: 20
+      - key: flags.automated-conditions-5e.grants.all.noCritical
+        mode: 5
+        value: isCantrip
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: true
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - isDamaged
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!2mdEUwfojo6UoTmS.3kOqOWMuItTe4Fcw'
+  - name: Splashing Cantrip
+    img: modules/ak5e/icons/Skill-TheIgnitingSpark1.webp
+    origin: Actor.zvMPACiY7cfwzP3s.Item.jbAFLYJMuLMB55Nm
+    _id: OS2woem9EBMCe6UT
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 5
+        value: modifier=/2; isCantrip
+        priority: 20
+      - key: flags.automated-conditions-5e.save.success
+        mode: 5
+        value: isCantrip
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!2mdEUwfojo6UoTmS.OS2woem9EBMCe6UT'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect:
+        - OS2woem9EBMCe6UT
+  ak5e:
+    trackingBar: false
+    barFirstColor: '#4361ee'
+    barSecondColor: '#4cc9f0'
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1774123660876
+  modifiedTime: 1774178240487
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: 2mdEUwfojo6UoTmS
+sort: 200000
+_key: '!items!2mdEUwfojo6UoTmS'

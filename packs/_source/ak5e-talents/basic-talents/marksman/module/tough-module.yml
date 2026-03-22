@@ -32,7 +32,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects: []
 sort: 100004
 ownership:
@@ -50,6 +50,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767736673437
-  modifiedTime: 1770914515457
+  modifiedTime: 1774025857723
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!TUC52moYi0vvumMI'

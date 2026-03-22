@@ -2,7 +2,7 @@ type: Item
 folder: vfwGZsyVOPxfr1S3
 name: Branches
 color: null
-sorting: a
+sorting: m
 _id: dyuCaYuU6JBJPOoc
 description: ''
 sort: 0
@@ -15,6 +15,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1772813228504
-  modifiedTime: 1772813228504
+  modifiedTime: 1774092720651
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!folders!dyuCaYuU6JBJPOoc'

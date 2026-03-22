@@ -9,7 +9,7 @@ system:
       _id: ad8IKEhEcM1DeKK5
       sort: 0
       activation:
-        type: bonus
+        type: action
         override: false
         condition: ''
       consumption:
@@ -20,7 +20,6 @@ system:
           - type: itemUses
             value: '15'
             target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
-            scaling: {}
       description:
         chatFlavor: ''
       duration:
@@ -112,6 +111,7 @@ system:
       otherActivityId: none
       otherActivityAsParentType: true
       name: ''
+      img: ''
   uses:
     spent: 0
     recovery: []
@@ -130,7 +130,7 @@ system:
       separately.</p><p><strong>Not possible to automate: </strong>The activity
       places a cube for targeting purposes only.</p>
     chat: ''
-  identifier: cull
+  identifier: destiny
   source:
     revision: 1
     rules: '2014'
@@ -219,7 +219,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1772826442350
-  modifiedTime: 1772826442350
+  modifiedTime: 1772984877624
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: b8ctTaF23QILAOJt
 _key: '!items!b8ctTaF23QILAOJt'

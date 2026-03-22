@@ -34,7 +34,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Eagle Eyes
     img: modules/ak5e/icons/Skill-Pepe2.webp
@@ -114,6 +114,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738535257
-  modifiedTime: 1770915235174
+  modifiedTime: 1774025948144
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!wl1K4E167035p5yf'

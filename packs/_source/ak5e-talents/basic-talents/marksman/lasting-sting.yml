@@ -139,7 +139,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Lasting Sting
     img: modules/ak5e/icons/Skill-Verdant1.webp
@@ -211,6 +211,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767735487829
-  modifiedTime: 1770914406377
+  modifiedTime: 1774025734207
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!EUHCD2cxipRq5Gox'

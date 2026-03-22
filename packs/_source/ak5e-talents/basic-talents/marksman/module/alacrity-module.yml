@@ -138,7 +138,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Alacrity (Module)
     img: modules/ak5e/icons/Skill-Phantom1.webp
@@ -210,6 +210,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767734089507
-  modifiedTime: 1770913920904
+  modifiedTime: 1774025774042
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!0C6NqVowQRNBaLv4'

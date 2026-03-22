@@ -31,7 +31,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Critical Edge
     img: modules/ak5e/icons/Skill-C1.webp
@@ -99,6 +99,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767734950362
-  modifiedTime: 1770914380647
+  modifiedTime: 1774025714710
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!OJjJDtDv1eF7izrT'

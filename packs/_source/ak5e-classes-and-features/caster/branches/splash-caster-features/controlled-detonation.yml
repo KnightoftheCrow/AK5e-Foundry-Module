@@ -1,0 +1,215 @@
+folder: j0lfJHG1ty3jJ7kY
+name: Controlled Detonation
+type: feat
+_id: anCtVfX14E7NFPWr
+img: modules/ak5e/icons/Skill-Pinecone2.webp
+system:
+  activities:
+    lJBovj1RK6NQfmTS:
+      type: utility
+      name: Toggle Bonus
+      _id: lJBovj1RK6NQfmTS
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: perm
+        concentration: false
+        override: false
+      effects:
+        - _id: npuCVH1oDjRkGy74
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: true
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your area-of-effect Arts are more difficult to evade.</p><p>You gain a
+      +2 Bonus to your Spell Save DC when casting Arts that target an
+      area.</p><blockquote><p><strong>Arts that Target an
+      Area</strong></p><p>Many Features in this Branch refer to Arts that target
+      an Area. For these purposes, this is any Art that targets a Sphere, Cone,
+      Cube, Cylinder, or Line.</p></blockquote><p><strong>Partially Automated:
+      </strong>Use the Activity on this Feature to toggle the +2 Bonus on and
+      off when relevant.</p>
+    chat: ''
+  identifier: controlled-detonation
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Controlled Detonation
+    img: modules/ak5e/icons/Skill-Pinecone2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.anCtVfX14E7NFPWr
+    _id: npuCVH1oDjRkGy74
+    type: base
+    system: {}
+    changes:
+      - key: system.bonuses.spell.dc
+        mode: 2
+        value: '+2'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1774120778141
+      modifiedTime: 1774120809191
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!anCtVfX14E7NFPWr.npuCVH1oDjRkGy74'
+sort: 100000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1774120730155
+  modifiedTime: 1774178240487
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!anCtVfX14E7NFPWr'

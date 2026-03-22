@@ -31,7 +31,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Jumpstart
     img: modules/ak5e/icons/Skill-ReconSelfDriverLaunchpoint.webp
@@ -99,6 +99,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738636078
-  modifiedTime: 1770915171892
+  modifiedTime: 1774025963227
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!rAcx8Q8Yghko9tSi'

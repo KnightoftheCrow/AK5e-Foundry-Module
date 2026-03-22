@@ -825,7 +825,7 @@ items:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!actors.items!LXSo7QujfzMS0LVi.zSOf9ZS5rY24sKu7'
 effects: []
-sort: 0
+sort: 100000
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
@@ -834,10 +834,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.1.2
   createdTime: 1758378732317
-  modifiedTime: 1758379679944
+  modifiedTime: 1772982710241
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!actors!LXSo7QujfzMS0LVi'

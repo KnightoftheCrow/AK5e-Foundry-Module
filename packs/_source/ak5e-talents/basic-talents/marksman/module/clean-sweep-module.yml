@@ -137,7 +137,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Clean Sweep
     img: modules/ak5e/icons/Skill-Archetto2.webp
@@ -204,7 +204,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767905802168
-  modifiedTime: 1770914664114
+  modifiedTime: 1774025796295
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0

@@ -1,0 +1,102 @@
+folder: dyuCaYuU6JBJPOoc
+name: Primal Caster
+type: subclass
+_id: RHowGHbTdDcKcroT
+img: modules/ak5e/icons/Primal_Caster.webp
+system:
+  advancement:
+    - type: ItemGrant
+      _id: mwWA1RbzIt5T140O
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+    - type: ItemGrant
+      _id: ysmtYmF0TEbeUntd
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.tCg67bhiInVb70Wv
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: tutew1sJkU5Wi5PR
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.0hwyuMD4qEdW4c8U
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: xGUK5h6FVkkLxUot
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.jgqDfmoZFT5L4PZi
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: CMj792zI0bJBWZ2M
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.cirfDKN2BVTeyWNZ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>The might of a Primal Caster’s Arts lingers, like an infection in a
+      wound. As a Primal Caster, you excel in debilitating and wounding your
+      foes, leaving them scrambling and confused. Then, when their guard is
+      down, you strike like a wild beast; going straight for the throat.</p>
+    chat: ''
+  identifier: primal-caster
+  source:
+    revision: 1
+    rules: '2014'
+  classIdentifier: caster
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1774180551535
+  modifiedTime: 1774180618942
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!RHowGHbTdDcKcroT'

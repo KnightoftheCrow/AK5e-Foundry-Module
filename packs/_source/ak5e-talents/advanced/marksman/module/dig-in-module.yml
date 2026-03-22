@@ -137,7 +137,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Dig In (Module)
     img: modules/ak5e/icons/Skill-Misery3.webp
@@ -216,7 +216,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767988216432
-  modifiedTime: 1770915261424
+  modifiedTime: 1774026048280
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0

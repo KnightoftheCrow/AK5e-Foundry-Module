@@ -1,0 +1,228 @@
+folder: j0lfJHG1ty3jJ7kY
+name: Unavoidable
+type: feat
+_id: pQ5ygWo0vQUdPyTS
+img: modules/ak5e/icons/Skill-Ifrit2.webp
+system:
+  activities:
+    4rXbae9jZTP39dGV:
+      type: utility
+      name: All-Consuming
+      _id: 4rXbae9jZTP39dGV
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+      description:
+        chatFlavor: ''
+      duration:
+        units: turn
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: CSlm0BXBmhWS34bC
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+          size: ''
+          count: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      img: ''
+  uses:
+    spent: 0
+    recovery:
+      - period: sr
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>Your area-of-effect Arts are so potent that few can ever hope to avoid
+      them. You gain the following
+      benefits:</p><p><strong>All-Consuming.</strong> Once per Short Rest, when
+      you cast an Art that targets an area, you can cause all Creatures affected
+      to have Disadvantage on their Saving Throws against that Art this
+      Turn.</p><p><strong>Maximum Burst.</strong> Creatures (except Creatures
+      immune to that Art) cannot take less than half of the rolled Damage from
+      your Arts that target an Area, even if they are Resistant or have an
+      Ability that allows them to reduce the Damage (such as Evasion), or have
+      Damage Reduction.</p><p><strong>Partially Automated: </strong>Use the
+      Activity on this Feature before you cast the Art. Maximum Burst cannot be
+      automated.</p>
+    chat: ''
+  identifier: unavoidable
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: All-Consuming
+    img: modules/ak5e/icons/Skill-Ifrit2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.pQ5ygWo0vQUdPyTS
+    transfer: false
+    _id: CSlm0BXBmhWS34bC
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.save.disadvantage
+        mode: 5
+        value: isSpell
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - 1Spell
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1774128011332
+      modifiedTime: 1774128081661
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!pQ5ygWo0vQUdPyTS.CSlm0BXBmhWS34bC'
+sort: 300000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1774127901728
+  modifiedTime: 1774178240487
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!pQ5ygWo0vQUdPyTS'

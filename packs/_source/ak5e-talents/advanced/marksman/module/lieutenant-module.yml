@@ -30,7 +30,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Lieutenant (Module)
     img: modules/ak5e/icons/Skill-TacticalEquipment.png
@@ -98,7 +98,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768145102101
-  modifiedTime: 1770915144876
+  modifiedTime: 1774026080461
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0

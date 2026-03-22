@@ -34,7 +34,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Tough
     img: modules/ak5e/icons/Skill-Gravel1.webp
@@ -102,6 +102,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767736619701
-  modifiedTime: 1770914473188
+  modifiedTime: 1774025762008
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!BzU742aJIgbGMSdF'

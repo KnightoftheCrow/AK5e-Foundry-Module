@@ -31,7 +31,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Danger Sense
     img: modules/ak5e/icons/Skill-Christine2.webp
@@ -100,7 +100,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767986908328
-  modifiedTime: 1770915295392
+  modifiedTime: 1774026040940
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0

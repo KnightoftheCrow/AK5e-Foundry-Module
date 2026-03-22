@@ -1,0 +1,139 @@
+folder: dyuCaYuU6JBJPOoc
+name: Mech-Accord Caster
+type: subclass
+_id: KTjXzgFdSC4FIMWM
+img: modules/ak5e/icons/Mech-Accord_Caster.webp
+system:
+  advancement:
+    - type: ItemGrant
+      _id: HJCaxTR8AlRv6lVA
+      configuration:
+        items:
+          - optional: true
+            uuid: Compendium.ak5e.ak5e-items.Item.XfS9C2RHzrrMdlip
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Engineering Kit Exchange
+      hint: >-
+        Do you want to exchange one of your Kits for an Engineering Kit?
+        (Remember to delete your original kit)
+    - type: Trait
+      _id: QamEXWMxNhuq59BQ
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:toolkit:engineering
+        grants: []
+        mode: default
+      level: 1
+      title: Engineering Kit Proficiency Exchange
+      hint: >-
+        Do you want to exchange on your Toolkit or Vehicle Proficiencies for
+        Engineering Kit Proficiency? (Remember to remove the Proficiency you
+        exchanged!)
+      value: {}
+    - type: ItemGrant
+      _id: ar96KRwfKG3oMUZA
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.eFBDkstnP7YQzWSF
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+    - type: ItemGrant
+      _id: 4KL94JESNszAAeRG
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.GH9QA744Dh7SYoz3
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: 2Wjj8xpdk5vuJ2eK
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.rTqysGZ34Kr6QdEL
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: 0LNuJ61cuNa3QecG
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.mqwJyGfkt52v84Wr
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: bQwUEkIzK4YAUBqC
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.IKZLK5jYZWD1kPvd
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>In the world of Terra, technology and magic is practically
+      indistinguishable. Most technology functions on Originium, and making
+      Originium function requires a very basic grasp of Arts. Mech-Accord
+      Casters take this to its ultimate
+      conclusion.</p><blockquote><p><strong>Equipment and Proficiency
+      Exchange</strong></p><p>When you choose this Branch, you may exchange any
+      Tool Kit or Vehicle Proficiency you have for Proficiency with the
+      Engineering Kit.</p><p>Additionally, when you choose this Branch, you may
+      exchange one Toolkit from your Starting Equipment for an Engineering
+      Kit.</p></blockquote>
+    chat: ''
+  identifier: mech-accord-caster
+  source:
+    revision: 1
+    rules: '2014'
+  classIdentifier: caster
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1774180167303
+  modifiedTime: 1774180412461
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!KTjXzgFdSC4FIMWM'

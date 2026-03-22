@@ -144,7 +144,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: All Out Attack
     img: modules/ak5e/icons/Skill-Rosa2.webp
@@ -216,6 +216,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767734408494
-  modifiedTime: 1770914361135
+  modifiedTime: 1774025695461
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!hceNm4zFz9e5HTYm'

@@ -132,7 +132,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Alpha Strike (Module)
     img: modules/ak5e/icons/Skill-Lappland2.png
@@ -205,6 +205,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738173949
-  modifiedTime: 1770915352273
+  modifiedTime: 1774026023163
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!imHOfHdGlX4eXLIq'

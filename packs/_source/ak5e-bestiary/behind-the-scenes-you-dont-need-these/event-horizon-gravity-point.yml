@@ -970,7 +970,7 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!actors.effects!I6txsKXdeCAs6DA7.JIqzAAHGCbzBHYVm'
 folder: zhZ3oJrVXiDxSCHH
-sort: 200000
+sort: 700000
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
@@ -985,6 +985,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1757783315496
-  modifiedTime: 1772821875282
+  modifiedTime: 1772982710241
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!actors!I6txsKXdeCAs6DA7'

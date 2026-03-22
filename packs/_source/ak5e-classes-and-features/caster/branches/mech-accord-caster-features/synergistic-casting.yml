@@ -1,0 +1,337 @@
+folder: PEUmzy8rnB1pKfXr
+name: Synergistic Casting
+type: feat
+_id: rTqysGZ34Kr6QdEL
+img: modules/ak5e/icons/Skill-Aciddrop2.png
+system:
+  activities:
+    1DXaj7CtGWvOdCG3:
+      type: utility
+      name: Arts Translocation
+      _id: 1DXaj7CtGWvOdCG3
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      img: ''
+    u6rAErccZWDnxEJs:
+      type: utility
+      name: Cantrip Duplication
+      _id: u6rAErccZWDnxEJs
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+          - type: itemUses
+            value: '1'
+            target: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: DzdrooTSexPbumlE
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ally
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: '["construct"].includes(typeOrRace)'
+      useConditionReason: That is not an Arts Master Drone.
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      img: ''
+  uses:
+    spent: 0
+    recovery:
+      - period: turnStart
+        type: recoverAll
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>You have refined the connection you form with your drones, allowing you
+      to strike as one. You gain the following benefits:</p><p><strong>Arts
+      Translocation.</strong> When you cast an Art, you may cast it as if you
+      were in the space of one of your Arts Master Drones, instead of your own.
+      However, if you do, that Art costs 1 additional Arts
+      Point.</p><p><strong>Cantrip Duplication.</strong> Once per Turn, when you
+      cast a Cantrip, you can expend 1 Arts Point to cast that Cantrip again as
+      if you were in the space of one of your Arts Master Drones, targeting the
+      same Creature or area. If you do so, that Arts Master Drone cannot make
+      any Attacks until the beginning of your next Turn.</p><p><strong>Partially
+      Automated: </strong>The Activites on this Feature allows you to track AP
+      consumption and which Drones cannot Attack, but does not allow you to
+      actually cast the Arts from the Drones position.</p>
+    chat: ''
+  identifier: synergistic-casting
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 6
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Cannot Attack
+    img: modules/ak5e/icons/Skill-Aciddrop2.png
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.rTqysGZ34Kr6QdEL
+    transfer: false
+    _id: DzdrooTSexPbumlE
+    type: base
+    system: {}
+    changes:
+      - key: flags.midi-qol.fail.attack.all
+        mode: 5
+        value: 'true'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: true
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - turnStartSource
+      core:
+        overlay: true
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1774103904496
+      modifiedTime: 1774103998586
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!rTqysGZ34Kr6QdEL.DzdrooTSexPbumlE'
+sort: 275000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1774103747903
+  modifiedTime: 1774180374020
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!rTqysGZ34Kr6QdEL'

@@ -30,7 +30,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Hammer and Anvil (Module)
     img: modules/ak5e/icons/Skill-Mudrock3.webp
@@ -95,7 +95,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767994398086
-  modifiedTime: 1770915206372
+  modifiedTime: 1774026064330
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0

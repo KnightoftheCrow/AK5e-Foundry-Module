@@ -30,7 +30,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Ambush (Module)
     img: modules/ak5e/icons/Skill-Manticore1.webp
@@ -93,7 +93,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767986099072
-  modifiedTime: 1770915341110
+  modifiedTime: 1774026027478
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0

@@ -148,7 +148,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Fragile Focus
     img: modules/ak5e/icons/Skill-Lappland1.webp
@@ -220,6 +220,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767735065887
-  modifiedTime: 1770914384098
+  modifiedTime: 1774025719724
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!HPA8fVrnNphDEqyS'

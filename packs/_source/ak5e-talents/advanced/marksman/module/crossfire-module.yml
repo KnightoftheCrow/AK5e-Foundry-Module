@@ -31,7 +31,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects: []
 flags:
   dnd5e:
@@ -45,7 +45,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767986627636
-  modifiedTime: 1770915325047
+  modifiedTime: 1774026031279
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0

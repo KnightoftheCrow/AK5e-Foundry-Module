@@ -1,0 +1,103 @@
+folder: dyuCaYuU6JBJPOoc
+name: Core Caster
+type: subclass
+_id: pibbIB98zmuJwflN
+img: modules/ak5e/icons/Core_Caster.webp
+system:
+  advancement:
+    - type: ItemGrant
+      _id: Zwk9xer7myxUDFT2
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.qb39wixnAeTx170S
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+    - type: ItemGrant
+      _id: sTdKx01UTPFZhGsp
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.2x7tE7qrJQZ3KmSK
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: n6pJbm4BZuQaoj16
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.lLytVgEvbOe56Nfd
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: G2g5wULOs3P2A7z9
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: ''
+      hint: ''
+    - type: ItemGrant
+      _id: 321Tagk8lUjzcDL2
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.OzrZAwSCp5h2uNEG
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: ''
+      hint: ''
+  description:
+    value: >-
+      <p>Versatility is the name of the game for Core Casters. Whereas other
+      Casters are specialists, focusing in on a particular aspect of Arts, Core
+      Casters choose to spread a wider net. While they make sacrifices for this
+      versatility, do not mistake this for weakness; a Core Caster is not a
+      master of any one field, but they are certainly no novice.</p>
+    chat: ''
+  identifier: core-caster
+  source:
+    revision: 1
+    rules: '2014'
+  classIdentifier: caster
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1774178413279
+  modifiedTime: 1774178558796
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!pibbIB98zmuJwflN'

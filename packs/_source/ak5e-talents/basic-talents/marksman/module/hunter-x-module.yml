@@ -1,0 +1,610 @@
+folder: 7chRMuJsyyn3S2jB
+name: Hunter (X) (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Invincible1.png
+system:
+  activities:
+    rz0UCPidyTnnP4ad:
+      type: utility
+      _id: rz0UCPidyTnnP4ad
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: perm
+        concentration: false
+        override: false
+      effects:
+        - _id: Na5UhAxVthjRErVy
+          level:
+            min: null
+            max: null
+        - _id: vbNxtNRtpRjEEbY9
+          level:
+            min: null
+            max: null
+        - _id: YTW1KFY7wL2wFstb
+          level:
+            min: null
+            max: null
+        - _id: Rd7J7PacvJHoZUaF
+          level:
+            min: null
+            max: null
+        - _id: tM9MUEfruO5Wrcvc
+          level:
+            min: null
+            max: null
+        - _id: Pr0QROz9TNIWpdgj
+          level:
+            min: null
+            max: null
+        - _id: 4eIkMqhyHeYYYH58
+          level:
+            min: null
+            max: null
+        - _id: lqcC6yNHCrhEfVgq
+          level: {}
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Grant Module Effect
+  uses:
+    spent: 0
+    recovery: []
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module Effect: </strong>You gain a Bonus to Attack Rolls
+      against Creatures with that Creature Type equal to your Proficiency
+      Bonus.</p><p><strong>Automated: </strong>Use the Activity on this item to
+      choose your Creature Type to gain a bonus against; you can only do this
+      once. For the module, simply use the activity on the module and it will
+      give you the corresponding effect (this will produce a spam of "XYZ effect
+      does not exist"; this is harmless and intended.</p>
+    chat: ''
+  identifier: hunter-module
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.4MxiTCIDu9qPRbJF
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects:
+  - name: Hunter (Abberation) (Module)
+    img: modules/ak5e/icons/Skill-Invincible1.png
+    origin: Item.Kdh0YDI91iOTFleU
+    _id: Na5UhAxVthjRErVy
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.attack.bonus
+        mode: 2
+        value: bonus=@prof; opponentActor.creatureType.includes('aberration');
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: effects.some(e => e.name === "Hunter (Abberation)")
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!2dhqC8t1e1Shts32.Na5UhAxVthjRErVy'
+  - name: Hunter (Beast) (Module)
+    img: modules/ak5e/icons/Skill-Invincible1.png
+    origin: Item.Kdh0YDI91iOTFleU
+    _id: vbNxtNRtpRjEEbY9
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.attack.bonus
+        mode: 2
+        value: bonus=@prof; opponentActor.creatureType.includes('beast');
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: effects.some(e => e.name === "Hunter (Beast)")
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!2dhqC8t1e1Shts32.vbNxtNRtpRjEEbY9'
+  - name: Hunter (Celestial) (Module)
+    img: modules/ak5e/icons/Skill-Invincible1.png
+    origin: Item.Kdh0YDI91iOTFleU
+    _id: YTW1KFY7wL2wFstb
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.attack.bonus
+        mode: 2
+        value: bonus=@prof; opponentActor.creatureType.includes('celestial');
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: effects.some(e => e.name === "Hunter (Celestial)")
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!2dhqC8t1e1Shts32.YTW1KFY7wL2wFstb'
+  - name: Hunter (Construct) (Module)
+    img: modules/ak5e/icons/Skill-Invincible1.png
+    origin: Item.Kdh0YDI91iOTFleU
+    _id: Rd7J7PacvJHoZUaF
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.attack.bonus
+        mode: 2
+        value: bonus=@prof; opponentActor.creatureType.includes('construct');
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: effects.some(e => e.name === "Hunter (Construct)")
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!2dhqC8t1e1Shts32.Rd7J7PacvJHoZUaF'
+  - name: Hunter (Fiend) (Module)
+    img: modules/ak5e/icons/Skill-Invincible1.png
+    origin: Item.Kdh0YDI91iOTFleU
+    _id: tM9MUEfruO5Wrcvc
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.attack.bonus
+        mode: 2
+        value: bonus=@prof; opponentActor.creatureType.includes('fiend');
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: effects.some(e => e.name === "Hunter (Fiend)")
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!2dhqC8t1e1Shts32.tM9MUEfruO5Wrcvc'
+  - name: Hunter (Monstrosity) (Module)
+    img: modules/ak5e/icons/Skill-Invincible1.png
+    origin: Item.Kdh0YDI91iOTFleU
+    _id: Pr0QROz9TNIWpdgj
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.attack.bonus
+        mode: 2
+        value: bonus=@prof; opponentActor.creatureType.includes('monstrosity');
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: effects.some(e => e.name === "Hunter (Monstrosity)")
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!2dhqC8t1e1Shts32.Pr0QROz9TNIWpdgj'
+  - name: Hunter (Plant) (Module)
+    img: modules/ak5e/icons/Skill-Invincible1.png
+    origin: Item.Kdh0YDI91iOTFleU
+    _id: 4eIkMqhyHeYYYH58
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.attack.bonus
+        mode: 2
+        value: bonus=@prof; opponentActor.creatureType.includes('plants');
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: effects.some(e => e.name === "Hunter (Plant)")
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!2dhqC8t1e1Shts32.4eIkMqhyHeYYYH58'
+  - name: Hunter (Undead) (Module)
+    img: modules/ak5e/icons/Skill-Invincible1.png
+    origin: Item.Kdh0YDI91iOTFleU
+    _id: lqcC6yNHCrhEfVgq
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.attack.bonus
+        mode: 2
+        value: bonus=@prof; opponentActor.creatureType.includes('undead');
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: effects.some(e => e.name === "Hunter (Undead)")
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!2dhqC8t1e1Shts32.lqcC6yNHCrhEfVgq'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1774025327677
+  modifiedTime: 1774025813204
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_id: 2dhqC8t1e1Shts32
+sort: 400000
+_key: '!items!2dhqC8t1e1Shts32'

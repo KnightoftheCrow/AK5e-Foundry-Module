@@ -240,7 +240,7 @@ system:
     spent: 0
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
   requirements: ''
   prerequisites:
     level: 3
@@ -380,7 +380,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767873251358
-  modifiedTime: 1770914416577
+  modifiedTime: 1774025738881
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 folder: U1VvPUnEP8A2c7Xk
 ownership:

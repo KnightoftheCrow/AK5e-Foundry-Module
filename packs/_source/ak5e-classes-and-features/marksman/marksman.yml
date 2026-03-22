@@ -443,76 +443,6 @@ system:
       title: Basic Operator Skill
       hint: ''
     - type: ItemChoice
-      _id: XoTnVpHGJRc2tLpM
-      configuration:
-        allowDrops: false
-        choices:
-          '3':
-            count: 1
-            replacement: false
-          '8':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.JtPzMai67p8ood8Z
-          - uuid: Compendium.ak5e.ak5e-talents.Item.6IL6kCJuT9hmCv97
-          - uuid: Compendium.ak5e.ak5e-talents.Item.hceNm4zFz9e5HTYm
-          - uuid: Compendium.ak5e.ak5e-talents.Item.1ZayOXSy5qjfyEaj
-          - uuid: Compendium.ak5e.ak5e-talents.Item.ed6qQk0urxaosAPg
-          - uuid: Compendium.ak5e.ak5e-talents.Item.OPv3qY3XkJREYTZv
-          - uuid: Compendium.ak5e.ak5e-talents.Item.OJjJDtDv1eF7izrT
-          - uuid: Compendium.ak5e.ak5e-talents.Item.HPA8fVrnNphDEqyS
-          - uuid: Compendium.ak5e.ak5e-talents.Item.cdDqSuDN1Rr0ajwR
-          - uuid: Compendium.ak5e.ak5e-talents.Item.EUHCD2cxipRq5Gox
-          - uuid: Compendium.ak5e.ak5e-talents.Item.PL4xlgwwce950X8F
-          - uuid: Compendium.ak5e.ak5e-talents.Item.rBuQjsMnnEK0nQ2I
-          - uuid: Compendium.ak5e.ak5e-talents.Item.rQs0HWi7n3P0iSBP
-          - uuid: Compendium.ak5e.ak5e-talents.Item.qfNTsOkoFFat7oiu
-          - uuid: Compendium.ak5e.ak5e-talents.Item.j0OSuxPOjWeQMLLM
-          - uuid: Compendium.ak5e.ak5e-talents.Item.BzU742aJIgbGMSdF
-          - uuid: Compendium.ak5e.ak5e-talents.Item.djXI6GLIRAdKvd1j
-          - uuid: Compendium.ak5e.ak5e-talents.Item.4MxiTCIDu9qPRbJF
-          - uuid: Compendium.ak5e.ak5e-talents.Item.TNysMEOsW57XDRxT
-          - uuid: Compendium.ak5e.ak5e-talents.Item.0C6NqVowQRNBaLv4
-          - uuid: Compendium.ak5e.ak5e-talents.Item.rhQX84XgtuE64ksy
-          - uuid: Compendium.ak5e.ak5e-talents.Item.tqAovJpW71QGPPB8
-          - uuid: Compendium.ak5e.ak5e-talents.Item.ABQtBAOGunZV4taU
-          - uuid: Compendium.ak5e.ak5e-talents.Item.70pckHl7L5GxO8lJ
-          - uuid: Compendium.ak5e.ak5e-talents.Item.qB3Tpa2eEM97xS37
-          - uuid: Compendium.ak5e.ak5e-talents.Item.XlMiH20OkY4B1hig
-          - uuid: Compendium.ak5e.ak5e-talents.Item.gK8nrJQPnS2vb32W
-          - uuid: Compendium.ak5e.ak5e-talents.Item.wPXQs7reAu5TZKw3
-          - uuid: Compendium.ak5e.ak5e-talents.Item.eETPdcPlC2Fx8X4w
-          - uuid: Compendium.ak5e.ak5e-talents.Item.7bMFFwobIjVsIkT7
-          - uuid: Compendium.ak5e.ak5e-talents.Item.ZT2UOU5NX1BGgY0j
-          - uuid: Compendium.ak5e.ak5e-talents.Item.z0QwdMcZdacDXUwC
-          - uuid: Compendium.ak5e.ak5e-talents.Item.oXrDMro8DgKx37aw
-          - uuid: Compendium.ak5e.ak5e-talents.Item.CfDWkR31hCBL2M2L
-          - uuid: Compendium.ak5e.ak5e-talents.Item.NStpcJ4m8TcHVtrp
-          - uuid: Compendium.ak5e.ak5e-talents.Item.TUC52moYi0vvumMI
-          - uuid: Compendium.ak5e.ak5e-talents.Item.xXoFEUm40eZWIHYx
-          - uuid: Compendium.ak5e.ak5e-talents.Item.8EPCaK2eeiccU9Li
-          - uuid: Compendium.ak5e.ak5e-talents.Item.CRHJHcD9oLWDRoqJ
-          - uuid: Compendium.ak5e.ak5e-talents.Item.DByJeS2LtSyLuQnV
-          - uuid: Compendium.ak5e.ak5e-talents.Item.RzYPXRNrW5Wy3Ay2
-          - uuid: Compendium.ak5e.ak5e-talents.Item.xxYRP5dRCa2W7BLI
-          - uuid: Compendium.ak5e.ak5e-talents.Item.fPoK0r3u6EvZKe68
-          - uuid: Compendium.ak5e.ak5e-talents.Item.YU98BLyyrwF2a7Oa
-          - uuid: Compendium.ak5e.ak5e-talents.Item.55HN1oYe2PnpBwTl
-        restriction:
-          list: []
-          type: class
-          subtype: skillPoints
-        spell: null
-        type: feat
-      value:
-        added: {}
-        replaced: {}
-      title: Basic Talent
-      hint: >-
-        Take a Basic Talent, or unlock the module effect of a Basic Talent you
-        already have.
-    - type: ItemChoice
       _id: jeXvRZE6PjdBSaZG
       configuration:
         allowDrops: false
@@ -720,6 +650,81 @@ system:
         replaced: {}
       title: Enhanced Target Lock
       hint: ''
+    - type: ItemChoice
+      _id: 4YmKhUVNVfnGnk1G
+      configuration:
+        allowDrops: true
+        choices:
+          '3':
+            count: 1
+            replacement: false
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.JtPzMai67p8ood8Z
+          - uuid: Compendium.ak5e.ak5e-talents.Item.6IL6kCJuT9hmCv97
+          - uuid: Compendium.ak5e.ak5e-talents.Item.hceNm4zFz9e5HTYm
+          - uuid: Compendium.ak5e.ak5e-talents.Item.1ZayOXSy5qjfyEaj
+          - uuid: Compendium.ak5e.ak5e-talents.Item.ed6qQk0urxaosAPg
+          - uuid: Compendium.ak5e.ak5e-talents.Item.OPv3qY3XkJREYTZv
+          - uuid: Compendium.ak5e.ak5e-talents.Item.OJjJDtDv1eF7izrT
+          - uuid: Compendium.ak5e.ak5e-talents.Item.HPA8fVrnNphDEqyS
+          - uuid: Compendium.ak5e.ak5e-talents.Item.4MxiTCIDu9qPRbJF
+          - uuid: Compendium.ak5e.ak5e-talents.Item.cdDqSuDN1Rr0ajwR
+          - uuid: Compendium.ak5e.ak5e-talents.Item.EUHCD2cxipRq5Gox
+          - uuid: Compendium.ak5e.ak5e-talents.Item.TNysMEOsW57XDRxT
+          - uuid: Compendium.ak5e.ak5e-talents.Item.PL4xlgwwce950X8F
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rBuQjsMnnEK0nQ2I
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rQs0HWi7n3P0iSBP
+          - uuid: Compendium.ak5e.ak5e-talents.Item.qfNTsOkoFFat7oiu
+          - uuid: Compendium.ak5e.ak5e-talents.Item.j0OSuxPOjWeQMLLM
+          - uuid: Compendium.ak5e.ak5e-talents.Item.BzU742aJIgbGMSdF
+          - uuid: Compendium.ak5e.ak5e-talents.Item.djXI6GLIRAdKvd1j
+          - uuid: Compendium.ak5e.ak5e-talents.Item.0C6NqVowQRNBaLv4
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rhQX84XgtuE64ksy
+          - uuid: Compendium.ak5e.ak5e-talents.Item.tqAovJpW71QGPPB8
+          - uuid: Compendium.ak5e.ak5e-talents.Item.ABQtBAOGunZV4taU
+          - uuid: Compendium.ak5e.ak5e-talents.Item.70pckHl7L5GxO8lJ
+          - uuid: Compendium.ak5e.ak5e-talents.Item.qB3Tpa2eEM97xS37
+          - uuid: Compendium.ak5e.ak5e-talents.Item.XlMiH20OkY4B1hig
+          - uuid: Compendium.ak5e.ak5e-talents.Item.gK8nrJQPnS2vb32W
+          - uuid: Compendium.ak5e.ak5e-talents.Item.2dhqC8t1e1Shts32
+          - uuid: Compendium.ak5e.ak5e-talents.Item.wPXQs7reAu5TZKw3
+          - uuid: Compendium.ak5e.ak5e-talents.Item.eETPdcPlC2Fx8X4w
+          - uuid: Compendium.ak5e.ak5e-talents.Item.7bMFFwobIjVsIkT7
+          - uuid: Compendium.ak5e.ak5e-talents.Item.ZT2UOU5NX1BGgY0j
+          - uuid: Compendium.ak5e.ak5e-talents.Item.z0QwdMcZdacDXUwC
+          - uuid: Compendium.ak5e.ak5e-talents.Item.oXrDMro8DgKx37aw
+          - uuid: Compendium.ak5e.ak5e-talents.Item.CfDWkR31hCBL2M2L
+          - uuid: Compendium.ak5e.ak5e-talents.Item.NStpcJ4m8TcHVtrp
+          - uuid: Compendium.ak5e.ak5e-talents.Item.TUC52moYi0vvumMI
+          - uuid: Compendium.ak5e.ak5e-talents.Item.xXoFEUm40eZWIHYx
+        restriction:
+          list: []
+          type: class
+          subtype: talent
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: Basic Talent
+      hint: >-
+        Take a Basic Talent, or unlock the module effect of a Basic Talent you
+        already have.
+    - type: ItemGrant
+      _id: J4cwcUyAmu28Y4Hl
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.Qi4Mc2HB3snq2eE5
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: 'Changes to Core Rules: Cantrips'
+      hint: All Creatures gain +Spellcasting Mod Damage to their Cantrips.
   description:
     value: >-
       <h3>Core Marksman Traits</h3><table><tbody><tr><td data-colwidth="142"><p
@@ -874,7 +879,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1770915912760
-  modifiedTime: 1772813244251
+  modifiedTime: 1774181362957
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0

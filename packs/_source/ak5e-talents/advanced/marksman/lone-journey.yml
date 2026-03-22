@@ -142,7 +142,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Lone Journey
     img: modules/ak5e/icons/Skill-Tecno1.webp
@@ -214,6 +214,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738661730
-  modifiedTime: 1770915126392
+  modifiedTime: 1774025980615
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!LSsRvyoRKzBAFTy5'

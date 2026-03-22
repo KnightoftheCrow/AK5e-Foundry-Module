@@ -138,7 +138,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Lucky (Module)
     img: modules/ak5e/icons/Skill-CivilightEterna1.webp
@@ -206,6 +206,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767735660757
-  modifiedTime: 1770914590948
+  modifiedTime: 1774025828658
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!7bMFFwobIjVsIkT7'
