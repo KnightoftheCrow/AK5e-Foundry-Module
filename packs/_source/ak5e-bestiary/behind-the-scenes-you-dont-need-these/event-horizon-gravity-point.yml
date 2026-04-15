@@ -379,8 +379,6 @@ system:
         save: ''
     spell:
       level: 0
-    price:
-      denomination: credits
   details:
     biography:
       value: ''
@@ -914,63 +912,9 @@ items:
       modifiedTime: 1757784056341
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!actors.items!I6txsKXdeCAs6DA7.wpZcJJ8vboq3mymF'
-effects:
-  - name: Non-Effectable Actor
-    img: icons/svg/aura.svg
-    _id: JIqzAAHGCbzBHYVm
-    type: base
-    system: {}
-    changes:
-      - key: system.traits.ci.all
-        mode: 0
-        value: 'true'
-        priority: 20
-      - key: system.traits.di.all
-        mode: 0
-        value: 'true'
-        priority: 20
-    disabled: false
-    duration:
-      startTime: 900
-      combat: null
-      startRound: 1
-      startTurn: 0
-      seconds: null
-      rounds: null
-      turns: null
-    description: ''
-    origin: null
-    tint: '#ffffff'
-    transfer: false
-    statuses: []
-    sort: 0
-    flags:
-      dae:
-        specialDuration: []
-        enableCondition: ''
-        disableCondition: ''
-        showIcon: false
-        disableIncapacitated: false
-        macroRepeat: none
-      dnd5e:
-        riders:
-          statuses: []
-      core:
-        overlay: false
-    _stats:
-      compendiumSource: >-
-        Compendium.ak5e.ak5e-bestiary.Actor.v4RiQhDGNlNHfdTp.ActiveEffect.JIqzAAHGCbzBHYVm
-      duplicateSource: null
-      exportSource: null
-      coreVersion: '13.348'
-      systemId: dnd5e
-      systemVersion: 5.2.4
-      createdTime: 1772821872830
-      modifiedTime: 1772821872830
-      lastModifiedBy: 9KtVYqHDTWORuJDZ
-    _key: '!actors.effects!I6txsKXdeCAs6DA7.JIqzAAHGCbzBHYVm'
+effects: []
 folder: zhZ3oJrVXiDxSCHH
-sort: 700000
+sort: 200000
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
@@ -981,10 +925,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.1.2
   createdTime: 1757783315496
-  modifiedTime: 1772982710241
+  modifiedTime: 1758378720513
   lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!actors!I6txsKXdeCAs6DA7'

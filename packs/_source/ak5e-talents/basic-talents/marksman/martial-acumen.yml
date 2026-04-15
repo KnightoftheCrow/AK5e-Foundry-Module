@@ -30,6 +30,27 @@ system:
         replaced: {}
       title: Guard Fighting Style
       hint: ''
+    - type: ItemChoice
+      _id: YfF9Oip3KqM9sQn0
+      configuration:
+        allowDrops: false
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.ZT2UOU5NX1BGgY0j
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
   description:
     value: >-
       <p>You gain a Fighting Style from one of the Styles available to the Guard
@@ -52,7 +73,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: talent
+    subtype: skillPoints
 effects: []
 sort: 1000000
 ownership:
@@ -66,10 +87,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767735713460
-  modifiedTime: 1774025743160
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1767910057711
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!PL4xlgwwce950X8F'

@@ -23,6 +23,25 @@ system:
       value: {}
       title: ''
       hint: ''
+    - type: ItemChoice
+      _id: Rzgp6qSxzRgnaF0r
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.1wKWIN8qqEbSgBVb
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
   description:
     value: >-
       <p>You gain the Equipment Modification Feature of the Inventor Specialist.
@@ -46,7 +65,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: talent
+    subtype: skillPoints
 effects: []
 sort: 1100000
 ownership:
@@ -60,10 +79,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738707833
-  modifiedTime: 1774026001360
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1768145756325
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!cjPGozlLmepdrnwX'

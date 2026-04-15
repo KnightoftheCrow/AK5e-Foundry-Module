@@ -1,0 +1,58 @@
+folder: sFhUUBrNUgchnK7r
+name: Delayed Detonation (WIP)
+type: feat
+_id: yUk0Z2FdprE3WriG
+img: icons/skills/ranged/bomb-grenade-thrown-stars-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Explosives aren’t all about the heat of the moment.</p><p>Once per
+      Short Rest, when you would use a weaponwith the Splash (X) Property during
+      an Attack, you caninstead choose to fire a specially fused munition at
+      apoint you can see within the range of that weapon. As aReaction to a
+      Creature moving, you can detonate that munition; resolve an Attack with
+      the weapon you usedon the point you chose, as per the Splash (X)
+      Property.If you do not manually detonate it, it detonatesautomatically
+      after 10 minutes unless you disarm it asan Action while within 5 feet.</p>
+    chat: ''
+  identifier: delayed-detonation-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767620041442
+  modifiedTime: 1767733192839
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!yUk0Z2FdprE3WriG'

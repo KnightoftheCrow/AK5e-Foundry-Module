@@ -59,7 +59,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: talent
+    subtype: skillPoints
 effects: []
 flags:
   dnd5e:
@@ -69,12 +69,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767873278998
-  modifiedTime: 1774025726443
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1767910205229
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

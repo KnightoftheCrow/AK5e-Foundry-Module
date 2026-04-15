@@ -134,8 +134,7 @@ system:
   crewed: false
   enchant: {}
   prerequisites:
-    items:
-      - Compendium.ak5e.ak5e-talents.Item.qfNTsOkoFFat7oiu
+    items: []
     repeatable: false
     level: 8
   properties:
@@ -143,7 +142,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: talent
+    subtype: skillPoints
 effects:
   - name: Prey Seeker (Module)
     img: modules/ak5e/icons/Skill-ProjektRed2.webp
@@ -214,10 +213,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767736486892
-  modifiedTime: 1774025849075
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1767914071255
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!CfDWkR31hCBL2M2L'

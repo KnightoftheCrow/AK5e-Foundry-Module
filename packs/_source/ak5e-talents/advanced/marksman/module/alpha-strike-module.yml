@@ -123,8 +123,7 @@ system:
   crewed: false
   enchant: {}
   prerequisites:
-    items:
-      - Compendium.ak5e.ak5e-talents.Item.o0GnFDZnQv6sXcbC
+    items: []
     repeatable: false
     level: 13
   properties:
@@ -132,7 +131,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: talent
+    subtype: skillPoints
 effects:
   - name: Alpha Strike (Module)
     img: modules/ak5e/icons/Skill-Lappland2.png
@@ -201,10 +200,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738173949
-  modifiedTime: 1774026023163
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1767986194644
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!imHOfHdGlX4eXLIq'

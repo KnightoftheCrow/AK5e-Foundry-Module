@@ -1,0 +1,61 @@
+folder: sFhUUBrNUgchnK7r
+name: Tools of the Trade (WIP)
+type: feat
+_id: DhUBhhmlH6sR3jwg
+img: icons/skills/ranged/bomb-grenade-thrown-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>An Artilleryman needs their tools. Without them, theyare ordinary
+      people; with them, they are a force ofnature. You gain the following
+      benefits:</p><p><strong>Additional Weapon Proficiencies.</strong> You gain
+      Proficiency with the Grenade Launcher and Rocket
+      Launcher.</p><p><strong>Controlled Demolition.</strong> The DC of your
+      Traps and Splash (X) Property is increased against your Target by an equal
+      amount to the bonus it grants you on Attack Rolls against that
+      Creature.</p><p><strong>Explosive Expertise.</strong> Whenever you deal
+      Thunder Damage as a result of a Weapon with the Splash (X) Property, you
+      deal an additional die of Damage. This is increased to two additional dice
+      at 7th Level, and threeat 14th Level.</p>
+    chat: ''
+  identifier: tools-of-the-trade-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767620030507
+  modifiedTime: 1768006252850
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!DhUBhhmlH6sR3jwg'

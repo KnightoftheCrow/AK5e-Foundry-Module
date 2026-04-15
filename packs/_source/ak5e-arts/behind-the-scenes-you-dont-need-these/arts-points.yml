@@ -18,7 +18,11 @@ system:
       Arts are the peak of what a Caster can achieve, capable of world changing
       events. For this reason, a Creature can only cast a single 9th Level Art
       per Long Rest, regardless of remaining Arts
-      Points.</p></blockquote><p></p>
+      Points.</p></blockquote><p></p><table><thead><tr><td><p
+      style="text-align:center"><strong>Level</strong></p></td><td><p
+      style="text-align:center"><strong>Maximum Art
+      Level</strong></p></td><td><p style="text-align:center"><strong>Arts
+      Points</strong></p></td></tr></thead><tbody><tr><td><p>1</p></td><td><p>1</p></td><td><p>2</p></td></tr><tr><td><p>2</p></td><td><p>1</p></td><td><p>3</p></td></tr><tr><td><p>3</p></td><td><p>2</p></td><td><p>4</p></td></tr><tr><td><p>4</p></td><td><p>2</p></td><td><p>5</p></td></tr><tr><td><p>5</p></td><td><p>3</p></td><td><p>7</p></td></tr><tr><td><p>6</p></td><td><p>3</p></td><td><p>8</p></td></tr><tr><td><p>7</p></td><td><p>4</p></td><td><p>9</p></td></tr><tr><td><p>8</p></td><td><p>4</p></td><td><p>11</p></td></tr><tr><td><p>9</p></td><td><p>5</p></td><td><p>12</p></td></tr><tr><td><p>10</p></td><td><p>5</p></td><td><p>13</p></td></tr><tr><td><p>11</p></td><td><p>6</p></td><td><p>15</p></td></tr><tr><td><p>12</p></td><td><p>6</p></td><td><p>16</p></td></tr><tr><td><p>13</p></td><td><p>7</p></td><td><p>17</p></td></tr><tr><td><p>14</p></td><td><p>7</p></td><td><p>19</p></td></tr><tr><td><p>15</p></td><td><p>8</p></td><td><p>20</p></td></tr><tr><td><p>16</p></td><td><p>8</p></td><td><p>21</p></td></tr><tr><td><p>17</p></td><td><p>9</p></td><td><p>23</p></td></tr><tr><td><p>18</p></td><td><p>9</p></td><td><p>24</p></td></tr><tr><td><p>19</p></td><td><p>9</p></td><td><p>25</p></td></tr><tr><td><p>20</p></td><td><p>9</p></td><td><p>26</p></td></tr></tbody></table>
     chat: >-
       <p></p><h2>Spell Point Cost (default DMG)</h2><table
       style="padding:5px"><tbody><tr><th><p>Spell Level</p></th><th><p>Point
@@ -109,12 +113,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1757178957677
-  modifiedTime: 1774026969038
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1767700504563
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _id: 6GMX3sLNtYU5pEtM
 sort: 200000
 ownership:

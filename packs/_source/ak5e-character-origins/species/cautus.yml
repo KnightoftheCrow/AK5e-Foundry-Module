@@ -9,7 +9,6 @@ system:
       _id: 7S64MBalPrHUtT68
       configuration:
         sizes:
-          - sm
           - med
       level: 0
       title: ''
@@ -40,15 +39,15 @@ system:
       _id: f129HTfliLY71Knu
       configuration:
         items:
+          - uuid: Item.jgIA3fePwiDzzTHq
+            optional: false
+          - uuid: Item.SwEdZQO7hbBwru9u
+            optional: false
+          - uuid: Item.ncEQ4mpMenur6gzO
+            optional: false
+          - uuid: Item.547ctSSj45OJdK7B
+            optional: false
           - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
-            optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1TxciocDhjUUeXjV
-            optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.jgIA3fePwiDzzTHq
-            optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.SwEdZQO7hbBwru9u
-            optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.ncEQ4mpMenur6gzO
             optional: false
         optional: false
         spell: null
@@ -149,10 +148,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768680297411
-  modifiedTime: 1771157303332
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1769881466904
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!kgN43RjiUygN1yBs'

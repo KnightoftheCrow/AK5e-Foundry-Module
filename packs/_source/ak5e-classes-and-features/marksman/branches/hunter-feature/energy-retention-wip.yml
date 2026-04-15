@@ -1,0 +1,53 @@
+folder: JQfn8YazPakYGtWZ
+name: Energy Retention (WIP)
+type: feat
+_id: 8OJwMeu2gV0NHWRL
+img: icons/skills/movement/figure-running-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You can use the Arts expended in empowering your shots to empower
+      yourself only briefly.</p><p>Your Speed is increased by 10 ft for each
+      Charge youhave expended during the current Turn.</p>
+    chat: ''
+  identifier: energy-retention-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767625912436
+  modifiedTime: 1767733552442
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!8OJwMeu2gV0NHWRL'

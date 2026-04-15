@@ -1,14 +1,37 @@
-folder: qlhprYb2GHX3LPKU
+folder: zWAk7cUjjJDFehud
 name: Unwavering Accuracy
 type: feat
-img: modules/ak5e/icons/Skill-Lemuen2.webp
+img: icons/magic/light/beam-horizon-strike-yellow.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement:
+    - type: ItemChoice
+      _id: Tsp22Dsy46GTKNCk
+      configuration:
+        allowDrops: true
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.PworX43PVxyg3nWI
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock this talent's module effect, or take another basic
+        talent?
   description:
     value: >-
       <p>You no longer have Disadvantage when making Ranged Spell Attacks while
@@ -33,16 +56,16 @@ system:
   prerequisites:
     items: []
     repeatable: false
-    level: 3
+    level: null
   properties: []
   requirements: ''
   type:
-    value: class
-    subtype: skillPoints
+    value: ''
+    subtype: ''
 effects:
-  - name: Ignore nearby Creatures and Cover for Ranged Attacks
-    img: modules/ak5e/icons/Skill-Lemuen2.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.p5XRnB4KDQZOihzo
+  - name: Unwavering Accuracy
+    img: icons/magic/light/beam-horizon-strike-yellow.webp
+    origin: Item.8t2bEo9UGXqFQuoA
     _id: z4JVhlFb44VHhSEx
     type: base
     system: {}
@@ -87,28 +110,25 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.348'
+      coreVersion: '13.347'
       systemId: dnd5e
-      systemVersion: 5.2.4
+      systemVersion: 5.1.9
       lastModifiedBy: null
-    _key: '!items.effects!p5XRnB4KDQZOihzo.z4JVhlFb44VHhSEx'
-flags:
-  dnd5e:
-    riders:
-      activity: []
+    _key: '!items.effects!pGpBSUkuNXRaORpa.z4JVhlFb44VHhSEx'
+flags: {}
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-talents.Item.pGpBSUkuNXRaORpa
+  compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 5.2.4
-  createdTime: 1770924144147
-  modifiedTime: 1770924584527
+  systemVersion: 5.1.9
+  createdTime: 1759429438314
+  modifiedTime: 1759429461833
   lastModifiedBy: 9KtVYqHDTWORuJDZ
-_id: p5XRnB4KDQZOihzo
-sort: -400000
+_id: pGpBSUkuNXRaORpa
+sort: 397657
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
-_key: '!items!p5XRnB4KDQZOihzo'
+_key: '!items!pGpBSUkuNXRaORpa'

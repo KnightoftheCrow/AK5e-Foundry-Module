@@ -128,8 +128,7 @@ system:
   crewed: false
   enchant: {}
   prerequisites:
-    items:
-      - Compendium.ak5e.ak5e-talents.Item.qcmSYeDAL35mcvws
+    items: []
     repeatable: false
     level: 13
   properties:
@@ -137,7 +136,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: talent
+    subtype: skillPoints
 effects:
   - name: Dig In (Module)
     img: modules/ak5e/icons/Skill-Misery3.webp
@@ -212,12 +211,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767988216432
-  modifiedTime: 1774026048280
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1767988864564
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

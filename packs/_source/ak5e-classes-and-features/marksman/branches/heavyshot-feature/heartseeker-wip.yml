@@ -1,0 +1,54 @@
+folder: JCxDQcgqE3WNSRZl
+name: Heartseeker (WIP)
+type: feat
+_id: Nq4KMWdk3Nc2Ah13
+img: icons/skills/ranged/target-bullseye-arrow-glowing.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>One shot is all it need take you.</p><p>Once per Long Rest when you hit
+      with a Ranged Weapon Attack, you can use this Feature (no Action
+      required). If you do, do not make a Damage Roll; instead, each dice you
+      would have rolled instead scores the maximum value on that dice.</p>
+    chat: ''
+  identifier: heartseeker-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 18
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767625811199
+  modifiedTime: 1767733479600
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!Nq4KMWdk3Nc2Ah13'

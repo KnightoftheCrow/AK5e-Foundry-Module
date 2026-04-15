@@ -1,0 +1,61 @@
+folder: mQ7J5doN5qC9pvT1
+name: Siege Bolt (WIP)
+type: feat
+_id: fhugPvUTKbenhNbf
+img: icons/skills/ranged/arrow-flying-broadhead-metal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>A shot to pierce the heavens. As an Action, choose a Creature or Object
+      you can see within 100 feet of you; that Creature must make a Dexterity
+      Saving Throw (objects automatically fail) against your Martial DC. On a
+      Successful Save, they suffer 5d8 Piercing Damage immediately, and no
+      further effects. On a failed Save, they take 5d8 Piercing Damage
+      immediately, and at the end of each of their next two turns. They may
+      reattempt the Saving Throw at the beginning of their Turn, ending the
+      effect early on a Success. Damage dealt by this Feature ignores
+      Resistances and Damage Reduction to Piercing Damage.</p><p>Once you have
+      used this Feature, you may not do so again until you have finished a Long
+      Rest.</p>
+    chat: ''
+  identifier: siege-bolt-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767621076414
+  modifiedTime: 1767733026053
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!fhugPvUTKbenhNbf'

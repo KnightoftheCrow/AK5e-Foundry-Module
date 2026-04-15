@@ -37,17 +37,17 @@ system:
       _id: Lm8yuD3q8CoG2zOL
       configuration:
         items:
+          - uuid: Item.ejgax1OwuL7CjBS2
+            optional: false
+          - uuid: Item.GVZrWxtUvwgYApeA
+            optional: false
+          - uuid: Item.nJUXt9ipJiL6Wu6l
+            optional: false
+          - uuid: Item.LzZYNELTLdJ1hJ5H
+            optional: false
+          - uuid: Item.7No7Ao7ZygpKTH4U
+            optional: false
           - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
-            optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.7iK1fAyE2ce18NHL
-            optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.uLRDO4e8BPMdcGSn
-            optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.LzZYNELTLdJ1hJ5H
-            optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.7No7Ao7ZygpKTH4U
-            optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.5iNk6VNE8AWCZBS7
             optional: false
         optional: false
         spell: null
@@ -175,11 +175,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.JDo05rh0POS2j190
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768680372929
-  modifiedTime: 1771157913057
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1769881790341
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: yy1wVyrzvdBh7w5v
 _key: '!items!yy1wVyrzvdBh7w5v'

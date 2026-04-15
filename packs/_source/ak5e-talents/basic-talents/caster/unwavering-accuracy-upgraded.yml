@@ -1,0 +1,54 @@
+folder: zWAk7cUjjJDFehud
+name: Unwavering Accuracy (Upgraded)
+type: feat
+img: icons/magic/light/beam-horizon-strike-yellow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Partially Automated: </strong>The removal of Disadvantage, and
+      the ignoring of cover are automated. However, the Range increase is not
+      automated.</p>
+    chat: ''
+  identifier: unwavering-accuracy-upgraded
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759429440434
+  modifiedTime: 1759429440448
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: PworX43PVxyg3nWI
+sort: 392579
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!PworX43PVxyg3nWI'

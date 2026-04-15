@@ -1,0 +1,104 @@
+folder: zWAk7cUjjJDFehud
+name: Armoured Caster (Upgraded)
+type: feat
+img: icons/equipment/chest/coat-collared-red.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module Effect: </strong>While you are wearing Light Armour, you
+      have a +1 Modifier to Dexterity Saving Throws.</p>
+    chat: ''
+  identifier: armoured-caster-upgraded
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: +1 AC for Light Armour
+    img: icons/equipment/chest/coat-collared-red.webp
+    origin: Item.4UWoP6zzufGOzrn4
+    _id: LZyzIxLaS28gExpy
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.ac.bonus
+        mode: 2
+        value: '1'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: >-
+          !attributes.ac.equippedArmor ||
+          attributes.ac.equippedArmor.system.type.value !== 'light' 
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.347'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      lastModifiedBy: null
+    _key: '!items.effects!37KV9eRIu4TmpCSn.LZyzIxLaS28gExpy'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1759430982854
+  modifiedTime: 1759430982873
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: 37KV9eRIu4TmpCSn
+sort: 356250
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+_key: '!items!37KV9eRIu4TmpCSn'

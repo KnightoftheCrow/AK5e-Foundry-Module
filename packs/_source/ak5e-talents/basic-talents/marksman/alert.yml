@@ -9,7 +9,28 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement:
+    - type: ItemChoice
+      _id: qA6KgRiqbbRwItND
+      configuration:
+        allowDrops: false
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rhQX84XgtuE64ksy
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
   description:
     value: >-
       <p>You gain a Bonus to your Initiative Rolls equal to your Proficiency
@@ -31,7 +52,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: talent
+    subtype: skillPoints
 effects:
   - name: Alert
     img: modules/ak5e/icons/Skill-PureCrystal.webp
@@ -95,10 +116,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767734252369
-  modifiedTime: 1774025691594
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1767905329274
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!6IL6kCJuT9hmCv97'

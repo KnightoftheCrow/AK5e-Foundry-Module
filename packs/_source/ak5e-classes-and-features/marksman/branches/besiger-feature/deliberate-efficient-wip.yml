@@ -1,0 +1,55 @@
+folder: mQ7J5doN5qC9pvT1
+name: Deliberate, Efficient (WIP)
+type: feat
+_id: dwEg1h7oKT7vUqOJ
+img: icons/skills/ranged/projectile-spiral-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>If you slow your pace, you can place your shots to best pierce the
+      defences of your prey.</p><p>When you take the Attack Action while in
+      Siege Mode, you can choose to only make one Attack as part of that Action.
+      If you do, that Attack deals 1d8 additional Damage, and ignores
+      Resistances and Damage Reduction to Physical Damage.</p>
+    chat: ''
+  identifier: deliberate-efficient-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 112500
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767621065146
+  modifiedTime: 1767733294301
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!dwEg1h7oKT7vUqOJ'

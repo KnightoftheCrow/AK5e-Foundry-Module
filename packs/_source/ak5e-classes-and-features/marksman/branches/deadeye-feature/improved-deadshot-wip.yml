@@ -1,0 +1,57 @@
+folder: mhhCPYRgjBzheVER
+name: Improved Deadshot (WIP)
+type: feat
+_id: NWFUAeiHkW2pfJqn
+img: icons/skills/ranged/target-bullseye-arrow-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You now additionally gain the following benefits while in Deadshot
+      State:</p><p><strong>Deathblow.</strong> If your Attack reduces a Creature
+      to fewer Hit Points than your Marksman Level, they are immediately reduced
+      to 0 Hit Points. For Elite and Leader Creatures, this threshold is twice
+      your Marksman Level instead.</p><p><strong>Piercing Shots.</strong>
+      Creatures do not receive the benefit of Half or Three-Quarters Cover
+      against your Attacks.</p>
+    chat: ''
+  identifier: improved-deadshot-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 125000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767621365734
+  modifiedTime: 1767733352171
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!NWFUAeiHkW2pfJqn'

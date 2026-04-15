@@ -1,0 +1,56 @@
+folder: JCxDQcgqE3WNSRZl
+name: Savage Shots (WIP)
+type: feat
+_id: 8NC99alqH4KhFrQ7
+img: icons/skills/ranged/arrow-gem-flying-poisoned-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You may use this Feature as a Bonus Action; until the end of the Turn,
+      when you deal Damage with your Custom Job against a Target within its
+      Normal Range, you may roll that Damage twice and use either
+      result.</p><p>You may use this Feature a number of times equal to your
+      Proficiency Bonus, and regain all expended uses when you complete a Long
+      Rest.</p>
+    chat: ''
+  identifier: savage-shots-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 106250
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767625723847
+  modifiedTime: 1767733518147
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!8NC99alqH4KhFrQ7'

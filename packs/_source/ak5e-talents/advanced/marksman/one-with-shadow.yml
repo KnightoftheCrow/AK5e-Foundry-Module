@@ -116,7 +116,26 @@ system:
       - period: lr
         type: recoverAll
     max: '@prof'
-  advancement: []
+  advancement:
+    - type: ItemChoice
+      _id: K1HZmr3apoKITDwn
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.dip5BZWPTq1qaU36
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
   description:
     value: >-
       <p>When a Creature makes an Attack against you, and doesn’t have Advantage
@@ -141,7 +160,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: talent
+    subtype: skillPoints
 effects: []
 sort: 800000
 ownership:
@@ -155,10 +174,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738686298
-  modifiedTime: 1774025988276
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1768146264129
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!QkpwGMxpGMK9cEyv'

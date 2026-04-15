@@ -1,0 +1,60 @@
+folder: JQfn8YazPakYGtWZ
+name: Railgun (WIP)
+type: feat
+_id: 3XfqLUspLW3kxovU
+img: icons/magic/light/beam-rays-red-large.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You can concentrate your charge into a single, raw blast of
+      Arts.</p><p>As an Action, you expend any number of Charges, up tothe
+      amount you presently have. Then, choose a pointyou can see within 100
+      feet; a blast of Originium Artsscreams forth from you in a 5 foot wide
+      line to the targetpoint. All Creatures within this line must make
+      aDexterity Saving Throw against your Martial DC. On afailed Save, a
+      Creature takes 2d6 Force Damage foreach Charge you expended on this
+      Feature. On asuccessful Save, they take half as much Damage.</p><p>Once
+      you have used this Feature, you may not do soagain until you have
+      completed a Long Rest.</p>
+    chat: ''
+  identifier: railgun-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 112500
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767625989618
+  modifiedTime: 1767733570235
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!3XfqLUspLW3kxovU'

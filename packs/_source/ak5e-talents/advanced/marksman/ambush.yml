@@ -9,7 +9,26 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement:
+    - type: ItemChoice
+      _id: 5wnKDwN9GJLz4IFA
+      configuration:
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.MNZ7KjBbXyRfHWns
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
   description:
     value: >-
       <p>After you roll Initiative, you deal 1 additional dice of Damage with
@@ -33,7 +52,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: talent
+    subtype: skillPoints
 effects:
   - name: Ambush
     img: modules/ak5e/icons/Skill-Manticore1.webp
@@ -97,10 +116,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738240387
-  modifiedTime: 1774025929948
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1768145448955
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!udvf7UywCar8aRw6'

@@ -114,7 +114,28 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement:
+    - type: ItemChoice
+      _id: hEmWetoqCTsATqJg
+      configuration:
+        allowDrops: false
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.70pckHl7L5GxO8lJ
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
   description:
     value: >-
       <p>Your Ranged Attacks against Creatures not touching the ground deal
@@ -143,7 +164,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: talent
+    subtype: skillPoints
 effects:
   - name: Bird Hunter
     img: modules/ak5e/icons/Skill-GreyThroat1.webp
@@ -211,10 +232,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767734689429
-  modifiedTime: 1774025704128
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1767910003447
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!ed6qQk0urxaosAPg'

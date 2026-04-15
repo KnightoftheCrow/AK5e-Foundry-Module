@@ -82,11 +82,11 @@ pages:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.348'
+      coreVersion: '13.347'
       systemId: dnd5e
-      systemVersion: 5.2.4
+      systemVersion: 5.1.2
       createdTime: 1756641252051
-      modifiedTime: 1774110938327
+      modifiedTime: 1756641263399
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!journal.pages!yrw3CUXpJvV19NKU.QvfVcC6EfK8BcV1u'
   - sort: 1100000

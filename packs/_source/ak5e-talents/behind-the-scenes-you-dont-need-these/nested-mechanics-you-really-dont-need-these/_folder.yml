@@ -1,0 +1,19 @@
+type: Item
+folder: uGBH25JgMVmLFBqq
+name: Nested Mechanics (You REALLY don't need these)
+color: null
+sorting: a
+_id: EGFYFgpc7QMGLFXA
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.347'
+  systemId: dnd5e
+  systemVersion: 5.1.2
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1758995053390
+_key: '!folders!EGFYFgpc7QMGLFXA'

@@ -1,0 +1,108 @@
+folder: d0vcqeJPShhHZhaq
+name: Hunter (Construct)
+type: feat
+img: modules/ak5e/icons/Skill-Invincible1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your Attacks against Constructs deal additional Damage equal to your
+      Proficiency Bonus.</p><p><strong>Module Effect: </strong>You gain a Bonus
+      to Attack Rolls against Creatures with that Creature Type equal to your
+      Proficiency Bonus.</p>
+    chat: ''
+  identifier: hunter-construct
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Hunter
+    img: modules/ak5e/icons/Skill-Invincible1.png
+    origin: Compendium.ak5e.ak5e-talents.Item.fDTkdUCEcbBpm1b4
+    _id: GNFjxq29W0Ikj0tl
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.bonus
+        mode: 2
+        value: bonus=1; opponentActor.creatureType.includes('construct');
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: GiT7LQTiCJxjm7mo
+      modifiedTime: 1767900734449
+    _key: '!items.effects!fDTkdUCEcbBpm1b4.GNFjxq29W0Ikj0tl'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767900391160
+  modifiedTime: 1767910835683
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+_id: fDTkdUCEcbBpm1b4
+sort: 250000
+_key: '!items!fDTkdUCEcbBpm1b4'

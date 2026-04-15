@@ -1,0 +1,57 @@
+folder: mhhCPYRgjBzheVER
+name: Kingslayer (WIN)
+type: feat
+_id: bnjx284W0wwCkHjz
+img: icons/skills/ranged/projectile-strike-impale-gray.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>To you, the emphasis in “High Value Target” is the word “Target.” You
+      gain the following benefits: </p><p><strong>Lethal.</strong> Your Attacks
+      against Elite and Leader Creatures have +1 Critical Range. If that
+      Creature is also your Target, your Critical Range is increased by a
+      further +1.</p><p><strong>Make it Count.</strong> When you roll the Damage
+      Roll for Attacks against Elite and Leader Creatures, you may roll one
+      additional Damage Dice, and discard the lowest result.</p>
+    chat: ''
+  identifier: kingslayer-win
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 112500
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767621274994
+  modifiedTime: 1767733364250
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!bnjx284W0wwCkHjz'

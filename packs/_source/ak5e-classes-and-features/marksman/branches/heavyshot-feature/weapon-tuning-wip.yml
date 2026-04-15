@@ -1,0 +1,65 @@
+folder: JCxDQcgqE3WNSRZl
+name: Weapon Tuning (WIP)
+type: feat
+_id: TF4twUZa9RfFpPjr
+img: icons/skills/trades/fletching-bowyery-arrow-tan.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You learn how to get the absolute most out of your weapon- even if it
+      isn’t what could be called “safe”.</p><p>As a Long Rest Activity, you may
+      modify a Heavy Ranged Weapon, turning it into a Custom Job. A Custom Job
+      gains the following effects:</p><p><strong>Exploding Damage.</strong>
+      Whenever Damage is rolled for an Attack with that Weapon, if one of the
+      dice results is the maximum result possible on that dice, the attacker may
+      roll an additional die of the same size, and add the result to the Damage.
+      The maximum number of dice that can be added is equal to the attacker’s
+      Proficiency Bonus.</p><p><strong>Heaviest Shot.</strong> If that Weapon
+      has the Loading Property, it deals an additional die of Damage.
+      </p><p><strong>Shortened Range.</strong> The Normal and Long Range values
+      of that Weapon are halved. </p><p>As a Result of your Modifications, only
+      you can handle your Custom Job- all other Creatures are not considered
+      Proficient with a Custom Job, even if they wouldnormally have Proficiency
+      with the Weapon.</p>
+    chat: ''
+  identifier: weapon-tuning-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 125000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767625620399
+  modifiedTime: 1767733496601
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!TF4twUZa9RfFpPjr'

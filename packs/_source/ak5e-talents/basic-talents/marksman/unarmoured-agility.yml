@@ -9,7 +9,28 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement:
+    - type: ItemChoice
+      _id: MZ8m2WdIBxhRwvFu
+      configuration:
+        allowDrops: false
+        choices:
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.xXoFEUm40eZWIHYx
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: >-
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
   description:
     value: >-
       <p>While you are wearing no Armour, your Speed increases by
@@ -33,7 +54,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: talent
+    subtype: skillPoints
 effects:
   - name: Unarmoured Agility
     img: modules/ak5e/icons/Skill-LuoXiaohei1.webp
@@ -101,10 +122,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767736701823
-  modifiedTime: 1774025765146
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1767914856467
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!djXI6GLIRAdKvd1j'

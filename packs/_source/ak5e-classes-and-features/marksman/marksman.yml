@@ -443,6 +443,45 @@ system:
       title: Basic Operator Skill
       hint: ''
     - type: ItemChoice
+      _id: XoTnVpHGJRc2tLpM
+      configuration:
+        allowDrops: false
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.JtPzMai67p8ood8Z
+          - uuid: Compendium.ak5e.ak5e-talents.Item.6IL6kCJuT9hmCv97
+          - uuid: Compendium.ak5e.ak5e-talents.Item.hceNm4zFz9e5HTYm
+          - uuid: Compendium.ak5e.ak5e-talents.Item.1ZayOXSy5qjfyEaj
+          - uuid: Compendium.ak5e.ak5e-talents.Item.ed6qQk0urxaosAPg
+          - uuid: Compendium.ak5e.ak5e-talents.Item.OPv3qY3XkJREYTZv
+          - uuid: Compendium.ak5e.ak5e-talents.Item.OJjJDtDv1eF7izrT
+          - uuid: Compendium.ak5e.ak5e-talents.Item.HPA8fVrnNphDEqyS
+          - uuid: Compendium.ak5e.ak5e-talents.Item.cdDqSuDN1Rr0ajwR
+          - uuid: Compendium.ak5e.ak5e-talents.Item.EUHCD2cxipRq5Gox
+          - uuid: Compendium.ak5e.ak5e-talents.Item.PL4xlgwwce950X8F
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rBuQjsMnnEK0nQ2I
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rQs0HWi7n3P0iSBP
+          - uuid: Compendium.ak5e.ak5e-talents.Item.qfNTsOkoFFat7oiu
+          - uuid: Compendium.ak5e.ak5e-talents.Item.j0OSuxPOjWeQMLLM
+          - uuid: Compendium.ak5e.ak5e-talents.Item.BzU742aJIgbGMSdF
+          - uuid: Compendium.ak5e.ak5e-talents.Item.djXI6GLIRAdKvd1j
+          - uuid: Compendium.ak5e.ak5e-talents.Item.4MxiTCIDu9qPRbJF
+          - uuid: Compendium.ak5e.ak5e-talents.Item.TNysMEOsW57XDRxT
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: Basic Talent
+      hint: ''
+    - type: ItemChoice
       _id: jeXvRZE6PjdBSaZG
       configuration:
         allowDrops: false
@@ -482,9 +521,6 @@ system:
           '9':
             count: 1
             replacement: false
-          '13':
-            count: 1
-            replacement: false
         pool:
           - uuid: Compendium.ak5e.ak5e-talents.Item.o0GnFDZnQv6sXcbC
           - uuid: Compendium.ak5e.ak5e-talents.Item.udvf7UywCar8aRw6
@@ -509,42 +545,15 @@ system:
           - uuid: Compendium.ak5e.ak5e-talents.Item.r19GGpWRcO5KigI5
           - uuid: Compendium.ak5e.ak5e-talents.Item.tFQX4Mvc3zrePzmi
           - uuid: Compendium.ak5e.ak5e-talents.Item.UnNVP185qAyYfpjg
-          - uuid: Compendium.ak5e.ak5e-talents.Item.imHOfHdGlX4eXLIq
-          - uuid: Compendium.ak5e.ak5e-talents.Item.MNZ7KjBbXyRfHWns
-          - uuid: Compendium.ak5e.ak5e-talents.Item.m0BrBNIoNX0m0uHA
-          - uuid: Compendium.ak5e.ak5e-talents.Item.tIptyIavnvrP91fD
-          - uuid: Compendium.ak5e.ak5e-talents.Item.Lxb0yt12a19ocMPz
-          - uuid: Compendium.ak5e.ak5e-talents.Item.urZlT0DSGEeTa0N5
-          - uuid: Compendium.ak5e.ak5e-talents.Item.2emfNpzkqQbxf5dd
-          - uuid: Compendium.ak5e.ak5e-talents.Item.AbSFCphHX1o0ACKh
-          - uuid: Compendium.ak5e.ak5e-talents.Item.IuPBrdz8iyjMI1I8
-          - uuid: Compendium.ak5e.ak5e-talents.Item.dx6dAUbF6YHqThXm
-          - uuid: Compendium.ak5e.ak5e-talents.Item.86tIY941JcOUVILB
-          - uuid: Compendium.ak5e.ak5e-talents.Item.asqpWDR8yqEbi90k
-          - uuid: Compendium.ak5e.ak5e-talents.Item.DOuG9z5mp6s3kCfJ
-          - uuid: Compendium.ak5e.ak5e-talents.Item.Nm62g5L0QJmJtKYw
-          - uuid: Compendium.ak5e.ak5e-talents.Item.SjifTMEu6CDpfsy1
-          - uuid: Compendium.ak5e.ak5e-talents.Item.dip5BZWPTq1qaU36
-          - uuid: Compendium.ak5e.ak5e-talents.Item.y68gxjzJnQjK9QmC
-          - uuid: Compendium.ak5e.ak5e-talents.Item.w9Dvr1RX6wHLVtwr
-          - uuid: Compendium.ak5e.ak5e-talents.Item.1wKWIN8qqEbSgBVb
-          - uuid: Compendium.ak5e.ak5e-talents.Item.aQ2FCQPTVkAj2IYO
-          - uuid: Compendium.ak5e.ak5e-talents.Item.9sEkisUaZbEQFW7r
-          - uuid: Compendium.ak5e.ak5e-talents.Item.fXbvDAjCMEh40323
-          - uuid: Compendium.ak5e.ak5e-talents.Item.ZaIvc4eA3xpZpgad
         restriction:
           list: []
-          type: class
-          subtype: skillPoints
         spell: null
-        type: feat
+        type: null
       value:
         added: {}
         replaced: {}
       title: Advanced Talent
-      hint: >-
-        Take an Advanced Talent, or unlock the module effect of a Advanced
-        Talent you already have.
+      hint: ''
     - type: ItemChoice
       _id: 3ToDZe1Q32surMq2
       configuration:
@@ -628,36 +637,10 @@ system:
         of the following options (You can’t take a Fighting Style option more
         than once, even if you later get to choose again).
     - type: ItemChoice
-      _id: 3uUKBRFUjr8EXgi1
+      _id: y7uv31gMaCMhrekv
       configuration:
         allowDrops: false
         choices:
-          '1':
-            count: 1
-            replacement: false
-          '11':
-            count: 1
-            replacement: true
-        pool:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.Wxr36xCVCF3240NG
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.oxFGvfgwpg4tNLdL
-        restriction:
-          list: []
-        spell: null
-        type: null
-      value:
-        added: {}
-        replaced: {}
-      title: Enhanced Target Lock
-      hint: ''
-    - type: ItemChoice
-      _id: 4YmKhUVNVfnGnk1G
-      configuration:
-        allowDrops: true
-        choices:
-          '3':
-            count: 1
-            replacement: false
           '8':
             count: 1
             replacement: false
@@ -670,10 +653,8 @@ system:
           - uuid: Compendium.ak5e.ak5e-talents.Item.OPv3qY3XkJREYTZv
           - uuid: Compendium.ak5e.ak5e-talents.Item.OJjJDtDv1eF7izrT
           - uuid: Compendium.ak5e.ak5e-talents.Item.HPA8fVrnNphDEqyS
-          - uuid: Compendium.ak5e.ak5e-talents.Item.4MxiTCIDu9qPRbJF
           - uuid: Compendium.ak5e.ak5e-talents.Item.cdDqSuDN1Rr0ajwR
           - uuid: Compendium.ak5e.ak5e-talents.Item.EUHCD2cxipRq5Gox
-          - uuid: Compendium.ak5e.ak5e-talents.Item.TNysMEOsW57XDRxT
           - uuid: Compendium.ak5e.ak5e-talents.Item.PL4xlgwwce950X8F
           - uuid: Compendium.ak5e.ak5e-talents.Item.rBuQjsMnnEK0nQ2I
           - uuid: Compendium.ak5e.ak5e-talents.Item.rQs0HWi7n3P0iSBP
@@ -681,50 +662,89 @@ system:
           - uuid: Compendium.ak5e.ak5e-talents.Item.j0OSuxPOjWeQMLLM
           - uuid: Compendium.ak5e.ak5e-talents.Item.BzU742aJIgbGMSdF
           - uuid: Compendium.ak5e.ak5e-talents.Item.djXI6GLIRAdKvd1j
-          - uuid: Compendium.ak5e.ak5e-talents.Item.0C6NqVowQRNBaLv4
-          - uuid: Compendium.ak5e.ak5e-talents.Item.rhQX84XgtuE64ksy
-          - uuid: Compendium.ak5e.ak5e-talents.Item.tqAovJpW71QGPPB8
-          - uuid: Compendium.ak5e.ak5e-talents.Item.ABQtBAOGunZV4taU
-          - uuid: Compendium.ak5e.ak5e-talents.Item.70pckHl7L5GxO8lJ
-          - uuid: Compendium.ak5e.ak5e-talents.Item.qB3Tpa2eEM97xS37
-          - uuid: Compendium.ak5e.ak5e-talents.Item.XlMiH20OkY4B1hig
-          - uuid: Compendium.ak5e.ak5e-talents.Item.gK8nrJQPnS2vb32W
-          - uuid: Compendium.ak5e.ak5e-talents.Item.2dhqC8t1e1Shts32
-          - uuid: Compendium.ak5e.ak5e-talents.Item.wPXQs7reAu5TZKw3
-          - uuid: Compendium.ak5e.ak5e-talents.Item.eETPdcPlC2Fx8X4w
-          - uuid: Compendium.ak5e.ak5e-talents.Item.7bMFFwobIjVsIkT7
-          - uuid: Compendium.ak5e.ak5e-talents.Item.ZT2UOU5NX1BGgY0j
-          - uuid: Compendium.ak5e.ak5e-talents.Item.z0QwdMcZdacDXUwC
-          - uuid: Compendium.ak5e.ak5e-talents.Item.oXrDMro8DgKx37aw
-          - uuid: Compendium.ak5e.ak5e-talents.Item.CfDWkR31hCBL2M2L
-          - uuid: Compendium.ak5e.ak5e-talents.Item.NStpcJ4m8TcHVtrp
-          - uuid: Compendium.ak5e.ak5e-talents.Item.TUC52moYi0vvumMI
-          - uuid: Compendium.ak5e.ak5e-talents.Item.xXoFEUm40eZWIHYx
+          - uuid: Compendium.ak5e.ak5e-talents.Item.4MxiTCIDu9qPRbJF
+          - uuid: Compendium.ak5e.ak5e-talents.Item.TNysMEOsW57XDRxT
         restriction:
           list: []
           type: class
-          subtype: talent
+          subtype: skillPoints
         spell: null
         type: feat
       value:
         added: {}
         replaced: {}
-      title: Basic Talent
+      title: Basic Talent Module
       hint: >-
-        Take a Basic Talent, or unlock the module effect of a Basic Talent you
-        already have.
-    - type: ItemGrant
-      _id: J4cwcUyAmu28Y4Hl
+        Do you want to unlock talent's module effect, or take another basic
+        talent?
+    - type: ItemChoice
+      _id: aaL3OiaFXXgtKVvp
       configuration:
-        items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.Qi4Mc2HB3snq2eE5
-            optional: false
-        optional: false
+        allowDrops: false
+        choices:
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.ak5e.ak5e-talents.Item.o0GnFDZnQv6sXcbC
+          - uuid: Compendium.ak5e.ak5e-talents.Item.udvf7UywCar8aRw6
+          - uuid: Compendium.ak5e.ak5e-talents.Item.FPq9QdOHl0EzXDV5
+          - uuid: Compendium.ak5e.ak5e-talents.Item.cVZnaMpeM1tx6huu
+          - uuid: Compendium.ak5e.ak5e-talents.Item.OKhxvBFfBEME93PU
+          - uuid: Compendium.ak5e.ak5e-talents.Item.qcmSYeDAL35mcvws
+          - uuid: Compendium.ak5e.ak5e-talents.Item.wl1K4E167035p5yf
+          - uuid: Compendium.ak5e.ak5e-talents.Item.8XbsWW3ZnN9W6P2t
+          - uuid: Compendium.ak5e.ak5e-talents.Item.euKbo82wr4mpE7Dv
+          - uuid: Compendium.ak5e.ak5e-talents.Item.N0B8L9Y09HXmafE6
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rAcx8Q8Yghko9tSi
+          - uuid: Compendium.ak5e.ak5e-talents.Item.mlANfWU9dVkEcDSi
+          - uuid: Compendium.ak5e.ak5e-talents.Item.LSsRvyoRKzBAFTy5
+          - uuid: Compendium.ak5e.ak5e-talents.Item.IjUlJY3ogPaLv6Ht
+          - uuid: Compendium.ak5e.ak5e-talents.Item.QkpwGMxpGMK9cEyv
+          - uuid: Compendium.ak5e.ak5e-talents.Item.j07NEdLfMa6g8lY8
+          - uuid: Compendium.ak5e.ak5e-talents.Item.aW0bCeIhfhgxIa1D
+          - uuid: Compendium.ak5e.ak5e-talents.Item.cjPGozlLmepdrnwX
+          - uuid: Compendium.ak5e.ak5e-talents.Item.0B7CWEADSa2l7ZFb
+          - uuid: Compendium.ak5e.ak5e-talents.Item.osCElO13K6JHa6bQ
+          - uuid: Compendium.ak5e.ak5e-talents.Item.r19GGpWRcO5KigI5
+          - uuid: Compendium.ak5e.ak5e-talents.Item.tFQX4Mvc3zrePzmi
+          - uuid: Compendium.ak5e.ak5e-talents.Item.UnNVP185qAyYfpjg
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
         spell: null
-      value: {}
-      level: 1
-      title: 'Changes to Core Rules: Cantrips'
-      hint: All Creatures gain +Spellcasting Mod Damage to their Cantrips.
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: Advanced Talent Module
+      hint: >-
+        Do you want to unlock talent's module effect, or take another advanced
+        talent?
+    - type: ItemChoice
+      _id: 3uUKBRFUjr8EXgi1
+      configuration:
+        allowDrops: false
+        choices:
+          '1':
+            count: 1
+            replacement: false
+          '11':
+            count: null
+            replacement: true
+        pool:
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.Wxr36xCVCF3240NG
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.oxFGvfgwpg4tNLdL
+        restriction:
+          list: []
+        spell: null
+        type: null
+      value:
+        added: {}
+        replaced: {}
+      title: ''
+      hint: ''
   description:
     value: >-
       <h3>Core Marksman Traits</h3><table><tbody><tr><td data-colwidth="142"><p
@@ -875,15 +895,15 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
-  createdTime: 1770915912760
-  modifiedTime: 1774181362957
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  createdTime: 1767615327612
+  modifiedTime: 1768654307987
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
-  9KtVYqHDTWORuJDZ: 3
-_id: 8ymTefvzbqqTMjxs
+  GiT7LQTiCJxjm7mo: 3
+_id: 68mNoSEgYkw9nKei
 sort: 100000
-_key: '!items!8ymTefvzbqqTMjxs'
+_key: '!items!68mNoSEgYkw9nKei'

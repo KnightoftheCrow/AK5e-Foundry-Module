@@ -1,0 +1,56 @@
+folder: mQ7J5doN5qC9pvT1
+name: Large Target (WIP)
+type: feat
+_id: pycRbSf4B2JDBH5v
+img: icons/skills/ranged/arrow-flying-spiral-blue.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your preferred prey are the hulking brutes that love to throw their
+      weight around. You gain the following benefits:</p><p><strong>Between the
+      Scales.</strong> If your target is a Large or larger Creature, you have
+      Advantage on Weapon Attacks against them.</p><p><strong>Hide
+      Piercer.</strong> Your Weapon Attacks against Creatures that are Large or
+      larger deal an additional die of Damage.</p>
+    chat: ''
+  identifier: large-target-wip
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: sp
+effects: []
+sort: 106250
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1767620138031
+  modifiedTime: 1767733303596
+  lastModifiedBy: GiT7LQTiCJxjm7mo
+_key: '!items!pycRbSf4B2JDBH5v'
