@@ -21,7 +21,8 @@ system:
   crewed: false
   enchant: {}
   prerequisites:
-    items: []
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.UnNVP185qAyYfpjg
     repeatable: false
     level: 13
   properties:
@@ -29,7 +30,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Lieutenant (Module)
     img: modules/ak5e/icons/Skill-TacticalEquipment.png
@@ -93,12 +94,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768145102101
-  modifiedTime: 1768145294648
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1774026080461
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

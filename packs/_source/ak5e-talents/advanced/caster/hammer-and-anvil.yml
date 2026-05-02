@@ -1,0 +1,108 @@
+folder: cyW9fgrb9XaTddeH
+name: Hammer and Anvil
+type: feat
+_id: TuEkFeCnXuPzh1AT
+img: modules/ak5e/icons/Skill-Vulcan2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Once per Turn, when you hit a Creature within 5 feet of an allied
+      Creature with a Ranged Attack, that Attack deals additional Damage equal
+      to your Proficiency Bonus.</p><p><strong>Module:</strong> The range at
+      which this Feature is effective is increased to 10
+      feet.</p><p><strong>Partially Automated: </strong>You will be prompted for
+      the additional Damage, but this does not check if there is an allied
+      Creature close enough.</p>
+    chat: ''
+  identifier: hammer-and-anvil
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Bonus Damage vs Engaged Enemies
+    img: modules/ak5e/icons/Skill-Vulcan2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.TuEkFeCnXuPzh1AT
+    _id: 5k6Wvdy3R6stmp2u
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.bonus
+        mode: 2
+        value: >-
+          bonus=rollingActor.prof; optin; oncePerTurn; actionType.rwak ||
+          actionType.rsak
+        priority: 20
+    disabled: false
+    duration:
+      startTime: 900
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: 1
+      startTurn: 0
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Actor.zvMPACiY7cfwzP3s.Item.oRiaTHKlRYJBJdTP.ActiveEffect.b3nmaTA4BJVwjlN6
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!TuEkFeCnXuPzh1AT.5k6Wvdy3R6stmp2u'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1772222746366
+  modifiedTime: 1772222746366
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!TuEkFeCnXuPzh1AT'

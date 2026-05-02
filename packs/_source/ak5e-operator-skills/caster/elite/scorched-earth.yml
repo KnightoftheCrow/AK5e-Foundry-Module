@@ -1,0 +1,490 @@
+folder: 30IfqyYT0cFgxAaa
+name: Scorched Earth
+type: feat
+img: modules/ak5e/icons/64px-Skill-Fiammetta2.webp
+system:
+  activities:
+    hBBVhflELm9f8Dqf:
+      type: utility
+      _id: hBBVhflELm9f8Dqf
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '65'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: true
+        override: false
+        value: '3'
+      effects:
+        - _id: 88h9qWQxBNdTtCW7
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: ''
+    odWFXNszsBnw7WaN:
+      type: utility
+      _id: odWFXNszsBnw7WaN
+      sort: 0
+      activation:
+        type: turnStart
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: v7QEDAs0m6p3hfCE
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        formula: ''
+        name: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Recast
+  uses:
+    spent: 0
+    recovery: []
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
+      SP</p></td><td><p>Charging</p></td><td><p>Activation</p></td><td><p>Duration</p></td></tr></thead><tbody><tr><td><p>65</p></td><td><p>30</p></td><td><p>Automatic</p></td><td><p>Action</p></td><td><p>3
+      Rounds</p></td></tr></tbody></table><p><strong>Effect: </strong>As part of
+      activating this Operator Skill, you may cast an Art with a Casting Time of
+      Action, does not require Concentration, and that covers an Area of Effect
+      (such as a Cone, Sphere, or Cube). For this casting only, that Art is
+      considered to require Concentration. At the beginning of each of your
+      Turns, the effects of that Art are reapplied to the same location as if
+      you had cast it again; Damage dealt by these secondary “casts” ignore
+      Resistances. The Art ends when you lose Concentration, or the duration of
+      this Skill ends.</p><p><strong>Partially Automated: </strong>Use the
+      Recast Activity to grant your next Art the ability to ignore Damage
+      Resistance; make sure you use this for the "recast" of the Art you cast
+      with this Skill!</p>
+    chat: ''
+  identifier: scorched-earth
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 14
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Scorched Earth (Skill Points)
+    img: modules/ak5e/icons/64px-Skill-Fiammetta2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.RspIe7238jDPJt2w
+    _id: DXFUOiWQeWl6gGq8
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 4
+        value: '30'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 4
+        value: '65'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!RspIe7238jDPJt2w.DXFUOiWQeWl6gGq8'
+  - name: Scorching the Earth
+    img: modules/ak5e/icons/64px-Skill-Fiammetta2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.RspIe7238jDPJt2w
+    transfer: false
+    _id: 88h9qWQxBNdTtCW7
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: true
+        disableIncapacitated: false
+        selfTarget: true
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!RspIe7238jDPJt2w.88h9qWQxBNdTtCW7'
+  - name: Resistance Ignore
+    img: modules/ak5e/icons/64px-Skill-Fiammetta2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.RspIe7238jDPJt2w
+    transfer: false
+    _id: v7QEDAs0m6p3hfCE
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.idr.value
+        mode: 2
+        value: acid
+        priority: 20
+      - key: system.traits.idr.value
+        mode: 2
+        value: bludgeoning
+        priority: 20
+      - key: system.traits.idr.value
+        mode: 2
+        value: cold
+        priority: 20
+      - key: system.traits.idr.value
+        mode: 2
+        value: fire
+        priority: 20
+      - key: system.traits.idr.value
+        mode: 2
+        value: force
+        priority: 20
+      - key: system.traits.idr.value
+        mode: 2
+        value: lightning
+        priority: 20
+      - key: system.traits.idr.value
+        mode: 2
+        value: necrotic
+        priority: 20
+      - key: system.traits.idr.value
+        mode: 2
+        value: piercing
+        priority: 20
+      - key: system.traits.idr.value
+        mode: 2
+        value: poison
+        priority: 20
+      - key: system.traits.idr.value
+        mode: 2
+        value: psychic
+        priority: 20
+      - key: system.traits.idr.value
+        mode: 2
+        value: radiant
+        priority: 20
+      - key: system.traits.idr.value
+        mode: 2
+        value: slashing
+        priority: 20
+      - key: system.traits.idr.value
+        mode: 2
+        value: thunder
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: 1
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - DamageDealt
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!RspIe7238jDPJt2w.v7QEDAs0m6p3hfCE'
+sort: 100000
+ownership:
+  default: 0
+  GiT7LQTiCJxjm7mo: 3
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: Item.oVQuPKSaGjjTaAA3
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1774023683571
+  modifiedTime: 1774023683571
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: RspIe7238jDPJt2w
+_key: '!items!RspIe7238jDPJt2w'

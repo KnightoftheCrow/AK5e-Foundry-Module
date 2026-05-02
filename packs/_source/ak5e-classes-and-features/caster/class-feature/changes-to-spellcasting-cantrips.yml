@@ -1,0 +1,105 @@
+folder: VOkvmAkDoFjmWOnp
+name: 'Changes to Spellcasting: Cantrips'
+type: feat
+_id: Qi4Mc2HB3snq2eE5
+img: modules/ak5e/icons/Skill-T1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Whenever a Creature rolls Damage for a damaging Cantrip (a Cantrip that
+      directly deals Damage to one or more Creature(s), such as Firebolt or
+      Thunderclap), they add their Spellcasting Ability Modifier to that Damage
+      Roll.</p>
+    chat: ''
+  identifier: changes-to-spellcasting-cantrips
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: +Spellcasting Mod to Cantrip Damage
+    img: modules/ak5e/icons/Skill-T1.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.Qi4Mc2HB3snq2eE5
+    _id: ABspXtMpNUDi4KsJ
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.bonus
+        mode: 5
+        value: bonus=@attributes.spell.mod; isCantrip && hasDamage
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1774181067611
+      modifiedTime: 1774181165589
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!Qi4Mc2HB3snq2eE5.ABspXtMpNUDi4KsJ'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1774180882901
+  modifiedTime: 1774181063106
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!Qi4Mc2HB3snq2eE5'

@@ -9,26 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement:
-    - type: ItemChoice
-      _id: wvsYRbngF72Zg79A
-      configuration:
-        allowDrops: false
-        choices:
-          '13':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.2emfNpzkqQbxf5dd
-        restriction:
-          list: []
-        spell: null
-        type: null
-      value:
-        added: {}
-        replaced: {}
-      title: ''
-      hint: ''
+  advancement: []
   description:
     value: >-
       <p>You have have a +5 Bonus to Perception and Investigation Checks based
@@ -53,7 +34,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Eagle Eyes
     img: modules/ak5e/icons/Skill-Pepe2.webp
@@ -129,10 +110,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738535257
-  modifiedTime: 1768145448955
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1774025948144
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!wl1K4E167035p5yf'

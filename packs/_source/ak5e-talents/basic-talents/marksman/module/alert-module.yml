@@ -20,7 +20,8 @@ system:
   crewed: false
   enchant: {}
   prerequisites:
-    items: []
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.6IL6kCJuT9hmCv97
     repeatable: false
     level: 8
   properties:
@@ -28,7 +29,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Alert (Module)
     img: modules/ak5e/icons/Skill-PureCrystal.webp
@@ -92,10 +93,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767734286520
-  modifiedTime: 1767901607904
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1774025780142
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!rhQX84XgtuE64ksy'

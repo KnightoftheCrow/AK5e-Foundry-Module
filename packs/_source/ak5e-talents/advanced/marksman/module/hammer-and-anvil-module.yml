@@ -21,7 +21,8 @@ system:
   crewed: false
   enchant: {}
   prerequisites:
-    items: []
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.euKbo82wr4mpE7Dv
     repeatable: false
     level: 13
   properties:
@@ -29,7 +30,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Hammer and Anvil (Module)
     img: modules/ak5e/icons/Skill-Mudrock3.webp
@@ -90,12 +91,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767994398086
-  modifiedTime: 1768003951388
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1774026064330
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

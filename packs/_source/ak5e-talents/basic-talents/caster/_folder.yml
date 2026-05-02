@@ -3,16 +3,17 @@ folder: S7dEq1kHM19kbrwc
 name: Caster
 color: null
 sorting: a
-_id: zWAk7cUjjJDFehud
+_id: qlhprYb2GHX3LPKU
 description: ''
-sort: 0
+sort: 100000
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.1.2
-  lastModifiedBy: null
-_key: '!folders!zWAk7cUjjJDFehud'
+  systemVersion: 5.2.4
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1770924144215
+_key: '!folders!qlhprYb2GHX3LPKU'

@@ -1,0 +1,707 @@
+folder: cyW9fgrb9XaTddeH
+name: Elemental Specialist
+type: feat
+_id: kTbut5VOuncR3jvN
+img: modules/ak5e/icons/Skill-Gnosis3.webp
+system:
+  activities:
+    UmbPWkzTGSfYRz5R:
+      type: utility
+      _id: UmbPWkzTGSfYRz5R
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: perm
+        concentration: false
+        override: false
+      effects:
+        - _id: bIszxMotzttFGTKo
+          level:
+            min: null
+            max: null
+        - _id: CwyWKY2gMyGVFNK2
+          level:
+            min: null
+            max: null
+        - _id: wTajghr3jhO2J3Tn
+          level:
+            min: null
+            max: null
+        - _id: Qvhfc5QCFR1yWhr6
+          level:
+            min: null
+            max: null
+        - _id: x01gRqJWf2e0la3z
+          level:
+            min: null
+            max: null
+        - _id: lkoNim9jucNOJcF1
+          level:
+            min: null
+            max: null
+        - _id: hUvbT5lbQs9X35Yg
+          level:
+            min: null
+            max: null
+        - _id: WdqJoWVC1n3E70wZ
+          level:
+            min: null
+            max: null
+        - _id: UALo37OUURiV1X2g
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: never
+        forceRollDialog: never
+        forceDamageDialog: never
+        confirmTargets: never
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: true
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Choose Damage Type (Once only)
+  uses:
+    spent: 0
+    recovery: []
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p>Choose an Arts Damage Type. You become Resistant to that Damage Type,
+      and when you roll to determine Damage dealt by that Damage Type, you may
+      reroll any result of 1, but must use the new
+      result.</p><p><strong>Module:</strong> Whenever you roll to determine the
+      Damage Dealt of your chosen Damage Type by one of your Arts, you may roll
+      an additional die of that Damage.</p><p><strong>Automated: </strong>Use
+      the Activity on this item to choose your Damage Type; you can only do this
+      once.</p>
+    chat: ''
+  identifier: elemental-specialist
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Elemental Specialist (Acid)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.kTbut5VOuncR3jvN
+    transfer: false
+    _id: bIszxMotzttFGTKo
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: acid
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: modifier=r1; damageTypes.acid
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!kTbut5VOuncR3jvN.bIszxMotzttFGTKo'
+  - name: Elemental Specialist (Cold)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.kTbut5VOuncR3jvN
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: cold
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: modifier=r1; damageTypes.cold
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: CwyWKY2gMyGVFNK2
+    _key: '!items.effects!kTbut5VOuncR3jvN.CwyWKY2gMyGVFNK2'
+  - name: Elemental Specialist (Fire)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.kTbut5VOuncR3jvN
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: fire
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: modifier=r1; damageTypes.fire
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: wTajghr3jhO2J3Tn
+    _key: '!items.effects!kTbut5VOuncR3jvN.wTajghr3jhO2J3Tn'
+  - name: Elemental Specialist (Force)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.kTbut5VOuncR3jvN
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: force
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: modifier=r1; damageTypes.force
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: Qvhfc5QCFR1yWhr6
+    _key: '!items.effects!kTbut5VOuncR3jvN.Qvhfc5QCFR1yWhr6'
+  - name: Elemental Specialist (Lightning)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.kTbut5VOuncR3jvN
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: lightning
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: modifier=r1; damageTypes.lightning
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: x01gRqJWf2e0la3z
+    _key: '!items.effects!kTbut5VOuncR3jvN.x01gRqJWf2e0la3z'
+  - name: Elemental Specialist (Necrotic)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.kTbut5VOuncR3jvN
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: necrotic
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: modifier=r1; damageTypes.necrotic
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: lkoNim9jucNOJcF1
+    _key: '!items.effects!kTbut5VOuncR3jvN.lkoNim9jucNOJcF1'
+  - name: Elemental Specialist (Poison)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.kTbut5VOuncR3jvN
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: poison
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: modifier=r1; damageTypes.poison
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: hUvbT5lbQs9X35Yg
+    _key: '!items.effects!kTbut5VOuncR3jvN.hUvbT5lbQs9X35Yg'
+  - name: Elemental Specialist (Psychic)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.kTbut5VOuncR3jvN
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: psychic
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: modifier=r1; damageTypes.psychic
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: WdqJoWVC1n3E70wZ
+    _key: '!items.effects!kTbut5VOuncR3jvN.WdqJoWVC1n3E70wZ'
+  - name: Elemental Specialist (Radiant)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.kTbut5VOuncR3jvN
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: radiant
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: modifier=r1; damageTypes.radiant
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: UALo37OUURiV1X2g
+    _key: '!items.effects!kTbut5VOuncR3jvN.UALo37OUURiV1X2g'
+sort: 600000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1772222746366
+  modifiedTime: 1772222746366
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!kTbut5VOuncR3jvN'

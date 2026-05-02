@@ -1,0 +1,57 @@
+folder: BggdCAUNKZtaoKXU
+name: Cardinal Punishment
+type: feat
+_id: cirfDKN2BVTeyWNZ
+img: modules/ak5e/icons/Skill-Purgatory1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>None can evade your primeval fury. You gain the following
+      benefits:</p><p><strong>Improved Elemental Burst.</strong> When you use
+      your Elemental Burst Feature, your Spell Save DC is treated as being 5
+      higher.</p><p><strong>Suffering Unmatched.</strong> You may use your
+      Residual Suffering Feature even against Creatures who succeed on a Saving
+      Throw against your Arts.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: cardinal-punishment
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 600000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1774120580506
+  modifiedTime: 1774178293400
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!cirfDKN2BVTeyWNZ'

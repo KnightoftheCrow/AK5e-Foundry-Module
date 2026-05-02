@@ -1,0 +1,102 @@
+folder: cyW9fgrb9XaTddeH
+name: Jumpstart
+type: feat
+_id: CFUuirtym4KuKXTA
+img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>The Start SP of your Operator Skills is increased by
+      5.</p><p><strong>Module: </strong>The Start SP of your Operator Skills is
+      increased by 10 instead.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: jumpstart
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: +5 Start SP
+    img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
+    origin: Compendium.ak5e.ak5e-talents.Item.CFUuirtym4KuKXTA
+    _id: etZoS0vDQqwulL5T
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 4
+        value: '5'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!CFUuirtym4KuKXTA.etZoS0vDQqwulL5T'
+sort: 0
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1772222746366
+  modifiedTime: 1772222746366
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!CFUuirtym4KuKXTA'

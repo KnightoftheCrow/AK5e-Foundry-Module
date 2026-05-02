@@ -9,26 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement:
-    - type: ItemChoice
-      _id: fcYflfN4eH790058
-      configuration:
-        allowDrops: false
-        choices:
-          '13':
-            count: 1
-            replacement: false
-        pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.y68gxjzJnQjK9QmC
-        restriction:
-          list: []
-        spell: null
-        type: null
-      value:
-        added: {}
-        replaced: {}
-      title: ''
-      hint: ''
+  advancement: []
   description:
     value: >-
       <p>Attacks you make against Creatures with reduced Speed deal additional
@@ -51,7 +32,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects: []
 sort: 1300000
 ownership:
@@ -65,10 +46,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738693265
-  modifiedTime: 1768146466250
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1774025639628
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!j07NEdLfMa6g8lY8'

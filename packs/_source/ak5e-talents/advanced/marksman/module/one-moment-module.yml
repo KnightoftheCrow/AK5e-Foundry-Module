@@ -21,15 +21,16 @@ system:
   crewed: false
   enchant: {}
   prerequisites:
-    items: []
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.IjUlJY3ogPaLv6Ht
     repeatable: false
-    level: 9
+    level: 13
   properties:
     - trait
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects: []
 flags:
   dnd5e:
@@ -39,12 +40,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768145921135
-  modifiedTime: 1768145995502
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1774026089560
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

@@ -1,8 +1,8 @@
-folder: zWAk7cUjjJDFehud
+folder: qlhprYb2GHX3LPKU
 name: Tough
 type: feat
-_id: XoinPMCyjVsTYV7L
-img: icons/skills/social/intimidation-impressing.webp
+_id: PFTX0gYY2pJp9nNO
+img: modules/ak5e/icons/Skill-Gravel1.webp
 system:
   activities: {}
   uses:
@@ -14,27 +14,21 @@ system:
     value: >-
       <p>Your Hit Point Maximum increases by an amount equal to twice your
       Character Level. When you gain a Character Level thereafter, your Hit
-      Point Maximum increases by an additional 2 points.</p><p><strong>Module
-      Effect: </strong>Whenever you expend a Hit Dice to restore your Hit
-      Points, you recover additional Hit Points equal to your Proficiency
-      Bonus.</p><p><strong>Partially Automated: </strong>The Additionally HP per
-      level is automated; the additional healing when spending Hit Dice is
-      not.</p>
+      Point Maximum increases by an additional two
+      points.</p><p><strong>Module:</strong> Whenever you expend a Hit Dice to
+      restore your Hit Points, you recover additional Hit Points equal to your
+      Proficiency Bonus.</p><p><strong>Automated.</strong></p>
     chat: ''
   identifier: tough
   source:
     revision: 1
-    rules: '2014'
-    book: ''
-    page: ''
-    custom: ''
-    license: ''
+    rules: '2024'
   crewed: false
   enchant: {}
   prerequisites:
     items: []
     repeatable: false
-    level: null
+    level: 3
   properties:
     - trait
   requirements: ''
@@ -42,10 +36,10 @@ system:
     value: class
     subtype: skillPoints
 effects:
-  - name: Tough
-    img: icons/skills/social/intimidation-impressing.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.XoinPMCyjVsTYV7L
-    _id: gpJ6219N8XDDFHJg
+  - name: Max HP Increase
+    img: modules/ak5e/icons/Skill-Gravel1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.PFTX0gYY2pJp9nNO
+    _id: ThguCB8gJE1wgpa8
     type: base
     system: {}
     changes:
@@ -85,26 +79,28 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.347'
+      coreVersion: '13.348'
       systemId: dnd5e
-      systemVersion: 5.1.9
-      createdTime: 1759253910537
-      modifiedTime: 1759425085783
-      lastModifiedBy: 9KtVYqHDTWORuJDZ
-    _key: '!items.effects!XoinPMCyjVsTYV7L.gpJ6219N8XDDFHJg'
-sort: 362500
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _key: '!items.effects!PFTX0gYY2pJp9nNO.ThguCB8gJE1wgpa8'
+sort: -300000
 ownership:
   default: 0
+  GiT7LQTiCJxjm7mo: 3
   9KtVYqHDTWORuJDZ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
 _stats:
-  compendiumSource: null
+  compendiumSource: Compendium.ak5e.ak5e-talents.Item.BzU742aJIgbGMSdF
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.1.9
-  createdTime: 1759253847401
-  modifiedTime: 1759425117903
+  systemVersion: 5.2.4
+  createdTime: 1770924144147
+  modifiedTime: 1770924144147
   lastModifiedBy: 9KtVYqHDTWORuJDZ
-_key: '!items!XoinPMCyjVsTYV7L'
+_key: '!items!PFTX0gYY2pJp9nNO'

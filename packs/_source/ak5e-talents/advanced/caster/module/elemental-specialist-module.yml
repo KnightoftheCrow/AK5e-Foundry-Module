@@ -1,0 +1,672 @@
+folder: xZIHKSAf1iQQkfT3
+name: Elemental Specialist (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Gnosis3.webp
+system:
+  activities:
+    epuamla1eDlWxQj9:
+      type: utility
+      _id: epuamla1eDlWxQj9
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: perm
+        concentration: false
+        override: false
+      effects:
+        - _id: bIszxMotzttFGTKo
+          level:
+            min: null
+            max: null
+        - _id: TvM37OAiFKqHkpC9
+          level:
+            min: null
+            max: null
+        - _id: 5wCWbqLfGN5MpyDj
+          level:
+            min: null
+            max: null
+        - _id: fIImQ4u3dqnsOBgR
+          level:
+            min: null
+            max: null
+        - _id: Waihv6dOLUjmcxxV
+          level:
+            min: null
+            max: null
+        - _id: j4oLbypd0TU2ohUX
+          level:
+            min: null
+            max: null
+        - _id: EPhsnyUOizqZIs9o
+          level:
+            min: null
+            max: null
+        - _id: 8tHSNWvLfxRAGszv
+          level:
+            min: null
+            max: null
+        - _id: m6HQkl5uXlX3AqXx
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: never
+        forceRollDialog: never
+        forceDamageDialog: never
+        confirmTargets: never
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Grant Module Effect
+  uses:
+    spent: 0
+    recovery: []
+    max: '1'
+  advancement: []
+  description:
+    value: >-
+      <p><strong>Module:</strong> Whenever you roll to determine the Damage
+      Dealt of your chosen Damage Type by one of your Arts, you may roll an
+      additional die of that Damage.</p><p><strong>Automated: </strong>Use the
+      Activity on this item to choose your Damage Type; you can only do this
+      once. For the module, simply use the activity on the module and it will
+      give you the corresponding effect (this will produce a spam of "XYZ effect
+      does not exist"; this is harmless and intended.</p>
+    chat: ''
+  identifier: elemental-specialist
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.kTbut5VOuncR3jvN
+    repeatable: false
+    level: 13
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Elemental Specialist Module (Acid)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.L39PLsWM1LcMBGNI
+    transfer: false
+    _id: bIszxMotzttFGTKo
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.damage.extraDice
+        mode: 2
+        value: bonus=1; damageTypes.acid
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: effects.some(e => e.name === "Elemental Specialist (Acid)")
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+      modifiedTime: 1774094307964
+    _key: '!items.effects!L39PLsWM1LcMBGNI.bIszxMotzttFGTKo'
+  - name: Elemental Specialist Module (Cold)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.L39PLsWM1LcMBGNI
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.damage.extraDice
+        mode: 2
+        value: bonus=1; damageTypes.cold
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: effects.some(e => e.name === "Elemental Specialist (Cold)")
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: Item.L39PLsWM1LcMBGNI.ActiveEffect.bIszxMotzttFGTKo
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: TvM37OAiFKqHkpC9
+    _key: '!items.effects!L39PLsWM1LcMBGNI.TvM37OAiFKqHkpC9'
+  - name: Elemental Specialist Module (Fire)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.L39PLsWM1LcMBGNI
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.damage.extraDice
+        mode: 2
+        value: bonus=1; damageTypes.fire
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: effects.some(e => e.name === "Elemental Specialist (Fire)")
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: Item.L39PLsWM1LcMBGNI.ActiveEffect.bIszxMotzttFGTKo
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: 5wCWbqLfGN5MpyDj
+    _key: '!items.effects!L39PLsWM1LcMBGNI.5wCWbqLfGN5MpyDj'
+  - name: Elemental Specialist Module (Force)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.L39PLsWM1LcMBGNI
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.damage.extraDice
+        mode: 2
+        value: bonus=1; damageTypes.force
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: effects.some(e => e.name === "Elemental Specialist (Force)")
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: Item.L39PLsWM1LcMBGNI.ActiveEffect.bIszxMotzttFGTKo
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: fIImQ4u3dqnsOBgR
+    _key: '!items.effects!L39PLsWM1LcMBGNI.fIImQ4u3dqnsOBgR'
+  - name: Elemental Specialist Module (Lightning)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.L39PLsWM1LcMBGNI
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.damage.extraDice
+        mode: 2
+        value: bonus=1; damageTypes.lightning
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: effects.some(e => e.name === "Elemental Specialist (Lightning)")
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: Item.L39PLsWM1LcMBGNI.ActiveEffect.bIszxMotzttFGTKo
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: Waihv6dOLUjmcxxV
+    _key: '!items.effects!L39PLsWM1LcMBGNI.Waihv6dOLUjmcxxV'
+  - name: Elemental Specialist Module (Necrotic)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.L39PLsWM1LcMBGNI
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.damage.extraDice
+        mode: 2
+        value: bonus=1; damageTypes.necrotic
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: effects.some(e => e.name === "Elemental Specialist (Necrotic)")
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: Item.L39PLsWM1LcMBGNI.ActiveEffect.bIszxMotzttFGTKo
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: j4oLbypd0TU2ohUX
+    _key: '!items.effects!L39PLsWM1LcMBGNI.j4oLbypd0TU2ohUX'
+  - name: Elemental Specialist Module (Poison)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.L39PLsWM1LcMBGNI
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.damage.extraDice
+        mode: 2
+        value: bonus=1; damageTypes.poison
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: effects.some(e => e.name === "Elemental Specialist (Poison)")
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: Item.L39PLsWM1LcMBGNI.ActiveEffect.bIszxMotzttFGTKo
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: EPhsnyUOizqZIs9o
+    _key: '!items.effects!L39PLsWM1LcMBGNI.EPhsnyUOizqZIs9o'
+  - name: Elemental Specialist Module (Psychic)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.L39PLsWM1LcMBGNI
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.damage.extraDice
+        mode: 2
+        value: bonus=1; damageTypes.psychic
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: effects.some(e => e.name === "Elemental Specialist (Psychic)")
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: Item.L39PLsWM1LcMBGNI.ActiveEffect.bIszxMotzttFGTKo
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: 8tHSNWvLfxRAGszv
+    _key: '!items.effects!L39PLsWM1LcMBGNI.8tHSNWvLfxRAGszv'
+  - name: Elemental Specialist Module (Radiant)
+    img: modules/ak5e/icons/Skill-Gnosis3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.L39PLsWM1LcMBGNI
+    transfer: false
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.damage.extraDice
+        mode: 2
+        value: bonus=1; damageTypes.radiant
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: effects.some(e => e.name === "Elemental Specialist (Radiant)")
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: Item.L39PLsWM1LcMBGNI.ActiveEffect.bIszxMotzttFGTKo
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      lastModifiedBy: null
+    _id: m6HQkl5uXlX3AqXx
+    _key: '!items.effects!L39PLsWM1LcMBGNI.m6HQkl5uXlX3AqXx'
+sort: 162500
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Item.kTbut5VOuncR3jvN
+  duplicateSource: Item.kTbut5VOuncR3jvN
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1772222746366
+  modifiedTime: 1772223232355
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_id: L39PLsWM1LcMBGNI
+_key: '!items!L39PLsWM1LcMBGNI'

@@ -1,0 +1,19 @@
+type: Item
+folder: 3i0Fc7SxRfKUNXWv
+name: Caster
+color: null
+sorting: a
+_id: cyW9fgrb9XaTddeH
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1772222746475
+_key: '!folders!cyW9fgrb9XaTddeH'

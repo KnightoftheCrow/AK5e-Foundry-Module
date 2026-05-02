@@ -9,25 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement:
-    - type: ItemChoice
-      _id: JpUt9fH66sRtkcwb
-      configuration:
-        allowDrops: false
-        choices:
-          '13':
-            count: 1
-            replacement: false
-        pool: []
-        restriction:
-          list: []
-        spell: null
-        type: null
-      value:
-        added: {}
-        replaced: {}
-      title: ''
-      hint: ''
+  advancement: []
   description:
     value: >-
       <p>When you make a Check using a Skill you are Proficient in, treat any
@@ -51,7 +33,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Reliable Talent
     img: modules/ak5e/icons/Skill-TheParadigmatic1.webp
@@ -132,10 +114,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767738714333
-  modifiedTime: 1768638493737
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1774026005233
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!0B7CWEADSa2l7ZFb'

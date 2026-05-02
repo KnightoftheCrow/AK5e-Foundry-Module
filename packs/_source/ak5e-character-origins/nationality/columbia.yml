@@ -41,7 +41,7 @@ system:
       _id: igrAtPsojAw8CQIZ
       configuration:
         items:
-          - uuid: Item.MjYcbeghMw18ffj8
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.MjYcbeghMw18ffj8
             optional: false
         optional: false
         spell: null
@@ -144,10 +144,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1769881328247
-  modifiedTime: 1769881328247
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1771154403666
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!RWpYENn4Jscomxlv'

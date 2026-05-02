@@ -129,7 +129,8 @@ system:
   crewed: false
   enchant: {}
   prerequisites:
-    items: []
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.LSsRvyoRKzBAFTy5
     repeatable: false
     level: 13
   properties:
@@ -137,7 +138,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: Lone Journey (Module)
     img: modules/ak5e/icons/Skill-Tecno1.webp
@@ -200,12 +201,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767996730536
-  modifiedTime: 1768003946899
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1774026085473
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

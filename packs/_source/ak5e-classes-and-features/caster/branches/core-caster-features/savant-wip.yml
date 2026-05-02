@@ -1,0 +1,286 @@
+folder: pUajGesWO3hqfFFR
+name: Savant (WIP)
+type: feat
+_id: OzrZAwSCp5h2uNEG
+img: modules/ak5e/icons/Skill-Beeswax1.png
+system:
+  activities:
+    5vcAOsRZkSVtXYdj:
+      type: enchant
+      name: Declare Signature Art
+      _id: 5vcAOsRZkSVtXYdj
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: kFbKw2C5Gk2ea7Xn
+          level:
+            min: null
+            max: null
+          riders:
+            activity: []
+            effect:
+              - 1O0q5A1fVG62RH6E
+            item: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      enchant:
+        self: false
+      restrictions:
+        allowMagical: false
+        categories: []
+        properties: []
+        type: spell
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your Arts are like your signature, signed in carnage.</p><p>You can
+      conduct a ritual as a Long Rest Activity to choose a Signature Art from
+      your known Arts of 5th Level or less. Your Signature Art gains the
+      following benefits:</p><ul><li><p>You can reroll any result on a dice of 3
+      or less on a Damage Roll, but must use the new
+      result.</p></li><li><p>Damage dealt by that Art ignores Damage Reduction
+      and Resistance.</p></li><li><p>If the Art cannot deal Damage, it costs 2
+      fewer Arts Points to cast, to a minimum of 0.</p></li></ul><p>You may only
+      have one Signature Art at a time; when you select another, the previous
+      Signature Art loses all benefits.</p>
+    chat: ''
+  identifier: savant
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 20
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Signature Art
+    img: modules/ak5e/icons/Skill-Beeswax1.png
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.OzrZAwSCp5h2uNEG
+    _id: 1O0q5A1fVG62RH6E
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 5
+        value: >-
+          modifier=r<3; isSpell && rollingActor.items.some(item => item.name ===
+          'Signature')
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1774100489347
+      modifiedTime: 1774179518578
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!OzrZAwSCp5h2uNEG.1O0q5A1fVG62RH6E'
+  - type: enchantment
+    name: Signature Art
+    img: modules/ak5e/icons/Skill-Beeswax1.png
+    disabled: true
+    _id: kFbKw2C5Gk2ea7Xn
+    system: {}
+    changes:
+      - key: activities[damage].midiProperties.ignoreTraits
+        mode: 5
+        value: resistance
+        priority: 20
+      - key: activities[damage].midiProperties.ignoreTraits
+        mode: 5
+        value: modification
+        priority: 20
+      - key: name
+        mode: 5
+        value: '{} (Signature Art)'
+        priority: 20
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1774100687593
+      modifiedTime: 1774176157000
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!OzrZAwSCp5h2uNEG.kFbKw2C5Gk2ea7Xn'
+sort: 500000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      effect:
+        - 1O0q5A1fVG62RH6E
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1774095578067
+  modifiedTime: 1774101086687
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!OzrZAwSCp5h2uNEG'

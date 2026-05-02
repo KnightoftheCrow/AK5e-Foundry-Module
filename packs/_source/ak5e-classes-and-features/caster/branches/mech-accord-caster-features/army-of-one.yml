@@ -1,0 +1,225 @@
+folder: PEUmzy8rnB1pKfXr
+name: Army of One
+type: feat
+_id: mqwJyGfkt52v84Wr
+img: modules/ak5e/icons/Skill-Swire1.webp
+system:
+  activities:
+    ncPEC25PuU62e1x1:
+      type: utility
+      _id: ncPEC25PuU62e1x1
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: true
+          max: ''
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: turn
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: ldhh5AhpnBBAFQOm
+          level:
+            min: null
+            max: null
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: '["construct"].includes(typeOrRace)'
+      useConditionReason: That is not an Arts Master Drone.
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Residual Energy Recyclers
+      img: ''
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>Your mastery of Arts Master drones now allows you to control more than
+      one. You gain the following benefits:</p><p><strong>Additional Arts
+      Drone.</strong> The maximum number of Arts Master Drones you can have at
+      one time is increased to 2. When you use your Bonus Action to command your
+      Arts Master, you may command all of your Arts Master’s at
+      once.</p><p><strong>Residual Energy Recyclers.</strong> When you cast a
+      levelled Art, until the end of your Turn, your Arts Master Drones deal
+      additional Force Damage with their Originium Spark Action equal to the
+      number of Arts Points you expended to cast that
+      Art.</p><p><strong>Partially Automated: </strong>Use the Activity on this
+      Feature after you cast an Art, and set the scaling to the amount of AP you
+      expended.</p>
+    chat: ''
+  identifier: army-of-one
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 10
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Residual Energy Recyclers
+    img: modules/ak5e/icons/Skill-Swire1.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.mqwJyGfkt52v84Wr
+    transfer: false
+    _id: ldhh5AhpnBBAFQOm
+    type: base
+    system: {}
+    changes:
+      - key: system.bonuses.All-Damage
+        mode: 2
+        value: '@scaling'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.348'
+      systemId: dnd5e
+      systemVersion: 5.2.4
+      createdTime: 1774104187616
+      modifiedTime: 1774104213790
+      lastModifiedBy: 9KtVYqHDTWORuJDZ
+    _key: '!items.effects!mqwJyGfkt52v84Wr.ldhh5AhpnBBAFQOm'
+sort: 287500
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1774104104619
+  modifiedTime: 1774180376145
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!mqwJyGfkt52v84Wr'

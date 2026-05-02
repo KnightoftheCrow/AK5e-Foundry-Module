@@ -1,0 +1,55 @@
+folder: cyW9fgrb9XaTddeH
+name: Extra Attack
+type: feat
+_id: 7Nr54P2otxGNaRXB
+img: modules/ak5e/icons/Skill-BluePoison1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: []
+  description:
+    value: >-
+      <p>You can Attack twice instead of once whenever you take the Attack
+      Action.</p><p><strong>Module: </strong>You have a +1 to Attack and Damage
+      Rolls for non-Spell Attacks.</p><p><strong>Automated: </strong>The bonus
+      to corresponding Attack and Damage Rolls is automatically applied.</p>
+    chat: ''
+  identifier: extra-attack
+  source:
+    revision: 1
+    rules: '2014'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 800000
+ownership:
+  default: 0
+  9KtVYqHDTWORuJDZ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.348'
+  systemId: dnd5e
+  systemVersion: 5.2.4
+  createdTime: 1772222746366
+  modifiedTime: 1772222746366
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
+_key: '!items!7Nr54P2otxGNaRXB'
