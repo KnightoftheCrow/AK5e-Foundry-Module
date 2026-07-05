@@ -24,7 +24,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.PL4xlgwwce950X8F
+      - martial-acumen
     repeatable: false
     level: 8
   properties:
@@ -46,10 +46,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767735845868
-  modifiedTime: 1774025832649
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783242603600
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!ZT2UOU5NX1BGgY0j'

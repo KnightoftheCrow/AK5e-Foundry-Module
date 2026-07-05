@@ -23,7 +23,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.djXI6GLIRAdKvd1j
+      - unarmoured-agility
     repeatable: false
     level: 8
   properties:
@@ -95,10 +95,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767736746692
-  modifiedTime: 1774025861359
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783242499172
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!xXoFEUm40eZWIHYx'

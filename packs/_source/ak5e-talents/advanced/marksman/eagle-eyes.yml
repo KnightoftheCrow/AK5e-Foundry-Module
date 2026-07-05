@@ -19,10 +19,14 @@ system:
       and you can now see Invisible Creatures within 30 feet of
       you.</p><p><strong>Automated.</strong></p>
     chat: ''
-  identifier: feature
+  identifier: eagle-eyes
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
@@ -110,10 +114,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767738535257
-  modifiedTime: 1774025948144
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783247700765
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!wl1K4E167035p5yf'

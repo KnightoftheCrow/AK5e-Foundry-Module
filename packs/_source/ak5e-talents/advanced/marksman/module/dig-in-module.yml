@@ -121,15 +121,19 @@ system:
       you gain Physicial DR equal to half your Proficiency Bonus, rounding
       up.</p>
     chat: ''
-  identifier: feature
+  identifier: dig-in-module
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.qcmSYeDAL35mcvws
+      - dig-in
     repeatable: false
     level: 13
   properties:
@@ -212,12 +216,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767988216432
-  modifiedTime: 1774026048280
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783247735918
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

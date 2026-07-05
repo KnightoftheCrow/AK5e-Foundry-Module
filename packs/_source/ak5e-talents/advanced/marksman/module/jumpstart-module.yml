@@ -14,15 +14,19 @@ system:
       <p><strong>Module:</strong> The Start SP of your Operator Skills is
       increased by 10 instead.</p>
     chat: ''
-  identifier: jumpstart
+  identifier: jumpstart-module
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.rAcx8Q8Yghko9tSi
+      - jumpstart
     repeatable: false
     level: 13
   properties:
@@ -89,12 +93,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1768144146082
-  modifiedTime: 1774026072423
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783247616171
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

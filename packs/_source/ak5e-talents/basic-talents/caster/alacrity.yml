@@ -19,7 +19,11 @@ system:
   identifier: alacrity
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
@@ -31,7 +35,7 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
+    subtype: talent
 effects:
   - name: +10ft Speed
     img: modules/ak5e/icons/Skill-Phantom1.webp
@@ -91,13 +95,13 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-talents.Item.JtPzMai67p8ood8Z
+  compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1770924144147
-  modifiedTime: 1770924144147
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783246853571
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!4a7sf8eAg0sy2k2w'

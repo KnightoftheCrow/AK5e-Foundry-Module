@@ -119,15 +119,19 @@ system:
       <p>When you roll Initiative, you gain 5 SP.</p><p><strong>Module:
       </strong>You instead gain 10 SP.</p><p><strong>Automated.</strong></p>
     chat: ''
-  identifier: cold-start
+  identifier: cold-start-module
   source:
     revision: 1
     rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.j07MrGXo67CrDZdX
+      - cold-start
     repeatable: false
     level: 13
   properties:
@@ -149,11 +153,11 @@ _stats:
   compendiumSource: Item.j07MrGXo67CrDZdX
   duplicateSource: Item.j07MrGXo67CrDZdX
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1772223255595
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783248473925
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: 42d3im8xnaMKpxFr
 _key: '!items!42d3im8xnaMKpxFr'

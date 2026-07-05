@@ -372,15 +372,15 @@ system:
   cover: null
   crewed: false
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-talents.Item.TNysMEOsW57XDRxT
+  compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1770924144147
-  modifiedTime: 1770924144147
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783246520411
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 folder: qlhprYb2GHX3LPKU
 ownership:
   default: 0

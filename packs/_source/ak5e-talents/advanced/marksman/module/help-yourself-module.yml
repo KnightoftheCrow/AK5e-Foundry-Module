@@ -14,15 +14,19 @@ system:
       <p><strong>Module:</strong> The amount of Damage Reduction you steal when
       you hit a Creature with an Attack is increased to 2.</p>
     chat: ''
-  identifier: help-yourself
+  identifier: help-yourself-module
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.N0B8L9Y09HXmafE6
+      - help-yourself
     repeatable: false
     level: 13
   properties:
@@ -40,12 +44,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1768143966309
-  modifiedTime: 1774026068541
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783247640948
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

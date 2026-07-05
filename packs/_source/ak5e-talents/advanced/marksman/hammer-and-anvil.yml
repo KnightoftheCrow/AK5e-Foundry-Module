@@ -21,7 +21,11 @@ system:
   identifier: hammer-and-anvil
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
@@ -99,10 +103,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767738621760
-  modifiedTime: 1774025956359
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783247649469
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!euKbo82wr4mpE7Dv'

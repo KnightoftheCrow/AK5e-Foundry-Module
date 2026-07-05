@@ -14,15 +14,19 @@ system:
       <p><strong>Module:</strong> You gain a third Instruction Dice, and your
       Instruction Dice become d8s.</p>
     chat: ''
-  identifier: lieutenant
+  identifier: lieutenant-module
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.UnNVP185qAyYfpjg
+      - lieutenant
     repeatable: false
     level: 13
   properties:
@@ -94,12 +98,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1768145102101
-  modifiedTime: 1774026080461
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783247313313
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

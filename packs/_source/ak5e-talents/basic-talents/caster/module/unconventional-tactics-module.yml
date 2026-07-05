@@ -26,7 +26,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.hncWRB1FZxPbRZUz
+      - unconventional-tactics
     repeatable: false
     level: 8
   properties:
@@ -92,12 +92,12 @@ _stats:
   compendiumSource: Compendium.ak5e.ak5e-talents.Item.KZ8dgOb6jknQW938
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1770924144147
-  modifiedTime: 1770924573360
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783246328569
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: 7TlQ9RkJlKqiWKU7
 sort: 125000
 ownership:

@@ -129,12 +129,16 @@ system:
   identifier: all-out-attack
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.hceNm4zFz9e5HTYm
+      - all-out-attack
     repeatable: false
     level: 8
   properties:
@@ -205,12 +209,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767901715527
-  modifiedTime: 1774025783726
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783246198626
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

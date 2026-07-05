@@ -125,10 +125,14 @@ system:
       less than half of their maximum Hit Points and deals additional Damage to
       them.</p>
     chat: ''
-  identifier: new-item
+  identifier: clean-sweep
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
@@ -245,12 +249,12 @@ _stats:
   compendiumSource: Compendium.ak5e.ak5e-talents.Item.4s7JyL83Y2tSsu9z
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1770924144147
-  modifiedTime: 1770924144147
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783246728653
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: MaVekY5FOLYSPajW
 sort: -225000
 ownership:

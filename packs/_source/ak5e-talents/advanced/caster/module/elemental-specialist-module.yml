@@ -160,7 +160,7 @@ system:
       give you the corresponding effect (this will produce a spam of "XYZ effect
       does not exist"; this is harmless and intended.</p>
     chat: ''
-  identifier: elemental-specialist
+  identifier: elemental-specialist-module
   source:
     revision: 1
     rules: '2014'
@@ -172,7 +172,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.kTbut5VOuncR3jvN
+      - elemental-specialist
     repeatable: false
     level: 13
   properties: []
@@ -662,11 +662,11 @@ _stats:
   compendiumSource: Item.kTbut5VOuncR3jvN
   duplicateSource: Item.kTbut5VOuncR3jvN
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1772223232355
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783248407877
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: L39PLsWM1LcMBGNI
 _key: '!items!L39PLsWM1LcMBGNI'

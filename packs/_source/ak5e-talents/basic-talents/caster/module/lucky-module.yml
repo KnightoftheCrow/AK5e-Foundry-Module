@@ -125,12 +125,16 @@ system:
   identifier: lucky-module
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.988LyB3yFcgsTeJP
+      - lucky
     repeatable: false
     level: 8
   properties:
@@ -198,13 +202,13 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-talents.Item.7bMFFwobIjVsIkT7
+  compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1770924144147
-  modifiedTime: 1770924640241
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783246513490
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!bIQXuFvE0SFtxoXC'

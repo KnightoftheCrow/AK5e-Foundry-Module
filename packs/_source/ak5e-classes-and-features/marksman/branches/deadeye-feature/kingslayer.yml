@@ -4,7 +4,114 @@ type: feat
 _id: bnjx284W0wwCkHjz
 img: modules/ak5e/icons/Skill-Varkaris1.webp
 system:
-  activities: {}
+  activities:
+    Vp1xdq8jQhwNqLfE:
+      type: utility
+      name: Mark Target of Opportunity
+      _id: Vp1xdq8jQhwNqLfE
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: pWUqVplDYj2UW5Ft
+      flags: {}
+      range:
+        units: any
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        triggeredActivityConsume: true
+        triggeredActivityConfigure: true
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        rollAs: target
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      img: ''
   uses:
     spent: 0
     recovery: []
@@ -13,13 +120,18 @@ system:
   description:
     value: >-
       <p>To you, the emphasis in “High Value Target” is the word “Target.” You
-      gain the following benefits:</p><p><strong>Lethal.</strong> Your Attacks
-      against Elite and Leader Creatures have +1 Critical Range. If that
-      Creature is also your Target, your Critical Range is increased by a
-      further +1.</p><p><strong>Make it Count.</strong> When you roll the Damage
-      Roll for Attacks against Elite and Leader Creatures, you may roll one
-      additional Damage Dice, and discard the lowest result.</p><p><strong>Not
-      Automated.</strong></p>
+      gain the following benefits:</p><p><strong>Lethal. </strong>Your Attacks
+      against your Target have +1 Critical Range. If that Creature is also an
+      Elite or Leader, your Critical Range is increased by a further
+      +1.</p><p><strong>Target of Opportunity. </strong>As a Short Rest Action,
+      you can nominate a Creature, either by name or by stating at least two
+      distinguishing features of that Creature. If you do so, that Creature is
+      considered to be your Target until you next complete a Short or Long Rest.
+      Marking a Creature as your Target in this way does not prevent you from
+      marking a different Creature as your
+      Target.</p><p></p><p><strong>Partially Automated: </strong>When you
+      encounter your target of Opportunity, use the Activity on this Feature to
+      Apply your Target to them. All other aspects are automated.</p>
     chat: ''
   identifier: kingslayer-win
   source:
@@ -36,7 +148,123 @@ system:
   type:
     value: class
     subtype: skillPoints
-effects: []
+effects:
+  - name: Kingslayer
+    img: modules/ak5e/icons/Skill-Varkaris1.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.bnjx284W0wwCkHjz
+    _id: rGHgFB0yl7OLVgz4
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.attack.criticalThreshold
+        mode: 0
+        value: >-
+          threshold=-1; opponentActor.effects.some(effect => effect.name ===
+          'Target')
+        priority: 20
+      - key: flags.automated-conditions-5e.attack.criticalThreshold
+        mode: 0
+        value: >-
+          threshold=-1; opponentActor.effects.some(effect => effect.name ===
+          'Target'); ['elite', 'leader'].some(type =>
+          opponentActor.creatureType.includes(type));
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      createdTime: 1781190959386
+      modifiedTime: 1781191202592
+      lastModifiedBy: 5XlrCO2NlPtd4MFQ
+    _key: '!items.effects!bnjx284W0wwCkHjz.rGHgFB0yl7OLVgz4'
+  - name: Target
+    img: modules/ak5e/icons/Skill-Lemuen1.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.bnjx284W0wwCkHjz
+    transfer: false
+    _id: pWUqVplDYj2UW5Ft
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.grants.attack.bonus
+        mode: 5
+        value: bonus=1; hasAttack && effectOriginTokenId === tokenId;
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - shortRest
+          - longRest
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: >-
+        Compendium.ak5e.ak5e-classes-and-features.Item.oxFGvfgwpg4tNLdL.ActiveEffect.IZw8x6vWejhydaf6
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      createdTime: 1781191219873
+      modifiedTime: 1781191285572
+      lastModifiedBy: 5XlrCO2NlPtd4MFQ
+    _key: '!items.effects!bnjx284W0wwCkHjz.pWUqVplDYj2UW5Ft'
 sort: 112500
 ownership:
   default: 0
@@ -51,8 +279,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767621274994
-  modifiedTime: 1771180810766
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1781191382153
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!bnjx284W0wwCkHjz'

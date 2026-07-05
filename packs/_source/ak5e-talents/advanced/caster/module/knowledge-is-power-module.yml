@@ -126,15 +126,19 @@ system:
       </strong>You will be prompted to use this Feature when appropriate. The
       Module will cause your uses to be reset on a Short Rest.</p>
     chat: ''
-  identifier: knowledge-is-power
+  identifier: knowledge-is-power-module
   source:
     revision: 1
     rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.B0qaKnC4GaKEkr4i
+      - knowledge-is-power
     repeatable: false
     level: 13
   properties: []
@@ -155,11 +159,11 @@ _stats:
   compendiumSource: Item.B0qaKnC4GaKEkr4i
   duplicateSource: Item.B0qaKnC4GaKEkr4i
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1772223154956
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783248116891
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: 03Do08RGBXpLYMOI
 _key: '!items!03Do08RGBXpLYMOI'

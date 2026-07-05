@@ -27,7 +27,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.0O2fBM6bQSdkl64P
+      - armoured-caster
     repeatable: false
     level: 8
   properties:
@@ -95,12 +95,12 @@ _stats:
   compendiumSource: Compendium.ak5e.ak5e-talents.Item.37KV9eRIu4TmpCSn
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1770924144147
-  modifiedTime: 1770924703182
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783246797090
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: SvfCi8WVB43I0jde
 sort: 100000
 ownership:

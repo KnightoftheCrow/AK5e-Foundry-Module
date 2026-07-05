@@ -9,19 +9,45 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement:
+    - type: ScaleValue
+      _id: nq3RBxCeFO5Otw6v
+      configuration:
+        identifier: ''
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '1':
+            number: 2
+            faces: 6
+            modifiers: []
+          '7':
+            number: 3
+            faces: 6
+            modifiers: []
+          '14':
+            number: 4
+            faces: 6
+            modifiers: []
+      value: {}
+      title: Damage
+      hint: ''
   description:
     value: >-
-      <p>As an Action, you make a Ranged Attack using a weapon you are wielding.
-      If it hits, it deals 3d6 additional Piercing Damage.</p><p>You may use
-      this Feature a number of times equal to your Proficiency Bonus, and
-      recover all expended uses upon finishing a Short Rest.</p><p><strong>Not
-      Automated.</strong></p>
+      <p>As an Action, while you are in Deadshot State, you make a Ranged Attack
+      using a weapon you are wielding. If it hits, it deals 2d6 additional
+      Piercing Damage.</p><p>This additional Damage is increased to 3d6 at 7th
+      Level, and 4d6 at 14th Level.</p><p><strong>Automated.</strong></p>
     chat: ''
-  identifier: vital-strike-wip
+  identifier: vital-strike
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
@@ -33,7 +59,59 @@ system:
   type:
     value: class
     subtype: skillPoints
-effects: []
+effects:
+  - name: Vital Strike
+    img: modules/ak5e/icons/Skill-Morgan2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.yBYmY2sbmNQS71ul
+    _id: D8YtBtludqkodTlu
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.damage.bonus
+        mode: 0
+        value: >-
+          bonus=@scale.vital-strike.damage[piercing]; rwak; optin; name=Vital
+          Strike; rollingActor.items.some(item => item.name === 'Deadshot')
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      createdTime: 1781191948907
+      modifiedTime: 1781192232935
+      lastModifiedBy: 5XlrCO2NlPtd4MFQ
+    _key: '!items.effects!yBYmY2sbmNQS71ul.D8YtBtludqkodTlu'
 sort: 106250
 ownership:
   default: 0
@@ -48,8 +126,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767621308346
-  modifiedTime: 1771180917327
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1781192242286
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!yBYmY2sbmNQS71ul'

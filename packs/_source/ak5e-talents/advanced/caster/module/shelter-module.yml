@@ -393,15 +393,19 @@ system:
       Resistance to gain; choose the one matching the Damage Type that broke
       your barrier.</p>
     chat: ''
-  identifier: shelter
+  identifier: shelter-module
   source:
     revision: 1
     rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.MhrpW5QBup6B4Bq1
+      - shelter
     repeatable: false
     level: 13
   properties: []
@@ -1151,11 +1155,11 @@ _stats:
   compendiumSource: Item.MhrpW5QBup6B4Bq1
   duplicateSource: Item.MhrpW5QBup6B4Bq1
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1772223084530
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783247931092
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: EtYH35hfOp5VW73y
 _key: '!items!EtYH35hfOp5VW73y'

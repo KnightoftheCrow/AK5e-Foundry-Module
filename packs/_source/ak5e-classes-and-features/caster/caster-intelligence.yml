@@ -124,6 +124,7 @@ system:
         allowReplacements: false
         choices: []
         grants:
+          - armor:lgt
           - armor:lts
         mode: default
       level: 1
@@ -189,6 +190,7 @@ system:
         replaced: {}
       title: Choose Light Melee or Light Shield
       hint: ''
+      classRestriction: primary
     - type: ItemChoice
       _id: jsqz7468T7O3d2Ry
       configuration:
@@ -209,6 +211,7 @@ system:
         replaced: {}
       title: Choose Arts Wand or Arts Staff
       hint: ''
+      classRestriction: primary
     - type: ItemChoice
       _id: e12fjsdAVQV79Z4U
       configuration:
@@ -253,18 +256,7 @@ system:
         replaced: {}
       title: Choose a Tool Kit
       hint: Choose a Tool Kit you are Proficient with.
-    - type: ItemGrant
-      _id: Nk39hs0nHbhuubJP
-      configuration:
-        items:
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
-            optional: false
-        optional: false
-        spell: null
-      value: {}
-      level: 1
-      title: Skill Points
-      hint: ''
+      classRestriction: primary
     - type: Trait
       _id: gZfQfSgKmpM493Ae
       configuration:
@@ -317,6 +309,10 @@ system:
       configuration:
         items:
           - uuid: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.Qi4Mc2HB3snq2eE5
             optional: false
         optional: false
         spell: null
@@ -628,17 +624,18 @@ system:
         leave behind. You learn the Detect Magic Art; it is always Prepared, and
         you may cast it without expending any Arts Points.
     - type: ItemGrant
-      _id: J4cwcUyAmu28Y4Hl
+      _id: 50DdWDWyFwLoBdW5
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.Qi4Mc2HB3snq2eE5
+          - uuid: Compendium.ak5e.ak5e-items.Item.OXGwqTbLRvlNxP0Q
             optional: false
         optional: false
         spell: null
       value: {}
       level: 1
-      title: 'Changes to Core Rules: Cantrips'
-      hint: All Creatures gain +Spellcasting Mod Damage to their Cantrips.
+      title: ''
+      hint: ''
+      classRestriction: primary
   description:
     value: >-
       <p>A smirk comes across the girl’s face as the smoke clears. The corridor
@@ -698,18 +695,6 @@ system:
     custom: ''
     license: ''
   startingEquipment:
-    - type: OR
-      requiresProficiency: false
-      _id: RbfMcsy9PUMr11I5
-      group: Tbj4s3cN0p5uECUf
-      sort: 1200000
-    - type: tool
-      count: null
-      key: toolkit
-      requiresProficiency: false
-      _id: Ri4wOnlPUduboREw
-      group: RbfMcsy9PUMr11I5
-      sort: 800000
     - type: AND
       requiresProficiency: false
       _id: Tbj4s3cN0p5uECUf
@@ -753,6 +738,25 @@ system:
       _id: AnAIzyHTwWMXL0O0
       group: yxLbVQ2CyzGnqAhh
       sort: 700000
+    - type: OR
+      requiresProficiency: false
+      _id: RbfMcsy9PUMr11I5
+      group: Tbj4s3cN0p5uECUf
+      sort: 1200000
+    - type: tool
+      count: null
+      key: toolkit
+      requiresProficiency: false
+      _id: Ri4wOnlPUduboREw
+      group: RbfMcsy9PUMr11I5
+      sort: 800000
+    - type: linked
+      count: null
+      key: Compendium.ak5e.ak5e-items.Item.OXGwqTbLRvlNxP0Q
+      requiresProficiency: false
+      _id: 1mgYdTOKQvNVvFFP
+      group: Tbj4s3cN0p5uECUf
+      sort: 1300000
   hd:
     additional: ''
     denomination: d6
@@ -778,15 +782,15 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
-  createdTime: 1774028404410
-  modifiedTime: 1774181360753
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  systemVersion: 5.2.5
+  createdTime: 1783249225873
+  modifiedTime: 1783249243634
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
-  9KtVYqHDTWORuJDZ: 3
-_id: J2AggzXrrTTLIqKq
-sort: 100000
-_key: '!items!J2AggzXrrTTLIqKq'
+  5XlrCO2NlPtd4MFQ: 3
+_id: BIl4puxqxYtSsZcD
+sort: 400000
+_key: '!items!BIl4puxqxYtSsZcD'

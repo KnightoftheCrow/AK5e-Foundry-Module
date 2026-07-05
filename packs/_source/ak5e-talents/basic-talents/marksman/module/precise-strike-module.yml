@@ -23,7 +23,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.rQs0HWi7n3P0iSBP
+      - precise-strike
     repeatable: false
     level: 8
   properties:
@@ -102,10 +102,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767736414555
-  modifiedTime: 1774025840742
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783242570455
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!oXrDMro8DgKx37aw'

@@ -49,7 +49,7 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: <p>[[/attack extended]], [[/damage extended]].</p>
     chat: ''
   identifier: crossbow
   source:
@@ -107,17 +107,20 @@ system:
     baseItem: crossbow
   mastery: ''
 effects: []
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.2
+  systemVersion: 5.2.5
   createdTime: 1756294904890
-  modifiedTime: 1756408068319
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1777737360058
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: o1kUk2al1bphk50J
 sort: 100000
 ownership:

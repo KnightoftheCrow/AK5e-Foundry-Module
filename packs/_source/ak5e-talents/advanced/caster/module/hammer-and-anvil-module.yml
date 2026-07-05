@@ -16,15 +16,19 @@ system:
       will be prompted for the additional Damage, but this does not check if
       there is an allied Creature close enough.</p>
     chat: ''
-  identifier: hammer-and-anvil
+  identifier: hammer-and-anvil-module
   source:
     revision: 1
     rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.TuEkFeCnXuPzh1AT
+      - hammer-and-anvil
     repeatable: false
     level: 13
   properties: []
@@ -45,11 +49,11 @@ _stats:
   compendiumSource: Item.wMKEGbdan61KkmtX
   duplicateSource: Item.TuEkFeCnXuPzh1AT
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1772223180367
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783248156287
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: wMKEGbdan61KkmtX
 _key: '!items!wMKEGbdan61KkmtX'

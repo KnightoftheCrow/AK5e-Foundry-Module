@@ -156,15 +156,19 @@ system:
       whenever you are damaged, not just from corresponding damage types; make
       sure you pick the right damage type for the Saving Throw.</p>
     chat: ''
-  identifier: energy-redirection
+  identifier: energy-redirection-module
   source:
     revision: 1
     rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
+      - energy-redirection
     repeatable: false
     level: 13
   properties: []
@@ -653,11 +657,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.h4Oi82fAZ8XgmOKz
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1772223220600
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783248389811
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: yBMBSybpQK1iAnFb
 _key: '!items!yBMBSybpQK1iAnFb'

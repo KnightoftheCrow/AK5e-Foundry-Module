@@ -20,15 +20,19 @@ system:
       and regain all expended uses when you complete a Short or Long
       Rest.</p><p><strong>Not Automated:</strong> Used for usage traking.</p>
     chat: ''
-  identifier: snipers-intuition
+  identifier: snipers-intuition-module
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.osCElO13K6JHa6bQ
+      - snipers-intuition
     repeatable: false
     level: 13
   properties:
@@ -46,12 +50,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1768005778859
-  modifiedTime: 1774026116690
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783247033376
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

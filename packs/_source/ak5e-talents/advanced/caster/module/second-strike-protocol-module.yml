@@ -141,15 +141,19 @@ system:
       <p><strong>Module:</strong> The Force Damage is increased to
       2d6.</p><p><strong>Automation not required.</strong></p>
     chat: ''
-  identifier: second-strike-protocol
+  identifier: second-strike-protocol-module
   source:
     revision: 1
     rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.1LLSfJHxrbyTLhOv
+      - second-strike-protocol
     repeatable: false
     level: 13
   properties: []
@@ -170,11 +174,11 @@ _stats:
   compendiumSource: Item.JhX4mCLS6KQpo0EP
   duplicateSource: Item.1LLSfJHxrbyTLhOv
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1772223093938
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783247948307
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: JhX4mCLS6KQpo0EP
 _key: '!items!JhX4mCLS6KQpo0EP'
