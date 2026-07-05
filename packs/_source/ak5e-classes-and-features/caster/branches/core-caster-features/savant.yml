@@ -1,5 +1,5 @@
 folder: pUajGesWO3hqfFFR
-name: Savant (WIP)
+name: Savant
 type: feat
 _id: OzrZAwSCp5h2uNEG
 img: modules/ak5e/icons/Skill-Beeswax1.png
@@ -137,6 +137,10 @@ system:
   source:
     revision: 1
     rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
@@ -214,15 +218,23 @@ effects:
     changes:
       - key: activities[damage].midiProperties.ignoreTraits
         mode: 5
-        value: resistance
+        value: idm
         priority: 20
       - key: activities[damage].midiProperties.ignoreTraits
         mode: 5
-        value: modification
+        value: idr
         priority: 20
       - key: name
         mode: 5
         value: '{} (Signature Art)'
+        priority: 20
+      - key: activities[attack].midiProperties.ignoreTraits
+        mode: 5
+        value: idm
+        priority: 20
+      - key: activities[attack].midiProperties.ignoreTraits
+        mode: 5
+        value: idr
         priority: 20
     duration:
       startTime: null
@@ -256,12 +268,12 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.348'
+      coreVersion: '13.351'
       systemId: dnd5e
       systemVersion: 5.2.4
       createdTime: 1774100687593
-      modifiedTime: 1774176157000
-      lastModifiedBy: 9KtVYqHDTWORuJDZ
+      modifiedTime: 1782474991277
+      lastModifiedBy: 5XlrCO2NlPtd4MFQ
     _key: '!items.effects!OzrZAwSCp5h2uNEG.kFbKw2C5Gk2ea7Xn'
 sort: 500000
 ownership:
@@ -277,10 +289,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1774095578067
-  modifiedTime: 1774101086687
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1782475119242
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!OzrZAwSCp5h2uNEG'

@@ -21,15 +21,19 @@ system:
       for the additional damage for the module; check the box when it is
       appropriate. </p>
     chat: ''
-  identifier: thresher
+  identifier: thresher-module
   source:
     revision: 1
     rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.ykCgWaTLIWFalpvW
+      - thresher
     repeatable: false
     level: 13
   properties: []
@@ -100,11 +104,11 @@ _stats:
   compendiumSource: Item.6hZnq5ThWD1BizNt
   duplicateSource: Item.ykCgWaTLIWFalpvW
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1772223069323
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783247914312
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: 6hZnq5ThWD1BizNt
 _key: '!items!6hZnq5ThWD1BizNt'

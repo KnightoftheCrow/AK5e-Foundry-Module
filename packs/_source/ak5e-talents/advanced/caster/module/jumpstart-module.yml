@@ -26,7 +26,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.CFUuirtym4KuKXTA
+      - jumpstart
     repeatable: false
     level: 13
   properties:
@@ -96,11 +96,11 @@ _stats:
   compendiumSource: Item.7GGI2LKcdSkQxOUT
   duplicateSource: Item.CFUuirtym4KuKXTA
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1772223170638
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783248130540
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: 7GGI2LKcdSkQxOUT
 _key: '!items!7GGI2LKcdSkQxOUT'

@@ -16,12 +16,16 @@ system:
   identifier: alert-module
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.6IL6kCJuT9hmCv97
+      - alert
     repeatable: false
     level: 8
   properties:
@@ -93,10 +97,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767734286520
-  modifiedTime: 1774025780142
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783246220258
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!rhQX84XgtuE64ksy'

@@ -130,7 +130,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.TNysMEOsW57XDRxT
+      - lucky
     repeatable: false
     level: 8
   properties:
@@ -202,10 +202,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767735660757
-  modifiedTime: 1774025828658
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783242621056
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!7bMFFwobIjVsIkT7'

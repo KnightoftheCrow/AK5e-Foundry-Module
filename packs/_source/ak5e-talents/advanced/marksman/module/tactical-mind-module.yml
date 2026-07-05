@@ -16,15 +16,19 @@ system:
       <p><strong>Module:</strong> You now regain use of this Feature when you
       complete a Short Rest.</p>
     chat: ''
-  identifier: tactical-mind
+  identifier: tactical-mind-module
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.r19GGpWRcO5KigI5
+      - tactical-mind
     repeatable: false
     level: 13
   properties:
@@ -127,12 +131,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1768002806917
-  modifiedTime: 1774026121310
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783247012727
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

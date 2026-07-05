@@ -132,15 +132,19 @@ system:
       automatically triggered when other Creatures are attacked. Consumes AP and
       rolls as it should. but does not reduce the damage taken.</p>
     chat: ''
-  identifier: arts-ward
+  identifier: arts-ward-module
   source:
     revision: 1
     rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.UkiWpLzVtVOuc2xn
+      - arts-ward
     repeatable: false
     level: 13
   properties: []
@@ -210,11 +214,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.UkiWpLzVtVOuc2xn
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1772223265661
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783248488403
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: SJVvgtoCsi2HJYlz
 _key: '!items!SJVvgtoCsi2HJYlz'

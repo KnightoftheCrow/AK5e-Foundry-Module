@@ -20,7 +20,8 @@ system:
       Action.</p><p><strong>Nevermiss.</strong> When you make a Ranged Attack
       Roll, if the result on the d20 is less than the Ability Modifier used for
       the Attack + your Proficiency Bonus (not doubled by Unerring Accuracy), it
-      instead becomes that value.</p><p><strong>Not Automated.</strong></p>
+      instead becomes that value.</p><p><strong>Partially Automated:
+      </strong>Nevermiss is Automated; Killchain cannot be.</p>
     chat: ''
   identifier: ultimate-deadshot-wip
   source:
@@ -36,8 +37,60 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
-effects: []
+    subtype: ''
+effects:
+  - name: Ultimate Deadshot
+    img: modules/ak5e/icons/Skill-Spuria1.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.30hRrtnTxtx0PlLd
+    _id: vZ3X3HYxPlO4lqXy
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.attack.modifier
+        mode: 0
+        value: >-
+          modifier=min(@abilities.dex.mod+@prof);
+          rollingActor.effects.some(effect => effect.name === 'Deadshot')
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      createdTime: 1781192549070
+      modifiedTime: 1781193092017
+      lastModifiedBy: 5XlrCO2NlPtd4MFQ
+    _key: '!items.effects!30hRrtnTxtx0PlLd.vZ3X3HYxPlO4lqXy'
 sort: 150000
 ownership:
   default: 0
@@ -52,8 +105,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767621396653
-  modifiedTime: 1771180801614
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1781193110253
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!30hRrtnTxtx0PlLd'

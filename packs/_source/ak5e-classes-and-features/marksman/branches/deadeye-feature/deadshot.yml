@@ -4,7 +4,113 @@ type: feat
 _id: CDG10QNnyWf5iB0x
 img: modules/ak5e/icons/Skill-Spuria1.webp
 system:
-  activities: {}
+  activities:
+    03M5AjWdfHg344aX:
+      type: utility
+      name: Enter Deadshot State
+      _id: 03M5AjWdfHg344aX
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+        value: ''
+      effects:
+        - _id: KTZKfV25YX8LQe6w
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        triggeredActivityConsume: true
+        triggeredActivityConfigure: true
+        autoConsume: false
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        rollAs: target
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      img: ''
   uses:
     spent: 0
     recovery: []
@@ -19,7 +125,7 @@ system:
       deal an additional die of Weapon Damage.</p><p><strong>Long Range
       Shooting.</strong> You suffer no penalty for Attacking at Long
       Range.</p><p><strong>Unerring Accuracy.</strong> Your Proficiency Bonus is
-      doubled for that Attack Roll.</p><p><strong>Not Automated.</strong></p>
+      doubled for that Attack Roll.</p><p><strong>Automated.</strong></p>
     chat: ''
   identifier: deadshot-wip
   source:
@@ -35,8 +141,71 @@ system:
   requirements: ''
   type:
     value: class
-    subtype: skillPoints
-effects: []
+    subtype: ''
+effects:
+  - name: Deadshot
+    img: modules/ak5e/icons/Skill-Spuria1.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.CDG10QNnyWf5iB0x
+    transfer: false
+    _id: KTZKfV25YX8LQe6w
+    type: base
+    system: {}
+    changes:
+      - key: flags.automated-conditions-5e.attack.bonus
+        mode: 0
+        value: bonus=@prof; rwak
+        priority: 20
+      - key: flags.automated-conditions-5e.aura.range.noLongDisadvantage
+        mode: 0
+        value: 'true'
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: modifier=min3; rwak
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        enableCondition: ''
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration:
+          - 1Attack:rwak
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.2.5
+      createdTime: 1781190684697
+      modifiedTime: 1781190880022
+      lastModifiedBy: 5XlrCO2NlPtd4MFQ
+    _key: '!items.effects!CDG10QNnyWf5iB0x.KTZKfV25YX8LQe6w'
 sort: 200000
 ownership:
   default: 0
@@ -51,8 +220,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767621242308
-  modifiedTime: 1771180790164
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1781192486489
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!CDG10QNnyWf5iB0x'

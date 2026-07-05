@@ -134,7 +134,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.MaVekY5FOLYSPajW
+      - clean-sweep
     repeatable: false
     level: 8
   properties:
@@ -247,12 +247,12 @@ _stats:
   compendiumSource: Compendium.ak5e.ak5e-talents.Item.z2MFO3uUJFTurMl2
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1770924144147
-  modifiedTime: 1770924688343
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783246738807
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

@@ -162,7 +162,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.NnlD4Tl9znUkIbV5
+      - hunter-x
     repeatable: false
     level: 8
   properties:
@@ -596,12 +596,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1774025298651
-  modifiedTime: 1774025298681
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783246678340
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

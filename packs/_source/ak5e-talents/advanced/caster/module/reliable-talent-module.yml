@@ -14,15 +14,19 @@ system:
       <p><strong>Module:</strong> You cannot have Disadvantage on any Check
       using a Skill or Tool you are Proficiency with.</p>
     chat: ''
-  identifier: reliable-talent
+  identifier: reliable-talent-module
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.4SV7b7oKcQF3AiR2
+      - reliable-talent
     repeatable: false
     level: 13
   properties:
@@ -37,15 +41,15 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-talents.Item.aQ2FCQPTVkAj2IYO
+  compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1772223119620
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783247994898
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

@@ -21,7 +21,11 @@ system:
   identifier: kingslayer
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
@@ -47,10 +51,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767738645197
-  modifiedTime: 1774025971994
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783247328835
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!mlANfWU9dVkEcDSi'

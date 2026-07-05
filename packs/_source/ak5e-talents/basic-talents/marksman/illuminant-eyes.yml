@@ -136,7 +136,11 @@ system:
   identifier: illuminant-eyes
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
@@ -266,10 +270,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767735341369
-  modifiedTime: 1774025730663
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783242655271
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!cdDqSuDN1Rr0ajwR'

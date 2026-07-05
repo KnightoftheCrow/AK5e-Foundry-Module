@@ -19,7 +19,11 @@ system:
   identifier: critical-edge
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
@@ -95,10 +99,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1767734950362
-  modifiedTime: 1774025714710
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783242749310
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!OJjJDtDv1eF7izrT'

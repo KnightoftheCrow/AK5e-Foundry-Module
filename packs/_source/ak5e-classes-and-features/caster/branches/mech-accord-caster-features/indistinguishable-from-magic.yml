@@ -386,7 +386,7 @@ system:
   prerequisites:
     items: []
     repeatable: false
-    level: 1
+    level: null
   properties: []
   requirements: ''
   type:
@@ -405,10 +405,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1774102391442
-  modifiedTime: 1774180363987
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1777738804919
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!eFBDkstnP7YQzWSF'

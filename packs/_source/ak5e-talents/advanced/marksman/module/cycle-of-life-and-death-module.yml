@@ -12,15 +12,19 @@ system:
   description:
     value: <p><strong>Module:</strong> You gain 20 SP instead.</p>
     chat: ''
-  identifier: cycle-of-life-and-death
+  identifier: cycle-of-life-and-death-module
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.cVZnaMpeM1tx6huu
+      - cycle-of-life-and-death
     repeatable: false
     level: 13
   properties:
@@ -38,12 +42,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1768143849338
-  modifiedTime: 1774026036527
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783247779040
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

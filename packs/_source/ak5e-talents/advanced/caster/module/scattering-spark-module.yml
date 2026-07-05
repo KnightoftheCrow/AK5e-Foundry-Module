@@ -152,15 +152,19 @@ system:
       make sure to choose the appropriate Damage Type. All else is
       automated.</p>
     chat: ''
-  identifier: scattering-spark
+  identifier: scattering-spark-module
   source:
     revision: 1
     rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.DCePy5ohbF8Oi9hJ
+      - scattering-spark
     repeatable: false
     level: 13
   properties: []
@@ -169,7 +173,7 @@ system:
     value: class
     subtype: skillPoints
 effects: []
-sort: 6250
+sort: 2344
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
@@ -181,11 +185,11 @@ _stats:
   compendiumSource: Item.xTBtEQ50LwAfgVRk
   duplicateSource: Item.DCePy5ohbF8Oi9hJ
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1772223106718
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783247966074
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: xTBtEQ50LwAfgVRk
 _key: '!items!xTBtEQ50LwAfgVRk'

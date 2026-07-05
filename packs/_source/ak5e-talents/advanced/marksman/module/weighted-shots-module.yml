@@ -123,15 +123,19 @@ system:
       instead.</p><p><strong>Partially Automated:</strong> Use to impose speed
       reduction on target.</p>
     chat: ''
-  identifier: weighted-shots
+  identifier: weighted-shots-module
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.tFQX4Mvc3zrePzmi
+      - weighted-shots
     repeatable: false
     level: 13
   properties:
@@ -199,12 +203,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1768067973957
-  modifiedTime: 1774026126423
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783246909342
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

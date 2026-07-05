@@ -123,7 +123,7 @@ system:
       </strong>You must use the activity on this item (or the module if you have
       it) to gain Quickening each time you defeat a foe.</p>
     chat: ''
-  identifier: finishing-touch
+  identifier: finishing-touch-module
   source:
     revision: 1
     rules: '2014'
@@ -135,7 +135,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.9keA5EfcA4BeMHKT
+      - finishing-touch
     repeatable: false
     level: 13
   properties: []
@@ -156,11 +156,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.9keA5EfcA4BeMHKT
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1772223200693
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783248192780
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: Kwk0AUN6sssXqnGO
 _key: '!items!Kwk0AUN6sssXqnGO'

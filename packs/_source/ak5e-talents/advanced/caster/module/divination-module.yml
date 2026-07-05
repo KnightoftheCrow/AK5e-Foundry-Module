@@ -536,15 +536,19 @@ system:
       matching activity to gain the benefit. Make sure you use this version
       rather than the base version.</p>
     chat: ''
-  identifier: divination
+  identifier: divination-module
   source:
     revision: 1
     rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
   crewed: false
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.FMqAqIDySpFwUepP
+      - divination
     repeatable: false
     level: 13
   properties: []
@@ -785,11 +789,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.FMqAqIDySpFwUepP
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1772223245557
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783248424244
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: H08p1mVO4z6V2WwF
 _key: '!items!H08p1mVO4z6V2WwF'
