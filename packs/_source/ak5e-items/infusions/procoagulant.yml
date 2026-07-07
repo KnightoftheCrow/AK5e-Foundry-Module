@@ -1,0 +1,71 @@
+folder: N0czhwLyeXNGiB65
+name: Procoagulant
+type: consumable
+_id: x1AZWgD0gjVWl5g1
+img: icons/consumables/potions/bottle-bulb-corked-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Leverage Condition:</strong> As a Bonus Action</p><p>The
+      Creature rolls one of their Hit Dice (this does not expend that Hit Dice)
+      and adds their Constitution Modifier; they gain that many Temporary Hit
+      Points. Additionally, if they have the Bleeding Condition, it is
+      removed.</p>
+    chat: ''
+  identifier: consumable
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0.1
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: potion
+    subtype: ''
+effects: []
+sort: -150000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.SXRvvxFISPHaT5nu
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356403849
+  modifiedTime: 1783356403849
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!x1AZWgD0gjVWl5g1'

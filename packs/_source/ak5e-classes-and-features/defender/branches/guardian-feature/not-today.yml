@@ -1,0 +1,55 @@
+folder: cmfoF8Hdud4nTRHX
+name: Not Today
+type: feat
+_id: uc92aH853DX2Gfxr
+img: modules/ak5e/icons/Skill-Saria3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When the moment calls, you can dig deep into your reserves to protect
+      those you care about.</p><p>Once per Turn, you can expend any amount of
+      Resilience (no Action required) to reduce the Arts Point cost of the next
+      Art you cast by the amount of Resilience expended, to a minimum of
+      0.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: not-today
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!uc92aH853DX2Gfxr'

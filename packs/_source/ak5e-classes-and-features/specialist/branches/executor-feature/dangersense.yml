@@ -1,0 +1,60 @@
+folder: jQchpet0cXBgVy5y
+name: Dangersense
+type: feat
+_id: lwNWtXxCVNRdUbD5
+img: modules/ak5e/icons/Skill-Crownslayer1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You gain one of the following benefits based on your choice of Hunter
+      or Bodyguard:</p><p><strong>Bodyguard.</strong> When an allied Creature
+      within 5 feet of you is subjected to an effect that allows them to make a
+      Strength or Dexterity Saving Throw to take only half Damage, you can use
+      your Reaction to choose a location within a distance equal to half of your
+      Speed; both you and that Creature move to that location as close together
+      as possible. If you moved to a location outside of that Area of Effect,
+      both Creatures instead take no Damage if they succeed on the Saving Throw
+      and only half Damage if they fail.</p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: dangersense
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 11
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!lwNWtXxCVNRdUbD5'

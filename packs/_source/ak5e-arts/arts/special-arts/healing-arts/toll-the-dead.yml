@@ -1,0 +1,68 @@
+folder: ZN4KzJhlR7XtRgqz
+name: Toll the Dead
+type: spell
+img: icons/magic/unholy/strike-body-life-soul-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: <p><strong>Need to be completed with official books.</strong></p>
+    chat: ''
+  identifier: toll-the-dead
+  source:
+    revision: 1
+    rules: '2024'
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: inst
+  level: 0
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: ''
+  prepared: 2
+  properties: []
+  range:
+    units: self
+    special: ''
+    value: ''
+  school: ''
+  target:
+    template:
+      contiguous: false
+      stationary: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: ''
+      count: ''
+      special: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356296765
+  modifiedTime: 1783356296782
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: BEDOYvgj5SLtrJTY
+sort: 150000
+_key: '!items!BEDOYvgj5SLtrJTY'

@@ -1,0 +1,72 @@
+folder: HE4odYYzeg4WWg0p
+name: Hooked
+type: feat
+_id: S0pS7Hw35cN2y3uQ
+img: modules/ak5e/icons/Skill-Cliffheart1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You can convert a Melee Weapon into a Hook to be used with the rest of
+      your Features; the weapon you choose must not have the Two-Handed
+      Property, and it must deal Slashing or Piercing Damage. When you choose
+      this Branch, you may convert one Melee Weapon from your Starting Equipment
+      that meets these criteria for free. If you need to replace your Hook, or
+      want additional Hooks, it requires 200 LMD, an hour of uninterrupted time,
+      and a Melee Weapon to convert.</p><p>A Weapon that has been converted into
+      a Hook gains the following effects:</p><ul><li><p>Only Creatures with this
+      Feature are considered to be Proficient with the Hook.</p></li><li><p>Its
+      Thrown Property, if it has one, is replaced with Thrown (30/-). If it does
+      not have the Thrown Property, it gains the Thrown (30/-) Property. When
+      you make an Attack with this Weapon using the Thrown Property, it
+      immediately returns to you after the Attack.</p></li><li><p>Your Hook
+      gains the Two-Handed Property.</p></li><li><p>When you make a Ranged
+      Attack using your Hook, you may use your Strength Bonus instead of
+      Dexterity for the Attack and Damage Rolls.</p></li><li><p>When you hit a
+      Creature no more than one size larger than you with a Ranged Attack using
+      your Hook, you can pull that Creature 10 feet towards
+      you.</p></li><li><p>You can make a Ranged Attack using your Hook as a
+      Bonus Action. You cannot make, or have made, any Ranged Attacks with your
+      Hook on a Turn you do this.</p></li></ul><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: hooked
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!S0pS7Hw35cN2y3uQ'

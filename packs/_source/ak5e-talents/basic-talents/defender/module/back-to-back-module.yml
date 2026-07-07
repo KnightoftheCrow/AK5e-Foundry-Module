@@ -1,0 +1,54 @@
+folder: zLS0Nt8r6PPuDuKr
+name: Back-to-Back (Module)
+type: feat
+img: modules/ak5e/icons/Skill-TheDecadenza3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> If there is another allied Creature within
+      15ft of you with this Ability, you gain 2 DR against all Damage.</p>
+    chat: ''
+  identifier: back-to-back-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.1ZayOXSy5qjfyEaj
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357947921
+  modifiedTime: 1783357947938
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: OnKvPynONsVgR107
+sort: 150000
+_key: '!items!OnKvPynONsVgR107'

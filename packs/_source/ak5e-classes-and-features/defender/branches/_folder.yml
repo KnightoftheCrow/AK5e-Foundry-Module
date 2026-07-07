@@ -1,0 +1,19 @@
+type: Item
+folder: 7buxNL26uPo990NE
+name: Branches
+color: null
+sorting: a
+_id: krMsndTTVD0R6oop
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  lastModifiedBy: 27ikDz77N89hVLvM
+  modifiedTime: 1783358934938
+_key: '!folders!krMsndTTVD0R6oop'

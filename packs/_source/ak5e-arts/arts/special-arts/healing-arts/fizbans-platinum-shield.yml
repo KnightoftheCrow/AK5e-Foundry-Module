@@ -1,0 +1,65 @@
+folder: ZN4KzJhlR7XtRgqz
+name: Fizban's Platinum Shield
+type: spell
+img: systems/dnd5e/icons/svg/items/spell.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: <p><strong>Need to be completed with official books.</strong></p>
+    chat: ''
+  identifier: fizbans-platinum-shield
+  source:
+    revision: 1
+    rules: '2024'
+  activation:
+    type: action
+    condition: ''
+  duration:
+    units: inst
+  level: 1
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  method: ''
+  prepared: 0
+  properties: []
+  range:
+    units: self
+    special: ''
+  school: ''
+  target:
+    template:
+      contiguous: false
+      stationary: false
+      units: ft
+      type: ''
+    affects:
+      choice: false
+      type: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356295637
+  modifiedTime: 1783356295655
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: sWmztuH9v0lg6KSv
+sort: 200000
+_key: '!items!sWmztuH9v0lg6KSv'

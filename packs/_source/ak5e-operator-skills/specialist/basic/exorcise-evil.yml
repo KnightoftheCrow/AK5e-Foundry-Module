@@ -1,0 +1,230 @@
+folder: 0Bx3AWOkga3k8Yq6
+name: Exorcise Evil
+type: feat
+img: modules/ak5e/icons/Skill-Necrass1.webp
+system:
+  activities:
+    DcK19TwX1BDpO06p:
+      type: utility
+      name: Exorcise Evil
+      _id: DcK19TwX1BDpO06p
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '15'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '3'
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: enemy
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        triggeredActivityConsume: true
+        triggeredActivityConfigure: true
+        autoConsume: true
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        rollAs: target
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <ul><li><p><strong>Name</strong>: Exorcise Evil.</p></li><li><p><strong>SP
+      Cost:</strong> 15.</p></li><li><p><strong>Start SP:</strong>
+      5.</p></li><li><p><strong>Charging:</strong>
+      Automatic.</p></li><li><p><strong>Activation Cost:</strong> Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> You may use this Operator
+      Skill when you hit a Creature with a Melee Attack; you apply an Exorcism
+      Mark to that Creature. At the end of the duration, the Mark detonates, and
+      that Creature takes 1d4 Force Damage for each time it was hit by an Attack
+      while it had that Exorcism Mark. You may cause the Mark to detonate as a
+      Reaction, ending the Skill early. If the Damage from the Mark reduces a
+      Creature to 0 Hit Points, you immediately gain 10 Skill
+      Points.</p></li><li><p><strong>Duration:</strong> 3
+      rounds.</p></li></ul><p><strong>Not Automated. </strong>Use for tracking
+      purpose.</p>
+    chat: ''
+  identifier: exorcise-evil
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Exorcise Evil (Skill Points)
+    img: modules/ak5e/icons/Skill-Necrass1.webp
+    origin: Item.9wMuZ5unYY37j1Gs
+    type: base
+    _id: jjgvRYuEO7WSoEiE
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 4
+        value: '5'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 4
+        value: '15'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+      automated-conditions-5e:
+        ac5eChangeRows: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!avQKJDbpbgza8moO.jjgvRYuEO7WSoEiE'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356619919
+  modifiedTime: 1783356619937
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: avQKJDbpbgza8moO
+sort: 250000
+_key: '!items!avQKJDbpbgza8moO'

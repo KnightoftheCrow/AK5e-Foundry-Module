@@ -1,0 +1,58 @@
+folder: HMrANDaIT5F818Ua
+name: Marksman Training
+type: feat
+_id: 9XXCZYydPHXYPshr
+img: modules/ak5e/icons/Skill-SanktaMiksaparato1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You learn to better blend your identity as a ranged Defender, creating
+      a potent hybrid.</p><ul><li><p><strong>Operator Skill Access.</strong>
+      Whenever you gain a new Operator Skill, you may instead choose a Skill
+      from the appropriate Operator Skills table available to the Marksman
+      Class.</p></li><li><p><strong>Additional Fighting Style.</strong> You gain
+      a Fighting Style from one of the options available to the Marksman
+      Class.</p></li></ul><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: marksman-training
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!9XXCZYydPHXYPshr'

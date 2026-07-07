@@ -1,0 +1,54 @@
+folder: zLS0Nt8r6PPuDuKr
+name: Power Plant (Module)
+type: feat
+img: modules/ak5e/icons/Skill-C2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> You gain 6 Skill Points
+      instead.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: power-plant-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - power-plant
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357998471
+  modifiedTime: 1783357998487
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: 0hofZ6fcHzcHHOAL
+sort: 293750
+_key: '!items!0hofZ6fcHzcHHOAL'

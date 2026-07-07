@@ -1,0 +1,74 @@
+folder: jQchpet0cXBgVy5y
+name: The Wolf and the Shepherd (Bodyguard Path)
+type: feat
+_id: wdArlFZHTvXVS5DR
+img: modules/ak5e/icons/Skill-KirinRYato1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Choose your path, and walk it until the end. You gain the following
+      benefits:</p><p><strong>To Hunt, or Not To Hunt.</strong> When you adopt
+      this Branch, you must choose whether you will be a Hunter or a Bodyguard;
+      your Branch Features grant you different benefits based on your
+      choice.</p><p><strong>Deathmark.</strong> You have a Deathmark that grants
+      you benefits based on whether you or another Creature has it; you can
+      transfer your Deathmark from yourself to a hostile Creature by making an
+      Attack against them.</p><p>Your Deathmark returns to you when a Creature
+      with your Deathmark is reduced to 0 Hit Points, or at the end of your Turn
+      if you have not Attacked or dealt Damage to a hostile Creature with your
+      Deathmark. When your Deathmark returns to you, you gain 3 Skill Points,
+      and you can immediately take the Disengage Action as a
+      Reaction.</p><p>While you have your Deathmark, you gain 3 Skill Points at
+      the beginning of your Turn in combat. Additionally, you can take the Hide
+      Action as a Bonus Action.</p><p>While another Creature has your Deathmark,
+      you deal 1d4 additional Damage to that Creature when you hit them with an
+      Attack; this additional Damage is increased to 2d4 at Level 7, and 3d4 at
+      Level 14.</p><p>Furthermore, you gain an additional benefit against a
+      Creature with your Deathmark based on your choice of Hunter or
+      Bodyguard:</p><p><strong>Bodyguard: </strong>When a hostile Creature with
+      your Deathmark would make an Attack against a Creature while you are both
+      within the Reach or Range of that Attack and also within 10 feet of an
+      original target, you can cause that Attack to target you instead of that
+      Creature (no Action required).</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!wdArlFZHTvXVS5DR'

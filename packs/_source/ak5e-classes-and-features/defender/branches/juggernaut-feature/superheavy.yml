@@ -1,0 +1,57 @@
+folder: 8FnSIEKasDaGLsZC
+name: Superheavy
+type: feat
+_id: AeSBoKcSUVpQQFaZ
+img: modules/ak5e/icons/Skill-Matterhorn1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>While you are wearing Heavy Armour, you have an Arts Barrier
+      surrounding your person. When you would take Damage from another Creature,
+      a layer of the Barrier shatters, halving that instance of Damage. You may
+      reform a layer of the Barrier as an Action during your Turn, or as a Bonus
+      Action by expending 1 Resilience.</p><p>The maximum layers of Barrier you
+      can have is 1. This maximum is increased to 2 at 7th Level, and 3 at 14th
+      Level.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: superheavy
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!AeSBoKcSUVpQQFaZ'

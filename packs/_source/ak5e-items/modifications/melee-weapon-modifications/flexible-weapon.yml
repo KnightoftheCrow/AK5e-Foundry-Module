@@ -1,0 +1,74 @@
+folder: iC9FYNlLTOR8baLK
+name: Flexible Weapon
+type: consumable
+_id: szR2qeU82sEBlkP1
+img: modules/ak5e/icons/Skill-Magallan1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Item:</strong> Melee Weapon</p><p>Some part of this weapon has
+      been made possible to bend and extend like a whip. Once per Turn when the
+      wielder makes a Melee Attack using this Weapon, they may activate this
+      Modification (no Action required); That Attack ignores the benefit of any
+      shield wielded by the target Creature. In addition, the wielder may then
+      immediately use their Bonus Action to repeat that Attack against a
+      different Creature within 10 feet of the original target, keeping the
+      benefit of this Modification being active.</p>
+    chat: ''
+  identifier: flexible-weapon
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 25000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.kxXaDsn4K6e1qfN2
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407163
+  modifiedTime: 1783356407163
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!szR2qeU82sEBlkP1'

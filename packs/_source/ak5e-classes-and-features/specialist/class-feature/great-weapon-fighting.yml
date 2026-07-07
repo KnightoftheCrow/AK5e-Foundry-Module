@@ -1,0 +1,55 @@
+folder: F7xt8Er4yJgI2eaK
+name: Great Weapon Fighting
+type: feat
+_id: ZNHHZk4CaGzhZhAT
+img: modules/ak5e/icons/Skill-Poncirus2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You gain a +2 bonus to Damage rolls you make with Melee Weapons that
+      you are wielding with two hands. The weapon must have the Two-Handed or
+      Versatile Quality for you to gain this benefit.</p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: great-weapon-fighting
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: fightingStyle
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358951919
+  modifiedTime: 1783358951919
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!ZNHHZk4CaGzhZhAT'

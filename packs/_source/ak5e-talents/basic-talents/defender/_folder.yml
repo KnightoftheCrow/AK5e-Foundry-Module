@@ -1,0 +1,18 @@
+type: Item
+folder: S7dEq1kHM19kbrwc
+name: Defender
+color: null
+sorting: a
+_id: TL00PBquhzkf6sDn
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  lastModifiedBy: null
+_key: '!folders!TL00PBquhzkf6sDn'

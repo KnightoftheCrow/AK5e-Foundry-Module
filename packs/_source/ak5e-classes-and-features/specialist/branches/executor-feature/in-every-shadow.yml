@@ -1,0 +1,56 @@
+folder: jQchpet0cXBgVy5y
+name: In Every Shadow
+type: feat
+_id: cafTpF1e9GXPsnc4
+img: modules/ak5e/icons/Skill-Scene1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You cannot be impeded by such petty things as terrain. You gain the
+      following benefits:</p><p><strong>Additional Movement Speeds.</strong> You
+      gain a Climbing and Swimming Speed equal to your Walking
+      Speed.</p><p><strong>Stealth Expertise.</strong> You gain Proficiency in
+      the Stealth Skill. If you already have Proficiency, you instead gain
+      Expertise.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: in-every-shadow
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!cafTpF1e9GXPsnc4'

@@ -1,0 +1,231 @@
+folder: VB62TaHnZ4bJYRuO
+name: Trial of Thorns
+type: feat
+img: modules/ak5e/icons/Skill-Kal%27tsit1.webp
+system:
+  activities:
+    ljR7RtLIQYMHxwF3:
+      type: utility
+      name: Trial of Thorns
+      _id: ljR7RtLIQYMHxwF3
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '65'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '3'
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: enemy
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        triggeredActivityConsume: true
+        triggeredActivityConfigure: true
+        autoConsume: true
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        rollAs: target
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <ul><li><p><strong>Name</strong>: Trial of
+      Thorns.</p></li><li><p><strong>SP Cost:</strong>
+      65.</p></li><li><p><strong>Start SP:</strong>
+      30.</p></li><li><p><strong>Charging:</strong>
+      Defensive.</p></li><li><p><strong>Activation Cost:
+      </strong>Action.</p></li><li><p><strong>Effect:</strong> When a hostile
+      Creature within 30 feet of you would make an Attack against a Creature
+      that is not you, you can use your Reaction to force the attacking Creature
+      to make a Wisdom Saving Throw against your Martial DC; on a failed Save,
+      they must Attack you instead if they are able, and cannot Attack
+      otherwise. Once during each Creature’s Turn, when a Creature makes an
+      Attack against you, you can move half of your Speed towards that Creature
+      and make a Melee Attack against them if possible (no Action
+      required).</p></li><li><p><strong>Duration:</strong> 3
+      Rounds.</p></li></ul><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: trial-of-thorns
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 14
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Trial of Thorns (Skill Points)
+    img: modules/ak5e/icons/Skill-Kal%27tsit1.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.xKM7jS7bOsFz8rqy
+    type: base
+    _id: gPstDS0TKloM5c89
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 4
+        value: '30'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 4
+        value: '65'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+      automated-conditions-5e:
+        ac5eChangeRows: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!byoxdpLfmMlPcAPN.gPstDS0TKloM5c89'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356585363
+  modifiedTime: 1783356585381
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: byoxdpLfmMlPcAPN
+sort: 287500
+_key: '!items!byoxdpLfmMlPcAPN'

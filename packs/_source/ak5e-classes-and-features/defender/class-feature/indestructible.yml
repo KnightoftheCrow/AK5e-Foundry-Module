@@ -1,0 +1,58 @@
+folder: 0FE7flvsguisj29c
+name: Indestructible
+type: feat
+img: modules/ak5e/icons/Skill-Vulcan1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You know best how to wield your considerable defences. When you would
+      take Damage as a result of a hostile action, you can use this Feature as a
+      Reaction; double any DR you have against that instance of
+      Damage.</p><p>Once you have used this Feature, you may not do so again
+      until you finish a Short Rest, or expend 2 Resilience during your Turn (no
+      Action required) to restore your use of it.</p><p><strong>Not
+      automated.</strong></p>
+    chat: ''
+  identifier: >-
+    you-know-best-how-to-wield-your-considerable-defences-when-you-would-take-damage-as-a-result-of-a-hostile-action-you-can-use-this-feature-as-a-reaction-double-any-dr-you-have-against-that-instance-of-damage
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 18
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.4dXo77TDcAb7kRAD
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358936963
+  modifiedTime: 1783358936963
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: 9ocxUbBnpKzdOELu
+sort: 150000
+_key: '!items!9ocxUbBnpKzdOELu'

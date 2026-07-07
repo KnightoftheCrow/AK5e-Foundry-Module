@@ -1,0 +1,71 @@
+folder: fGpFJo0gyinCoWeF
+name: Part-Time Inventor
+type: feat
+img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: '@scale.part-time-inventor.invent'
+  advancement:
+    j4sZKdoMmqpd1fll:
+      type: ScaleValue
+      _id: j4sZKdoMmqpd1fll
+      configuration:
+        identifier: invent
+        type: number
+        distance:
+          units: ''
+        scale:
+          '9':
+            value: 1
+      value: {}
+      title: ''
+      hint: ''
+      flags: {}
+  description:
+    value: >-
+      <p>You gain the Equipment Modification Feature of the Inventor Specialist.
+      However, your maximum number of Inventions is 1, and you cannot apply any
+      Modification marked as Dangerous.</p><p><strong>Module:</strong> Your
+      maximum number of Inventions becomes 2.</p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: part-time-inventor
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358856483
+  modifiedTime: 1783358856504
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: qDFL0cg7P6QPaqJv
+sort: 353125
+_key: '!items!qDFL0cg7P6QPaqJv'

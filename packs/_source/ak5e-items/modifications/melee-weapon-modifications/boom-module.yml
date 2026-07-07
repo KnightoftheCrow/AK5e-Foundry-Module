@@ -1,0 +1,73 @@
+folder: iC9FYNlLTOR8baLK
+name: Boom Module
+type: consumable
+_id: Fgl2bve541pEaNFu
+img: modules/ak5e/icons/Skill-Magallan1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Item:</strong> A weapon that deals Bludgeoning Damage</p><p>An
+      explosive payload is built into the weapon, triggered by the striking
+      head. Once per Turn when the wielder hits a Creature with an Attack using
+      this Weapon, they may activate this Modification (no Action required);
+      that Attack deals one additional die of Thunder Damage. In addition, that
+      Creature must succeed on a Strength Saving Throw against your Inventor DC
+      or be knocked back 20 feet and knocked Prone.</p>
+    chat: ''
+  identifier: boom-modul
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.9MIuJ6V30M04cAgv
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407163
+  modifiedTime: 1783356407163
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!Fgl2bve541pEaNFu'

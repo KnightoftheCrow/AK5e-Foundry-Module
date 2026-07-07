@@ -1,0 +1,68 @@
+folder: HE4odYYzeg4WWg0p
+name: Covering Ground, Covering Options
+type: feat
+_id: ZjyLN5RKolF5Bn8o
+img: modules/ak5e/icons/Skill-Cliffheart2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Your practice with your Hook grants you the following
+      benefits:</p><p><strong>Big Boot</strong>. When you hit a Creature no more
+      than one size larger than you with an Unarmed Strike, you can push that
+      Creature 10 feet directly away from you.</p><p><strong>King of the Urban
+      Jungle.</strong> During your Turn, if you have moved at least 20 feet
+      immediately beforehand, you can choose a point on a surface you can see
+      within range of your Hook (no Action required). If you do, you gain the
+      following effects; these effects expire after you move, or at the end of
+      your Turn:</p><ul><li><p>You cannot attack with your
+      Hook.</p></li><li><p>You gain a Flying Speed equal to twice the Range of
+      your Hook. However, you cannot move further away from the chosen point
+      than the range of your Hook, you cannot move any higher than the chosen
+      point, and you must move at least 10 feet from the location you started
+      flying.</p></li></ul><p>If you deal Damage with a Melee Attack to a
+      Creature immediately after making this flying movement, that Creature
+      takes additional Damage equal to your Proficiency Bonus, and if the
+      Creature would be forcibly moved as a result of that Damage, the distance
+      they are moved is doubled.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: covering-ground-covering-options
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!ZjyLN5RKolF5Bn8o'

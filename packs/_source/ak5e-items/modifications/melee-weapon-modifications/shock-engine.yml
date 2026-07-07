@@ -1,0 +1,72 @@
+folder: iC9FYNlLTOR8baLK
+name: Shock Engine
+type: consumable
+_id: KEYwl014u9NfL70S
+img: modules/ak5e/icons/Skill-Magallan1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Item:</strong> Melee Weapon</p><p>Once per Turn when the
+      wielder hits a Creature with a Melee Attack using this Weapon, they may
+      activate this Modification (no Action required); the Damage of that Attack
+      is converted to Lightning Damage. That Creature must also succeed on a
+      Dexterity Saving Throw against your Inventor DC or suffer the Dazed
+      Condition until the end of their next Turn.</p>
+    chat: ''
+  identifier: shock-engine
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 87500
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.FOuKF5lszzJAYT5i
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407163
+  modifiedTime: 1783356407163
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!KEYwl014u9NfL70S'

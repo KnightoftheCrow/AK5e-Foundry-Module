@@ -1,0 +1,73 @@
+folder: 2akLoYEVmJNdfiYv
+name: Timed Explosive
+type: consumable
+_id: 2WKKkDmVdNURc86r
+img: modules/ak5e/icons/Skill-W2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Set Up:</strong> You plant a bomb. When you do so, you nominate
+      a length of time until the bomb explodes; no greater than one hour, and no
+      less than 10 seconds (or two Rounds).</p><p><strong>On Trigger:</strong>
+      When the time has elapsed, the bomb explodes, dealing 6d10 Thunder Damage
+      to everything within a 20-foot-radius sphere centred on the bomb; this
+      explosion goes around corners. Vehicles and Structures take double Damage
+      from this explosion.</p>
+    chat: ''
+  identifier: timed-explosive
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 387500
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.rZ5vzWIhxB8d5nWG
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356408232
+  modifiedTime: 1783356408232
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!2WKKkDmVdNURc86r'

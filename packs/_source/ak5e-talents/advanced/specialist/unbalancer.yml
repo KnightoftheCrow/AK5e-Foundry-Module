@@ -1,0 +1,58 @@
+folder: 79ZspRBEAt515C3p
+name: Unbalancer
+type: feat
+img: modules/ak5e/icons/Skill-Beehunter1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When you forcibly move a hostile Creature, that Creature must succeed
+      on a Saving Throw against your Martial DC or their Speed is reduced by 10
+      feet until the end of their next Turn. A Creature can only have their
+      Speed reduced in this way once per Round.</p><p><strong>Module:</strong>
+      The reduction to the affected Creature’s Speed is now equal to 10 feet, or
+      half the distance they were moved, which ever is
+      greater.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: unbalancer
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357862447
+  modifiedTime: 1783357862465
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: 8Lz9wC1oy1ChQOG1
+sort: 184375
+_key: '!items!8Lz9wC1oy1ChQOG1'

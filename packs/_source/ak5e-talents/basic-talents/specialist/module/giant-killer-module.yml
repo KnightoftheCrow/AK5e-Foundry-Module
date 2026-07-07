@@ -1,0 +1,54 @@
+folder: dX9bNDGt3LqFfCRN
+name: Giant Killer (Module)
+type: feat
+img: modules/ak5e/icons/Skill-VinaVictoria3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> Your Attacks against Creatures who are Huge or
+      Larger are made at Advantage.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: giant-killer-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - giant-killer
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357156682
+  modifiedTime: 1783357156698
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: 5BNdlfLcC0jPh9HD
+sort: 200000
+_key: '!items!5BNdlfLcC0jPh9HD'

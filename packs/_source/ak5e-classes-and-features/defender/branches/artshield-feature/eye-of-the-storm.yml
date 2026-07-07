@@ -1,0 +1,60 @@
+folder: MXgB3kytlZWyeJi9
+name: Eye of the Storm
+type: feat
+_id: bJHXyTUZ6aTp30d6
+img: modules/ak5e/icons/Skill-Harmonie2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You have mastered your resistance to Arts so completely that you can
+      nullify them utterly.</p><p>As a Reaction, you may create a spherical
+      barrier centred on you with a radius of up to 20 feet (your choice). This
+      barrier is visible, appearing silvery and translucent, and lasts until the
+      end of your next Turn. For the duration, all Creatures within the barrier
+      cannot be affected by Arts, Art-like Effects, or take Arts Damage. If
+      there are any Arts affecting a Creature when they enter the area, or when
+      they begin their Turn within the area, those effects are ended.</p><p>Once
+      you have used this Feature, you may not do so again until you have
+      finished a Long Rest.</p>
+    chat: ''
+  identifier: eye-of-the-storm
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!bJHXyTUZ6aTp30d6'

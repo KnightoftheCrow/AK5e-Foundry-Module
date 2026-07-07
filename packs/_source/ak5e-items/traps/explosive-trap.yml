@@ -1,0 +1,74 @@
+folder: 2akLoYEVmJNdfiYv
+name: Explosive Trap
+type: consumable
+_id: fca6PwUERNhH31OK
+img: modules/ak5e/icons/Skill-W2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Set Up:</strong> You set an Explosive Trap in a 5-foot square
+      on the ground. When a Creature enters the area, the Trap is
+      triggered.</p><p><strong>On Trigger:</strong> The trap explodes violently.
+      All Creatures within a 15-foot-radius Sphere centered on the Trap must
+      make a Dexterity Saving Throw against your Trap DC. On a failed Save, they
+      take 4d8 Thunder Damage. On a successful Save, they take half as much
+      Damage.</p><p>The Damage of this Trap is increased to 6d8 at 7th Level,
+      and 8d8 at 14th Level.</p>
+    chat: ''
+  identifier: explosive-trap
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.XEbZtVHytTb1MdIL
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356408232
+  modifiedTime: 1783356408232
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!fca6PwUERNhH31OK'

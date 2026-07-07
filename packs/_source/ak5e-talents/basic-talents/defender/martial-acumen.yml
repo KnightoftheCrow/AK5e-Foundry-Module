@@ -1,0 +1,77 @@
+folder: TL00PBquhzkf6sDn
+name: Martial Acumen
+type: feat
+img: modules/ak5e/icons/Skill-Morgan2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    AlWz0JsTHJdMUPsU:
+      type: ItemChoice
+      _id: AlWz0JsTHJdMUPsU
+      configuration:
+        allowDrops: true
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        pool: []
+        restriction:
+          list: []
+          type: class
+          subtype: fightingStyle
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: Guard Fighting Style
+      hint: ''
+      flags: {}
+  description:
+    value: >-
+      <p>You gain a Fighting Style from one of the Styles available to the Guard
+      Class.</p><p><strong>Module:</strong> As a Bonus Action, you may grant a
+      Weapon you are wielding the Couch, Deadly, or Crush (5) Property until the
+      beginning of your next Turn.</p>
+    chat: ''
+  identifier: martial-acumen
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358189595
+  modifiedTime: 1783358189613
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: LbDfpyHtXEwikWuF
+sort: 129688
+_key: '!items!LbDfpyHtXEwikWuF'

@@ -1,0 +1,75 @@
+folder: iC9FYNlLTOR8baLK
+name: Laser Cutter (Dangerous)
+type: consumable
+_id: xJO17EKo8BmzoN2n
+img: modules/ak5e/icons/Skill-Magallan1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Item:</strong> Melee Weapon</p><p>This weapon possesses a
+      specialised Casting Unit that converts Arts from the wielder into a
+      slicing blade of light. When the wielder takes the Attack Action, they may
+      forgo one Attack to activate this Modification. If they do, all Creatures
+      in a 15-foot Cone originating from the wielder must make a Dexterity
+      Saving Throw against your Inventor DC. On a failed Save, they take 3d8
+      Radiant Damage. On a successful Save, they take half as much
+      Damage.</p><p>At 7th Level, the Damage of this Modification is increased
+      to 4d8. At 14th Level, it is increased to 5d8.</p>
+    chat: ''
+  identifier: laser-cutter-dangerous
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 75000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.Wvr5IL3H6s2Jq8HA
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407163
+  modifiedTime: 1783356407163
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!xJO17EKo8BmzoN2n'

@@ -1,0 +1,68 @@
+folder: N0czhwLyeXNGiB65
+name: Respiration Stimulant
+type: consumable
+_id: SVIkQmH5tybmtUvB
+img: icons/consumables/potions/bottle-bulb-corked-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Leverage Condition:</strong> As a Bonus Action</p><p>The
+      Creature’s Speed is increased by 10 feet until the end of the Turn.</p>
+    chat: ''
+  identifier: respiration-stimulant
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0.1
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: potion
+    subtype: ''
+effects: []
+sort: 162500
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.hP8jGI1IIMdSCtsz
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356403849
+  modifiedTime: 1783356403849
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!SVIkQmH5tybmtUvB'

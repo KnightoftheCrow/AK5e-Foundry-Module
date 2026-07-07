@@ -1,0 +1,53 @@
+folder: F7xt8Er4yJgI2eaK
+name: Brawler
+type: feat
+_id: HUfCCNr0vTAzTJ4x
+img: modules/ak5e/icons/Skill-Beehunter2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>On each of your Turns, you may make an Unarmed Strike as a Bonus
+      Action.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: brawler
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: fightingStyle
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358951919
+  modifiedTime: 1783358951919
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!HUfCCNr0vTAzTJ4x'

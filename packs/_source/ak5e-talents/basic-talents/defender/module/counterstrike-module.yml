@@ -1,0 +1,54 @@
+folder: zLS0Nt8r6PPuDuKr
+name: Counterstrike (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Brigid2.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> Attacks you make when it is not your Turn are
+      made at Advantage.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.3gqnqFhR8qm6aHRS
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357960951
+  modifiedTime: 1783357960967
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: NxYJwQqn7aaZeowi
+sort: 250000
+_key: '!items!NxYJwQqn7aaZeowi'

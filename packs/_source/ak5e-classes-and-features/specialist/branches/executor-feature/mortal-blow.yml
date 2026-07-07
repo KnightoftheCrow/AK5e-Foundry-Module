@@ -1,0 +1,61 @@
+folder: jQchpet0cXBgVy5y
+name: Mortal Blow
+type: feat
+_id: Q0zzbLJ2kWmjln5m
+img: modules/ak5e/icons/Skill-LuoXiaohei2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>No matter your path, you have reached its end. Only death can keep you
+      from your mission now.</p><p>You gain one of the following benefits based
+      on your choice of Hunter or Bodyguard:</p><p><strong>Hunter.</strong> Once
+      per Long Rest as an Action, choose a Creature you can see within a
+      distance equal to your Speed; you flash towards them with a lethal strike.
+      You teleport to an unoccupied space within 5 feet of that Creature, and
+      they must make a Dexterity Saving Throw against your Martial DC. Roll
+      10d8. On a failed Save, that Creature loses Hit Points equal to the amount
+      rolled. On a successful Save, they lose Hit Points equal to half the
+      amount rolled. If the Creature has the Bleeding Condition, they lose twice
+      as many Hit Points.</p>
+    chat: ''
+  identifier: mortal-blow
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 20
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!Q0zzbLJ2kWmjln5m'

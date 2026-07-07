@@ -1,0 +1,61 @@
+folder: fGpFJo0gyinCoWeF
+name: Mirror move
+type: feat
+img: modules/ak5e/icons/Skill-AllerdalesGuard.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><span style="padding:0px
+      1.5px;margin:0px;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;line-height:inherit;font-family:inherit;font-optical-sizing:inherit;font-size-adjust:inherit;font-kerning:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-language-override:inherit;font-size:12.0189px;vertical-align:baseline;border:0px;box-sizing:border-box;print-color-adjust:exact">When
+      a Creature you can see within 30 feet deals Arts Damage to you, you can
+      expend your Reaction to deal 2d8 Force Damage to that Creature. You can
+      use this Feature a number of times equal to your Proficiency Bonus, and
+      regain all expended uses when you complete a Long Rest.</span></p><p><span
+      style="padding:0px
+      1.5px;margin:0px;font-style:inherit;font-variant:inherit;font-weight:inherit;font-stretch:inherit;line-height:inherit;font-family:inherit;font-optical-sizing:inherit;font-size-adjust:inherit;font-kerning:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-language-override:inherit;font-size:12.0189px;vertical-align:baseline;border:0px;box-sizing:border-box;print-color-adjust:exact"><strong>Module:</strong>
+      The Force Damage is increased to 4d8.</span></p><p><strong>Not
+      automated.</strong></p>
+    chat: ''
+  identifier: mirror-move
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358685669
+  modifiedTime: 1783358685688
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: wTuOPFisSITTRJHQ
+sort: 500000
+_key: '!items!wTuOPFisSITTRJHQ'

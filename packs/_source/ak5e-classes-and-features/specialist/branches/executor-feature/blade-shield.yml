@@ -1,0 +1,57 @@
+folder: jQchpet0cXBgVy5y
+name: Blade Shield
+type: feat
+_id: muBuHzSgKJi1rvbq
+img: modules/ak5e/icons/Skill-Logos1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You gain one of the following benefits based on your choice of Hunter
+      or Bodyguard:</p><p><strong>Bodyguard.</strong> As a Reaction when a
+      Creature with your Deathmark makes an Attack Roll against you while they
+      are within your Reach, you can make a Weapon Attack against that Creature.
+      If your Attack hits, subtract your Proficiency Bonus from the result of
+      that Creature’s Attack Roll, possibly causing it to
+      miss.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!muBuHzSgKJi1rvbq'

@@ -1,0 +1,107 @@
+folder: F7xt8Er4yJgI2eaK
+name: Ranger
+type: feat
+img: modules/ak5e/icons/Skill-Blitz2.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You gain a +2 Bonus to Attack Rolls you make with Ranged or Thrown
+      Weapons.</p><p><strong>Partially automated:</strong> Grants bonus to all
+      Ranged Attacks.</p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+    book: AK5e
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties:
+    - trait
+  requirements: Marksman Fighting Style
+  type:
+    value: class
+    subtype: fightingStyle
+effects:
+  - name: Ranger
+    img: modules/ak5e/icons/Skill-Blitz2.png
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.XtKdkdFgucYN2EvX
+    _id: MafaTRrvCcJvPd2s
+    type: base
+    system: {}
+    changes:
+      - key: system.bonuses.rwak.attack
+        mode: 2
+        value: '+2'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!XtKdkdFgucYN2EvX.MafaTRrvCcJvPd2s'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358951919
+  modifiedTime: 1783358951919
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: XtKdkdFgucYN2EvX
+sort: 25000
+_key: '!items!XtKdkdFgucYN2EvX'

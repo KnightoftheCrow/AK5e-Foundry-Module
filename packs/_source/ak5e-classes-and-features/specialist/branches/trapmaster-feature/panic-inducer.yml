@@ -1,0 +1,66 @@
+folder: 5TjQjlL8OLFElpmw
+name: Panic Inducer
+type: feat
+_id: ijKBw2Jhsg5DCwa5
+img: modules/ak5e/icons/Skill-Dorothy3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Your demeanour and trickery is well crafted to undermine the confidence
+      of your enemies; or instill them with false confidence. You gain the
+      following benefits:</p><p><strong>Irritating Distraction.</strong> If you
+      make an Attack against a Creature, that Creature has Disadvantage on
+      Saving Throws against your Traps and Warning Point Feature until the
+      beginning of your next Turn.</p><p><strong>Jester’s Grace.</strong> You do
+      not trigger Traps that you or your allies have placed when you move into
+      the triggering area. Additionally, you have Advantage on any Saving Throw
+      you make against Traps placed by you.</p><p><strong>Warning
+      Point.</strong> When a Creature would trigger one of your Traps, you can
+      instead cause them to instead have to succeed on an Intelligence Saving
+      Throw against your Trap DC or have their Speed reduced to 0 until the
+      beginning of their next Turn; they are not aware of the Trap, but feel as
+      if they are in danger if they move. When you have delayed the activation
+      of one of your Traps in this way, you may cause that Trap to trigger as a
+      Reaction.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: panic-inducer
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!ijKBw2Jhsg5DCwa5'

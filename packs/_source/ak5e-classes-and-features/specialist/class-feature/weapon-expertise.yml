@@ -1,0 +1,60 @@
+folder: F7xt8Er4yJgI2eaK
+name: Weapon Expertise
+type: feat
+_id: YH5ePDHCQSL4ozbl
+img: modules/ak5e/icons/Skill-Totter2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You gain additional benefits based on your Weapon
+      Specialisation.</p><p><strong>Melee Combat.</strong> Your Critical Range
+      for Melee Attacks is improved by 1. When you roll to determine the Damage
+      of a Melee Attack, you may expend 1 Prowess as a Bonus Action to roll one
+      additional Damage die and add it to the total Damage.</p><p><strong>Ranged
+      Combat.</strong> Whenever you have Advantage on a Ranged Attack Roll, you
+      may roll an additional die, keeping only the die with the highest result.
+      Additionally, you may expend 1 Prowess as a Bonus Action to give yourself
+      Advantage on the next Ranged Attack Roll you make.</p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: weapon-expertise
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 12
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358951919
+  modifiedTime: 1783358951919
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!YH5ePDHCQSL4ozbl'

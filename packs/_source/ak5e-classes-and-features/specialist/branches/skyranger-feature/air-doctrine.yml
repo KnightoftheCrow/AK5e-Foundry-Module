@@ -1,0 +1,76 @@
+folder: GEE9J6di2smOxKgx
+name: Air Doctrine
+type: feat
+_id: WvbrwK1V21yZg60v
+img: modules/ak5e/icons/Skill-Skybox2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When you complete a Short or Long Rest, you choose from one of the
+      following Doctrines; Air Superiority, Bombardment, or Close Air Support.
+      Some of your Branch Features functions corresponds to your current
+      Doctrine, described in those Features.</p><p>At this Level, your choice of
+      Doctrine grants you the following benefits:</p><p><strong>Air Superiority
+      (AA Missile).</strong> As an Action while you are wearing your Flight
+      Suit, you can expend 1 Fuel to choose a Creature you can see within 100
+      feet. That Creature must make a Dexterity Saving Throw against your
+      Martial DC, taking Thunder Damage equal to your Strafe Damage on a failed
+      Save, or half as much on a successful Save. If that Creature is not
+      touching the ground, you do not roll, and instead use the highest number
+      possible for each die.</p><p><strong>Bombardment (Bombing Run).</strong>
+      As an Action while you are wearing your Flight Suit, you can expend 1 Fuel
+      to choose a grounded point you can see within 30 feet and launch a bomb at
+      it; if you are currently Flying, this distance is extended to 120 feet.
+      All Creatures within 15 feet of the chosen point must make a Dexterity
+      Saving Throw against your Martial DC, taking Thunder Damage equal to your
+      Strafe Damage on a failed Save, or half as much on a successful
+      Save.</p><p><strong>Close Air Support (Swooping Dive).</strong> When you
+      take the Attack Action while you are wearing your Flight Suit, you can
+      expend 1 Fuel to move up to your Speed as part of that Action.
+      Additionally, when you make an Attack against a Creature within 10 feet of
+      you as part of that Action, that Attack is made at Advantage, and deals
+      additional Thunder Damage on hit equal to your Strafe Damage; a Creature
+      can only take this additional Damage once per Turn.</p><p>Not
+      Automated.</p>
+    chat: ''
+  identifier: air-doctrine
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 500000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!WvbrwK1V21yZg60v'

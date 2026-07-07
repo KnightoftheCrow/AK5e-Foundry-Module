@@ -1,0 +1,54 @@
+folder: TL00PBquhzkf6sDn
+name: Power Plant
+type: feat
+img: modules/ak5e/icons/Skill-C2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When you take Arts Damage from a hostile Creature, you gain 3 Skill
+      Points.</p><p><strong>Module:</strong> You gain 6 Skill Points
+      instead.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: power-plant
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357996323
+  modifiedTime: 1783357996340
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: S70CMRbGKLW1Zc0A
+sort: 256250
+_key: '!items!S70CMRbGKLW1Zc0A'

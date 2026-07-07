@@ -1,0 +1,54 @@
+folder: cmfoF8Hdud4nTRHX
+name: Aura of Mercy
+type: feat
+_id: VWnFZHgs0Y1w4aT5
+img: modules/ak5e/icons/Skill-Shu1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Whenever an allied Creature within 10 feet of you recovers Hit Points,
+      they recover additional Hit Points equal to your Proficiency
+      Bonus.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: aura-of-mercy
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 12
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!VWnFZHgs0Y1w4aT5'

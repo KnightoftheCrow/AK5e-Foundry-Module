@@ -1,0 +1,74 @@
+folder: 2akLoYEVmJNdfiYv
+name: Spike Trap
+type: consumable
+_id: Kt4eyOe9q0BTO5vw
+img: modules/ak5e/icons/Skill-W2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Set Up:</strong> You set a Spike Trap in a line up to 10 foot
+      long and 1 foot wide. When a Creature enters the area, they trigger the
+      Trap. This Trap can be triggered multiple times.</p><p><strong>On
+      Trigger:</strong> The triggering Creature must succeed on a Dexterity
+      Saving Throw against your Spell Save DC or take 1d8 Piercing Damage, and
+      begin Bleeding.</p><p>From 7th Level, Creatures who fail this Saving Throw
+      also have their Speed reduced by 10 feet until they are no longer missing
+      any Hit Points.</p>
+    chat: ''
+  identifier: spike-trap
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 375000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.D8SaJ5QDyijRLfLs
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356408232
+  modifiedTime: 1783356408232
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!Kt4eyOe9q0BTO5vw'

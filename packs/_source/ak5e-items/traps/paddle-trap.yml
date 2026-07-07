@@ -1,0 +1,75 @@
+folder: 2akLoYEVmJNdfiYv
+name: Paddle Trap
+type: consumable
+_id: cd4zn02uhIUKWoVX
+img: modules/ak5e/icons/Skill-W2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Set Up:</strong> You set a Paddle Trap in a line up to 10 foot
+      long and 1 foot wide. When a Creature enters the area, they trigger the
+      Trap.</p><p><strong>On Trigger:</strong> A blunt object is launched at the
+      triggering Creature. That Creature must make a Dexterity Saving Throw
+      against your Trap DC. On a failed Save, they take 4d8 Bludgeoning Damage
+      and are Dazed for 1 minute. On a successful Save, they take half as much
+      Damage, and are not Dazed. If this damage reduces them to 0 Hit Points,
+      they are knocked Unconscious instead of killed.</p><p>The Damage of this
+      Trap is increased to 6d8 at 7th Level, and 8d8 at 14th Level.</p>
+    chat: ''
+  identifier: paddle-trap
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 350000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.2M88IXWxohI4aj8a
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356408232
+  modifiedTime: 1783356408232
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!cd4zn02uhIUKWoVX'

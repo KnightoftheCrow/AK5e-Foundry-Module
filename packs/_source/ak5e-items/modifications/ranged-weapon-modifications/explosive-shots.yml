@@ -1,0 +1,73 @@
+folder: wTkeoeJjxbPHcfdK
+name: Explosive Shots
+type: consumable
+_id: 4rwtXi98E2PkIaAv
+img: modules/ak5e/icons/Skill-Magallan2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Item:</strong> Light or Heavy Ranged Weapon</p><p>This weapon
+      has been modified to fire special explosive ammunition. When the wielder
+      makes an Attack using this weapon, they can activate this Modification (no
+      Action required); after the Attack, roll the Damage of that Attack even if
+      the Attack misses; all other Creatures within 10 feet of the target
+      Creature must succeed on a Dexterity Saving Throw against your Inventor
+      DC, or take Thunder Damage equal to half of the amount rolled.</p>
+    chat: ''
+  identifier: explosive-shots
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 250000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.5d0c3xVJnl9cCf41
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407163
+  modifiedTime: 1783356407163
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!4rwtXi98E2PkIaAv'

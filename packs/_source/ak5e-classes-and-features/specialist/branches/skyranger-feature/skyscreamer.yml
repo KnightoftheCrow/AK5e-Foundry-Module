@@ -1,0 +1,68 @@
+folder: GEE9J6di2smOxKgx
+name: Skyscreamer
+type: feat
+_id: 9NZUTu67v3gGijVt
+img: modules/ak5e/icons/Skill-Contrail1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>The difference between you and Icarus is that Icarus did not believe
+      hard enough.</p><p>Once per Long Rest, while you are wearing your Flight
+      Suit, you can transform it into its ultimate Combat Mode for 1 minute.
+      While in Combat Mode, you gain the following
+      benefits:</p><p><strong>Multirole:</strong> You are considered to be in
+      all three Doctrines at once. Additionally, you may use any of the options
+      of your Air Doctrine Feature without expending Fuel.</p><p><strong>Special
+      Weapons.</strong> You gain access to the following Special Weapons for the
+      duration; they do not need to be equipped for you to use
+      them.</p><p><strong>Name:</strong> Core Cannon</p><p><strong>Weapon
+      Category:</strong> Light Ranged</p><p><strong>Damage:</strong> 3d8
+      Force</p><p><strong>Properties:</strong> Range (100/300), Rapid Fire,
+      Light</p><p><strong>Weight:</strong> -</p><p><strong>Cost:</strong>
+      -</p><p><strong>Name:</strong> Core Saber</p><p><strong>Weapon
+      Category:</strong> Light Melee</p><p><strong>Damage:</strong> 3d8
+      Force</p><p><strong>Properties:</strong> Deadly, Finesse, Reach,
+      Light</p><p><strong>Weight:</strong> -</p><p><strong>Cost:</strong>
+      -</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: skyscreamer
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 20
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!9NZUTu67v3gGijVt'

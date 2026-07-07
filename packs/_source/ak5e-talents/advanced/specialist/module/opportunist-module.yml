@@ -1,0 +1,54 @@
+folder: EjQr1CtCkHNEpvzS
+name: Opportunist (Module)
+type: feat
+img: modules/ak5e/icons/Skill-May2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> You may also deal this additional Damage
+      against Creatures that have any detrimental Status Condition.</p>
+    chat: ''
+  identifier: opportunist
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - opportunist
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357618269
+  modifiedTime: 1783357621949
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: oiDhtnmIY6nerQwX
+sort: 300000
+_key: '!items!oiDhtnmIY6nerQwX'

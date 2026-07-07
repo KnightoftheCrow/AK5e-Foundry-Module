@@ -1,0 +1,72 @@
+folder: q1MrBsepLJyJ9ezj
+name: Refocuser
+type: consumable
+_id: 7rrs9HA00sVTALzx
+img: modules/ak5e/icons/Skill-Magallan3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Item:</strong> Any Armour or Clothing</p><p>This armour
+      contains a device designed to monitor the wearer’s brain activity and
+      deliver a safe but steadying jolt when their consciousness flickers. When
+      the wearer of this armour fails a Constitution Saving Throw to maintain
+      Concentration on an Art, they may activate this Modification as a Reaction
+      to reroll that Saving Throw with Advantage.</p>
+    chat: ''
+  identifier: refocuser
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 500000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.UpmJEnox7U4VD90R
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407163
+  modifiedTime: 1783356407163
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!7rrs9HA00sVTALzx'

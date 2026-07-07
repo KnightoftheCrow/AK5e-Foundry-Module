@@ -1,0 +1,74 @@
+folder: q1MrBsepLJyJ9ezj
+name: Exoskeleton
+type: consumable
+_id: QYSNx9lbahybhetr
+img: modules/ak5e/icons/Skill-Magallan3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Item:</strong> Any Armour</p><p>This armour is fitted with a
+      mechanical exoskeleton, reinforcing the wearer’s strength when necessary.
+      The wearer may activate this Modification as a Bonus Action; until the
+      beginning of their next Turn, they are treated as being one size larger
+      for determining what they can push, pull, or carry, their jump height and
+      length is doubled, they have Advantage on any Strength (Athletics) Check,
+      and they are not slowed by carrying another Creature of the same size or
+      smaller.</p>
+    chat: ''
+  identifier: exoskeleton
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 250000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.acGAhCvLAscey0uz
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407163
+  modifiedTime: 1783356407163
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!QYSNx9lbahybhetr'

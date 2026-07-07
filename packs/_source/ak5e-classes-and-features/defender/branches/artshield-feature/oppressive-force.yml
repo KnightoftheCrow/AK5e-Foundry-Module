@@ -1,0 +1,58 @@
+folder: MXgB3kytlZWyeJi9
+name: Oppressive Force
+type: feat
+_id: 49QAELRp3gD3OWEj
+img: modules/ak5e/icons/Skill-Skadi1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You have further refined your technique for shutting down hostile
+      Casters; the best defence is a good offence. You gain the following
+      benefits:</p><ul><li><p><strong>Reactive Defence.</strong> When a Unit
+      within your Reach casts an Art, you may make an Attack of Opportunity
+      against them.</p></li><li><p><strong>Concentration Breaker.</strong> When
+      you damage a Creature that is Concentrating on an Art, it has Disadvantage
+      on the Saving Throw it makes to maintain
+      Concentration.</p></li></ul><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: oppressive-force
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!49QAELRp3gD3OWEj'

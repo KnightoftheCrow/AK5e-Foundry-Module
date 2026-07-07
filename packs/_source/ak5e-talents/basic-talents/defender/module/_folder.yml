@@ -1,0 +1,18 @@
+type: Item
+folder: TL00PBquhzkf6sDn
+name: Module
+color: null
+sorting: a
+_id: zLS0Nt8r6PPuDuKr
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  lastModifiedBy: null
+_key: '!folders!zLS0Nt8r6PPuDuKr'

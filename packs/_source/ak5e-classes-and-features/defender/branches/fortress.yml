@@ -1,0 +1,141 @@
+folder: krMsndTTVD0R6oop
+name: Fortress
+type: subclass
+img: modules/AK5e-Foundry-Module/icons/Fortress_Defender.webp
+system:
+  advancement:
+    zxYRhnPfa3wP4uLA:
+      type: ItemGrant
+      title: Branch Feature
+      _id: zxYRhnPfa3wP4uLA
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.T8WuYjZj7YYLnMhT
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 9
+      hint: ''
+      icon: ''
+    cZ1MuhQCP7ixlxNE:
+      type: ItemGrant
+      title: Branch Feature
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.DPk6rdKfkttUt3UY
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 15
+      hint: ''
+      _id: cZ1MuhQCP7ixlxNE
+      icon: ''
+    okdY8RcVv0CExqqb:
+      type: ItemGrant
+      title: Branch Feature
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.RJmnMBDoT7D2yE57
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 12
+      hint: ''
+      _id: okdY8RcVv0CExqqb
+      icon: ''
+    lGGCmr8tQhN5BR6J:
+      type: ItemGrant
+      title: Branch Feature
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.KrXHAwjB6syEFTsr
+            optional: false
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.TwNjNQ0FWgnrf9Kh
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 4
+      hint: ''
+      _id: lGGCmr8tQhN5BR6J
+      icon: ''
+    KDeBmwlajrHlYpXe:
+      type: ItemGrant
+      title: Branch Feature
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.olJwK0hx9HzII6UF
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 1
+      hint: ''
+      _id: KDeBmwlajrHlYpXe
+      icon: ''
+  description:
+    value: >-
+      <p>Fortress Defenders turn the sluggish nature of Defenders into their
+      strength, pounding their foes with explosives from a distance as they
+      slowly advance. It is not uncommon for Defenders treading this path to be
+      the core of their team, a hardpoint to rally around when hell breaks
+      loose.</p><p>You get next Branch Features:</p><table><tbody><tr><td
+      data-colwidth="50"><p>Level</p></td><td><p>Branch
+      Feature</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.olJwK0hx9HzII6UF]{Fire
+      Support Platform}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.TwNjNQ0FWgnrf9Kh]{Munition
+      Options},
+      @UUID[Compendium.ak5e.ak5e-classes-and-features.Item.KrXHAwjB6syEFTsr]{Fire
+      for Effect}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">9</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.T8WuYjZj7YYLnMhT]{Moving
+      Fortress}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">12</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.RJmnMBDoT7D2yE57]{Stronghold}</p></td></tr><tr><td
+      data-colwidth="50"><p
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.DPk6rdKfkttUt3UY]{Creeping
+      Barrage}</p></td></tr></tbody></table>
+    chat: ''
+  identifier: fortress
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: defender
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.LKU0p3yAIIm1yQiN
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783367676297
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: lhItbM0V5Th3ePLV
+sort: 125000
+_key: '!items!lhItbM0V5Th3ePLV'

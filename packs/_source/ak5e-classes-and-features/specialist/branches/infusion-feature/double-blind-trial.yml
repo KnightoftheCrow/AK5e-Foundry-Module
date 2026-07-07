@@ -1,0 +1,72 @@
+folder: fnNi4KXioyJ542O7
+name: Double-Blind Trial
+type: feat
+_id: 9WYZ3MwE5FszZjKh
+img: modules/ak5e/icons/Skill-TheLodestar2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>As a Bonus Action while you are wielding a Weapon that does not have a
+      Toxin applied to it, and have access to a Pharmacology Kit, you can expend
+      1 Prowess and 1 use of your Alchemical Infusions Feature to roll 1d6 and
+      apply the corresponding Toxin to that Weapon; this does not require you to
+      physically possess the Toxin.</p><table><tbody><tr><td><p
+      style="text-align:center"><strong>Result</strong></p></td><td><p
+      style="text-align:center"><strong>Toxin</strong></p></td></tr><tr><td><p
+      style="text-align:center">1</p></td><td><p>Neurologicial
+      Inhibitor</p></td></tr><tr><td><p
+      style="text-align:center">2</p></td><td><p>Necrotoxin</p></td></tr><tr><td><p
+      style="text-align:center">3</p></td><td><p>Haemotoxin</p></td></tr><tr><td><p
+      style="text-align:center">4</p></td><td><p>Cytotoxin</p></td></tr><tr><td><p
+      style="text-align:center">5</p></td><td><p>Neurotoxin</p></td></tr><tr><td><p
+      style="text-align:center">6</p></td><td><p>Bungarotoxin</p></td></tr></tbody></table><p><strong>Gaining
+      Prowess as an Infuser.</strong> As an Infuser, you gain 1 Prowess when a
+      Creature that either has the Poisoned Condition, or is affected by a Toxin
+      created by you, is reduced to 0 Hit Points. Additionally, you gain 1
+      Prowess when the effect of one of your Infusions causes a Creature to
+      succeed on an Attack Roll, Skill Check, or Saving Throw it would otherwise
+      have failed; you can only gain Prowess in this way once per
+      Round.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: >-
+    as-a-bonus-action-while-you-are-wielding-a-weapon-that-does-not-have-a-toxin-applied-to-it-and-have-access-to-a-pharmacology-kit-you-can-expend-1-prowess-and-1-use-of-your-alchemical-infusions-feature-to-roll-1d6-and-apply-the-corresponding-toxin-to-that-weapon-this-does-not-require-you-to-physically-possess-the-toxin
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!9WYZ3MwE5FszZjKh'

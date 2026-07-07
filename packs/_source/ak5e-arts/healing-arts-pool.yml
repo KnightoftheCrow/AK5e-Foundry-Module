@@ -1,0 +1,294 @@
+name: Healing Arts Pool
+type: feat
+img: icons/magic/life/heart-area-circle-red-green.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    C3vfmAcPS8jfiQtV:
+      type: ItemGrant
+      _id: C3vfmAcPS8jfiQtV
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplBeaconofHo
+            optional: false
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplMassHealin
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.zhosE2rOMnoBnaoD
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      flags: {}
+      value: {}
+      level: 3
+      hint: ''
+      title: ''
+    XPM4LpqIzPVEqjYF:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.o8Dh7fblk1d16tnO
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      flags: {}
+      value: {}
+      level: 1
+      hint: ''
+      title: ''
+      _id: XPM4LpqIzPVEqjYF
+    uF8jNcY6fjUmcxQh:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-arts.Item.B13BiCPrOXQho7go
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.MOEmz9N0j0QPkKEE
+            optional: false
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplProtection
+            optional: false
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplWardingBon
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      flags: {}
+      value: {}
+      level: 2
+      hint: ''
+      title: ''
+      _id: uF8jNcY6fjUmcxQh
+    iclhkvT20Zhtl0jw:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplMassCureWo
+            optional: false
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplGreaterRes
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      flags: {}
+      value: {}
+      level: 5
+      hint: ''
+      title: ''
+      _id: iclhkvT20Zhtl0jw
+    0KO2PlmzttMGpVQ5:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplHeal000000
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-arts.Item.zMpwaCmNuoOjPkcz
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      flags: {}
+      value: {}
+      level: 6
+      hint: ''
+      title: ''
+      _id: 0KO2PlmzttMGpVQ5
+    xmx1eJcuZgWq8soE:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplMassHeal00
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      flags: {}
+      value: {}
+      level: 9
+      hint: ''
+      title: ''
+      _id: xmx1eJcuZgWq8soE
+    TVKECFBCka4Jmhfh:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplDeathWard0
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      flags: {}
+      value: {}
+      level: 4
+      hint: ''
+      title: ''
+      _id: TVKECFBCka4Jmhfh
+    p5p6SNBhQoSvHkcs:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-arts.Item.GU9ds85obdqS09Og
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          method: spell
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+          prepared: 2
+      flags: {}
+      value: {}
+      level: 0
+      hint: ''
+      title: ''
+      _id: p5p6SNBhQoSvHkcs
+  description:
+    value: >-
+      <p>Healing Arts differ from typical Arts in that their method of
+      application is not easily defined. The body is extremely complex, but
+      underneath it all, it is ultimately just nutrients and minerals, both of
+      which can be acted on by Arts. The ways in which Arts can be used to
+      promote healing are thus great and varied; some vastly promote natural
+      healing, some physically close wounds and knit bone back together, others
+      alter the chemistry of the body, and so on. Many of the principles
+      practised by practioners of other forms of Arts find a use in Healing Arts
+      also; what they all have in common is that they all require an advanced
+      understanding of the physiology of the target, lest you do more harm than
+      good.</p><p>Arts marked with <strong>an asterisk</strong> can <strong>no
+      longer heal diseases</strong>; that is the purview of traditional
+      medicine.</p><p>(Arts that are <span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">underlined</span></span> require the
+      Player's Handbook. Arts that are in <em>italics</em> require Tasha's
+      Cauldron of Everything. Arts that are <strong>Bold</strong> are not
+      currently available in official content on Foundry; often Xanathar's Guide
+      to Everything.)</p><table><tbody><tr><td><p>Cantrip</p></td><td><p>Abjure,
+      <strong>Toll the
+      Dead</strong></p></td></tr><tr><td><p>1st</p></td><td><p><span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">Cure Wounds</span></span>, <span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">Healing
+      Word</span></span></p></td></tr><tr><td><p>2nd</p></td><td><p><span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">Aid</span></span>, Bolster, <span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">Lesser Restoration</span></span>*, <span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">Prayer of Healing</span></span>, <span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">Protection from Poison</span></span>,
+      <span style="text-decoration:underline"><span
+      style="text-decoration:underline">Warding
+      Bond</span></span></p></td></tr><tr><td><p>3rd</p></td><td><p><span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">Aura of Vitality</span></span>, <span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">Beacon of Hope</span></span>, <span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">Mass Healing
+      Word</span></span></p></td></tr><tr><td><p>4th</p></td><td><p><span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">Death
+      Ward</span></span></p></td></tr><tr><td><p><strong>5th</strong></p></td><td><p><span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">Greater Restoration</span></span>*, Mass
+      Cure Wounds</p></td></tr><tr><td><p>6th</p></td><td><p><span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">Heal</span></span>*, <strong>Fizban's
+      Platinum
+      Shield</strong></p></td></tr><tr><td><p>7th</p></td><td><p>-</p></td></tr><tr><td><p>8th</p></td><td><p>-</p></td></tr><tr><td><p>9th</p></td><td><p><span
+      style="text-decoration:underline"><span
+      style="text-decoration:underline">Mass
+      Heal</span></span>*</p></td></tr></tbody></table>
+    chat: ''
+  identifier: healing-arts-pool
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+folder: null
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356305021
+  modifiedTime: 1783356305045
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: rJ8iQpp2Pvjf0bWJ
+sort: 137500
+_key: '!items!rJ8iQpp2Pvjf0bWJ'

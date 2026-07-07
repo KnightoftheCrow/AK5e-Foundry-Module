@@ -1,0 +1,79 @@
+folder: cmfoF8Hdud4nTRHX
+name: Guardian of Life (INT)
+type: feat
+_id: d2Nu2GDTLex2B1Um
+img: modules/ak5e/icons/Skill-Nearl2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    0G3zDfTNvERh6J3a:
+      type: ItemGrant
+      _id: 0G3zDfTNvERh6J3a
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-arts.Item.WA254EqHcqSTlZtA
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 1
+      hint: ''
+      title: ''
+  description:
+    value: >-
+      <p>You can cast Arts; the information below details how you use those
+      rules as a Guardian.</p><p><strong>Arts Points:</strong> The Guardian Arts
+      Casting table shows how many Arts Points you have to cast your Level 1+
+      Arts. You regain all expended Arts Points when you finish a Long
+      Rest.</p><p><strong>Maximum Arts Level:</strong> The Guardian Arts Casting
+      table shows the maximum Level you can cast an Art at, based on your
+      Defender Level.</p><p><strong>Spellcasting Ability:</strong> When you gain
+      this Feature, choose either Intelligence, Wisdom, or Charisma; that is
+      your Spellcasting Ability.</p><p><strong>Spellcasting Focus:</strong>
+      Shields equipped by you gain the Casting Unit Property for the
+      duration.</p><p><strong>Guardian Arts Pool:</strong> When you gain this
+      Feature, you learn all of the Arts from the Healing Arts Special Arts Pool
+      of 5th Level or less, including all Cantrips in that Pool. These Arts are
+      always prepared.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: guardian-of-life-int
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!d2Nu2GDTLex2B1Um'

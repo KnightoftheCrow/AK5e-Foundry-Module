@@ -1,0 +1,66 @@
+folder: jQchpet0cXBgVy5y
+name: Escape the Ambush
+type: feat
+_id: M1GUs2xp4K1FzIc7
+img: modules/ak5e/icons/Skill-Kjera2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You gain one of the following ways to expend your Prowess based on your
+      choice of Hunter or Bodyguard:</p><p><strong>Bodyguard
+      (Smokescreen).</strong> You can expend 1 Prowess as a Reaction to create a
+      10-foot-radius sphere of Arts-infused smoke centred at your feet. This
+      smoke lasts until the end of your next Turn, and is considered to be
+      Magical Darkness. Additionally, when you create this smoke, you can choose
+      one allied Creature within it; they may use their Reaction to move up to
+      their Speed.</p><p>Gaining Prowess as an Executor. As an Executor, you
+      gain 1 Prowess when a Creature with your Deathmark is reduced to 0 Hit
+      Points. Once you have gained Prowess in this way, you may not do so again
+      until the beginning of your next Turn.</p><p>You also can gain Prowess in
+      an additional way based on your choice of Hunter or
+      Bodyguard:</p><p><strong>Bodyguard:</strong> At the end of an allied
+      Creature’s Turn where they were Attacked while within 10 feet of you, but
+      have taken no Damage from hostile Creatures that Turn, you gain 1
+      Prowess.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: escape-the-ambush
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!M1GUs2xp4K1FzIc7'

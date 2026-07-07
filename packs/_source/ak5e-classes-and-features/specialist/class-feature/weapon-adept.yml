@@ -1,0 +1,60 @@
+folder: F7xt8Er4yJgI2eaK
+name: Weapon Adept
+type: feat
+_id: lAPuDI9jwafeKekF
+img: modules/ak5e/icons/Skill-Totter1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You gain additional benefits based on your Weapon
+      Specialisation.</p><p><strong>Melee Combat.</strong> When you take the
+      Attack Action, you may make one additional Attack as part of that Action;
+      this Attack must be a Melee Attack. Additionally, when you roll a 1 or 2
+      on one or more Damage dice for a Melee Attack, you can reroll those dice;
+      you must use the new results.</p><p><strong>Ranged Combat.</strong> When
+      you take the Attack Action, you may make one additional Attack as part of
+      that Action; this Attack must be a Ranged Attack. Additionally, when you
+      roll a 1 for a Ranged Attack Roll, you may reroll that die; you must use
+      the new result.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: weapon-adept
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 6
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358951919
+  modifiedTime: 1783358951919
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!lAPuDI9jwafeKekF'

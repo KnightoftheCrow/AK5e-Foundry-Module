@@ -1,0 +1,55 @@
+folder: fGpFJo0gyinCoWeF
+name: Tactical Defence
+type: feat
+img: modules/ak5e/icons/Skill-Courier2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When a Creature makes an Attack against you, you can grant 1 Skill
+      Point to a Creature (except yourself) within 10 feet of
+      you.</p><p><strong>Module:</strong> You can choose 2 Creatures to grant
+      Skill Points to instead.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: tactical-defence
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358694772
+  modifiedTime: 1783358694792
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: tqHnpJjsTGJmt6Bm
+sort: 378125
+_key: '!items!tqHnpJjsTGJmt6Bm'

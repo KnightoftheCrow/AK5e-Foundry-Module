@@ -1,0 +1,64 @@
+folder: Vd5i80HITKyteFYa
+name: Masquerade
+type: feat
+_id: U3OFS444dkZA0Zmk
+img: modules/ak5e/icons/Skill-Kazemaru1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Your Dolls are more advanced; uncannily so. You gain the following
+      benefits:</p><p><strong>Doll Multiattack.</strong> When your Doll takes
+      the Strike Action, it can make one additional Attack as part of
+      it.</p><p><strong>Mistaken Identity.</strong> When a Creature would make
+      an Attack against you or your Doll, and the other Creature is within range
+      of that Attack, you can force that Creature to make a DC18 Perception
+      Check. If they fail the Check, you may choose whether that Attack targets
+      you or your Doll. If they succeed on the Check, they become immune to this
+      Feature for 1 hour. You can use this Feature a number of times equal to
+      your Proficiency Bonus, and regain all expended uses whenever you finish a
+      Short or Long Rest.</p><p><strong>Talking Heads.</strong> Your Doll can
+      now speak using your voice. It will only say what it is ordered to say; if
+      it is within 100 feet of you, you can communicate telepathically what you
+      wish for it to say.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: masquerade
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!U3OFS444dkZA0Zmk'

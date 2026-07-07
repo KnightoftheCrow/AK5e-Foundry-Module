@@ -1,0 +1,65 @@
+folder: HE4odYYzeg4WWg0p
+name: Spider’s Essence
+type: feat
+_id: YjbOAGTipuxy4U2G
+img: modules/ak5e/icons/Skill-Rope2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Your familiarity with verticality makes even arachnids look like
+      beginners. You gain the following benefits:</p><p><strong>Longer
+      Hook.</strong> The Thrown Property of your Hooks is increased to Thrown
+      (50/-)</p><p><strong>Spider’s Thread.</strong> As an Action, you can use
+      your Hook to grapple to a surface of your choice above you, granting
+      yourself a Climbing Speed until the beginning of your next Turn equal to
+      the length of your Hook, but only when you are climbing towards your
+      chosen point from the location you used this Feature. Additionally, until
+      the beginning of your next Turn, other Creatures that begin climbing from
+      the same location towards the same point also gain a climbing Speed equal
+      to your Hook’s Range until the end of their Turn.</p><p><strong>Swing to
+      Safety.</strong> You can now use your King of the Urban Jungle Feature as
+      a Reaction while you are falling, as long as the height you are falling is
+      enough for you to take falling Damage.</p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: spiders-essence
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!YjbOAGTipuxy4U2G'
