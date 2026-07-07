@@ -1,0 +1,57 @@
+folder: Vd5i80HITKyteFYa
+name: Musical Chairs
+type: feat
+_id: zkHfp73xP3ugr8S5
+img: modules/ak5e/icons/Skill-TheUnchained2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When you use your Bonus Action to instruct your Doll, you may also
+      expend 1 Prowess to swap places with your Doll as part of that Bonus
+      Action.</p><p><strong>Gaining Prowess as a Dollkeeper.</strong> If you
+      reduce a Creature to 0 Hit Points, you gain 1 Prowess if that Creature had
+      taken Damage from your Doll since the beginning of your last Turn. You
+      also gain 1 Prowess when your Doll reduces a Creature to 0 Hit Points; you
+      can only gain this Prowess once per Turn.</p>
+    chat: ''
+  identifier: musical-chairs
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!zkHfp73xP3ugr8S5'

@@ -1,0 +1,142 @@
+folder: fGpFJo0gyinCoWeF
+name: Tactical Mind
+type: feat
+img: modules/ak5e/icons/Skill-TheresaBlackCrownedSage.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery:
+      - period: lr
+        type: recoverAll
+    max: '1'
+  advancement: {}
+  description:
+    value: >-
+      <p>When you roll a d20, you may reroll that die and add 1d10 to the result
+      of the roll as a Reaction. Once you have used this Feature, you must
+      finish a Long Rest before you can use it
+      again.</p><p><strong>Module:</strong> You now regain use of this Feature
+      when you complete a Short Rest.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: tactical-mind
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects:
+  - _id: waeG7ZDIB5myAbe6
+    changes:
+      - key: flags.midi-qol.optional.tactical-mind.attack.all
+        mode: 5
+        value: reroll-withBonus 1d10
+        priority: 20
+      - key: flags.midi-qol.optional.tactical-mind.label
+        mode: 5
+        value: Tactical Mind
+        priority: 20
+      - key: flags.midi-qol.optional.tactical-mind.save.all
+        mode: 5
+        value: reroll-withBonus 1d10
+        priority: 20
+      - key: flags.midi-qol.optional.tactical-mind.check.all
+        mode: 5
+        value: reroll-withBonus 1d10
+        priority: 20
+      - key: flags.midi-qol.optional.tactical-mind.count
+        mode: 5
+        value: ItemUses.Tactical Mind
+        priority: 20
+    disabled: false
+    duration:
+      startTime: 47180419488
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: 260
+      startTurn: 1
+    origin: Item.xmTdqyav4pJqtGEU
+    transfer: true
+    flags:
+      dae:
+        stackable: none
+        macroRepeat: none
+        specialDuration: []
+        transfer: false
+        durationExpression: ''
+        selfTarget: false
+        selfTargetAlways: false
+        disableIncapacitated: false
+        showIcon: false
+        disableCondition: ''
+      ActiveAuras:
+        isAura: false
+        radius: ''
+        aura: None
+        alignment: ''
+        type: ''
+        ignoreSelf: false
+        height: false
+        hidden: false
+        hostile: false
+        onlyOnce: false
+        displayTemp: false
+        nameOverride: ''
+        customCheck: ''
+        wallsBlock: system
+      core:
+        overlay: false
+      dnd5e-helpers:
+        rest-effect: Ignore
+      dnd5e:
+        riders:
+          statuses: []
+    tint: '#ffffff'
+    name: Tactical Mind
+    description: ''
+    statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    img: modules/ak5e/icons/Skill-TheresaBlackCrownedSage.png
+    type: base
+    system: {}
+    sort: 0
+    _key: '!items.effects!XosGA1zMMTiPsqlC.waeG7ZDIB5myAbe6'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358871565
+  modifiedTime: 1783358871587
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: XosGA1zMMTiPsqlC
+sort: 375782
+_key: '!items!XosGA1zMMTiPsqlC'

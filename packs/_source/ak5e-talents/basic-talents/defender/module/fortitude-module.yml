@@ -1,0 +1,54 @@
+folder: zLS0Nt8r6PPuDuKr
+name: Fortitude (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Blemishine1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module: </strong>Creatures rolling to restore Hit Points to you
+      roll 2 additional dice instead.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: feature-2
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - fortitude
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357975767
+  modifiedTime: 1783357975784
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: zg20vOgATlw7vQpS
+sort: 175000
+_key: '!items!zg20vOgATlw7vQpS'

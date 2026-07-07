@@ -1,0 +1,55 @@
+folder: QfmU6v3RpFCsjWum
+name: Razor's edge (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Chongyue3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> While you are Dying, your Attacks deal
+      additional Weapon Damage equal to your Proficiency
+      Bonus.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: razors-edge-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - razors-edge
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358736535
+  modifiedTime: 1783358736556
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: i8oN7SvdClVD9Pr5
+sort: 275000
+_key: '!items!i8oN7SvdClVD9Pr5'

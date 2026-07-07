@@ -1,0 +1,55 @@
+folder: EjQr1CtCkHNEpvzS
+name: Unbalancer (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Beehunter1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> The reduction to the affected Creature’s Speed
+      is now equal to 10 feet, or half the distance they were moved, which ever
+      is greater.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: unbalancer
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - unbalancer
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357867169
+  modifiedTime: 1783357867187
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: 6MxkeZcgf0B9DROG
+sort: 150000
+_key: '!items!6MxkeZcgf0B9DROG'

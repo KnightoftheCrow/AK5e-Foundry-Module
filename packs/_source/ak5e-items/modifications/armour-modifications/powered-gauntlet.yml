@@ -1,0 +1,71 @@
+folder: q1MrBsepLJyJ9ezj
+name: Powered Gauntlet
+type: consumable
+_id: 0OiNOg6GwCWttAut
+img: modules/ak5e/icons/Skill-Magallan3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Item:</strong> Any Armour</p><p>The gauntlets of this armour
+      are fitted with power packs that allow them to deal a dangerous shock.
+      When the wearer hits with an Unarmed Strike, they may activate this
+      Modification (no Action required); that Attack deals an additional die of
+      Lightning Damage.</p>
+    chat: ''
+  identifier: powerer-gauntlet
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 262500
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.u06KVOKqY0IS3pR2
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407163
+  modifiedTime: 1783356407163
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!0OiNOg6GwCWttAut'

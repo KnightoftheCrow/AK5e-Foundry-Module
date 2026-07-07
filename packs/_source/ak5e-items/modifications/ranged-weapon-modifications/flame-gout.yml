@@ -1,0 +1,75 @@
+folder: wTkeoeJjxbPHcfdK
+name: Flame Gout
+type: consumable
+_id: EpggvMFPDW3jzblX
+img: modules/ak5e/icons/Skill-Magallan2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Item:</strong> Ranged Weapon with the Two-Handed
+      Property</p><p>This weapon is fitted with a flame-projector. The wielder
+      may activate this Modification as an Action to project a 15-foot cone of
+      fire in a direction of their choice. All Creatures within that area must
+      make a Dexterity Saving Throw against your Inventor DC; on a failed Save,
+      they take 1d8 Fire Damage and suffer the Burning Condition. On a
+      successful Save, they take half as much Damage, and suffer no other
+      effects.</p><p>At 7th Level, the Damage of this Modification is increased
+      to 2d8. At 14th Level, it is increased to 3d8.</p>
+    chat: ''
+  identifier: flame-gout
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 400000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.Ur2cYKomXsVpN8uK
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407163
+  modifiedTime: 1783356407163
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!EpggvMFPDW3jzblX'

@@ -1,0 +1,65 @@
+folder: HE4odYYzeg4WWg0p
+name: Scorpion Sting
+type: feat
+_id: 9Vs3ZSg9Ujjsg1Ze
+img: modules/ak5e/icons/Skill-Gladiia1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>As an Action while you have your Hook equipped, choose a Creature you
+      can see within range of your Hook. That Creature must succeed on a
+      Dexterity Saving Throw against your Martial DC. On a failed Save, you pull
+      that Creature directly towards you until they are within 5 feet of you if
+      they are no more than one size larger than you; if they are larger than
+      this, you pull yourself directly towards them until you are within 5 feet
+      of them. After this movement, you can make 6 Attacks with your Hook
+      against that Creature with Advantage. Each of these Attacks deals
+      additional Weapon Damage equal to half your Specialist Level.</p><p>If you
+      have a Creature that is either Grappled by you or you are hooked onto to,
+      you can use this Feature on that Creature, ignoring restrictions limiting
+      use of your Hook. If you do so, that Creature automatically fails their
+      Saving Throw against this Feature.</p><p>Once you have used this Feature,
+      you may not do so again until you have completed a Long
+      Rest.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: scorpion-sting
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 20
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!9Vs3ZSg9Ujjsg1Ze'

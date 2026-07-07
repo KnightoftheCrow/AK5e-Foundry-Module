@@ -1,0 +1,63 @@
+folder: GEE9J6di2smOxKgx
+name: Jink
+type: feat
+_id: AjvXcDYL7pR1yN9k
+img: modules/ak5e/icons/Skill-Tippi1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Your prowess as a Skyranger grows, and you can express it in new ways.
+      You gain the following benefits:</p><p><strong>Evasive
+      Manoeuvres.</strong> As a Reaction when you would be hit by an Attack
+      while wearing your Flight Suit, you can expend 1 Prowess to increase your
+      AC by an amount equal to your Proficiency Bonus until the beginning of
+      your next Turn, potentially turning that hit into a miss. Additionally, if
+      the triggering Attack still hits you, you only take half
+      Damage.</p><p><strong>Gaining Prowess as a Skyranger.</strong> You can now
+      gain Prowess in the following ways, once per Turn:</p><ul><li><p>While you
+      are Flying, a Creature on the ground that you have dealt Damage since the
+      beginning of your last Turn is reduced to 0 Hit Points.</p></li><li><p>A
+      Creature that is not touching the ground that you have dealt Damage since
+      the beginning of your last Turn is reduced to 0 Hit Points.</p></li></ul>
+    chat: ''
+  identifier: jink
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 300000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!AjvXcDYL7pR1yN9k'

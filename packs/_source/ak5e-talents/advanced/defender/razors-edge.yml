@@ -1,0 +1,58 @@
+folder: fGpFJo0gyinCoWeF
+name: Razor's edge
+type: feat
+img: modules/ak5e/icons/Skill-Chongyue3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>While you are Dying, the first Struggle Attack you make each Turn costs
+      1 less Mettle (to a minimum of 0). Additionally, the Mettle Cost of the
+      Stabilise Death’s Door Action is reduced by 1 for you for each time you
+      deal Damage while Dying. This reduction is lost when you are no longer
+      Dying. </p><p><strong>Module:</strong> While you are Dying, your Attacks
+      deal additional Weapon Damage equal to your Proficiency
+      Bonus.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: razors-edge
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358687898
+  modifiedTime: 1783358687918
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: BCh8JMFAoPij519Y
+sort: 375000
+_key: '!items!BCh8JMFAoPij519Y'

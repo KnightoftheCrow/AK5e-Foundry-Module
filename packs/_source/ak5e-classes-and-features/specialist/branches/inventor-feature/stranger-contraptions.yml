@@ -1,0 +1,78 @@
+folder: c1EQsN3JLDePX4rN
+name: Stranger Contraptions
+type: feat
+_id: C3IWnfjnl3XyacRZ
+img: modules/ak5e/icons/Skill-FrontTowardEnemy.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>The effect of your Strange Contraptions are improved.</p><p><strong>Not
+      Automated.</strong></p><p><strong>Stranger
+      Contraptions</strong></p><table><tbody><tr><td><p
+      style="text-align:center"><strong>Stranger
+      Contraption</strong></p></td><td><p
+      style="text-align:center"><strong>Effect</strong></p></td></tr><tr><td><p
+      style="text-align:center">12 Million Lumen
+      Flashlight</p></td><td><p>Creatures that succeed on the Saving Throw are
+      Dazed until the end of their next Turn.</p></td></tr><tr><td><p
+      style="text-align:center">Fun Toy</p></td><td><p>The Mobile Camera has the
+      Invisible Condition.</p></td></tr><tr><td><p
+      style="text-align:center">Musbeast Remover</p></td><td><p>Creatures that
+      fail the Saving Throw suffer the Bleeding
+      Condition.</p></td></tr><tr><td><p style="text-align:center">Needlefly
+      Fumigator</p></td><td><p>When you use this Strange Contraption, you may
+      choose any number of Creatures to be immune to its effects until the end
+      of their next Turn.</p></td></tr><tr><td><p
+      style="text-align:center">Over-tuned Speaker</p></td><td><p>You can now
+      control the volume of the sound produced, and may also pick a particular
+      direction to direct the sound.</p></td></tr><tr><td><p
+      style="text-align:center">Portable Firestarter</p></td><td><p>When a
+      Creature or Object takes Damage from the Burning Condition that was gained
+      through this Strange Contraption, the Fire Damage taken is increased by
+      your Intelligence Bonus.</p></td></tr><tr><td><p
+      style="text-align:center">Universal Keycard</p></td><td><p>No longer
+      leaves a trace.</p></td></tr><tr><td><p style="text-align:center">Unstable
+      Contraption</p></td><td><p>Damage increased to
+      8d8.</p></td></tr></tbody></table>
+    chat: ''
+  identifier: stranger-contraptions
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!C3IWnfjnl3XyacRZ'

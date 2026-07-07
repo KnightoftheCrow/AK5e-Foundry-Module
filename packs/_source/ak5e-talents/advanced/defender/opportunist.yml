@@ -1,0 +1,55 @@
+folder: fGpFJo0gyinCoWeF
+name: Opportunist
+type: feat
+img: modules/ak5e/icons/Skill-May2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Attacks you make against Creatures with reduced Speed deal additional
+      Damage equal to your Proficiency Bonus.</p><p><strong>Module:</strong> You
+      may also deal this additional Damage against Creatures that have any
+      detrimental Status Condition.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: opportunist
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358841873
+  modifiedTime: 1783358841893
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: LpJtZcD0NX86jEKa
+sort: 437500
+_key: '!items!LpJtZcD0NX86jEKa'

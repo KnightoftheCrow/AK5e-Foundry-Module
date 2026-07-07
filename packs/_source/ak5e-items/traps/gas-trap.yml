@@ -1,0 +1,76 @@
+folder: 2akLoYEVmJNdfiYv
+name: Gas Trap
+type: consumable
+_id: DX6dm78WRlbhsaGp
+img: modules/ak5e/icons/Skill-W2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Set Up:</strong> You set an Gas Trap in a 5-foot square on the
+      ground. When a Creature enters the area, the Trap is
+      triggered.</p><p><strong>On Trigger:</strong> A rush of toxic gas fills
+      the air in a 15-foot-radius sphere centred on the Trap for 1 minute; if a
+      Creature is in the sphere when it appears, or enters it for the first time
+      during a Turn, they must make a Constitution Saving Throw against your
+      Trap DC. On a failed Save, they take 2d8 Poison Damage and are Poisoned.
+      On a successful Save, they take half as much Damage and are not
+      Poisoned.</p><p>The Damage of this Trap is increased to 3d8 at 7th Level,
+      and 4d8 at 14th Level.</p>
+    chat: ''
+  identifier: gas-trap
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 300000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.mIssTy6jiJ1iqmeQ
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356408232
+  modifiedTime: 1783356408232
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!DX6dm78WRlbhsaGp'

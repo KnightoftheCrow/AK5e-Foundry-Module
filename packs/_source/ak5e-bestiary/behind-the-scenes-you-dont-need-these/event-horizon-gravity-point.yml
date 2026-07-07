@@ -970,7 +970,7 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!actors.effects!I6txsKXdeCAs6DA7.JIqzAAHGCbzBHYVm'
 folder: zhZ3oJrVXiDxSCHH
-sort: 700000
+sort: 1100000
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
@@ -981,10 +981,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1757783315496
-  modifiedTime: 1772982710241
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783356359284
+  lastModifiedBy: 27ikDz77N89hVLvM
 _key: '!actors!I6txsKXdeCAs6DA7'

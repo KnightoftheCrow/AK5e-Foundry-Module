@@ -1,0 +1,102 @@
+folder: QfmU6v3RpFCsjWum
+name: Part-Time Inventor (Module)
+type: feat
+img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> Your maximum number of Inventions becomes
+      2.</p>
+    chat: ''
+  identifier: part-time-inventor
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.cjPGozlLmepdrnwX
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects:
+  - name: Part-Time Inventor (Module)
+    img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
+    origin: Item.0LP7L7E759fW1ZFm
+    _id: JX2jU1CEK8woPShl
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.part-time-inventor.invent
+        mode: 5
+        value: '2'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!u7vHDPaTlTvIYURJ.JX2jU1CEK8woPShl'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358860128
+  modifiedTime: 1783358860147
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: u7vHDPaTlTvIYURJ
+sort: 100782
+_key: '!items!u7vHDPaTlTvIYURJ'

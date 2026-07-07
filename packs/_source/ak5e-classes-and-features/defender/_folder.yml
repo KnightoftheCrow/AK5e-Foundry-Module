@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Defender
+color: null
+sorting: a
+_id: 7buxNL26uPo990NE
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358916379
+  modifiedTime: 1783358938948
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!folders!7buxNL26uPo990NE'

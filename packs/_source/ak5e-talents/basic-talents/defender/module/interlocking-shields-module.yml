@@ -1,0 +1,53 @@
+folder: zLS0Nt8r6PPuDuKr
+name: Interlocking Shields (Module)
+type: feat
+img: modules/AK5e-Foundry-Module/icons/Skill-Bubble1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> The granted Damage Reduction is now against
+      all Damage.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: interlocking-shields-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358577038
+  modifiedTime: 1783358624292
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: RihFYhUSsRfLq22U
+sort: 100782
+_key: '!items!RihFYhUSsRfLq22U'

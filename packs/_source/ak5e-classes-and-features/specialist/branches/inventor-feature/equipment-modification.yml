@@ -1,0 +1,167 @@
+folder: c1EQsN3JLDePX4rN
+name: Equipment Modification
+type: feat
+_id: xVdTak2pkLZPKiZs
+img: modules/ak5e/icons/Skill-EmergencyRepairVehicle.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    6oyZNQ4sI0QGq3BS:
+      type: ItemGrant
+      title: Melee Weapon Modifications
+      _id: 6oyZNQ4sI0QGq3BS
+      configuration:
+        items:
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Fgl2bve541pEaNFu
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.TEPBYQKHnlSBDFCl
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.FS9F42Pl7WaOraDY
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.szR2qeU82sEBlkP1
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.xJO17EKo8BmzoN2n
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.rVydnuenbhaNj4p2
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.tTWAGjyrdvpMxube
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.KEYwl014u9NfL70S
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.PBgopcpIueKx6LIe
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.5cXsv2zsMXaMvMPn
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 0
+      hint: ''
+      icon: ''
+    mOWYySJofU2Yg1HA:
+      type: ItemGrant
+      title: Ranged Weapon Modifications
+      _id: mOWYySJofU2Yg1HA
+      configuration:
+        items:
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.nsdFWlxuYna0wOmx
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.K7D34vLLUlOYgT6p
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.lqw3MdiH36q4Zkd6
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.4rwtXi98E2PkIaAv
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.EpggvMFPDW3jzblX
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.qjvSwW8cpWOWHY26
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.FWuOIt3GTnYotHI0
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Gx59Tza6wUNH3YkK
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 0
+      hint: ''
+      icon: ''
+    hYVThQkeUJUqznK8:
+      type: ItemGrant
+      title: Armour Modifications
+      _id: hYVThQkeUJUqznK8
+      configuration:
+        items:
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.j1borMlzoNzqilHU
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.7kqRgeBuAib3o7qD
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Yk3YWVSAkmPALdro
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.QYSNx9lbahybhetr
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.RGTlgfAaICnXc0RQ
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.RSqGLuF0RiVoHZV2
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.0OiNOg6GwCWttAut
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.7rrs9HA00sVTALzx
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.OXSNB1XLc1och2Pv
+            optional: false
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.88e0OvZK092lGcmT
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 0
+      hint: ''
+      icon: ''
+  description:
+    value: >-
+      <p>You can modify non-magical weapons and armour with special
+      Modifications.</p><p><strong>Inventions.</strong> You have a number of
+      Inventions equal to twice your Proficiency Bonus that you expend to modify
+      equipment. Each Modification you apply consumes 1 Invention; this
+      Invention is refunded when that Modification is
+      removed.</p><p><strong>Modifying Equipment.</strong> Over the course of 10
+      minutes, you can modify or remove Modifications from a non-magical Weapon
+      or piece of Armour that you can work on for the duration. If you do so,
+      you may apply any number of valid Modifications, listed below, to that
+      equipment. A piece of equipment cannot have duplicate Modifications. If
+      you cannot maintain a modification for whatever reason, such as the
+      equipment being lost or stolen, the Modification is automatically removed
+      after a week.</p><p><strong>Activating Modifications.</strong> Each
+      Modification describes the Action cost to active that
+      Modification.</p><p><strong>Instability.</strong> Any piece of equipment
+      with Modifications on it has an Instability Value; this begins at 3, and
+      increases by 1 for each Modification after the first placed on it. When a
+      Creature activates a Modification, they roll a number of d6’s equal to
+      that equipment’s Instability; if any of those dice show the same result as
+      another die, that equipment suffers a breakdown; the wielder or wearer
+      loses 1d8 Hit Points, plus an additional 1d8 for every Instability above 3
+      that equipment has. This loss of Hit Points cannot reduce you below 1 Hit
+      Point.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: equipment-modification
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783443956866
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!xVdTak2pkLZPKiZs'

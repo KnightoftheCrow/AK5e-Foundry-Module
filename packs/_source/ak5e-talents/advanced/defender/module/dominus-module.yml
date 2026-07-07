@@ -1,0 +1,54 @@
+folder: QfmU6v3RpFCsjWum
+name: Dominus (Module)
+type: feat
+img: modules/ak5e/icons/Skill-CorruptingHeart3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> Your Attacks against Frightened Creatures deal
+      an additional die of Damage.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: dominus-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - dominus
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358725695
+  modifiedTime: 1783358725716
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: UwMq7dtfejJRrLAo
+sort: 150000
+_key: '!items!UwMq7dtfejJRrLAo'

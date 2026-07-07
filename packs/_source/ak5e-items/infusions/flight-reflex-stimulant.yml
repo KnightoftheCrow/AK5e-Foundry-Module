@@ -1,0 +1,70 @@
+folder: N0czhwLyeXNGiB65
+name: Flight Reflex Stimulant
+type: consumable
+_id: flj3O9sI7gHErFI1
+img: icons/consumables/potions/bottle-bulb-corked-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Leverage Condition:</strong> As a Reaction when the Creature
+      fails any Saving Throw</p><p>The Creature adds your Intelligence Bonus to
+      the result of that Saving Throw, possibly changing a failure into a
+      Success.</p>
+    chat: ''
+  identifier: flight-reflex-stimulant
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0.1
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: potion
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.xhPCs20ZjBstA6qQ
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356403849
+  modifiedTime: 1783356403849
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!flj3O9sI7gHErFI1'

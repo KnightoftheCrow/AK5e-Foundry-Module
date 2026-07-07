@@ -1,0 +1,63 @@
+folder: HMrANDaIT5F818Ua
+name: Pavise
+type: feat
+_id: FjRFgEdvu21zS4wV
+img: modules/ak5e/icons/Skill-SanktaMiksaparato2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Establish a forward position, attack, move, repeat. These are the
+      Sentries’s lessons.</p><ul><li><p><strong>Additional Weapon
+      Proficiencies.</strong> You gain Proficiency with Light Ranged Weapons and
+      Heavy Ranged Weapons.</p></li><li><p><strong>Plant Pavise.</strong> As a
+      Bonus Action while you have a Heavy Shield equipped, you can plant your
+      shield in the ground. Allied Creatures, including you, within 10 feet of
+      your planted shield gain the benefit of your Shelter Action, so long as
+      the attack originates from the opposite side of the shield from that
+      Creature’s perspective. Additionally, your planted shield functions as
+      Half Cover.</p></li></ul><p>You can recover your shield as an Interact
+      with Object while you are within 5 feet of it, and you can only have one
+      shield planted at a time. Other Creatures cannot move your planted
+      Shield.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: pavise
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!FjRFgEdvu21zS4wV'

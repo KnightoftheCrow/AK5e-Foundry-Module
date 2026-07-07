@@ -1,0 +1,80 @@
+folder: N0czhwLyeXNGiB65
+name: Bungarotoxin
+type: consumable
+_id: eYoXvaCdaZeLmTm8
+img: icons/consumables/potions/bottle-bulb-corked-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p>As an Action, you can apply this to a Weapon you are carrying, or
+      poison food/drink within 5ft of you. Each Weapon or other object can only
+      contain one Toxin at a time; applying a new Toxin overwrites the effect of
+      the old toxin.</p><p>When applied to a Weapon, the effect lasts for ten
+      minutes or until after you have hit a Creature with the affected weapon.
+      When you hit a Creature with that Weapon, that Creature must make a DC15
+      Constitution Saving Throw. On a failed Save, they take 2d10 Poison Damage
+      and are Paralyzed. On a succesful Save, they take 2d10 Poison Damage and
+      are not Paralyzed. A Creature Paralyzed in this way can reattempt this
+      Saving Throw at the end of each of their Turns, ending the effect on a
+      success.</p><p>If a Creature consumes food/drink that has been poisoned
+      using this, they must make a DC15 Constitution Saving Throw. On a failed
+      Save, they are Paralyzed and Unconscious for 24 hours. On a successful
+      Save, they are instead Paralyzed for 1 hour.</p>
+    chat: ''
+  identifier: bungarotoxin
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: potion
+    subtype: ''
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.vZiSd3lu7slAca4C
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356403849
+  modifiedTime: 1783356403849
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!eYoXvaCdaZeLmTm8'

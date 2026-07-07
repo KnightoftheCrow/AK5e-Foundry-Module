@@ -1,0 +1,18 @@
+type: Item
+folder: TbxVfimqCnt7GATt
+name: Elite
+color: null
+sorting: a
+_id: NPg6zerqcXHk2X5L
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  lastModifiedBy: null
+_key: '!folders!NPg6zerqcXHk2X5L'

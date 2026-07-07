@@ -1,0 +1,100 @@
+folder: fnNi4KXioyJ542O7
+name: Principle of Double Effect
+type: feat
+_id: 3MAet4t8rT9h299a
+img: modules/ak5e/icons/Skill-TheLodestar1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    f2MbGs487eHip78B:
+      type: ItemGrant
+      _id: f2MbGs487eHip78B
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-items.Item.ZMSianu09F1bIRpV
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-items.Item.xhPCs20ZjBstA6qQ
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-items.Item.tILnYiENSkthG98i
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-items.Item.LcpFD10Dexn04IV0
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-items.Item.8q28PSF0q5cUKROT
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-items.Item.SXRvvxFISPHaT5nu
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-items.Item.hP8jGI1IIMdSCtsz
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-items.Item.GhqdiDM9qRty9d3L
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 0
+      hint: ''
+      title: Infusions
+  description:
+    value: >-
+      <p>You are but a simple chemist, dispensing medication to those in need.
+      If it happens to have some side effects, are you really to blame? You gain
+      the following benefits:</p><p><strong>Additional Tool
+      Proficiencies.</strong> You are Proficient with the Pharmacology
+      Kit.</p><p><strong>Alchemical Infusions.</strong> As a Bonus Action, you
+      can apply one of your chemical Infusions to a willing Creature you can see
+      within 5 feet of you that is not a Construct or Undead for 1 minute.
+      Infusions available for you to apply are in the Infusions table below. A
+      Creature can only have one Infusion applied to them at a time; applying a
+      second Infusion removes the effect of any other Infusions on that
+      Creature. You may use this Feature a number of times equal to twice your
+      Proficiency Bonus, and recover all expended uses when you complete a Long
+      Rest.</p><p>To gain a benefit from an Infusion, that Creature must
+      Leverage it. Each Infusion describes the scenarios under which it can be
+      Leveraged. When a Creature chooses to Leverage an Infusion that has been
+      applied to it by you, it must immediately make a Constitution Saving Throw
+      against your Infuser DC. On a successful Save, they gain the benefit of
+      that Infusion; on a failed Save, they gain the benefit of that Infusion,
+      but they are additionally Dazed until the beginning of their next Turn,
+      and cannot Leverage any Infusions while they have this Condition. An
+      Infusion is not consumed when it is Leveraged.</p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: principle-of-double-effect
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!3MAet4t8rT9h299a'

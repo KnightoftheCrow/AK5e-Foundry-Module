@@ -1,0 +1,108 @@
+folder: fxf6t1P5taaOdbmA
+name: Unarmoured Agility
+type: feat
+img: modules/ak5e/icons/Skill-LuoXiaohei1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>While you are wearing no Armour, your Speed increases by
+      20ft.</p><p><strong>Module:</strong> While you are wearing no Armour, you
+      have a Bonus to your Dexterity Saving Throws equal to your Proficiency
+      Bonus.</p><p><strong>Partially Automated:</strong> Can't afford check
+      Armour equipment.</p>
+    chat: ''
+  identifier: unarmoured-agility
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects:
+  - name: Unarmoured Agility
+    img: modules/ak5e/icons/Skill-LuoXiaohei1.webp
+    origin: Item.8mA1aQInIam75k8e
+    _id: Qodm6gXLqBYHEGYC
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.all
+        mode: 0
+        value: '+20'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: true
+        dontApply: false
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!emy0ih6UO3uynDT5.Qodm6gXLqBYHEGYC'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357199804
+  modifiedTime: 1783357199824
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: emy0ih6UO3uynDT5
+sort: 262500
+_key: '!items!emy0ih6UO3uynDT5'

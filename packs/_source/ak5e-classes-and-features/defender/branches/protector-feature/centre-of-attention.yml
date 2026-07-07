@@ -1,0 +1,57 @@
+folder: u2z4V5QELoqU2yub
+name: Centre of Attention
+type: feat
+_id: GrmIEYm54SBwtfxU
+img: modules/ak5e/icons/Skill-Proviso1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>As an Action, or as a Bonus Action if you expend 2 Resilience,
+      Creatures of your choice within 10 feet of you must succeed on a Wisdom
+      Saving Throw against your Protector DC, or be Taunted by you until the end
+      of their next Turn. A Taunted Creature must Attack you during its Turn, if
+      it is able to.</p><p>You can use this Feature a number of times equal to
+      your Constitution Modifier, and regain all expended uses upon finishing a
+      Long Rest.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: centre-of-attention
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!GrmIEYm54SBwtfxU'

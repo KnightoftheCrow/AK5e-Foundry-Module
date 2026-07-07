@@ -1,0 +1,77 @@
+folder: 3tM4rLFY5kbxFxJH
+name: Munition Options
+type: feat
+_id: TwNjNQ0FWgnrf9Kh
+img: modules/ak5e/icons/Skill-Meteorite1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Concussive Munition</strong></p><p><strong>Damage:</strong>
+      Thunder Damage equal to one roll of your Munitions
+      Dice.</p><p><strong>Additional Effect:</strong> Until the end of their
+      next Turn, affected Creatures’ Speed is halved, and they have the Dazed
+      Condition.</p><p></p><p><strong>Corrosive
+      Munition</strong></p><p><strong>Damage:</strong> Acid Damage equal to one
+      rolls of your Munitions Dice.</p><p><strong>Additional Effect:</strong>
+      Affected Creatures gain the Corroded Condition until they use an Action
+      during their Turn to remove it.</p><p></p><p><strong>Flare
+      Munition</strong></p><p><strong>Damage:</strong> Fire Damage equal to one
+      roll of your Munitions Dice.</p><p><strong>Additional Effect:</strong>
+      Until the end of your next Turn, affected Creatures cannot benefit from
+      the Invisible Condition, and Attack Rolls against those Creatures are made
+      at Advantage.</p><p></p><p><strong>Explosive
+      Munition</strong></p><p><strong>Damage:</strong> Acid, Fire, or Thunder
+      Damage (your Choice) equal to two rolls of your Munitions
+      Dice.</p><p><strong>Additional Effect:</strong>
+      None.</p><p></p><p><strong>Incendiary
+      Munition</strong></p><p><strong>Damage:</strong> Fire Damage equal to one
+      roll of your Munitions Dice.</p><p><strong>Additional Effect:</strong>
+      Affected Creatures gain the Burning
+      Condition.</p><p></p><p><strong>Shrapnel
+      Munition</strong></p><p><strong>Damage:</strong> Slashing Damage equal to
+      one roll of your Munitions Dice.</p><p><strong>Additional Effect:</strong>
+      Affected Creatures gain the Bleeding Condition.</p><p></p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: munition-options
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!TwNjNQ0FWgnrf9Kh'

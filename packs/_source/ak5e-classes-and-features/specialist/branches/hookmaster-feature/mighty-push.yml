@@ -1,0 +1,60 @@
+folder: HE4odYYzeg4WWg0p
+name: Mighty Push
+type: feat
+_id: XcnDctI6EbDeJeBY
+img: modules/ak5e/icons/Skill-Weedy2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>As an Action, choose a Creature you can see within 5 feet; that
+      Creature must make a Strength Saving Throw against your Martial DC. On a
+      failed Save, they take 8d6 Bludgeoning Damage, and are knocked back 20
+      feet. On a successful Save, they take half as much Damage and are pushed
+      back only half as much. If they collide with a wall or other solid surface
+      as part of this movement, they take Damage as if they had fallen that
+      distance. If they collide with another Creature, they both take Damage as
+      if they had fallen that distance.</p><p>You can use this Feature a number
+      of times equal to your Proficiency Bonus, and regain all expended uses
+      when you complete a Long Rest.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: mighty-push
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 11
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!XcnDctI6EbDeJeBY'

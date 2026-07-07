@@ -1,0 +1,54 @@
+folder: QfmU6v3RpFCsjWum
+name: Charging up (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Coldshot2.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> The maximum bonus is now +5.</p><p><strong>Not
+      automated.</strong></p>
+    chat: ''
+  identifier: charging-up-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - charging-up
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358675083
+  modifiedTime: 1783358675108
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: PIsp4Fz2v4630lGe
+sort: 100000
+_key: '!items!PIsp4Fz2v4630lGe'

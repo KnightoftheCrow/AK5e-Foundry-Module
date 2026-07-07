@@ -1,0 +1,55 @@
+folder: fGpFJo0gyinCoWeF
+name: Feedback armor
+type: feat
+img: modules/ak5e/icons/Skill-Aurora1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When a Creature hits you with a Melee Attack while you are wearing
+      Armour, you can use your Reaction to force them to take 2d4 Lightning
+      Damage.</p><p><strong>Module:</strong> The Lightning Damage is increased
+      to 4d4.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: feedback-armor
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358678960
+  modifiedTime: 1783358678977
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: b2Fm3jKVqlNjjjo0
+sort: 300000
+_key: '!items!b2Fm3jKVqlNjjjo0'

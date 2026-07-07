@@ -1,0 +1,102 @@
+folder: QfmU6v3RpFCsjWum
+name: Jumpstart (Module)
+type: feat
+img: modules/ak5e/icons/Skill-ReconSelfDriverLaunchpoint.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> The Start SP of your Operator Skills is
+      increased by 10 instead.</p>
+    chat: ''
+  identifier: jumpstart
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.rAcx8Q8Yghko9tSi
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects:
+  - name: Jumpstart (Module)
+    img: modules/ak5e/icons/Skill-ReconSelfDriverLaunchpoint.webp
+    origin: Item.Esq3Ee3Lt0ea7p67
+    _id: h5qsQcWkEfusKdGw
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 2
+        value: '5'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!1qtz7GHkMYyPgMOn.h5qsQcWkEfusKdGw'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358811433
+  modifiedTime: 1783358811451
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: 1qtz7GHkMYyPgMOn
+sort: 112500
+_key: '!items!1qtz7GHkMYyPgMOn'

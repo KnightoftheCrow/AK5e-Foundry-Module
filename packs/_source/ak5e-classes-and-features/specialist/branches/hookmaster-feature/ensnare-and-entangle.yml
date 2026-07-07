@@ -1,0 +1,86 @@
+folder: HE4odYYzeg4WWg0p
+name: Ensnare and Entangle
+type: feat
+_id: ndriZYFnzBM4Em8D
+img: modules/ak5e/icons/Skill-Rope1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Your prowess with your Hook is such that no beast great or small can
+      escape its entangling grasp. You gain the following
+      benefits:</p><p><strong>Bound in Rope.</strong> As an Action while you
+      have your Hook equipped, you can expend 1 Prowess to choose a Creature no
+      more than one size larger than you that you can see within range of your
+      Hook; that Creature must succeed on a Dexterity Saving Throw against your
+      Martial DC or become Grappled by you. A Creature Grappled in this way can
+      use their Action to reattempt the Saving Throw, ending the effect on a
+      success. The Condition also ends if you are further away than the range of
+      your Hook, or if you end it during your Turn (no Action
+      required).</p><p>While you have a Creature Grappled in this way, you can
+      use your Bonus Action to drag them up to 15 feet towards you. While they
+      are within 5 feet of you, you can hogtie that Creature as an Action; this
+      has the same effect as applying Manacles to that Creature. While you have
+      a Creature Grappled in this way, you cannot use that Hook to make Attacks,
+      or to use your Features.</p><p><strong>Wrangler.</strong> As an Action
+      while you have your Hook equipped, you can expend 1 Prowess to choose a
+      Creature that is more than one size larger than you. That Creature must
+      succeed on a Dexterity Saving Throw against your Martial DC, or your Hook
+      latches onto them. When this occurs, you may immediately move to that
+      Creature’s space; for the duration, you may occupy the same space as that
+      Creature. When the Creature you are hooked onto moves, you move along with
+      them without consuming your own movement.</p><p>While you are hooked onto
+      that Creature, your Attacks against only that Creature are made at
+      Advantage. Additionally, you can take a -5 to the Attack Roll for an
+      Attack against only that Creature to cause that Attack to ignore any
+      Damage Reduction that Creature has.</p><p>At the end of their Turn, a
+      Creature you are hooked to may reattempt the Saving Throw, shaking you off
+      on a successful Save, ending this effect, and possibly causing you to take
+      Damage from falling. Additionally, you may end the effect during your Turn
+      (no Action required).</p><p><strong>Gaining Prowess as a
+      Hookmaster.</strong> As a Hookmaster, you gain 1 Prowess whenever you
+      cause a Creature to take Damage from the environment, such as a result of
+      falling or standing in a burning area. Additionally, you gain 1 Prowess at
+      the end of a Turn you have moved more than 45 feet with a Flying
+      Speed.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: ensnare-and-entangle
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!ndriZYFnzBM4Em8D'

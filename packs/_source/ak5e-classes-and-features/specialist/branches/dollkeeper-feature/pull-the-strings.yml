@@ -1,0 +1,59 @@
+folder: Vd5i80HITKyteFYa
+name: Pull the Strings
+type: feat
+_id: 2FhIk7b7h7SVaVhO
+img: modules/ak5e/icons/Skill-TheUnchained1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You gain the following benefits:</p><p><strong>Doll’s Dance.</strong>
+      When you use an Operator Skill with Instant Duration, you may use it as if
+      in your Doll’s space.</p><p><strong>Look in the Mirror.</strong> Your Doll
+      gains the benefit of your Weapon Specialisation, Weapon Adept, Weapon
+      Expertise, and Weapon Mastery Features.</p><p><strong>Marionette.</strong>
+      When you would be reduced to 0 Hit Points, you can choose to swap places
+      with your Doll if it is within 100 feet of you; if you do, your Doll takes
+      the Damage you would have taken in your place. Once you have used this
+      Feature, you may not do so again until you have completed a Long Rest.</p>
+    chat: ''
+  identifier: pull-the-strings
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!2FhIk7b7h7SVaVhO'

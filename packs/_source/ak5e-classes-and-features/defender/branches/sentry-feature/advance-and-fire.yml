@@ -1,0 +1,55 @@
+folder: HMrANDaIT5F818Ua
+name: Advance and Fire
+type: feat
+_id: OWtLk5o7xPczuv6T
+img: modules/ak5e/icons/Skill-TheLiberated2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When a Creature makes an Attack against you, or a Creature benefitting
+      from your Shelter Action, you can make a Ranged Weapon Attack against the
+      Attacking Creature as a Reaction. After making this Attack, you can expend
+      1 Resilience to refund use of your Reaction.</p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: advance-and-fire
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!OWtLk5o7xPczuv6T'

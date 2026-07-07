@@ -1,0 +1,73 @@
+folder: iC9FYNlLTOR8baLK
+name: Returner
+type: consumable
+_id: rVydnuenbhaNj4p2
+img: modules/ak5e/icons/Skill-Magallan1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Item:</strong> Melee Weapon</p><p>This weapon is attached to
+      its wielder by string or wire. When the wielder takes the Attack Action,
+      they may activate this Modification (no Action required); until the end of
+      the Turn, that Weapon has the Returning Property. Alternatively, if they
+      are disarmed of or drop the Weapon, they can use a Bonus Action to return
+      it to their hand as long as they are within a distance equal to its normal
+      range.</p>
+    chat: ''
+  identifier: returner
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 37500
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.O4v9JYSqjXE0FiAM
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407163
+  modifiedTime: 1783356407163
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!rVydnuenbhaNj4p2'

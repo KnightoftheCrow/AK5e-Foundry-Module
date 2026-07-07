@@ -1,0 +1,230 @@
+folder: R2AhxUbx0IYKQ6JZ
+name: Earthen Might
+type: feat
+img: modules/ak5e/icons/Skill-SanktaMiksaparato3.webp
+system:
+  activities:
+    15QNcMYYG2jD5QMk:
+      type: utility
+      name: Earthen Might
+      _id: 15QNcMYYG2jD5QMk
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '30'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '5'
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        triggeredActivityConsume: true
+        triggeredActivityConfigure: true
+        autoConsume: true
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        rollAs: target
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <ul><li><p><strong>Name</strong>: Earthen Might.</p></li><li><p><strong>SP
+      Cost:</strong> 30.</p></li><li><p><strong>Start SP:</strong>
+      20.</p></li><li><p><strong>Charging:</strong>
+      Automatic.</p></li><li><p><strong>Activation Cost:</strong> Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> When you activate this
+      Skill, and at the beginning of each of your Turns while this Operator
+      Skill is Active, you gain 1 Earthen Might. Each Earthen Might you have
+      grants you 2 Damage Resistance against all Damage. As a Bonus Action
+      during your Turn, you may consume all of your Earthen Might to add +2
+      Damage to Damage Rolls you make for Melee Attacks for each Earthen Might
+      consumed until the end of that Turn. At the end of a Turn you have done
+      so, the Skill ends. When the Skill Ends, you lose all Earthen
+      Might.</p></li><li><p><strong>Duration:</strong> 5
+      rounds.</p></li></ul><p><strong>Not Automated: </strong>Use for tracking
+      purpose.</p>
+    chat: ''
+  identifier: earthen-might
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 7
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Earthen Might
+    img: modules/ak5e/icons/Skill-SanktaMiksaparato3.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.H6B1xH1hXAZddPdP
+    type: base
+    _id: aiWxdObCgDxjwj7h
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 2
+        value: '20'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 2
+        value: '30'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+      automated-conditions-5e:
+        ac5eChangeRows: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!8lkWZOFizuLsRhxg.aiWxdObCgDxjwj7h'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356558656
+  modifiedTime: 1783356558673
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: 8lkWZOFizuLsRhxg
+sort: 225000
+_key: '!items!8lkWZOFizuLsRhxg'

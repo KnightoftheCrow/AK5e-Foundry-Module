@@ -1,0 +1,57 @@
+folder: GEE9J6di2smOxKgx
+name: Afterburners
+type: feat
+_id: aBC6R1IbOsCPzXeP
+img: modules/ak5e/icons/Skill-Contrail2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When you use your Evasive Manoeuvrers Feature, you can move up to your
+      Speed as part of that Reaction. Additionally, once per Turn while you have
+      increased Armour Class as a result of your Evasive Manoeuvrers Feature,
+      when you move within 10 feet of a Creature you can force that Creature to
+      succeed on a Dexterity Saving Throw against your Martial DC or take Fire
+      Damage equal to your Strafe Damage.</p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: afterburners
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!aBC6R1IbOsCPzXeP'

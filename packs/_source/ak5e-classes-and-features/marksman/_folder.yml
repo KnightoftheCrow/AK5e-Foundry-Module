@@ -5,7 +5,7 @@ color: null
 sorting: a
 _id: iC3JKDqYvfc25vaP
 description: ''
-sort: 100000
+sort: 300000
 flags: {}
 _stats:
   compendiumSource: null
@@ -15,6 +15,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1767591318058
-  modifiedTime: 1768003058514
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783358938948
+  lastModifiedBy: 27ikDz77N89hVLvM
 _key: '!folders!iC3JKDqYvfc25vaP'

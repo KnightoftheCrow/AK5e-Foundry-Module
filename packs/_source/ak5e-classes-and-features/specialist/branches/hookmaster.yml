@@ -1,0 +1,142 @@
+folder: QJjGENx3ERG6JUY7
+name: Hookmaster
+type: subclass
+_id: 1QH6qNrwIOoqK414
+img: modules/AK5e-Foundry-Module/icons/Hookmaster_Specialist.webp
+system:
+  advancement:
+    vdL5YtYA2pmPr56s:
+      type: ItemGrant
+      _id: vdL5YtYA2pmPr56s
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.S0pS7Hw35cN2y3uQ
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 1
+      hint: ''
+      title: ''
+      icon: ''
+    dgAX4uDqWADXglmc:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.ZjyLN5RKolF5Bn8o
+            optional: false
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.ndriZYFnzBM4Em8D
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 5
+      hint: ''
+      _id: dgAX4uDqWADXglmc
+      title: ''
+      icon: ''
+    8LUyoV4CCLpjReXK:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.XcnDctI6EbDeJeBY
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 11
+      hint: ''
+      _id: 8LUyoV4CCLpjReXK
+      title: ''
+      icon: ''
+    ucRON2fHC09rm4x0:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.YjbOAGTipuxy4U2G
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 15
+      hint: ''
+      _id: ucRON2fHC09rm4x0
+      title: ''
+      icon: ''
+    GMkSxk4FCMTeC3Jw:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.9Vs3ZSg9Ujjsg1Ze
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 20
+      hint: ''
+      _id: GMkSxk4FCMTeC3Jw
+      title: ''
+      icon: ''
+  description:
+    value: >-
+      <p>It is not a requirement for Specialists to be somewhat unhinged, but it
+      does help. The battle style of a Hookmaster, complete with weapon too
+      complex for even experienced warriors to make sense of, and combined with
+      their death-defying feats of derring-do, certainly does not help that
+      impression.</p><p>You get next Branch features:</p><table><tbody><tr><td
+      data-colwidth="50"><p>Level</p></td><td><p>Branch
+      Feature</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.S0pS7Hw35cN2y3uQ]{Hooked}</p></td></tr><tr><td
+      data-colwidth="50"><p
+      style="text-align:center">5</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.ZjyLN5RKolF5Bn8o]{Covering
+      Ground, Covering Options}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">5</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.ndriZYFnzBM4Em8D]{Ensnare
+      and Entangle}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">11</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.XcnDctI6EbDeJeBY]{Mighty
+      Push}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.YjbOAGTipuxy4U2G]{Spider’s
+      Essence}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">20</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.9Vs3ZSg9Ujjsg1Ze]{Scorpion
+      Sting}</p></td></tr></tbody></table>
+    chat: ''
+  identifier: hookmaster
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: specialist
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783443524806
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!1QH6qNrwIOoqK414'

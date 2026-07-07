@@ -1,0 +1,76 @@
+folder: 2akLoYEVmJNdfiYv
+name: Snare Trap
+type: consumable
+_id: Rd6GagUbXg0mCQ1i
+img: modules/ak5e/icons/Skill-W2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Set Up:</strong> You set a Snare Trap in a line up to 10 foot
+      long and 1 foot wide. When a Creature enters the area, they trigger the
+      Trap.</p><p><strong>On Trigger:</strong> A coiling rope or similar object
+      attempts to tie the Creature up. The triggering Creature must succeed on a
+      Dexterity Saving Throw against your Trap DC or become Restrained by it. As
+      an Action during their Turn, they can make a Athletics or Acrobatics Check
+      against your Trap DC to end the Condition. Alternatively, a different
+      Creature within 5 feet of them can free them by cutting them free with a
+      bladed weapon, or succeeding on a Sleight of Hand Check against your Trap
+      DC as an Action.</p>
+    chat: ''
+  identifier: snare-trap
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 500000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.DevlIig02o1ZVUAP
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356408232
+  modifiedTime: 1783356408232
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!Rd6GagUbXg0mCQ1i'

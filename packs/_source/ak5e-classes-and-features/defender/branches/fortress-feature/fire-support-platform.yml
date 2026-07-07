@@ -1,0 +1,66 @@
+folder: 3tM4rLFY5kbxFxJH
+name: Fire Support Platform
+type: feat
+_id: olJwK0hx9HzII6UF
+img: modules/ak5e/icons/Skill-Horn3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You are an anchor around which the team is based, laying down
+      supporting fire from a secure position.</p><ul><li><p><strong>Additional
+      Weapon Proficiencies.</strong> You gain Proficiency with the Grenade
+      Launcher and Rocket Launcher.</p></li><li><p><strong>Entrench.</strong> At
+      the beginning of your Turn, you can declare that you will Entrench at your
+      current position until the beginning of your next Turn. While you are
+      Entrenched, your speed becomes 0 and cannot be increased, but you gain the
+      following benefits:</p></li><li><p><strong>Barrage.</strong> When you take
+      the Attack Action, you can ignore the Two-Handed and Brace Qualities for
+      Grenade Launchers and Rocket Launchers for the duration of that
+      Action.</p></li><li><p><strong>Danger Close.</strong> Whenever you force
+      other Creatures to make a Saving Throw, you can choose a number of those
+      Creatures equal to your Proficiency Bonus; those Creatures automatically
+      pass the Saving Throw, and they take no Damage if they would normally take
+      half Damage on a successful Save.</p></li></ul><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: fire-support-platform
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!olJwK0hx9HzII6UF'

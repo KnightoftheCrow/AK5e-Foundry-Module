@@ -1008,12 +1008,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768664417028
-  modifiedTime: 1772982710241
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783356359284
+  lastModifiedBy: 27ikDz77N89hVLvM
 _id: oqgc55sHBP7zqsPh
-sort: 300000
+sort: 700000
 _key: '!actors!oqgc55sHBP7zqsPh'

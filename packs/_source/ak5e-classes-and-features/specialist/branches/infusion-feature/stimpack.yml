@@ -1,0 +1,58 @@
+folder: fnNi4KXioyJ542O7
+name: Stimpack
+type: feat
+_id: CrFAM7UBMU4XE97e
+img: modules/ak5e/icons/Skill-UmbralDoor.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You gain the following benefits:</p><p><strong>Delivery
+      Service.</strong> The range at which you can apply Infusions is increased
+      to 30 feet.</p><p><strong>Questionable Rejuvenation.</strong> When you
+      apply an Infusion to a Creature, and when a Creature succeeds on a Saving
+      Throw against one of your Infusions, that Creature gains 1d10 Temporary
+      Hit Points; if that Infusion is Procoagulant, these Temporary Hit Points
+      are instead added to the Temporary Hit Points granted by that
+      Infusion.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: stimpack
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 11
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!CrFAM7UBMU4XE97e'

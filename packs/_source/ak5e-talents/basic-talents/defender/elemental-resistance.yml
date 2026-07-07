@@ -1,0 +1,693 @@
+folder: TL00PBquhzkf6sDn
+name: Elemental Resistance
+type: feat
+img: modules/ak5e/icons/Skill-Bubble1.webp
+system:
+  activities:
+    AE4UyBZfHOLZGHU5:
+      type: utility
+      _id: AE4UyBZfHOLZGHU5
+      img: ''
+      sort: 0
+      activation:
+        type: special
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: perm
+        concentration: false
+        override: false
+      effects:
+        - _id: VMbHdTTzQV5Q2RBj
+          level:
+            min: null
+            max: null
+        - _id: AMOjosB156xsVFXB
+          level:
+            min: null
+            max: null
+        - _id: gmRNioPgVuf4oGWc
+          level:
+            min: null
+            max: null
+        - _id: XBJBefESYYjFbfBg
+          level:
+            min: null
+            max: null
+        - _id: jPQfqdHTRtv9w7UP
+          level:
+            min: null
+            max: null
+        - _id: axCFztpAKHNljmOV
+          level:
+            min: null
+            max: null
+        - _id: 2JuOBMZqepmpkTva
+          level:
+            min: null
+            max: null
+        - _id: VTPVROVusoC7zBtb
+          level:
+            min: null
+            max: null
+        - _id: xuAwDyR1SeAnm5dz
+          level: {}
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: self
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        triggeredActivityConsume: true
+        triggeredActivityConfigure: true
+        autoConsume: false
+        forceConsumeDialog: never
+        forceRollDialog: never
+        forceDamageDialog: never
+        confirmTargets: never
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: true
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        rollAs: target
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+      name: Choose Damage Type (Once only)
+  uses:
+    spent: 0
+    recovery: []
+    max: '1'
+  advancement: {}
+  description:
+    value: >-
+      <p>Choose an Arts Damage Type; you become Resistant to that Damage
+      Type.</p><p><strong>Module:</strong> You may choose a second Arts Damage
+      Type to become Resistant to.</p><p><strong>Automated. </strong>Use the
+      Activity on this item to choose your Damage Type in the chat; you can only
+      do this once.</p>
+    chat: ''
+  identifier: elemental-resistance
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: Elemental Resistance (Acid)
+    img: modules/ak5e/icons/Skill-Bubble1.webp
+    origin: Item.S3fMQRdThN28lImm
+    type: base
+    _id: VMbHdTTzQV5Q2RBj
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: acid
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: modifier=r1; damageTypes.acid
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: false
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+        enableCondition: ''
+        selfTarget: false
+        selfTargetAlways: false
+        dontApply: false
+      core:
+        overlay: false
+      automated-conditions-5e:
+        ac5eChangeRows: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!kYCAit31digRO6g5.VMbHdTTzQV5Q2RBj'
+  - name: Elemental Resistance (Cold)
+    img: modules/ak5e/icons/Skill-Bubble1.webp
+    origin: Item.S3fMQRdThN28lImm
+    type: base
+    _id: AMOjosB156xsVFXB
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: cold
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: damageTypes.cold
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+      automated-conditions-5e:
+        ac5eChangeRows: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!kYCAit31digRO6g5.AMOjosB156xsVFXB'
+  - name: Elemental Resistance (Fire)
+    img: modules/ak5e/icons/Skill-Bubble1.webp
+    origin: Item.S3fMQRdThN28lImm
+    type: base
+    _id: gmRNioPgVuf4oGWc
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: fire
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: damageTypes.fire
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+      automated-conditions-5e:
+        ac5eChangeRows: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!kYCAit31digRO6g5.gmRNioPgVuf4oGWc'
+  - name: Elemental Resistance (Force)
+    img: modules/ak5e/icons/Skill-Bubble1.webp
+    origin: Item.S3fMQRdThN28lImm
+    type: base
+    _id: XBJBefESYYjFbfBg
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: force
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: damageTypes.force
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+      automated-conditions-5e:
+        ac5eChangeRows: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!kYCAit31digRO6g5.XBJBefESYYjFbfBg'
+  - name: Elemental Resistance (Lightning)
+    img: modules/ak5e/icons/Skill-Bubble1.webp
+    origin: Item.S3fMQRdThN28lImm
+    type: base
+    _id: jPQfqdHTRtv9w7UP
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: lightning
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: damageTypes.lightning
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+      automated-conditions-5e:
+        ac5eChangeRows: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!kYCAit31digRO6g5.jPQfqdHTRtv9w7UP'
+  - name: Elemental Resistance (Necrotic)
+    img: modules/ak5e/icons/Skill-Bubble1.webp
+    origin: Item.S3fMQRdThN28lImm
+    type: base
+    _id: axCFztpAKHNljmOV
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: lightning
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: damageTypes.necrotic
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+      automated-conditions-5e:
+        ac5eChangeRows: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!kYCAit31digRO6g5.axCFztpAKHNljmOV'
+  - name: Elemental Resistance (Poison)
+    img: modules/ak5e/icons/Skill-Bubble1.webp
+    origin: Item.S3fMQRdThN28lImm
+    type: base
+    _id: 2JuOBMZqepmpkTva
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: poison
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 2
+        value: damageTypes.poison
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+      automated-conditions-5e:
+        ac5eChangeRows: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!kYCAit31digRO6g5.2JuOBMZqepmpkTva'
+  - name: Elemental Resistance (Psychic)
+    img: modules/ak5e/icons/Skill-Bubble1.webp
+    origin: Item.S3fMQRdThN28lImm
+    type: base
+    _id: VTPVROVusoC7zBtb
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: psychic
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: damageTypes.psychic
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+      automated-conditions-5e:
+        ac5eChangeRows: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!kYCAit31digRO6g5.VTPVROVusoC7zBtb'
+  - name: Elemental Resistance (Radiant)
+    img: modules/ak5e/icons/Skill-Bubble1.webp
+    origin: Item.S3fMQRdThN28lImm
+    type: base
+    _id: xuAwDyR1SeAnm5dz
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: radiant
+        priority: 20
+      - key: flags.automated-conditions-5e.damage.modifier
+        mode: 0
+        value: damageTypes.radiant
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+      automated-conditions-5e:
+        ac5eChangeRows: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!kYCAit31digRO6g5.xuAwDyR1SeAnm5dz'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357952370
+  modifiedTime: 1783357952392
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: kYCAit31digRO6g5
+sort: 125000
+_key: '!items!kYCAit31digRO6g5'

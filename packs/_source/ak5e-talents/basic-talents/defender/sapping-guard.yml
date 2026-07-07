@@ -1,0 +1,62 @@
+folder: TL00PBquhzkf6sDn
+name: Sapping Guard
+type: feat
+img: modules/ak5e/icons/Skill-Asbestos1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When a Creature hits you with a Melee Attack, you can force them (no
+      Action required) to pass a Constitution Saving Throw against your Martial
+      DC or be Dazed until the end of their next Turn. Once you have used this
+      Feature, you may not do so again until you have completed a Short
+      Rest.</p><p><strong>Module:</strong> You can now use this Feature a number
+      of times equal to your Proficiency Bonus, and regain all expended uses
+      when you complete a Long Rest.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: sapping-guard
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358001349
+  modifiedTime: 1783358001368
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: T5Wo2r429drywoal
+sort: 400000
+_key: '!items!T5Wo2r429drywoal'

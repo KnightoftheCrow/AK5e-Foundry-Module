@@ -1,0 +1,144 @@
+folder: QJjGENx3ERG6JUY7
+name: Dollkeeper
+type: subclass
+_id: E01hckVrctIOMrDo
+img: modules/AK5e-Foundry-Module/icons/Dollkeeper_Specialist.webp
+system:
+  advancement:
+    hVxoOErgotXeAy9I:
+      type: ItemGrant
+      _id: hVxoOErgotXeAy9I
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.9bzTmqRBaNyKJfsS
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 1
+      hint: ''
+      title: ''
+      icon: ''
+    gtOrSwZfVROpetXz:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.2FhIk7b7h7SVaVhO
+            optional: false
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.zkHfp73xP3ugr8S5
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 5
+      hint: ''
+      _id: gtOrSwZfVROpetXz
+      title: ''
+      icon: ''
+    rtR2dS7Hj3aisstu:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.U3OFS444dkZA0Zmk
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 11
+      hint: ''
+      _id: rtR2dS7Hj3aisstu
+      title: ''
+      icon: ''
+    K0htHnNBXJhvMWJd:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Vk5508AsRvhUF7Fl
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 15
+      hint: ''
+      _id: K0htHnNBXJhvMWJd
+      title: ''
+      icon: ''
+    tDYxsRMPFYvLHsWl:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.5o2JTKqYpSAqX9oO
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 20
+      hint: ''
+      _id: tDYxsRMPFYvLHsWl
+      title: ''
+      icon: ''
+  description:
+    value: >-
+      <p>Dollkeepers are an eccentric bunch, even amongst the already eccentric
+      Specialists. Whether their Doll is a complex mechanical construct, an
+      inanimate structure animated by Arts, or something even more poorly
+      understood, they have a reputation for being somewhat strange, even
+      disconcerting. Where a Dollkeeper is required however, almost no-one can
+      fill their place.</p><p>You get next Branch
+      features:</p><table><tbody><tr><td
+      data-colwidth="50"><p>Level</p></td><td><p>Branch
+      Feature</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.9bzTmqRBaNyKJfsS]{Living
+      Doll}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">5</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.2FhIk7b7h7SVaVhO]{Pull
+      the
+      Strings}</p><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.zkHfp73xP3ugr8S5]{Musical
+      Chairs}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">11</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.U3OFS444dkZA0Zmk]{Masquerade}</p></td></tr><tr><td
+      data-colwidth="50"><p
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.Vk5508AsRvhUF7Fl]{Living
+      Doll (lvl15)}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">20</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.5o2JTKqYpSAqX9oO]{Artistry
+      is Violence}</p></td></tr></tbody></table>
+    chat: ''
+  identifier: dollkeeper
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: specialist
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783443979812
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!E01hckVrctIOMrDo'

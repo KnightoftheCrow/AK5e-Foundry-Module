@@ -1,0 +1,58 @@
+folder: fGpFJo0gyinCoWeF
+name: Immortal
+type: feat
+img: modules/ak5e/icons/Skill-Cuora2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When you would take Damage, you can expend and roll one of your Hit
+      Dice as a Reaction; you gain Temporary Hit Points equal to the amount
+      rolled + your Constitution Modifier. You can use this Feature a number of
+      times equal to your Proficiency Bonus, and regain all expended uses when
+      you complete a Long Rest.</p><p><strong>Module:</strong> This Feature no
+      longer requires use of your Reaction</p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: immortal
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358684658
+  modifiedTime: 1783358684677
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: xF6eE9U65h3kk0d9
+sort: 350000
+_key: '!items!xF6eE9U65h3kk0d9'

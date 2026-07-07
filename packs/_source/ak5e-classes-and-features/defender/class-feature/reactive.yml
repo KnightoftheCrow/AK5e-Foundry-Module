@@ -1,0 +1,54 @@
+folder: 0FE7flvsguisj29c
+name: Reactive
+type: feat
+img: modules/ak5e/icons/Skill-Underflow1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>To better respond to threats, you must always be prepared. You may make
+      two Reactions instead of only one, and regain use of both at the beginning
+      of your Turn. You may still only use one Reaction in response to a given
+      trigger.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: reactive
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 13
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.L68gJ9Ic9UEgv403
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358936963
+  modifiedTime: 1783358936963
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: qMCuxJU1T7jI8FQU
+sort: 187500
+_key: '!items!qMCuxJU1T7jI8FQU'

@@ -1,0 +1,58 @@
+folder: tmEo8WuR6VcFXLnu
+name: Wrecking Wall
+type: feat
+_id: 3v8BxRuiQUSTIRPl
+img: modules/ak5e/icons/Skill-Aurora2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Once per Long Rest as an Action, you can choose a Creature you can see
+      within five feet of you; that Creature must make a Constitution Saving
+      Throw against your Martial DC. On a failed Save, they take 10d6
+      Bludgeoning Damage and are Stunned; they may reattempt the Saving Throw at
+      the end of each of their Turns, ending the Condition on a success. On a
+      successful Save, they take half as much Damage, and are not
+      Stunned.</p><p>Damage from this Feature ignores Damage Reduction and
+      Resistances.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: wrecking-wall
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!3v8BxRuiQUSTIRPl'

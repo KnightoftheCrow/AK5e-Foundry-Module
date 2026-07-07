@@ -1,0 +1,57 @@
+folder: c1EQsN3JLDePX4rN
+name: Risk Assessment
+type: feat
+_id: mzafmxWtn51EjOzP
+img: modules/ak5e/icons/Skill-ExtractingHarvesterHub.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Your creations are marginally more safe, at least when operated by
+      someone with competency. You gain the following
+      benefits:</p><p><strong>Speciality Modding.</strong> The Instability of
+      Weapons you have modified that match your Weapon Specialisation Feature
+      choice is reduced by 1.</p><p><strong>Trained Operator.</strong> The
+      Instability of equipment you have modified that you are wielding or
+      wearing is reduced by 1.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: risk-assessment
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 11
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!mzafmxWtn51EjOzP'

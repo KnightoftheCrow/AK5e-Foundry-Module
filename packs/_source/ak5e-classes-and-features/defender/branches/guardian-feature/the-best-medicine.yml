@@ -1,0 +1,58 @@
+folder: cmfoF8Hdud4nTRHX
+name: The Best Medicine
+type: feat
+_id: Kze7HMzW47lgynji
+img: modules/ak5e/icons/Skill-Sideroca1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You may have dedicated a part of yourself to the healing of others, but
+      you are still a frontline fighter; woe betide those who forget
+      that.</p><p>You can activate this Feature as a Bonus Action. For the next
+      minute, whenever you make a Melee Attack against a Creature, you may
+      restore 2d6 Hit Points to a Creature of your choice that you can see
+      within 30 feet.</p><p>Once you have used this Feature, you may not do so
+      again until you complete a Long Rest.</p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: the-best-medicine
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!Kze7HMzW47lgynji'

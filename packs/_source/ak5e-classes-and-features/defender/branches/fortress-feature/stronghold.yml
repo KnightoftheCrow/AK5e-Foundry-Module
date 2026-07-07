@@ -1,0 +1,60 @@
+folder: 3tM4rLFY5kbxFxJH
+name: Stronghold
+type: feat
+_id: RJmnMBDoT7D2yE57
+img: modules/ak5e/icons/Skill-Horn1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>The essence of a fortification is both to protect and to provide a
+      location to attack from; you have refined your technique to facilitate
+      both of these things.</p><ul><li><p><strong>Fortification.</strong> Once
+      per Turn, while you are Entrenched, you may take the Shelter Action
+      without expending an Action.</p></li><li><p><strong>Stop their
+      Advance.</strong> When a Creature that you can see moves within 100 feet
+      of you while you have any Munitions loaded, you can expend one Resilience
+      to fire your loaded Munitions at that Creature as a Reaction; you must
+      choose a point as close to that Creature as possible as the target for
+      your Munitions.</p></li></ul><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: stronghold
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 12
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!RJmnMBDoT7D2yE57'

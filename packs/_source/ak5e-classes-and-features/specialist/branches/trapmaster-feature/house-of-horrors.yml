@@ -1,0 +1,59 @@
+folder: 5TjQjlL8OLFElpmw
+name: House of Horrors
+type: feat
+_id: qkbHhF6DE4z5qYNO
+img: modules/ak5e/icons/Skill-Ela1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>To approach you is to die. To flee from you is to die. And the entire
+      time, you’ll be there; laughing.</p><p>You gain the following
+      benefits:</p><p><strong>Trap DC Increase.</strong> Your Trap DC is
+      permanently increased by 5.</p><p><strong>Party Favours.</strong> Once per
+      Long Rest as an Action, you can immediately set six traps, ignoring the
+      time required. Additionally, the range at which you can set up those Traps
+      is increased to 100 feet, and does not have to be in a location you can
+      see, though you must be aware of it; it is not obvious to others where you
+      have set these Traps.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: house-of-horrors
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 20
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!qkbHhF6DE4z5qYNO'

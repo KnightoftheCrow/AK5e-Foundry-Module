@@ -1,0 +1,100 @@
+folder: 5TjQjlL8OLFElpmw
+name: Environmental Warfare
+type: feat
+_id: 8xHS97yH5nne8Tpm
+img: modules/ak5e/icons/Skill-Dorothy1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    DnYnOArOaVtFL3FC:
+      type: ItemGrant
+      title: Traps
+      _id: DnYnOArOaVtFL3FC
+      configuration:
+        items:
+          - uuid: Compendium.ak5e.ak5e-items.Item.EoTq00NhPTxTFU2u
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-items.Item.XEbZtVHytTb1MdIL
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-items.Item.mIssTy6jiJ1iqmeQ
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-items.Item.X0V8f6j015fLPedm
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-items.Item.2M88IXWxohI4aj8a
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-items.Item.DevlIig02o1ZVUAP
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-items.Item.D8SaJ5QDyijRLfLs
+            optional: false
+          - uuid: Compendium.ak5e.ak5e-items.Item.rZ5vzWIhxB8d5nWG
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 0
+      hint: ''
+  description:
+    value: >-
+      <p>The environment is the greatest weapon of a Trapmaster; if it is not
+      dangerous yet, it will be. You gain the following
+      benefits:</p><p><strong>Place Trap.</strong> Over the course of ten
+      seconds (or two rounds), you can plant a Trap in an unoccupied space on
+      the ground within 5 feet of you; unless stated, a Trap can only be
+      triggered once. The Traps available for you to place are found
+      below.</p><p>There is no limit to the amount of Traps you can have planted
+      at once. You can use this Feature a number of times equal to your twice
+      your Proficiency Bonus, and regain all expended uses when you complete a
+      Long Rest.</p><p><strong>Devil’s Own Luck.</strong> The environment is
+      full of danger if you know where to look. As a Bonus Action, you can
+      suggest an visible object in the environment to function as a Trap of your
+      choice (except Timed Explosive), and the trigger condition for that
+      “trap”. This trigger condition should be an action you actively perform,
+      not when the Creature enters a defined space like ordinary traps. If the
+      GM agrees with your suggestion, that object functions in the way you
+      suggested; once it has been triggered, this “trap” is expended as other
+      Traps are. Once you have successfully suggested a Trap in this way, you
+      may not do so again until you complete a Short or Long
+      Rest.</p><p><strong>Skill Expertise.</strong> You gain Proficiency in the
+      Sleight of Hand Skill. If you already have Proficiency, you instead gain
+      Expertise.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: environmental-warfare
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!8xHS97yH5nne8Tpm'

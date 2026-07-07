@@ -1,0 +1,63 @@
+folder: tmEo8WuR6VcFXLnu
+name: Dreadnought’s Advance
+type: feat
+_id: pBQ4Q65MzTezmmZS
+img: modules/ak5e/icons/Skill-Ifrit1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You learn to assume a stance that best brings to bear your monstrous
+      strength.</p><p>As a Bonus Action, you can enter a state designed to roll
+      over enemies, known as the Advance. The Advance lasts for one minute, but
+      ends early if your Turn ends and you have not made an Attack, dealt
+      Damage, forced a Creature to make a Saving Throw, or taken Damage since
+      your last Turn.</p><p>While the Advance is active, you gain the following
+      benefits:</p><ul><li><p>When you make an Attack Roll or are Attacked, you
+      gain 1 Skill Point. This is increased to 2 at 7th level, and 3 at 14th
+      level.</p></li><li><p>Your Melee Attacks deal additional Damage equal to
+      your Proficiency Bonus.</p></li></ul><p>Once you have entered the Advance,
+      you may not do so again until you finish a Short Rest, or expend 2
+      Resilience (no Action required) during your Turn to restore your use of
+      it.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: dreadnoughts-advance
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!pBQ4Q65MzTezmmZS'

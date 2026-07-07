@@ -1,0 +1,55 @@
+folder: zLS0Nt8r6PPuDuKr
+name: Overheal (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Ansel1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> The temporary Hit Points you receive from this
+      Ability no longer has a maximum value.</p><p><strong>Not
+      automated.</strong></p>
+    chat: ''
+  identifier: overheal-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - overheal
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357992642
+  modifiedTime: 1783357992660
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: XWxkSe4rufbcHpep
+sort: 287500
+_key: '!items!XWxkSe4rufbcHpep'

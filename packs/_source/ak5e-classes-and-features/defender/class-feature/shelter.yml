@@ -1,0 +1,55 @@
+folder: 0FE7flvsguisj29c
+name: Shelter
+type: feat
+img: modules/ak5e/icons/Skill-Shu2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Your calling is defence, and so defend you shall. As an Action during
+      your Turn, you may take the Shelter Action. Until the beginning of your
+      next Turn, Attacks against allied Creatures (except yourself) within 5
+      feet of you are made at Disadvantage.</p><p>If you expend 1 Resilience,
+      you may instead take the Shelter Action as a Bonus Action.</p>
+    chat: ''
+  identifier: shelter
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.RNU8rCP7Be6HRssS
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358936963
+  modifiedTime: 1783358936963
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: yt56NhuKOs1sPH4p
+sort: 125000
+_key: '!items!yt56NhuKOs1sPH4p'

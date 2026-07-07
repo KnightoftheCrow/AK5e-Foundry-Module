@@ -1,0 +1,72 @@
+folder: iC9FYNlLTOR8baLK
+name: Telescopic Weapon
+type: consumable
+_id: PBgopcpIueKx6LIe
+img: modules/ak5e/icons/Skill-Magallan1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Item:</strong> Melee Weapon</p><p>The haft or handle of this
+      weapon has been made extendable, allowing for a much greater reach. Once
+      per Turn when the wielder takes the Attack Action, they may active this
+      Modification (no Action required). Until the end of the Turn, that Weapon
+      gains the Reach Property. If it already has that Property, its reach is
+      instead increased to 15 feet.</p>
+    chat: ''
+  identifier: telescopic-weapon
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 43750
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.J4tFxvPg1zCQkRga
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407163
+  modifiedTime: 1783356407163
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!PBgopcpIueKx6LIe'

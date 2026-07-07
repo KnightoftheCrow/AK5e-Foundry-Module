@@ -1,0 +1,60 @@
+folder: HMrANDaIT5F818Ua
+name: Firebase
+type: feat
+_id: bl68IYkf9nvIDsDy
+img: modules/ak5e/icons/Skill-TheLiberated3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>None cross your field of fire unharmed. You gain the following
+      benefits:</p><ul><li><p><strong>Retributor.</strong> Once per Round, you
+      may use your Advance and Fire Feature without expending use of your
+      Reaction.</p></li><li><p><strong>Torrent of Lead, Wall of Steel.</strong>
+      Once per Long Rest, you may activate this Feature during your Turn (no
+      Action required). Until the end of your next Turn, when you make a Ranged
+      Attack as a result of your Advance and Fire Feature, you can make an
+      additional Attack (no Action required) against the same Creature; these
+      Attacks cannot generate further Attacks.</p></li></ul><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: firebase
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!bl68IYkf9nvIDsDy'

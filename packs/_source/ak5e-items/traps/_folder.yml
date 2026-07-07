@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Traps
+color: null
+sorting: a
+_id: 2akLoYEVmJNdfiYv
+description: ''
+sort: 500000
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356408219
+  modifiedTime: 1783356408241
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!folders!2akLoYEVmJNdfiYv'

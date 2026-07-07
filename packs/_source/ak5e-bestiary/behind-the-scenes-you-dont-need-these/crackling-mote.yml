@@ -930,7 +930,7 @@ effects:
       modifiedTime: 1772982629637
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!actors.effects!1X9tNwtJLLnPxNAj.JIqzAAHGCbzBHYVm'
-sort: 400000
+sort: 800000
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
@@ -940,10 +940,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1772982227981
-  modifiedTime: 1773572948647
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783356359284
+  lastModifiedBy: 27ikDz77N89hVLvM
 _key: '!actors!1X9tNwtJLLnPxNAj'

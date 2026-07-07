@@ -1,0 +1,59 @@
+folder: Vd5i80HITKyteFYa
+name: Living Doll (lvl15)
+type: feat
+_id: Vk5508AsRvhUF7Fl
+img: modules/ak5e/icons/Skill-Vulpisfoglia1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Arts used in the Creation of your Doll have been used to reinforce you.
+      You gain the following
+      benefits:</p><ul><li><p><strong>Reciprocity.</strong> When either you or
+      your Doll recovers Hit Points except by Resting, the other can gain
+      Temporary Hit Points equal to the Hit Points
+      recovered.</p></li><li><p><strong>Share Arts.</strong> When an Art that
+      does not restore Hit Points or deal Damage is cast targeting you or your
+      Doll, you can choose for the other to also be affected by that
+      Art.</p></li></ul><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: living-doll
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!Vk5508AsRvhUF7Fl'

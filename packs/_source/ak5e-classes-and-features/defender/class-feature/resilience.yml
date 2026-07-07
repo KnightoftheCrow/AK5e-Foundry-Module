@@ -1,0 +1,58 @@
+folder: 0FE7flvsguisj29c
+name: Resilience
+type: feat
+img: modules/ak5e/icons/Skill-Mulberry2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>As a Defender, you can draw upon your innate fortitude to act quickly
+      when it is most required. You have an amount of Resilience shown in the
+      Resilience column of the Defender Features Table, and recover all expended
+      Resilience when you finish a Long Rest.</p><p>Resilience is used by your
+      other Class Features and Branch Features, as directed by those Features,
+      to improve your Action Economy or imbue additional
+      effects.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: resilience
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.xQDQEPQ5K7IJsXAx
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358936963
+  modifiedTime: 1783358936963
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: zTeUzHuzn4SuYhC9
+sort: 193750
+_key: '!items!zTeUzHuzn4SuYhC9'
