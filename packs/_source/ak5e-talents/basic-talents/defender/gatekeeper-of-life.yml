@@ -1,0 +1,61 @@
+folder: TL00PBquhzkf6sDn
+name: Gatekeeper of life
+type: feat
+img: modules/ak5e/icons/Skill-Chestnut1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When dice are rolled to determine the amount of Hit Points restored to
+      a Creature within 10 feet of you, you can expend your Reaction to reroll
+      any number of the dice; you must use the new
+      results.</p><p><strong>Module:</strong> When you use this Feature, you may
+      choose to use either the original or new result of a dice you
+      rerolled.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: gatekeeper-of-life
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357980524
+  modifiedTime: 1783357980540
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: CDAe81R9TqqblxKc
+sort: 175000
+_key: '!items!CDAe81R9TqqblxKc'

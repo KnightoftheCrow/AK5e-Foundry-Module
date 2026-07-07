@@ -1,0 +1,106 @@
+folder: fxf6t1P5taaOdbmA
+name: Alacrity
+type: feat
+img: modules/ak5e/icons/Skill-Phantom1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Your Speed increases by 10 feet.</p><p><strong>Module:</strong> When
+      you take the Dash Action, you add your Proficiency Bonus toyour Armour
+      Class until the end of the Turn.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: alacrity
+  source:
+    revision: 1
+    rules: '2014'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects:
+  - name: Alacrity
+    img: modules/ak5e/icons/Skill-Phantom1.webp
+    origin: Item.ygNPPLFTWi7qfx6j
+    _id: RArwV8ib2svmfAr0
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.all
+        mode: 0
+        value: '+10'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!eBGBwOtBZAM5qEjC.RArwV8ib2svmfAr0'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357377717
+  modifiedTime: 1783357377737
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: eBGBwOtBZAM5qEjC
+sort: 150000
+_key: '!items!eBGBwOtBZAM5qEjC'

@@ -1,0 +1,56 @@
+folder: 79ZspRBEAt515C3p
+name: Curtain Call
+type: feat
+img: modules/ak5e/icons/Skill-Executor1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>After you deal Damage to a Creature when it is not your Turn, the
+      Critical Range of your Attacks against that Creature is increased by 1
+      until the end of your next Turn.</p><p><strong>Module:</strong> Your
+      Critical Range against those Creatures is increased by 2
+      instead.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: curtain-call
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357604939
+  modifiedTime: 1783357604957
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: W78TTrxqjc9HfrBe
+sort: 200000
+_key: '!items!W78TTrxqjc9HfrBe'

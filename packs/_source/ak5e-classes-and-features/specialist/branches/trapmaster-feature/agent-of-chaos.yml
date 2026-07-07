@@ -1,0 +1,54 @@
+folder: 5TjQjlL8OLFElpmw
+name: Agent of Chaos
+type: feat
+_id: qeX2L1zlea6RQW5N
+img: modules/ak5e/icons/Skill-Ela3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>After a Creature takes Damage as a result of failing a Saving Throw
+      against one of your Traps, it loses any Resistances or Damage Reduction it
+      has against the Damage of that Trap until the beginning of their next
+      Turn.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: agent-of-chaos
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!qeX2L1zlea6RQW5N'

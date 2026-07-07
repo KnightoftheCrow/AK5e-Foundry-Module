@@ -1,0 +1,54 @@
+folder: 0FE7flvsguisj29c
+name: Stand Behind Me
+type: feat
+img: modules/ak5e/icons/Skill-Vetochki1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When you use your Leaping Defence Feature, the triggering Creature may
+      move up to 15 feet; this movement does not Provoke Opportunity Attacks,
+      but they must finish the movement further away from the Attacking
+      Creature.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: stand-behind-me
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 17
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.VmggYqmsw5HYuZc7
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358936963
+  modifiedTime: 1783358936963
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: tObvVB55IVOBboVv
+sort: 137500
+_key: '!items!tObvVB55IVOBboVv'

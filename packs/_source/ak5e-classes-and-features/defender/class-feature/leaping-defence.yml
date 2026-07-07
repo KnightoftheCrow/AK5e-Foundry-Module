@@ -1,0 +1,57 @@
+folder: 0FE7flvsguisj29c
+name: Leaping Defence
+type: feat
+img: modules/ak5e/icons/Skill-Tippi2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When a allied Creature you can see within a distance equal to half your
+      Speed is hit by an Attack, you may move to an unoccupied space within 5
+      feet of that allied Creature as a Reaction; this movement does not provoke
+      Opportunity Attacks. If you do so, you instead become the target of that
+      Attack. and that Attack hits you regardless of your Armour
+      Class.</p><p>After using this Feature, you may expend 1 Resilience to
+      regain use of your Reaction.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: leaping-defence
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 11
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.r3VVidBa5RlyjJXc
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358936963
+  modifiedTime: 1783358936963
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: yvxGxd2yKnx0HaXq
+sort: 175000
+_key: '!items!yvxGxd2yKnx0HaXq'

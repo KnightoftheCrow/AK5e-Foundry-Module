@@ -1,0 +1,967 @@
+folder: 1a2UTXZMPAlFyKOD
+name: Specialist
+type: class
+img: modules/AK5e-Foundry-Module/icons/Specialist.png
+system:
+  advancement:
+    Yn0BNV4HWcqm31dk:
+      type: HitPoints
+      _id: Yn0BNV4HWcqm31dk
+      configuration: {}
+      flags: {}
+      value: {}
+      hint: ''
+    EenCcWwuuTdnxPaA:
+      type: AbilityScoreImprovement
+      level: 4
+      _id: EenCcWwuuTdnxPaA
+      configuration:
+        cap: 2
+        fixed: {}
+        locked: []
+        points: 2
+        recommendation: null
+      flags: {}
+      hint: ''
+      value: {}
+    N9UvAqjVCYU0fs9L:
+      type: AbilityScoreImprovement
+      level: 8
+      _id: N9UvAqjVCYU0fs9L
+      configuration:
+        cap: 2
+        fixed: {}
+        locked: []
+        points: 2
+        recommendation: null
+      flags: {}
+      hint: ''
+      value: {}
+    roZUOubbTEFB94Cf:
+      type: AbilityScoreImprovement
+      level: 12
+      _id: roZUOubbTEFB94Cf
+      configuration:
+        cap: 2
+        fixed: {}
+        locked: []
+        points: 2
+        recommendation: null
+      flags: {}
+      hint: ''
+      value: {}
+    Yc3couM8uwpZkEfA:
+      type: AbilityScoreImprovement
+      level: 16
+      _id: Yc3couM8uwpZkEfA
+      configuration:
+        cap: 2
+        fixed: {}
+        locked: []
+        points: 2
+        recommendation: null
+      flags: {}
+      hint: ''
+      value: {}
+    Kstv0yyxQKWWTRDC:
+      type: Trait
+      _id: Kstv0yyxQKWWTRDC
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - saves:wis
+              - saves:cha
+        grants:
+          - saves:dex
+        mode: default
+      flags: {}
+      level: 1
+      hint: ''
+      title: ''
+      value: {}
+    hXNgwN0tWoMyYKXC:
+      type: Trait
+      _id: hXNgwN0tWoMyYKXC
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 3
+            pool:
+              - skills:acr
+              - skills:prc
+              - skills:slt
+              - skills:ste
+              - skills:tech
+              - skills:nat
+        grants: []
+        mode: default
+      flags: {}
+      level: 1
+      hint: ''
+      title: ''
+      value: {}
+    V4ud2C0hEPlNc8oV:
+      type: Trait
+      _id: V4ud2C0hEPlNc8oV
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool: []
+        grants:
+          - armor:lgt
+          - armor:med
+          - armor:lts
+        mode: default
+      flags: {}
+      level: 1
+      hint: ''
+      title: ''
+      value: {}
+    SzwMeybkclfufjyS:
+      type: Trait
+      _id: SzwMeybkclfufjyS
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - weapon:ltm
+          - weapon:ltr
+        mode: default
+      flags: {}
+      level: 1
+      hint: ''
+      title: ''
+      value: {}
+    PZ6YvVsQ8N63J9ZP:
+      type: Trait
+      _id: PZ6YvVsQ8N63J9ZP
+      configuration:
+        allowReplacements: false
+        choices:
+          - count: 1
+            pool:
+              - tool:art:art
+              - tool:art:brewing
+              - tool:art:cooking
+              - tool:art:engineering
+              - tool:art:maintenance
+              - tool:art:makeover
+              - tool:art:mechanism
+              - tool:art:medical
+              - tool:art:messenger
+              - tool:art:pharmacology
+              - tool:art:tailoring
+              - tool:art:woodwork
+              - tool:music:instrumentbagpipes
+              - tool:music:instrumentbass
+              - tool:music:instrumentcello
+              - tool:music:instrumentdrums
+              - tool:music:instrumentflute
+              - tool:music:instrumentguitar
+              - tool:music:instrumentharp
+              - tool:music:instrumentkeyboard
+              - tool:music:instrumentmicrophone
+              - tool:music:instrumentother
+              - tool:music:instrumenttrombone
+              - tool:music:instrumenttuba
+              - tool:music:instrumentturntable
+              - tool:music:instrumentviolin
+              - tool:vehicle:*
+        grants: []
+        mode: default
+      level: 1
+      title: ''
+      hint: ''
+      flags: {}
+      value: {}
+    J4cwcUyAmu28Y4Hl:
+      type: ItemGrant
+      _id: J4cwcUyAmu28Y4Hl
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Qi4Mc2HB3snq2eE5
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: 'Changes to Core Rules: Cantrips'
+      hint: <p>All Creatures gain +Spellcasting Mod Damage to their Cantrips.</p>
+      flags: {}
+      icon: ''
+      classRestriction: ''
+    e12fjsdAVQV79Z4U:
+      type: ItemChoice
+      _id: e12fjsdAVQV79Z4U
+      configuration:
+        allowDrops: false
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.uJv6rhzPijvjHznJ
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Ildgv7odyqeahxmy
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.cx7nNrpfLvAHIfmq
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.XfS9C2RHzrrMdlip
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.ZuHZkt1h2YP8lgwu
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.SCHjE2T5gXZRtIpX
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.K2HT1b80PeacbKTS
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.96vApcsV1yyaPTyD
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.gFr3mcd57Og1c0pZ
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.5l64laM4rk4Ivi0m
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.QvzlfvutcIIezpDs
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Hs0mF5dzKXUqdAdP
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.YAl6BnAF78PaYlDX
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.dqXsCaK1P0JhtYC4
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.sIWoR9fKRrec9UfW
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Nng70cKI1btONIpk
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.8kQVIEXNMpMwu0XE
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.tDJPOjB3go7yh1at
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.YRaUmzhRyxMbjH3U
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.LL42rU6BBic45HZv
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.0ft9PxeRW8FoUjgb
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.3ZwLZuzf3LV0enqU
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.JAmRuAi1wbg4Zwdm
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.wqd3yeo5ea2DAqD9
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.IIulvylBDhw2Zz4F
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.YWNh0sRApVhTseeC
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.yUbrNv1GkAtDTujE
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.2MfZHPX5xtOxH4Zr
+        restriction:
+          list: []
+        spell: null
+        type: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Tool Kit
+      hint: <p>Select Tool Kit you're profience with.</p>
+      flags: {}
+      icon: ''
+      classRestriction: ''
+    MsuAVarUhlFPxHf1:
+      type: ItemChoice
+      _id: MsuAVarUhlFPxHf1
+      configuration:
+        allowDrops: true
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.8YnvqZkWkp8JrS0y
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.KjYWdRFtdaAGe4yK
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.FPznW6rW4nghDh1r
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.yRwC4x79xE5iUW7K
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.EXF9dlqFHPDHi3KF
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.gQexKnwZdkamQcJ7
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Ve5i7MSi8dzq0UJG
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.nkDWWkosdoJz2U6i
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.DSudvLQbkLWPs6g8
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.ajnr0G1r5uS2J8BP
+        restriction:
+          list: []
+        spell: null
+        type: ''
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
+      title: Light Melee or Shield
+      icon: ''
+      classRestriction: ''
+    0UrHDjy8znsHiOtm:
+      type: ItemChoice
+      title: Light Melee or Ranged
+      _id: 0UrHDjy8znsHiOtm
+      configuration:
+        allowDrops: true
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.8YnvqZkWkp8JrS0y
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.KjYWdRFtdaAGe4yK
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.FPznW6rW4nghDh1r
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.yRwC4x79xE5iUW7K
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.EXF9dlqFHPDHi3KF
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.gQexKnwZdkamQcJ7
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Ve5i7MSi8dzq0UJG
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.nkDWWkosdoJz2U6i
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.AVXlB27KScRknIiD
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.o1kUk2al1bphk50J
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.LqVtxMaqJotYLr9a
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.GUk1cU5RDuYL3OOj
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.jjpPLGFHOZsiWFBA
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.EIPiQurk25Of8x3e
+        restriction:
+          list: []
+        spell: null
+        type: ''
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
+      icon: ''
+      classRestriction: ''
+    Nk39hs0nHbhuubJP:
+      type: ItemGrant
+      _id: Nk39hs0nHbhuubJP
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Skill Points
+      hint: ''
+      flags: {}
+      icon: ''
+      classRestriction: ''
+    IcFxmxWyp2a5RL27:
+      type: Subclass
+      _id: IcFxmxWyp2a5RL27
+      configuration: {}
+      flags: {}
+      value:
+        document: null
+        uuid: null
+      level: 1
+      hint: ''
+      title: Specialist Branch
+    OehrWX8yJ5xYbSrT:
+      type: ItemChoice
+      title: Armour
+      _id: OehrWX8yJ5xYbSrT
+      configuration:
+        allowDrops: true
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.DMq5RL7e35ZveMxb
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.33A3rLP3Gm4A7Nrq
+        restriction:
+          list: []
+        spell: null
+        type: ''
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
+      icon: ''
+      classRestriction: ''
+    I87NWHbH2PZBq1Kt:
+      type: ItemChoice
+      _id: I87NWHbH2PZBq1Kt
+      configuration:
+        allowDrops: false
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.HUfCCNr0vTAzTJ4x
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.I9DESZjXmMe3qXWM
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.EDkvryXGAngFLann
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.dsVNBzYVa5R6FepX
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.kyvcA5EdqHoyiu0n
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.jNXxnvPxISVHwgTT
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fd3y9pNzWfnU3rdN
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.ZNHHZk4CaGzhZhAT
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.rOsItv7OM38khZOe
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.XtKdkdFgucYN2EvX
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.EmHinHrGFC2uefsW
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.x6ZxZTr5pExGHIrW
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.vMtXhZe3ObcTXEnx
+        restriction:
+          list: []
+        spell: null
+        type: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Fighting Style
+      hint: >-
+        <p>You adopt a particular style of fighting as your speciality. Choose
+        one of the following options (You can’t take a Fighting Style option
+        more than once, even if you later get to choose again).</p>
+      flags: {}
+      icon: ''
+      classRestriction: ''
+    4YmKhUVNVfnGnk1G:
+      type: ItemChoice
+      _id: 4YmKhUVNVfnGnk1G
+      configuration:
+        allowDrops: true
+        choices:
+          '3':
+            count: 1
+            replacement: false
+          '8':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.eBGBwOtBZAM5qEjC
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.Yyaqd2L1gashBoCr
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.qdF3FvlvO2P8jN0u
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.R3pySeIKzwueHY80
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.bedZeqrT3mDZCmhz
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.aJ5leLsvkRVzyDKY
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.5ECOQN2BPqXqtSdr
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.aWecv7PzCGfCqJeQ
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.p1Cqs4Msvv475IPo
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.W6rnYqYAQvj3SaKt
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.pAhsDKn3n0lt6hbx
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.OnkOPRF512iHy7Vm
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.ik7LQYegdsPPmmZF
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.emy0ih6UO3uynDT5
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.IHJ9sV8fWpn0G43w
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.IR5exqipVsh4pPYw
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.C71xcj7SQBxKzN6h
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.63Cb0CnMe8AnhIrU
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.AT91B7e6RoxOuf0c
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.R3wDHUQlniowjXTS
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.5BNdlfLcC0jPh9HD
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.gmpOSmJLEfW77sCB
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.pV0iItU7Oms2z6OX
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.1aCcga3Fv7SX2gKo
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.vTnmaUYAC4xpR6WU
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.mSKd7NXEni16CYM4
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.4O4UMVgK2EXF8eQG
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.3DKLc4iP47AoOVp2
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.GI714gyZnpHBEA6V
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.i5V0yk671KNx8JGg
+        restriction:
+          list: []
+          type: class
+          subtype: talent
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: Basic Talent
+      hint: >-
+        <p>Take a Basic Talent, or unlock the module effect of a Basic Talent
+        you already have.</p>
+      flags: {}
+      icon: ''
+      classRestriction: ''
+    pRa7z8CJsvXGr3Xr:
+      type: ItemChoice
+      _id: pRa7z8CJsvXGr3Xr
+      configuration:
+        allowDrops: false
+        choices:
+          '2':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.N3HwHUJM8UT5CwLB
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.qy7o3HdGmVQ8ZA12
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.avQKJDbpbgza8moO
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.ZfgpGCfTfg5vo1gp
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.AxGEChE2774ZO2AT
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.pCV1CuvjnKQQCG0Z
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2kduXtBSQNpkeYZE
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.4F2W8LEGFpDHF5Zn
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.XpvoZSukRWXRxLva
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.Wlh8toK7KSeb91Kb
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.rnNteu5opqiI7eaA
+        restriction:
+          list: []
+        spell: null
+        type: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Basic Operator Skill
+      hint: ''
+      flags: {}
+      icon: ''
+      classRestriction: ''
+    SKvlIKSPvwRRlA81:
+      type: ItemChoice
+      _id: SKvlIKSPvwRRlA81
+      configuration:
+        allowDrops: false
+        choices:
+          '9':
+            count: 1
+            replacement: false
+          '13':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.GDsplgybheb2gD7v
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.eol6xSGllamAaECW
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.i2kvWuS3q5vG3h6o
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.W78TTrxqjc9HfrBe
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.La2rj3PJiVW7XnMU
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.CtzHdPRohHAL4uuE
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.4dfM1ULr5PUwSQiZ
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.xTQ5L5O3Je2xIy3N
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.2Eu1NSEjVS2KP5j8
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.1S1YyiqN1lmKSuJg
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.GJBh9NQjmB4GuU6N
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.7HxEm497452AP0bM
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.7xXfLpJKsO5FTaCO
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.lmqkIr71cKVBrKEU
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.y3g1bapa8oEbUr4w
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.mbKef5mSVJ6vybzy
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.3TvSrln1QTd9h8pd
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.8Lz9wC1oy1ChQOG1
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.qyobqBz9XhKOUKwK
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.5BM5lBJRY5LQRdGy
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.rniHs3SXvIdbhMLU
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.fNDvxHyEmmTqdfm9
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.i687fJYCOlki6xoz
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.9Z5im8mZ9vc1EOal
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.q4Qks4cZsWRw2hsN
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.hlEizJXV8qqvgMDB
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.GG8g6FXkjmR1Xau5
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.IoKF823iJOpr8asf
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.oiDhtnmIY6nerQwX
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.jNTpE9tWTMUx0raa
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.deFvN2oIKdKvx8RE
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.iTMnU5VW1AvZmvYU
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.OuJqsjwZx4gl6UqE
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.6MxkeZcgf0B9DROG
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.BtkkdqNUh0xZyfUw
+        restriction:
+          list: []
+          type: class
+          subtype: skillPoints
+        spell: null
+        type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: Advanced Talent
+      hint: >-
+        <p>Take an Advanced Talent, or unlock the module effect of a Advanced
+        Talent you already have.</p>
+      flags: {}
+      icon: ''
+      classRestriction: ''
+    wRfQxrnX5a3qObIj:
+      type: ItemGrant
+      title: Show your Style
+      _id: wRfQxrnX5a3qObIj
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.dh2vyTuO6FszNmt9
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 4
+      hint: ''
+      icon: ''
+      classRestriction: ''
+    jeXvRZE6PjdBSaZG:
+      type: ItemChoice
+      _id: jeXvRZE6PjdBSaZG
+      configuration:
+        allowDrops: false
+        choices:
+          '7':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.z6cRijNHYpsv83hm
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.qK2squmyGGTSMJqW
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.SvlqPyLji0yjEJW0
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.AdHcBEPTYPPGCTK0
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.mjQMYpKjre22uUVe
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.tayiRAeoX6DPDsTI
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.kuA2y677jMYokzoX
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.KnzcXmC4ZKNUTcfi
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.5IsyeYMwi9Jb9D9e
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.xwHmYWeUtqCFkDtH
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.BalkoWGirI28pOIT
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.OAQ2wIxtKYiGN6sH
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.P7ItRD5KREBpqMiS
+        restriction:
+          list: []
+        spell: null
+        type: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Advanced Operator Skill
+      hint: ''
+      flags: {}
+      icon: ''
+      classRestriction: ''
+    3ToDZe1Q32surMq2:
+      type: ItemChoice
+      _id: 3ToDZe1Q32surMq2
+      configuration:
+        allowDrops: false
+        choices:
+          '14':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.kzdBUkR9VQ3CflUP
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.msZQqkRFFVbuC4ff
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.AG0xGZhRulfdCkwY
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.FIrZrVo5w8wQ4Jnh
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.hUVUp1RmchlTMY8I
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.Q3OfbjadyWosvrYO
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.wD5jTJsHHQqysz3l
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.BLp0dinJk22MjHbU
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.wAjItGko3sO8xVVH
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.3lLkJHIxBayzqDDD
+        restriction:
+          list: []
+        spell: null
+        type: ''
+      value:
+        added: {}
+        replaced: {}
+      title: Elite Operator Skill
+      hint: ''
+      flags: {}
+      icon: ''
+      classRestriction: ''
+    J7hYDSSOqF8xrzZg:
+      type: AbilityScoreImprovement
+      _id: J7hYDSSOqF8xrzZg
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+        max: 20
+      value:
+        type: asi
+      level: 19
+      title: Ability Score Improvement
+      hint: ''
+      flags: {}
+    WoazhgfQlEGCWglk:
+      type: AbilityScoreImprovement
+      _id: WoazhgfQlEGCWglk
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+        max: 20
+      value:
+        type: asi
+      level: 10
+      title: ''
+      hint: ''
+      flags: {}
+    RvqklDSH24xjZnjB:
+      type: AbilityScoreImprovement
+      _id: RvqklDSH24xjZnjB
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 2
+        recommendation: null
+        max: 20
+      value:
+        type: asi
+      level: 6
+      title: ''
+      hint: ''
+      flags: {}
+    8jEK59UGsHll4Wsk:
+      type: ItemGrant
+      title: Weapon Adapt
+      _id: 8jEK59UGsHll4Wsk
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.lAPuDI9jwafeKekF
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 6
+      hint: ''
+      icon: ''
+      classRestriction: ''
+    fKGTnr86drmM8Awv:
+      type: ItemGrant
+      title: Weapon Expertise
+      _id: fKGTnr86drmM8Awv
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.YH5ePDHCQSL4ozbl
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 12
+      hint: ''
+      icon: ''
+      classRestriction: ''
+    usHpBqw568yJ9I2Y:
+      type: ItemGrant
+      title: Falling Upwards
+      _id: usHpBqw568yJ9I2Y
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.zOtNo6x2jRq1W5ZF
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 17
+      hint: ''
+      icon: ''
+      classRestriction: ''
+    CPyB0QypOK1CWEZ5:
+      type: ItemGrant
+      title: Weapon Mastery
+      _id: CPyB0QypOK1CWEZ5
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.dcfnldBC1pqvhTwg
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 18
+      hint: ''
+      icon: ''
+      classRestriction: ''
+  description:
+    value: >-
+      <h3>Core Specialist Traits</h3><table><tbody><tr><td
+      data-colwidth="142"><p style="text-align:center"><strong>Primary
+      Ability</strong></p></td><td><p>Dexterity</p></td></tr><tr><td
+      data-colwidth="142"><p style="text-align:center"><strong>Hit Point
+      Die</strong></p></td><td><p>D8 per Specialist level</p></td></tr><tr><td
+      data-colwidth="142"><p style="text-align:center"><strong>Saving Throw
+      Proficiencies</strong></p></td><td><p>Dexterity + one of your choice from
+      thefollowing: Wisdom, Charisma</p></td></tr><tr><td data-colwidth="142"><p
+      style="text-align:center"><strong>Skill
+      Proficiencies</strong></p></td><td><p>Choose 3 from: Acrobatics, Sleight
+      of Hand, Stealth, Tech, Perception, Wilderness</p></td></tr><tr><td
+      data-colwidth="142"><p style="text-align:center"><strong>Weapon
+      Proficiencies</strong></p></td><td><p>Light Melee, Light
+      Ranged</p></td></tr><tr><td data-colwidth="142"><p
+      style="text-align:center"><strong>Tool
+      Proficiencies</strong></p></td><td><p>Two Tool Kits of your
+      Choice</p></td></tr><tr><td data-colwidth="142"><p
+      style="text-align:center"><strong>Armor
+      Training</strong></p></td><td><p>Light Armour, Medium Armour, Light
+      Shields</p></td></tr><tr><td data-colwidth="142"><p
+      style="text-align:center"><strong>Starting
+      Equipment</strong></p></td><td><p>Choose A or B:</p><p>(A): (a) 1x Light
+      Melee Weapon or (b) 1x Light Ranged Weapon;</p><p>(a) 1x Heavy Melee
+      Weapon or (b) 1x Light Shield;</p><p>(a) Reinforced Outfit or (b)
+      Underarmour;</p><p>1x Tool Kit you are Proficient with;</p><p>(B): 1300
+      LMD.</p></td></tr></tbody></table><h3>Powerfully Individual</h3><p>It is
+      nearly impossible to summate Specialists in a succinct manner. Some
+      describe them as those that simply do not fit under a more defined
+      heading. While there is some truth to this, it does not mean Specialists
+      have not felt a calling. Specialists are those so dedicated to a
+      particular style, often an unconventional one, that to place them under a
+      more established heading would do both a disservice. The application of a
+      Specialist may be narrow, but when they are within their zone, you will
+      never wish for anyone else.</p>
+    chat: ''
+  identifier: specialist
+  source:
+    revision: 1
+    rules: '2024'
+  startingEquipment:
+    - type: OR
+      requiresProficiency: false
+      _id: 0hOpm9ET1vBWT2ry
+      group: ''
+      sort: 100000
+    - type: weapon
+      count: null
+      key: ltm
+      requiresProficiency: false
+      _id: CsheK8WZsNK6VvK4
+      group: 0hOpm9ET1vBWT2ry
+      sort: 200000
+    - type: weapon
+      count: null
+      key: ltr
+      requiresProficiency: false
+      _id: glxjzr0i3X37v4l2
+      group: 0hOpm9ET1vBWT2ry
+      sort: 300000
+    - type: OR
+      requiresProficiency: false
+      _id: W6cuS3pC2sC3x2Xe
+      group: ''
+      sort: 400000
+    - type: weapon
+      count: null
+      key: ltm
+      requiresProficiency: false
+      _id: RdwBE37XI5Gzph0u
+      group: W6cuS3pC2sC3x2Xe
+      sort: 500000
+    - type: armor
+      count: null
+      key: lightS
+      requiresProficiency: false
+      _id: c93r0eDdSuMk9Qns
+      group: W6cuS3pC2sC3x2Xe
+      sort: 600000
+    - type: OR
+      requiresProficiency: false
+      _id: BoivF5qvFdQzXdO2
+      group: ''
+      sort: 700000
+    - type: linked
+      count: null
+      key: Compendium.ak5e.ak5e-items.Item.33A3rLP3Gm4A7Nrq
+      requiresProficiency: false
+      _id: WTrlR2LQtiFBDrH4
+      group: BoivF5qvFdQzXdO2
+      sort: 800000
+    - type: linked
+      count: null
+      key: Compendium.ak5e.ak5e-items.Item.DMq5RL7e35ZveMxb
+      requiresProficiency: false
+      _id: oFi48etynyh8Lyht
+      group: BoivF5qvFdQzXdO2
+      sort: 900000
+    - type: tool
+      count: null
+      key: toolkit
+      requiresProficiency: false
+      _id: 9WYwFrlQktXGxHnp
+      group: ''
+      sort: 1000000
+  hd:
+    additional: ''
+    denomination: d8
+    spent: 0
+  levels: 1
+  primaryAbility:
+    value: []
+    all: true
+  properties: []
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+  wealth: '1300'
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358950363
+  modifiedTime: 1783443998169
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: XZqUwel5f5tInwb8
+sort: 100000
+_key: '!items!XZqUwel5f5tInwb8'

@@ -1,0 +1,60 @@
+folder: TL00PBquhzkf6sDn
+name: Sentinel
+type: feat
+img: modules/ak5e/icons/Skill-Bellone1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When you hit a Creature with an Opportunity Attack, you reduce that
+      Creature’s Speed to 0 until the end of the
+      Turn.</p><p><strong>Module:</strong> The first Opportunity Attack you make
+      each Round does not consume your Reaction.</p><p><strong>Not
+      automated.</strong></p>
+    chat: ''
+  identifier: sentinel
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358007884
+  modifiedTime: 1783358007902
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: HCSaOIG7LHKG2zOb
+sort: 162500
+_key: '!items!HCSaOIG7LHKG2zOb'

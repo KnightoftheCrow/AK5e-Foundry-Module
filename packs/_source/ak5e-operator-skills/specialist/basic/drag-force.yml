@@ -1,0 +1,230 @@
+folder: 0Bx3AWOkga3k8Yq6
+name: Drag Force
+type: feat
+img: modules/ak5e/icons/Skill-Qanipalaat2.webp
+system:
+  activities:
+    FIRPIOqUEBErk7u2:
+      type: utility
+      name: Drag Force
+      _id: FIRPIOqUEBErk7u2
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '10'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: ft
+        override: false
+        special: ''
+        value: '50'
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: enemy
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        triggeredActivityConsume: true
+        triggeredActivityConfigure: true
+        autoConsume: true
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        rollAs: target
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <ul><li><p><strong>Name</strong>: Drag Force.</p></li><li><p><strong>SP
+      Cost:</strong> 10.</p></li><li><p><strong>Start SP:</strong>
+      5.</p></li><li><p><strong>Charging:</strong>
+      Automatic.</p></li><li><p><strong>Activation Cost:</strong>
+      Action.</p></li><li><p><strong>Effect:</strong> Choose a Creature you can
+      see within 50 feet; that Creature must succeed on a Strength Saving Throw
+      against your Martial DC or Spell Save DC (your choice) or suffer one of
+      the following effects of your choice; the Creature is dragged up to 30
+      feet directly towards you, the Creature is dragged 50 feet directly
+      downwards taking falling damage as appropriate, the Creature’s Speed is
+      reduced to 0 until the end of their next
+      Turn.</p></li><li><p><strong>Duration:</strong>
+      Instant.</p></li></ul><p><strong>Not Automated. </strong>Use for tracking
+      purpose.</p>
+    chat: ''
+  identifier: drag-force
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 2
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Drag Force (Skill Points)
+    img: modules/ak5e/icons/Skill-Qanipalaat2.webp
+    origin: Item.yyn6WSV06Exm6uj5
+    type: base
+    _id: q7t9Dwi9hDvWONHB
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 4
+        value: '5'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 4
+        value: '10'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+      automated-conditions-5e:
+        ac5eChangeRows: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!qy7o3HdGmVQ8ZA12.q7t9Dwi9hDvWONHB'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356617848
+  modifiedTime: 1783356617867
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: qy7o3HdGmVQ8ZA12
+sort: 200000
+_key: '!items!qy7o3HdGmVQ8ZA12'

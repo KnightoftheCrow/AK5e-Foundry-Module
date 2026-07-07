@@ -1,0 +1,213 @@
+folder: QJjGENx3ERG6JUY7
+name: Executor
+type: subclass
+_id: NGidmyjmLQypz0Nx
+img: modules/AK5e-Foundry-Module/icons/Executor_Specialist.webp
+system:
+  advancement:
+    vOl90ZqJ8wMkmN5h:
+      type: ItemChoice
+      _id: vOl90ZqJ8wMkmN5h
+      configuration:
+        allowDrops: true
+        choices:
+          '1':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.kqwkHjTaiIjCvi5X
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.wdArlFZHTvXVS5DR
+        restriction:
+          list: []
+        spell: null
+        type: ''
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
+      title: ''
+      icon: ''
+    p6JpGAhQYqQDyD3j:
+      type: ItemChoice
+      configuration:
+        allowDrops: true
+        choices:
+          '5':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.M1GUs2xp4K1FzIc7
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.8hcLV51sdTOLzyV9
+        restriction:
+          list: []
+        spell: null
+        type: ''
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
+      title: ''
+      _id: p6JpGAhQYqQDyD3j
+      icon: ''
+    y3f8YFHA2yIEkOql:
+      type: ItemChoice
+      configuration:
+        allowDrops: true
+        choices:
+          '11':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Q91xkjxSrU18r3zZ
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.lwNWtXxCVNRdUbD5
+        restriction:
+          list: []
+        spell: null
+        type: ''
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
+      title: ''
+      _id: y3f8YFHA2yIEkOql
+      icon: ''
+    OA9I0PNEfS62jKs9:
+      type: ItemChoice
+      configuration:
+        allowDrops: true
+        choices:
+          '20':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.9Ppp4KNZkDsJoQip
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Q0zzbLJ2kWmjln5m
+        restriction:
+          list: []
+        spell: null
+        type: ''
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
+      title: ''
+      _id: OA9I0PNEfS62jKs9
+      icon: ''
+    cACENhkvEBKrqDgx:
+      type: ItemChoice
+      configuration:
+        allowDrops: true
+        choices:
+          '15':
+            count: 1
+            replacement: false
+        pool:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.ZOojcsxAfy4eC5cP
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.muBuHzSgKJi1rvbq
+        restriction:
+          list: []
+          type: ''
+          subtype: ''
+        spell: null
+        type: ''
+      flags: {}
+      value:
+        added: {}
+        replaced: {}
+      hint: ''
+      title: ''
+      _id: cACENhkvEBKrqDgx
+      icon: ''
+    CyOjGxYWnYsMFOOe:
+      type: ItemGrant
+      _id: CyOjGxYWnYsMFOOe
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.cafTpF1e9GXPsnc4
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 5
+      hint: ''
+      title: ''
+      icon: ''
+  description:
+    value: >-
+      <p>Dollkeepers are an eccentric bunch, even amongst the already eccentric
+      Specialists. Whether their Doll is a complex mechanical construct, an
+      inanimate structure animated by Arts, or something even more poorly
+      understood, they have a reputation for being somewhat strange, even
+      disconcerting. Where a Dollkeeper is required however, almost no-one can
+      fill their place.</p><p>You get next Branch
+      features:</p><table><tbody><tr><td
+      data-colwidth="50"><p>Level</p></td><td><p>Branch
+      Feature</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.wdArlFZHTvXVS5DR]{The
+      Wolf and the Shepherd (Bodyguard
+      Path)}</p><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.kqwkHjTaiIjCvi5X]{The
+      Wolf and the Shepherd (Hunter Path)}</p></td></tr><tr><td
+      data-colwidth="50"><p
+      style="text-align:center">5</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.M1GUs2xp4K1FzIc7]{Escape
+      the
+      Ambush}</p><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.8hcLV51sdTOLzyV9]{Spring
+      the Ambush}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">5</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.cafTpF1e9GXPsnc4]{In
+      Every Shadow}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">11</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.Q91xkjxSrU18r3zZ]{Preysense}</p></td></tr><tr><td
+      data-colwidth="50"><p
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.ZOojcsxAfy4eC5cP]{In
+      for the
+      Kill}</p><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.muBuHzSgKJi1rvbq]{Blade
+      Shield}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">20</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.9Ppp4KNZkDsJoQip]{Ultimate
+      Sword and
+      Shield}</p><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.Q0zzbLJ2kWmjln5m]{Mortal
+      Blow}</p></td></tr></tbody></table>
+    chat: ''
+  identifier: executor
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: specialist
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783443582249
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!NGidmyjmLQypz0Nx'

@@ -1,0 +1,60 @@
+folder: tmEo8WuR6VcFXLnu
+name: Sword of Damocles
+type: feat
+_id: Wzk4GOEfvK6uH05O
+img: modules/ak5e/icons/Skill-Bibeak2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You punish those powerful foes who would dare to ignore you. You gain
+      the following benefits:</p><ul><li><p><strong>Leaping Offence.</strong>
+      When you use your Leaping Defence Feature, if the Attacking Creature is an
+      Elite or Leader Creature, you can expend 1 Resilience to make an Attack of
+      Opportunity against them after their Attack (no Action
+      required).</p></li><li><p><strong>Tear them Down.</strong> When an Elite
+      or Leader Creature within your Reach makes an Attack against a Creature
+      that is not you, or forces them to make a Saving Throw, you can make an
+      Attack of Opportunity against them (no Action
+      required).</p></li></ul><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: sword-of-damocles
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 12
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!Wzk4GOEfvK6uH05O'

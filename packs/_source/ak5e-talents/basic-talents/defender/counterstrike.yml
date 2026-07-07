@@ -1,0 +1,81 @@
+folder: TL00PBquhzkf6sDn
+name: Counterstrike
+type: feat
+img: modules/ak5e/icons/Skill-Brigid2.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Attacks you make when it is not your Turn deal additional Damage equal
+      to the Ability Modifier you used for that
+      Attack.</p><p><strong>Module:</strong> Attacks you make when it is not
+      your Turn are made at Advantage.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: feature
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects:
+  - name: Counterstrike
+    img: modules/ak5e/icons/Skill-Brigid2.png
+    origin: Item.2k22aoTrEffaninp
+    type: base
+    _id: hcgWuXoTbrFpg1gK
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!7M3UpZccee42Ll0s.hcgWuXoTbrFpg1gK'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357959935
+  modifiedTime: 1783357959953
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: 7M3UpZccee42Ll0s
+sort: 300000
+_key: '!items!7M3UpZccee42Ll0s'

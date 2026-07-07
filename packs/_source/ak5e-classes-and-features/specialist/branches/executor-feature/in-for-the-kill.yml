@@ -1,0 +1,55 @@
+folder: jQchpet0cXBgVy5y
+name: In for the Kill
+type: feat
+_id: ZOojcsxAfy4eC5cP
+img: modules/ak5e/icons/Skill-Logos1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You gain one of the following benefits based on your choice of Hunter
+      or Bodyguard:</p><p><strong>Hunter.</strong> When you transfer your
+      Deathmark to a hostile Creature, that Creature is Vulnerable against all
+      Damage dealt by your Attacks until the end of the Turn.</p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: in-for-the-kill
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!ZOojcsxAfy4eC5cP'

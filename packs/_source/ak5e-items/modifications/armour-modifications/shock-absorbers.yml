@@ -1,0 +1,71 @@
+folder: q1MrBsepLJyJ9ezj
+name: Shock Absorbers
+type: consumable
+_id: OXSNB1XLc1och2Pv
+img: modules/ak5e/icons/Skill-Magallan3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Item:</strong> Any Armour</p><p>This armour is fitted with
+      devices that allow the wearer to better regulate incoming kinetic impacts.
+      When the wearer makes a Strength or Dexterity Saving Throw, they can
+      activate this Modification as a Reaction to add your Intelligence Modifier
+      to the result of the roll.</p>
+    chat: ''
+  identifier: shock-absorbers
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 287500
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.JU6b9ORBmcrVmLRu
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407163
+  modifiedTime: 1783356407163
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!OXSNB1XLc1och2Pv'

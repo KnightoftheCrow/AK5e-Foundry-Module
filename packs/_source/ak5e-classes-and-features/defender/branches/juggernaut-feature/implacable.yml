@@ -1,0 +1,59 @@
+folder: 8FnSIEKasDaGLsZC
+name: Implacable
+type: feat
+_id: pBkjDHETrEoxOJ50
+img: modules/ak5e/icons/Skill-Mudrock2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You cannot be stopped, and punish those who attempt to do
+      so.</p><p><strong>Rolling Boulder.</strong> Your Speed cannot be reduced
+      by another Creature. If you gain a Condition that would reduce your Speed,
+      you suffer all other effects of that Condition, but your Speed is not
+      reduced.</p><p><strong>Shatterstorm.</strong> When a layer of your Barrier
+      shatters, roll 1d8 and add your Constitution Modifier; you deal that much
+      Force Damage to Creatures of your choice within 10 feet of
+      you.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: implacable
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!pBkjDHETrEoxOJ50'

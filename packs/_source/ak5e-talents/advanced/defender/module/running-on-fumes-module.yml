@@ -1,0 +1,54 @@
+folder: QfmU6v3RpFCsjWum
+name: Running on fumes (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Breeze1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> The amount of Temporary Hit Points you gain
+      from this Feature is doubled.</p><p>Not automated.</p>
+    chat: ''
+  identifier: running-on-fumes-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - running-on-fumes
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358740860
+  modifiedTime: 1783358740882
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: zY2TqvApakosYl5v
+sort: 450000
+_key: '!items!zY2TqvApakosYl5v'

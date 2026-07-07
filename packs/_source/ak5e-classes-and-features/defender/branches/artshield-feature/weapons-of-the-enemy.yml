@@ -1,0 +1,63 @@
+folder: MXgB3kytlZWyeJi9
+name: Weapons of the Enemy
+type: feat
+_id: DhjjgZIfg0D2VAl8
+img: modules/ak5e/icons/Skill-Shalem1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You have all but made the weapons of your enemy into your own. You gain
+      the following benefits:</p><ul><li><p><strong>Arts Absorption.</strong>
+      When you take Arts Damage, you may absorb some of the energy from that Art
+      (no Action required). After you have absorbed energy in this way, you may
+      expel it as an Action during your Turn. All Creatures within a 10ft Square
+      originating from you must make a Dexterity Saving Throw against your
+      Martial DC. On a failed Save, they take 3d6 Force Damage; on a successful
+      Save, they take half as much Damage.</p><p>This Damage is increased to 6d6
+      at Level 7, and 9d6 at Level 14.</p></li><li><p><strong>Empowered
+      Strikes.</strong> Your Melee Weapon Attacks deal an additional 1d6 Force
+      Damage. While you have an active Operator Skill, your Melee Weapon Attacks
+      instead deal an additional 2d6 Force Damage.</p></li></ul><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: weapons-of-the-enemy
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!DhjjgZIfg0D2VAl8'

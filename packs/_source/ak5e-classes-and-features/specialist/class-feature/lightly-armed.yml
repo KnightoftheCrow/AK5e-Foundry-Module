@@ -1,0 +1,54 @@
+folder: F7xt8Er4yJgI2eaK
+name: Lightly Armed
+type: feat
+_id: rOsItv7OM38khZOe
+img: modules/ak5e/icons/Skill-Ch%27en2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When you are wielding a Melee Weapon in one hand and no other Weapons
+      or Shields, you gain a +2 Bonus to Attack Rolls with that
+      Weapon.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: lightly-armed
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: fightingStyle
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358951919
+  modifiedTime: 1783358951919
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!rOsItv7OM38khZOe'

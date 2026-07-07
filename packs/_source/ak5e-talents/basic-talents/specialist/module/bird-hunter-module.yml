@@ -1,0 +1,57 @@
+folder: dX9bNDGt3LqFfCRN
+name: Bird Hunter (Module)
+type: feat
+img: modules/ak5e/icons/Skill-GreyThroat1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> If a Creature you can see moves using a Flying
+      Speed within the Normal Range of a weapon you are wielding, you can expend
+      your Reaction to make an Attack with that weapon against that Creature.
+      You can use this Feature a number of times equal to your Proficiency
+      Bonus, and regain all expended uses when you complete a Long Rest.</p>
+    chat: ''
+  identifier: bird-hunter-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.ed6qQk0urxaosAPg
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357190427
+  modifiedTime: 1783357190444
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: AT91B7e6RoxOuf0c
+sort: 400000
+_key: '!items!AT91B7e6RoxOuf0c'

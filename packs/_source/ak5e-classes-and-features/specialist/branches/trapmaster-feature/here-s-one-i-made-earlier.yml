@@ -1,0 +1,59 @@
+folder: 5TjQjlL8OLFElpmw
+name: Here’s One I Made Earlier
+type: feat
+_id: nEmvWoWjyypZ8mQZ
+img: modules/ak5e/icons/Skill-Wang1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You can expend 1 Prowess to immediately set a Trap as an Action rather
+      than its normal time. Additionally, the range at which you can set up that
+      Trap is increased to 60 feet; it is not obvious to others where you have
+      set this new trap.</p><p><strong>Gaining Prowess as a Trapmaster.</strong>
+      As a Trapmaster, you gain 1 Prowess at the beginning of your Turn if two
+      or more Creatures have failed a Saving Throw against you or your Traps
+      since your last Turn. Additionally, you gain 1 Prowess when a Creature is
+      reduced to 0 Hit Points as a result of one of your
+      Traps.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: heres-one-i-made-earlier
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!nEmvWoWjyypZ8mQZ'

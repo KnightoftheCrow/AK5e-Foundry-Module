@@ -1,0 +1,55 @@
+folder: dX9bNDGt3LqFfCRN
+name: Savage Attacker (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Siege1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> When you use this Feature, that Attack deals
+      additional Damage equal to your Proficiency Bonus.</p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: savage-attacker-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - savage-attacker
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357164498
+  modifiedTime: 1783357164516
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: 4O4UMVgK2EXF8eQG
+sort: 250000
+_key: '!items!4O4UMVgK2EXF8eQG'

@@ -1,0 +1,73 @@
+folder: iC9FYNlLTOR8baLK
+name: Trick Weapon
+type: consumable
+_id: 5cXsv2zsMXaMvMPn
+img: modules/ak5e/icons/Skill-Magallan1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Item:</strong> Melee Weapon</p><p>This weapon can be quickly
+      and temporarily transformed into another weapon as a Bonus Action. When
+      this Modification is applied, choose another Light Melee or Heavy Melee
+      Weapon. As a Bonus Action during the wielder’s Turn, they may cause this
+      Weapon to transform into the chosen Weapon for a minute; a Creature
+      Proficient with the original Weapon is considered Proficient with the
+      transformed Weapon</p>
+    chat: ''
+  identifier: trick-weapon
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 40625
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.9p4NIXctYEhPLfrt
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407163
+  modifiedTime: 1783356407163
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!5cXsv2zsMXaMvMPn'

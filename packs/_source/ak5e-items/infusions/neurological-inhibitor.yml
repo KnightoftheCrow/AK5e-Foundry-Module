@@ -1,0 +1,79 @@
+folder: N0czhwLyeXNGiB65
+name: Neurological Inhibitor
+type: consumable
+_id: SXmNVeuaLvrVOEmu
+img: icons/consumables/potions/bottle-bulb-corked-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p>As an Action, you can apply this to a Weapon you are carrying, or
+      poison food/drink within 5ft of you. Each Weapon or other object can only
+      contain one Toxin at a time; applying a new Toxin overwrites the effect of
+      the old toxin.</p><p>When applied to a Weapon, the effect lasts for ten
+      minutes.The first time each Turn you hit a Creature with that Weapon, that
+      Creature must pass a DC15 Constitution Saving Throw or be driven Berserk
+      until the end of their next Turn. While Berserk, they regard all other
+      Creatures as actively hostile, and must attack the Creature closest to
+      themselves.</p><p>If a Creature consumes food/drink that has been poisoned
+      using this, they must make a DC15 Constitution Saving Throw. On a failed
+      save, they are driven Berserk for 1 hour, and regard all other Creatures
+      as actively hostile. On a successful Save, they are instead driven Berserk
+      for 1 minute.</p>
+    chat: ''
+  identifier: neurological-inhibitor
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: potion
+    subtype: ''
+effects: []
+sort: -200000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.XStxjnQxn3yLLQce
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356403849
+  modifiedTime: 1783356403849
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!SXmNVeuaLvrVOEmu'

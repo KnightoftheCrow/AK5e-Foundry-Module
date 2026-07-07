@@ -1,0 +1,54 @@
+folder: tmEo8WuR6VcFXLnu
+name: Legendary Might
+type: feat
+_id: 9XYwmI0qNhAikDJQ
+img: modules/ak5e/icons/Skill-Matterhorn2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Your strength is the stuff of legend, and your blows carve themselves
+      into history. Your Strength Score is increased by 6, to a maximum of
+      26.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: legendary-might
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!9XYwmI0qNhAikDJQ'

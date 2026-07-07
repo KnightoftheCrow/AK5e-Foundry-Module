@@ -1,0 +1,58 @@
+folder: fGpFJo0gyinCoWeF
+name: Running on fumes
+type: feat
+img: modules/ak5e/icons/Skill-Breeze1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When you would be reduced to 0 Hit Points but not killed outright, you
+      are instead reduced to 1 Hit Point, and gain Temporary Hit Points equal to
+      your Constitution Score. Once you have used this Feature, you may not do
+      so again until you have finished a Long
+      Rest.</p><p><strong>Module:</strong> The amount of Temporary Hit Points
+      you gain from this Feature is doubled.</p><p><strong>Not
+      automated.</strong></p>
+    chat: ''
+  identifier: running-on-fumes
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358691247
+  modifiedTime: 1783358691267
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: GpCdSTOGmMYD87SN
+sort: 362500
+_key: '!items!GpCdSTOGmMYD87SN'

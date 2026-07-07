@@ -1,0 +1,72 @@
+folder: c1EQsN3JLDePX4rN
+name: The Big One
+type: feat
+_id: 6dvaxu4I7wqOMbae
+img: modules/ak5e/icons/Skill-FlintDevice.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>At this point, no-one truly knows what you can pull from your arsenal,
+      but everyone knows the cleanup will not be pretty.</p><p>As an Action,
+      choose from one of the following
+      options:</p><ul><li><p><strong>FLASH</strong> Choose up to four locations
+      within 100 feet; all Creatures within 10 feet of one of those points must
+      make a Dexterity Saving Throw against your Inventor DC, taking 8d6 Thunder
+      Damage and suffering the Burning Condition on a failed Save, or half as
+      much on a successful save. If a Creature would be within multiple affected
+      areas, they only make the Saving Throw
+      once.</p></li><li><p><strong>SHARD</strong> You release a blast of
+      shrapnel in a 50 foot cone originating from you. All Creatures within the
+      area must make a Dexterity Saving Throw against your Inventor DC, taking
+      10d6 Slashing Damage and suffering the Bleeding Condition on a failed
+      Save. On a successful Save, they take half as much Damage, and suffer no
+      other effects. Creatures do not gain the benefit of cover against this
+      effect.</p></li><li><p><strong>QUASAR</strong> You project a line 100 feet
+      long and 10 feet wide in a direction of your choice; all Creatures within
+      that line must make a Dexterity Saving Throw against your Inventor DC,
+      taking 14d6 Radiant Damage on a failed Save, or half as much on a
+      successful Save.</p></li></ul><p>Once you have used this Feature, you may
+      not do so again until you have completed a Long Rest.</p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: the-big-one
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 20
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!6dvaxu4I7wqOMbae'

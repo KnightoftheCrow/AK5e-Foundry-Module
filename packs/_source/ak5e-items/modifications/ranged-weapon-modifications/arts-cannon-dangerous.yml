@@ -1,0 +1,76 @@
+folder: wTkeoeJjxbPHcfdK
+name: Arts Cannon (Dangerous)
+type: consumable
+_id: nsdFWlxuYna0wOmx
+img: modules/ak5e/icons/Skill-Magallan2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Item:</strong> Ranged Weapon with the Two-Handed
+      Property</p><p>This weapon has been fitted with an experimental grenade
+      launcher/casting unit hybrid allowing it to pelt an unstable burst of
+      Originium Arts in a chosen direction. The wielder may activate this
+      Modification as an Action; choose a point they can see within 60 feet. All
+      Creatures within a 10-foot radius sphere centred on that point must make a
+      Dexterity Saving Throw against your Inventor DC; on a failed Save, they
+      take 3d8 Force Damage. On a successful Save, they take half as much
+      Damage.</p><p>At 7th Level, the Damage of this Modification is increased
+      to 4d8. At 14th Level, it is increased to 5d8.</p>
+    chat: ''
+  identifier: arts-cannon-dangerous
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.INprQ4cvwenZnp1r
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407163
+  modifiedTime: 1783356407163
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!nsdFWlxuYna0wOmx'

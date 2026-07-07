@@ -1,0 +1,61 @@
+folder: TL00PBquhzkf6sDn
+name: Overheal
+type: feat
+img: modules/ak5e/icons/Skill-Ansel1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Whenever you are healed by another Creature, and the healing you
+      receive is greater than the number of Hit Points you are missing, you gain
+      temporary Hit Points equal to the difference, up to a maximum of
+      20.</p><p><strong>Module:</strong> The temporary Hit Points you receive
+      from this Ability no longer has a maximum value.</p><p><strong>Not
+      automated.</strong></p>
+    chat: ''
+  identifier: overheal
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357991766
+  modifiedTime: 1783357991783
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: ZJPXgrTPcYJxnDGr
+sort: 262500
+_key: '!items!ZJPXgrTPcYJxnDGr'

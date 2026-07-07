@@ -1,0 +1,142 @@
+folder: QJjGENx3ERG6JUY7
+name: Skyranger
+type: subclass
+_id: HycR18TQR2jysSTc
+img: modules/AK5e-Foundry-Module/icons/Skyranger_Specialist.webp
+system:
+  advancement:
+    9zdMNFvDWLYmX5dB:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.mFlEn0zBWbRslklu
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 1
+      hint: ''
+      _id: 9zdMNFvDWLYmX5dB
+      title: ''
+      icon: ''
+    MHmuZGUVgHpVducd:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.EC0heYI9PkLGcQAq
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 11
+      hint: ''
+      _id: MHmuZGUVgHpVducd
+      title: ''
+      icon: ''
+    JpU8nNLU6T1E4xB5:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.WvbrwK1V21yZg60v
+            optional: false
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.AjvXcDYL7pR1yN9k
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 5
+      hint: ''
+      _id: JpU8nNLU6T1E4xB5
+      title: ''
+      icon: ''
+    TslblPjxpslnvIVX:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.aBC6R1IbOsCPzXeP
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 15
+      hint: ''
+      _id: TslblPjxpslnvIVX
+      title: ''
+      icon: ''
+    EpZFP8HpXBz3i8Qz:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.9NZUTu67v3gGijVt
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 20
+      hint: ''
+      _id: EpZFP8HpXBz3i8Qz
+      title: ''
+      icon: ''
+  description:
+    value: >-
+      <p>The very idea of a Skyranger specialist will draw strange looks from
+      many people on Terra. The technology required for aircraft is not
+      commonplace; the technology required for personal flight seems the realm
+      of fiction. To a Skyranger however, the difference between a person and a
+      drone is not that great if you refuse to care for your own
+      safety.</p><p>You get next Branch features:</p><table><tbody><tr><td
+      data-colwidth="50"><p>Level</p></td><td><p>Branch
+      Feature</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.mFlEn0zBWbRslklu]{Take
+      Flight}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">5</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.WvbrwK1V21yZg60v]{Air
+      Doctrine}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">5</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.AjvXcDYL7pR1yN9k]{Jink}</p></td></tr><tr><td
+      data-colwidth="50"><p
+      style="text-align:center">11</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.EC0heYI9PkLGcQAq]{Advanced
+      Doctrine}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.aBC6R1IbOsCPzXeP]{Afterburners}</p></td></tr><tr><td
+      data-colwidth="50"><p
+      style="text-align:center">20</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.9NZUTu67v3gGijVt]{Skyscreamer}</p></td></tr></tbody></table>
+    chat: ''
+  identifier: skyranger
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: specialist
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783443324425
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!HycR18TQR2jysSTc'

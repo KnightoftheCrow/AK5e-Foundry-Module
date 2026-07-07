@@ -1,0 +1,54 @@
+folder: EjQr1CtCkHNEpvzS
+name: Curtain Call (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Executor1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> Your Critical Range against those Creatures is
+      increased by 2 instead.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: curtain-call-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - curtain-call
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357603623
+  modifiedTime: 1783357603643
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: fNDvxHyEmmTqdfm9
+sort: 200000
+_key: '!items!fNDvxHyEmmTqdfm9'

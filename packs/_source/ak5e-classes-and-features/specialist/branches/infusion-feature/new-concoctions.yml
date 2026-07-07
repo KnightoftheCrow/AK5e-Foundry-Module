@@ -1,0 +1,101 @@
+folder: fnNi4KXioyJ542O7
+name: New Concoctions
+type: feat
+_id: 0gmPqsaisiSHf6gG
+img: modules/ak5e/icons/Skill-TargetedRenewalAgent.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement:
+    grC7yaL2nFHeDoXP:
+      type: ItemGrant
+      _id: grC7yaL2nFHeDoXP
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.ak5e.ak5e-items.Item.XStxjnQxn3yLLQce
+          - optional: false
+            uuid: Compendium.ak5e.ak5e-items.Item.vZiSd3lu7slAca4C
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 5
+      hint: ''
+      title: ''
+  description:
+    value: >-
+      <p>Not everyone can breach the boundaries you can. When you use the
+      Toxicology Proficient Use of the Pharmacology Kit, you can create two
+      additional types of Toxin, detailed below.</p><p><strong>Additional
+      Toxins</strong></p><p>The following are the additional Toxins you can
+      Create with a Pharmacology Kit. Both have a Weight of 1 lb. and a Cost of
+      140 LMD, but cannot be purchased.</p><p><strong>Neurological
+      Inhibitor</strong></p><p>As an Action, you can apply this to a Weapon you
+      are carrying, or poison food/drink within 5ft of you. Each Weapon or other
+      object can only contain one Toxin at a time; applying a new Toxin
+      overwrites the effect of the old toxin.</p><p>When applied to a Weapon,
+      the effect lasts for ten minutes.The first time each Turn you hit a
+      Creature with that Weapon, that Creature must pass a DC15 Constitution
+      Saving Throw or be driven Berserk until the end of their next Turn. While
+      Berserk, they regard all other Creatures as actively hostile, and must
+      attack the Creature closest to themselves.</p><p>If a Creature consumes
+      food/drink that has been poisoned using this, they must make a DC15
+      Constitution Saving Throw. On a failed save, they are driven Berserk for 1
+      hour, and regard all other Creatures as actively hostile. On a successful
+      Save, they are instead driven Berserk for 1
+      minute.</p><p><strong>Bungarotoxin</strong></p><p>As an Action, you can
+      apply this to a Weapon you are carrying, or poison food/drink within 5ft
+      of you. Each Weapon or other object can only contain one Toxin at a time;
+      applying a new Toxin overwrites the effect of the old toxin.</p><p>When
+      applied to a Weapon, the effect lasts for ten minutes or until after you
+      have hit a Creature with the affected weapon. When you hit a Creature with
+      that Weapon, that Creature must make a DC15 Constitution Saving Throw. On
+      a failed Save, they take 2d10 Poison Damage and are Paralyzed. On a
+      succesful Save, they take 2d10 Poison Damage and are not Paralyzed. A
+      Creature Paralyzed in this way can reattempt this Saving Throw at the end
+      of each of their Turns, ending the effect on a success.</p><p>If a
+      Creature consumes food/drink that has been poisoned using this, they must
+      make a DC15 Constitution Saving Throw. On a failed Save, they are
+      Paralyzed and Unconscious for 24 hours. On a successful Save, they are
+      instead Paralyzed for 1 hour.</p><p></p><p></p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: new-concoctions
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!0gmPqsaisiSHf6gG'

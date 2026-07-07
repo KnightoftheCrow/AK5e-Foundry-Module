@@ -1,0 +1,55 @@
+folder: dX9bNDGt3LqFfCRN
+name: Beneath Me (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Toddifons2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> If you give yourself Advantage in this way,
+      and the Attack hits, it deals additional Damage equal to your Proficiency
+      Bonus.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: beneath-me
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - beneath-me
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357153007
+  modifiedTime: 1783357153023
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: 63Cb0CnMe8AnhIrU
+sort: 100000
+_key: '!items!63Cb0CnMe8AnhIrU'

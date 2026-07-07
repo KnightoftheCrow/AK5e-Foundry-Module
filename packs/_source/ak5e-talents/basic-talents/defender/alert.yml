@@ -1,0 +1,102 @@
+folder: TL00PBquhzkf6sDn
+name: Alert
+type: feat
+img: modules/ak5e/icons/Skill-PureCrystal.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You gain a Bonus to your Initiative Rolls equal to your Proficiency
+      Bonus.</p><p><strong>Module:</strong> You have Advantage on Initiative
+      Rolls.</p><p><strong>Automated.</strong></p>
+    chat: ''
+  identifier: alert
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects:
+  - name: +Prof Bonus to Initiative
+    img: modules/ak5e/icons/Skill-PureCrystal.webp
+    origin: Item.ysWkJBoyVGFabfx1
+    _id: xYBI5fA8J3BUhPrf
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.init.bonus
+        mode: 2
+        value: '@prof'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!KUhdBDpy5v5jLWtT.xYBI5fA8J3BUhPrf'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357938867
+  modifiedTime: 1783357938885
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: KUhdBDpy5v5jLWtT
+sort: 200000
+_key: '!items!KUhdBDpy5v5jLWtT'

@@ -1,0 +1,78 @@
+folder: 3tM4rLFY5kbxFxJH
+name: Fire for Effect
+type: feat
+_id: KrXHAwjB6syEFTsr
+img: modules/ak5e/icons/Skill-Horn2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Specialised ammunition, combined with your Arts, allow you to apply a
+      variety of different effects from the barrel of your launcher, called
+      Munitions. These Munitions are detailed below under Munitions Options, and
+      are fuelled by special dice called Munitions
+      Dice.</p><ul><li><p><strong>Munitions Dice:</strong> You have five
+      Munitions Dice, which are d4s. You regain all expended Munitions Dice when
+      you finish a Long Rest.</p><p>Your Munitions Dice becomes a d6 when you
+      reach Defender Level 7, and a d8 when you reach Defender Level
+      14.</p></li><li><p><strong>Loading Munitions:</strong> As an Action while
+      you have a Grenade Launcher or Rocket Launcher equipped, you may load a
+      Munition into it by expending 1 Munitions Dice; available Munitions can be
+      found on the next page. If you also expend 1 Resilience, you may do so as
+      a Bonus Action instead. Multiple Munitions can be loaded into the same
+      Weapon, up to a maximum equal to your Proficiency Bonus, but the same
+      Munition cannot be loaded multiple times. Any loaded Munitions are lost if
+      you unequip that Weapon or become
+      Incapacitated.</p></li><li><p><strong>Firing Munitions:</strong> When you
+      take the Attack Action while you have Munitions loaded, you can fire all
+      Munitions loaded into a weapon you are wielding at a point within 100
+      feet; you do not need to be able to see this point, but if you cannot,
+      neither you or the point can be under a roof. All Creatures within 15 feet
+      of the chosen point must make a Dexterity Saving Throw against your
+      Martial DC. On a failed Save, they take Damage equal to the Damage of the
+      weapon used + the additional Damage from the loaded Munitions, and also
+      suffer the additional effects of all loaded Munitions. On a successful
+      Save, they take half as much Damage, and suffer no other
+      effects.</p><p>Once a Munition has been fired, it is no longer
+      loaded.</p><p><strong>Not Automated.</strong></p></li></ul>
+    chat: ''
+  identifier: fire-for-effect
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!KrXHAwjB6syEFTsr'

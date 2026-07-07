@@ -1,0 +1,59 @@
+folder: fGpFJo0gyinCoWeF
+name: Charging up
+type: feat
+img: modules/ak5e/icons/Skill-Coldshot2.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Whenever you roll Initiative, you gain a +1 Bonus to your Attack Rolls,
+      and +1 DR against all Damage, up to a maximum of +3. This bonus is lost
+      whenever you complete a Long Rest.</p><p><strong>Module:</strong> The
+      maximum bonus is now +5.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: charging-up
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358673347
+  modifiedTime: 1783358673366
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: ac8OKywngdeJmRxy
+sort: 100000
+_key: '!items!ac8OKywngdeJmRxy'

@@ -1,0 +1,56 @@
+folder: TL00PBquhzkf6sDn
+name: Interlocking Shields
+type: feat
+img: modules/AK5e-Foundry-Module/icons/Skill-Bubble1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Other Creatures that are benefitting from your Shelter Action gain DR
+      against Physical Damage equal to half your Proficiency Bonus (this effect
+      is not cumulative with other sources of this
+      Feature).</p><p><strong>Module:</strong> The granted Damage Reduction is
+      now against all Damage.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: interlocking-shields
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358573929
+  modifiedTime: 1783358605534
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: Jtmj0eoXjk5eq6Sy
+sort: 181250
+_key: '!items!Jtmj0eoXjk5eq6Sy'

@@ -1,0 +1,106 @@
+folder: QfmU6v3RpFCsjWum
+name: Lieutenant (Module)
+type: feat
+img: modules/ak5e/icons/Skill-TacticalEquipment.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> You gain a third Instruction Dice, and your
+      Instruction Dice become d8s.</p>
+    chat: ''
+  identifier: lieutenant
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.UnNVP185qAyYfpjg
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects:
+  - name: Lieutenant (Module)
+    img: modules/ak5e/icons/Skill-TacticalEquipment.png
+    origin: Item.RNwUpjgpD40tUHXc
+    _id: uzkrBbfJYVC8dvIW
+    type: base
+    system: {}
+    changes:
+      - key: system.scale.lieutenant.dice.number
+        mode: 5
+        value: '3'
+        priority: 20
+      - key: system.scale.lieutenant.dice.faces
+        mode: 5
+        value: '8'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!ppr35KeHotQzRd4g.uzkrBbfJYVC8dvIW'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358832200
+  modifiedTime: 1783358832218
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: ppr35KeHotQzRd4g
+sort: 103125
+_key: '!items!ppr35KeHotQzRd4g'

@@ -1,0 +1,62 @@
+folder: u2z4V5QELoqU2yub
+name: Anchor Point
+type: feat
+_id: Jwm6MWileKteO0SP
+img: modules/ak5e/icons/Skill-Croissant2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Your expertise is in the protecting of others, and it shows. While you
+      are wielding a Shield with the Bulwark Property, you gain the following
+      benefits:</p><ul><li><p><strong>Impenetrable.</strong> When you or a
+      Creature benefitting from your Shelter Action would take Damage, you can
+      expend 1 Resilience as a Reaction to grant that Creature Damage Reduction
+      against that Damage equal to half of your Physical Damage Reduction (this
+      effect is not cumulative). You may expend 1 further Resilience (no Action
+      required) to refund use of your Reaction.</p></li><li><p><strong>Improved
+      Shelter.</strong> The Radius of your Shelter Action is increased to 10
+      feet from 5 feet. Additionally, Creatures benefitting from your Shelter
+      Action have Advantage on Strength and Dexterity Saving Throws against
+      effects you can see.</p></li></ul><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: anchor-point
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!Jwm6MWileKteO0SP'

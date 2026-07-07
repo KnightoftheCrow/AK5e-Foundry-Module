@@ -1,0 +1,55 @@
+folder: zLS0Nt8r6PPuDuKr
+name: Martial Acumen (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Morgan2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> As a Bonus Action, you may grant a Weapon you
+      are wielding the Couch, Deadly, or Crush (5) Property until the beginning
+      of your next Turn.</p>
+    chat: ''
+  identifier: martial-acumen-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - Compendium.ak5e.ak5e-talents.Item.PL4xlgwwce950X8F
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358192247
+  modifiedTime: 1783358192266
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: 8o9FpizZSXT94cvr
+sort: 106250
+_key: '!items!8o9FpizZSXT94cvr'

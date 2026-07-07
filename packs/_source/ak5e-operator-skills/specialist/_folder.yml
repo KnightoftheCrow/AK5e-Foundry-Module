@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Specialist
+color: null
+sorting: a
+_id: TbxVfimqCnt7GATt
+description: ''
+sort: 500000
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356461712
+  modifiedTime: 1783356468868
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!folders!TbxVfimqCnt7GATt'

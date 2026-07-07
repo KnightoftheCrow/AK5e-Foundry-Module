@@ -1,0 +1,137 @@
+folder: krMsndTTVD0R6oop
+name: Artshield
+type: subclass
+img: modules/AK5e-Foundry-Module/icons/Arts_Protector_Defender.webp
+system:
+  advancement:
+    IhZDBD55FAwscfde:
+      type: ItemGrant
+      _id: IhZDBD55FAwscfde
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.AKP43YGj6KvrLj0f
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 1
+      hint: ''
+      title: Branch  Feature
+      icon: ''
+    nAloMTqRNiYU4DuA:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.DhjjgZIfg0D2VAl8
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 4
+      hint: ''
+      title: Branch  Feature
+      _id: nAloMTqRNiYU4DuA
+      icon: ''
+    Obe0z90OkCOAr2zH:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.49QAELRp3gD3OWEj
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 9
+      hint: ''
+      title: Branch  Feature
+      _id: Obe0z90OkCOAr2zH
+      icon: ''
+    0tInjGV2YVb9jKld:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.pKS4qzxWCvyhY3mT
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 12
+      hint: ''
+      title: Branch  Feature
+      _id: 0tInjGV2YVb9jKld
+      icon: ''
+    JyzcvIyJhMymTlC5:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.bJHXyTUZ6aTp30d6
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 15
+      hint: ''
+      title: Branch  Feature
+      _id: JyzcvIyJhMymTlC5
+      icon: ''
+  description:
+    value: >-
+      <p>An Artshield is a specialist in the field of combatting Casters. They
+      combine heavy equipment and rigorous training to develop the necessary
+      strength to weather the storm, augementing their significant strength with
+      their own unique Arts. When hostile Arts threaten their allies, Artshields
+      stand to take the brunt, before retailiating with disruptive
+      strikes.</p><p>You get next Branch features:</p><table><tbody><tr><td
+      data-colwidth="50"><p>Level</p></td><td><p>Branch
+      Feature</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.AKP43YGj6KvrLj0f]{Against
+      the Storm}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.DhjjgZIfg0D2VAl8]{Weapons
+      of the Enemy}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">9</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.49QAELRp3gD3OWEj]{Oppressive
+      Force}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">12</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.pKS4qzxWCvyhY3mT]{Stormchaser}</p></td></tr><tr><td
+      data-colwidth="50"><p
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.bJHXyTUZ6aTp30d6]{Eye
+      of the Storm}</p></td></tr></tbody></table>
+    chat: ''
+  identifier: artshield
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: defender
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.TEJmypCSFHelhCii
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783366957957
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: AIHOOjfQQA77G0uV
+sort: 200000
+_key: '!items!AIHOOjfQQA77G0uV'

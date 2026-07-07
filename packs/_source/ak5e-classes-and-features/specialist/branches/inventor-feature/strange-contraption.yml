@@ -1,0 +1,104 @@
+folder: c1EQsN3JLDePX4rN
+name: Strange Contraption
+type: feat
+_id: yTLrHYVvFROui9I9
+img: modules/ak5e/icons/Skill-FireworkLauncher.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>As an Action, you choose a point you can see within 30 feet and throw a
+      Strange Contraption to that location. You choose the effect of each
+      Strange Contraption from the Strange Contraption table below; once you
+      have chosen an option from the table, you cannot choose that option again
+      until you have completed a Long Rest.</p><p><strong>Not
+      Automated.</strong></p><p></p><p><strong>Strange
+      Contraptions</strong></p><table><tbody><tr><td><p
+      style="text-align:center"><strong>Strange
+      contraption</strong></p></td><td><p
+      style="text-align:center"><strong>Effect</strong></p></td></tr><tr><td><p
+      style="text-align:center">12 Million Lumen Flashlight</p></td><td><p>All
+      Creatures within 15 feet of the chosen point must succeed on a Dexterity
+      Saving Throw against your Inventor DC or be Blinded until the end of their
+      next Turn.</p></td></tr><tr><td><p style="text-align:center">Fun
+      Toy</p></td><td><p>A Tiny Construct Mobile Camera is created at the
+      location for 10 minutes. It has 18 AC, 10 Hit Points, a walking speed of
+      20ft, and 60ft of Darkvision. The Mobile Camera does not move, and takes
+      no Actions or Reactions unless you use your Action to cause it to move
+      while you are within 100 feet of it. You can use your Bonus Action to see
+      and hear what the Mobile Camera does until the beginning of your next
+      Turn.</p></td></tr><tr><td><p style="text-align:center">Musbeast
+      Remover</p></td><td><p>A 10-foot radius Sphere appears centred on the
+      chosen location for 2 Rounds. When the area appears, all Creatures within
+      it that are not protected by Full Cover must make a Dexterity Saving Throw
+      against your Inventor DC. On a failed Save, they take 4d8 Piercing Damage.
+      On a successful Save, they take half as much Damage. Creatures must also
+      make this Saving Throw if they enter the area during their
+      Turn.</p></td></tr><tr><td><p style="text-align:center">Needlefly
+      Fumigator</p></td><td><p>A 20-foot radius Sphere appears centred on the
+      chosen location for 1 minute; this area spreads around corners. When a
+      Creature enters the area during their Turn, or begins their Turn there,
+      they must make a Constitution Saving Throw against your Inventor DC. On a
+      failed Save, they take 2d8 Poison Damage and gain the Poisoned Condition
+      until the beginning of their next Turn. On a successful Save, they take
+      half as much Damage, and suffer no other effects.</p></td></tr><tr><td><p
+      style="text-align:center">Over-tuned Speaker</p></td><td><p>The
+      Contraption begins making a sound of your choice, loud enough to be heard
+      from 100 feet away, for up to 1 minute.</p></td></tr><tr><td><p
+      style="text-align:center">Portable Firestarter</p></td><td><p>All
+      Creatures within 10 feet of the chosen location must make a Dexterity
+      Saving Throw against your Inventor DC. On a failed Save, they take 2d8
+      Fire Damage and begin Burning. On a successful Save, they take half as
+      much Damage and do not burn. Objects within the area that are not being
+      worn or carried also begin Burning.</p></td></tr><tr><td><p
+      style="text-align:center">Universal Keycard</p></td><td><p>Choose an
+      object within 5 feet of the chosen location that is mostly electronic and
+      is locked or restricted in some way, such as a computer with a password or
+      an electronic coded lock; that lock or restriction is removed, but leaves
+      a trace that you did so. The DM has final discretion on what objects this
+      functions on.</p></td></tr><tr><td><p style="text-align:center">Unstable
+      Contraption</p></td><td><p>All Creatures within 10 feet of the chosen
+      location must make a Dexterity Saving Throw against your Inventor DC. On a
+      failed Save, they take 5d8 Thunder Damage; on a successful Save, they take
+      half as much Damage.</p></td></tr></tbody></table>
+    chat: ''
+  identifier: strange-contraption
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!yTLrHYVvFROui9I9'

@@ -1,0 +1,57 @@
+folder: u2z4V5QELoqU2yub
+name: Stone Wall
+type: feat
+_id: y8Rl93KSHY4y0SAw
+img: modules/ak5e/icons/Skill-Mechanist1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When a Creature hits you with a Melee Attack while you are wielding a
+      shield, you can attempt to knock them off Balance as a Reaction. That
+      Creature must succeed on a Strength Saving Throw against your Protector DC
+      or take 1d8 + your Constitution Modifier Bludgeoning Damage, and be
+      knocked Off Balance until the end of your next Turn.</p><p>Attacks against
+      Creatures that have been knocked Off Balance are made at
+      Advantage.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: stone-wall
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!y8Rl93KSHY4y0SAw'

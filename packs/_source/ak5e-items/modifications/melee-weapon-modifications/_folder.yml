@@ -1,0 +1,20 @@
+type: Item
+folder: 518HqbBdbnAQLYPx
+name: Melee Weapon Modifications
+color: null
+sorting: a
+_id: iC9FYNlLTOR8baLK
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407139
+  modifiedTime: 1783356432278
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!folders!iC9FYNlLTOR8baLK'

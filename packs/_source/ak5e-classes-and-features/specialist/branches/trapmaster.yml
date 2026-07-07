@@ -1,0 +1,142 @@
+folder: QJjGENx3ERG6JUY7
+name: Trapmaster
+type: subclass
+_id: xZQGyrH3xUj9vXOc
+img: modules/AK5e-Foundry-Module/icons/Trapmaster_Specialist.webp
+system:
+  advancement:
+    OdsosFicgKjzeii0:
+      type: ItemGrant
+      _id: OdsosFicgKjzeii0
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.8xHS97yH5nne8Tpm
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 1
+      hint: ''
+      title: ''
+      icon: ''
+    z6yDeFoRohClyuy2:
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.nEmvWoWjyypZ8mQZ
+            optional: false
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.ijKBw2Jhsg5DCwa5
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 5
+      hint: ''
+      title: ''
+      _id: z6yDeFoRohClyuy2
+      icon: ''
+    drKrS0kXiAOaeGI8:
+      type: ItemGrant
+      _id: drKrS0kXiAOaeGI8
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.2vxwTTzrxxoebbjl
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 11
+      hint: ''
+      title: ''
+      icon: ''
+    prdypbrhmCbjrfiE:
+      type: ItemGrant
+      _id: prdypbrhmCbjrfiE
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.qeX2L1zlea6RQW5N
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 15
+      hint: ''
+      title: ''
+      icon: ''
+    g6NCNyXHRS25L8V3:
+      type: ItemGrant
+      _id: g6NCNyXHRS25L8V3
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.qkbHhF6DE4z5qYNO
+            optional: false
+        optional: false
+        spell: null
+      flags: {}
+      value: {}
+      level: 20
+      hint: ''
+      title: ''
+      icon: ''
+  description:
+    value: >-
+      <p>To battle face to face is one thing, but to maim and kill your foe
+      without ever looking them in the eye is another entirely. Thus,
+      Trapmasters tend to fall into one of three archetypes; the insane, the
+      vindictive, and the stone cold.</p><p>You get next Branch
+      features:</p><table><tbody><tr><td
+      data-colwidth="50"><p>Level</p></td><td><p>Branch
+      Feature</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.8xHS97yH5nne8Tpm]{Environmental
+      Warfare}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">5</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.nEmvWoWjyypZ8mQZ]{Here’s
+      One I Made
+      Earlier}</p><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.ijKBw2Jhsg5DCwa5]{Panic
+      Inducer}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">11</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.2vxwTTzrxxoebbjl]{Bait
+      the Trap}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.qeX2L1zlea6RQW5N]{Agent
+      of Chaos}</p></td></tr><tr><td data-colwidth="50"><p
+      style="text-align:center">20</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.qkbHhF6DE4z5qYNO]{House
+      of Horrors}</p></td></tr></tbody></table>
+    chat: ''
+  identifier: trapmaster
+  source:
+    revision: 1
+    rules: '2024'
+  classIdentifier: specialist
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783443283766
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!xZQGyrH3xUj9vXOc'

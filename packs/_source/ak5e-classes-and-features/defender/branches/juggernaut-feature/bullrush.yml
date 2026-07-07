@@ -1,0 +1,60 @@
+folder: 8FnSIEKasDaGLsZC
+name: Bullrush
+type: feat
+_id: 0qhBmMXqFKNXdvbI
+img: modules/ak5e/icons/Skill-Zima1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>As an Action during your Turn, choose a point you can see within 30
+      feet. You move in a single straight line to that location; you can move
+      through Creatures and objects of equal size or smaller than you as part of
+      this movement. Any Creature or Object you moved through during this
+      movement must make a Dexterity Saving Throw. On a failed Save, they take
+      4d12 Bludgeoning Damage, and are knocked 10 feet directly away from you.
+      On a successful Save, they take half as much Damage, and are not knocked
+      back.</p><p>Once you have used this Feature, you may not do so again until
+      you complete a Short Rest, or expend 2 Resilience (no Action required) to
+      restore your use of it.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: bullrush
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!0qhBmMXqFKNXdvbI'

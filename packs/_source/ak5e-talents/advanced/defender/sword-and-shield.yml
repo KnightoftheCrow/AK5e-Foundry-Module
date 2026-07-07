@@ -1,0 +1,54 @@
+folder: fGpFJo0gyinCoWeF
+name: Sword and shield
+type: feat
+img: modules/ak5e/icons/Skill-C3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When you hit a Creature with an Attack, you can grant a Creature you
+      can see within 15 feet 1 Skill Point.</p><p><strong>Module:</strong> You
+      instead grant 2 Skill Points.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: sword-and-shield
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358693645
+  modifiedTime: 1783358693665
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: OrUukPCBLnVA4dhk
+sort: 381250
+_key: '!items!OrUukPCBLnVA4dhk'

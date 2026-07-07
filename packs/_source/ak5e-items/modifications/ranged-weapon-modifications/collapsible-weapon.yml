@@ -1,0 +1,74 @@
+folder: wTkeoeJjxbPHcfdK
+name: Collapsible Weapon
+type: consumable
+_id: K7D34vLLUlOYgT6p
+img: modules/ak5e/icons/Skill-Magallan2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Item:</strong> Ranged Weapon</p><p>This weapon has been
+      modified so as to be able to compress down into a state easy for
+      concealment. The wielder may activate this Modification as an Action; the
+      weapon folds down into a form roughly half of its previous size.
+      Additionally, it folds into an appropriate disguise for its new size; a
+      rifle may become a briefcase, for example. If the weapon is used to Attack
+      in this form, it is treated as being an improvised melee weapon; the
+      wielder may return the weapon to its previous form as a Bonus Action.</p>
+    chat: ''
+  identifier: collapsible-weapon
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.sdsaClRzJVAYwIEC
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407163
+  modifiedTime: 1783356407163
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!K7D34vLLUlOYgT6p'

@@ -1,0 +1,63 @@
+folder: F7xt8Er4yJgI2eaK
+name: Show your Style
+type: feat
+_id: dh2vyTuO6FszNmt9
+img: modules/ak5e/icons/Skill-Tragodia2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>As a Specialist, you do one thing, and you do it very well; you love
+      nothing more than exercising that talent. This talent is represented by
+      your Prowess.</p><p><strong>Gaining Prowess.</strong> Your maximum Prowess
+      is equal to your Proficiency Bonus. You gain 1 Prowess whenever you
+      complete a Short or Long Rest. You can additionally gain Prowess by
+      fulfilling conditions based on your Specialist Branch, outlined in that
+      Branch.</p><p><strong>Spending Prowess.</strong> You can expend your
+      Prowess for the option presented here, or for any other Feature that
+      requires it.</p><p><strong>Mark of a Specialist.</strong> When you fail on
+      a Skill Check using a Skill you are Proficient in, you may expend 1
+      Prowess to reroll the result of that Check, possibly turning it into a
+      success. If you still fail the Check, your Prowess is refunded, but you
+      cannot reroll that Check again.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: show-your-style
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 4
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358951919
+  modifiedTime: 1783358951919
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!dh2vyTuO6FszNmt9'

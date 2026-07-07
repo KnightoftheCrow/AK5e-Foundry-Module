@@ -1,0 +1,59 @@
+folder: fGpFJo0gyinCoWeF
+name: Dominus
+type: feat
+img: modules/ak5e/icons/Skill-CorruptingHeart3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Once per Short Rest, as a Bonus Action, you can force hostile Creatures
+      within a 30-foot cone originating from you to make a Wisdom Saving Throw
+      against your Martial DC. On a failed Save, they are Frightened of you
+      until the end of their next Turn. On a successful Save, their Movement
+      Speed is reduced by half (rounding up) until the end of their next
+      Turn.</p><p><strong>Module:</strong> Your Attacks against Frightened
+      Creatures deal an additional die of Damage.</p><p><strong>Not
+      automated.</strong></p>
+    chat: ''
+  identifier: dominus
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358677687
+  modifiedTime: 1783358677704
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: gNt00l4uGQDZr3sl
+sort: 200000
+_key: '!items!gNt00l4uGQDZr3sl'

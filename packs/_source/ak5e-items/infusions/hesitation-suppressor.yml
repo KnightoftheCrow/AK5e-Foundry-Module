@@ -1,0 +1,69 @@
+folder: N0czhwLyeXNGiB65
+name: Hesitation Suppressor
+type: consumable
+_id: 0DBQkCq2DHGfGMxw
+img: icons/consumables/potions/bottle-bulb-corked-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Leverage Condition:</strong> As a Reaction when the Creature
+      forces a hostile Creature to make a Saving Throw.</p><p>The Creature rolls
+      1d4; the DC of that Saving Throw is increased by the amount rolled.</p>
+    chat: ''
+  identifier: hesitation-suppressor
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0.1
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: potion
+    subtype: ''
+effects: []
+sort: -100000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.LcpFD10Dexn04IV0
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356403849
+  modifiedTime: 1783356403849
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!0DBQkCq2DHGfGMxw'

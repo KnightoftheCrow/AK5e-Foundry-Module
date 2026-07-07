@@ -1,0 +1,72 @@
+folder: wTkeoeJjxbPHcfdK
+name: Safety Removal
+type: consumable
+_id: Gx59Tza6wUNH3YkK
+img: modules/ak5e/icons/Skill-Magallan2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p>Item: A Ranged Weapon with the Firearm Property</p><p>The safety
+      protocols for this weapon have been “adjusted”. When the wielder takes the
+      Attack Action while wielding this weapon, they may activate this
+      Modification (no Action required). They may make one additional Attack
+      with this weapon as part of that Attack Action, but all Attacks they make
+      as part of that Action are made at Disadvantage.</p>
+    chat: ''
+  identifier: safety-removal
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 450000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.9Zo6NJWK1lXlXJV9
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407163
+  modifiedTime: 1783356407163
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!Gx59Tza6wUNH3YkK'

@@ -1,0 +1,51 @@
+folder: 79ZspRBEAt515C3p
+name: True Fang
+type: feat
+img: modules/ak5e/icons/Skill-Crownslayer1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: "<p>When you make an Attack with a Knife, you can choose to take a -5 Penalty to that Attack Roll. If you do, that Attack ignores any Damage Reduction on the target of that Attack.\t</p><p><strong>Module:</strong> Additionally, that Attack ignores Resistance to Physical Damage.</p><p><strong>Not Automated.</strong></p><p></p>"
+    chat: ''
+  identifier: true-fang
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357617263
+  modifiedTime: 1783357617281
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: 3TvSrln1QTd9h8pd
+sort: 187500
+_key: '!items!3TvSrln1QTd9h8pd'

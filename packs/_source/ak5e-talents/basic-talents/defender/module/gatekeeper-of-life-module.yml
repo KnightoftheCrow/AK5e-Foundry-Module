@@ -1,0 +1,55 @@
+folder: zLS0Nt8r6PPuDuKr
+name: Gatekeeper of life (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Chestnut1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> When you use this Feature, you may choose to
+      use either the original or new result of a dice you
+      rerolled.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: gatekeeper-of-life-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - gatekeeper-of-life
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357979397
+  modifiedTime: 1783357979418
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: gBXXDmJJVb8EpExL
+sort: 275000
+_key: '!items!gBXXDmJJVb8EpExL'

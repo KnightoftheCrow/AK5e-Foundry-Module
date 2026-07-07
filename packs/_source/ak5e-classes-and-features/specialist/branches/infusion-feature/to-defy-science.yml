@@ -1,0 +1,56 @@
+folder: fnNi4KXioyJ542O7
+name: To Defy Science
+type: feat
+_id: Uhlw9ysKcC9XxNw3
+img: modules/ak5e/icons/Skill-TinMan2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Your Alchemical Concoctions have developed so far as to appear as
+      magic.</p><p>As an Action, you can choose a Creature you can see within 30
+      feet; that Creature cannot lose Hit Points for the next minute, as if they
+      were under the effect of Invulnerability.</p><p>Once you have used this
+      Feature, you may not do so again until you have completed a Long
+      Rest.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: to-defy-science
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 20
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!Uhlw9ysKcC9XxNw3'

@@ -1,0 +1,60 @@
+folder: fxf6t1P5taaOdbmA
+name: Savage Attacker
+type: feat
+img: modules/ak5e/icons/Skill-Siege1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Once per Turn, when you deal Damage as a result of an Attack, you can
+      roll the Damage for that Attack twice and choose which of the results you
+      want.</p><p><strong>Module:</strong> When you use this Feature, that
+      Attack deals additional Damage equal to your Proficiency
+      Bonus.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: savage-attacker
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357161093
+  modifiedTime: 1783357161110
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: OnkOPRF512iHy7Vm
+sort: 400000
+_key: '!items!OnkOPRF512iHy7Vm'

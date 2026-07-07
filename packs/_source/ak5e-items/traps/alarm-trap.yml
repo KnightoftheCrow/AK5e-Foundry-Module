@@ -1,0 +1,71 @@
+folder: 2akLoYEVmJNdfiYv
+name: Alarm Trap
+type: consumable
+_id: HLC9t6EIrsxo7RT1
+img: modules/ak5e/icons/Skill-W2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Set Up:</strong> You set an Alarm Trap in a line up to 10 foot
+      long and 1 foot wide. When a Creature enters the area, they trigger the
+      Trap. This Trap can be triggered multiple times.</p><p><strong>On
+      Trigger:</strong> A loud sound is produced, capable of being heard clearly
+      up to 300 feet away.</p>
+    chat: ''
+  identifier: alarm-trap
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.EoTq00NhPTxTFU2u
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356408232
+  modifiedTime: 1783356408232
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!HLC9t6EIrsxo7RT1'

@@ -1,0 +1,229 @@
+folder: Wj6EO6CTbuEADq9N
+name: Venom Fang
+type: feat
+img: modules/ak5e/icons/Skill-Qiubai3.webp
+system:
+  activities:
+    n8IyTQee5WxkyYJy:
+      type: utility
+      name: Venom Fang
+      _id: n8IyTQee5WxkyYJy
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '35'
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: enemy
+          count: '1'
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+        identifier: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      useConditionText: ''
+      useConditionReason: ''
+      effectConditionText: ''
+      macroData:
+        name: ''
+        command: ''
+      ignoreTraits:
+        idi: false
+        idr: false
+        idv: false
+        ida: false
+        idm: false
+      midiProperties:
+        ignoreTraits: []
+        triggeredActivityId: none
+        triggeredActivityConditionText: ''
+        triggeredActivityTargets: targets
+        triggeredActivityRollAs: self
+        triggeredActivityConsume: true
+        triggeredActivityConfigure: true
+        autoConsume: true
+        forceConsumeDialog: default
+        forceRollDialog: default
+        forceDamageDialog: default
+        confirmTargets: default
+        autoTargetType: any
+        autoTargetAction: default
+        automationOnly: false
+        otherActivityCompatible: true
+        otherActivityAsParentType: true
+        identifier: ''
+        displayActivityName: false
+        rollMode: default
+        chooseEffects: false
+        toggleEffect: false
+        ignoreFullCover: false
+        removeChatButtons: default
+        magicEffect: false
+        magicDamage: false
+        noConcentrationCheck: false
+        skipConcentrationCheck: false
+        autoCEEffects: default
+      isOverTimeFlag: false
+      overTimeProperties:
+        saveRemoves: true
+        rollAs: target
+        preRemoveConditionText: ''
+        postRemoveConditionText: ''
+      otherActivityId: none
+      otherActivityAsParentType: true
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <ul><li><p><strong>Name</strong>: Venom Fang.</p></li><li><p><strong>SP
+      Cost:</strong> 35.</p></li><li><p><strong>Start SP:</strong>
+      20.</p></li><li><p><strong>Charging:</strong>
+      Automatic.</p></li><li><p><strong>Activation Cost:</strong> Bonus
+      Action.</p></li><li><p><strong>Effect:</strong> You may activate this
+      Skill when you hit a Creature with a Weapon Attack; that Creature must
+      make a Constitution Saving Throw against your Martial DC. On a failed
+      Save, they take 3d8 Poison Damage, and suffer the Poisoned Condition. On a
+      successful Save, they take half as much Damage, and are not Poisoned. A
+      Poisoned Creature may reattempt the Saving Throw at the end of each of
+      their Turns, ending the effect on a successful Save, or taking 2d8 Poison
+      Damage on a failed Save.</p></li><li><p><strong>Duration:</strong>
+      Instant.</p></li></ul><p><strong>Not Automated:</strong> Use for tracking
+      purpose.</p>
+    chat: ''
+  identifier: venom-fang
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 7
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects:
+  - name: Venom Fang (Skill Points)
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    origin: Item.KPB8V2vrNkBQ43jc
+    type: base
+    _id: jSkKpz9w4MySMhgK
+    system: {}
+    changes:
+      - key: system.scale.skillPoints.recovery
+        mode: 4
+        value: '20'
+        priority: 20
+      - key: system.scale.skillPoints.maxsp
+        mode: 4
+        value: '35'
+        priority: 20
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+      dae:
+        disableCondition: ''
+        stackable: noneName
+        showIcon: false
+        disableIncapacitated: false
+        durationExpression: ''
+        macroRepeat: none
+        specialDuration: []
+      core:
+        overlay: false
+      automated-conditions-5e:
+        ac5eChangeRows: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dnd5e
+      systemVersion: 5.3.0
+      lastModifiedBy: null
+    _key: '!items.effects!OAQ2wIxtKYiGN6sH.jSkKpz9w4MySMhgK'
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356644983
+  modifiedTime: 1783356645002
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: OAQ2wIxtKYiGN6sH
+sort: 287500
+_key: '!items!OAQ2wIxtKYiGN6sH'

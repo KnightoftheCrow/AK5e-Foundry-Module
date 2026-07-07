@@ -1,0 +1,61 @@
+folder: MXgB3kytlZWyeJi9
+name: Against the Storm
+type: feat
+_id: AKP43YGj6KvrLj0f
+img: modules/ak5e/icons/Skill-Heidi2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You develop tactics for countering Arts Users, resisting their powers
+      and employing their own strength against them. You gain the following
+      benefits:</p><ul><li><p><strong>Arts Resistance.</strong> You have
+      Advantage on Saving Throws made against
+      Arts.</p></li><li><p><strong>Spellshield.</strong> Creatures benefitting
+      from your Shelter Feature have Advantage on Saving Throws against Arts you
+      can see. Additionally, if a Creature benefitting from your Shelter Feature
+      would take half Damage as a result of succeeding on a Saving Throw against
+      an Art you can see, you can expend 2 Resilience (no Action required) to
+      cause them to take no damage from that Art
+      instead.</p></li></ul><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: against-the-storm
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: skillPoints
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358934901
+  modifiedTime: 1783358934901
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!AKP43YGj6KvrLj0f'

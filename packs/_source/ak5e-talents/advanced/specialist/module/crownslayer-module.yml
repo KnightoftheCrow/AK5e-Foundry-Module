@@ -1,0 +1,55 @@
+folder: EjQr1CtCkHNEpvzS
+name: Crownslayer (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Crownslayer3.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module:</strong> If you are not in combat, and roll to
+      determine Damage dealt by you, treat any result of 1 or 2 on the dice as a
+      3.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: crownslayer-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - crownslayer
+    repeatable: false
+    level: 13
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357601107
+  modifiedTime: 1783357601126
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: rniHs3SXvIdbhMLU
+sort: 100000
+_key: '!items!rniHs3SXvIdbhMLU'

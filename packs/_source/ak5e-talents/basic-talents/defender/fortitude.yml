@@ -1,0 +1,60 @@
+folder: TL00PBquhzkf6sDn
+name: Fortitude
+type: feat
+img: modules/ak5e/icons/Skill-Blemishine1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>When another Creature rolls to cause you to regain Hit Points, they
+      roll 1 additional dice; you recover additional Hit Points equal to the
+      result of this dice.</p><p><strong>Module: </strong>Creatures rolling to
+      restore Hit Points to you roll 2 additional dice
+      instead.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: fortitude
+  source:
+    revision: 1
+    rules: '2024'
+    book: ''
+    page: ''
+    custom: ''
+    license: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 3
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357974720
+  modifiedTime: 1783357974740
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: IYY8fwd11382Ff9d
+sort: 250000
+_key: '!items!IYY8fwd11382Ff9d'

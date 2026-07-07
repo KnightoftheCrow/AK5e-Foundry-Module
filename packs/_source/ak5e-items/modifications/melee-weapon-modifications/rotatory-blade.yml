@@ -1,0 +1,74 @@
+folder: iC9FYNlLTOR8baLK
+name: Rotatory Blade
+type: consumable
+_id: tTWAGjyrdvpMxube
+img: modules/ak5e/icons/Skill-Magallan1.png
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    autoDestroy: false
+    max: ''
+  description:
+    value: >-
+      <p><strong>Item:</strong> Melee Weapon that deals Slashing or Piercing
+      Damage</p><p>A terrifying rotary component is attached to the weapon,
+      tearing through flesh with sickening ease. Once per Turn when the wielder
+      hits a Creature with a Melee Attack using this Weapon, they may activate
+      this Modification (no Action required); that Attack deals one additional
+      die of Slashing Damage. The hit Creature must also succeed on a Dexterity
+      Saving Throw against your Inventor DC or suffer the Bleeding
+      Condition.</p>
+    chat: ''
+  identifier: rotatory-blade
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: credits
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  damage:
+    base:
+      types: []
+      custom:
+        enabled: false
+      scaling:
+        number: 1
+    replace: false
+  properties: []
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 81250
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.RXyLk3JYQKF2rg5d
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783356407163
+  modifiedTime: 1783356407163
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!tTWAGjyrdvpMxube'

@@ -1,0 +1,56 @@
+folder: fGpFJo0gyinCoWeF
+name: Self defence
+type: feat
+img: modules/ak5e/icons/Skill-Breeze2.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>While you have an Active Operator Skill, you gain Temporary Hit Points
+      at the beginning of your Turn equal to your Proficiency
+      Bonus.</p><p><strong>Module:</strong> The amount of Temporary Hit Points
+      you gain from this Feature is doubled.</p><p><strong>Not
+      automated.</strong></p>
+    chat: ''
+  identifier: self-defence
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 9
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358692474
+  modifiedTime: 1783358692492
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: x7Qv6wc5hpPREBxG
+sort: 387500
+_key: '!items!x7Qv6wc5hpPREBxG'

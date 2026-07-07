@@ -1,0 +1,59 @@
+folder: c1EQsN3JLDePX4rN
+name: Mobile Modding
+type: feat
+_id: f6YCGaZeMwnMlNYP
+img: modules/ak5e/icons/Skill-FoldableFacilityMaintainer.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>You can expend 1 Prowess as an Action to choose a willing Creature
+      within 5 feet of you; you may immediately apply one Modification of your
+      choice to a piece of equipment they are wielding or wearing. This
+      Modification does not cost an Invention, and expires after a
+      minute.</p><p><strong>Gaining Prowess as an Inventor.</strong> As an
+      Inventor, you gain 1 Prowess whenever a Creature who has activated one of
+      your Modification this Turn reduces a Creature to 0 Hit Points. You can
+      only gain Prowess in this way once per Turn.</p><p><strong>Not
+      Automated.</strong></p>
+    chat: ''
+  identifier: mobile-modding
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 5
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!f6YCGaZeMwnMlNYP'

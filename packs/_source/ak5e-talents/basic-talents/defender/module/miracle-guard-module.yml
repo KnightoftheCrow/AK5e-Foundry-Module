@@ -1,0 +1,54 @@
+folder: zLS0Nt8r6PPuDuKr
+name: Miracle Guard (Module)
+type: feat
+img: modules/ak5e/icons/Skill-Blitz1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p><strong>Module: </strong>The threshold for Attacks to miss you becomes
+      3 + your Proficiency Bonus.</p><p><strong>Not automated.</strong></p>
+    chat: ''
+  identifier: miracle-guard-module
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items:
+      - miracle-guard
+    repeatable: false
+    level: 8
+  properties:
+    - trait
+  requirements: ''
+  type:
+    value: class
+    subtype: talent
+effects: []
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783357988392
+  modifiedTime: 1783357988409
+  lastModifiedBy: 27ikDz77N89hVLvM
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+_id: Pl7gcBQpbPiX3UOQ
+sort: 187500
+_key: '!items!Pl7gcBQpbPiX3UOQ'

@@ -1,0 +1,58 @@
+folder: fnNi4KXioyJ542O7
+name: Excessive Dosing
+type: feat
+_id: 4jsOJOvBmfUWzulF
+img: modules/ak5e/icons/Skill-TinMan1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>Your toxins reach new heights of lethality, much to your joy. You gain
+      the following benefits:</p><p><strong>Succumb.</strong> The DC of your
+      Toxins is increased by your Proficiency Bonus.</p><p><strong>Toxic
+      Shock</strong>. Creatures that fail a Saving Throw against your Toxins are
+      now additionally Poisoned for the same duration as that Toxin’s
+      Conditions. If the Toxin does not apply a Condition upon failing the
+      Saving Throw (such as Haemotoxin), they are instead Poisoned until the end
+      of their next Turn.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: excessive-dosing
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 15
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!4jsOJOvBmfUWzulF'

@@ -1,0 +1,66 @@
+folder: GEE9J6di2smOxKgx
+name: Take Flight
+type: feat
+_id: mFlEn0zBWbRslklu
+img: modules/ak5e/icons/Skill-Skybox1.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  advancement: {}
+  description:
+    value: >-
+      <p>The field of avionics in Terra is stumbling and childish; like Icarus,
+      you have burst beyond the bounds of safety. Only time will tell if you
+      follow his example.</p><p><strong>Flight Suit.</strong> When you choose
+      this Branch, a Flight Suit is added to your starting equipment; replacing
+      a Flight Suit costs 650 LMD and 24 hours of crafting time.</p><p>A Flight
+      Suit is Light Armour with an AC of 12 + your Dexterity Modifier, 0 DR, and
+      a weight of 25lb.</p><p>While any Creature with Light Armour Proficiency
+      can wear a Flight Suit, only Creatures with the Take Flight Feature can
+      use it to fly.</p><p><strong>Fuel.</strong> You have a special resource
+      called Fuel that you use to power your flight and some of your other
+      Features; the maximum amount of Fuel you have increases with your
+      Specialist Level, as shown in the Skyranger Features Table. You regain all
+      expended Fuel when you finish a Long Rest.</p><p><strong>Take
+      Off.</strong> As a Bonus Action while you are wearing your Flight Suit,
+      you can expend 1 Fuel to grant yourself a Flying Speed equal to your
+      Walking Speed for 1 minute.</p><p><strong>Not Automated.</strong></p>
+    chat: ''
+  identifier: take-flight
+  source:
+    revision: 1
+    rules: '2024'
+  crewed: false
+  enchant: {}
+  prerequisites:
+    items: []
+    repeatable: false
+    level: 1
+  properties: []
+  requirements: ''
+  type:
+    value: class
+    subtype: ''
+effects: []
+sort: 600000
+ownership:
+  default: 0
+  27ikDz77N89hVLvM: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dnd5e
+  systemVersion: 5.3.0
+  createdTime: 1783358953798
+  modifiedTime: 1783358953798
+  lastModifiedBy: 27ikDz77N89hVLvM
+_key: '!items!mFlEn0zBWbRslklu'
