@@ -2,7 +2,7 @@ folder: 7G1D42jSHLcgp1sX
 name: Higashi
 type: ak5e.nationality
 _id: CeJOFhm4NVAUHafj
-img: modules/ak5e/icons/nationality/nationality.svg
+img: modules/AK5e-Foundry-Module/icons/nationality/nationality.svg
 system:
   filePathFields:
     advancement.*.icon:
@@ -41,7 +41,8 @@ system:
       _id: rzFHcerMduc12zjR
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.hXmiSHTFhJuH8BwZ
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.hXmiSHTFhJuH8BwZ
             optional: false
         optional: false
         spell: null

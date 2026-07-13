@@ -112,7 +112,7 @@ system:
     spent: 0
     recovery: []
     max: '20'
-  advancement: []
+  advancement: {}
   description:
     value: ''
     chat: ''
@@ -138,7 +138,7 @@ system:
 effects:
   - name: Missile Barrier Deflect
     img: icons/magic/light/projectile-smoke-blue-white.webp
-    origin: Compendium.ak5e.ak5e-arts.Item.S9bBvBQSRuoCG2Rh
+    origin: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.S9bBvBQSRuoCG2Rh
     _id: xJhV3kHC3xJYO1H9
     type: base
     system: {}
@@ -200,10 +200,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.2
+  systemVersion: 5.3.0
   createdTime: 1758294164151
-  modifiedTime: 1758296784831
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457746774
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!S9bBvBQSRuoCG2Rh'

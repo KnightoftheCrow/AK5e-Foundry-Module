@@ -2,7 +2,7 @@ folder: q1MrBsepLJyJ9ezj
 name: Adrenal Overloader
 type: consumable
 _id: j1borMlzoNzqilHU
-img: modules/ak5e/icons/Skill-Magallan3.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Magallan3.webp
 system:
   activities: {}
   uses:
@@ -60,7 +60,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-items.Item.ZjqvhMn5XrITrXJ2
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.ZjqvhMn5XrITrXJ2
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

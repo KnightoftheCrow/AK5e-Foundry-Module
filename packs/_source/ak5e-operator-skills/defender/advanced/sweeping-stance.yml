@@ -1,7 +1,7 @@
 folder: R2AhxUbx0IYKQ6JZ
 name: Sweeping Stance
 type: feat
-img: modules/ak5e/icons/Skill-WindChimes2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-WindChimes2.webp
 system:
   activities:
     tj3VhPyxHCbHNuAM:
@@ -21,7 +21,8 @@ system:
         targets:
           - type: itemUses
             value: '35'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -154,8 +155,8 @@ system:
     subtype: ''
 effects:
   - name: Sweeping Stance (Skill Points)
-    img: modules/ak5e/icons/Skill-WindChimes2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.R3iMInQKCYTIkC5D
+    img: modules/AK5e-Foundry-Module/icons/Skill-WindChimes2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.R3iMInQKCYTIkC5D
     type: base
     _id: oVJwJcZSRmqInCGq
     system: {}

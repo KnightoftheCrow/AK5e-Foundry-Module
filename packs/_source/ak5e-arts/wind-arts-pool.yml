@@ -9,13 +9,14 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: ItemGrant
+    hOcBNrk9NoZlmRR7:
+      type: ItemGrant
       _id: hOcBNrk9NoZlmRR7
       configuration:
         items:
           - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplThundercla
             optional: false
-          - uuid: Compendium.ak5e.ak5e-arts.Item.iXIF2y6tWSFHniNY
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.iXIF2y6tWSFHniNY
             optional: false
         optional: false
         spell:
@@ -30,7 +31,9 @@ system:
       level: 0
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    NABo3MwY4iduxq7N:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.zPGohqJRir6MyQ3U
@@ -53,12 +56,14 @@ system:
       title: ''
       hint: ''
       _id: NABo3MwY4iduxq7N
-    - type: ItemGrant
+      flags: {}
+    IXt1si7dhdRwfgKW:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz
             optional: false
-          - uuid: Compendium.ak5e.ak5e-arts.Item.zJ6pJA7nsedvmaWp
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.zJ6pJA7nsedvmaWp
             optional: false
         optional: false
         spell:
@@ -74,7 +79,9 @@ system:
       title: ''
       hint: ''
       _id: IXt1si7dhdRwfgKW
-    - type: ItemGrant
+      flags: {}
+    jMthAthuKu3jDmob:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.yfbK8gZqESlaoY5t
@@ -97,7 +104,9 @@ system:
       title: ''
       hint: ''
       _id: jMthAthuKu3jDmob
-    - type: ItemGrant
+      flags: {}
+    C7IWnQmAB9J6cUaJ:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.LkvI11Uue774QBKZ
@@ -116,7 +125,9 @@ system:
       title: ''
       hint: ''
       _id: C7IWnQmAB9J6cUaJ
-    - type: ItemGrant
+      flags: {}
+    soeQVL26jp0JRVpB:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.8PJAsHmbu6UgDHC0
@@ -135,7 +146,9 @@ system:
       title: ''
       hint: ''
       _id: soeQVL26jp0JRVpB
-    - type: ItemGrant
+      flags: {}
+    2nENPeY91lFOuI7W:
+      type: ItemGrant
       configuration:
         items: []
         optional: false
@@ -152,7 +165,9 @@ system:
       title: ''
       hint: ''
       _id: 2nENPeY91lFOuI7W
-    - type: ItemGrant
+      flags: {}
+    TvX8kmCZwEUSVT85:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.ZPd73HtKF3At11jh
@@ -171,10 +186,12 @@ system:
       title: ''
       hint: ''
       _id: TvX8kmCZwEUSVT85
-    - type: ItemGrant
+      flags: {}
+    tfgARHFzs7NG6V1w:
+      type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.MZiCUrca9sh1LsnG
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.MZiCUrca9sh1LsnG
             optional: false
         optional: false
         spell:
@@ -190,7 +207,9 @@ system:
       title: ''
       hint: ''
       _id: tfgARHFzs7NG6V1w
-    - type: ItemGrant
+      flags: {}
+    W1yGOF6IK8Z29WFw:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT
@@ -209,6 +228,7 @@ system:
       title: ''
       hint: ''
       _id: W1yGOF6IK8Z29WFw
+      flags: {}
   description:
     value: >-
       <p>Wind Arts and Spatial Arts are, erroneously, sometimes considered one
@@ -272,10 +292,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1770836589017
-  modifiedTime: 1771159245567
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457746615
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

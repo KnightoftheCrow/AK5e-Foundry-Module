@@ -1,7 +1,7 @@
 folder: 5ej4KENJRk8I9Ksg
 name: Dig In (Module)
 type: feat
-img: modules/ak5e/icons/Skill-Misery3.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Misery3.webp
 system:
   activities:
     ODqzUQYlixEwDEzw:
@@ -114,7 +114,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module:</strong> While you are benefitting from this Feature,
@@ -144,8 +144,8 @@ system:
     subtype: talent
 effects:
   - name: Dig In (Module)
-    img: modules/ak5e/icons/Skill-Misery3.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.qcmSYeDAL35mcvws
+    img: modules/AK5e-Foundry-Module/icons/Skill-Misery3.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.qcmSYeDAL35mcvws
     _id: wAmBXH45NpQNHGEW
     type: base
     system: {}
@@ -218,9 +218,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767988216432
-  modifiedTime: 1783247735918
+  modifiedTime: 1783457745890
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

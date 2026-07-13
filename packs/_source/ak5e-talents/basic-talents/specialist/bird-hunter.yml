@@ -1,7 +1,7 @@
 folder: fxf6t1P5taaOdbmA
 name: Bird Hunter
 type: feat
-img: modules/ak5e/icons/Skill-GreyThroat1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-GreyThroat1.webp
 system:
   activities:
     mIiFxYnmN58iR2Zg:
@@ -149,7 +149,7 @@ system:
     subtype: talent
 effects:
   - name: Bird Hunter
-    img: modules/ak5e/icons/Skill-GreyThroat1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-GreyThroat1.webp
     origin: Item.HiEAgOTHD7e9oAYP
     _id: B1hAzrYD0YwWrntZ
     type: base

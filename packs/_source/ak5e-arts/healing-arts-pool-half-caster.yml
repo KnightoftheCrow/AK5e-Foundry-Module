@@ -35,7 +35,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.GU9ds85obdqS09Og
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.GU9ds85obdqS09Og
             optional: false
         optional: false
         spell:
@@ -57,7 +57,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.ak5e.ak5e-arts.Item.B13BiCPrOXQho7go
+            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.B13BiCPrOXQho7go
           - optional: false
             uuid: Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV
           - optional: false
@@ -91,7 +91,7 @@ system:
           - optional: false
             uuid: Compendium.dnd5e.spells24.Item.phbsplMassHealin
           - optional: false
-            uuid: Compendium.ak5e.ak5e-arts.Item.zhosE2rOMnoBnaoD
+            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.zhosE2rOMnoBnaoD
         optional: false
         spell:
           ability: []

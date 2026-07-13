@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <h3>Partially Amphibious</h3><p>The Anura are not a purely water-dwelling
@@ -50,10 +50,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680290139
-  modifiedTime: 1768680290139
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457736186
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!WdESLwHzQFKwPLhW'

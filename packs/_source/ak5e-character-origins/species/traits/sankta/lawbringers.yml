@@ -11,7 +11,7 @@ system:
       - period: lr
         type: recoverAll
     max: '@prof'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <h3>Lawbringers</h3><p>The Sankta tend to prefer ranged combat, not out of
@@ -45,7 +45,8 @@ system:
 effects:
   - name: Lawbringers
     img: icons/skills/ranged/target-bullseye-arrow-white.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.YVG3GfEuK7uT3eFU
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.YVG3GfEuK7uT3eFU
     _id: CI8Ad3E0McgsgrcY
     type: base
     system: {}
@@ -127,10 +128,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680322247
-  modifiedTime: 1768680322247
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457736396
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!YVG3GfEuK7uT3eFU'

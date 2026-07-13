@@ -5,7 +5,8 @@ _id: OcxukcsqJ7ErjxKU
 img: icons/creatures/abilities/bear-roar-bite-brown.webp
 system:
   advancement:
-    - type: AbilityScoreImprovement
+    oocKH4l7bU4bkoQr:
+      type: AbilityScoreImprovement
       _id: oocKH4l7bU4bkoQr
       configuration:
         cap: 1
@@ -26,29 +27,40 @@ system:
       level: 0
       title: ''
       hint: ''
-    - type: Size
+      flags: {}
+    rxICqusEoVEUDE1K:
+      type: Size
       _id: rxICqusEoVEUDE1K
       configuration:
         sizes:
           - med
       level: 0
       value: {}
-    - type: ItemGrant
+      flags: {}
+      hint: ''
+    Zt41211tBtzzQ5FC:
+      type: ItemGrant
       _id: Zt41211tBtzzQ5FC
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.TtgHIUxVhANgC74k
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.TtgHIUxVhANgC74k
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.wT8eFdglCGldsRtT
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.wT8eFdglCGldsRtT
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1TxciocDhjUUeXjV
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1TxciocDhjUUeXjV
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>Ursi (Singular: Ursus) are the largest and most physically powerful of
@@ -157,8 +169,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680535308
-  modifiedTime: 1771157995092
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457735470
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!OcxukcsqJ7ErjxKU'

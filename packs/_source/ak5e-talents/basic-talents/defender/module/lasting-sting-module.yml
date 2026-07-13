@@ -1,7 +1,7 @@
 folder: zLS0Nt8r6PPuDuKr
 name: Lasting Sting (Module)
 type: feat
-img: modules/ak5e/icons/Skill-Verdant1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Verdant1.webp
 system:
   activities:
     IN4DlZiKB9IKzFYX:
@@ -140,7 +140,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.EUHCD2cxipRq5Gox
+      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.EUHCD2cxipRq5Gox
     repeatable: false
     level: 8
   properties:
@@ -151,7 +151,7 @@ system:
     subtype: talent
 effects:
   - name: Lasting Sting (Module)
-    img: modules/ak5e/icons/Skill-Verdant1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Verdant1.webp
     origin: Item.kt0BlzigWG0y3uBu
     transfer: false
     _id: 7YlWHcw7ntmP88uU

@@ -1,7 +1,7 @@
 folder: 0FE7flvsguisj29c
 name: Stand Behind Me
 type: feat
-img: modules/ak5e/icons/Skill-Vetochki1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Vetochki1.webp
 system:
   activities: {}
   uses:
@@ -37,7 +37,8 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.VmggYqmsw5HYuZc7
+  compendiumSource: >-
+    Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.VmggYqmsw5HYuZc7
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

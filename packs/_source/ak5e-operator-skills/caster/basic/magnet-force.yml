@@ -1,7 +1,7 @@
 folder: wMYv1txZ65AOCzbH
 name: Magnet Force
 type: feat
-img: modules/ak5e/icons/Skill-Arene2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Arene2.webp
 system:
   activities:
     ad8IKEhEcM1DeKK5:
@@ -19,7 +19,8 @@ system:
         targets:
           - type: itemUses
             value: '15'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -367,7 +368,8 @@ system:
         targets:
           - type: itemUses
             value: '20'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -425,7 +427,7 @@ system:
         - count: ''
           name: ''
           _id: NvvL12paYjOMolUZ
-          uuid: Compendium.ak5e.ak5e-bestiary.Actor.v4RiQhDGNlNHfdTp
+          uuid: Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.v4RiQhDGNlNHfdTp
           level:
             min: null
             max: null
@@ -484,7 +486,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -525,8 +527,8 @@ system:
     subtype: opSkill
 effects:
   - name: Magnet Force (Skill Points)
-    img: modules/ak5e/icons/Skill-Arene2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.19etoBmlzyPep3BX
+    img: modules/AK5e-Foundry-Module/icons/Skill-Arene2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.19etoBmlzyPep3BX
     _id: flx7lohMTgQh5EDM
     type: base
     system: {}
@@ -569,7 +571,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -579,7 +581,7 @@ effects:
     _key: '!items.effects!19etoBmlzyPep3BX.flx7lohMTgQh5EDM'
   - type: enchantment
     name: Levitated Weapon
-    img: modules/ak5e/icons/Skill-Arene2.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Arene2.webp
     disabled: true
     _id: dQVLYHhUEtRxaOQ5
     system: {}
@@ -634,11 +636,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.Oaduiib94lWlaKsX
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1772826442350
-  modifiedTime: 1772826442350
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457741813
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: 19etoBmlzyPep3BX
 _key: '!items!19etoBmlzyPep3BX'

@@ -1,7 +1,7 @@
 folder: YSYBaEbbvAZsJUrT
 name: Weapon Binding (CHA)
 type: feat
-img: modules/ak5e/icons/Skill-Honeyberry2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Honeyberry2.webp
 system:
   activities:
     BU4lmgHpWxhSpKKf:
@@ -125,7 +125,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You learn to imprint your Arts onto a Weapon to bettermanipulate
@@ -184,7 +184,7 @@ system:
 effects:
   - type: enchantment
     name: Bound Weapon
-    img: modules/ak5e/icons/Skill-Honeyberry2.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Honeyberry2.webp
     disabled: true
     _id: C1e9yrcomaxzHkoo
     system: {}
@@ -240,8 +240,9 @@ effects:
       modifiedTime: 1768005019243
     _key: '!items.effects!k7ggEwcJBqsr0iKu.C1e9yrcomaxzHkoo'
   - name: Weapon Binding
-    img: modules/ak5e/icons/Skill-Honeyberry2.webp
-    origin: Compendium.ak5e.ak5e-classes-and-features.Item.k7ggEwcJBqsr0iKu
+    img: modules/AK5e-Foundry-Module/icons/Skill-Honeyberry2.webp
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.k7ggEwcJBqsr0iKu
     _id: 5570pjXcd76VgWBZ
     type: base
     system: {}
@@ -302,10 +303,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767824271643
-  modifiedTime: 1767876219538
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457740616
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

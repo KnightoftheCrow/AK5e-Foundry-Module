@@ -2,7 +2,7 @@ folder: mhhCPYRgjBzheVER
 name: Deadshot
 type: feat
 _id: CDG10QNnyWf5iB0x
-img: modules/ak5e/icons/Skill-Spuria1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Spuria1.webp
 system:
   activities:
     03M5AjWdfHg344aX:
@@ -115,7 +115,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You may enter Deadshot State as a Bonus Action; Deadshot State ends at
@@ -144,8 +144,9 @@ system:
     subtype: ''
 effects:
   - name: Deadshot
-    img: modules/ak5e/icons/Skill-Spuria1.webp
-    origin: Compendium.ak5e.ak5e-classes-and-features.Item.CDG10QNnyWf5iB0x
+    img: modules/AK5e-Foundry-Module/icons/Skill-Spuria1.webp
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.CDG10QNnyWf5iB0x
     transfer: false
     _id: KTZKfV25YX8LQe6w
     type: base
@@ -220,8 +221,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767621242308
-  modifiedTime: 1781192486489
+  modifiedTime: 1783457739197
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!CDG10QNnyWf5iB0x'

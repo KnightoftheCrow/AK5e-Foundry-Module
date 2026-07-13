@@ -2,24 +2,30 @@ folder: dyuCaYuU6JBJPOoc
 name: Mystic Caster
 type: subclass
 _id: cHE4WCA2P4LmO3MO
-img: modules/ak5e/icons/Mystic_Caster.webp
+img: modules/AK5e-Foundry-Module/icons/Mystic_Caster.webp
 system:
   advancement:
-    - type: ItemGrant
+    5xWBq9kkOMi4CPfV:
+      type: ItemGrant
       _id: 5xWBq9kkOMi4CPfV
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.xZiMCSXmimV20FxN
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.xZiMCSXmimV20FxN
             optional: false
         optional: false
         spell: null
       value: {}
       level: 1
-    - type: ItemGrant
+      flags: {}
+      hint: ''
+    BlO1okO3eCO6tRyw:
+      type: ItemGrant
       _id: BlO1okO3eCO6tRyw
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.SgHOUK1RnAk1Pcip
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.SgHOUK1RnAk1Pcip
             optional: false
         optional: false
         spell: null
@@ -27,11 +33,14 @@ system:
       level: 3
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    WEqe6CZRhw4JuMz6:
+      type: ItemGrant
       _id: WEqe6CZRhw4JuMz6
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.oWi50ZHAdAas4rxR
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.oWi50ZHAdAas4rxR
             optional: false
         optional: false
         spell: null
@@ -39,11 +48,14 @@ system:
       level: 6
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    ZO1DQiV0KCkXzF82:
+      type: ItemGrant
       _id: ZO1DQiV0KCkXzF82
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.ySFVeaa72KhrtnB3
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.ySFVeaa72KhrtnB3
             optional: false
         optional: false
         spell: null
@@ -51,11 +63,14 @@ system:
       level: 10
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    jX8eeM4CJaVZWsLn:
+      type: ItemGrant
       _id: jX8eeM4CJaVZWsLn
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.xZvtwzV0hee0F0pT
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.xZvtwzV0hee0F0pT
             optional: false
         optional: false
         spell: null
@@ -63,6 +78,7 @@ system:
       level: 15
       title: ''
       hint: ''
+      flags: {}
   description:
     value: >-
       <p>Mystic Casters are patient hunters, storing up their strength for a
@@ -93,10 +109,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1774180438552
-  modifiedTime: 1774180517630
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457740211
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!cHE4WCA2P4LmO3MO'

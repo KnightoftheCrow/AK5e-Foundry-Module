@@ -213,10 +213,10 @@ system:
       Check; if you are Proficient in this Kit, you may add your Proficiency
       Bonus to this roll. On a success, the Alcohol you create is valuable, and
       can be sold for normal price (25 LMD) (Add a
-      @UUID[Compendium.ak5e.ak5e-items.Item.aoWObPYKCfH44Ew2]{Valuable Alcohol}
-      to your Sheet). On a failure, you still create the alcohol, but it is of
-      lower quality, and its value is reduced to 0 (Add a
-      @UUID[Compendium.ak5e.ak5e-items.Item.o9ItelFHz1EoGDlE]{Non-Valuable
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-items.Item.aoWObPYKCfH44Ew2]{Valuable
+      Alcohol} to your Sheet). On a failure, you still create the alcohol, but
+      it is of lower quality, and its value is reduced to 0 (Add a
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-items.Item.o9ItelFHz1EoGDlE]{Non-Valuable
       Alcohol} to your Sheet).</p><blockquote><p><span
       style="text-decoration:underline"><strong><span
       style="text-decoration:underline">Alcohol</span></strong></span></p><p>Alcohol

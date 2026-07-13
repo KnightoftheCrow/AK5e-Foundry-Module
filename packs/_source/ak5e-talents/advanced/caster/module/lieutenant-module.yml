@@ -1,14 +1,14 @@
 folder: xZIHKSAf1iQQkfT3
 name: Lieutenant (Module)
 type: feat
-img: modules/ak5e/icons/Skill-TacticalEquipment.png
+img: modules/AK5e-Foundry-Module/icons/Skill-TacticalEquipment.png
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module:</strong> You gain a third Instruction Dice, and your
@@ -37,8 +37,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Lieutenant (Module)
-    img: modules/ak5e/icons/Skill-TacticalEquipment.png
-    origin: Compendium.ak5e.ak5e-talents.Item.3PLZA5m2OG9K1Bez
+    img: modules/AK5e-Foundry-Module/icons/Skill-TacticalEquipment.png
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.3PLZA5m2OG9K1Bez
     _id: uzkrBbfJYVC8dvIW
     type: base
     system: {}
@@ -98,9 +98,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1772222746366
-  modifiedTime: 1783248090115
+  modifiedTime: 1783457743766
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

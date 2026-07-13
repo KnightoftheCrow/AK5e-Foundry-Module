@@ -169,10 +169,11 @@ system:
       do so, you must make a DC13 Wisdom Check; if you are Proficient with this
       Kit, you may add your Proficiency Bonus to this roll. On a success, the
       Art you create is valuable, and can be sold for normal price (100 LMD)
-      (Add a @UUID[Compendium.ak5e.ak5e-items.Item.LTqDRnseEV181JdH]{Valuable
+      (Add a
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-items.Item.LTqDRnseEV181JdH]{Valuable
       Artwork} to your Sheet). On a failure, you still create the Art, but its
       value is reduced to 0 LMD (Add a
-      @UUID[Compendium.ak5e.ak5e-items.Item.YCAnw2AH0ZhbsvIK]{Non-Valuable
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-items.Item.YCAnw2AH0ZhbsvIK]{Non-Valuable
       Artwork} to your Sheet).</p><p><strong>Mark (1 Charge):</strong> Over the
       course of a minute, you can quickly sketch/spray/paint a symbol or sign
       onto a material or the environment.</p><h3>Proficient

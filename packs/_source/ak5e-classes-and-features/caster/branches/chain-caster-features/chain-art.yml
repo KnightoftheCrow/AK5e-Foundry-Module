@@ -2,7 +2,7 @@ folder: QmA37F3admePilsx
 name: Chain Art
 type: feat
 _id: pHwwI5rtqgxuA8rv
-img: modules/ak5e/icons/Skill-Pudding2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Pudding2.webp
 system:
   activities:
     gQRQ6nHZyQVrpiJE:
@@ -114,7 +114,7 @@ system:
       - period: lr
         type: recoverAll
     max: '@prof'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>When you cast an Art that can only affect a single Creature, you can
@@ -153,10 +153,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1774098019676
-  modifiedTime: 1774178691022
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457740976
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!pHwwI5rtqgxuA8rv'

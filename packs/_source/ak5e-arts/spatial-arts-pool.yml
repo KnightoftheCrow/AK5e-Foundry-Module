@@ -9,13 +9,14 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: ItemGrant
+    hOcBNrk9NoZlmRR7:
+      type: ItemGrant
       _id: hOcBNrk9NoZlmRR7
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3
             optional: false
-          - uuid: Compendium.ak5e.ak5e-arts.Item.0izDxH4oH4AELvPD
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.0izDxH4oH4AELvPD
             optional: false
         optional: false
         spell:
@@ -30,14 +31,16 @@ system:
       level: 0
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    NABo3MwY4iduxq7N:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7
             optional: false
           - uuid: Compendium.dnd5e.spells.Item.WTbOQBsarsL1LuXJ
             optional: false
-          - uuid: Compendium.ak5e.ak5e-arts.Item.SBkPwTLNifZzWpGR
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.SBkPwTLNifZzWpGR
             optional: false
         optional: false
         spell:
@@ -53,7 +56,9 @@ system:
       title: ''
       hint: ''
       _id: NABo3MwY4iduxq7N
-    - type: ItemGrant
+      flags: {}
+    IXt1si7dhdRwfgKW:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.3Lo9boi7P2ro6QV4
@@ -76,7 +81,9 @@ system:
       title: ''
       hint: ''
       _id: IXt1si7dhdRwfgKW
-    - type: ItemGrant
+      flags: {}
+    jMthAthuKu3jDmob:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz
@@ -95,7 +102,9 @@ system:
       title: ''
       hint: ''
       _id: jMthAthuKu3jDmob
-    - type: ItemGrant
+      flags: {}
+    C7IWnQmAB9J6cUaJ:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.a2KJHCIbY5Mi4Dmn
@@ -120,10 +129,12 @@ system:
       title: ''
       hint: ''
       _id: C7IWnQmAB9J6cUaJ
-    - type: ItemGrant
+      flags: {}
+    soeQVL26jp0JRVpB:
+      type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.n3SKjqSOlLN46yNF
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.n3SKjqSOlLN46yNF
             optional: false
         optional: false
         spell:
@@ -139,7 +150,9 @@ system:
       title: ''
       hint: ''
       _id: soeQVL26jp0JRVpB
-    - type: ItemGrant
+      flags: {}
+    2nENPeY91lFOuI7W:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.ERCv7yuRkQ0YjGx6
@@ -158,7 +171,9 @@ system:
       title: ''
       hint: ''
       _id: 2nENPeY91lFOuI7W
-    - type: ItemGrant
+      flags: {}
+    TvX8kmCZwEUSVT85:
+      type: ItemGrant
       configuration:
         items: []
         optional: false
@@ -175,10 +190,12 @@ system:
       title: ''
       hint: ''
       _id: TvX8kmCZwEUSVT85
-    - type: ItemGrant
+      flags: {}
+    tfgARHFzs7NG6V1w:
+      type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.BMkCWFjso6dZpycX
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.BMkCWFjso6dZpycX
             optional: false
         optional: false
         spell:
@@ -194,12 +211,14 @@ system:
       title: ''
       hint: ''
       _id: tfgARHFzs7NG6V1w
-    - type: ItemGrant
+      flags: {}
+    W1yGOF6IK8Z29WFw:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.1ADstb0Xec6HHRcU
             optional: false
-          - uuid: Compendium.ak5e.ak5e-arts.Item.DJl1FvWZP4jvyQv7
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.DJl1FvWZP4jvyQv7
             optional: false
         optional: false
         spell:
@@ -215,6 +234,7 @@ system:
       title: ''
       hint: ''
       _id: W1yGOF6IK8Z29WFw
+      flags: {}
   description:
     value: >-
       <p>Spatial Arts, as the name would suggest, involve manipulating the
@@ -279,10 +299,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1770836575279
-  modifiedTime: 1771159216573
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457746637
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

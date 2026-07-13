@@ -2,14 +2,14 @@ folder: U1VvPUnEP8A2c7Xk
 name: Alacrity
 type: feat
 _id: JtPzMai67p8ood8Z
-img: modules/ak5e/icons/Skill-Phantom1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Phantom1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>Your Speed increases by 10 feet.</p><p><strong>Module:</strong> When
@@ -38,8 +38,8 @@ system:
     subtype: talent
 effects:
   - name: Alacrity
-    img: modules/ak5e/icons/Skill-Phantom1.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.JtPzMai67p8ood8Z
+    img: modules/AK5e-Foundry-Module/icons/Skill-Phantom1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.JtPzMai67p8ood8Z
     _id: RArwV8ib2svmfAr0
     type: base
     system: {}
@@ -101,8 +101,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767734055723
-  modifiedTime: 1783246240172
+  modifiedTime: 1783457744507
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!JtPzMai67p8ood8Z'

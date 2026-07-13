@@ -2,7 +2,7 @@ folder: cyW9fgrb9XaTddeH
 name: Arts Ward
 type: feat
 _id: UkiWpLzVtVOuc2xn
-img: modules/ak5e/icons/Skill-Bison1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Bison1.webp
 system:
   activities:
     Qd4RYO7SwcvDn2dA:
@@ -21,7 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+            target: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.6GMX3sLNtYU5pEtM
             scaling:
               mode: amount
               formula: '1'
@@ -123,7 +123,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>When a Creature you can see within 30 feet of you would take Arts
@@ -157,8 +157,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Arts Warded
-    img: modules/ak5e/icons/Skill-Bison1.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.UkiWpLzVtVOuc2xn
+    img: modules/AK5e-Foundry-Module/icons/Skill-Bison1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.UkiWpLzVtVOuc2xn
     transfer: false
     _id: WjYjFY9hyRr6cLPB
     type: base
@@ -219,8 +219,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1772222746366
-  modifiedTime: 1783248480069
+  modifiedTime: 1783457745003
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!UkiWpLzVtVOuc2xn'

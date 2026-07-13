@@ -2,14 +2,14 @@ folder: sFhUUBrNUgchnK7r
 name: Delayed Detonation
 type: feat
 _id: yUk0Z2FdprE3WriG
-img: modules/ak5e/icons/Skill-ElegantWit2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-ElegantWit2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>Explosives aren’t all about the heat of the moment.</p><p>Once per
@@ -52,8 +52,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767620041442
-  modifiedTime: 1771177067381
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457741294
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!yUk0Z2FdprE3WriG'

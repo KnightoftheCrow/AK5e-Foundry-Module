@@ -1,7 +1,7 @@
 folder: 0Bx3AWOkga3k8Yq6
 name: Spreading Chaos
 type: feat
-img: modules/ak5e/icons/Skill-Humus2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Humus2.webp
 system:
   activities:
     c6SZN8DWfC63Q7Hr:
@@ -20,7 +20,8 @@ system:
         targets:
           - type: itemUses
             value: '20'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -150,8 +151,8 @@ system:
     subtype: ''
 effects:
   - name: Spreading Chaos (Skill Points)
-    img: modules/ak5e/icons/Skill-Humus2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.ODNfV1WvTfl4EZhD
+    img: modules/AK5e-Foundry-Module/icons/Skill-Humus2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.ODNfV1WvTfl4EZhD
     type: base
     _id: hr2jwHklani6H74m
     system: {}

@@ -1,14 +1,14 @@
 folder: qlhprYb2GHX3LPKU
 name: Unwavering Accuracy
 type: feat
-img: modules/ak5e/icons/Skill-Lemuen2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Lemuen2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You no longer have Disadvantage when making Ranged Spell Attacks while
@@ -41,8 +41,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Ignore nearby Creatures and Cover for Ranged Attacks
-    img: modules/ak5e/icons/Skill-Lemuen2.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.p5XRnB4KDQZOihzo
+    img: modules/AK5e-Foundry-Module/icons/Skill-Lemuen2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.p5XRnB4KDQZOihzo
     _id: z4JVhlFb44VHhSEx
     type: base
     system: {}
@@ -97,15 +97,15 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-talents.Item.pGpBSUkuNXRaORpa
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.pGpBSUkuNXRaORpa
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1770924144147
-  modifiedTime: 1770924584527
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457745693
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: p5XRnB4KDQZOihzo
 sort: -400000
 ownership:

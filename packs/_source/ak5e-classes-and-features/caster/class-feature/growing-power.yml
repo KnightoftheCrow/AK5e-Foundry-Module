@@ -2,14 +2,14 @@ folder: VOkvmAkDoFjmWOnp
 name: Growing Power
 type: feat
 _id: YCc4Tfk06PabfAzp
-img: modules/ak5e/icons/Skill-Conviction2.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Conviction2.png
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>As you strength increases, you can manifest Arts that once strained you
@@ -49,10 +49,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1774026593449
-  modifiedTime: 1774028327652
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457740105
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!YCc4Tfk06PabfAzp'

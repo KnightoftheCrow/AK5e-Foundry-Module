@@ -192,8 +192,6 @@ system:
       title: 'Changes to Core Rules: Cantrips'
       hint: <p>All Creatures gain +Spellcasting Mod Damage to their Cantrips.</p>
       flags: {}
-      icon: ''
-      classRestriction: ''
     e12fjsdAVQV79Z4U:
       type: ItemChoice
       _id: e12fjsdAVQV79Z4U
@@ -235,15 +233,13 @@ system:
         restriction:
           list: []
         spell: null
-        type: ''
+        type: null
       value:
         added: {}
         replaced: {}
       title: Tool Kit
       hint: <p>Select Tool Kit you're profience with.</p>
       flags: {}
-      icon: ''
-      classRestriction: ''
     MsuAVarUhlFPxHf1:
       type: ItemChoice
       _id: MsuAVarUhlFPxHf1
@@ -267,15 +263,13 @@ system:
         restriction:
           list: []
         spell: null
-        type: ''
+        type: null
       flags: {}
       value:
         added: {}
         replaced: {}
       hint: ''
       title: Light Melee or Shield
-      icon: ''
-      classRestriction: ''
     0UrHDjy8znsHiOtm:
       type: ItemChoice
       title: Light Melee or Ranged
@@ -304,14 +298,12 @@ system:
         restriction:
           list: []
         spell: null
-        type: ''
+        type: null
       flags: {}
       value:
         added: {}
         replaced: {}
       hint: ''
-      icon: ''
-      classRestriction: ''
     Nk39hs0nHbhuubJP:
       type: ItemGrant
       _id: Nk39hs0nHbhuubJP
@@ -327,8 +319,6 @@ system:
       title: Skill Points
       hint: ''
       flags: {}
-      icon: ''
-      classRestriction: ''
     IcFxmxWyp2a5RL27:
       type: Subclass
       _id: IcFxmxWyp2a5RL27
@@ -356,14 +346,12 @@ system:
         restriction:
           list: []
         spell: null
-        type: ''
+        type: null
       flags: {}
       value:
         added: {}
         replaced: {}
       hint: ''
-      icon: ''
-      classRestriction: ''
     I87NWHbH2PZBq1Kt:
       type: ItemChoice
       _id: I87NWHbH2PZBq1Kt
@@ -403,7 +391,7 @@ system:
         restriction:
           list: []
         spell: null
-        type: ''
+        type: null
       value:
         added: {}
         replaced: {}
@@ -413,8 +401,6 @@ system:
         one of the following options (You can’t take a Fighting Style option
         more than once, even if you later get to choose again).</p>
       flags: {}
-      icon: ''
-      classRestriction: ''
     4YmKhUVNVfnGnk1G:
       type: ItemChoice
       _id: 4YmKhUVNVfnGnk1G
@@ -472,8 +458,6 @@ system:
         <p>Take a Basic Talent, or unlock the module effect of a Basic Talent
         you already have.</p>
       flags: {}
-      icon: ''
-      classRestriction: ''
     pRa7z8CJsvXGr3Xr:
       type: ItemChoice
       _id: pRa7z8CJsvXGr3Xr
@@ -509,15 +493,13 @@ system:
         restriction:
           list: []
         spell: null
-        type: ''
+        type: null
       value:
         added: {}
         replaced: {}
       title: Basic Operator Skill
       hint: ''
       flags: {}
-      icon: ''
-      classRestriction: ''
     SKvlIKSPvwRRlA81:
       type: ItemChoice
       _id: SKvlIKSPvwRRlA81
@@ -580,8 +562,6 @@ system:
         <p>Take an Advanced Talent, or unlock the module effect of a Advanced
         Talent you already have.</p>
       flags: {}
-      icon: ''
-      classRestriction: ''
     wRfQxrnX5a3qObIj:
       type: ItemGrant
       title: Show your Style
@@ -597,8 +577,6 @@ system:
       value: {}
       level: 4
       hint: ''
-      icon: ''
-      classRestriction: ''
     jeXvRZE6PjdBSaZG:
       type: ItemChoice
       _id: jeXvRZE6PjdBSaZG
@@ -638,15 +616,13 @@ system:
         restriction:
           list: []
         spell: null
-        type: ''
+        type: null
       value:
         added: {}
         replaced: {}
       title: Advanced Operator Skill
       hint: ''
       flags: {}
-      icon: ''
-      classRestriction: ''
     3ToDZe1Q32surMq2:
       type: ItemChoice
       _id: 3ToDZe1Q32surMq2
@@ -680,15 +656,13 @@ system:
         restriction:
           list: []
         spell: null
-        type: ''
+        type: null
       value:
         added: {}
         replaced: {}
       title: Elite Operator Skill
       hint: ''
       flags: {}
-      icon: ''
-      classRestriction: ''
     J7hYDSSOqF8xrzZg:
       type: AbilityScoreImprovement
       _id: J7hYDSSOqF8xrzZg
@@ -770,8 +744,6 @@ system:
       value: {}
       level: 6
       hint: ''
-      icon: ''
-      classRestriction: ''
     fKGTnr86drmM8Awv:
       type: ItemGrant
       title: Weapon Expertise
@@ -787,8 +759,6 @@ system:
       value: {}
       level: 12
       hint: ''
-      icon: ''
-      classRestriction: ''
     usHpBqw568yJ9I2Y:
       type: ItemGrant
       title: Falling Upwards
@@ -804,8 +774,6 @@ system:
       value: {}
       level: 17
       hint: ''
-      icon: ''
-      classRestriction: ''
     CPyB0QypOK1CWEZ5:
       type: ItemGrant
       title: Weapon Mastery
@@ -821,8 +789,6 @@ system:
       value: {}
       level: 18
       hint: ''
-      icon: ''
-      classRestriction: ''
   description:
     value: >-
       <h3>Core Specialist Traits</h3><table><tbody><tr><td
@@ -910,14 +876,14 @@ system:
       sort: 700000
     - type: linked
       count: null
-      key: Compendium.ak5e.ak5e-items.Item.33A3rLP3Gm4A7Nrq
+      key: Compendium.AK5e-Foundry-Module.ak5e-items.Item.33A3rLP3Gm4A7Nrq
       requiresProficiency: false
       _id: WTrlR2LQtiFBDrH4
       group: BoivF5qvFdQzXdO2
       sort: 800000
     - type: linked
       count: null
-      key: Compendium.ak5e.ak5e-items.Item.DMq5RL7e35ZveMxb
+      key: Compendium.AK5e-Foundry-Module.ak5e-items.Item.DMq5RL7e35ZveMxb
       requiresProficiency: false
       _id: oFi48etynyh8Lyht
       group: BoivF5qvFdQzXdO2
@@ -957,8 +923,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.0
   createdTime: 1783358950363
-  modifiedTime: 1783443998169
-  lastModifiedBy: 27ikDz77N89hVLvM
+  modifiedTime: 1783459629077
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   27ikDz77N89hVLvM: 3

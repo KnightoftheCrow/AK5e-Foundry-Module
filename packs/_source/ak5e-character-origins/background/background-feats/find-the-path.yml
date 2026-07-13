@@ -113,7 +113,8 @@ system:
     recovery: []
     max: '@scale.find-the-path.max-prof-points'
   advancement:
-    - type: ScaleValue
+    9sruD30EmWQVrkma:
+      type: ScaleValue
       _id: 9sruD30EmWQVrkma
       configuration:
         identifier: max-prof-points
@@ -124,6 +125,7 @@ system:
       value: {}
       title: ''
       hint: ''
+      flags: {}
   description:
     value: >-
       <p>You lose all Skill Proficiencies from your Species and Nationality, and
@@ -172,7 +174,8 @@ system:
 effects:
   - name: Max Proficiency Point increase
     img: icons/environment/wilderness/mine-interior-dungeon-door.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.o6upX7UyDUMg90J1
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.o6upX7UyDUMg90J1
     _id: FJYjRGXQKrLcouV3
     type: base
     system: {}
@@ -230,10 +233,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1769881347037
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457737526
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!o6upX7UyDUMg90J1'

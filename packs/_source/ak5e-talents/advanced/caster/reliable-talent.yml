@@ -2,14 +2,14 @@ folder: cyW9fgrb9XaTddeH
 name: Reliable Talent
 type: feat
 _id: 4SV7b7oKcQF3AiR2
-img: modules/ak5e/icons/Skill-TheParadigmatic1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-TheParadigmatic1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>When you make a Check using a Skill you are Proficient in, treat any
@@ -40,8 +40,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Reliable Talent
-    img: modules/ak5e/icons/Skill-TheParadigmatic1.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.4SV7b7oKcQF3AiR2
+    img: modules/AK5e-Foundry-Module/icons/Skill-TheParadigmatic1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.4SV7b7oKcQF3AiR2
     _id: 8cPvvUnkgO7YJizx
     type: base
     system: {}
@@ -119,8 +119,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1772222746366
-  modifiedTime: 1783248001623
+  modifiedTime: 1783457743857
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!4SV7b7oKcQF3AiR2'

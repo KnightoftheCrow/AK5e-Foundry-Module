@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>Whatever your medical background, from self-taught Sargonians to
@@ -38,7 +38,8 @@ system:
 effects:
   - name: Reroll 1's for Healing
     img: icons/magic/life/heart-hand-gold-green.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.1I5cvc4eLrqtSWwC
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1I5cvc4eLrqtSWwC
     _id: Y9lAJ9Y4GcyZEqQo
     type: base
     system: {}
@@ -96,10 +97,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1769881347037
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457734090
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!1I5cvc4eLrqtSWwC'

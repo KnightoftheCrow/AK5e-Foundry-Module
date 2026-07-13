@@ -163,7 +163,7 @@ effects:
     changes:
       - key: macro.createItem
         mode: 0
-        value: Compendium.ak5e.ak5e-arts.Item.G3LIZYoNJ20kFUaC
+        value: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.G3LIZYoNJ20kFUaC
         priority: 20
       - key: system.traits.di.value
         mode: 2

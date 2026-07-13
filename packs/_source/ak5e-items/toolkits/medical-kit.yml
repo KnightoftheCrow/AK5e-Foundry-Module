@@ -279,7 +279,7 @@ system:
 effects:
   - name: +5 Medicine Bonus (Medical Kit)
     img: icons/containers/bags/case-leather-tan.webp
-    origin: Compendium.ak5e.ak5e-items.Item.JAmRuAi1wbg4Zwdm
+    origin: Compendium.AK5e-Foundry-Module.ak5e-items.Item.JAmRuAi1wbg4Zwdm
     transfer: false
     _id: AR6GDjtEEkYjJmxx
     type: base
@@ -334,7 +334,7 @@ effects:
     _key: '!items.effects!JAmRuAi1wbg4Zwdm.AR6GDjtEEkYjJmxx'
   - name: Medicine Advantage (Patient Assessment)
     img: icons/containers/bags/case-leather-tan.webp
-    origin: Compendium.ak5e.ak5e-items.Item.JAmRuAi1wbg4Zwdm
+    origin: Compendium.AK5e-Foundry-Module.ak5e-items.Item.JAmRuAi1wbg4Zwdm
     transfer: false
     _id: afo7kdCd5F0Ti8tl
     type: base

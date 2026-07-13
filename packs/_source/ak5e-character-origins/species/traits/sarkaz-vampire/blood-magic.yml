@@ -57,7 +57,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.ak5e.ak5e-arts.Item.b1qYiiqaEm9ZO4c3
+        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.b1qYiiqaEm9ZO4c3
         ability: ''
         level: 1
       useConditionText: ''
@@ -159,7 +159,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.ak5e.ak5e-arts.Item.fdODaI1cmLhEvXwv
+        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.fdODaI1cmLhEvXwv
         ability: ''
         level: 2
       useConditionText: ''
@@ -261,7 +261,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.ak5e.ak5e-arts.Item.pHTLdxqLjtfnFe9D
+        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.pHTLdxqLjtfnFe9D
         ability: ''
         level: 3
       useConditionText: ''
@@ -363,7 +363,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.ak5e.ak5e-arts.Item.GTPAiH8WFLAjAU58
+        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.GTPAiH8WFLAjAU58
         ability: ''
         level: 4
       useConditionText: ''
@@ -465,7 +465,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.ak5e.ak5e-arts.Item.Jbp0NNe47cCiOmD9
+        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.Jbp0NNe47cCiOmD9
         ability: ''
         level: 2
       useConditionText: ''
@@ -567,7 +567,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.ak5e.ak5e-arts.Item.1Ql4660eNGFkhlDZ
+        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.1Ql4660eNGFkhlDZ
         ability: ''
         level: 3
       useConditionText: ''
@@ -772,7 +772,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.ak5e.ak5e-arts.Item.ZqidiAZdLl4Xevea
+        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.ZqidiAZdLl4Xevea
         ability: ''
         level: 1
       useConditionText: ''
@@ -875,7 +875,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.ak5e.ak5e-arts.Item.iEgVDRXYoKfxN9cJ
+        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.iEgVDRXYoKfxN9cJ
         ability: ''
         level: 1
       useConditionText: ''
@@ -977,7 +977,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.ak5e.ak5e-arts.Item.7EMKEzwKLGH0zyMV
+        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.7EMKEzwKLGH0zyMV
         ability: ''
         level: 2
       useConditionText: ''
@@ -1032,15 +1032,16 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: ItemGrant
+    YzCb5aBwMxT1uPUP:
+      type: ItemGrant
       configuration:
         items:
           - optional: false
-            uuid: Compendium.ak5e.ak5e-arts.Item.b1qYiiqaEm9ZO4c3
+            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.b1qYiiqaEm9ZO4c3
           - optional: false
-            uuid: Compendium.ak5e.ak5e-arts.Item.ZqidiAZdLl4Xevea
+            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.ZqidiAZdLl4Xevea
           - optional: false
-            uuid: Compendium.ak5e.ak5e-arts.Item.iEgVDRXYoKfxN9cJ
+            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.iEgVDRXYoKfxN9cJ
         optional: false
         spell:
           ability:
@@ -1056,14 +1057,16 @@ system:
       title: ''
       hint: ''
       _id: YzCb5aBwMxT1uPUP
-    - type: ItemGrant
+      flags: {}
+    puSuQultRVr8Kfws:
+      type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.fdODaI1cmLhEvXwv
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.fdODaI1cmLhEvXwv
             optional: false
-          - uuid: Compendium.ak5e.ak5e-arts.Item.Jbp0NNe47cCiOmD9
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.Jbp0NNe47cCiOmD9
             optional: false
-          - uuid: Compendium.ak5e.ak5e-arts.Item.7EMKEzwKLGH0zyMV
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.7EMKEzwKLGH0zyMV
             optional: false
         optional: false
         spell:
@@ -1080,10 +1083,12 @@ system:
       title: ''
       hint: ''
       _id: puSuQultRVr8Kfws
-    - type: ItemGrant
+      flags: {}
+    5wEDjYPxvIplX5VK:
+      type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.GTPAiH8WFLAjAU58
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.GTPAiH8WFLAjAU58
             optional: false
         optional: false
         spell:
@@ -1100,15 +1105,17 @@ system:
       title: ''
       hint: ''
       _id: 5wEDjYPxvIplX5VK
-    - type: ItemGrant
+      flags: {}
+    1wFNO1U1htJQc8So:
+      type: ItemGrant
       configuration:
         items:
           - optional: false
-            uuid: Compendium.ak5e.ak5e-arts.Item.zBNNk8dKcdoGrWyl
+            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.zBNNk8dKcdoGrWyl
           - optional: false
-            uuid: Compendium.ak5e.ak5e-arts.Item.uw4itGtqMii13h3F
+            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.uw4itGtqMii13h3F
           - optional: false
-            uuid: Compendium.ak5e.ak5e-arts.Item.mxagkJ2kOu8eCYJJ
+            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.mxagkJ2kOu8eCYJJ
         optional: false
         spell:
           ability:
@@ -1124,13 +1131,15 @@ system:
       title: ''
       hint: ''
       _id: 1wFNO1U1htJQc8So
-    - type: ItemGrant
+      flags: {}
+    UCLhgh6cgvLDuWfY:
+      type: ItemGrant
       configuration:
         items:
           - optional: false
-            uuid: Compendium.ak5e.ak5e-arts.Item.S5FCt5zhTmcpVg2Z
+            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.S5FCt5zhTmcpVg2Z
           - optional: false
-            uuid: Compendium.ak5e.ak5e-arts.Item.8RIAnXxrr1Go49VT
+            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.8RIAnXxrr1Go49VT
         optional: false
         spell:
           ability:
@@ -1146,11 +1155,13 @@ system:
       title: ''
       hint: ''
       _id: UCLhgh6cgvLDuWfY
-    - type: ItemGrant
+      flags: {}
+    i8BYWv5DpcCeHTVN:
+      type: ItemGrant
       configuration:
         items:
           - optional: false
-            uuid: Compendium.ak5e.ak5e-arts.Item.5fDmNcAaqkDYThTt
+            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.5fDmNcAaqkDYThTt
         optional: false
         spell:
           ability:
@@ -1166,11 +1177,13 @@ system:
       title: ''
       hint: ''
       _id: i8BYWv5DpcCeHTVN
-    - type: ItemGrant
+      flags: {}
+    V25xDdhr11kq0vwm:
+      type: ItemGrant
       configuration:
         items:
           - optional: false
-            uuid: Compendium.ak5e.ak5e-arts.Item.JztzfEqqM7QiFoxM
+            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.JztzfEqqM7QiFoxM
         optional: false
         spell:
           ability:
@@ -1186,13 +1199,15 @@ system:
       title: ''
       hint: ''
       _id: V25xDdhr11kq0vwm
-    - type: ItemGrant
+      flags: {}
+    5Vj9ikuHaCQomxtt:
+      type: ItemGrant
       configuration:
         items:
           - optional: false
-            uuid: Compendium.ak5e.ak5e-arts.Item.pHTLdxqLjtfnFe9D
+            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.pHTLdxqLjtfnFe9D
           - optional: false
-            uuid: Compendium.ak5e.ak5e-arts.Item.1Ql4660eNGFkhlDZ
+            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.1Ql4660eNGFkhlDZ
           - optional: false
             uuid: Compendium.dnd5e.spells.Item.UfHQhA54M4323gVO
         optional: false
@@ -1210,6 +1225,7 @@ system:
       title: ''
       hint: ''
       _id: 5Vj9ikuHaCQomxtt
+      flags: {}
   description:
     value: >-
       <h3>Blood Magic</h3><p>The mastery of the Vampires over blood doesn’t just
@@ -1225,24 +1241,29 @@ system:
       and heal, but it can also harm in visceral, brutal
       ways.</p><table><thead><tr><td><p style="text-align:center"><strong>Arts
       Level</strong></p></td><td><p
-      style="text-align:center"><strong>Arts</strong></p></td></tr></thead><tbody><tr><td><p>Cantrip</p></td><td><p>-</p></td></tr><tr><td><p>1st</p></td><td><p>@UUID[Compendium.ak5e.ak5e-arts.Item.b1qYiiqaEm9ZO4c3]{Bloodbomb},
-      @UUID[Compendium.ak5e.ak5e-arts.Item.ZqidiAZdLl4Xevea]{Crystallise Blood},
-      @UUID[Compendium.ak5e.ak5e-arts.Item.iEgVDRXYoKfxN9cJ]{Sanguine
-      Spear}</p></td></tr><tr><td><p>2nd</p></td><td><p>@UUID[Compendium.ak5e.ak5e-arts.Item.fdODaI1cmLhEvXwv]{Bloodletting},
-      @UUID[Compendium.ak5e.ak5e-arts.Item.Jbp0NNe47cCiOmD9]{Sanguine Surge},
-      @UUID[Compendium.ak5e.ak5e-arts.Item.7EMKEzwKLGH0zyMV]{Unstable
-      Plasma}</p></td></tr><tr><td><p>3rd</p></td><td><p>@UUID[Compendium.ak5e.ak5e-arts.Item.pHTLdxqLjtfnFe9D]{Agitate
-      Blood}, @UUID[Compendium.ak5e.ak5e-arts.Item.1Ql4660eNGFkhlDZ]{Lacerate},
+      style="text-align:center"><strong>Arts</strong></p></td></tr></thead><tbody><tr><td><p>Cantrip</p></td><td><p>-</p></td></tr><tr><td><p>1st</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-arts.Item.b1qYiiqaEm9ZO4c3]{Bloodbomb},
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-arts.Item.ZqidiAZdLl4Xevea]{Crystallise
+      Blood},
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-arts.Item.iEgVDRXYoKfxN9cJ]{Sanguine
+      Spear}</p></td></tr><tr><td><p>2nd</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-arts.Item.fdODaI1cmLhEvXwv]{Bloodletting},
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-arts.Item.Jbp0NNe47cCiOmD9]{Sanguine
+      Surge},
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-arts.Item.7EMKEzwKLGH0zyMV]{Unstable
+      Plasma}</p></td></tr><tr><td><p>3rd</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-arts.Item.pHTLdxqLjtfnFe9D]{Agitate
+      Blood},
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-arts.Item.1Ql4660eNGFkhlDZ]{Lacerate},
       Life Transference,
       @UUID[Compendium.dnd5e.spells.Item.UfHQhA54M4323gVO]{Vampiric
-      Touch}</p></td></tr><tr><td><p>4th</p></td><td><p>@UUID[Compendium.ak5e.ak5e-arts.Item.GTPAiH8WFLAjAU58]{Bloodmist}</p></td></tr><tr><td><p>5th</p></td><td><p>@UUID[Compendium.ak5e.ak5e-arts.Item.zBNNk8dKcdoGrWyl]{Altar
+      Touch}</p></td></tr><tr><td><p>4th</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-arts.Item.GTPAiH8WFLAjAU58]{Bloodmist}</p></td></tr><tr><td><p>5th</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-arts.Item.zBNNk8dKcdoGrWyl]{Altar
       of Bloodcalling},
-      @UUID[Compendium.ak5e.ak5e-arts.Item.uw4itGtqMii13h3F]{Bloodline},
-      @UUID[Compendium.ak5e.ak5e-arts.Item.mxagkJ2kOu8eCYJJ]{Sanguinarch's
-      Blessing}</p></td></tr><tr><td><p>6th</p></td><td><p>@UUID[Compendium.ak5e.ak5e-arts.Item.5fDmNcAaqkDYThTt]{Explosive
-      Exsanguination}</p></td></tr><tr><td><p>7th</p></td><td><p>@UUID[Compendium.ak5e.ak5e-arts.Item.S5FCt5zhTmcpVg2Z]{Reverse
-      Flow}, @UUID[Compendium.ak5e.ak5e-arts.Item.8RIAnXxrr1Go49VT]{Tug the
-      Heartstrings}</p></td></tr><tr><td><p>8th</p></td><td><p>@UUID[Compendium.ak5e.ak5e-arts.Item.JztzfEqqM7QiFoxM]{Throne
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-arts.Item.uw4itGtqMii13h3F]{Bloodline},
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-arts.Item.mxagkJ2kOu8eCYJJ]{Sanguinarch's
+      Blessing}</p></td></tr><tr><td><p>6th</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-arts.Item.5fDmNcAaqkDYThTt]{Explosive
+      Exsanguination}</p></td></tr><tr><td><p>7th</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-arts.Item.S5FCt5zhTmcpVg2Z]{Reverse
+      Flow},
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-arts.Item.8RIAnXxrr1Go49VT]{Tug
+      the
+      Heartstrings}</p></td></tr><tr><td><p>8th</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-arts.Item.JztzfEqqM7QiFoxM]{Throne
       of
       Blood}</p></td></tr><tr><td><p>9th</p></td><td>-</td></tr></tbody></table>
     chat: ''
@@ -1278,11 +1299,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.lCBBG0OI9YNQ9IOy
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680384003
-  modifiedTime: 1768680384003
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457734917
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: FGE64QViW7UnjkgT
 _key: '!items!FGE64QViW7UnjkgT'

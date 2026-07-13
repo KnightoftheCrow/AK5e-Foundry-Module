@@ -2,14 +2,14 @@ folder: AynL7yzSlptsmcjl
 name: Hammer and Anvil
 type: feat
 _id: euKbo82wr4mpE7Dv
-img: modules/ak5e/icons/Skill-Mudrock3.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Mudrock3.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>Once per Turn, when you hit a Creature within 5 feet of an allied
@@ -40,8 +40,8 @@ system:
     subtype: talent
 effects:
   - name: Hammer and Anvil
-    img: modules/ak5e/icons/Skill-Mudrock3.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.euKbo82wr4mpE7Dv
+    img: modules/AK5e-Foundry-Module/icons/Skill-Mudrock3.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.euKbo82wr4mpE7Dv
     _id: cmMkaXDktYkHf3B8
     type: base
     system: {}
@@ -105,8 +105,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767738621760
-  modifiedTime: 1783247649469
+  modifiedTime: 1783457745320
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!euKbo82wr4mpE7Dv'

@@ -2,7 +2,7 @@ folder: q1MrBsepLJyJ9ezj
 name: Powered Gauntlet
 type: consumable
 _id: 0OiNOg6GwCWttAut
-img: modules/ak5e/icons/Skill-Magallan3.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Magallan3.webp
 system:
   activities: {}
   uses:
@@ -59,7 +59,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-items.Item.u06KVOKqY0IS3pR2
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.u06KVOKqY0IS3pR2
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

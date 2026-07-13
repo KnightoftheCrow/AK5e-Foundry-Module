@@ -554,7 +554,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: []
+      advancement: {}
       description:
         value: >-
           <p>This Creature has Advantage on any Check or Saving Throw to resist
@@ -903,7 +903,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: []
+      advancement: {}
       description:
         value: >-
           <p><em>Trigger:</em> You are hit by an Attack while this Creature is
@@ -1090,8 +1090,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1768664414234
-  modifiedTime: 1783356359284
-  lastModifiedBy: 27ikDz77N89hVLvM
+  modifiedTime: 1783457733535
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: niDFLjZT9tuHPYSR
 sort: 600000
 _key: '!actors!niDFLjZT9tuHPYSR'

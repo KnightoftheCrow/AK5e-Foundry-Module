@@ -2,7 +2,7 @@ folder: pUajGesWO3hqfFFR
 name: Versatile Caster
 type: feat
 _id: qb39wixnAeTx170S
-img: modules/ak5e/icons/Skill-Pith1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Pith1.webp
 system:
   activities:
     BWRySsUsuKhYiGea:
@@ -116,7 +116,8 @@ system:
         type: recoverAll
     max: '1'
   advancement:
-    - type: ItemChoice
+    91EZfwuc8PxHj8SR:
+      type: ItemChoice
       _id: 91EZfwuc8PxHj8SR
       configuration:
         allowDrops: false
@@ -125,17 +126,17 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.nsm65jQ87gFuXzrf
-          - uuid: Compendium.ak5e.ak5e-arts.Item.nbODEQEbPVDkWT48
-          - uuid: Compendium.ak5e.ak5e-arts.Item.NIcET7TqSd5Sctpl
-          - uuid: Compendium.ak5e.ak5e-arts.Item.qUhZWZWFmn4NuZgJ
-          - uuid: Compendium.ak5e.ak5e-arts.Item.7axC2XEUQI8XvOXB
-          - uuid: Compendium.ak5e.ak5e-arts.Item.dGres586wEl9utMg
-          - uuid: Compendium.ak5e.ak5e-arts.Item.XZ04hHqv0UBoISse
-          - uuid: Compendium.ak5e.ak5e-arts.Item.ovADWJpt99yQldCq
-          - uuid: Compendium.ak5e.ak5e-arts.Item.RCUAoi5c53B7vhQO
-          - uuid: Compendium.ak5e.ak5e-arts.Item.EhIPULxvNcN4OoA3
-          - uuid: Compendium.ak5e.ak5e-arts.Item.BvXzdhH4e5vZc7WI
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.nsm65jQ87gFuXzrf
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.nbODEQEbPVDkWT48
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.NIcET7TqSd5Sctpl
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.qUhZWZWFmn4NuZgJ
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.7axC2XEUQI8XvOXB
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.dGres586wEl9utMg
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.XZ04hHqv0UBoISse
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.ovADWJpt99yQldCq
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.RCUAoi5c53B7vhQO
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.EhIPULxvNcN4OoA3
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.BvXzdhH4e5vZc7WI
         restriction:
           list: []
         spell: null
@@ -148,6 +149,7 @@ system:
         Choose an Arts Pool from the Standard Arts Pools that you have not
         chosen previously; you learn all of the Arts in that Pool, and they are
         always Prepared.
+      flags: {}
   description:
     value: >-
       <p>You are already more versatile than most Casters. You gain the
@@ -194,10 +196,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1774092757529
-  modifiedTime: 1774098008002
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457741043
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!qb39wixnAeTx170S'

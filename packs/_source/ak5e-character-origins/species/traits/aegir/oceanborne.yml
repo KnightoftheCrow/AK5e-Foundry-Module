@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <h3>Oceanborne</h3><p>Aegir did not originally evolve under the water.
@@ -49,7 +49,8 @@ system:
 effects:
   - name: Darkvision
     img: icons/magic/water/orb-water-bubbles-blue.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.ry89CLEPmkWmyH73
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.ry89CLEPmkWmyH73
     _id: KsFbnfUYoASQu4iZ
     type: base
     system: {}
@@ -97,7 +98,8 @@ effects:
     _key: '!items.effects!ry89CLEPmkWmyH73.KsFbnfUYoASQu4iZ'
   - name: Dexterity Save Advantage
     img: icons/magic/water/orb-water-bubbles-blue.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.ry89CLEPmkWmyH73
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.ry89CLEPmkWmyH73
     _id: XpnNOU4w3xBxsFWS
     type: base
     system: {}
@@ -181,10 +183,10 @@ _stats:
   compendiumSource: Item.8QG8Qa4ZQOeLgacM
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680286308
-  modifiedTime: 1768680286308
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457737700
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!ry89CLEPmkWmyH73'

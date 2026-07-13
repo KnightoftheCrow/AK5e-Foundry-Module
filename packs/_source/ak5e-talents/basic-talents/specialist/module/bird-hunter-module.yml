@@ -1,7 +1,7 @@
 folder: dX9bNDGt3LqFfCRN
 name: Bird Hunter (Module)
 type: feat
-img: modules/ak5e/icons/Skill-GreyThroat1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-GreyThroat1.webp
 system:
   activities: {}
   uses:
@@ -25,7 +25,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.ed6qQk0urxaosAPg
+      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.ed6qQk0urxaosAPg
     repeatable: false
     level: 8
   properties:

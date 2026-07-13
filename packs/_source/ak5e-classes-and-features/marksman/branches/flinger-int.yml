@@ -1,10 +1,11 @@
 folder: O2Yp1afpugL0lA12
 name: Flinger (INT)
 type: subclass
-img: modules/ak5e/icons/Flinger_Sniper.webp
+img: modules/AK5e-Foundry-Module/icons/Flinger_Sniper.webp
 system:
   advancement:
-    - type: ItemChoice
+    aNJVx8Rf3rUVsF31:
+      type: ItemChoice
       _id: aNJVx8Rf3rUVsF31
       configuration:
         allowDrops: false
@@ -13,10 +14,10 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.ak5e.ak5e-items.Item.fPUfPJOelKu6a97f
-          - uuid: Compendium.ak5e.ak5e-items.Item.RVaNysRBX2kS1VKR
-          - uuid: Compendium.ak5e.ak5e-items.Item.a0RPD5m4b1rj0cQT
-          - uuid: Compendium.ak5e.ak5e-items.Item.XAvfUySa6K27SHTU
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.fPUfPJOelKu6a97f
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.RVaNysRBX2kS1VKR
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.a0RPD5m4b1rj0cQT
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.XAvfUySa6K27SHTU
         restriction:
           list: []
         spell: null
@@ -28,7 +29,9 @@ system:
       hint: >-
         When you choose this Branch, you may exchange 1x Ranged Weapon from your
         Starting Equipment for 1x Heavy Melee Weapon.
-    - type: ItemGrant
+      flags: {}
+    wgB8g4KNFVH7Xr1R:
+      type: ItemGrant
       _id: wgB8g4KNFVH7Xr1R
       configuration:
         items: []
@@ -40,13 +43,17 @@ system:
       hint: >-
         When you choose this Branch, you may exchange the Fighting Style you
         gained from the Marksman Class for one available to the Guard Class.
-    - type: ItemGrant
+      flags: {}
+    Sjya2mGZknBtSY8w:
+      type: ItemGrant
       _id: Sjya2mGZknBtSY8w
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.If3R8HLnr1ePxiM4
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If3R8HLnr1ePxiM4
             optional: false
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.kGZPOvUv1i5fFGtG
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.kGZPOvUv1i5fFGtG
             optional: false
         optional: false
         spell: null
@@ -54,23 +61,29 @@ system:
       level: 1
       title: Branch Feature
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    Wa1chljfbIHwXK26:
+      type: ItemGrant
       title: Branch Feature
       _id: Wa1chljfbIHwXK26
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.rBmcICYoHRezTg9j
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.rBmcICYoHRezTg9j
             optional: false
         optional: false
         spell: null
       value: {}
       level: 4
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    4YhIJavkpQUPwt3H:
+      type: ItemGrant
       _id: 4YhIJavkpQUPwt3H
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.M3CI4ZgRTtIasnAa
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.M3CI4ZgRTtIasnAa
             optional: false
         optional: false
         spell: null
@@ -78,11 +91,14 @@ system:
       level: 10
       title: Branch Feature
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    SyaJFhXJhumPyG3c:
+      type: ItemGrant
       _id: SyaJFhXJhumPyG3c
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.gQpEEsOWxcruib2I
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.gQpEEsOWxcruib2I
             optional: false
         optional: false
         spell: null
@@ -90,18 +106,22 @@ system:
       level: 15
       title: Branch Feature
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    Q7TPibdjnNY12tfg:
+      type: ItemGrant
       title: Branch Feature
       _id: Q7TPibdjnNY12tfg
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.xBfsHw7shprLPA16
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.xBfsHw7shprLPA16
             optional: false
         optional: false
         spell: null
       value: {}
       level: 18
       hint: ''
+      flags: {}
   description:
     value: >-
       <p>For many, Arts are an end rather than a means. Flinger Marksmen believe
@@ -111,16 +131,16 @@ system:
       Features:</p><table><tbody><tr><td
       data-colwidth="112"><p>Level</p></td><td><p>Branch
       Feature</p></td></tr><tr><td
-      data-colwidth="112"><p>1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.If3R8HLnr1ePxiM4]{Manipulation
+      data-colwidth="112"><p>1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If3R8HLnr1ePxiM4]{Manipulation
       Arts},
-      @UUID[Compendium.ak5e.ak5e-classes-and-features.Item.kGZPOvUv1i5fFGtG]{Weapon
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.kGZPOvUv1i5fFGtG]{Weapon
       Binding}</p></td></tr><tr><td
-      data-colwidth="112"><p>4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.rBmcICYoHRezTg9j]{Aftershock}</p></td></tr><tr><td
-      data-colwidth="112"><p>10</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.M3CI4ZgRTtIasnAa]{Kinetic
+      data-colwidth="112"><p>4</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.rBmcICYoHRezTg9j]{Aftershock}</p></td></tr><tr><td
+      data-colwidth="112"><p>10</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.M3CI4ZgRTtIasnAa]{Kinetic
       Strike}</p></td></tr><tr><td
-      data-colwidth="112"><p>15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.gQpEEsOWxcruib2I]{Pass-through
+      data-colwidth="112"><p>15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.gQpEEsOWxcruib2I]{Pass-through
       Strike}</p></td></tr><tr><td
-      data-colwidth="112"><p>18</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.xBfsHw7shprLPA16]{Whirling
+      data-colwidth="112"><p>18</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.xBfsHw7shprLPA16]{Whirling
       Death}</p></td></tr></tbody></table>
     chat: ''
   identifier: flinger
@@ -144,10 +164,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767823065155
-  modifiedTime: 1767875772229
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457740843
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

@@ -643,7 +643,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: []
+      advancement: {}
       description:
         value: >-
           <p>At the end of each of your Turns while the Altar of Weeping is
@@ -691,7 +691,7 @@ items:
         changes:
           - key: macro.createItem
             mode: 0
-            value: Compendium.ak5e.ak5e-arts.Item.Oxs9R2QZ5QXDpzhc
+            value: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.Oxs9R2QZ5QXDpzhc
             priority: 20
           - key: system.attributes.movement.all
             mode: 0
@@ -772,12 +772,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.1.2
   createdTime: 1757437270488
-  modifiedTime: 1757437270488
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457733497
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

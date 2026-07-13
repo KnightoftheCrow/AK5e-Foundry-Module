@@ -1,7 +1,7 @@
 folder: QfmU6v3RpFCsjWum
 name: Part-Time Inventor (Module)
 type: feat
-img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
+img: modules/AK5e-Foundry-Module/icons/Skill-TacticalEquipmentToolbox.png
 system:
   activities: {}
   uses:
@@ -22,7 +22,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.cjPGozlLmepdrnwX
+      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.cjPGozlLmepdrnwX
     repeatable: false
     level: 13
   properties:
@@ -33,7 +33,7 @@ system:
     subtype: talent
 effects:
   - name: Part-Time Inventor (Module)
-    img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
+    img: modules/AK5e-Foundry-Module/icons/Skill-TacticalEquipmentToolbox.png
     origin: Item.0LP7L7E759fW1ZFm
     _id: JX2jU1CEK8woPShl
     type: base

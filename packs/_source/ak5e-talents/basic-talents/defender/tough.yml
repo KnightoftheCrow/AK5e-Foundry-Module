@@ -1,7 +1,7 @@
 folder: TL00PBquhzkf6sDn
 name: Tough
 type: feat
-img: modules/ak5e/icons/Skill-Gravel1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Gravel1.webp
 system:
   activities: {}
   uses:
@@ -40,7 +40,7 @@ system:
     subtype: skillPoints
 effects:
   - name: Max HP Increase
-    img: modules/ak5e/icons/Skill-Gravel1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Gravel1.webp
     origin: Item.Ngk5MB29rG6Y3OmR
     _id: ThguCB8gJE1wgpa8
     type: base

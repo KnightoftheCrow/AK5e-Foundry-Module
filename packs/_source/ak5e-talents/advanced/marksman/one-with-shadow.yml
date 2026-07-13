@@ -2,7 +2,7 @@ folder: AynL7yzSlptsmcjl
 name: One With Shadow
 type: feat
 _id: QkpwGMxpGMK9cEyv
-img: modules/ak5e/icons/Skill-HeavyInsulatedConcrete.png
+img: modules/AK5e-Foundry-Module/icons/Skill-HeavyInsulatedConcrete.png
 system:
   activities:
     m6nxrZTu98RfCppc:
@@ -116,7 +116,7 @@ system:
       - period: lr
         type: recoverAll
     max: '@prof'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>When a Creature makes an Attack against you, and doesn’t have Advantage
@@ -161,8 +161,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767738686298
-  modifiedTime: 1783247214494
+  modifiedTime: 1783457744887
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!QkpwGMxpGMK9cEyv'

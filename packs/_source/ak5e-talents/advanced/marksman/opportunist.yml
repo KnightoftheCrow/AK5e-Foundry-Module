@@ -2,14 +2,14 @@ folder: AynL7yzSlptsmcjl
 name: Opportunist
 type: feat
 _id: j07NEdLfMa6g8lY8
-img: modules/ak5e/icons/Skill-May2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-May2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>Attacks you make against Creatures with reduced Speed deal additional
@@ -52,8 +52,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767738693265
-  modifiedTime: 1783247184702
+  modifiedTime: 1783457745524
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!j07NEdLfMa6g8lY8'

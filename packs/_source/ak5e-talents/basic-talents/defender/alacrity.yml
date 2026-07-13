@@ -1,7 +1,7 @@
 folder: TL00PBquhzkf6sDn
 name: Alacrity
 type: feat
-img: modules/ak5e/icons/Skill-Phantom1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Phantom1.webp
 system:
   activities: {}
   uses:
@@ -33,7 +33,7 @@ system:
     subtype: skillPoints
 effects:
   - name: +10ft Speed
-    img: modules/ak5e/icons/Skill-Phantom1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Phantom1.webp
     origin: Item.a6yWgSLLDBzegh7t
     _id: RArwV8ib2svmfAr0
     type: base

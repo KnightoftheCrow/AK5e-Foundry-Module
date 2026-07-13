@@ -1,7 +1,7 @@
 folder: R2AhxUbx0IYKQ6JZ
 name: Counter Arc
 type: feat
-img: modules/ak5e/icons/Skill-Eunectes3.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Eunectes3.webp
 system:
   activities:
     1YgMf6V22nAEYHzW:
@@ -21,7 +21,8 @@ system:
         targets:
           - type: itemUses
             value: '40'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -153,8 +154,8 @@ system:
     subtype: ''
 effects:
   - name: Counter Arc (Skill Points)
-    img: modules/ak5e/icons/Skill-Eunectes3.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.VOdZcyVY2UkrEKvf
+    img: modules/AK5e-Foundry-Module/icons/Skill-Eunectes3.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.VOdZcyVY2UkrEKvf
     type: base
     _id: jIwXzxxVHoN2ff1q
     system: {}

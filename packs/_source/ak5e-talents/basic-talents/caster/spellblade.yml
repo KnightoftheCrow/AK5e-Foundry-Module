@@ -1,7 +1,7 @@
 folder: qlhprYb2GHX3LPKU
 name: Spellblade
 type: feat
-img: modules/ak5e/icons/Skill-Irene3.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Irene3.webp
 system:
   activities:
     uamUisJfCCltY1J8:
@@ -235,7 +235,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>Whenever you finish a Long Rest, you can touch one weapon that you are
@@ -325,15 +325,15 @@ flags:
       activity: []
       effect: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-talents.Item.D087TmY8tk9pCMOs
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.D087TmY8tk9pCMOs
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1770924144147
-  modifiedTime: 1770924144147
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457745439
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: hbSR5Dvxs5fJjkV0
 sort: -150000
 ownership:

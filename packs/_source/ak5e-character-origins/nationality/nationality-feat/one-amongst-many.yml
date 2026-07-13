@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>Columbia is a bustling, cosmopolitan place, playing host to people from
@@ -37,7 +37,8 @@ system:
 effects:
   - name: Advantage on blending into Crowds
     img: icons/environment/settlement/house-manor.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.MjYcbeghMw18ffj8
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.MjYcbeghMw18ffj8
     _id: oAGd1IHB0EwIZAFL
     type: base
     system: {}
@@ -95,10 +96,10 @@ _stats:
   compendiumSource: Item.MjYcbeghMw18ffj8
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881328247
-  modifiedTime: 1769881328247
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457735404
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!MjYcbeghMw18ffj8'

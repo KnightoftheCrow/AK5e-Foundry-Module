@@ -1,14 +1,14 @@
 folder: 5ej4KENJRk8I9Ksg
 name: Opportunist (Module)
 type: feat
-img: modules/ak5e/icons/Skill-May2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-May2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module:</strong> You may also deal this additional Damage
@@ -46,9 +46,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1768145923962
-  modifiedTime: 1783247202820
+  modifiedTime: 1783457746010
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

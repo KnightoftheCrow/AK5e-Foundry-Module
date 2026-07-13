@@ -2,7 +2,7 @@ folder: iC9FYNlLTOR8baLK
 name: Flexible Weapon
 type: consumable
 _id: szR2qeU82sEBlkP1
-img: modules/ak5e/icons/Skill-Magallan1.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Magallan1.png
 system:
   activities: {}
   uses:
@@ -62,7 +62,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-items.Item.kxXaDsn4K6e1qfN2
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.kxXaDsn4K6e1qfN2
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

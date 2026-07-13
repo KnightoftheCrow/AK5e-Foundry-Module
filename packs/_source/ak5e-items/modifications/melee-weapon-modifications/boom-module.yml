@@ -2,7 +2,7 @@ folder: iC9FYNlLTOR8baLK
 name: Boom Module
 type: consumable
 _id: Fgl2bve541pEaNFu
-img: modules/ak5e/icons/Skill-Magallan1.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Magallan1.png
 system:
   activities: {}
   uses:
@@ -61,7 +61,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-items.Item.9MIuJ6V30M04cAgv
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.9MIuJ6V30M04cAgv
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

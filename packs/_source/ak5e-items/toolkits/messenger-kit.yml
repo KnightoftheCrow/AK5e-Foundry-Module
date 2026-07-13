@@ -225,8 +225,8 @@ system:
       Rest Activity, you may draw a map of the surrounding area. Anyone holding
       this map has a +5 Bonus to Wilderness Checks to navigate the surrounding
       area (When you do this, add a
-      @UUID[Compendium.ak5e.ak5e-items.Item.8Q5wIBTz9VgyWonf]{Messenger Kit Map}
-      to your sheet).</p><p><strong>Establish Communications (1
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-items.Item.8Q5wIBTz9VgyWonf]{Messenger
+      Kit Map} to your sheet).</p><p><strong>Establish Communications (1
       Charge):</strong> As a Long Rest Activity, you can establish a temporary
       communication station. Through this, you can send radio signals up to 50
       miles; this can be further extended if there are other communications
@@ -266,7 +266,7 @@ system:
 effects:
   - name: +5 Technology Bonus (Communications Know-How)
     img: icons/containers/bags/case-leather-tan.webp
-    origin: Compendium.ak5e.ak5e-items.Item.wqd3yeo5ea2DAqD9
+    origin: Compendium.AK5e-Foundry-Module.ak5e-items.Item.wqd3yeo5ea2DAqD9
     transfer: false
     _id: WC6Hp9Rz8N2h5wfQ
     type: base

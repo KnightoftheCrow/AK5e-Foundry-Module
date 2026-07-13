@@ -105,7 +105,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You can expend 1d10 Hit Points to cause an Attack to deal 1d10
@@ -193,12 +193,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.1.2
+  systemVersion: 5.3.0
   createdTime: 1758446514155
-  modifiedTime: 1758446514178
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457746678
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: Ha7qpJ1IQFcO5sad
 sort: 50000
 ownership:

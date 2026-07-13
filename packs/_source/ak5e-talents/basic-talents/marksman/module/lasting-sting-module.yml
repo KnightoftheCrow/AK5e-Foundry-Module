@@ -2,7 +2,7 @@ folder: 7chRMuJsyyn3S2jB
 name: Lasting Sting (Module)
 type: feat
 _id: eETPdcPlC2Fx8X4w
-img: modules/ak5e/icons/Skill-Verdant1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Verdant1.webp
 system:
   activities:
     IN4DlZiKB9IKzFYX:
@@ -120,7 +120,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module:</strong> Additionally, at the end of the Turn, they
@@ -146,8 +146,8 @@ system:
     subtype: talent
 effects:
   - name: Lasting Sting (Module)
-    img: modules/ak5e/icons/Skill-Verdant1.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.eETPdcPlC2Fx8X4w
+    img: modules/AK5e-Foundry-Module/icons/Skill-Verdant1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.eETPdcPlC2Fx8X4w
     transfer: false
     _id: 7YlWHcw7ntmP88uU
     type: base
@@ -210,8 +210,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767735532182
-  modifiedTime: 1783242643278
+  modifiedTime: 1783457745286
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!eETPdcPlC2Fx8X4w'

@@ -1,7 +1,7 @@
 folder: TL00PBquhzkf6sDn
 name: Elemental Resistance
 type: feat
-img: modules/ak5e/icons/Skill-Bubble1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Bubble1.webp
 system:
   activities:
     AE4UyBZfHOLZGHU5:
@@ -182,7 +182,7 @@ system:
     subtype: skillPoints
 effects:
   - name: Elemental Resistance (Acid)
-    img: modules/ak5e/icons/Skill-Bubble1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Bubble1.webp
     origin: Item.S3fMQRdThN28lImm
     type: base
     _id: VMbHdTTzQV5Q2RBj
@@ -240,7 +240,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!kYCAit31digRO6g5.VMbHdTTzQV5Q2RBj'
   - name: Elemental Resistance (Cold)
-    img: modules/ak5e/icons/Skill-Bubble1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Bubble1.webp
     origin: Item.S3fMQRdThN28lImm
     type: base
     _id: AMOjosB156xsVFXB
@@ -294,7 +294,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!kYCAit31digRO6g5.AMOjosB156xsVFXB'
   - name: Elemental Resistance (Fire)
-    img: modules/ak5e/icons/Skill-Bubble1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Bubble1.webp
     origin: Item.S3fMQRdThN28lImm
     type: base
     _id: gmRNioPgVuf4oGWc
@@ -348,7 +348,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!kYCAit31digRO6g5.gmRNioPgVuf4oGWc'
   - name: Elemental Resistance (Force)
-    img: modules/ak5e/icons/Skill-Bubble1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Bubble1.webp
     origin: Item.S3fMQRdThN28lImm
     type: base
     _id: XBJBefESYYjFbfBg
@@ -402,7 +402,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!kYCAit31digRO6g5.XBJBefESYYjFbfBg'
   - name: Elemental Resistance (Lightning)
-    img: modules/ak5e/icons/Skill-Bubble1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Bubble1.webp
     origin: Item.S3fMQRdThN28lImm
     type: base
     _id: jPQfqdHTRtv9w7UP
@@ -456,7 +456,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!kYCAit31digRO6g5.jPQfqdHTRtv9w7UP'
   - name: Elemental Resistance (Necrotic)
-    img: modules/ak5e/icons/Skill-Bubble1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Bubble1.webp
     origin: Item.S3fMQRdThN28lImm
     type: base
     _id: axCFztpAKHNljmOV
@@ -510,7 +510,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!kYCAit31digRO6g5.axCFztpAKHNljmOV'
   - name: Elemental Resistance (Poison)
-    img: modules/ak5e/icons/Skill-Bubble1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Bubble1.webp
     origin: Item.S3fMQRdThN28lImm
     type: base
     _id: 2JuOBMZqepmpkTva
@@ -564,7 +564,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!kYCAit31digRO6g5.2JuOBMZqepmpkTva'
   - name: Elemental Resistance (Psychic)
-    img: modules/ak5e/icons/Skill-Bubble1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Bubble1.webp
     origin: Item.S3fMQRdThN28lImm
     type: base
     _id: VTPVROVusoC7zBtb
@@ -618,7 +618,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!kYCAit31digRO6g5.VTPVROVusoC7zBtb'
   - name: Elemental Resistance (Radiant)
-    img: modules/ak5e/icons/Skill-Bubble1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Bubble1.webp
     origin: Item.S3fMQRdThN28lImm
     type: base
     _id: xuAwDyR1SeAnm5dz

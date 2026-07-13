@@ -638,7 +638,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: []
+      advancement: {}
       description:
         value: >-
           <p>This Feature becomes active one minute after the Altar is created.
@@ -672,7 +672,7 @@ items:
       - name: Bloodcalling Aura
         img: icons/magic/unholy/strike-beam-blood-large-red-blue.webp
         origin: >-
-          Compendium.ak5e.ak5e-bestiary.Actor.38xRJWu20EDtwN73.Item.Taxuxp3NsROwcYlW
+          Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.38xRJWu20EDtwN73.Item.Taxuxp3NsROwcYlW
         _id: BO9rDbM3KnHCmJb9
         type: auraeffects.aura
         system:
@@ -771,12 +771,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.1.2
   createdTime: 1757250601791
-  modifiedTime: 1757360606102
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457733334
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: 38xRJWu20EDtwN73
 sort: 100000
 _key: '!actors!38xRJWu20EDtwN73'

@@ -2,7 +2,7 @@ folder: cyW9fgrb9XaTddeH
 name: Knowledge is Power
 type: feat
 _id: B0qaKnC4GaKEkr4i
-img: modules/ak5e/icons/Skill-Swire1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Swire1.webp
 system:
   activities: {}
   uses:
@@ -11,7 +11,7 @@ system:
       - period: lr
         type: recoverAll
     max: '2'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>After you roll a Saving Throw, you may add a bonus equal to your
@@ -45,8 +45,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Saving Throw Reroll
-    img: modules/ak5e/icons/Skill-Swire1.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.B0qaKnC4GaKEkr4i
+    img: modules/AK5e-Foundry-Module/icons/Skill-Swire1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.B0qaKnC4GaKEkr4i
     _id: nzONfpSWQhbkN3vk
     type: base
     system: {}
@@ -114,8 +114,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1772222746366
-  modifiedTime: 1783248106803
+  modifiedTime: 1783457744159
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!B0qaKnC4GaKEkr4i'

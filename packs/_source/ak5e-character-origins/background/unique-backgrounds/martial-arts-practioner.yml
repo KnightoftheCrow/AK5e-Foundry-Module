@@ -5,7 +5,8 @@ _id: IeUVMJkiwJbvkeyi
 img: icons/equipment/hand/glove-simple-leather-brown-blue.webp
 system:
   advancement:
-    - type: Trait
+    qfDniud0cUH7GO3w:
+      type: Trait
       title: Background Proficiencies
       _id: qfDniud0cUH7GO3w
       configuration:
@@ -21,17 +22,22 @@ system:
       level: 0
       hint: ''
       value: {}
-    - type: ItemGrant
+      flags: {}
+    IEZY7ZVngOjYEGjB:
+      type: ItemGrant
       title: Background Feature
       _id: IEZY7ZVngOjYEGjB
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.TTIkQzcwVAYCdsL3
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.TTIkQzcwVAYCdsL3
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>There are a great number of schools of Martial Arts in Yan; some are
@@ -68,8 +74,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1771155606127
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457735101
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!IeUVMJkiwJbvkeyi'

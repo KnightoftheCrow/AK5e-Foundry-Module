@@ -1,7 +1,7 @@
 folder: gux9mthtPInis7P3
 name: Continental Style
 type: feat
-img: modules/ak5e/icons/Skill-Sora2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Sora2.webp
 system:
   activities:
     xoNoIwPalnThTJEX:
@@ -20,7 +20,8 @@ system:
         targets:
           - type: itemUses
             value: '40'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -114,7 +115,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <ul><li><p><strong>Name</strong>: Continental
@@ -150,8 +151,8 @@ system:
     subtype: ''
 effects:
   - name: Continental Style (Skill Points)
-    img: modules/ak5e/icons/Skill-Sora2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.5sWZleYraTedgntR
+    img: modules/AK5e-Foundry-Module/icons/Skill-Sora2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.5sWZleYraTedgntR
     _id: DXFUOiWQeWl6gGq8
     type: base
     system: {}
@@ -203,8 +204,8 @@ effects:
       modifiedTime: 1768651882215
     _key: '!items.effects!5sWZleYraTedgntR.DXFUOiWQeWl6gGq8'
   - name: Continental Style
-    img: modules/ak5e/icons/Skill-Sora2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.5sWZleYraTedgntR
+    img: modules/AK5e-Foundry-Module/icons/Skill-Sora2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.5sWZleYraTedgntR
     transfer: false
     _id: KnmeoxYng1BpAYHL
     type: base
@@ -266,10 +267,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768157723209
-  modifiedTime: 1768651141224
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457741942
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

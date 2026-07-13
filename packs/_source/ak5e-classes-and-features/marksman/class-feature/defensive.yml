@@ -1,7 +1,7 @@
 folder: r2sKTPYSmSAEfVCU
 name: Defensive
 type: feat
-img: modules/ak5e/icons/Skill-Blitz1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Blitz1.webp
 system:
   activities:
     Fq7tuGQoWRvaj66O:
@@ -120,7 +120,7 @@ system:
       - period: turn
         type: recoverAll
     max: '1'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>When you are hit by an Attack while you have a Melee Weapon or Shield
@@ -150,7 +150,7 @@ system:
     subtype: fightingStyle
 effects:
   - name: Defensive
-    img: modules/ak5e/icons/Skill-Blitz1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Blitz1.webp
     origin: Item.YMG2hGC7B5s8tZcq
     transfer: false
     _id: 9ANJvywCuBBpNs8y
@@ -212,10 +212,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767614282591
-  modifiedTime: 1767876045864
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457739622
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

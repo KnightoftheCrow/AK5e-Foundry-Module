@@ -1,7 +1,7 @@
 folder: 0FE7flvsguisj29c
 name: Shelter
 type: feat
-img: modules/ak5e/icons/Skill-Shu2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Shu2.webp
 system:
   activities: {}
   uses:
@@ -38,7 +38,8 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.RNU8rCP7Be6HRssS
+  compendiumSource: >-
+    Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.RNU8rCP7Be6HRssS
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

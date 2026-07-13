@@ -5,14 +5,18 @@ _id: YOUdWNde69aD94YC
 img: icons/creatures/mammals/wolf-howl-moon-gray.webp
 system:
   advancement:
-    - type: Size
+    zYjd1QCsBzecG12o:
+      type: Size
       _id: zYjd1QCsBzecG12o
       configuration:
         sizes:
           - med
       level: 0
       value: {}
-    - type: AbilityScoreImprovement
+      flags: {}
+      hint: ''
+    X9TIC7oVrmgFESGJ:
+      type: AbilityScoreImprovement
       _id: X9TIC7oVrmgFESGJ
       configuration:
         cap: 1
@@ -33,24 +37,33 @@ system:
       level: 0
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    gD8yls4PIqIvRfDE:
+      type: ItemGrant
       _id: gD8yls4PIqIvRfDE
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.fUWo3BQ2GNdduEln
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.fUWo3BQ2GNdduEln
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.UesJRtzSK9QmpcvN
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.UesJRtzSK9QmpcvN
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.5eiEiDLgHBFt6dmZ
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.5eiEiDLgHBFt6dmZ
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1TxciocDhjUUeXjV
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1TxciocDhjUUeXjV
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>Though often conflated with the similarly canine Perro and Vulpo, any
@@ -158,8 +171,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680313150
-  modifiedTime: 1771157604548
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457736377
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!YOUdWNde69aD94YC'

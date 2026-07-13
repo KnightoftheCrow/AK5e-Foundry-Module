@@ -10,7 +10,8 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: Trait
+    g31uN2pgev0o7mPR:
+      type: Trait
       _id: g31uN2pgev0o7mPR
       configuration:
         allowReplacements: false
@@ -23,14 +24,16 @@ system:
       title: ''
       hint: ''
       value: {}
-    - type: ItemGrant
+      flags: {}
+    ZJbUVoKjsWUAxDMv:
+      type: ItemGrant
       _id: ZJbUVoKjsWUAxDMv
       configuration:
         items:
           - optional: false
-            uuid: Compendium.ak5e.ak5e-items.Item.K2HT1b80PeacbKTS
+            uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.K2HT1b80PeacbKTS
           - optional: false
-            uuid: Compendium.ak5e.ak5e-items.Item.dqXsCaK1P0JhtYC4
+            uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.dqXsCaK1P0JhtYC4
           - optional: false
             uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0
         optional: false
@@ -47,6 +50,7 @@ system:
       level: 0
       title: ''
       hint: ''
+      flags: {}
   description:
     value: >-
       <h3>Shepherd of the Dead</h3><p>While your song can carry away the souls
@@ -87,10 +91,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680339548
-  modifiedTime: 1768680339548
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457738139
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!yC1XdUPxNXaYeixL'

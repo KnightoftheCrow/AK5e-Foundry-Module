@@ -78,8 +78,6 @@ system:
       title: Skill Points
       hint: ''
       flags: {}
-      icon: ''
-      classRestriction: ''
     Kstv0yyxQKWWTRDC:
       type: Trait
       _id: Kstv0yyxQKWWTRDC
@@ -175,15 +173,13 @@ system:
         restriction:
           list: []
         spell: null
-        type: ''
+        type: null
       flags: {}
       value:
         added: {}
         replaced: {}
       hint: ''
       title: Light Melee
-      icon: ''
-      classRestriction: ''
     0UrHDjy8znsHiOtm:
       type: ItemChoice
       title: Heavy Melee
@@ -204,14 +200,12 @@ system:
         restriction:
           list: []
         spell: null
-        type: ''
+        type: null
       flags: {}
       value:
         added: {}
         replaced: {}
       hint: ''
-      icon: ''
-      classRestriction: ''
     OehrWX8yJ5xYbSrT:
       type: ItemChoice
       title: Armour
@@ -228,14 +222,12 @@ system:
         restriction:
           list: []
         spell: null
-        type: ''
+        type: null
       flags: {}
       value:
         added: {}
         replaced: {}
       hint: ''
-      icon: ''
-      classRestriction: ''
     e12fjsdAVQV79Z4U:
       type: ItemChoice
       _id: e12fjsdAVQV79Z4U
@@ -277,15 +269,13 @@ system:
         restriction:
           list: []
         spell: null
-        type: ''
+        type: null
       value:
         added: {}
         replaced: {}
       title: Tool Kit
       hint: <p>Select Tool Kit you're profience with.</p>
       flags: {}
-      icon: ''
-      classRestriction: ''
     CBzED7K7meWGZnTM:
       type: ItemGrant
       title: Defender Features
@@ -304,8 +294,6 @@ system:
       value: {}
       level: 1
       hint: ''
-      icon: ''
-      classRestriction: ''
     9LerhppA9jhmgmgV:
       type: Subclass
       title: Defender Branch
@@ -324,6 +312,7 @@ system:
         items:
           - uuid: >-
               Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Qi4Mc2HB3snq2eE5
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -331,8 +320,6 @@ system:
       title: 'Changes to Core Rules: Cantrips'
       hint: <p>All Creatures gain +Spellcasting Mod Damage to their Cantrips.</p>
       flags: {}
-      icon: ''
-      classRestriction: ''
     PZ6YvVsQ8N63J9ZP:
       type: Trait
       _id: PZ6YvVsQ8N63J9ZP
@@ -413,14 +400,12 @@ system:
         restriction:
           list: []
         spell: null
-        type: ''
+        type: null
       flags: {}
       value:
         added: {}
         replaced: {}
       hint: ''
-      icon: ''
-      classRestriction: ''
     Teqgq3fvWJtOmMvr:
       type: ItemGrant
       _id: Teqgq3fvWJtOmMvr
@@ -436,8 +421,6 @@ system:
       title: Extra Attack
       hint: ''
       flags: {}
-      icon: ''
-      classRestriction: ''
     RvqklDSH24xjZnjB:
       type: AbilityScoreImprovement
       _id: RvqklDSH24xjZnjB
@@ -502,14 +485,12 @@ system:
         restriction:
           list: []
         spell: null
-        type: ''
+        type: null
       flags: {}
       value:
         added: {}
         replaced: {}
       hint: ''
-      icon: ''
-      classRestriction: ''
     10oaXiuxymDTT9pg:
       type: ItemChoice
       title: Basic Talent
@@ -568,15 +549,13 @@ system:
         restriction:
           list: []
         spell: null
-        type: ''
+        type: null
       flags: {}
       value:
         added: {}
         replaced: {}
       hint: ''
       _id: 10oaXiuxymDTT9pg
-      icon: ''
-      classRestriction: ''
     Mpr54JfCN6Aq1B5v:
       type: ItemChoice
       title: Advanced Talent
@@ -636,14 +615,12 @@ system:
         restriction:
           list: []
         spell: null
-        type: ''
+        type: null
       flags: {}
       value:
         added: {}
         replaced: {}
       hint: ''
-      icon: ''
-      classRestriction: ''
     WoazhgfQlEGCWglk:
       type: AbilityScoreImprovement
       _id: WoazhgfQlEGCWglk
@@ -681,8 +658,6 @@ system:
       value: {}
       level: 11
       hint: ''
-      icon: ''
-      classRestriction: ''
     lr0LGsPWIDKrNLC8:
       type: ItemGrant
       title: Reactive
@@ -698,8 +673,6 @@ system:
       value: {}
       level: 13
       hint: ''
-      icon: ''
-      classRestriction: ''
     hDTC7fD4b9QvnCzM:
       type: ItemGrant
       title: Stand Behind Me
@@ -715,8 +688,6 @@ system:
       value: {}
       level: 17
       hint: ''
-      icon: ''
-      classRestriction: ''
     SLPhPmjXijHjETU4:
       type: ItemGrant
       title: Indestructible
@@ -732,8 +703,6 @@ system:
       value: {}
       level: 18
       hint: ''
-      icon: ''
-      classRestriction: ''
     Fe0DzL7Z4OjRTtcn:
       type: ItemGrant
       title: Adamantine Defence
@@ -749,8 +718,6 @@ system:
       value: {}
       level: 20
       hint: ''
-      icon: ''
-      classRestriction: ''
     J7hYDSSOqF8xrzZg:
       type: AbilityScoreImprovement
       _id: J7hYDSSOqF8xrzZg
@@ -803,14 +770,12 @@ system:
         restriction:
           list: []
         spell: null
-        type: ''
+        type: null
       flags: {}
       value:
         added: {}
         replaced: {}
       hint: ''
-      icon: ''
-      classRestriction: ''
   description:
     value: >-
       <h3>Core Defender Traits</h3><table><tbody><tr><td data-colwidth="142"><p
@@ -905,14 +870,14 @@ system:
       sort: 800000
     - type: linked
       count: null
-      key: Compendium.ak5e.ak5e-items.Item.Cec4UmE7i2g5ZJdm
+      key: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Cec4UmE7i2g5ZJdm
       requiresProficiency: false
       _id: gcjbyPcsPo76IMWc
       group: saeK3r7IjuRzR2wK
       sort: 1000000
     - type: linked
       count: null
-      key: Compendium.ak5e.ak5e-items.Item.CUj8KxuNMez6OMnx
+      key: Compendium.AK5e-Foundry-Module.ak5e-items.Item.CUj8KxuNMez6OMnx
       requiresProficiency: false
       _id: Ifnk7lIMP5TEXEs7
       group: saeK3r7IjuRzR2wK
@@ -964,8 +929,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.0
   createdTime: 1783358933005
-  modifiedTime: 1783375514379
-  lastModifiedBy: 27ikDz77N89hVLvM
+  modifiedTime: 1783459543412
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   27ikDz77N89hVLvM: 3

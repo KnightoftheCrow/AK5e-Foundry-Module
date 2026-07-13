@@ -51,9 +51,9 @@ system:
   description:
     value: >-
       <p>[[/attack extended]], [[/damage
-      extended]]</p><p>@UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.UMNN0ltqsGgesRxQ]{Crush
+      extended]]</p><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.UMNN0ltqsGgesRxQ]{Crush
       (3)},
-      @UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.8iuAmALKFvC7Pkcv]{Brace},
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.8iuAmALKFvC7Pkcv]{Brace},
       Two-Handed</p>
     chat: ''
   identifier: greatbow

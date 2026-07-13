@@ -19,7 +19,7 @@ system:
         targets:
           - type: itemUses
             value: '-8-(2*(@scaling.increase))'
-            target: '@Compendium.ak5e.ak5e-arts.Item.S9bBvBQSRuoCG2Rh'
+            target: '@Compendium.AK5e-Foundry-Module.ak5e-arts.Item.S9bBvBQSRuoCG2Rh'
             scaling:
               mode: ''
       description:
@@ -161,7 +161,7 @@ effects:
     changes:
       - key: macro.createItem
         mode: 0
-        value: Compendium.ak5e.ak5e-arts.Item.S9bBvBQSRuoCG2Rh
+        value: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.S9bBvBQSRuoCG2Rh
         priority: 20
     disabled: false
     duration:

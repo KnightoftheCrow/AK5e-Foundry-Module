@@ -1,7 +1,7 @@
 folder: qlhprYb2GHX3LPKU
 name: Staggering Force
 type: feat
-img: modules/ak5e/icons/Skill-Mountain3.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Mountain3.webp
 system:
   activities:
     ac9noccJfkT7cpRl:
@@ -109,7 +109,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>When you hit a Creature with a Spell Attack, or a Creature fails a
@@ -144,8 +144,8 @@ system:
     subtype: skillPoints
 effects:
   - name: '-10ft Speed'
-    img: modules/ak5e/icons/Skill-Mountain3.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.OfIOhCdZemaspRND
+    img: modules/AK5e-Foundry-Module/icons/Skill-Mountain3.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.OfIOhCdZemaspRND
     _id: mNWajOq3i25uGMZn
     type: base
     system: {}
@@ -202,15 +202,15 @@ flags:
       activity: []
       effect: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-talents.Item.ALdWBdKtEJNIg0gO
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.ALdWBdKtEJNIg0gO
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1770924144147
-  modifiedTime: 1770924144147
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457744819
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: OfIOhCdZemaspRND
 sort: -175000
 ownership:

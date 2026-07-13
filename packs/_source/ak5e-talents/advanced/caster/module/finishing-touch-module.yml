@@ -1,7 +1,7 @@
 folder: xZIHKSAf1iQQkfT3
 name: Finishing Touch (Module)
 type: feat
-img: modules/ak5e/icons/Skill-Underflow2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Underflow2.webp
 system:
   activities:
     oLT18ZQcvvOyrYbL:
@@ -19,7 +19,7 @@ system:
         targets:
           - type: itemUses
             value: '-2'
-            target: Compendium.ak5e.ak5e-talents.Item.9keA5EfcA4BeMHKT
+            target: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.9keA5EfcA4BeMHKT
       description:
         chatFlavor: ''
       duration:
@@ -115,7 +115,7 @@ system:
       - period: lr
         type: loseAll
     max: '5'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module: </strong>When you reduce a Creature to 0 Hit Points,
@@ -158,9 +158,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1772222746366
-  modifiedTime: 1783248192780
+  modifiedTime: 1783457744550
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: Kwk0AUN6sssXqnGO
 _key: '!items!Kwk0AUN6sssXqnGO'

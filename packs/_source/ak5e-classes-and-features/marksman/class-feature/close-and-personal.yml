@@ -1,14 +1,14 @@
 folder: r2sKTPYSmSAEfVCU
 name: Close and Personal
 type: feat
-img: modules/ak5e/icons/Skill-Andreana1.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Andreana1.png
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You do not have Disadvantage on Ranged Attack Rolls when there is a
@@ -37,8 +37,9 @@ system:
     subtype: fightingStyle
 effects:
   - name: Close and Personal
-    img: modules/ak5e/icons/Skill-Andreana1.png
-    origin: Compendium.ak5e.ak5e-classes-and-features.Item.KoShQQkHWdDKzY42
+    img: modules/AK5e-Foundry-Module/icons/Skill-Andreana1.png
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.KoShQQkHWdDKzY42
     _id: 0seOj4G3UUMMK9ng
     type: base
     system: {}
@@ -95,10 +96,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767614279025
-  modifiedTime: 1767876071618
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457739477
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

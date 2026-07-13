@@ -1,7 +1,7 @@
 folder: R7AlyM082W93xgTV
 name: Terrifying Force
 type: feat
-img: modules/ak5e/icons/Skill-TheDecadenza2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-TheDecadenza2.webp
 system:
   activities:
     2lkiq7KFW7FjD94I:
@@ -19,7 +19,8 @@ system:
         targets:
           - type: itemUses
             value: '30'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -128,7 +129,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -163,8 +164,8 @@ system:
     subtype: opSkill
 effects:
   - name: Terrifying Force (Skill Points)
-    img: modules/ak5e/icons/Skill-TheDecadenza2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.rlyB5B8b0NKLrZtH
+    img: modules/AK5e-Foundry-Module/icons/Skill-TheDecadenza2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.rlyB5B8b0NKLrZtH
     _id: GQBslauEmqcGyBM3
     type: base
     system: {}
@@ -216,7 +217,7 @@ effects:
       modifiedTime: 1774022674237
     _key: '!items.effects!rlyB5B8b0NKLrZtH.GQBslauEmqcGyBM3'
   - name: Terrified
-    img: modules/ak5e/icons/Skill-TheDecadenza2.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-TheDecadenza2.webp
     origin: Item.Ynhy6i01St7ZyeJz
     transfer: false
     _id: eQYlT1IEyBxMDJLJ
@@ -274,12 +275,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1773572167460
-  modifiedTime: 1774022636344
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457742916
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

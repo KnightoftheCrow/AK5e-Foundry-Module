@@ -48,7 +48,7 @@ system:
     - mgc
   requirements: ''
   activities: {}
-  advancement: []
+  advancement: {}
   identifier: spell-points
   enchant: {}
   prerequisites:
@@ -115,9 +115,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1757178957677
-  modifiedTime: 1782474870796
+  modifiedTime: 1783457746574
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: 6GMX3sLNtYU5pEtM
 sort: 200000

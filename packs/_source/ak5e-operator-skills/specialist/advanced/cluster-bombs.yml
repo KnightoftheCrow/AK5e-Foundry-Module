@@ -1,7 +1,7 @@
 folder: Wj6EO6CTbuEADq9N
 name: Cluster Bombs
 type: feat
-img: modules/ak5e/icons/Skill-Fuze2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Fuze2.webp
 system:
   activities:
     6SW4LJXiiYbRHqep:
@@ -19,7 +19,8 @@ system:
         targets:
           - type: itemUses
             value: '35'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -174,7 +175,7 @@ system:
     subtype: ''
 effects:
   - name: Cluster Bombs (Skill Points)
-    img: modules/ak5e/icons/Skill-Fuze2.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Fuze2.webp
     origin: Item.9unkAZYgVQ68gADm
     _id: 8flIua4KzfyyVmgo
     type: base

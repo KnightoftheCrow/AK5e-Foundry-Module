@@ -1,7 +1,7 @@
 folder: fGpFJo0gyinCoWeF
 name: Jumpstart
 type: feat
-img: modules/ak5e/icons/Skill-ReconSelfDriverLaunchpoint.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-ReconSelfDriverLaunchpoint.webp
 system:
   activities: {}
   uses:
@@ -33,7 +33,7 @@ system:
     subtype: talent
 effects:
   - name: Jumpstart
-    img: modules/ak5e/icons/Skill-ReconSelfDriverLaunchpoint.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-ReconSelfDriverLaunchpoint.webp
     origin: Item.cNPDrtZKh0hgNDtq
     _id: h5qsQcWkEfusKdGw
     type: base

@@ -1,7 +1,7 @@
 folder: qlhprYb2GHX3LPKU
 name: Hunter (X)
 type: feat
-img: modules/ak5e/icons/Skill-Invincible1.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
 system:
   activities:
     qViLZ34QptJ258g0:
@@ -145,7 +145,7 @@ system:
     spent: 0
     recovery: []
     max: '1'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>Choose one from: Aberration, Beast, Celestials, Construct, Fiends,
@@ -177,8 +177,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Hunter (Abberation)
-    img: modules/ak5e/icons/Skill-Invincible1.png
-    origin: Compendium.ak5e.ak5e-talents.Item.NnlD4Tl9znUkIbV5
+    img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.NnlD4Tl9znUkIbV5
     _id: QTGU5LpBeiLzbNRN
     type: base
     system: {}
@@ -217,7 +217,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-talents.Item.n1MZzBSHldA4Eoci.ActiveEffect.GNFjxq29W0Ikj0tl
+        Compendium.AK5e-Foundry-Module.ak5e-talents.Item.n1MZzBSHldA4Eoci.ActiveEffect.GNFjxq29W0Ikj0tl
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -228,8 +228,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!NnlD4Tl9znUkIbV5.QTGU5LpBeiLzbNRN'
   - name: Hunter (Beast)
-    img: modules/ak5e/icons/Skill-Invincible1.png
-    origin: Compendium.ak5e.ak5e-talents.Item.NnlD4Tl9znUkIbV5
+    img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.NnlD4Tl9znUkIbV5
     _id: 1WoeKxEkbaLgg7U0
     type: base
     system: {}
@@ -270,7 +270,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-talents.Item.DzzAsvUYTZoMqhPb.ActiveEffect.GNFjxq29W0Ikj0tl
+        Compendium.AK5e-Foundry-Module.ak5e-talents.Item.DzzAsvUYTZoMqhPb.ActiveEffect.GNFjxq29W0Ikj0tl
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -281,8 +281,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!NnlD4Tl9znUkIbV5.1WoeKxEkbaLgg7U0'
   - name: Hunter (Celestial)
-    img: modules/ak5e/icons/Skill-Invincible1.png
-    origin: Compendium.ak5e.ak5e-talents.Item.NnlD4Tl9znUkIbV5
+    img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.NnlD4Tl9znUkIbV5
     _id: OgtNBaHJ21jpQZtM
     type: base
     system: {}
@@ -321,7 +321,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-talents.Item.mhJlyeY2zREm18YY.ActiveEffect.GNFjxq29W0Ikj0tl
+        Compendium.AK5e-Foundry-Module.ak5e-talents.Item.mhJlyeY2zREm18YY.ActiveEffect.GNFjxq29W0Ikj0tl
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -332,8 +332,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!NnlD4Tl9znUkIbV5.OgtNBaHJ21jpQZtM'
   - name: Hunter (Construct)
-    img: modules/ak5e/icons/Skill-Invincible1.png
-    origin: Compendium.ak5e.ak5e-talents.Item.NnlD4Tl9znUkIbV5
+    img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.NnlD4Tl9znUkIbV5
     _id: Yb4W4UbwcZwcjfZs
     type: base
     system: {}
@@ -372,7 +372,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-talents.Item.fDTkdUCEcbBpm1b4.ActiveEffect.GNFjxq29W0Ikj0tl
+        Compendium.AK5e-Foundry-Module.ak5e-talents.Item.fDTkdUCEcbBpm1b4.ActiveEffect.GNFjxq29W0Ikj0tl
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -383,8 +383,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!NnlD4Tl9znUkIbV5.Yb4W4UbwcZwcjfZs'
   - name: Hunter (Fiend)
-    img: modules/ak5e/icons/Skill-Invincible1.png
-    origin: Compendium.ak5e.ak5e-talents.Item.NnlD4Tl9znUkIbV5
+    img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.NnlD4Tl9znUkIbV5
     _id: 253NL4e3gRrZSdIx
     type: base
     system: {}
@@ -423,7 +423,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-talents.Item.2tKsJJmjhEN6pEGS.ActiveEffect.GNFjxq29W0Ikj0tl
+        Compendium.AK5e-Foundry-Module.ak5e-talents.Item.2tKsJJmjhEN6pEGS.ActiveEffect.GNFjxq29W0Ikj0tl
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -434,8 +434,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!NnlD4Tl9znUkIbV5.253NL4e3gRrZSdIx'
   - name: Hunter (Monstrosity)
-    img: modules/ak5e/icons/Skill-Invincible1.png
-    origin: Compendium.ak5e.ak5e-talents.Item.NnlD4Tl9znUkIbV5
+    img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.NnlD4Tl9znUkIbV5
     _id: rPBW7DjAZfy1vFgo
     type: base
     system: {}
@@ -474,7 +474,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-talents.Item.8mfBiKHHqRfKniXi.ActiveEffect.GNFjxq29W0Ikj0tl
+        Compendium.AK5e-Foundry-Module.ak5e-talents.Item.8mfBiKHHqRfKniXi.ActiveEffect.GNFjxq29W0Ikj0tl
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -485,8 +485,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!NnlD4Tl9znUkIbV5.rPBW7DjAZfy1vFgo'
   - name: Hunter (Plant)
-    img: modules/ak5e/icons/Skill-Invincible1.png
-    origin: Compendium.ak5e.ak5e-talents.Item.NnlD4Tl9znUkIbV5
+    img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.NnlD4Tl9znUkIbV5
     _id: LUh0k63gRxGAh9Ko
     type: base
     system: {}
@@ -525,7 +525,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-talents.Item.QkhRSyyuvhTKpuu2.ActiveEffect.GNFjxq29W0Ikj0tl
+        Compendium.AK5e-Foundry-Module.ak5e-talents.Item.QkhRSyyuvhTKpuu2.ActiveEffect.GNFjxq29W0Ikj0tl
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -536,8 +536,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!NnlD4Tl9znUkIbV5.LUh0k63gRxGAh9Ko'
   - name: Hunter (Undead)
-    img: modules/ak5e/icons/Skill-Invincible1.png
-    origin: Compendium.ak5e.ak5e-talents.Item.NnlD4Tl9znUkIbV5
+    img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.NnlD4Tl9znUkIbV5
     _id: pzIVln86CprK56cY
     type: base
     system: {}
@@ -576,7 +576,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-talents.Item.JOvirCcts7tnGbL7.ActiveEffect.GNFjxq29W0Ikj0tl
+        Compendium.AK5e-Foundry-Module.ak5e-talents.Item.JOvirCcts7tnGbL7.ActiveEffect.GNFjxq29W0Ikj0tl
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -596,9 +596,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1770924144147
-  modifiedTime: 1783246691278
+  modifiedTime: 1783457744737
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

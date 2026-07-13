@@ -321,7 +321,7 @@ system:
     spent: 0
     recovery: []
     max: '5'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>The people of Sami are tribal, but not primitive. Theirs is a society
@@ -357,7 +357,8 @@ system:
 effects:
   - name: Makeshift Medical Kit Created
     img: icons/magic/nature/elemental-plant-humanoid.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.SqucO7sQhtXu7d1Z
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.SqucO7sQhtXu7d1Z
     transfer: false
     _id: hXOh1TFs9c7TSTTD
     type: base
@@ -365,7 +366,7 @@ effects:
     changes:
       - key: macro.createItem
         mode: 0
-        value: Compendium.ak5e.ak5e-items.Item.3ZwLZuzf3LV0enqU
+        value: Compendium.AK5e-Foundry-Module.ak5e-items.Item.3ZwLZuzf3LV0enqU
         priority: 20
     disabled: false
     duration:
@@ -419,10 +420,10 @@ _stats:
   compendiumSource: Item.SqucO7sQhtXu7d1Z
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881328247
-  modifiedTime: 1769881328247
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457735854
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!SqucO7sQhtXu7d1Z'

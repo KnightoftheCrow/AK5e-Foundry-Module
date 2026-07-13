@@ -1,14 +1,14 @@
 folder: r2sKTPYSmSAEfVCU
 name: Ranger
 type: feat
-img: modules/ak5e/icons/Skill-Blitz2.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Blitz2.png
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You gain a +2 Bonus to Attack Rolls you make with Ranged or Thrown
@@ -37,8 +37,9 @@ system:
     subtype: fightingStyle
 effects:
   - name: Ranger
-    img: modules/ak5e/icons/Skill-Blitz2.png
-    origin: Compendium.ak5e.ak5e-classes-and-features.Item.OR6a43AfzdtlZonE
+    img: modules/AK5e-Foundry-Module/icons/Skill-Blitz2.png
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.OR6a43AfzdtlZonE
     _id: MafaTRrvCcJvPd2s
     type: base
     system: {}
@@ -95,10 +96,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767614283916
-  modifiedTime: 1767898637995
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457739708
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

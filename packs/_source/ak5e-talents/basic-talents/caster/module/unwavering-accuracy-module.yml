@@ -1,14 +1,14 @@
 folder: SuzcwOsde1k6YNFn
 name: Unwavering Accuracy (Module)
 type: feat
-img: modules/ak5e/icons/Skill-Lemuen2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Lemuen2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module Effect: </strong>When you make a Spell Attack Roll, you
@@ -43,14 +43,14 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-talents.Item.PworX43PVxyg3nWI
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.PworX43PVxyg3nWI
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1770924144147
-  modifiedTime: 1783246292808
+  modifiedTime: 1783457745905
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: usM7rFZKyy1ZfKRZ
 sort: 500000

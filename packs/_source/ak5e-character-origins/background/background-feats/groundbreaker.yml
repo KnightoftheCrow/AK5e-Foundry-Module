@@ -10,7 +10,8 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: Trait
+    F9o8wMqpYx5851b6:
+      type: Trait
       _id: F9o8wMqpYx5851b6
       configuration:
         allowReplacements: false
@@ -23,7 +24,9 @@ system:
       title: ''
       hint: ''
       value: {}
-    - type: ItemChoice
+      flags: {}
+    zys2HTCo6v5pHWmU:
+      type: ItemChoice
       _id: zys2HTCo6v5pHWmU
       configuration:
         allowDrops: false
@@ -32,8 +35,8 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.ak5e.ak5e-items.Item.fPUfPJOelKu6a97f
-          - uuid: Compendium.ak5e.ak5e-items.Item.a0RPD5m4b1rj0cQT
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.fPUfPJOelKu6a97f
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.a0RPD5m4b1rj0cQT
         restriction:
           list: []
         spell: null
@@ -43,6 +46,7 @@ system:
         replaced: {}
       title: ''
       hint: ''
+      flags: {}
   description:
     value: >-
       <p>Your undergrounder lifestyle has equipped you with the following
@@ -77,7 +81,8 @@ system:
 effects:
   - name: Blindsight
     img: icons/weapons/axes/axe-pick-white.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.7lhV6LQR0bAZY4tt
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.7lhV6LQR0bAZY4tt
     _id: nOFEMa9vudn6Qblg
     type: base
     system: {}
@@ -135,10 +140,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1769881347037
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457734567
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!7lhV6LQR0bAZY4tt'

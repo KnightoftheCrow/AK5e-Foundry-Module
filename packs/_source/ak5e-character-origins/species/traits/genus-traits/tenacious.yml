@@ -8,7 +8,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You can add half of your Proficiency Bonus (rounded down) to any Saving
@@ -111,12 +111,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680528324
-  modifiedTime: 1768680528357
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457736840
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

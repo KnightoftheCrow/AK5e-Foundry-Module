@@ -1,7 +1,7 @@
 folder: VB62TaHnZ4bJYRuO
 name: Oath
 type: feat
-img: modules/ak5e/icons/Skill-Conviction2.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Conviction2.png
 system:
   activities:
     bsh2hMb1kGmqYy8w:
@@ -21,7 +21,8 @@ system:
         targets:
           - type: itemUses
             value: '80'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -152,8 +153,8 @@ system:
     subtype: ''
 effects:
   - name: Oath (Skill Points)
-    img: modules/ak5e/icons/Skill-Conviction2.png
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.36Zewn2Cez63Pdqo
+    img: modules/AK5e-Foundry-Module/icons/Skill-Conviction2.png
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.36Zewn2Cez63Pdqo
     type: base
     _id: Am52ev3Z2Mo5CaH8
     system: {}

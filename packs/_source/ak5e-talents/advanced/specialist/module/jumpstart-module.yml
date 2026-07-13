@@ -1,7 +1,7 @@
 folder: EjQr1CtCkHNEpvzS
 name: Jumpstart (Module)
 type: feat
-img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
+img: modules/AK5e-Foundry-Module/icons/Skill-TacticalEquipmentToolbox.png
 system:
   activities: {}
   uses:
@@ -26,7 +26,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.CFUuirtym4KuKXTA
+      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.CFUuirtym4KuKXTA
     repeatable: false
     level: 13
   properties:
@@ -37,7 +37,7 @@ system:
     subtype: skillPoints
 effects:
   - name: +5 Additional Start SP
-    img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
+    img: modules/AK5e-Foundry-Module/icons/Skill-TacticalEquipmentToolbox.png
     origin: Item.ce4EEvRi6hQM9GHJ
     _id: etZoS0vDQqwulL5T
     type: base

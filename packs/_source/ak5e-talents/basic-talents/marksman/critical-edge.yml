@@ -2,14 +2,14 @@ folder: U1VvPUnEP8A2c7Xk
 name: Critical Edge
 type: feat
 _id: OJjJDtDv1eF7izrT
-img: modules/ak5e/icons/Skill-C1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-C1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>Your Critical Range is increased by 1.</p><p><strong>Module:</strong>
@@ -38,8 +38,8 @@ system:
     subtype: talent
 effects:
   - name: Critical Edge
-    img: modules/ak5e/icons/Skill-C1.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.OJjJDtDv1eF7izrT
+    img: modules/AK5e-Foundry-Module/icons/Skill-C1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.OJjJDtDv1eF7izrT
     _id: s3aDMHJ3W5hWibXs
     type: base
     system: {}
@@ -101,8 +101,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767734950362
-  modifiedTime: 1783242749310
+  modifiedTime: 1783457744754
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!OJjJDtDv1eF7izrT'

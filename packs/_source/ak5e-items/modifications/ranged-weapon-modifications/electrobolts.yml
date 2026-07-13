@@ -2,7 +2,7 @@ folder: wTkeoeJjxbPHcfdK
 name: Electrobolts
 type: consumable
 _id: lqw3MdiH36q4Zkd6
-img: modules/ak5e/icons/Skill-Magallan2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Magallan2.webp
 system:
   activities: {}
   uses:
@@ -62,7 +62,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-items.Item.iDMyey3JVYahp4fH
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.iDMyey3JVYahp4fH
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

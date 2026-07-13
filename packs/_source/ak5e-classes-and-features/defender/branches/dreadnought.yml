@@ -19,7 +19,6 @@ system:
       value: {}
       level: 1
       hint: ''
-      icon: ''
     pJjC6RwwsLBhdrao:
       type: ItemGrant
       title: Branch Feature
@@ -35,7 +34,6 @@ system:
       level: 4
       hint: ''
       _id: pJjC6RwwsLBhdrao
-      icon: ''
     BMZxtBlajTZOQyNO:
       type: ItemGrant
       title: Branch Feature
@@ -51,7 +49,6 @@ system:
       level: 9
       hint: ''
       _id: BMZxtBlajTZOQyNO
-      icon: ''
     ThCG8lCEqe8DPw2p:
       type: ItemGrant
       title: Branch Feature
@@ -67,7 +64,6 @@ system:
       level: 12
       hint: ''
       _id: ThCG8lCEqe8DPw2p
-      icon: ''
     wLxUSmY0HXVzaoSf:
       type: ItemGrant
       title: Branch Feature
@@ -83,7 +79,6 @@ system:
       level: 15
       hint: ''
       _id: wLxUSmY0HXVzaoSf
-      icon: ''
   description:
     value: >-
       <p>Defenders treading the path of the Dreadnought seek always to bare
@@ -93,15 +88,15 @@ system:
       Branch Features:</p><table><tbody><tr><td
       data-colwidth="50"><p>Level</p></td><td><p>Branch
       Feature</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.pBQ4Q65MzTezmmZS]{Dreadnought’s
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.pBQ4Q65MzTezmmZS]{Dreadnought’s
       Advance}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.oKeXhQ8nC3Ye1PGD]{Crownsplitter}</p></td></tr><tr><td
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.oKeXhQ8nC3Ye1PGD]{Crownsplitter}</p></td></tr><tr><td
       data-colwidth="50"><p
-      style="text-align:center">9</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.3v8BxRuiQUSTIRPl]{Wrecking
+      style="text-align:center">9</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.3v8BxRuiQUSTIRPl]{Wrecking
       Wall}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">12</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.Wzk4GOEfvK6uH05O]{Sword
+      style="text-align:center">12</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Wzk4GOEfvK6uH05O]{Sword
       of Damocles}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.9XYwmI0qNhAikDJQ]{Legendary
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.9XYwmI0qNhAikDJQ]{Legendary
       Might}</p></td></tr></tbody></table>
     chat: ''
   identifier: dreadnought
@@ -120,15 +115,16 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.k9hOXw4KjTU7bKdM
+  compendiumSource: >-
+    Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.k9hOXw4KjTU7bKdM
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.3.0
   createdTime: 1783358934901
-  modifiedTime: 1783367588539
-  lastModifiedBy: 27ikDz77N89hVLvM
+  modifiedTime: 1783457741129
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   27ikDz77N89hVLvM: 3

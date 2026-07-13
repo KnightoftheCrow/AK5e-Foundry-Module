@@ -2,14 +2,14 @@ folder: AynL7yzSlptsmcjl
 name: Overwhelming Strike
 type: feat
 _id: aW0bCeIhfhgxIa1D
-img: modules/ak5e/icons/Skill-Morgan1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Morgan1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>When you roll a 20 on the d20 for an Attack Roll, you can deal
@@ -54,8 +54,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767738700232
-  modifiedTime: 1783247112669
+  modifiedTime: 1783457745113
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!aW0bCeIhfhgxIa1D'

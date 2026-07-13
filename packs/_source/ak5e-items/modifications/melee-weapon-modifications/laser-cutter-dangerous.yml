@@ -2,7 +2,7 @@ folder: iC9FYNlLTOR8baLK
 name: Laser Cutter (Dangerous)
 type: consumable
 _id: xJO17EKo8BmzoN2n
-img: modules/ak5e/icons/Skill-Magallan1.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Magallan1.png
 system:
   activities: {}
   uses:
@@ -63,7 +63,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-items.Item.Wvr5IL3H6s2Jq8HA
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Wvr5IL3H6s2Jq8HA
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

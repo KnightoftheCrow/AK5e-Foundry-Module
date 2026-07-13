@@ -2,7 +2,7 @@ folder: j0lfJHG1ty3jJ7kY
 name: Sculpt Arts (WIP)
 type: feat
 _id: fJNwJVtynlVl2IX1
-img: modules/ak5e/icons/Skill-TheIgnitingSpark2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-TheIgnitingSpark2.webp
 system:
   activities:
     se7iT97HCbsFkGNX:
@@ -22,7 +22,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+            target: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.6GMX3sLNtYU5pEtM
             scaling:
               mode: amount
               formula: '1'
@@ -142,7 +142,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You can better control the area of your Arts; to shield Creatures of
@@ -185,7 +185,7 @@ system:
 effects:
   - type: enchantment
     name: Overwhelming Detonation (Cone/Cube)
-    img: modules/ak5e/icons/Skill-TheIgnitingSpark2.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-TheIgnitingSpark2.webp
     disabled: true
     _id: IYePBu8SIg0fxeLN
     system: {}
@@ -236,7 +236,7 @@ effects:
     _key: '!items.effects!fJNwJVtynlVl2IX1.IYePBu8SIg0fxeLN'
   - type: enchantment
     name: Overwhelming Detonation (Line)
-    img: modules/ak5e/icons/Skill-TheIgnitingSpark2.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-TheIgnitingSpark2.webp
     disabled: true
     _id: 2ZKPZ781HserDYDZ
     system: {}
@@ -287,7 +287,7 @@ effects:
     _key: '!items.effects!fJNwJVtynlVl2IX1.2ZKPZ781HserDYDZ'
   - type: enchantment
     name: Overwhelming Detonation (Sphere)
-    img: modules/ak5e/icons/Skill-TheIgnitingSpark2.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-TheIgnitingSpark2.webp
     disabled: true
     _id: LpVXUQy0YiknGFAG
     system: {}
@@ -348,10 +348,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1774123678844
-  modifiedTime: 1774178243086
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457740362
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!fJNwJVtynlVl2IX1'

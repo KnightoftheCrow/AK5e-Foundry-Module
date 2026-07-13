@@ -107,10 +107,10 @@ system:
   description:
     value: >-
       <p>[[/attack extended]], [[/damage
-      extended]]</p><p>@UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.8iuAmALKFvC7Pkcv]{Brace},
-      @UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.m68ktSSw7QLMS9Rj]{CQC},
+      extended]]</p><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.8iuAmALKFvC7Pkcv]{Brace},
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.m68ktSSw7QLMS9Rj]{CQC},
       Finesse,
-      @UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.kOnm3XZjIkIKSMqs]{Returning},
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.kOnm3XZjIkIKSMqs]{Returning},
       Thrown (50/100)</p><p></p><p></p>
     chat: ''
   identifier: heavy-throwing-disc

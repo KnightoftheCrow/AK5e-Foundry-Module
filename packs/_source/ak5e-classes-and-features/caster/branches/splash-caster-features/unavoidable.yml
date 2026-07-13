@@ -2,7 +2,7 @@ folder: j0lfJHG1ty3jJ7kY
 name: Unavoidable
 type: feat
 _id: pQ5ygWo0vQUdPyTS
-img: modules/ak5e/icons/Skill-Ifrit2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit2.webp
 system:
   activities:
     4rXbae9jZTP39dGV:
@@ -120,7 +120,7 @@ system:
       - period: sr
         type: recoverAll
     max: '1'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>Your area-of-effect Arts are so potent that few can ever hope to avoid
@@ -153,8 +153,9 @@ system:
     subtype: ''
 effects:
   - name: All-Consuming
-    img: modules/ak5e/icons/Skill-Ifrit2.webp
-    origin: Compendium.ak5e.ak5e-classes-and-features.Item.pQ5ygWo0vQUdPyTS
+    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit2.webp
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.pQ5ygWo0vQUdPyTS
     transfer: false
     _id: CSlm0BXBmhWS34bC
     type: base
@@ -219,10 +220,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1774127901728
-  modifiedTime: 1774178240487
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457740993
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!pQ5ygWo0vQUdPyTS'

@@ -125,7 +125,8 @@ system:
         type: recoverAll
     max: '1'
   advancement:
-    - type: Trait
+    z9d5lVTeIzB0smJQ:
+      type: Trait
       _id: z9d5lVTeIzB0smJQ
       configuration:
         allowReplacements: false
@@ -137,6 +138,7 @@ system:
       title: ''
       hint: ''
       value: {}
+      flags: {}
   description:
     value: >-
       <p>Pedestrian technologies in Ægir are the stuff of science fiction novels
@@ -168,15 +170,17 @@ ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
 flags:
-  dnd5e: {}
+  dnd5e:
+    riders:
+      activity: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1769881347037
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457735939
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!UAerETFqjpAOf3F2'

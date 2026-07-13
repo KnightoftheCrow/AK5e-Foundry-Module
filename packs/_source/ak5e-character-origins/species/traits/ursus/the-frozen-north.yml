@@ -10,7 +10,8 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: Trait
+    S83GDyCTAJA3hROH:
+      type: Trait
       _id: S83GDyCTAJA3hROH
       configuration:
         allowReplacements: false
@@ -22,6 +23,7 @@ system:
       title: ''
       hint: ''
       value: {}
+      flags: {}
   description:
     value: >-
       <h3>The Frozen North</h3><p>The Ursi originate from snow-blasted wastes
@@ -63,10 +65,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680535308
-  modifiedTime: 1768680535308
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457736495
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!arSJpZtSnZX4cWod'

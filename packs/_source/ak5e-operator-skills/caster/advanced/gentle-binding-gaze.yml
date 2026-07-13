@@ -1,7 +1,7 @@
 folder: R7AlyM082W93xgTV
 name: Gentle Binding Gaze
 type: feat
-img: modules/ak5e/icons/Skill-Pepe2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Pepe2.webp
 system:
   activities:
     2lkiq7KFW7FjD94I:
@@ -19,7 +19,8 @@ system:
         targets:
           - type: itemUses
             value: '30'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -253,7 +254,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -292,8 +293,8 @@ system:
     subtype: opSkill
 effects:
   - name: Gentle Binding Gaze (Skill Points)
-    img: modules/ak5e/icons/Skill-Pepe2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.ohDBnHUl0lL020mV
+    img: modules/AK5e-Foundry-Module/icons/Skill-Pepe2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.ohDBnHUl0lL020mV
     _id: GQBslauEmqcGyBM3
     type: base
     system: {}
@@ -336,7 +337,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -345,8 +346,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!ohDBnHUl0lL020mV.GQBslauEmqcGyBM3'
   - name: Bound in Arts
-    img: modules/ak5e/icons/Skill-Pepe2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.ohDBnHUl0lL020mV
+    img: modules/AK5e-Foundry-Module/icons/Skill-Pepe2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.ohDBnHUl0lL020mV
     transfer: false
     _id: HPjNqxx1Fp9zEVY1
     type: base
@@ -404,8 +405,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!ohDBnHUl0lL020mV.HPjNqxx1Fp9zEVY1'
   - name: Gentle Binding Gaze
-    img: modules/ak5e/icons/Skill-Pepe2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.ohDBnHUl0lL020mV
+    img: modules/AK5e-Foundry-Module/icons/Skill-Pepe2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.ohDBnHUl0lL020mV
     transfer: false
     _id: 7sl8fyyuPYzSyUMb
     type: base
@@ -464,11 +465,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.scf4QdUz0lv0ysI6
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1772986852717
-  modifiedTime: 1773572162125
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457742881
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: ohDBnHUl0lL020mV
 _key: '!items!ohDBnHUl0lL020mV'

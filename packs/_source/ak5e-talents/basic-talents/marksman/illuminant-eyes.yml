@@ -2,7 +2,7 @@ folder: U1VvPUnEP8A2c7Xk
 name: Illuminant Eyes
 type: feat
 _id: cdDqSuDN1Rr0ajwR
-img: modules/ak5e/icons/Skill-AspectOfAnnihilation.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-AspectOfAnnihilation.webp
 system:
   activities:
     D9NlHpUHWr4OZvDY:
@@ -123,7 +123,7 @@ system:
       - period: sr
         type: recoverAll
     max: '1'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You gain 30 feet of Darkvision; if you already have Darkvision, it is
@@ -155,8 +155,8 @@ system:
     subtype: talent
 effects:
   - name: Illuminant Eyes
-    img: modules/ak5e/icons/Skill-AspectOfAnnihilation.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.cdDqSuDN1Rr0ajwR
+    img: modules/AK5e-Foundry-Module/icons/Skill-AspectOfAnnihilation.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.cdDqSuDN1Rr0ajwR
     _id: ly1R4GFPCS8R6lTq
     type: base
     system: {}
@@ -205,8 +205,8 @@ effects:
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!cdDqSuDN1Rr0ajwR.ly1R4GFPCS8R6lTq'
   - name: Illuminant Eyes (Doubled)
-    img: modules/ak5e/icons/Skill-AspectOfAnnihilation.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.cdDqSuDN1Rr0ajwR
+    img: modules/AK5e-Foundry-Module/icons/Skill-AspectOfAnnihilation.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.cdDqSuDN1Rr0ajwR
     _id: OR63V2kqK7eY0ITl
     type: base
     system: {}
@@ -272,8 +272,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767735341369
-  modifiedTime: 1783242655271
+  modifiedTime: 1783457745210
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!cdDqSuDN1Rr0ajwR'

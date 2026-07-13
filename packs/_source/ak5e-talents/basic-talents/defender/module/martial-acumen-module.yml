@@ -1,7 +1,7 @@
 folder: zLS0Nt8r6PPuDuKr
 name: Martial Acumen (Module)
 type: feat
-img: modules/ak5e/icons/Skill-Morgan2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Morgan2.webp
 system:
   activities: {}
   uses:
@@ -23,7 +23,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.PL4xlgwwce950X8F
+      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.PL4xlgwwce950X8F
     repeatable: false
     level: 8
   properties:

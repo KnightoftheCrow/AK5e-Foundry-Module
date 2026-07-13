@@ -1,14 +1,14 @@
 folder: 5ej4KENJRk8I9Ksg
 name: One Moment (Module)
 type: feat
-img: modules/ak5e/icons/Skill-TheFiresharpened1.png
+img: modules/AK5e-Foundry-Module/icons/Skill-TheFiresharpened1.png
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module:</strong> The Force Damage taken is increased to
@@ -46,9 +46,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1768145921135
-  modifiedTime: 1783247271982
+  modifiedTime: 1783457744921
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

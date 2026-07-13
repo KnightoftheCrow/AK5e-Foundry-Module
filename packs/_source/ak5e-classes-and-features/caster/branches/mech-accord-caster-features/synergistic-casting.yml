@@ -2,7 +2,7 @@ folder: PEUmzy8rnB1pKfXr
 name: Synergistic Casting
 type: feat
 _id: rTqysGZ34Kr6QdEL
-img: modules/ak5e/icons/Skill-Aciddrop2.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Aciddrop2.png
 system:
   activities:
     1DXaj7CtGWvOdCG3:
@@ -21,7 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+            target: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.6GMX3sLNtYU5pEtM
       description:
         chatFlavor: ''
       duration:
@@ -128,7 +128,7 @@ system:
             target: ''
           - type: itemUses
             value: '1'
-            target: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+            target: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.6GMX3sLNtYU5pEtM
       description:
         chatFlavor: ''
       duration:
@@ -228,7 +228,7 @@ system:
       - period: turnStart
         type: recoverAll
     max: '1'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You have refined the connection you form with your drones, allowing you
@@ -262,8 +262,9 @@ system:
     subtype: ''
 effects:
   - name: Cannot Attack
-    img: modules/ak5e/icons/Skill-Aciddrop2.png
-    origin: Compendium.ak5e.ak5e-classes-and-features.Item.rTqysGZ34Kr6QdEL
+    img: modules/AK5e-Foundry-Module/icons/Skill-Aciddrop2.png
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.rTqysGZ34Kr6QdEL
     transfer: false
     _id: DzdrooTSexPbumlE
     type: base
@@ -328,10 +329,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1774103747903
-  modifiedTime: 1774180374020
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457741112
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!rTqysGZ34Kr6QdEL'

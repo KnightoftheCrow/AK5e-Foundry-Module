@@ -1,7 +1,7 @@
 folder: fxf6t1P5taaOdbmA
 name: Critical Edge
 type: feat
-img: modules/ak5e/icons/Skill-C1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-C1.webp
 system:
   activities: {}
   uses:
@@ -33,7 +33,7 @@ system:
     subtype: talent
 effects:
   - name: Critical Edge
-    img: modules/ak5e/icons/Skill-C1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-C1.webp
     origin: Item.QbTbSHjWUn2jDVhg
     _id: s3aDMHJ3W5hWibXs
     type: base

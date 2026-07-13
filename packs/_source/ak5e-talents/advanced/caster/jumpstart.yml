@@ -2,14 +2,14 @@ folder: cyW9fgrb9XaTddeH
 name: Jumpstart
 type: feat
 _id: CFUuirtym4KuKXTA
-img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
+img: modules/AK5e-Foundry-Module/icons/Skill-TacticalEquipmentToolbox.png
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>The Start SP of your Operator Skills is increased by
@@ -38,8 +38,8 @@ system:
     subtype: skillPoints
 effects:
   - name: +5 Start SP
-    img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
-    origin: Compendium.ak5e.ak5e-talents.Item.CFUuirtym4KuKXTA
+    img: modules/AK5e-Foundry-Module/icons/Skill-TacticalEquipmentToolbox.png
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.CFUuirtym4KuKXTA
     _id: etZoS0vDQqwulL5T
     type: base
     system: {}
@@ -99,8 +99,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1772222746366
-  modifiedTime: 1783248126075
+  modifiedTime: 1783457744192
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!CFUuirtym4KuKXTA'

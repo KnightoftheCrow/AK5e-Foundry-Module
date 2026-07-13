@@ -1,14 +1,14 @@
 folder: SuzcwOsde1k6YNFn
 name: Armoured Caster (Module)
 type: feat
-img: modules/ak5e/icons/Skill-Bison1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Bison1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module Effect: </strong>While you are wearing Light Armour, you
@@ -38,8 +38,8 @@ system:
     subtype: skillPoints
 effects:
   - name: +1 to Dex Saves while wearing Light Armour
-    img: modules/ak5e/icons/Skill-Bison1.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.SvfCi8WVB43I0jde
+    img: modules/AK5e-Foundry-Module/icons/Skill-Bison1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.SvfCi8WVB43I0jde
     _id: LZyzIxLaS28gExpy
     type: base
     system: {}
@@ -92,14 +92,14 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-talents.Item.37KV9eRIu4TmpCSn
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.37KV9eRIu4TmpCSn
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1770924144147
-  modifiedTime: 1783246797090
+  modifiedTime: 1783457744939
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: SvfCi8WVB43I0jde
 sort: 100000

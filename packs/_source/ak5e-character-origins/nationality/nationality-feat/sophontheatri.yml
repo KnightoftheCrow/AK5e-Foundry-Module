@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>The social architecture of modern Ægir has been heavily influenced by
@@ -41,7 +41,8 @@ system:
 effects:
   - name: Sophontheatri
     img: icons/environment/settlement/temple-night.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.V0Wag5cTIBP584oY
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.V0Wag5cTIBP584oY
     _id: pwBpeAkJaoncn2eo
     type: base
     system: {}
@@ -107,10 +108,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881328247
-  modifiedTime: 1769881328247
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457736051
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!V0Wag5cTIBP584oY'

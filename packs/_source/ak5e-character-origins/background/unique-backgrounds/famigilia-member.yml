@@ -5,7 +5,8 @@ _id: XNqTJn8egS2qMfaq
 img: icons/commodities/treasure/token-gold-cross.webp
 system:
   advancement:
-    - type: Trait
+    uHGC7ebD05UmyiUX:
+      type: Trait
       title: Background Proficiencies
       _id: uHGC7ebD05UmyiUX
       configuration:
@@ -21,17 +22,22 @@ system:
       level: 0
       hint: ''
       value: {}
-    - type: ItemGrant
+      flags: {}
+    0oOvJAZfBfdxFjfe:
+      type: ItemGrant
       title: Background Feature
       _id: 0oOvJAZfBfdxFjfe
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.bfPdkxEX9seNA43F
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.bfPdkxEX9seNA43F
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>The violent nature of the Lupi is a potent and heady mix when combined
@@ -69,8 +75,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1771155909914
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457736270
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!XNqTJn8egS2qMfaq'

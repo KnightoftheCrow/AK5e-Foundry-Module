@@ -2,7 +2,7 @@ folder: 5ej4KENJRk8I9Ksg
 name: Alpha Strike (Module)
 type: feat
 _id: imHOfHdGlX4eXLIq
-img: modules/ak5e/icons/Skill-Lappland2.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Lappland2.png
 system:
   activities:
     xTj89A4Ux6AYZaro:
@@ -112,7 +112,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: <p><strong>Module:</strong> The additional Damage becomes 2d12.</p>
     chat: ''
@@ -139,8 +139,8 @@ system:
     subtype: talent
 effects:
   - name: Alpha Strike (Module)
-    img: modules/ak5e/icons/Skill-Lappland2.png
-    origin: Compendium.ak5e.ak5e-talents.Item.imHOfHdGlX4eXLIq
+    img: modules/AK5e-Foundry-Module/icons/Skill-Lappland2.png
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.imHOfHdGlX4eXLIq
     _id: QcOD3rFthDjUCkjk
     type: base
     system: {}
@@ -183,7 +183,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-talents.Item.o0GnFDZnQv6sXcbC.ActiveEffect.VSDmSkJS3PKvLsNb
+        Compendium.AK5e-Foundry-Module.ak5e-talents.Item.o0GnFDZnQv6sXcbC.ActiveEffect.VSDmSkJS3PKvLsNb
       duplicateSource: null
       exportSource: null
       coreVersion: '13.351'
@@ -207,8 +207,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767738173949
-  modifiedTime: 1783247851653
+  modifiedTime: 1783457745490
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!imHOfHdGlX4eXLIq'

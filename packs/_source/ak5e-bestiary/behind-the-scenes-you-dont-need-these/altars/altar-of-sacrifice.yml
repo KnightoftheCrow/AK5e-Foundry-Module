@@ -736,7 +736,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: []
+      advancement: {}
       description:
         value: >-
           <p>While this Altar is active, when a Creature within 30 feet of the
@@ -877,12 +877,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.347'
+  coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.1.2
   createdTime: 1757437268374
-  modifiedTime: 1757437268374
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457733346
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

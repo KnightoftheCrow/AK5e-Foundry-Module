@@ -122,7 +122,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <h3>Ever Onward</h3><p>No matter their destiny, no matter their objective,
@@ -167,10 +167,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680307075
-  modifiedTime: 1768680307075
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457735170
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!JYUKDlTcrMUxNcrN'

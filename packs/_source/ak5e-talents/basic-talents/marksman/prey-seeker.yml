@@ -2,7 +2,7 @@ folder: U1VvPUnEP8A2c7Xk
 name: Prey Seeker
 type: feat
 _id: qfNTsOkoFFat7oiu
-img: modules/ak5e/icons/Skill-ProjektRed2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-ProjektRed2.webp
 system:
   activities:
     NRzqKUl8LQCZo2UB:
@@ -123,7 +123,7 @@ system:
       - period: turn
         type: recoverAll
     max: '1'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>When you hit a Creature missing any Hit Points with an Attack, that
@@ -153,8 +153,8 @@ system:
     subtype: talent
 effects:
   - name: Prey Seeker
-    img: modules/ak5e/icons/Skill-ProjektRed2.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.qfNTsOkoFFat7oiu
+    img: modules/AK5e-Foundry-Module/icons/Skill-ProjektRed2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.qfNTsOkoFFat7oiu
     _id: 9vcrhy0dcYzqtFdO
     type: base
     system: {}
@@ -223,8 +223,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767736446706
-  modifiedTime: 1783242546196
+  modifiedTime: 1783457745739
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!qfNTsOkoFFat7oiu'

@@ -1,7 +1,7 @@
 folder: EjQr1CtCkHNEpvzS
 name: Alpha Strike (Module)
 type: feat
-img: modules/ak5e/icons/Skill-Lappland2.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Lappland2.png
 system:
   activities:
     xTj89A4Ux6AYZaro:
@@ -127,7 +127,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.o0GnFDZnQv6sXcbC
+      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.o0GnFDZnQv6sXcbC
     repeatable: false
     level: 13
   properties:
@@ -138,7 +138,7 @@ system:
     subtype: talent
 effects:
   - name: Alpha Strike (Module)
-    img: modules/ak5e/icons/Skill-Lappland2.png
+    img: modules/AK5e-Foundry-Module/icons/Skill-Lappland2.png
     origin: Item.gS6z1ZmAXugaeqeT
     _id: QcOD3rFthDjUCkjk
     type: base

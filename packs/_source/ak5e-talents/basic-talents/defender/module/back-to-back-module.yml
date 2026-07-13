@@ -1,7 +1,7 @@
 folder: zLS0Nt8r6PPuDuKr
 name: Back-to-Back (Module)
 type: feat
-img: modules/ak5e/icons/Skill-TheDecadenza3.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-TheDecadenza3.webp
 system:
   activities: {}
   uses:
@@ -22,7 +22,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.1ZayOXSy5qjfyEaj
+      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.1ZayOXSy5qjfyEaj
     repeatable: false
     level: 8
   properties:

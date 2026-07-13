@@ -5,7 +5,8 @@ _id: wLu62yGKyN819eNm
 img: icons/magic/holy/saint-glass-portrait-halo.webp
 system:
   advancement:
-    - type: Trait
+    m4Kh6tq50SLbH0Z0:
+      type: Trait
       title: Background Proficiencies
       _id: m4Kh6tq50SLbH0Z0
       configuration:
@@ -21,17 +22,22 @@ system:
       level: 0
       hint: ''
       value: {}
-    - type: ItemGrant
+      flags: {}
+    mKpXqp8PkOZleLPy:
+      type: ItemGrant
       title: Background Feature
       _id: mKpXqp8PkOZleLPy
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.sMORL8Xblp9A19zb
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.sMORL8Xblp9A19zb
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>The Cohors Lateran are one of two military arms of Laterano, and are
@@ -70,8 +76,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1771156155246
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457738025
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!wLu62yGKyN819eNm'

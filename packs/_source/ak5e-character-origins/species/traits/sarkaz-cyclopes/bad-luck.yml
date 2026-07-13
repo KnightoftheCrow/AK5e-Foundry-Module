@@ -112,7 +112,7 @@ system:
       - period: lr
         type: loseAll
     max: '20'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <h3>Bad Luck</h3><p>The source of their power, the dead and damned,
@@ -165,10 +165,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680363097
-  modifiedTime: 1768680363097
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457735624
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!QgwLjVeWD2BihZtP'

@@ -2,7 +2,7 @@ folder: VOkvmAkDoFjmWOnp
 name: Doublecast
 type: feat
 _id: LHAZ701WUbSWdx53
-img: modules/ak5e/icons/Skill-TheresaBlackCrownedSage.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-TheresaBlackCrownedSage.webp
 system:
   activities:
     Zj7M31jieJ6O5xwK:
@@ -115,7 +115,7 @@ system:
       - period: sr
         type: recoverAll
     max: '1'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>Your potency as a Caster is the thing of legend, your name one for the
@@ -153,10 +153,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1774027631996
-  modifiedTime: 1774028327652
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457739526
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!LHAZ701WUbSWdx53'

@@ -1,7 +1,7 @@
 folder: 30IfqyYT0cFgxAaa
 name: Punishment
 type: feat
-img: modules/ak5e/icons/Skill-Passenger3.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Passenger3.webp
 system:
   activities:
     61HIHXTb93CT4njT:
@@ -144,7 +144,8 @@ system:
         targets:
           - type: itemUses
             value: '80'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -242,7 +243,7 @@ system:
       - period: turnStart
         type: recoverAll
     max: '1'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -275,8 +276,8 @@ system:
     subtype: ''
 effects:
   - name: Punishment (Skill Points)
-    img: modules/ak5e/icons/Skill-Passenger3.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.OVhNhAlq23CmHbi1
+    img: modules/AK5e-Foundry-Module/icons/Skill-Passenger3.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.OVhNhAlq23CmHbi1
     _id: DXFUOiWQeWl6gGq8
     type: base
     system: {}
@@ -319,7 +320,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -328,8 +329,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!OVhNhAlq23CmHbi1.DXFUOiWQeWl6gGq8'
   - name: Punishment
-    img: modules/ak5e/icons/Skill-Passenger3.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.OVhNhAlq23CmHbi1
+    img: modules/AK5e-Foundry-Module/icons/Skill-Passenger3.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.OVhNhAlq23CmHbi1
     transfer: false
     _id: 1tpLJuJCfSjXBBwL
     type: base
@@ -388,11 +389,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.fSBmayS08q0k3xqB
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1774023683571
-  modifiedTime: 1774023683571
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457742381
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: OVhNhAlq23CmHbi1
 _key: '!items!OVhNhAlq23CmHbi1'

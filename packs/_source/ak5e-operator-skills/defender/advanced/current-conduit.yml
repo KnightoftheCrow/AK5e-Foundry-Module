@@ -1,7 +1,7 @@
 folder: R2AhxUbx0IYKQ6JZ
 name: Current Conduit
 type: feat
-img: modules/ak5e/icons/Skill-Asbestos2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Asbestos2.webp
 system:
   activities:
     YhCQMBbo2TyV0Htw:
@@ -21,7 +21,8 @@ system:
         targets:
           - type: itemUses
             value: '30'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -153,8 +154,8 @@ system:
     subtype: ''
 effects:
   - name: Current Conduit (Skill Points)
-    img: modules/ak5e/icons/Skill-Asbestos2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.z3m9mNcIJGRfc2Wy
+    img: modules/AK5e-Foundry-Module/icons/Skill-Asbestos2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.z3m9mNcIJGRfc2Wy
     type: base
     _id: Ph636FXNs0f2pIC4
     system: {}

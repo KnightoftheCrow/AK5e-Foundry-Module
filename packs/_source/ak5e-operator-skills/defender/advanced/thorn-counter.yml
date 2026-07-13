@@ -1,7 +1,7 @@
 folder: R2AhxUbx0IYKQ6JZ
 name: Thorn Counter
 type: feat
-img: modules/ak5e/icons/Skill-Hoshiguma2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Hoshiguma2.webp
 system:
   activities:
     SfrkW6JWCH3x3vNX:
@@ -21,7 +21,8 @@ system:
         targets:
           - type: itemUses
             value: '30'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -152,8 +153,8 @@ system:
     subtype: ''
 effects:
   - name: Thorn Counter
-    img: modules/ak5e/icons/Skill-Hoshiguma2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.peWihs6vnJZ015j2
+    img: modules/AK5e-Foundry-Module/icons/Skill-Hoshiguma2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.peWihs6vnJZ015j2
     type: base
     _id: 2VoI31LBoEKqSbRE
     system: {}

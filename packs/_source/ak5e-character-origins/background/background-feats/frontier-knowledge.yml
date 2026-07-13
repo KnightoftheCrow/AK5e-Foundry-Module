@@ -115,7 +115,7 @@ system:
       - period: lr
         type: recoverAll
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>When you complete a Long Rest, you can determine what types of animals
@@ -150,7 +150,8 @@ system:
 effects:
   - name: Frontier Knowledge Skill Bonuses
     img: icons/environment/wilderness/tree-spruce.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.RlD4M7lHFxMRJ9f4
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.RlD4M7lHFxMRJ9f4
     transfer: false
     _id: FhXHWU6FBmEonbmw
     type: base
@@ -207,7 +208,8 @@ effects:
     _key: '!items.effects!RlD4M7lHFxMRJ9f4.FhXHWU6FBmEonbmw'
   - name: Bonus Damage vs Beast/Plant
     img: icons/environment/wilderness/tree-spruce.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.RlD4M7lHFxMRJ9f4
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.RlD4M7lHFxMRJ9f4
     transfer: false
     _id: oHLhd7MnMZwtpooD
     type: base
@@ -282,10 +284,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1769881347037
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457735760
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!RlD4M7lHFxMRJ9f4'

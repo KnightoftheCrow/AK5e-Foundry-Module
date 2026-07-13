@@ -2,14 +2,14 @@ folder: JCxDQcgqE3WNSRZl
 name: Weapon Tuning
 type: feat
 _id: TF4twUZa9RfFpPjr
-img: modules/ak5e/icons/64px-Skill-Ray2.webp
+img: modules/AK5e-Foundry-Module/icons/64px-Skill-Ray2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You learn how to get the absolute most out of your weapon- even if it
@@ -58,8 +58,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767625620399
-  modifiedTime: 1771181238749
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457739924
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!TF4twUZa9RfFpPjr'

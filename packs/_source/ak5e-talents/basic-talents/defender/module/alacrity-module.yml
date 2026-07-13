@@ -1,7 +1,7 @@
 folder: zLS0Nt8r6PPuDuKr
 name: Alacrity (Module)
 type: feat
-img: modules/ak5e/icons/Skill-Phantom1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Phantom1.webp
 system:
   activities:
     LdgdKONiXIVapFKZ:
@@ -133,7 +133,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.JtPzMai67p8ood8Z
+      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.JtPzMai67p8ood8Z
     repeatable: false
     level: 8
   properties:
@@ -144,7 +144,7 @@ system:
     subtype: talent
 effects:
   - name: Alacrity (Module)
-    img: modules/ak5e/icons/Skill-Phantom1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Phantom1.webp
     origin: Item.kTSV7tMirlg4owUn
     _id: DS90qifbfxhbFX6P
     type: base

@@ -2,14 +2,14 @@ folder: 1RN2G127laeWSTpy
 name: Potent Cantrip
 type: feat
 _id: SgHOUK1RnAk1Pcip
-img: modules/ak5e/icons/Skill-Mint2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Mint2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>When you cast a Cantrip and you miss a Creature with the Attack Roll,
@@ -34,8 +34,9 @@ system:
     subtype: ''
 effects:
   - name: Potent Cantrip
-    img: modules/ak5e/icons/Skill-Mint2.webp
-    origin: Compendium.ak5e.ak5e-classes-and-features.Item.SgHOUK1RnAk1Pcip
+    img: modules/AK5e-Foundry-Module/icons/Skill-Mint2.webp
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.SgHOUK1RnAk1Pcip
     _id: M9fgXKiURSWTxOZx
     type: base
     system: {}
@@ -95,10 +96,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1774109003050
-  modifiedTime: 1774180476564
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457739905
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!SgHOUK1RnAk1Pcip'

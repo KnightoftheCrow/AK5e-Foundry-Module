@@ -5,7 +5,8 @@ _id: kgN43RjiUygN1yBs
 img: icons/creatures/mammals/rabbit-movement-glowing-green.webp
 system:
   advancement:
-    - type: Size
+    7S64MBalPrHUtT68:
+      type: Size
       _id: 7S64MBalPrHUtT68
       configuration:
         sizes:
@@ -15,7 +16,9 @@ system:
       title: ''
       hint: ''
       value: {}
-    - type: AbilityScoreImprovement
+      flags: {}
+    KzQy2kNVXzyNmdIA:
+      type: AbilityScoreImprovement
       _id: KzQy2kNVXzyNmdIA
       configuration:
         cap: 1
@@ -36,24 +39,33 @@ system:
       level: 0
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    f129HTfliLY71Knu:
+      type: ItemGrant
       _id: f129HTfliLY71Knu
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1TxciocDhjUUeXjV
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1TxciocDhjUUeXjV
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.jgIA3fePwiDzzTHq
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.jgIA3fePwiDzzTHq
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.SwEdZQO7hbBwru9u
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.SwEdZQO7hbBwru9u
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.ncEQ4mpMenur6gzO
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.ncEQ4mpMenur6gzO
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>Cautus are leporid in nature, having the traits of rabbits and hares;
@@ -151,8 +163,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680297411
-  modifiedTime: 1771157303332
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457737222
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!kgN43RjiUygN1yBs'

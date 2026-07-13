@@ -2,7 +2,7 @@ folder: FNmG2sdf2PkjKSHw
 name: Cluster Bombs
 type: feat
 _id: KQl7XhApWCpKgrCx
-img: modules/ak5e/icons/Skill-Fuze2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Fuze2.webp
 system:
   activities:
     6SW4LJXiiYbRHqep:
@@ -20,7 +20,8 @@ system:
         targets:
           - type: itemUses
             value: '35'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
       description:
         chatFlavor: ''
       duration:
@@ -135,7 +136,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <ul><li><p><strong>Name</strong>: Cluster Bombs.</p></li><li><p><strong>SP
@@ -168,8 +169,8 @@ system:
     subtype: ''
 effects:
   - name: Cluster Bombs (Skill Points)
-    img: modules/ak5e/icons/Skill-Fuze2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.KQl7XhApWCpKgrCx
+    img: modules/AK5e-Foundry-Module/icons/Skill-Fuze2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.KQl7XhApWCpKgrCx
     _id: 8flIua4KzfyyVmgo
     type: base
     system: {}
@@ -212,7 +213,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.351'
@@ -236,8 +237,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767618964883
-  modifiedTime: 1768152077311
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457742278
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!KQl7XhApWCpKgrCx'

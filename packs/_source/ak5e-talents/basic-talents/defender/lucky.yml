@@ -1,6 +1,6 @@
 name: Lucky
 type: feat
-img: modules/ak5e/icons/Skill-CivilightEterna1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-CivilightEterna1.webp
 effects:
   - _id: e31tfoYwJoFTyCf6
     changes:
@@ -81,7 +81,7 @@ effects:
       systemId: dnd5e
       systemVersion: 5.3.0
       lastModifiedBy: null
-    img: modules/ak5e/icons/Skill-CivilightEterna1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-CivilightEterna1.webp
     type: base
     system: {}
     sort: 0

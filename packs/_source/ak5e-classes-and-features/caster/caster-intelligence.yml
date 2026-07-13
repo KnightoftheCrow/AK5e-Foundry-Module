@@ -1,7 +1,7 @@
 folder: vfwGZsyVOPxfr1S3
 name: Caster (Intelligence)
 type: class
-img: modules/ak5e/icons/48px-Caster.webp
+img: modules/AK5e-Foundry-Module/icons/48px-Caster.webp
 system:
   advancement:
     - type: HitPoints
@@ -171,16 +171,16 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.ak5e.ak5e-items.Item.8YnvqZkWkp8JrS0y
-          - uuid: Compendium.ak5e.ak5e-items.Item.KjYWdRFtdaAGe4yK
-          - uuid: Compendium.ak5e.ak5e-items.Item.FPznW6rW4nghDh1r
-          - uuid: Compendium.ak5e.ak5e-items.Item.yRwC4x79xE5iUW7K
-          - uuid: Compendium.ak5e.ak5e-items.Item.EXF9dlqFHPDHi3KF
-          - uuid: Compendium.ak5e.ak5e-items.Item.gQexKnwZdkamQcJ7
-          - uuid: Compendium.ak5e.ak5e-items.Item.Ve5i7MSi8dzq0UJG
-          - uuid: Compendium.ak5e.ak5e-items.Item.nkDWWkosdoJz2U6i
-          - uuid: Compendium.ak5e.ak5e-items.Item.ajnr0G1r5uS2J8BP
-          - uuid: Compendium.ak5e.ak5e-items.Item.DSudvLQbkLWPs6g8
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.8YnvqZkWkp8JrS0y
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.KjYWdRFtdaAGe4yK
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.FPznW6rW4nghDh1r
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.yRwC4x79xE5iUW7K
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.EXF9dlqFHPDHi3KF
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.gQexKnwZdkamQcJ7
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Ve5i7MSi8dzq0UJG
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.nkDWWkosdoJz2U6i
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.ajnr0G1r5uS2J8BP
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.DSudvLQbkLWPs6g8
         restriction:
           list: []
         spell: null
@@ -200,8 +200,8 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.ak5e.ak5e-items.Item.8YnvqZkWkp8JrS0y
-          - uuid: Compendium.ak5e.ak5e-items.Item.KjYWdRFtdaAGe4yK
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.8YnvqZkWkp8JrS0y
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.KjYWdRFtdaAGe4yK
         restriction:
           list: []
         spell: null
@@ -221,32 +221,32 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.ak5e.ak5e-items.Item.uJv6rhzPijvjHznJ
-          - uuid: Compendium.ak5e.ak5e-items.Item.Ildgv7odyqeahxmy
-          - uuid: Compendium.ak5e.ak5e-items.Item.cx7nNrpfLvAHIfmq
-          - uuid: Compendium.ak5e.ak5e-items.Item.XfS9C2RHzrrMdlip
-          - uuid: Compendium.ak5e.ak5e-items.Item.ZuHZkt1h2YP8lgwu
-          - uuid: Compendium.ak5e.ak5e-items.Item.SCHjE2T5gXZRtIpX
-          - uuid: Compendium.ak5e.ak5e-items.Item.96vApcsV1yyaPTyD
-          - uuid: Compendium.ak5e.ak5e-items.Item.QvzlfvutcIIezpDs
-          - uuid: Compendium.ak5e.ak5e-items.Item.gFr3mcd57Og1c0pZ
-          - uuid: Compendium.ak5e.ak5e-items.Item.Hs0mF5dzKXUqdAdP
-          - uuid: Compendium.ak5e.ak5e-items.Item.5l64laM4rk4Ivi0m
-          - uuid: Compendium.ak5e.ak5e-items.Item.YAl6BnAF78PaYlDX
-          - uuid: Compendium.ak5e.ak5e-items.Item.dqXsCaK1P0JhtYC4
-          - uuid: Compendium.ak5e.ak5e-items.Item.sIWoR9fKRrec9UfW
-          - uuid: Compendium.ak5e.ak5e-items.Item.Nng70cKI1btONIpk
-          - uuid: Compendium.ak5e.ak5e-items.Item.8kQVIEXNMpMwu0XE
-          - uuid: Compendium.ak5e.ak5e-items.Item.tDJPOjB3go7yh1at
-          - uuid: Compendium.ak5e.ak5e-items.Item.YRaUmzhRyxMbjH3U
-          - uuid: Compendium.ak5e.ak5e-items.Item.LL42rU6BBic45HZv
-          - uuid: Compendium.ak5e.ak5e-items.Item.0ft9PxeRW8FoUjgb
-          - uuid: Compendium.ak5e.ak5e-items.Item.IIulvylBDhw2Zz4F
-          - uuid: Compendium.ak5e.ak5e-items.Item.JAmRuAi1wbg4Zwdm
-          - uuid: Compendium.ak5e.ak5e-items.Item.wqd3yeo5ea2DAqD9
-          - uuid: Compendium.ak5e.ak5e-items.Item.YWNh0sRApVhTseeC
-          - uuid: Compendium.ak5e.ak5e-items.Item.yUbrNv1GkAtDTujE
-          - uuid: Compendium.ak5e.ak5e-items.Item.2MfZHPX5xtOxH4Zr
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.uJv6rhzPijvjHznJ
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Ildgv7odyqeahxmy
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.cx7nNrpfLvAHIfmq
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.XfS9C2RHzrrMdlip
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.ZuHZkt1h2YP8lgwu
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.SCHjE2T5gXZRtIpX
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.96vApcsV1yyaPTyD
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.QvzlfvutcIIezpDs
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.gFr3mcd57Og1c0pZ
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Hs0mF5dzKXUqdAdP
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.5l64laM4rk4Ivi0m
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.YAl6BnAF78PaYlDX
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.dqXsCaK1P0JhtYC4
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.sIWoR9fKRrec9UfW
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Nng70cKI1btONIpk
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.8kQVIEXNMpMwu0XE
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.tDJPOjB3go7yh1at
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.YRaUmzhRyxMbjH3U
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.LL42rU6BBic45HZv
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.0ft9PxeRW8FoUjgb
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.IIulvylBDhw2Zz4F
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.JAmRuAi1wbg4Zwdm
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.wqd3yeo5ea2DAqD9
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.YWNh0sRApVhTseeC
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.yUbrNv1GkAtDTujE
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.2MfZHPX5xtOxH4Zr
         restriction:
           list: []
         spell: null
@@ -284,17 +284,17 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.nsm65jQ87gFuXzrf
-          - uuid: Compendium.ak5e.ak5e-arts.Item.nbODEQEbPVDkWT48
-          - uuid: Compendium.ak5e.ak5e-arts.Item.NIcET7TqSd5Sctpl
-          - uuid: Compendium.ak5e.ak5e-arts.Item.qUhZWZWFmn4NuZgJ
-          - uuid: Compendium.ak5e.ak5e-arts.Item.7axC2XEUQI8XvOXB
-          - uuid: Compendium.ak5e.ak5e-arts.Item.dGres586wEl9utMg
-          - uuid: Compendium.ak5e.ak5e-arts.Item.XZ04hHqv0UBoISse
-          - uuid: Compendium.ak5e.ak5e-arts.Item.ovADWJpt99yQldCq
-          - uuid: Compendium.ak5e.ak5e-arts.Item.RCUAoi5c53B7vhQO
-          - uuid: Compendium.ak5e.ak5e-arts.Item.EhIPULxvNcN4OoA3
-          - uuid: Compendium.ak5e.ak5e-arts.Item.BvXzdhH4e5vZc7WI
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.nsm65jQ87gFuXzrf
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.nbODEQEbPVDkWT48
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.NIcET7TqSd5Sctpl
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.qUhZWZWFmn4NuZgJ
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.7axC2XEUQI8XvOXB
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.dGres586wEl9utMg
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.XZ04hHqv0UBoISse
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.ovADWJpt99yQldCq
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.RCUAoi5c53B7vhQO
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.EhIPULxvNcN4OoA3
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.BvXzdhH4e5vZc7WI
         restriction:
           list: []
         spell: null
@@ -308,11 +308,13 @@ system:
       _id: W9hk5sbv0ANjXtXt
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.6GMX3sLNtYU5pEtM
             optional: false
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             optional: false
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.Qi4Mc2HB3snq2eE5
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Qi4Mc2HB3snq2eE5
             optional: false
         optional: false
         spell: null
@@ -356,21 +358,36 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.AIIVaJaXS7tNwLQi
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.PHnJJRRfQGNpSuFE
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.tG00xmKgztcUdavW
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.rXV6Lwg4pCzFRDZn
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.sa6E24mcYxedDSjx
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.b8ctTaF23QILAOJt
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.bMlpD8Am7dui7GM8
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.Oaduiib94lWlaKsX
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.9W8D4dNqRS5wyc1G
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.19etoBmlzyPep3BX
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.XF575Mm5YwRhcIin
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.ka8zg9hrx0FW3dJD
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.w90YhwRE5hoenjuH
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.tGXr5JYI1s4TuUWz
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.dYrPpDyVpeufiPjQ
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.AIIVaJaXS7tNwLQi
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.PHnJJRRfQGNpSuFE
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.tG00xmKgztcUdavW
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.rXV6Lwg4pCzFRDZn
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.sa6E24mcYxedDSjx
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.b8ctTaF23QILAOJt
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.bMlpD8Am7dui7GM8
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.Oaduiib94lWlaKsX
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.9W8D4dNqRS5wyc1G
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.19etoBmlzyPep3BX
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.XF575Mm5YwRhcIin
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.ka8zg9hrx0FW3dJD
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.w90YhwRE5hoenjuH
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.tGXr5JYI1s4TuUWz
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.dYrPpDyVpeufiPjQ
         restriction:
           list: []
           type: class
@@ -394,32 +411,32 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.4a7sf8eAg0sy2k2w
-          - uuid: Compendium.ak5e.ak5e-talents.Item.mal0NMyYylLCmiHZ
-          - uuid: Compendium.ak5e.ak5e-talents.Item.0O2fBM6bQSdkl64P
-          - uuid: Compendium.ak5e.ak5e-talents.Item.MaVekY5FOLYSPajW
-          - uuid: Compendium.ak5e.ak5e-talents.Item.7ipSBAQBKeiRzuni
-          - uuid: Compendium.ak5e.ak5e-talents.Item.NnlD4Tl9znUkIbV5
-          - uuid: Compendium.ak5e.ak5e-talents.Item.988LyB3yFcgsTeJP
-          - uuid: Compendium.ak5e.ak5e-talents.Item.hbSR5Dvxs5fJjkV0
-          - uuid: Compendium.ak5e.ak5e-talents.Item.OfIOhCdZemaspRND
-          - uuid: Compendium.ak5e.ak5e-talents.Item.PFTX0gYY2pJp9nNO
-          - uuid: Compendium.ak5e.ak5e-talents.Item.hncWRB1FZxPbRZUz
-          - uuid: Compendium.ak5e.ak5e-talents.Item.Uv3grVX6zjIqP1KK
-          - uuid: Compendium.ak5e.ak5e-talents.Item.p5XRnB4KDQZOihzo
-          - uuid: Compendium.ak5e.ak5e-talents.Item.HPKQp5nxIStO0b3J
-          - uuid: Compendium.ak5e.ak5e-talents.Item.J8f8cJXLZxKgSBCg
-          - uuid: Compendium.ak5e.ak5e-talents.Item.SvfCi8WVB43I0jde
-          - uuid: Compendium.ak5e.ak5e-talents.Item.h0aTbxfF0b8oJ8hg
-          - uuid: Compendium.ak5e.ak5e-talents.Item.OTYGPezfMEUfJbrE
-          - uuid: Compendium.ak5e.ak5e-talents.Item.baKc1oz5itWUni2J
-          - uuid: Compendium.ak5e.ak5e-talents.Item.bIQXuFvE0SFtxoXC
-          - uuid: Compendium.ak5e.ak5e-talents.Item.Kjy0Vb3hBuwqxBL4
-          - uuid: Compendium.ak5e.ak5e-talents.Item.4RFZx9SyDA9UpV4k
-          - uuid: Compendium.ak5e.ak5e-talents.Item.FiukS1cZuafrF319
-          - uuid: Compendium.ak5e.ak5e-talents.Item.7TlQ9RkJlKqiWKU7
-          - uuid: Compendium.ak5e.ak5e-talents.Item.cbMQYT1Gru60WpbJ
-          - uuid: Compendium.ak5e.ak5e-talents.Item.usM7rFZKyy1ZfKRZ
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.4a7sf8eAg0sy2k2w
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.mal0NMyYylLCmiHZ
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.0O2fBM6bQSdkl64P
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.MaVekY5FOLYSPajW
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.7ipSBAQBKeiRzuni
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.NnlD4Tl9znUkIbV5
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.988LyB3yFcgsTeJP
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.hbSR5Dvxs5fJjkV0
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.OfIOhCdZemaspRND
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.PFTX0gYY2pJp9nNO
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.hncWRB1FZxPbRZUz
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.Uv3grVX6zjIqP1KK
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.p5XRnB4KDQZOihzo
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.HPKQp5nxIStO0b3J
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.J8f8cJXLZxKgSBCg
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.SvfCi8WVB43I0jde
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.h0aTbxfF0b8oJ8hg
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.OTYGPezfMEUfJbrE
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.baKc1oz5itWUni2J
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.bIQXuFvE0SFtxoXC
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.Kjy0Vb3hBuwqxBL4
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.4RFZx9SyDA9UpV4k
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.FiukS1cZuafrF319
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.7TlQ9RkJlKqiWKU7
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.cbMQYT1Gru60WpbJ
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.usM7rFZKyy1ZfKRZ
         restriction:
           list: []
           type: class
@@ -437,7 +454,8 @@ system:
       _id: tLIpioeUbKnMHYHU
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.YCc4Tfk06PabfAzp
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.YCc4Tfk06PabfAzp
             optional: false
         optional: false
         spell: null
@@ -455,20 +473,34 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.wm32yJmlGPnUNNzZ
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.lBcGYsaG4lAQjAVj
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.5T96PrigabSULpM0
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.scf4QdUz0lv0ysI6
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.ohDBnHUl0lL020mV
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.2GR73NXw0cPatZ9s
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.Zw552DHeEw6xhm2Z
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.kgFvnxHRHbdZ5VSU
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.R11oJOVk3jh7VZuC
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.wwtX6dgrZrBqgoIk
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.PCKN6NC1iNrr6oeF
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.8RUa0Lqq317CFRzB
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.rlyB5B8b0NKLrZtH
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.Dflu7h6SJLPClyou
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.wm32yJmlGPnUNNzZ
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.lBcGYsaG4lAQjAVj
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.5T96PrigabSULpM0
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.scf4QdUz0lv0ysI6
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.ohDBnHUl0lL020mV
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2GR73NXw0cPatZ9s
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.Zw552DHeEw6xhm2Z
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.kgFvnxHRHbdZ5VSU
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.R11oJOVk3jh7VZuC
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.wwtX6dgrZrBqgoIk
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.PCKN6NC1iNrr6oeF
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.8RUa0Lqq317CFRzB
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.rlyB5B8b0NKLrZtH
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.Dflu7h6SJLPClyou
         restriction:
           list: []
           type: class
@@ -494,43 +526,43 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.OjqCE6I7oEhlJYSM
-          - uuid: Compendium.ak5e.ak5e-talents.Item.UkiWpLzVtVOuc2xn
-          - uuid: Compendium.ak5e.ak5e-talents.Item.j07MrGXo67CrDZdX
-          - uuid: Compendium.ak5e.ak5e-talents.Item.FMqAqIDySpFwUepP
-          - uuid: Compendium.ak5e.ak5e-talents.Item.kTbut5VOuncR3jvN
-          - uuid: Compendium.ak5e.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
-          - uuid: Compendium.ak5e.ak5e-talents.Item.7Nr54P2otxGNaRXB
-          - uuid: Compendium.ak5e.ak5e-talents.Item.9keA5EfcA4BeMHKT
-          - uuid: Compendium.ak5e.ak5e-talents.Item.f2cj2K2YyC6E15Qt
-          - uuid: Compendium.ak5e.ak5e-talents.Item.TuEkFeCnXuPzh1AT
-          - uuid: Compendium.ak5e.ak5e-talents.Item.CFUuirtym4KuKXTA
-          - uuid: Compendium.ak5e.ak5e-talents.Item.B0qaKnC4GaKEkr4i
-          - uuid: Compendium.ak5e.ak5e-talents.Item.15uvWcifdlD3HCCn
-          - uuid: Compendium.ak5e.ak5e-talents.Item.9qzrrdqux5Dat0og
-          - uuid: Compendium.ak5e.ak5e-talents.Item.4SV7b7oKcQF3AiR2
-          - uuid: Compendium.ak5e.ak5e-talents.Item.DCePy5ohbF8Oi9hJ
-          - uuid: Compendium.ak5e.ak5e-talents.Item.1LLSfJHxrbyTLhOv
-          - uuid: Compendium.ak5e.ak5e-talents.Item.MhrpW5QBup6B4Bq1
-          - uuid: Compendium.ak5e.ak5e-talents.Item.ykCgWaTLIWFalpvW
-          - uuid: Compendium.ak5e.ak5e-talents.Item.DWpe4UStF2l9YByz
-          - uuid: Compendium.ak5e.ak5e-talents.Item.SJVvgtoCsi2HJYlz
-          - uuid: Compendium.ak5e.ak5e-talents.Item.42d3im8xnaMKpxFr
-          - uuid: Compendium.ak5e.ak5e-talents.Item.H08p1mVO4z6V2WwF
-          - uuid: Compendium.ak5e.ak5e-talents.Item.L39PLsWM1LcMBGNI
-          - uuid: Compendium.ak5e.ak5e-talents.Item.yBMBSybpQK1iAnFb
-          - uuid: Compendium.ak5e.ak5e-talents.Item.j5UkW5zh1hMRepqU
-          - uuid: Compendium.ak5e.ak5e-talents.Item.Kwk0AUN6sssXqnGO
-          - uuid: Compendium.ak5e.ak5e-talents.Item.M35WhqZ6MOxF6vlT
-          - uuid: Compendium.ak5e.ak5e-talents.Item.wMKEGbdan61KkmtX
-          - uuid: Compendium.ak5e.ak5e-talents.Item.7GGI2LKcdSkQxOUT
-          - uuid: Compendium.ak5e.ak5e-talents.Item.03Do08RGBXpLYMOI
-          - uuid: Compendium.ak5e.ak5e-talents.Item.3PLZA5m2OG9K1Bez
-          - uuid: Compendium.ak5e.ak5e-talents.Item.gVw3b1uPYVOkE7UK
-          - uuid: Compendium.ak5e.ak5e-talents.Item.ollzQbDpIKKUYZPS
-          - uuid: Compendium.ak5e.ak5e-talents.Item.xTBtEQ50LwAfgVRk
-          - uuid: Compendium.ak5e.ak5e-talents.Item.EtYH35hfOp5VW73y
-          - uuid: Compendium.ak5e.ak5e-talents.Item.6hZnq5ThWD1BizNt
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.OjqCE6I7oEhlJYSM
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.UkiWpLzVtVOuc2xn
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.j07MrGXo67CrDZdX
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.FMqAqIDySpFwUepP
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.kTbut5VOuncR3jvN
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.7Nr54P2otxGNaRXB
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.9keA5EfcA4BeMHKT
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.f2cj2K2YyC6E15Qt
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.TuEkFeCnXuPzh1AT
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.CFUuirtym4KuKXTA
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.B0qaKnC4GaKEkr4i
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.15uvWcifdlD3HCCn
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.9qzrrdqux5Dat0og
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.4SV7b7oKcQF3AiR2
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.DCePy5ohbF8Oi9hJ
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.1LLSfJHxrbyTLhOv
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.MhrpW5QBup6B4Bq1
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.ykCgWaTLIWFalpvW
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.DWpe4UStF2l9YByz
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.SJVvgtoCsi2HJYlz
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.42d3im8xnaMKpxFr
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.H08p1mVO4z6V2WwF
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.L39PLsWM1LcMBGNI
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.yBMBSybpQK1iAnFb
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.j5UkW5zh1hMRepqU
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.Kwk0AUN6sssXqnGO
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.M35WhqZ6MOxF6vlT
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.wMKEGbdan61KkmtX
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.7GGI2LKcdSkQxOUT
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.03Do08RGBXpLYMOI
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.3PLZA5m2OG9K1Bez
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.gVw3b1uPYVOkE7UK
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.ollzQbDpIKKUYZPS
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.xTBtEQ50LwAfgVRk
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.EtYH35hfOp5VW73y
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.6hZnq5ThWD1BizNt
         restriction:
           list: []
           type: class
@@ -552,18 +584,30 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.g9z5A33XTn2xMwZL
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.fSBmayS08q0k3xqB
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.HP61sFvtrtnhePSG
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.nFvpXqALzLBodCha
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.I45GCYdetCraxFxT
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.oVQuPKSaGjjTaAA3
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.hZK1dslYbZ0W9JU6
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.OVhNhAlq23CmHbi1
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.RspIe7238jDPJt2w
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.Ava0Fa6gV9VhtIoZ
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.W9Yq50EDKKwN8jf3
-          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.B8X9t99nMcQdMKEl
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.g9z5A33XTn2xMwZL
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.fSBmayS08q0k3xqB
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.HP61sFvtrtnhePSG
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.nFvpXqALzLBodCha
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.I45GCYdetCraxFxT
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.oVQuPKSaGjjTaAA3
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.hZK1dslYbZ0W9JU6
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.OVhNhAlq23CmHbi1
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.RspIe7238jDPJt2w
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.Ava0Fa6gV9VhtIoZ
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.W9Yq50EDKKwN8jf3
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.B8X9t99nMcQdMKEl
         restriction:
           list: []
           type: class
@@ -581,7 +625,8 @@ system:
       _id: DILtBaxc383ZMQlA
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.7hGnh2AKXn4qRGKM
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7hGnh2AKXn4qRGKM
             optional: false
         optional: false
         spell: null
@@ -593,7 +638,8 @@ system:
       _id: tx8V3jG3CFCf7GcD
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.LHAZ701WUbSWdx53
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.LHAZ701WUbSWdx53
             optional: false
         optional: false
         spell: null
@@ -627,7 +673,7 @@ system:
       _id: 50DdWDWyFwLoBdW5
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-items.Item.OXGwqTbLRvlNxP0Q
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.OXGwqTbLRvlNxP0Q
             optional: false
         optional: false
         spell: null
@@ -726,14 +772,14 @@ system:
       sort: 1100000
     - type: linked
       count: null
-      key: Compendium.ak5e.ak5e-items.Item.KjYWdRFtdaAGe4yK
+      key: Compendium.AK5e-Foundry-Module.ak5e-items.Item.KjYWdRFtdaAGe4yK
       requiresProficiency: false
       _id: UW9PzOp2ncb8pFcO
       group: yxLbVQ2CyzGnqAhh
       sort: 600000
     - type: linked
       count: null
-      key: Compendium.ak5e.ak5e-items.Item.8YnvqZkWkp8JrS0y
+      key: Compendium.AK5e-Foundry-Module.ak5e-items.Item.8YnvqZkWkp8JrS0y
       requiresProficiency: false
       _id: AnAIzyHTwWMXL0O0
       group: yxLbVQ2CyzGnqAhh
@@ -752,7 +798,7 @@ system:
       sort: 800000
     - type: linked
       count: null
-      key: Compendium.ak5e.ak5e-items.Item.OXGwqTbLRvlNxP0Q
+      key: Compendium.AK5e-Foundry-Module.ak5e-items.Item.OXGwqTbLRvlNxP0Q
       requiresProficiency: false
       _id: 1mgYdTOKQvNVvFFP
       group: Tbj4s3cN0p5uECUf
@@ -786,8 +832,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.0
   createdTime: 1783249225873
-  modifiedTime: 1783374520339
-  lastModifiedBy: 27ikDz77N89hVLvM
+  modifiedTime: 1783458173143
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   5XlrCO2NlPtd4MFQ: 3

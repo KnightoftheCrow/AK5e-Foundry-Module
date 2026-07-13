@@ -1,7 +1,7 @@
 folder: F7xt8Er4yJgI2eaK
 name: Close and Personal
 type: feat
-img: modules/ak5e/icons/Skill-Andreana1.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Andreana1.png
 system:
   activities: {}
   uses:
@@ -37,7 +37,7 @@ system:
     subtype: fightingStyle
 effects:
   - name: Close and Personal
-    img: modules/ak5e/icons/Skill-Andreana1.png
+    img: modules/AK5e-Foundry-Module/icons/Skill-Andreana1.png
     origin: >-
       Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.EDkvryXGAngFLann
     _id: 0seOj4G3UUMMK9ng

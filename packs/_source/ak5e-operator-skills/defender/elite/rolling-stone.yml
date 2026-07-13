@@ -1,7 +1,7 @@
 folder: VB62TaHnZ4bJYRuO
 name: Rolling Stone
 type: feat
-img: modules/ak5e/icons/Skill-Dagda1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Dagda1.webp
 system:
   activities:
     knT6wFhhH7YFCDJ4:
@@ -21,7 +21,8 @@ system:
         targets:
           - type: itemUses
             value: '65'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -153,8 +154,8 @@ system:
     subtype: ''
 effects:
   - name: Rolling Stone (Skill Points)
-    img: modules/ak5e/icons/Skill-Dagda1.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.jAS2mFBZ458pMasY
+    img: modules/AK5e-Foundry-Module/icons/Skill-Dagda1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.jAS2mFBZ458pMasY
     type: base
     _id: yWPonskRplZcAQlI
     system: {}

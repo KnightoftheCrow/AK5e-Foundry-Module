@@ -1,7 +1,7 @@
 folder: NPg6zerqcXHk2X5L
 name: Silencer
 type: feat
-img: modules/ak5e/icons/Skill-Kichisei1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Kichisei1.webp
 system:
   activities:
     xoNoIwPalnThTJEX:
@@ -20,7 +20,8 @@ system:
         targets:
           - type: itemUses
             value: '65'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -152,7 +153,7 @@ system:
     subtype: ''
 effects:
   - name: Silencer (Skill Points)
-    img: modules/ak5e/icons/Skill-Kichisei1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Kichisei1.webp
     origin: Item.GHJjnSWrcaqNmCHx
     _id: DXFUOiWQeWl6gGq8
     type: base
@@ -204,7 +205,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!BLp0dinJk22MjHbU.DXFUOiWQeWl6gGq8'
   - name: Silencer
-    img: modules/ak5e/icons/Skill-Kichisei1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Kichisei1.webp
     origin: Item.GHJjnSWrcaqNmCHx
     transfer: false
     _id: WiNS2QRxvNX6g6R5

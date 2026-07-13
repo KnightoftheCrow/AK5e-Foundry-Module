@@ -117,7 +117,7 @@ system:
       - period: sr
         type: recoverAll
     max: '1'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You and that ally gain the following benefits:</p><p><strong>Birds of
@@ -150,7 +150,8 @@ system:
 effects:
   - name: Birds of Prey Advantage
     img: icons/creatures/birds/corvid-flying-wings-purple.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.GXqXqO8Lu1hoS9yg
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.GXqXqO8Lu1hoS9yg
     transfer: false
     _id: TKiZMoEfek9iixr3
     type: base
@@ -213,10 +214,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680310513
-  modifiedTime: 1768680310513
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457734944
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!GXqXqO8Lu1hoS9yg'

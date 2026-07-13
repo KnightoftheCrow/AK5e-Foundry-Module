@@ -2,14 +2,14 @@ folder: DjSTH0TXN7YZwjfY
 name: Buckshot
 type: feat
 _id: m64RHyIKaX12J7To
-img: modules/ak5e/icons/Skill-Executor1.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Executor1.png
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You gain the following benefits:</p><p><strong>CQC Expert.</strong>
@@ -36,8 +36,9 @@ system:
     subtype: skillPoints
 effects:
   - name: CQC Expert
-    img: modules/ak5e/icons/Skill-Executor1.png
-    origin: Compendium.ak5e.ak5e-classes-and-features.Item.m64RHyIKaX12J7To
+    img: modules/AK5e-Foundry-Module/icons/Skill-Executor1.png
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.m64RHyIKaX12J7To
     _id: 85VUdS455fHkCUk2
     type: base
     system: {}
@@ -99,8 +100,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767626115486
-  modifiedTime: 1768655154418
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457740876
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!m64RHyIKaX12J7To'

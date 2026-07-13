@@ -261,7 +261,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.ak5e.ak5e-arts.Item.subv958XI90ZVt76
+        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.subv958XI90ZVt76
         ability: ''
         level: 1
       useConditionText: ''
@@ -363,7 +363,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.ak5e.ak5e-arts.Item.mweZm0F8OYVbY8aa
+        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.mweZm0F8OYVbY8aa
         ability: ''
         level: 1
       useConditionText: ''
@@ -465,7 +465,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.ak5e.ak5e-arts.Item.7vRU2jRxD3MWmYw7
+        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.7vRU2jRxD3MWmYw7
         ability: ''
         level: 2
       useConditionText: ''
@@ -567,7 +567,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.ak5e.ak5e-arts.Item.YePZCywOf77mCdJA
+        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.YePZCywOf77mCdJA
         ability: ''
         level: 2
       useConditionText: ''
@@ -669,7 +669,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.ak5e.ak5e-arts.Item.VyqUhxKj3kXlvkKp
+        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.VyqUhxKj3kXlvkKp
         ability: ''
         level: 4
       useConditionText: ''
@@ -726,7 +726,8 @@ system:
         type: recoverAll
     max: '@scale.witchcraft.freecasts'
   advancement:
-    - type: ScaleValue
+    XoKoGNBjbJACu3jI:
+      type: ScaleValue
       _id: XoKoGNBjbJACu3jI
       configuration:
         identifier: freecasts
@@ -745,7 +746,9 @@ system:
         Points. The maximum level of Sarkaz Art you can cast in this way is
         controlled by your Character Level. At 7th Level, you can cast Sarkaz
         Arts in this way twice per Long Rest.
-    - type: ItemGrant
+      flags: {}
+    ZNBYinp6lL3W0RDN:
+      type: ItemGrant
       _id: ZNBYinp6lL3W0RDN
       configuration:
         items:
@@ -767,12 +770,14 @@ system:
       level: 0
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    YzCb5aBwMxT1uPUP:
+      type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.subv958XI90ZVt76
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.subv958XI90ZVt76
             optional: false
-          - uuid: Compendium.ak5e.ak5e-arts.Item.mweZm0F8OYVbY8aa
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.mweZm0F8OYVbY8aa
             optional: false
         optional: false
         spell:
@@ -789,12 +794,14 @@ system:
       title: ''
       hint: ''
       _id: YzCb5aBwMxT1uPUP
-    - type: ItemGrant
+      flags: {}
+    puSuQultRVr8Kfws:
+      type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.7vRU2jRxD3MWmYw7
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.7vRU2jRxD3MWmYw7
             optional: false
-          - uuid: Compendium.ak5e.ak5e-arts.Item.YePZCywOf77mCdJA
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.YePZCywOf77mCdJA
             optional: false
         optional: false
         spell:
@@ -811,10 +818,12 @@ system:
       title: ''
       hint: ''
       _id: puSuQultRVr8Kfws
-    - type: ItemGrant
+      flags: {}
+    5wEDjYPxvIplX5VK:
+      type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.VyqUhxKj3kXlvkKp
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.VyqUhxKj3kXlvkKp
             optional: false
         optional: false
         spell:
@@ -831,7 +840,9 @@ system:
       title: ''
       hint: ''
       _id: 5wEDjYPxvIplX5VK
-    - type: ItemGrant
+      flags: {}
+    1wFNO1U1htJQc8So:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplLegendLore
@@ -851,10 +862,12 @@ system:
       title: ''
       hint: ''
       _id: 1wFNO1U1htJQc8So
-    - type: ItemGrant
+      flags: {}
+    UCLhgh6cgvLDuWfY:
+      type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.wBFiKcAZpP3zjGpf
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.wBFiKcAZpP3zjGpf
             optional: false
         optional: false
         spell:
@@ -871,10 +884,12 @@ system:
       title: ''
       hint: ''
       _id: UCLhgh6cgvLDuWfY
-    - type: ItemGrant
+      flags: {}
+    3lrohK57WwzowN7T:
+      type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.bmYsgYkSbU96lpFu
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.bmYsgYkSbU96lpFu
             optional: false
         optional: false
         spell:
@@ -891,6 +906,7 @@ system:
       title: ''
       hint: ''
       _id: 3lrohK57WwzowN7T
+      flags: {}
   description:
     value: >-
       <h3>Witchcraft</h3><p>Sarkaz have a tighter bond with Originum and the
@@ -971,12 +987,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680431430
-  modifiedTime: 1768680431474
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457737935
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

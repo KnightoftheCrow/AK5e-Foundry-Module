@@ -108,15 +108,15 @@ system:
       Features:</p><table><tbody><tr><td
       data-colwidth="50"><p>Level</p></td><td><p>Branch
       Feature</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.3iC1qXCR22DZ4YGA]{Guardian
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.3iC1qXCR22DZ4YGA]{Guardian
       of Life (CHA)}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.uc92aH853DX2Gfxr]{Not
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.uc92aH853DX2Gfxr]{Not
       Today}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">9</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.dOyqDxX3fErXtv1v]{Anaesthesia}</p></td></tr><tr><td
+      style="text-align:center">9</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.dOyqDxX3fErXtv1v]{Anaesthesia}</p></td></tr><tr><td
       data-colwidth="50"><p
-      style="text-align:center">12</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.VWnFZHgs0Y1w4aT5]{Aura
+      style="text-align:center">12</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.VWnFZHgs0Y1w4aT5]{Aura
       of Mercy}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.Kze7HMzW47lgynji]{The
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Kze7HMzW47lgynji]{The
       Best Medicine}</p></td></tr></tbody></table>
     chat: ''
   identifier: guardian
@@ -135,7 +135,8 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.mQ226EiCIlxlemg5
+  compendiumSource: >-
+    Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.mQ226EiCIlxlemg5
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

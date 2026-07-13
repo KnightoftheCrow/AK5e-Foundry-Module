@@ -5,14 +5,18 @@ _id: atK9ScXHFeoNNut8
 img: icons/environment/creatures/horses.webp
 system:
   advancement:
-    - type: Size
+    H8FzzBUrs3h8wRys:
+      type: Size
       _id: H8FzzBUrs3h8wRys
       configuration:
         sizes:
           - med
       level: 0
       value: {}
-    - type: AbilityScoreImprovement
+      flags: {}
+      hint: ''
+    gZwJqxAcmViWyl0L:
+      type: AbilityScoreImprovement
       _id: gZwJqxAcmViWyl0L
       configuration:
         cap: 1
@@ -33,24 +37,33 @@ system:
       level: 0
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    7Ta5ltwF5aY6Jz7p:
+      type: ItemGrant
       _id: 7Ta5ltwF5aY6Jz7p
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.JYUKDlTcrMUxNcrN
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.JYUKDlTcrMUxNcrN
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.8Z7sMZLdeBIExkmq
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.8Z7sMZLdeBIExkmq
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.RWATM7PYIAAUaCVz
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.RWATM7PYIAAUaCVz
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1TxciocDhjUUeXjV
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1TxciocDhjUUeXjV
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>Kuranta are fast and potent fighters, running down their foes in a blur
@@ -146,8 +159,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680307075
-  modifiedTime: 1771157470573
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457736514
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!atK9ScXHFeoNNut8'

@@ -2,14 +2,14 @@ folder: AynL7yzSlptsmcjl
 name: One Moment
 type: feat
 _id: IjUlJY3ogPaLv6Ht
-img: modules/ak5e/icons/Skill-TheFiresharpened1.png
+img: modules/AK5e-Foundry-Module/icons/Skill-TheFiresharpened1.png
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>While your Skill is Active, when you deal Damage to a Creature during
@@ -52,8 +52,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767738669197
-  modifiedTime: 1783247240175
+  modifiedTime: 1783457744429
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!IjUlJY3ogPaLv6Ht'

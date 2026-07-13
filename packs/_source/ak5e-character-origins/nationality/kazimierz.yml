@@ -2,7 +2,7 @@ folder: 7G1D42jSHLcgp1sX
 name: Kazimierz
 type: ak5e.nationality
 _id: 8j05T43DxPljO7dy
-img: modules/ak5e/icons/nationality/nationality.svg
+img: modules/AK5e-Foundry-Module/icons/nationality/nationality.svg
 system:
   filePathFields:
     advancement.*.icon:
@@ -41,7 +41,8 @@ system:
       _id: RwNqCNj3G15HDgEI
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.t5n5ThkkYNndouS6
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.t5n5ThkkYNndouS6
             optional: false
         optional: false
         spell: null

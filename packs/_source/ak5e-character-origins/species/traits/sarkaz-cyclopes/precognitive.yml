@@ -229,7 +229,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <h3>Precognitive</h3><p>The third eye of the Cyclopes allows them to see
@@ -268,7 +268,8 @@ system:
 effects:
   - name: '-1d4 to next roll'
     img: icons/magic/perception/orb-crystal-ball-scrying.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.WjyyJ6wp70178Sar
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.WjyyJ6wp70178Sar
     transfer: false
     _id: mFf01SRfzF0UEbAu
     type: base
@@ -332,7 +333,8 @@ effects:
     _key: '!items.effects!WjyyJ6wp70178Sar.mFf01SRfzF0UEbAu'
   - name: +1d4 to next roll
     img: icons/magic/perception/orb-crystal-ball-scrying.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.WjyyJ6wp70178Sar
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.WjyyJ6wp70178Sar
     transfer: false
     type: base
     system: {}
@@ -406,10 +408,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680363097
-  modifiedTime: 1768680363097
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457736245
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!WjyyJ6wp70178Sar'

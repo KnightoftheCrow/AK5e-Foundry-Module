@@ -10,7 +10,8 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: Trait
+    0WX2Zkq1Xd7xBgif:
+      type: Trait
       _id: 0WX2Zkq1Xd7xBgif
       configuration:
         allowReplacements: false
@@ -38,7 +39,9 @@ system:
       title: ''
       hint: ''
       value: {}
-    - type: ItemChoice
+      flags: {}
+    otQXspABU4akzbtD:
+      type: ItemChoice
       _id: otQXspABU4akzbtD
       configuration:
         allowDrops: false
@@ -47,20 +50,20 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.ak5e.ak5e-items.Item.ZuHZkt1h2YP8lgwu
-          - uuid: Compendium.ak5e.ak5e-items.Item.SCHjE2T5gXZRtIpX
-          - uuid: Compendium.ak5e.ak5e-items.Item.96vApcsV1yyaPTyD
-          - uuid: Compendium.ak5e.ak5e-items.Item.QvzlfvutcIIezpDs
-          - uuid: Compendium.ak5e.ak5e-items.Item.gFr3mcd57Og1c0pZ
-          - uuid: Compendium.ak5e.ak5e-items.Item.Hs0mF5dzKXUqdAdP
-          - uuid: Compendium.ak5e.ak5e-items.Item.5l64laM4rk4Ivi0m
-          - uuid: Compendium.ak5e.ak5e-items.Item.YAl6BnAF78PaYlDX
-          - uuid: Compendium.ak5e.ak5e-items.Item.dqXsCaK1P0JhtYC4
-          - uuid: Compendium.ak5e.ak5e-items.Item.sIWoR9fKRrec9UfW
-          - uuid: Compendium.ak5e.ak5e-items.Item.Nng70cKI1btONIpk
-          - uuid: Compendium.ak5e.ak5e-items.Item.8kQVIEXNMpMwu0XE
-          - uuid: Compendium.ak5e.ak5e-items.Item.tDJPOjB3go7yh1at
-          - uuid: Compendium.ak5e.ak5e-items.Item.YRaUmzhRyxMbjH3U
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.ZuHZkt1h2YP8lgwu
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.SCHjE2T5gXZRtIpX
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.96vApcsV1yyaPTyD
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.QvzlfvutcIIezpDs
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.gFr3mcd57Og1c0pZ
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Hs0mF5dzKXUqdAdP
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.5l64laM4rk4Ivi0m
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.YAl6BnAF78PaYlDX
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.dqXsCaK1P0JhtYC4
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.sIWoR9fKRrec9UfW
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Nng70cKI1btONIpk
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.8kQVIEXNMpMwu0XE
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.tDJPOjB3go7yh1at
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.YRaUmzhRyxMbjH3U
         restriction:
           list: []
         spell: null
@@ -70,6 +73,7 @@ system:
         replaced: {}
       title: ''
       hint: ''
+      flags: {}
   description:
     value: >-
       <p>In Leithanien, music, art, and the performance of it are more than a
@@ -115,10 +119,10 @@ _stats:
   compendiumSource: Item.qB14YEh1xWmc7f7h
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881328247
-  modifiedTime: 1769881328247
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457737593
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!qB14YEh1xWmc7f7h'

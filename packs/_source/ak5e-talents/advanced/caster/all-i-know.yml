@@ -2,7 +2,7 @@ folder: cyW9fgrb9XaTddeH
 name: All I Know
 type: feat
 _id: OjqCE6I7oEhlJYSM
-img: modules/ak5e/icons/Skill-PithSP2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-PithSP2.webp
 system:
   activities:
     I2dv3JTC0lmvBqDv:
@@ -20,7 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '3'
-            target: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+            target: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.6GMX3sLNtYU5pEtM
             scaling: {}
       description:
         chatFlavor: ''
@@ -115,7 +115,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>When you cast a Damaging Art, you may expend 3 AP as a Bonus Action to
@@ -146,8 +146,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Ignore Resistance and DR
-    img: modules/ak5e/icons/Skill-PithSP2.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.OjqCE6I7oEhlJYSM
+    img: modules/AK5e-Foundry-Module/icons/Skill-PithSP2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.OjqCE6I7oEhlJYSM
     transfer: false
     _id: rJsbX7n6CfDYugqV
     type: base
@@ -209,8 +209,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1772222746366
-  modifiedTime: 1783248501816
+  modifiedTime: 1783457744835
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!OjqCE6I7oEhlJYSM'

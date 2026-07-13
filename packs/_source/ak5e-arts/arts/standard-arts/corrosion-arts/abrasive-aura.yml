@@ -280,7 +280,7 @@ effects:
     changes:
       - key: macro.createItem
         mode: 0
-        value: Compendium.ak5e.ak5e-arts.Item.eIokwkC8yb771aQd
+        value: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.eIokwkC8yb771aQd
         priority: 20
     disabled: false
     duration:

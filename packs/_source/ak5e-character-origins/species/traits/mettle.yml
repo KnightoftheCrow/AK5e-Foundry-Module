@@ -646,7 +646,8 @@ system:
         type: loseAll
     max: '@scale.mettle.max'
   advancement:
-    - type: ScaleValue
+    BA77lFLgfeBDRnsK:
+      type: ScaleValue
       _id: BA77lFLgfeBDRnsK
       configuration:
         identifier: max
@@ -659,6 +660,7 @@ system:
       value: {}
       title: Max Mettle
       hint: ''
+      flags: {}
   description:
     value: >-
       <h1>Dying State</h1><p>When a Creature that can make Death Saving Throws
@@ -803,12 +805,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769277570746
-  modifiedTime: 1769277570788
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457734137
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

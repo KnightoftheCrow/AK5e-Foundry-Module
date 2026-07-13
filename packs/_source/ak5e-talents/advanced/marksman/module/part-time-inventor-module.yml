@@ -1,14 +1,14 @@
 folder: 5ej4KENJRk8I9Ksg
 name: Part-Time Inventor (Module)
 type: feat
-img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
+img: modules/AK5e-Foundry-Module/icons/Skill-TacticalEquipmentToolbox.png
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module:</strong> Your maximum number of Inventions becomes
@@ -37,8 +37,8 @@ system:
     subtype: talent
 effects:
   - name: Part-Time Inventor (Module)
-    img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
-    origin: Compendium.ak5e.ak5e-talents.Item.1wKWIN8qqEbSgBVb
+    img: modules/AK5e-Foundry-Module/icons/Skill-TacticalEquipmentToolbox.png
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.1wKWIN8qqEbSgBVb
     _id: JX2jU1CEK8woPShl
     type: base
     system: {}
@@ -95,9 +95,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1768145722621
-  modifiedTime: 1783247102630
+  modifiedTime: 1783457743711
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

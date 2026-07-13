@@ -2,7 +2,7 @@ folder: PEUmzy8rnB1pKfXr
 name: Jury Rigging
 type: feat
 _id: GH9QA744Dh7SYoz3
-img: modules/ak5e/icons/Skill-Purestream1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Purestream1.webp
 system:
   activities:
     VMeEtKW6IcGHYozA:
@@ -22,7 +22,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+            target: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.6GMX3sLNtYU5pEtM
             scaling:
               mode: amount
               formula: '1'
@@ -233,7 +233,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>Your drones are so infused with your Arts that their metal can mold
@@ -275,10 +275,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1774103322188
-  modifiedTime: 1774180367503
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457739301
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!GH9QA744Dh7SYoz3'
