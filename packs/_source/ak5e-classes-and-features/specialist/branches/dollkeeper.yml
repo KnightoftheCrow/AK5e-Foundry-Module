@@ -99,17 +99,17 @@ system:
       features:</p><table><tbody><tr><td
       data-colwidth="50"><p>Level</p></td><td><p>Branch
       Feature</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.9bzTmqRBaNyKJfsS]{Living
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.9bzTmqRBaNyKJfsS]{Living
       Doll}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">5</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.2FhIk7b7h7SVaVhO]{Pull
+      style="text-align:center">5</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.2FhIk7b7h7SVaVhO]{Pull
       the
-      Strings}</p><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.zkHfp73xP3ugr8S5]{Musical
+      Strings}</p><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.zkHfp73xP3ugr8S5]{Musical
       Chairs}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">11</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.U3OFS444dkZA0Zmk]{Masquerade}</p></td></tr><tr><td
+      style="text-align:center">11</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.U3OFS444dkZA0Zmk]{Masquerade}</p></td></tr><tr><td
       data-colwidth="50"><p
-      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.Vk5508AsRvhUF7Fl]{Living
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Vk5508AsRvhUF7Fl]{Living
       Doll (lvl15)}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">20</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.5o2JTKqYpSAqX9oO]{Artistry
+      style="text-align:center">20</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.5o2JTKqYpSAqX9oO]{Artistry
       is Violence}</p></td></tr></tbody></table>
     chat: ''
   identifier: dollkeeper

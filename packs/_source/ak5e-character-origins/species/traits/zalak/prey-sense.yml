@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <h3>Prey Sense</h3><p>The Zalak have always been prey, not predator, and
@@ -41,7 +41,8 @@ system:
 effects:
   - name: Prey Sense
     img: icons/magic/control/silhouette-grow-shrink-tan.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.sBmV7GGrGnroBAcL
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.sBmV7GGrGnroBAcL
     _id: Y12rS5jzkbtX6r4a
     type: base
     system: {}
@@ -103,10 +104,10 @@ _stats:
   compendiumSource: Item.sBmV7GGrGnroBAcL
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680545138
-  modifiedTime: 1768680545138
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457737719
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!sBmV7GGrGnroBAcL'

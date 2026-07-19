@@ -1,14 +1,14 @@
 folder: 5ej4KENJRk8I9Ksg
 name: Eagle Eyes (Module)
 type: feat
-img: modules/ak5e/icons/Skill-Pepe2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Pepe2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module:</strong> Creatures do not have Advantage on Attacks
@@ -37,8 +37,8 @@ system:
     subtype: talent
 effects:
   - name: Eagle Eyes (Module)
-    img: modules/ak5e/icons/Skill-Pepe2.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.2emfNpzkqQbxf5dd
+    img: modules/AK5e-Foundry-Module/icons/Skill-Pepe2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.2emfNpzkqQbxf5dd
     _id: a02eAb9KR6jMgMaI
     type: base
     system: {}
@@ -101,9 +101,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767989604680
-  modifiedTime: 1783247714354
+  modifiedTime: 1783457743749
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

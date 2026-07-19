@@ -2,24 +2,30 @@ folder: dyuCaYuU6JBJPOoc
 name: Primal Caster
 type: subclass
 _id: RHowGHbTdDcKcroT
-img: modules/ak5e/icons/Primal_Caster.webp
+img: modules/AK5e-Foundry-Module/icons/Primal_Caster.webp
 system:
   advancement:
-    - type: ItemGrant
+    mwWA1RbzIt5T140O:
+      type: ItemGrant
       _id: mwWA1RbzIt5T140O
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
             optional: false
         optional: false
         spell: null
       value: {}
       level: 1
-    - type: ItemGrant
+      flags: {}
+      hint: ''
+    ysmtYmF0TEbeUntd:
+      type: ItemGrant
       _id: ysmtYmF0TEbeUntd
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.tCg67bhiInVb70Wv
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.tCg67bhiInVb70Wv
             optional: false
         optional: false
         spell: null
@@ -27,11 +33,14 @@ system:
       level: 3
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    tutew1sJkU5Wi5PR:
+      type: ItemGrant
       _id: tutew1sJkU5Wi5PR
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.0hwyuMD4qEdW4c8U
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.0hwyuMD4qEdW4c8U
             optional: false
         optional: false
         spell: null
@@ -39,11 +48,14 @@ system:
       level: 6
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    xGUK5h6FVkkLxUot:
+      type: ItemGrant
       _id: xGUK5h6FVkkLxUot
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.jgqDfmoZFT5L4PZi
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.jgqDfmoZFT5L4PZi
             optional: false
         optional: false
         spell: null
@@ -51,11 +63,14 @@ system:
       level: 10
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    CMj792zI0bJBWZ2M:
+      type: ItemGrant
       _id: CMj792zI0bJBWZ2M
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.cirfDKN2BVTeyWNZ
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.cirfDKN2BVTeyWNZ
             optional: false
         optional: false
         spell: null
@@ -63,6 +78,7 @@ system:
       level: 15
       title: ''
       hint: ''
+      flags: {}
   description:
     value: >-
       <p>The might of a Primal Caster’s Arts lingers, like an infection in a
@@ -93,10 +109,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1774180551535
-  modifiedTime: 1774180618942
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457739842
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!RHowGHbTdDcKcroT'

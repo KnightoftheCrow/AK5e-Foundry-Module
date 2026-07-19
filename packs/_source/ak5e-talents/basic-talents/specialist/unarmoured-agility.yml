@@ -1,7 +1,7 @@
 folder: fxf6t1P5taaOdbmA
 name: Unarmoured Agility
 type: feat
-img: modules/ak5e/icons/Skill-LuoXiaohei1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-LuoXiaohei1.webp
 system:
   activities: {}
   uses:
@@ -35,7 +35,7 @@ system:
     subtype: talent
 effects:
   - name: Unarmoured Agility
-    img: modules/ak5e/icons/Skill-LuoXiaohei1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-LuoXiaohei1.webp
     origin: Item.8mA1aQInIam75k8e
     _id: Qodm6gXLqBYHEGYC
     type: base

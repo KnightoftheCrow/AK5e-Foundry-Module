@@ -1,7 +1,7 @@
 folder: F7xt8Er4yJgI2eaK
 name: Defensive
 type: feat
-img: modules/ak5e/icons/Skill-Blitz1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Blitz1.webp
 system:
   activities:
     Fq7tuGQoWRvaj66O:
@@ -155,7 +155,7 @@ system:
     subtype: fightingStyle
 effects:
   - name: Defensive
-    img: modules/ak5e/icons/Skill-Blitz1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Blitz1.webp
     origin: >-
       Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.jNXxnvPxISVHwgTT
     transfer: false

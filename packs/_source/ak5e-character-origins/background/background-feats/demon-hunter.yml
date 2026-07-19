@@ -109,7 +109,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>While you are affected by illusion-esque effects and Arts, such as
@@ -137,7 +137,8 @@ system:
 effects:
   - name: Advantage on Saving Throws vs Abberations
     img: icons/weapons/axes/axe-battle-eyes-red.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.2BTzYLwOvUYBFOdo
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.2BTzYLwOvUYBFOdo
     _id: pNQu2YJSAuOpS5EV
     type: base
     system: {}
@@ -195,10 +196,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1769881347037
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457734186
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!2BTzYLwOvUYBFOdo'

@@ -1,7 +1,7 @@
 folder: R2AhxUbx0IYKQ6JZ
 name: Shell Defence
 type: feat
-img: modules/ak5e/icons/Skill-TheLiberated1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-TheLiberated1.webp
 system:
   activities:
     9T7PuMtVfVMi253G:
@@ -21,7 +21,8 @@ system:
         targets:
           - type: itemUses
             value: '30'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -151,8 +152,8 @@ system:
     subtype: ''
 effects:
   - name: Shell Defence (Skill Points)
-    img: modules/ak5e/icons/Skill-TheLiberated1.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.3pVPKh2hEv2JwZMf
+    img: modules/AK5e-Foundry-Module/icons/Skill-TheLiberated1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.3pVPKh2hEv2JwZMf
     type: base
     _id: Rt0GpfNpR5YaakB0
     system: {}

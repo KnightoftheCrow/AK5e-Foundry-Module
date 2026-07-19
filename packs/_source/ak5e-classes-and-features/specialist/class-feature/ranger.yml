@@ -1,7 +1,7 @@
 folder: F7xt8Er4yJgI2eaK
 name: Ranger
 type: feat
-img: modules/ak5e/icons/Skill-Blitz2.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Blitz2.png
 system:
   activities: {}
   uses:
@@ -37,7 +37,7 @@ system:
     subtype: fightingStyle
 effects:
   - name: Ranger
-    img: modules/ak5e/icons/Skill-Blitz2.png
+    img: modules/AK5e-Foundry-Module/icons/Skill-Blitz2.png
     origin: >-
       Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.XtKdkdFgucYN2EvX
     _id: MafaTRrvCcJvPd2s

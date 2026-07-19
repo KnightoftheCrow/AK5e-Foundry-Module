@@ -2,7 +2,7 @@ folder: HMrANDaIT5F818Ua
 name: Marksman Training
 type: feat
 _id: 9XXCZYydPHXYPshr
-img: modules/ak5e/icons/Skill-SanktaMiksaparato1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-SanktaMiksaparato1.webp
 system:
   activities: {}
   uses:

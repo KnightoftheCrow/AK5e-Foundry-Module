@@ -1,7 +1,7 @@
 folder: 30IfqyYT0cFgxAaa
 name: Lock-On
 type: feat
-img: modules/ak5e/icons/Skill-Spuria1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Spuria1.webp
 system:
   activities:
     hBBVhflELm9f8Dqf:
@@ -19,7 +19,8 @@ system:
         targets:
           - type: itemUses
             value: '65'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -120,7 +121,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -156,8 +157,8 @@ system:
     subtype: ''
 effects:
   - name: Lock-On (Skill Points)
-    img: modules/ak5e/icons/Skill-Spuria1.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.I45GCYdetCraxFxT
+    img: modules/AK5e-Foundry-Module/icons/Skill-Spuria1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.I45GCYdetCraxFxT
     _id: DXFUOiWQeWl6gGq8
     type: base
     system: {}
@@ -200,7 +201,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -209,8 +210,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!I45GCYdetCraxFxT.DXFUOiWQeWl6gGq8'
   - name: Locked Onto
-    img: modules/ak5e/icons/Skill-Spuria1.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.I45GCYdetCraxFxT
+    img: modules/AK5e-Foundry-Module/icons/Skill-Spuria1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.I45GCYdetCraxFxT
     transfer: false
     _id: 88h9qWQxBNdTtCW7
     type: base
@@ -257,8 +258,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!I45GCYdetCraxFxT.88h9qWQxBNdTtCW7'
   - name: Locked On
-    img: modules/ak5e/icons/Skill-Spuria1.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.I45GCYdetCraxFxT
+    img: modules/AK5e-Foundry-Module/icons/Skill-Spuria1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.I45GCYdetCraxFxT
     transfer: false
     _id: 68Avs0YfhsCQxk7O
     type: base
@@ -321,11 +322,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.nFvpXqALzLBodCha
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1774023683571
-  modifiedTime: 1774023683571
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457742187
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: I45GCYdetCraxFxT
 _key: '!items!I45GCYdetCraxFxT'

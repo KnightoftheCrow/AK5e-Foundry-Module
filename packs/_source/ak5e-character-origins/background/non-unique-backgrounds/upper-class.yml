@@ -5,7 +5,8 @@ _id: fmaKU7wL9TEpCeFa
 img: icons/commodities/treasure/crown-gold-laurel-wreath.webp
 system:
   advancement:
-    - type: Trait
+    2vVmAiIxZFj7lEOO:
+      type: Trait
       title: Background Proficiencies
       _id: 2vVmAiIxZFj7lEOO
       configuration:
@@ -24,7 +25,9 @@ system:
       level: 0
       hint: ''
       value: {}
-    - type: ItemGrant
+      flags: {}
+    vQFj8jRk4LGWZn0k:
+      type: ItemGrant
       title: Background Feature
       _id: vQFj8jRk4LGWZn0k
       configuration:
@@ -35,6 +38,8 @@ system:
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>Nobility can be found in a majority of Terran lands. Even in lands
@@ -70,10 +75,10 @@ _stats:
   compendiumSource: Item.fmaKU7wL9TEpCeFa
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1769881347037
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457736946
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!fmaKU7wL9TEpCeFa'

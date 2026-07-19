@@ -1,14 +1,14 @@
 folder: xZIHKSAf1iQQkfT3
 name: Extra Attack (Module)
 type: feat
-img: modules/ak5e/icons/Skill-BluePoison1.png
+img: modules/AK5e-Foundry-Module/icons/Skill-BluePoison1.png
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module: </strong>You have a +1 to Attack and Damage Rolls for
@@ -38,8 +38,8 @@ system:
     subtype: skillPoints
 effects:
   - name: +1 to non-Spell Attack and Damage Rolls
-    img: modules/ak5e/icons/Skill-BluePoison1.png
-    origin: Compendium.ak5e.ak5e-talents.Item.j5UkW5zh1hMRepqU
+    img: modules/AK5e-Foundry-Module/icons/Skill-BluePoison1.png
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.j5UkW5zh1hMRepqU
     _id: euy312yoliFYAG6t
     type: base
     system: {}
@@ -111,9 +111,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1772222746366
-  modifiedTime: 1783248372397
+  modifiedTime: 1783457745553
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: j5UkW5zh1hMRepqU
 _key: '!items!j5UkW5zh1hMRepqU'

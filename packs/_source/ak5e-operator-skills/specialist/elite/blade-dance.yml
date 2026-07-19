@@ -1,7 +1,7 @@
 folder: NPg6zerqcXHk2X5L
 name: Blade Dance
 type: feat
-img: modules/ak5e/icons/Skill-Omertosa2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Omertosa2.webp
 system:
   activities:
     yHtmEbbIO0f4CA4N:
@@ -21,7 +21,8 @@ system:
         targets:
           - type: itemUses
             value: '65'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -156,7 +157,7 @@ system:
     subtype: ''
 effects:
   - name: Blade Dance (Skill Points)
-    img: modules/ak5e/icons/Skill-Omertosa2.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Omertosa2.webp
     origin: Item.xZxEME7omBqYjpDU
     type: base
     _id: 89gHmkd6W4smY7Bk

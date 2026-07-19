@@ -2,14 +2,14 @@ folder: AynL7yzSlptsmcjl
 name: Cycle of Life and Death
 type: feat
 _id: cVZnaMpeM1tx6huu
-img: modules/ak5e/icons/Skill-Nasti2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Nasti2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>If you have reduced a Creature to 0 Hit Points while your Operator
@@ -52,8 +52,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767738385546
-  modifiedTime: 1783247767452
+  modifiedTime: 1783457745179
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!cVZnaMpeM1tx6huu'

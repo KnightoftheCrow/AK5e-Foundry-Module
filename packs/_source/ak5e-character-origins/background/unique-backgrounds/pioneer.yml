@@ -5,7 +5,8 @@ _id: eISePaMuXAgeAjd3
 img: icons/environment/wilderness/camp-improvised.webp
 system:
   advancement:
-    - type: Trait
+    Vy5Ujx9RtT1SM60P:
+      type: Trait
       title: Background Proficiencies
       _id: Vy5Ujx9RtT1SM60P
       configuration:
@@ -21,17 +22,22 @@ system:
       level: 0
       hint: ''
       value: {}
-    - type: ItemGrant
+      flags: {}
+    WIVLLvpiL5lP7A61:
+      type: ItemGrant
       title: Background Feature
       _id: WIVLLvpiL5lP7A61
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.RlD4M7lHFxMRJ9f4
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.RlD4M7lHFxMRJ9f4
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>You are used to living in rough terrain. You are good with both people,
@@ -70,8 +76,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1771156576646
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457736866
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!eISePaMuXAgeAjd3'

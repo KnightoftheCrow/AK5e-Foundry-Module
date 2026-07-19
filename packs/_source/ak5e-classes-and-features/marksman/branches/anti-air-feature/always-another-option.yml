@@ -2,7 +2,7 @@ folder: 9MryoDbGKoSuHyVC
 name: Always Another Option
 type: feat
 _id: 1zqkOSnj10SFSusv
-img: modules/ak5e/icons/Skill-Shirayuki2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Shirayuki2.webp
 system:
   activities: {}
   uses:
@@ -14,7 +14,7 @@ system:
         type: formula
         formula: '1'
     max: '@prof'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>The art of being a generalist is the art of having many tools on which
@@ -68,8 +68,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767620002821
-  modifiedTime: 1771178807313
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457738769
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!1zqkOSnj10SFSusv'

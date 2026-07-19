@@ -1,7 +1,7 @@
 folder: NPg6zerqcXHk2X5L
 name: Continental Style
 type: feat
-img: modules/ak5e/icons/Skill-Sora2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Sora2.webp
 system:
   activities:
     xoNoIwPalnThTJEX:
@@ -20,7 +20,8 @@ system:
         targets:
           - type: itemUses
             value: '40'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -156,7 +157,7 @@ system:
     subtype: ''
 effects:
   - name: Continental Style (Skill Points)
-    img: modules/ak5e/icons/Skill-Sora2.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Sora2.webp
     origin: Item.QwDY2ADkoxoKchl8
     _id: DXFUOiWQeWl6gGq8
     type: base
@@ -208,7 +209,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!AG0xGZhRulfdCkwY.DXFUOiWQeWl6gGq8'
   - name: Continental Style
-    img: modules/ak5e/icons/Skill-Sora2.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Sora2.webp
     origin: Item.QwDY2ADkoxoKchl8
     transfer: false
     _id: KnmeoxYng1BpAYHL

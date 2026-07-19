@@ -4,14 +4,18 @@ type: race
 img: icons/creatures/magical/construct-stone-earth-gray.webp
 system:
   advancement:
-    - type: Size
+    eJiFA5fdfqm2cPgd:
+      type: Size
       _id: eJiFA5fdfqm2cPgd
       configuration:
         sizes:
           - med
       level: 0
       value: {}
-    - type: AbilityScoreImprovement
+      flags: {}
+      hint: ''
+    FySmLGV3IE7DMT5B:
+      type: AbilityScoreImprovement
       _id: FySmLGV3IE7DMT5B
       configuration:
         cap: 1
@@ -33,26 +37,36 @@ system:
       level: 0
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    Lm8yuD3q8CoG2zOL:
+      type: ItemGrant
       _id: Lm8yuD3q8CoG2zOL
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.7iK1fAyE2ce18NHL
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.7iK1fAyE2ce18NHL
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.uLRDO4e8BPMdcGSn
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.uLRDO4e8BPMdcGSn
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.LzZYNELTLdJ1hJ5H
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.LzZYNELTLdJ1hJ5H
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.7No7Ao7ZygpKTH4U
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.7No7Ao7ZygpKTH4U
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.5iNk6VNE8AWCZBS7
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.5iNk6VNE8AWCZBS7
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>Gargoyles, “the children of soil and stone”, are amongst the rarer of
@@ -111,9 +125,9 @@ system:
       Level</strong></p></td></tr></thead><tbody><tr><td><p>1</p></td><td><p>1</p></td></tr><tr><td><p>2</p></td><td><p>1</p></td></tr><tr><td><p>3</p></td><td><p>1</p></td></tr><tr><td><p>4</p></td><td><p>1</p></td></tr><tr><td><p>5</p></td><td><p>1</p></td></tr><tr><td><p>6</p></td><td><p>1</p></td></tr><tr><td><p>7</p></td><td><p>2</p></td></tr><tr><td><p>8</p></td><td><p>2</p></td></tr><tr><td><p>9</p></td><td><p>2</p></td></tr><tr><td><p>10</p></td><td><p>2</p></td></tr><tr><td><p>11</p></td><td><p>2</p></td></tr><tr><td><p>12</p></td><td><p>2</p></td></tr><tr><td><p>13</p></td><td><p>2</p></td></tr><tr><td><p>14</p></td><td><p>3</p></td></tr><tr><td><p>15</p></td><td><p>3</p></td></tr><tr><td><p>16</p></td><td><p>3</p></td></tr><tr><td><p>17</p></td><td><p>3</p></td></tr><tr><td><p>18</p></td><td><p>3</p></td></tr><tr><td><p>19</p></td><td><p>4</p></td></tr><tr><td><p>20</p></td><td><p>4</p></td></tr></tbody></table><h3>To
       Mold Mud and Rock</h3><p>Once per Long Rest, over the course of a ten
       minute ritual, you can create an
-      @UUID[Compendium.ak5e.ak5e-bestiary.Actor.niDFLjZT9tuHPYSR]{Earthen
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.niDFLjZT9tuHPYSR]{Earthen
       Golem}. From 7th Level, you may summon a
-      @UUID[Compendium.ak5e.ak5e-bestiary.Actor.oqgc55sHBP7zqsPh]{Earthen
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.oqgc55sHBP7zqsPh]{Earthen
       Colossus} instead. The Construct lasts for 1 hour, or until it reduced to
       0 Hit Points, wherein it crumbles to dust.</p><p>In combat, the Earthen
       Golem takes its Turn immediately after you, and is allied to you and your
@@ -177,9 +191,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680372929
-  modifiedTime: 1771157913057
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457738162
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: yy1wVyrzvdBh7w5v
 _key: '!items!yy1wVyrzvdBh7w5v'

@@ -1,7 +1,7 @@
 folder: R7AlyM082W93xgTV
 name: Salt the Wound
 type: feat
-img: modules/ak5e/icons/Skill-Humus1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Humus1.webp
 system:
   activities:
     2lkiq7KFW7FjD94I:
@@ -19,7 +19,8 @@ system:
         targets:
           - type: itemUses
             value: '30'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -135,7 +136,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -169,7 +170,7 @@ system:
     subtype: opSkill
 effects:
   - name: Salt the Wound (Skill Points)
-    img: modules/ak5e/icons/Skill-Humus1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Humus1.webp
     origin: Item.Yb72jEmG2iyBw7m6
     _id: GQBslauEmqcGyBM3
     type: base
@@ -228,12 +229,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1773572163904
-  modifiedTime: 1773572215493
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457742431
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

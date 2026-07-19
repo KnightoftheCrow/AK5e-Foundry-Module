@@ -2,7 +2,7 @@ folder: cyW9fgrb9XaTddeH
 name: Energy Redirection
 type: feat
 _id: h4Oi82fAZ8XgmOKz
-img: modules/ak5e/icons/Skill-Pudding2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Pudding2.webp
 system:
   activities:
     OGqmgvaf0xwigjdJ:
@@ -272,7 +272,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>Choose an Arts Damage Type; you gain Resistance to that Damage Type.
@@ -311,8 +311,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Acid Resistance
-    img: modules/ak5e/icons/Skill-Pudding2.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
+    img: modules/AK5e-Foundry-Module/icons/Skill-Pudding2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
     transfer: false
     _id: ScQPrvQg8Vfs2KHt
     type: base
@@ -363,8 +363,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!h4Oi82fAZ8XgmOKz.ScQPrvQg8Vfs2KHt'
   - name: Cold Resistance
-    img: modules/ak5e/icons/Skill-Pudding2.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
+    img: modules/AK5e-Foundry-Module/icons/Skill-Pudding2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
     transfer: false
     type: base
     system: {}
@@ -415,8 +415,8 @@ effects:
     _id: D3LGLhiQq2acR4ow
     _key: '!items.effects!h4Oi82fAZ8XgmOKz.D3LGLhiQq2acR4ow'
   - name: Fire Resistance
-    img: modules/ak5e/icons/Skill-Pudding2.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
+    img: modules/AK5e-Foundry-Module/icons/Skill-Pudding2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
     transfer: false
     type: base
     system: {}
@@ -467,8 +467,8 @@ effects:
     _id: P2jEmC40XQQEPXmw
     _key: '!items.effects!h4Oi82fAZ8XgmOKz.P2jEmC40XQQEPXmw'
   - name: Force Resistance
-    img: modules/ak5e/icons/Skill-Pudding2.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
+    img: modules/AK5e-Foundry-Module/icons/Skill-Pudding2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
     transfer: false
     type: base
     system: {}
@@ -519,8 +519,8 @@ effects:
     _id: l7bMpjfpdGxToVtX
     _key: '!items.effects!h4Oi82fAZ8XgmOKz.l7bMpjfpdGxToVtX'
   - name: Lightning Resistance
-    img: modules/ak5e/icons/Skill-Pudding2.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
+    img: modules/AK5e-Foundry-Module/icons/Skill-Pudding2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
     transfer: false
     type: base
     system: {}
@@ -571,8 +571,8 @@ effects:
     _id: htY14vJDbGbPQnc4
     _key: '!items.effects!h4Oi82fAZ8XgmOKz.htY14vJDbGbPQnc4'
   - name: Necrotic Resistance
-    img: modules/ak5e/icons/Skill-Pudding2.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
+    img: modules/AK5e-Foundry-Module/icons/Skill-Pudding2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
     transfer: false
     type: base
     system: {}
@@ -623,8 +623,8 @@ effects:
     _id: i40gyXAz5QJ62y5s
     _key: '!items.effects!h4Oi82fAZ8XgmOKz.i40gyXAz5QJ62y5s'
   - name: Poison Resistance
-    img: modules/ak5e/icons/Skill-Pudding2.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
+    img: modules/AK5e-Foundry-Module/icons/Skill-Pudding2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
     transfer: false
     type: base
     system: {}
@@ -675,8 +675,8 @@ effects:
     _id: z2ceykDcSYO6NJnS
     _key: '!items.effects!h4Oi82fAZ8XgmOKz.z2ceykDcSYO6NJnS'
   - name: Psychic Resistance
-    img: modules/ak5e/icons/Skill-Pudding2.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
+    img: modules/AK5e-Foundry-Module/icons/Skill-Pudding2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
     transfer: false
     type: base
     system: {}
@@ -727,8 +727,8 @@ effects:
     _id: 4tWOYBAhMmboS9Ep
     _key: '!items.effects!h4Oi82fAZ8XgmOKz.4tWOYBAhMmboS9Ep'
   - name: Radiant Resistance
-    img: modules/ak5e/icons/Skill-Pudding2.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
+    img: modules/AK5e-Foundry-Module/icons/Skill-Pudding2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.h4Oi82fAZ8XgmOKz
     transfer: false
     type: base
     system: {}
@@ -792,8 +792,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1772222746366
-  modifiedTime: 1783248380935
+  modifiedTime: 1783457745421
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!h4Oi82fAZ8XgmOKz'

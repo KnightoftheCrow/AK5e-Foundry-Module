@@ -2,7 +2,7 @@ folder: q9mrRuD7Bdhth58y
 name: Mark Prey
 type: feat
 _id: XGWbACi5cic6PXa8
-img: modules/ak5e/icons/Skill-Gavial1.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Gavial1.png
 system:
   activities:
     RaUWx4V7uiCV2E1R:
@@ -20,7 +20,8 @@ system:
         targets:
           - type: itemUses
             value: '15'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
       description:
         chatFlavor: ''
       duration:
@@ -120,7 +121,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <ul><li><p><strong>Name</strong>: Mark Prey.</p></li><li><p><strong>SP
@@ -151,8 +152,8 @@ system:
     subtype: ''
 effects:
   - name: Mark Prey (Skill Points)
-    img: modules/ak5e/icons/Skill-Gavial1.png
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.XGWbACi5cic6PXa8
+    img: modules/AK5e-Foundry-Module/icons/Skill-Gavial1.png
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.XGWbACi5cic6PXa8
     _id: 07cem1rULU91DvMR
     type: base
     system: {}
@@ -195,7 +196,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.351'
@@ -206,8 +207,8 @@ effects:
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!XGWbACi5cic6PXa8.07cem1rULU91DvMR'
   - name: Mark Prey
-    img: modules/ak5e/icons/Skill-Gavial1.png
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.XGWbACi5cic6PXa8
+    img: modules/AK5e-Foundry-Module/icons/Skill-Gavial1.png
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.XGWbACi5cic6PXa8
     transfer: false
     _id: 8XpZyhhDafiJq3fZ
     type: base
@@ -273,8 +274,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767618331739
-  modifiedTime: 1768638561551
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457742578
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!XGWbACi5cic6PXa8'

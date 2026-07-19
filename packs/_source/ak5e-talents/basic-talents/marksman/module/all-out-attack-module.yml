@@ -1,7 +1,7 @@
 folder: 7chRMuJsyyn3S2jB
 name: All Out Attack (Module)
 type: feat
-img: modules/ak5e/icons/Skill-Rosa2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Rosa2.webp
 system:
   activities:
     J4LdDXtsSrkvGqnt:
@@ -120,7 +120,7 @@ system:
       - period: turn
         type: recoverAll
     max: '1'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module:</strong> The additional Damage is increased to
@@ -149,8 +149,8 @@ system:
     subtype: talent
 effects:
   - name: All Out Attack (Module)
-    img: modules/ak5e/icons/Skill-Rosa2.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.hceNm4zFz9e5HTYm
+    img: modules/AK5e-Foundry-Module/icons/Skill-Rosa2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.hceNm4zFz9e5HTYm
     _id: P834Mz7SWu3zIXvE
     type: base
     system: {}
@@ -211,9 +211,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767901715527
-  modifiedTime: 1783246198626
+  modifiedTime: 1783457745860
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

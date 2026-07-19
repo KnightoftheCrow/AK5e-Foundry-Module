@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <h3>Move First or Move Never</h3><p>Cautus live fast in many respects;
@@ -42,7 +42,8 @@ system:
 effects:
   - name: Move First or Move Never
     img: icons/magic/movement/trail-streak-zigzag-yellow.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.SwEdZQO7hbBwru9u
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.SwEdZQO7hbBwru9u
     _id: Knt3G4LUsf8PihbH
     type: base
     system: {}
@@ -100,10 +101,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680297411
-  modifiedTime: 1768680297411
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457735877
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!SwEdZQO7hbBwru9u'

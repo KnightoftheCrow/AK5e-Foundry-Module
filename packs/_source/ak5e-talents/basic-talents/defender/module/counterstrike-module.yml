@@ -1,7 +1,7 @@
 folder: zLS0Nt8r6PPuDuKr
 name: Counterstrike (Module)
 type: feat
-img: modules/ak5e/icons/Skill-Brigid2.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Brigid2.png
 system:
   activities: {}
   uses:
@@ -22,7 +22,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.3gqnqFhR8qm6aHRS
+      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.3gqnqFhR8qm6aHRS
     repeatable: false
     level: 8
   properties:

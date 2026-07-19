@@ -1,7 +1,7 @@
 folder: wMYv1txZ65AOCzbH
 name: Crimson Eyes
 type: feat
-img: modules/ak5e/icons/Skill-Haze1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Haze1.webp
 system:
   activities:
     wMGm6HNoPIk0dCBt:
@@ -20,12 +20,13 @@ system:
         targets:
           - type: itemUses
             value: '15'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling:
               mode: ''
           - type: itemUses
             value: '-1'
-            target: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+            target: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.6GMX3sLNtYU5pEtM
             scaling:
               mode: amount
               formula: '-1'
@@ -130,7 +131,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -167,8 +168,8 @@ system:
     subtype: opSkill
 effects:
   - name: Crimson Eyes (Skill Points)
-    img: modules/ak5e/icons/Skill-Haze1.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.rXV6Lwg4pCzFRDZn
+    img: modules/AK5e-Foundry-Module/icons/Skill-Haze1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.rXV6Lwg4pCzFRDZn
     _id: flx7lohMTgQh5EDM
     type: base
     system: {}
@@ -211,7 +212,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -220,8 +221,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!rXV6Lwg4pCzFRDZn.flx7lohMTgQh5EDM'
   - name: Crimson Eyes
-    img: modules/ak5e/icons/Skill-Haze1.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.rXV6Lwg4pCzFRDZn
+    img: modules/AK5e-Foundry-Module/icons/Skill-Haze1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.rXV6Lwg4pCzFRDZn
     _id: oQFgfxYogpXYySzb
     type: base
     system: {}
@@ -278,7 +279,7 @@ flags:
   dae:
     macro:
       name: Crimson Eyes
-      img: modules/ak5e/icons/Skill-Haze1.webp
+      img: modules/AK5e-Foundry-Module/icons/Skill-Haze1.webp
       type: script
       scope: global
       command: >-
@@ -303,11 +304,11 @@ _stats:
   compendiumSource: Item.rXV6Lwg4pCzFRDZn
   duplicateSource: Item.tG00xmKgztcUdavW
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1772826442350
-  modifiedTime: 1772826442350
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457742899
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: rXV6Lwg4pCzFRDZn
 _key: '!items!rXV6Lwg4pCzFRDZn'

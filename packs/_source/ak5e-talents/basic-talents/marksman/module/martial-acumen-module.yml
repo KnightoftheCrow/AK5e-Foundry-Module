@@ -2,14 +2,14 @@ folder: 7chRMuJsyyn3S2jB
 name: Martial Acumen (Module)
 type: feat
 _id: ZT2UOU5NX1BGgY0j
-img: modules/ak5e/icons/Skill-Morgan2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Morgan2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module:</strong> As a Bonus Action, you may grant a Weapon you
@@ -48,8 +48,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767735845868
-  modifiedTime: 1783242603600
+  modifiedTime: 1783457745066
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!ZT2UOU5NX1BGgY0j'

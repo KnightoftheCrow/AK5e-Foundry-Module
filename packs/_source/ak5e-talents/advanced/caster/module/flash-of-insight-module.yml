@@ -1,14 +1,14 @@
 folder: xZIHKSAf1iQQkfT3
 name: Flash of Insight (Module)
 type: feat
-img: modules/ak5e/icons/Skill-Titi1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Titi1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module: </strong>You may now roll up to 2 additional dice per
@@ -49,9 +49,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1772222746366
-  modifiedTime: 1783248173829
+  modifiedTime: 1783457744619
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: M35WhqZ6MOxF6vlT
 _key: '!items!M35WhqZ6MOxF6vlT'

@@ -2,7 +2,7 @@ folder: 5TjQjlL8OLFElpmw
 name: Environmental Warfare
 type: feat
 _id: 8xHS97yH5nne8Tpm
-img: modules/ak5e/icons/Skill-Dorothy1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Dorothy1.webp
 system:
   activities: {}
   uses:
@@ -16,21 +16,21 @@ system:
       _id: DnYnOArOaVtFL3FC
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-items.Item.EoTq00NhPTxTFU2u
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.EoTq00NhPTxTFU2u
             optional: false
-          - uuid: Compendium.ak5e.ak5e-items.Item.XEbZtVHytTb1MdIL
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.XEbZtVHytTb1MdIL
             optional: false
-          - uuid: Compendium.ak5e.ak5e-items.Item.mIssTy6jiJ1iqmeQ
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.mIssTy6jiJ1iqmeQ
             optional: false
-          - uuid: Compendium.ak5e.ak5e-items.Item.X0V8f6j015fLPedm
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.X0V8f6j015fLPedm
             optional: false
-          - uuid: Compendium.ak5e.ak5e-items.Item.2M88IXWxohI4aj8a
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.2M88IXWxohI4aj8a
             optional: false
-          - uuid: Compendium.ak5e.ak5e-items.Item.DevlIig02o1ZVUAP
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.DevlIig02o1ZVUAP
             optional: false
-          - uuid: Compendium.ak5e.ak5e-items.Item.D8SaJ5QDyijRLfLs
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.D8SaJ5QDyijRLfLs
             optional: false
-          - uuid: Compendium.ak5e.ak5e-items.Item.rZ5vzWIhxB8d5nWG
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.rZ5vzWIhxB8d5nWG
             optional: false
         optional: false
         spell: null

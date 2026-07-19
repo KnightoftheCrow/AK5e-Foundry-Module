@@ -1,7 +1,7 @@
 folder: 7chRMuJsyyn3S2jB
 name: Clean Sweep (Module)
 type: feat
-img: modules/ak5e/icons/Skill-Archetto2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Archetto2.webp
 system:
   activities:
     H6XDKL0q665RsJMK:
@@ -115,7 +115,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module:</strong> This Feature is no longer limited to once per
@@ -140,7 +140,7 @@ system:
     subtype: talent
 effects:
   - name: Clean Sweep
-    img: modules/ak5e/icons/Skill-Archetto2.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Archetto2.webp
     origin: Item.nvt71t2O8JaEIGuJ
     transfer: false
     _id: NwTRzcT9bOu9FRm0
@@ -202,9 +202,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767905802168
-  modifiedTime: 1783245984698
+  modifiedTime: 1783457745708
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

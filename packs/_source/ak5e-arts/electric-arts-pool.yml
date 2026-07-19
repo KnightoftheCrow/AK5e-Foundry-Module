@@ -9,13 +9,14 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: ItemGrant
+    hOcBNrk9NoZlmRR7:
+      type: ItemGrant
       _id: hOcBNrk9NoZlmRR7
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.XvbiNhNqXXIFisIy
             optional: false
-          - uuid: Compendium.ak5e.ak5e-arts.Item.ghksRA7xgvMWw4Qy
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.ghksRA7xgvMWw4Qy
             optional: false
         optional: false
         spell:
@@ -30,12 +31,14 @@ system:
       level: 0
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    NABo3MwY4iduxq7N:
+      type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.LpkiJ4CP2UQCTBKT
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.LpkiJ4CP2UQCTBKT
             optional: false
-          - uuid: Compendium.ak5e.ak5e-arts.Item.RvYWd35zRoiT45RI
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.RvYWd35zRoiT45RI
             optional: false
           - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplWitchBolt0
             optional: false
@@ -53,10 +56,12 @@ system:
       title: ''
       hint: ''
       _id: NABo3MwY4iduxq7N
-    - type: ItemGrant
+      flags: {}
+    IXt1si7dhdRwfgKW:
+      type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.TsD5Y2wTOfvPynKP
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.TsD5Y2wTOfvPynKP
             optional: false
         optional: false
         spell:
@@ -72,7 +77,9 @@ system:
       title: ''
       hint: ''
       _id: IXt1si7dhdRwfgKW
-    - type: ItemGrant
+      flags: {}
+    jMthAthuKu3jDmob:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.ehvmg9U9fcMEhE4z
@@ -97,10 +104,12 @@ system:
       title: ''
       hint: ''
       _id: jMthAthuKu3jDmob
-    - type: ItemGrant
+      flags: {}
+    C7IWnQmAB9J6cUaJ:
+      type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.5ubcVmR6TJcfrGcJ
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.5ubcVmR6TJcfrGcJ
             optional: false
         optional: false
         spell:
@@ -116,10 +125,12 @@ system:
       title: ''
       hint: ''
       _id: C7IWnQmAB9J6cUaJ
-    - type: ItemGrant
+      flags: {}
+    soeQVL26jp0JRVpB:
+      type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.436R7h6RIyBXoFKL
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.436R7h6RIyBXoFKL
             optional: false
         optional: false
         spell:
@@ -135,12 +146,14 @@ system:
       title: ''
       hint: ''
       _id: soeQVL26jp0JRVpB
-    - type: ItemGrant
+      flags: {}
+    2nENPeY91lFOuI7W:
+      type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.QbTxN5dWIbYZ4jLU
             optional: false
-          - uuid: Compendium.ak5e.ak5e-arts.Item.eTLw68bqpkFQAIPP
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.eTLw68bqpkFQAIPP
             optional: false
         optional: false
         spell:
@@ -156,10 +169,12 @@ system:
       title: ''
       hint: ''
       _id: 2nENPeY91lFOuI7W
-    - type: ItemGrant
+      flags: {}
+    cpKswOWYpj91k6Wb:
+      type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.Ee25mROSfg8zHmCh
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.Ee25mROSfg8zHmCh
             optional: false
         optional: false
         spell:
@@ -175,10 +190,12 @@ system:
       title: ''
       hint: ''
       _id: cpKswOWYpj91k6Wb
-    - type: ItemGrant
+      flags: {}
+    TvX8kmCZwEUSVT85:
+      type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.vXoPPH6jyab7FoEt
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.vXoPPH6jyab7FoEt
             optional: false
         optional: false
         spell:
@@ -194,6 +211,7 @@ system:
       title: ''
       hint: ''
       _id: TvX8kmCZwEUSVT85
+      flags: {}
   description:
     value: >-
       <p>Next to Flame Arts, Electric Arts are some of the most visually
@@ -255,10 +273,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1770836331073
-  modifiedTime: 1771158973967
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457746903
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

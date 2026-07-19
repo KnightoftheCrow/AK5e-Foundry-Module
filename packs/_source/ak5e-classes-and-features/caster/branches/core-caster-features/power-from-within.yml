@@ -2,7 +2,7 @@ folder: pUajGesWO3hqfFFR
 name: Power From Within
 type: feat
 _id: 2x7tE7qrJQZ3KmSK
-img: modules/ak5e/icons/Skill-Astesia1.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Astesia1.png
 system:
   activities:
     VMBAUeMMikvmnQsB:
@@ -20,7 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '-round((@details.level)/2)'
-            target: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+            target: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.6GMX3sLNtYU5pEtM
       description:
         chatFlavor: ''
       duration:
@@ -115,7 +115,7 @@ system:
       - period: lr
         type: recoverAll
     max: '1'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You can meditate as a Short Rest Activity, as if you were casting an
@@ -152,10 +152,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1774093102427
-  modifiedTime: 1774098009353
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457738833
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!2x7tE7qrJQZ3KmSK'

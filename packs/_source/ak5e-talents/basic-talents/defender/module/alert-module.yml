@@ -1,7 +1,7 @@
 folder: zLS0Nt8r6PPuDuKr
 name: Alert (Module)
 type: feat
-img: modules/ak5e/icons/Skill-PureCrystal.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-PureCrystal.webp
 system:
   activities: {}
   uses:
@@ -20,7 +20,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.6IL6kCJuT9hmCv97
+      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.6IL6kCJuT9hmCv97
     repeatable: false
     level: 8
   properties:
@@ -31,7 +31,7 @@ system:
     subtype: talent
 effects:
   - name: Alert (Module)
-    img: modules/ak5e/icons/Skill-PureCrystal.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-PureCrystal.webp
     origin: Item.tYGEKgTXkYBFwge5
     _id: 8ww73gJFvYU1zzE1
     type: base

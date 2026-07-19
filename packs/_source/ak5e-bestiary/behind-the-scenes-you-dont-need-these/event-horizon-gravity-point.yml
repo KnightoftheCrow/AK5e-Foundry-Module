@@ -789,7 +789,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: []
+      advancement: {}
       description:
         value: >-
           <p>At the start of each of your Turns, every Creature within the
@@ -826,7 +826,7 @@ items:
       - name: Event Horizon Field
         img: icons/magic/unholy/orb-swirling-teal.webp
         origin: >-
-          Compendium.ak5e.ak5e-bestiary.Actor.I6txsKXdeCAs6DA7.Item.wpZcJJ8vboq3mymF
+          Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.I6txsKXdeCAs6DA7.Item.wpZcJJ8vboq3mymF
         _id: Dr23agTnMeW3LWTL
         type: auraeffects.aura
         system:
@@ -959,7 +959,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-bestiary.Actor.v4RiQhDGNlNHfdTp.ActiveEffect.JIqzAAHGCbzBHYVm
+        Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.v4RiQhDGNlNHfdTp.ActiveEffect.JIqzAAHGCbzBHYVm
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -985,6 +985,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1757783315496
-  modifiedTime: 1783356359284
-  lastModifiedBy: 27ikDz77N89hVLvM
+  modifiedTime: 1783457733418
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!actors!I6txsKXdeCAs6DA7'

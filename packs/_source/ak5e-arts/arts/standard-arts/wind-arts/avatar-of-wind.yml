@@ -183,7 +183,7 @@ effects:
         priority: 20
       - key: macro.createItem
         mode: 0
-        value: Compendium.ak5e.ak5e-arts.Item.uDeIKpJc4P2YEJSo
+        value: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.uDeIKpJc4P2YEJSo
         priority: 20
     disabled: false
     duration:

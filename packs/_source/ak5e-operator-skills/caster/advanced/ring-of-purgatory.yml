@@ -1,7 +1,7 @@
 folder: R7AlyM082W93xgTV
 name: Ring of Purgatory
 type: feat
-img: modules/ak5e/icons/Skill-Purgatory2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Purgatory2.webp
 system:
   activities:
     2lkiq7KFW7FjD94I:
@@ -142,7 +142,8 @@ system:
         targets:
           - type: itemUses
             value: '30'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -243,7 +244,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -281,7 +282,7 @@ system:
     subtype: opSkill
 effects:
   - name: Ring of Purgatory (Skill Points)
-    img: modules/ak5e/icons/Skill-Purgatory2.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Purgatory2.webp
     origin: Item.3PomY3C6LyKV5lBb
     _id: GQBslauEmqcGyBM3
     type: base
@@ -333,7 +334,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!wwtX6dgrZrBqgoIk.GQBslauEmqcGyBM3'
   - name: Ring of Purgatory
-    img: modules/ak5e/icons/Skill-Purgatory2.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Purgatory2.webp
     origin: Item.3PomY3C6LyKV5lBb
     _id: Q1rueMwx02MI4gkZ
     type: auraeffects.aura
@@ -407,12 +408,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1773572162076
-  modifiedTime: 1773572205253
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457743084
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

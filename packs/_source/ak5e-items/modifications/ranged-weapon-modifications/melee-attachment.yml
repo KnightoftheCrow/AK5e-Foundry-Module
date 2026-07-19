@@ -2,7 +2,7 @@ folder: wTkeoeJjxbPHcfdK
 name: Melee Attachment
 type: consumable
 _id: FWuOIt3GTnYotHI0
-img: modules/ak5e/icons/Skill-Magallan2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Magallan2.webp
 system:
   activities: {}
   uses:
@@ -62,7 +62,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-items.Item.oXYQYpjmfpqZSpU6
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.oXYQYpjmfpqZSpU6
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

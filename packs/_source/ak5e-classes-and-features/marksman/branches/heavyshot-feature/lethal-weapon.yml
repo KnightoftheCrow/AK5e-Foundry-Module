@@ -2,14 +2,14 @@ folder: JCxDQcgqE3WNSRZl
 name: Lethal Weapon
 type: feat
 _id: g6evHg46WrHGd8FP
-img: modules/ak5e/icons/Skill-Holungday3.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Holungday3.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>The sky is the limit when it comes to the damage you can
@@ -48,8 +48,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767625800581
-  modifiedTime: 1771181255071
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457740454
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!g6evHg46WrHGd8FP'

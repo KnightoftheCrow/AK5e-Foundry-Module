@@ -1,7 +1,7 @@
 folder: wMYv1txZ65AOCzbH
 name: Levitate
 type: feat
-img: modules/ak5e/icons/Skill-Angelina1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Angelina1.webp
 system:
   activities:
     se0zchAEIl1ZjqsC:
@@ -19,7 +19,8 @@ system:
         targets:
           - type: itemUses
             value: '15'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -132,7 +133,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -164,8 +165,8 @@ system:
     subtype: opSkill
 effects:
   - name: Levitate (Skill Points)
-    img: modules/ak5e/icons/Skill-Angelina1.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.9W8D4dNqRS5wyc1G
+    img: modules/AK5e-Foundry-Module/icons/Skill-Angelina1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.9W8D4dNqRS5wyc1G
     _id: flx7lohMTgQh5EDM
     type: base
     system: {}
@@ -208,7 +209,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -217,8 +218,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!9W8D4dNqRS5wyc1G.flx7lohMTgQh5EDM'
   - name: Levitated
-    img: modules/ak5e/icons/Skill-Angelina1.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.9W8D4dNqRS5wyc1G
+    img: modules/AK5e-Foundry-Module/icons/Skill-Angelina1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.9W8D4dNqRS5wyc1G
     transfer: false
     _id: futQOSy7ohxuemMl
     type: base
@@ -267,8 +268,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!9W8D4dNqRS5wyc1G.futQOSy7ohxuemMl'
   - name: Slowed
-    img: modules/ak5e/icons/Skill-Angelina1.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.9W8D4dNqRS5wyc1G
+    img: modules/AK5e-Foundry-Module/icons/Skill-Angelina1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.9W8D4dNqRS5wyc1G
     transfer: false
     _id: qTmjidCXxOoo86ib
     type: base
@@ -324,16 +325,18 @@ ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3
 flags:
-  dnd5e: {}
+  dnd5e:
+    riders:
+      activity: []
 _stats:
   compendiumSource: null
   duplicateSource: Item.Oaduiib94lWlaKsX
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1772826442350
-  modifiedTime: 1772826442350
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457742019
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: 9W8D4dNqRS5wyc1G
 _key: '!items!9W8D4dNqRS5wyc1G'

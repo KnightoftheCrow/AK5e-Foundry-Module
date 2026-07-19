@@ -1,7 +1,7 @@
 folder: EjQr1CtCkHNEpvzS
 name: Hidden technique (Module)
 type: feat
-img: modules/ak5e/icons/Skill-AspectOfCreation.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-AspectOfCreation.webp
 system:
   activities: {}
   uses:
@@ -22,7 +22,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.neRPgpbzOmCJLysh
+      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.neRPgpbzOmCJLysh
     repeatable: false
     level: 13
   properties:

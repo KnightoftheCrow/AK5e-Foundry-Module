@@ -2,14 +2,14 @@ folder: SuzcwOsde1k6YNFn
 name: Alert (Module)
 type: feat
 _id: J8f8cJXLZxKgSBCg
-img: modules/ak5e/icons/Skill-PureCrystal.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-PureCrystal.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: <p><strong>Module:</strong> You have Advantage on Initiative Rolls.</p>
     chat: ''
@@ -36,8 +36,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Alert (Module)
-    img: modules/ak5e/icons/Skill-PureCrystal.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.J8f8cJXLZxKgSBCg
+    img: modules/AK5e-Foundry-Module/icons/Skill-PureCrystal.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.J8f8cJXLZxKgSBCg
     _id: 8ww73gJFvYU1zzE1
     type: base
     system: {}
@@ -98,8 +98,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1770924144147
-  modifiedTime: 1783246828197
+  modifiedTime: 1783457744467
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!J8f8cJXLZxKgSBCg'

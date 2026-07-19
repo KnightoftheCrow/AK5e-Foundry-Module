@@ -2,7 +2,7 @@ folder: q9mrRuD7Bdhth58y
 name: Parting Shot
 type: feat
 _id: BmmsZ7gAjQabQNFz
-img: modules/ak5e/icons/Skill-Pinecone2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Pinecone2.webp
 system:
   activities:
     bu7z96tTP9fWez52:
@@ -20,7 +20,8 @@ system:
         targets:
           - type: itemUses
             value: '20'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
       description:
         chatFlavor: ''
       duration:
@@ -123,7 +124,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <ul><li><p><strong>Name</strong>: Parting Shot.</p></li><li><p><strong>SP
@@ -158,8 +159,8 @@ system:
     subtype: ''
 effects:
   - name: Parting Shot (Skill Points)
-    img: modules/ak5e/icons/Skill-Pinecone2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.BmmsZ7gAjQabQNFz
+    img: modules/AK5e-Foundry-Module/icons/Skill-Pinecone2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.BmmsZ7gAjQabQNFz
     _id: gN3DHxzjSzmfZeHS
     type: base
     system: {}
@@ -202,7 +203,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.351'
@@ -226,8 +227,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767618458814
-  modifiedTime: 1768140792628
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457742094
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!BmmsZ7gAjQabQNFz'

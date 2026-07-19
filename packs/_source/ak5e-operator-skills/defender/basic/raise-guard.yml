@@ -1,7 +1,7 @@
 folder: btRo3hRuz3IPi5IL
 name: Raise Guard
 type: feat
-img: modules/ak5e/icons/Skill-Gravel2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Gravel2.webp
 system:
   activities:
     YLE2YD6HIUG0PgdN:
@@ -20,7 +20,8 @@ system:
         targets:
           - type: itemUses
             value: '10'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -148,8 +149,8 @@ system:
     subtype: ''
 effects:
   - name: Raise Guard (Skill Points)
-    img: modules/ak5e/icons/Skill-Gravel2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.DwhrdL1hiW6bks5T
+    img: modules/AK5e-Foundry-Module/icons/Skill-Gravel2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.DwhrdL1hiW6bks5T
     type: base
     _id: sS3jOQU8S1F5jkIJ
     system: {}

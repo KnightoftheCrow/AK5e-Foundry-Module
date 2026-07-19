@@ -2,7 +2,7 @@ folder: mhhCPYRgjBzheVER
 name: Kingslayer
 type: feat
 _id: bnjx284W0wwCkHjz
-img: modules/ak5e/icons/Skill-Varkaris1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Varkaris1.webp
 system:
   activities:
     Vp1xdq8jQhwNqLfE:
@@ -116,7 +116,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>To you, the emphasis in “High Value Target” is the word “Target.” You
@@ -150,8 +150,9 @@ system:
     subtype: skillPoints
 effects:
   - name: Kingslayer
-    img: modules/ak5e/icons/Skill-Varkaris1.webp
-    origin: Compendium.ak5e.ak5e-classes-and-features.Item.bnjx284W0wwCkHjz
+    img: modules/AK5e-Foundry-Module/icons/Skill-Varkaris1.webp
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.bnjx284W0wwCkHjz
     _id: rGHgFB0yl7OLVgz4
     type: base
     system: {}
@@ -209,8 +210,9 @@ effects:
       lastModifiedBy: 5XlrCO2NlPtd4MFQ
     _key: '!items.effects!bnjx284W0wwCkHjz.rGHgFB0yl7OLVgz4'
   - name: Target
-    img: modules/ak5e/icons/Skill-Lemuen1.webp
-    origin: Compendium.ak5e.ak5e-classes-and-features.Item.bnjx284W0wwCkHjz
+    img: modules/AK5e-Foundry-Module/icons/Skill-Lemuen1.webp
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.bnjx284W0wwCkHjz
     transfer: false
     _id: pWUqVplDYj2UW5Ft
     type: base
@@ -255,7 +257,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-classes-and-features.Item.oxFGvfgwpg4tNLdL.ActiveEffect.IZw8x6vWejhydaf6
+        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.oxFGvfgwpg4tNLdL.ActiveEffect.IZw8x6vWejhydaf6
       duplicateSource: null
       exportSource: null
       coreVersion: '13.351'
@@ -279,8 +281,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767621274994
-  modifiedTime: 1781191382153
+  modifiedTime: 1783457740194
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!bnjx284W0wwCkHjz'

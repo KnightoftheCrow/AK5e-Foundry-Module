@@ -1,7 +1,7 @@
 folder: R2AhxUbx0IYKQ6JZ
 name: Deterring Radiance
 type: feat
-img: modules/ak5e/icons/Skill-Pallas3.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Pallas3.webp
 system:
   activities:
     hSZuDnLc5plJdFDa:
@@ -21,7 +21,8 @@ system:
         targets:
           - type: itemUses
             value: '40'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -155,8 +156,8 @@ system:
     subtype: ''
 effects:
   - name: Deterring Radiance (Skill Points)
-    img: modules/ak5e/icons/Skill-Pallas3.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.TxdFIqnUtDXGTvWy
+    img: modules/AK5e-Foundry-Module/icons/Skill-Pallas3.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.TxdFIqnUtDXGTvWy
     type: base
     _id: FtjwgnmZyy70ksbj
     system: {}

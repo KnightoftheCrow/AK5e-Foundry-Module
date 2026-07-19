@@ -1,7 +1,7 @@
 folder: QfmU6v3RpFCsjWum
 name: Reliable Talent (Module)
 type: feat
-img: modules/ak5e/icons/Skill-TheParadigmatic1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-TheParadigmatic1.webp
 system:
   activities: {}
   uses:
@@ -22,7 +22,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.0B7CWEADSa2l7ZFb
+      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.0B7CWEADSa2l7ZFb
     repeatable: false
     level: 13
   properties:

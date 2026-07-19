@@ -74,7 +74,7 @@ system:
         saves: false
         ability: ''
       profiles:
-        - uuid: Compendium.ak5e.ak5e-bestiary.Actor.niDFLjZT9tuHPYSR
+        - uuid: Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.niDFLjZT9tuHPYSR
           _id: AHFNWPfpCdVyF7dY
           level: {}
           types: []
@@ -196,7 +196,7 @@ system:
         saves: false
         ability: ''
       profiles:
-        - uuid: Compendium.ak5e.ak5e-bestiary.Actor.oqgc55sHBP7zqsPh
+        - uuid: Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.oqgc55sHBP7zqsPh
           _id: eqLJUov6zDnMio4Y
           level: {}
           types: []
@@ -257,14 +257,14 @@ system:
       - period: lr
         type: recoverAll
     max: '1'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <h3>To Mold Mud and Rock</h3><p>Once per Long Rest, over the course of a
       ten minute ritual, you can create an
-      @UUID[Compendium.ak5e.ak5e-bestiary.Actor.niDFLjZT9tuHPYSR]{Earthen
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.niDFLjZT9tuHPYSR]{Earthen
       Golem}. From 7th Level, you may summon a
-      @UUID[Compendium.ak5e.ak5e-bestiary.Actor.oqgc55sHBP7zqsPh]{Earthen
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.oqgc55sHBP7zqsPh]{Earthen
       Colossus} instead. The Construct lasts for 1 hour, or until it reduced to
       0 Hit Points, wherein it crumbles to dust.</p><p>In combat, the Earthen
       Golem takes its Turn immediately after you, and is allied to you and your
@@ -307,10 +307,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680372929
-  modifiedTime: 1768680372929
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457735311
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!LzZYNELTLdJ1hJ5H'

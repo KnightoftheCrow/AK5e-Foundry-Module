@@ -2,7 +2,7 @@ folder: wTkeoeJjxbPHcfdK
 name: Explosive Shots
 type: consumable
 _id: 4rwtXi98E2PkIaAv
-img: modules/ak5e/icons/Skill-Magallan2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Magallan2.webp
 system:
   activities: {}
   uses:
@@ -61,7 +61,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-items.Item.5d0c3xVJnl9cCf41
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.5d0c3xVJnl9cCf41
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

@@ -2,14 +2,14 @@ folder: mQ7J5doN5qC9pvT1
 name: Siege Mode
 type: feat
 _id: 70nxyptZ1iiASjcc
-img: modules/ak5e/icons/Skill-Vermeil1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Vermeil1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>At the beginning of your Turn you may declare that you will enter Siege
@@ -57,8 +57,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767620125646
-  modifiedTime: 1771180678839
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457738934
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!70nxyptZ1iiASjcc'

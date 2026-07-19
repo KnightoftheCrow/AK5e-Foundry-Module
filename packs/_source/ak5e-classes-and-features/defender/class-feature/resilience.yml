@@ -1,7 +1,7 @@
 folder: 0FE7flvsguisj29c
 name: Resilience
 type: feat
-img: modules/ak5e/icons/Skill-Mulberry2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Mulberry2.webp
 system:
   activities: {}
   uses:
@@ -41,7 +41,8 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.xQDQEPQ5K7IJsXAx
+  compendiumSource: >-
+    Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.xQDQEPQ5K7IJsXAx
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

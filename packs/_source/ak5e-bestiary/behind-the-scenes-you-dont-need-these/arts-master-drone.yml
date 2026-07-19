@@ -2,7 +2,7 @@ folder: zhZ3oJrVXiDxSCHH
 name: Arts Master Drone
 type: npc
 _id: Bbz5oIFq2XUWeQpD
-img: modules/ak5e/icons/Mech-Accord_Caster.webp
+img: modules/AK5e-Foundry-Module/icons/Mech-Accord_Caster.webp
 system:
   currency:
     credits: 0
@@ -538,7 +538,7 @@ items:
   - name: Originium Spark
     type: weapon
     _id: wCeq4WZ4GYtnP8mG
-    img: modules/ak5e/icons/Skill-T3.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-T3.webp
     system:
       activities:
         9yEwJy0Wm4oemLg6:
@@ -751,7 +751,7 @@ items:
   - name: Wolfpack Doctrine
     type: feat
     _id: 2MB4RD4B15NEgeX8
-    img: modules/ak5e/icons/Skill-Lappland2.png
+    img: modules/AK5e-Foundry-Module/icons/Skill-Lappland2.png
     system:
       activities:
         g52vU1XZ3OpsBoA9:
@@ -860,7 +860,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: []
+      advancement: {}
       description:
         value: >-
           <p><em><strong>Trigger:</strong></em> This Arts Master’s Creator casts
@@ -911,14 +911,14 @@ items:
   - name: Arts-Linked
     type: feat
     _id: MXm6EooY8rlPdOTZ
-    img: modules/ak5e/icons/64px-Skill-Ambriel2.webp
+    img: modules/AK5e-Foundry-Module/icons/64px-Skill-Ambriel2.webp
     system:
       activities: {}
       uses:
         spent: 0
         recovery: []
         max: ''
-      advancement: []
+      advancement: {}
       description:
         value: <p>The Drone’s Creator can see what this Drone sees.</p>
         chat: ''
@@ -977,6 +977,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1774101915066
-  modifiedTime: 1783356359284
-  lastModifiedBy: 27ikDz77N89hVLvM
+  modifiedTime: 1783457733378
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!actors!Bbz5oIFq2XUWeQpD'

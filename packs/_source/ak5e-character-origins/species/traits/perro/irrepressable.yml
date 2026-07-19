@@ -603,12 +603,13 @@ system:
       _id: 9gCuxhMiGDzSyWoh
   identifier: irrepressable
   enchant: {}
-  advancement: []
+  advancement: {}
   crewed: false
 effects:
   - name: Helped (Ability Checks)
     img: icons/skills/social/diplomacy-handshake-blue.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.KJ2DX1j5bcKlY3Hw
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.KJ2DX1j5bcKlY3Hw
     transfer: false
     _id: lmeB5ExWLKD99Ixd
     type: base
@@ -663,7 +664,8 @@ effects:
     _key: '!items.effects!KJ2DX1j5bcKlY3Hw.lmeB5ExWLKD99Ixd'
   - name: Distracted
     img: icons/skills/social/diplomacy-handshake-blue.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.KJ2DX1j5bcKlY3Hw
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.KJ2DX1j5bcKlY3Hw
     transfer: false
     _id: VA6xOgSWq03hyxqY
     type: base
@@ -768,12 +770,12 @@ _stats:
   compendiumSource: Actor.j5qUpsgLWW6QtAFt.Item.ucrJmp5TUQOdDbOb
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680315690
-  modifiedTime: 1768680315690
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457735194
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 sort: 0
 ownership:
   default: 0

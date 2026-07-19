@@ -51,7 +51,7 @@ system:
 effects:
   - name: Combat Shield DR
     img: icons/equipment/shield/heater-steel-sword-yellow-black.webp
-    origin: Compendium.ak5e.ak5e-items.Item.DSudvLQbkLWPs6g8
+    origin: Compendium.AK5e-Foundry-Module.ak5e-items.Item.DSudvLQbkLWPs6g8
     _id: yIfImcmDkKgSAzI6
     type: base
     system: {}

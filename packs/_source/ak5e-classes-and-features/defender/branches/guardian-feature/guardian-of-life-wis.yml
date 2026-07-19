@@ -2,7 +2,7 @@ folder: cmfoF8Hdud4nTRHX
 name: Guardian of Life (WIS)
 type: feat
 _id: NLCOdtX3XplvxAMm
-img: modules/ak5e/icons/Skill-Nearl2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Nearl2.webp
 system:
   activities: {}
   uses:
@@ -15,7 +15,7 @@ system:
       _id: zB3YYOcSOrE6Ja5Z
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.WA254EqHcqSTlZtA
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.WA254EqHcqSTlZtA
             optional: false
         optional: false
         spell: null

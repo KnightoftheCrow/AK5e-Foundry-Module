@@ -120,7 +120,8 @@ system:
         formula: max(0, @scale.skillPoints.recovery - @item.uses.value)
     max: max(1,@scale.skillPoints.maxsp)
   advancement:
-    - type: ScaleValue
+    MPsy1IiQHflo1umX:
+      type: ScaleValue
       _id: MPsy1IiQHflo1umX
       configuration:
         identifier: recovery
@@ -133,7 +134,9 @@ system:
       value: {}
       title: SP recovery on Rest
       hint: ''
-    - type: ScaleValue
+      flags: {}
+    DtebK7YcnL2mCCCC:
+      type: ScaleValue
       _id: DtebK7YcnL2mCCCC
       configuration:
         identifier: maxsp
@@ -146,6 +149,7 @@ system:
       value: {}
       title: Max SP
       hint: ''
+      flags: {}
   description:
     value: >-
       <p><em>(Note: when added to a character sheet, remember to enable the
@@ -234,12 +238,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1766943177603
-  modifiedTime: 1771424766440
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457741962
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

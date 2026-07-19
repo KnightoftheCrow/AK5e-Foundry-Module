@@ -57,7 +57,7 @@ system:
         - count: ''
           name: ''
           _id: SFu5GAUycEsTmwDh
-          uuid: Compendium.ak5e.ak5e-bestiary.Actor.LXSo7QujfzMS0LVi
+          uuid: Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.LXSo7QujfzMS0LVi
           level:
             min: null
             max: null

@@ -237,7 +237,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <h3>Haematophage</h3><p>As per their namesake, the Vampires of the Sarkaz
@@ -279,7 +279,8 @@ system:
 effects:
   - name: Bloody Inspiration
     img: icons/creatures/abilities/fang-tooth-blood-red.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.wBOLndvfsdAQmgO2
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.wBOLndvfsdAQmgO2
     transfer: false
     _id: oMrjpVI34Gq9gseP
     type: base
@@ -337,10 +338,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680384003
-  modifiedTime: 1768680384003
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457738001
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!wBOLndvfsdAQmgO2'

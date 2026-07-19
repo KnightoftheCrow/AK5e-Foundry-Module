@@ -154,7 +154,7 @@ effects:
     changes:
       - key: macro.createItem
         mode: 0
-        value: Compendium.ak5e.ak5e-arts.Item.635CoenctOLcTWdQ
+        value: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.635CoenctOLcTWdQ
         priority: 20
     disabled: false
     duration:

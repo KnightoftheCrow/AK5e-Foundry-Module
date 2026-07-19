@@ -1,7 +1,7 @@
 folder: dX9bNDGt3LqFfCRN
 name: Alert (Module)
 type: feat
-img: modules/ak5e/icons/Skill-PureCrystal.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-PureCrystal.webp
 system:
   activities: {}
   uses:
@@ -35,7 +35,7 @@ system:
     subtype: skillPoints
 effects:
   - name: Alert (Module)
-    img: modules/ak5e/icons/Skill-PureCrystal.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-PureCrystal.webp
     origin: Item.y8GMEBloZWkupkmE
     _id: 8ww73gJFvYU1zzE1
     type: base

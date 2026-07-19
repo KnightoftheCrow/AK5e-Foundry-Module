@@ -2,7 +2,7 @@ folder: 7G1D42jSHLcgp1sX
 name: Ursus Empire
 type: ak5e.nationality
 _id: WMNDS79krMDuEzgT
-img: modules/ak5e/icons/nationality/nationality.svg
+img: modules/AK5e-Foundry-Module/icons/nationality/nationality.svg
 system:
   filePathFields:
     advancement.*.icon:
@@ -41,7 +41,8 @@ system:
       _id: KmHjtxcz6Qve1EW9
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.cZAnUmUxyOKPm925
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.cZAnUmUxyOKPm925
             optional: false
         optional: false
         spell: null

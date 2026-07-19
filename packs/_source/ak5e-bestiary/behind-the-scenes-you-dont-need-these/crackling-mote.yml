@@ -2,7 +2,7 @@ folder: zhZ3oJrVXiDxSCHH
 name: Crackling Mote
 type: npc
 _id: 1X9tNwtJLLnPxNAj
-img: modules/ak5e/icons/Skill-Goldenglow3.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow3.webp
 system:
   currency:
     credits: 0
@@ -520,7 +520,7 @@ items:
   - name: Zap
     type: feat
     _id: PM9TczKXKWtqMRvj
-    img: modules/ak5e/icons/Skill-Goldenglow3.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow3.webp
     system:
       activities:
         HV4bfx0guANFar7E:
@@ -755,7 +755,7 @@ items:
         spent: 0
         recovery: []
         max: '60'
-      advancement: []
+      advancement: {}
       description:
         value: >-
           <p>A hostile Creature that moves within 10 feet of the mote or begins
@@ -785,9 +785,9 @@ items:
         subtype: ''
     effects:
       - name: Strike Radius
-        img: modules/ak5e/icons/Skill-Goldenglow3.webp
+        img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow3.webp
         origin: >-
-          Compendium.ak5e.ak5e-bestiary.Actor.1X9tNwtJLLnPxNAj.Item.PM9TczKXKWtqMRvj
+          Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.1X9tNwtJLLnPxNAj.Item.PM9TczKXKWtqMRvj
         _id: JP0DO9OtRg30FRwU
         type: auraeffects.aura
         system:
@@ -920,7 +920,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-bestiary.Actor.v4RiQhDGNlNHfdTp.ActiveEffect.JIqzAAHGCbzBHYVm
+        Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.v4RiQhDGNlNHfdTp.ActiveEffect.JIqzAAHGCbzBHYVm
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -944,6 +944,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.2.4
   createdTime: 1772982227981
-  modifiedTime: 1783356359284
-  lastModifiedBy: 27ikDz77N89hVLvM
+  modifiedTime: 1783457733317
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!actors!1X9tNwtJLLnPxNAj'

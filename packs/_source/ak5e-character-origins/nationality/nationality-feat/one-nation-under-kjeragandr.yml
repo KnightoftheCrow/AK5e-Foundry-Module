@@ -232,7 +232,8 @@ system:
         type: recoverAll
     max: '1'
   advancement:
-    - type: Trait
+    BbnkeZ0DY975fXGw:
+      type: Trait
       _id: BbnkeZ0DY975fXGw
       configuration:
         allowReplacements: false
@@ -244,6 +245,7 @@ system:
       title: ''
       hint: ''
       value: {}
+      flags: {}
   description:
     value: >-
       <p>Kjerag is an unusual land amongst the nations of Terra. It exists
@@ -289,7 +291,8 @@ system:
 effects:
   - name: Save Passes
     img: icons/magic/water/water-hand.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.8Eodr2kNAJStimUu
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.8Eodr2kNAJStimUu
     transfer: false
     _id: CcZrBscp0njUzQtF
     type: base
@@ -355,10 +358,10 @@ _stats:
   compendiumSource: Item.IHT1rbdkN3M8j8Fc
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881328247
-  modifiedTime: 1769881328247
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457734588
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!8Eodr2kNAJStimUu'

@@ -1,7 +1,7 @@
 folder: EjQr1CtCkHNEpvzS
 name: Running on fumes (Module)
 type: feat
-img: modules/ak5e/icons/Skill-Breeze1.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Breeze1.png
 system:
   activities: {}
   uses:
@@ -22,7 +22,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.CNC2TSr1HTVNJDxo
+      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.CNC2TSr1HTVNJDxo
     repeatable: false
     level: 13
   properties:

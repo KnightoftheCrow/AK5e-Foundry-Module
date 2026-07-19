@@ -1,7 +1,7 @@
 folder: QfmU6v3RpFCsjWum
 name: Lieutenant (Module)
 type: feat
-img: modules/ak5e/icons/Skill-TacticalEquipment.png
+img: modules/AK5e-Foundry-Module/icons/Skill-TacticalEquipment.png
 system:
   activities: {}
   uses:
@@ -22,7 +22,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.UnNVP185qAyYfpjg
+      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.UnNVP185qAyYfpjg
     repeatable: false
     level: 13
   properties:
@@ -33,7 +33,7 @@ system:
     subtype: talent
 effects:
   - name: Lieutenant (Module)
-    img: modules/ak5e/icons/Skill-TacticalEquipment.png
+    img: modules/AK5e-Foundry-Module/icons/Skill-TacticalEquipment.png
     origin: Item.RNwUpjgpD40tUHXc
     _id: uzkrBbfJYVC8dvIW
     type: base

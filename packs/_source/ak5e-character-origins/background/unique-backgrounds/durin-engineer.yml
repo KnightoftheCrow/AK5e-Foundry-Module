@@ -5,7 +5,8 @@ _id: BGaPQ4fx0fAHMk3n
 img: icons/commodities/tech/transmission.webp
 system:
   advancement:
-    - type: Trait
+    IOuhjJaS9ksLGExe:
+      type: Trait
       title: Background Proficiencies
       _id: IOuhjJaS9ksLGExe
       configuration:
@@ -21,17 +22,22 @@ system:
       level: 0
       hint: ''
       value: {}
-    - type: ItemGrant
+      flags: {}
+    On6VhbZ9kiBwjBGt:
+      type: ItemGrant
       title: Background Feature
       _id: On6VhbZ9kiBwjBGt
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.XbIGufBUabd85T8Z
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.XbIGufBUabd85T8Z
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>The Durin are master builders and engineers; anyone who has had the
@@ -70,8 +76,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1771156279030
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457734802
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!BGaPQ4fx0fAHMk3n'

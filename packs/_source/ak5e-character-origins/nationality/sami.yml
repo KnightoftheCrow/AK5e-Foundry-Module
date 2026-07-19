@@ -2,7 +2,7 @@ folder: 7G1D42jSHLcgp1sX
 name: Sami
 type: ak5e.nationality
 _id: kmOPtrU3uqcKACvt
-img: modules/ak5e/icons/nationality/nationality.svg
+img: modules/AK5e-Foundry-Module/icons/nationality/nationality.svg
 system:
   filePathFields:
     advancement.*.icon:
@@ -41,7 +41,8 @@ system:
       _id: 4KTCo06XdD7UKlz4
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.SqucO7sQhtXu7d1Z
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.SqucO7sQhtXu7d1Z
             optional: false
         optional: false
         spell: null

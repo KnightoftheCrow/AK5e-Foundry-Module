@@ -10,16 +10,20 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: ItemGrant
+    5j7A4ZiSdmSlpgWE:
+      type: ItemGrant
       _id: 5j7A4ZiSdmSlpgWE
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.8A2XPdYTRQXhWVBH
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.8A2XPdYTRQXhWVBH
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <h3>Crushing Blows</h3><p>Despite not being the largest Species, the
@@ -69,8 +73,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680535308
-  modifiedTime: 1771157968802
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457738045
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!wT8eFdglCGldsRtT'

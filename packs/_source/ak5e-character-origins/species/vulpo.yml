@@ -5,7 +5,8 @@ _id: i8nNggVFJYuDSjMI
 img: icons/creatures/mammals/dog-husky-white-blue.webp
 system:
   advancement:
-    - type: AbilityScoreImprovement
+    8t3NwjK5wkfMVPth:
+      type: AbilityScoreImprovement
       _id: 8t3NwjK5wkfMVPth
       configuration:
         cap: 1
@@ -26,31 +27,43 @@ system:
       level: 0
       title: ''
       hint: ''
-    - type: Size
+      flags: {}
+    CWMgZvJttITs21uS:
+      type: Size
       _id: CWMgZvJttITs21uS
       configuration:
         sizes:
           - med
       level: 0
       value: {}
-    - type: ItemGrant
+      flags: {}
+      hint: ''
+    BEiebxnz7ULwi7RZ:
+      type: ItemGrant
       _id: BEiebxnz7ULwi7RZ
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.rkxEBKmKKqD6OPQ1
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.rkxEBKmKKqD6OPQ1
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.Wb6YPKLD6ii86efc
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Wb6YPKLD6ii86efc
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.mwd8DqaXPV30ZRD5
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.mwd8DqaXPV30ZRD5
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1TxciocDhjUUeXjV
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1TxciocDhjUUeXjV
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>Vulpo are of average height and build, set apart by their incredible
@@ -149,8 +162,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680541395
-  modifiedTime: 1771158039195
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457737118
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!i8nNggVFJYuDSjMI'

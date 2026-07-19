@@ -4,14 +4,18 @@ type: race
 img: icons/creatures/unholy/demon-horned-winged-laughing.webp
 system:
   advancement:
-    - type: Size
+    EDVGQShBy6XbaI78:
+      type: Size
       _id: EDVGQShBy6XbaI78
       configuration:
         sizes:
           - med
       level: 0
       value: {}
-    - type: AbilityScoreImprovement
+      flags: {}
+      hint: ''
+    nuY9QCpPu9NIuZ0J:
+      type: AbilityScoreImprovement
       _id: nuY9QCpPu9NIuZ0J
       configuration:
         cap: 1
@@ -32,24 +36,33 @@ system:
       level: 0
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    sph7BhrYGtbMfxPW:
+      type: ItemGrant
       _id: sph7BhrYGtbMfxPW
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.YVG3GfEuK7uT3eFU
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.YVG3GfEuK7uT3eFU
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.sYu0VrMVVOEAhYut
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.sYu0VrMVVOEAhYut
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.9XqTusWKs3c4RRkA
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.9XqTusWKs3c4RRkA
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.5iNk6VNE8AWCZBS7
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.5iNk6VNE8AWCZBS7
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>Fallen Sankta are those Sankta who have been rejected by the Law, for
@@ -139,9 +152,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680322247
-  modifiedTime: 1771157763361
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457737875
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: tQOBYf1fBWdF187o
 _key: '!items!tQOBYf1fBWdF187o'

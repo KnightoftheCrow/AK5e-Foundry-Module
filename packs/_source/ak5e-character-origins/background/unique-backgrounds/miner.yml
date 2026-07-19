@@ -5,7 +5,8 @@ _id: VDsGTam0N83FyyHr
 img: icons/weapons/axes/pickaxe-gray.webp
 system:
   advancement:
-    - type: Trait
+    aaPhgBk75GkR2m9i:
+      type: Trait
       title: Background Proficiencies
       _id: aaPhgBk75GkR2m9i
       configuration:
@@ -21,17 +22,22 @@ system:
       level: 0
       hint: ''
       value: {}
-    - type: ItemGrant
+      flags: {}
+    R3PiWPVDiZhPsHoO:
+      type: ItemGrant
       title: Background Feature
       _id: R3PiWPVDiZhPsHoO
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.7lhV6LQR0bAZY4tt
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.7lhV6LQR0bAZY4tt
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>A majority of Rim Billitonians work in the mines the nation is known
@@ -70,8 +76,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1771156064460
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457736103
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!VDsGTam0N83FyyHr'

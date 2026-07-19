@@ -2,7 +2,7 @@ folder: fnNi4KXioyJ542O7
 name: Principle of Double Effect
 type: feat
 _id: 3MAet4t8rT9h299a
-img: modules/ak5e/icons/Skill-TheLodestar1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-TheLodestar1.webp
 system:
   activities: {}
   uses:
@@ -15,21 +15,21 @@ system:
       _id: f2MbGs487eHip78B
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-items.Item.ZMSianu09F1bIRpV
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.ZMSianu09F1bIRpV
             optional: false
-          - uuid: Compendium.ak5e.ak5e-items.Item.xhPCs20ZjBstA6qQ
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.xhPCs20ZjBstA6qQ
             optional: false
-          - uuid: Compendium.ak5e.ak5e-items.Item.tILnYiENSkthG98i
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.tILnYiENSkthG98i
             optional: false
-          - uuid: Compendium.ak5e.ak5e-items.Item.LcpFD10Dexn04IV0
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.LcpFD10Dexn04IV0
             optional: false
-          - uuid: Compendium.ak5e.ak5e-items.Item.8q28PSF0q5cUKROT
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.8q28PSF0q5cUKROT
             optional: false
-          - uuid: Compendium.ak5e.ak5e-items.Item.SXRvvxFISPHaT5nu
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.SXRvvxFISPHaT5nu
             optional: false
-          - uuid: Compendium.ak5e.ak5e-items.Item.hP8jGI1IIMdSCtsz
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.hP8jGI1IIMdSCtsz
             optional: false
-          - uuid: Compendium.ak5e.ak5e-items.Item.GhqdiDM9qRty9d3L
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.GhqdiDM9qRty9d3L
             optional: false
         optional: false
         spell: null

@@ -1,6 +1,6 @@
 name: Target Lock
 type: feat
-img: modules/ak5e/icons/Skill-Lemuen1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Lemuen1.webp
 system:
   activities:
     PBm6VgtwxDuWZFk5:
@@ -120,7 +120,7 @@ system:
       - period: sr
         type: recoverAll
     max: '1'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>The benefit of ranged combat is the freedom to placeyour shots where
@@ -148,8 +148,9 @@ system:
     subtype: skillPoints
 effects:
   - name: Target
-    img: modules/ak5e/icons/Skill-Lemuen1.webp
-    origin: Compendium.ak5e.ak5e-classes-and-features.Item.oxFGvfgwpg4tNLdL
+    img: modules/AK5e-Foundry-Module/icons/Skill-Lemuen1.webp
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.oxFGvfgwpg4tNLdL
     transfer: false
     _id: IZw8x6vWejhydaf6
     type: base
@@ -212,10 +213,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767615342066
-  modifiedTime: 1767875867531
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457740942
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

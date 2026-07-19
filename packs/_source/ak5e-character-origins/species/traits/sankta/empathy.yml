@@ -114,7 +114,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <h3>Empathy</h3><p>The ascension of the Sankta by The Law granted them
@@ -157,7 +157,8 @@ system:
 effects:
   - name: Empathy
     img: icons/magic/holy/prayer-hands-glowing-yellow-green.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.cdATsgaxaFGmcRJg
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.cdATsgaxaFGmcRJg
     _id: ECiYIaGQbtvR0Ur8
     type: base
     system: {}
@@ -227,10 +228,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680322247
-  modifiedTime: 1768680322247
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457736738
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!cdATsgaxaFGmcRJg'

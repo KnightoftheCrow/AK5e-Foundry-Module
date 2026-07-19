@@ -65,7 +65,7 @@ system:
     - trait
   requirements: ''
   activities: {}
-  advancement: []
+  advancement: {}
   identifier: spell-points
   enchant: {}
   prerequisites:
@@ -119,6 +119,10 @@ flags:
         '19': '12'
         '20': '12'
       spCustomFormulaBase: ''
+    modifiers:
+      max: 0
+      value: 0
+      spent: 0
   dnd5e:
     riders:
       activity: []
@@ -128,10 +132,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767786340981
-  modifiedTime: 1767905096794
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457739862
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

@@ -1,7 +1,7 @@
 folder: VB62TaHnZ4bJYRuO
 name: Trial of Thorns
 type: feat
-img: modules/ak5e/icons/Skill-Kal%27tsit1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Kal%27tsit1.webp
 system:
   activities:
     ljR7RtLIQYMHxwF3:
@@ -21,7 +21,8 @@ system:
         targets:
           - type: itemUses
             value: '65'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -156,8 +157,8 @@ system:
     subtype: ''
 effects:
   - name: Trial of Thorns (Skill Points)
-    img: modules/ak5e/icons/Skill-Kal%27tsit1.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.xKM7jS7bOsFz8rqy
+    img: modules/AK5e-Foundry-Module/icons/Skill-Kal%27tsit1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.xKM7jS7bOsFz8rqy
     type: base
     _id: gPstDS0TKloM5c89
     system: {}

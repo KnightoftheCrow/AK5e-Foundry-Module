@@ -2,7 +2,7 @@ folder: QmA37F3admePilsx
 name: Ouroboros
 type: feat
 _id: kI9gjUPUQQQ6lgg2
-img: modules/ak5e/icons/Skill-Hoolheyak2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Hoolheyak2.webp
 system:
   activities:
     ybqW9m8btX6SEu3U:
@@ -21,7 +21,8 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.ak5e.ak5e-classes-and-features.Item.pHwwI5rtqgxuA8rv
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.pHwwI5rtqgxuA8rv
       description:
         chatFlavor: ''
       duration:
@@ -116,7 +117,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>Some would assume that your expertise does not extend to singular foes.
@@ -144,8 +145,9 @@ system:
     subtype: ''
 effects:
   - name: Disadvantage against Arts
-    img: modules/ak5e/icons/Skill-Hoolheyak2.webp
-    origin: Compendium.ak5e.ak5e-classes-and-features.Item.kI9gjUPUQQQ6lgg2
+    img: modules/AK5e-Foundry-Module/icons/Skill-Hoolheyak2.webp
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.kI9gjUPUQQQ6lgg2
     transfer: false
     _id: 17TP8PHf03wJeLPN
     type: base
@@ -209,10 +211,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1774099278138
-  modifiedTime: 1774178696353
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457740708
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!kI9gjUPUQQQ6lgg2'

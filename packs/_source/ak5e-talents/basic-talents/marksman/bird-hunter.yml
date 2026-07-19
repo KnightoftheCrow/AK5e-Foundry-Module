@@ -2,7 +2,7 @@ folder: U1VvPUnEP8A2c7Xk
 name: Bird Hunter
 type: feat
 _id: ed6qQk0urxaosAPg
-img: modules/ak5e/icons/Skill-GreyThroat1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-GreyThroat1.webp
 system:
   activities:
     mIiFxYnmN58iR2Zg:
@@ -114,7 +114,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>Your Ranged Attacks against Creatures not touching the ground deal
@@ -150,8 +150,8 @@ system:
     subtype: talent
 effects:
   - name: Bird Hunter
-    img: modules/ak5e/icons/Skill-GreyThroat1.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.ed6qQk0urxaosAPg
+    img: modules/AK5e-Foundry-Module/icons/Skill-GreyThroat1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.ed6qQk0urxaosAPg
     _id: B1hAzrYD0YwWrntZ
     type: base
     system: {}
@@ -217,8 +217,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767734689429
-  modifiedTime: 1783245995063
+  modifiedTime: 1783457745303
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!ed6qQk0urxaosAPg'

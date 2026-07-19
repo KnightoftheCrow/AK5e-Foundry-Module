@@ -1,7 +1,7 @@
 folder: NPg6zerqcXHk2X5L
 name: When Space Obeys
 type: feat
-img: modules/ak5e/icons/Skill-Logos3.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Logos3.webp
 system:
   activities:
     XGret5kA2q8JP7O2:
@@ -21,7 +21,8 @@ system:
         targets:
           - type: itemUses
             value: '65'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -157,7 +158,7 @@ system:
     subtype: ''
 effects:
   - name: When Space Obeys (Skill Points)
-    img: modules/ak5e/icons/Skill-Logos3.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Logos3.webp
     origin: Item.PFPEzaK0jqsuru2Q
     type: base
     _id: l9uVFIh2Hgk4rXrk

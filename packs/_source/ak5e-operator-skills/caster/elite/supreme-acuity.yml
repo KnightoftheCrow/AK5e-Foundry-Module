@@ -1,7 +1,7 @@
 folder: 30IfqyYT0cFgxAaa
 name: Supreme Acuity
 type: feat
-img: modules/ak5e/icons/Skill-M%C5%82ynar3.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-M%C5%82ynar3.webp
 system:
   activities:
     hBBVhflELm9f8Dqf:
@@ -19,7 +19,8 @@ system:
         targets:
           - type: itemUses
             value: '80'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -118,7 +119,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -151,8 +152,8 @@ system:
     subtype: ''
 effects:
   - name: Maximize (Skill Points)
-    img: modules/ak5e/icons/Skill-Lin3.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.Ava0Fa6gV9VhtIoZ
+    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.Ava0Fa6gV9VhtIoZ
     _id: DXFUOiWQeWl6gGq8
     type: base
     system: {}
@@ -195,7 +196,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -204,8 +205,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!Ava0Fa6gV9VhtIoZ.DXFUOiWQeWl6gGq8'
   - name: Concentration Limit +1
-    img: modules/ak5e/icons/Skill-M%C5%82ynar3.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.Ava0Fa6gV9VhtIoZ
+    img: modules/AK5e-Foundry-Module/icons/Skill-M%C5%82ynar3.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.Ava0Fa6gV9VhtIoZ
     transfer: false
     _id: 88h9qWQxBNdTtCW7
     type: base
@@ -269,11 +270,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.oVQuPKSaGjjTaAA3
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1774023683571
-  modifiedTime: 1774023683571
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457742056
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: Ava0Fa6gV9VhtIoZ
 _key: '!items!Ava0Fa6gV9VhtIoZ'

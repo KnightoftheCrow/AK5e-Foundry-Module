@@ -1,14 +1,14 @@
 folder: SuzcwOsde1k6YNFn
 name: Staggering Force (Upgraded)
 type: feat
-img: modules/ak5e/icons/Skill-Mountain3.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Mountain3.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module Effect: </strong>It is no longer required for it to be
@@ -42,14 +42,14 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-talents.Item.mKKfOkQKk5Cu0rok
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.mKKfOkQKk5Cu0rok
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1770924144147
-  modifiedTime: 1783246406280
+  modifiedTime: 1783457743819
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: 4RFZx9SyDA9UpV4k
 sort: 400000

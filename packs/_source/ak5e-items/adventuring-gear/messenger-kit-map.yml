@@ -54,7 +54,7 @@ system:
 effects:
   - name: Messenger Kit Map
     img: icons/sundries/documents/paper-plain-white.webp
-    origin: Compendium.ak5e.ak5e-items.Item.8Q5wIBTz9VgyWonf
+    origin: Compendium.AK5e-Foundry-Module.ak5e-items.Item.8Q5wIBTz9VgyWonf
     _id: 3RXFk02lXmF0YHPb
     type: base
     system: {}

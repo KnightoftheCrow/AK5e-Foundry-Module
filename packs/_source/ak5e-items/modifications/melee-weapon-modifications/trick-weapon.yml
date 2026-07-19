@@ -2,7 +2,7 @@ folder: iC9FYNlLTOR8baLK
 name: Trick Weapon
 type: consumable
 _id: 5cXsv2zsMXaMvMPn
-img: modules/ak5e/icons/Skill-Magallan1.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Magallan1.png
 system:
   activities: {}
   uses:
@@ -61,7 +61,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-items.Item.9p4NIXctYEhPLfrt
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.9p4NIXctYEhPLfrt
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

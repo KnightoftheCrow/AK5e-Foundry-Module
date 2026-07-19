@@ -267,7 +267,7 @@ system:
 effects:
   - name: +5 Sleight of Hand Bonus (Red Wire, Blue Wire)
     img: icons/containers/bags/case-leather-tan.webp
-    origin: Compendium.ak5e.ak5e-items.Item.IIulvylBDhw2Zz4F
+    origin: Compendium.AK5e-Foundry-Module.ak5e-items.Item.IIulvylBDhw2Zz4F
     transfer: false
     _id: zHdJcuZlGuYcdtKX
     type: base

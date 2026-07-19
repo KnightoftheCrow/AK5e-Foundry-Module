@@ -1,14 +1,14 @@
 folder: 5ej4KENJRk8I9Ksg
 name: Graceful Shadow (Module)
 type: feat
-img: modules/ak5e/icons/Skill-Ptilopsis1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Ptilopsis1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module:</strong> When you take the Dodge Action, the first time
@@ -47,9 +47,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767990668076
-  modifiedTime: 1783247684614
+  modifiedTime: 1783457744143
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

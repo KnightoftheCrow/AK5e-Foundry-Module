@@ -2,7 +2,7 @@ folder: 7chRMuJsyyn3S2jB
 name: Lucky (Module)
 type: feat
 _id: 7bMFFwobIjVsIkT7
-img: modules/ak5e/icons/Skill-CivilightEterna1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-CivilightEterna1.webp
 system:
   activities:
     2ZEzAwnpjV9BvztV:
@@ -116,7 +116,7 @@ system:
       - period: lr
         type: recoverAll
     max: '@prof'
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module:</strong> Your maximum Luck Points becomes equal to your
@@ -141,8 +141,8 @@ system:
     subtype: talent
 effects:
   - name: Lucky (Module)
-    img: modules/ak5e/icons/Skill-CivilightEterna1.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.7bMFFwobIjVsIkT7
+    img: modules/AK5e-Foundry-Module/icons/Skill-CivilightEterna1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.7bMFFwobIjVsIkT7
     _id: 5w1Ekujoxf8pbXSr
     type: base
     system: {}
@@ -204,8 +204,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767735660757
-  modifiedTime: 1783242621056
+  modifiedTime: 1783457743990
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!7bMFFwobIjVsIkT7'

@@ -2,14 +2,14 @@ folder: JQfn8YazPakYGtWZ
 name: Railgun
 type: feat
 _id: 3XfqLUspLW3kxovU
-img: modules/ak5e/icons/Skill-TheFiresharpened1.png
+img: modules/AK5e-Foundry-Module/icons/Skill-TheFiresharpened1.png
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You can concentrate your charge into a single, raw blast of
@@ -53,8 +53,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1767625989618
-  modifiedTime: 1771181132905
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457738894
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!3XfqLUspLW3kxovU'

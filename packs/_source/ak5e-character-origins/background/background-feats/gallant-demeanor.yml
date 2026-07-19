@@ -112,7 +112,8 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: Trait
+    dD2i1xg3KKyw98Bd:
+      type: Trait
       _id: dD2i1xg3KKyw98Bd
       configuration:
         allowReplacements: false
@@ -125,7 +126,9 @@ system:
       title: ''
       hint: ''
       value: {}
-    - type: ItemChoice
+      flags: {}
+    LDOoNMvp8iHje4ju:
+      type: ItemChoice
       _id: LDOoNMvp8iHje4ju
       configuration:
         allowDrops: false
@@ -134,8 +137,8 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.ak5e.ak5e-items.Item.gQexKnwZdkamQcJ7
-          - uuid: Compendium.ak5e.ak5e-items.Item.XAvfUySa6K27SHTU
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.gQexKnwZdkamQcJ7
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.XAvfUySa6K27SHTU
         restriction:
           list: []
         spell: null
@@ -145,6 +148,7 @@ system:
         replaced: {}
       title: ''
       hint: ''
+      flags: {}
   description:
     value: >-
       <p>Regardless of your relationship with them, your time with them has
@@ -183,7 +187,8 @@ system:
 effects:
   - name: A Vow Made
     img: icons/environment/people/infantry-armored.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.coAa8Tp0PHTb174e
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.coAa8Tp0PHTb174e
     transfer: false
     _id: ZSktjo5hWoDyq6kt
     type: base
@@ -241,10 +246,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1769881347037
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457736814
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!coAa8Tp0PHTb174e'

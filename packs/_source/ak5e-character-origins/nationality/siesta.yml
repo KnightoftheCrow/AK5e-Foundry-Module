@@ -2,7 +2,7 @@ folder: 7G1D42jSHLcgp1sX
 name: Siesta
 type: ak5e.nationality
 _id: XqcT6Dxqa7vz6SmL
-img: modules/ak5e/icons/nationality/nationality.svg
+img: modules/AK5e-Foundry-Module/icons/nationality/nationality.svg
 system:
   filePathFields:
     advancement.*.icon:
@@ -41,7 +41,8 @@ system:
       _id: L0GsDXAM7FpHcEon
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.nmeQssyrsVEW6EGo
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.nmeQssyrsVEW6EGo
             optional: false
         optional: false
         spell: null

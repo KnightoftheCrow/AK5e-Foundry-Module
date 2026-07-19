@@ -1,7 +1,7 @@
 folder: QfmU6v3RpFCsjWum
 name: Jumpstart (Module)
 type: feat
-img: modules/ak5e/icons/Skill-ReconSelfDriverLaunchpoint.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-ReconSelfDriverLaunchpoint.webp
 system:
   activities: {}
   uses:
@@ -22,7 +22,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.ak5e.ak5e-talents.Item.rAcx8Q8Yghko9tSi
+      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.rAcx8Q8Yghko9tSi
     repeatable: false
     level: 13
   properties:
@@ -33,7 +33,7 @@ system:
     subtype: talent
 effects:
   - name: Jumpstart (Module)
-    img: modules/ak5e/icons/Skill-ReconSelfDriverLaunchpoint.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-ReconSelfDriverLaunchpoint.webp
     origin: Item.Esq3Ee3Lt0ea7p67
     _id: h5qsQcWkEfusKdGw
     type: base

@@ -338,20 +338,20 @@ system:
       are Proficient in this Kit, you may add your Proficiency Bonus to this
       roll. On a success, the trinket is good enough to be sold, and has a value
       of 50 LMD (Add a
-      @UUID[Compendium.ak5e.ak5e-items.Item.pAlUvzqkeRHuOSmw]{Fine Wooden
-      Trinket} to your Sheet). On a failure, it has no value beyond the
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-items.Item.pAlUvzqkeRHuOSmw]{Fine
+      Wooden Trinket} to your Sheet). On a failure, it has no value beyond the
       sentimental (Add a
-      @UUID[Compendium.ak5e.ak5e-items.Item.Lq67wRgW1lPn0Jtb]{Wooden Trinket} to
-      your Sheet). Regardless of success or failure, however, you have Advantage
-      on the next Wisdom Saving Throw you make.</p><p><strong>Carpentry (1
-      Charge) (Not Automated): </strong>As an Action, if you are holding nothing
-      in your hands, you can use this Kit to put up a rudimentary wooden
-      barricade over a door, window, or similar portal; this Barricade has an AC
-      of 11 and Hit Points equal to 3d6 + your Strengh Modifier. Each portal can
-      only have one Barricade. You can also use this to reinforce an existing
-      barricade, increasing its AC by 1 and its maximum and current Hit Points
-      by 3d6 + your Strength Modifier; each Barricade can only be reinforced
-      twice.</p>
+      @UUID[Compendium.AK5e-Foundry-Module.ak5e-items.Item.Lq67wRgW1lPn0Jtb]{Wooden
+      Trinket} to your Sheet). Regardless of success or failure, however, you
+      have Advantage on the next Wisdom Saving Throw you
+      make.</p><p><strong>Carpentry (1 Charge) (Not Automated): </strong>As an
+      Action, if you are holding nothing in your hands, you can use this Kit to
+      put up a rudimentary wooden barricade over a door, window, or similar
+      portal; this Barricade has an AC of 11 and Hit Points equal to 3d6 + your
+      Strengh Modifier. Each portal can only have one Barricade. You can also
+      use this to reinforce an existing barricade, increasing its AC by 1 and
+      its maximum and current Hit Points by 3d6 + your Strength Modifier; each
+      Barricade can only be reinforced twice.</p>
     chat: ''
   identifier: woodwork-kit
   source:
@@ -387,7 +387,7 @@ system:
 effects:
   - name: Wisdom Save Advantage (Calming Carving)
     img: icons/containers/bags/case-leather-tan.webp
-    origin: Compendium.ak5e.ak5e-items.Item.2MfZHPX5xtOxH4Zr
+    origin: Compendium.AK5e-Foundry-Module.ak5e-items.Item.2MfZHPX5xtOxH4Zr
     transfer: false
     _id: 5dLyuJfU85EsBbfR
     type: base

@@ -10,7 +10,8 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: Trait
+    ubPhRqMVQ1rCPBiR:
+      type: Trait
       _id: ubPhRqMVQ1rCPBiR
       configuration:
         allowReplacements: false
@@ -22,6 +23,7 @@ system:
       title: ''
       hint: ''
       value: {}
+      flags: {}
   description:
     value: >-
       <h3>Fox’s Guile</h3><p>Your finely tuned ears and nose allow you to
@@ -56,7 +58,8 @@ system:
 effects:
   - name: Advantage to see through Illusions
     img: icons/skills/trades/academics-study-reading-book.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.rkxEBKmKKqD6OPQ1
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.rkxEBKmKKqD6OPQ1
     _id: M6HLCP9zdYVdfLbQ
     type: base
     system: {}
@@ -114,10 +117,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680541395
-  modifiedTime: 1768680541395
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457737660
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!rkxEBKmKKqD6OPQ1'

@@ -1,7 +1,7 @@
 folder: xZIHKSAf1iQQkfT3
 name: Arts Ward (Module)
 type: feat
-img: modules/ak5e/icons/Skill-Bison1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Bison1.webp
 system:
   activities:
     Qd4RYO7SwcvDn2dA:
@@ -20,7 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+            target: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.6GMX3sLNtYU5pEtM
             scaling:
               mode: amount
               formula: '1'
@@ -124,7 +124,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>You roll 2d6 for each Art Point expended
@@ -154,8 +154,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Arts Warded
-    img: modules/ak5e/icons/Skill-Bison1.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.SJVvgtoCsi2HJYlz
+    img: modules/AK5e-Foundry-Module/icons/Skill-Bison1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.SJVvgtoCsi2HJYlz
     transfer: false
     _id: WjYjFY9hyRr6cLPB
     type: base
@@ -216,9 +216,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1772222746366
-  modifiedTime: 1783248488403
+  modifiedTime: 1783457744904
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: SJVvgtoCsi2HJYlz
 _key: '!items!SJVvgtoCsi2HJYlz'

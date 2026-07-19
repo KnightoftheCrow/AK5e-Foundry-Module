@@ -2,14 +2,14 @@ folder: 7chRMuJsyyn3S2jB
 name: Unarmoured Agility (Module)
 type: feat
 _id: xXoFEUm40eZWIHYx
-img: modules/ak5e/icons/Skill-LuoXiaohei1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-LuoXiaohei1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p><strong>Module:</strong> While you are wearing no Armour, you have a
@@ -34,8 +34,8 @@ system:
     subtype: talent
 effects:
   - name: Unarmoured Agility (Module)
-    img: modules/ak5e/icons/Skill-LuoXiaohei1.webp
-    origin: Compendium.ak5e.ak5e-talents.Item.xXoFEUm40eZWIHYx
+    img: modules/AK5e-Foundry-Module/icons/Skill-LuoXiaohei1.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.xXoFEUm40eZWIHYx
     _id: K9JZgB8SIJMnNbvW
     type: base
     system: {}
@@ -97,8 +97,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1767736746692
-  modifiedTime: 1783242499172
+  modifiedTime: 1783457745995
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!xXoFEUm40eZWIHYx'

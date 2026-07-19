@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>Lateran Citizens are entitled to their rights, even abroad, so long as
@@ -77,10 +77,10 @@ _stats:
   compendiumSource: Item.11bLRmGP4ZIH0Gwh
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881328247
-  modifiedTime: 1769881328247
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457733997
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!11bLRmGP4ZIH0Gwh'

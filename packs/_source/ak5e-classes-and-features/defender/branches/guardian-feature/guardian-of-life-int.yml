@@ -2,7 +2,7 @@ folder: cmfoF8Hdud4nTRHX
 name: Guardian of Life (INT)
 type: feat
 _id: d2Nu2GDTLex2B1Um
-img: modules/ak5e/icons/Skill-Nearl2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Nearl2.webp
 system:
   activities: {}
   uses:
@@ -15,7 +15,7 @@ system:
       _id: 0G3zDfTNvERh6J3a
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-arts.Item.WA254EqHcqSTlZtA
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.WA254EqHcqSTlZtA
             optional: false
         optional: false
         spell: null

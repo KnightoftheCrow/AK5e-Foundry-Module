@@ -2,7 +2,7 @@ folder: zhZ3oJrVXiDxSCHH
 name: Levitated Weapon
 type: npc
 _id: v4RiQhDGNlNHfdTp
-img: modules/ak5e/icons/Skill-Nian1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Nian1.webp
 system:
   currency:
     credits: 0

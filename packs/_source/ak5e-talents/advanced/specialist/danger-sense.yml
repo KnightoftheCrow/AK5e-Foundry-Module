@@ -1,7 +1,7 @@
 folder: 79ZspRBEAt515C3p
 name: Danger Sense
 type: feat
-img: modules/ak5e/icons/Skill-Christine2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Christine2.webp
 system:
   activities: {}
   uses:
@@ -34,7 +34,7 @@ system:
     subtype: talent
 effects:
   - name: Danger Sense
-    img: modules/ak5e/icons/Skill-Christine2.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Christine2.webp
     origin: Item.QYyZKnD2hBA4xNfD
     _id: O33J1yrWDah4ugI3
     type: base

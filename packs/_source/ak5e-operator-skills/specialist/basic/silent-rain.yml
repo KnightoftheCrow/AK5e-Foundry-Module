@@ -1,7 +1,7 @@
 folder: 0Bx3AWOkga3k8Yq6
 name: Silent Rain
 type: feat
-img: modules/ak5e/icons/Skill-Indra1.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Indra1.webp
 system:
   activities:
     wxstLmTkpeTruX7A:
@@ -21,7 +21,8 @@ system:
         targets:
           - type: itemUses
             value: '10'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -148,7 +149,7 @@ system:
     subtype: ''
 effects:
   - name: Silent Rain (Skill Points)
-    img: modules/ak5e/icons/Skill-Indra1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Indra1.webp
     origin: Item.3c1sUeuQTVL2cgf1
     type: base
     _id: 2gLBvwGcPn6NBtWD

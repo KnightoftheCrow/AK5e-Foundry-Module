@@ -5,7 +5,8 @@ _id: XVlFlKCfLX0NjjPl
 img: icons/sundries/lights/torch-brown-lit.webp
 system:
   advancement:
-    - type: Trait
+    MAGOYiUe8pbi7Jsa:
+      type: Trait
       title: Background Proficiencies
       _id: MAGOYiUe8pbi7Jsa
       configuration:
@@ -21,17 +22,22 @@ system:
       level: 0
       hint: ''
       value: {}
-    - type: ItemGrant
+      flags: {}
+    E1kr0Qt5fNT3POls:
+      type: ItemGrant
       title: Background Feature
       _id: E1kr0Qt5fNT3POls
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.PYVScpl8Kz4959CR
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.PYVScpl8Kz4959CR
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>The Iberian Inquistion is an oppressive, theocratic regime that has the
@@ -72,8 +78,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1771156217109
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457736289
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!XVlFlKCfLX0NjjPl'

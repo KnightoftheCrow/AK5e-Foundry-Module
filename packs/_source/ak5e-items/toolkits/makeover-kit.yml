@@ -289,7 +289,7 @@ system:
 effects:
   - name: +10 Deception Bonus (Assemble Disguise)
     img: icons/containers/bags/case-leather-tan.webp
-    origin: Compendium.ak5e.ak5e-items.Item.0ft9PxeRW8FoUjgb
+    origin: Compendium.AK5e-Foundry-Module.ak5e-items.Item.0ft9PxeRW8FoUjgb
     transfer: false
     _id: UiC3GMs3JJZwYvmZ
     type: base
@@ -344,7 +344,7 @@ effects:
     _key: '!items.effects!0ft9PxeRW8FoUjgb.UiC3GMs3JJZwYvmZ'
   - name: Intimidating Makeover
     img: icons/containers/bags/case-leather-tan.webp
-    origin: Compendium.ak5e.ak5e-items.Item.0ft9PxeRW8FoUjgb
+    origin: Compendium.AK5e-Foundry-Module.ak5e-items.Item.0ft9PxeRW8FoUjgb
     transfer: false
     _id: ygTK1EQVMrNNkXzh
     type: base
@@ -398,7 +398,7 @@ effects:
     _key: '!items.effects!0ft9PxeRW8FoUjgb.ygTK1EQVMrNNkXzh'
   - name: Deceptive Makeover
     img: icons/containers/bags/case-leather-tan.webp
-    origin: Compendium.ak5e.ak5e-items.Item.0ft9PxeRW8FoUjgb
+    origin: Compendium.AK5e-Foundry-Module.ak5e-items.Item.0ft9PxeRW8FoUjgb
     transfer: false
     _id: mK0h9Is8JyTtjRAZ
     type: base
@@ -452,7 +452,7 @@ effects:
     _key: '!items.effects!0ft9PxeRW8FoUjgb.mK0h9Is8JyTtjRAZ'
   - name: Charming Makeover
     img: icons/containers/bags/case-leather-tan.webp
-    origin: Compendium.ak5e.ak5e-items.Item.0ft9PxeRW8FoUjgb
+    origin: Compendium.AK5e-Foundry-Module.ak5e-items.Item.0ft9PxeRW8FoUjgb
     transfer: false
     _id: gj8aYfDqDssft5HJ
     type: base
@@ -506,7 +506,7 @@ effects:
     _key: '!items.effects!0ft9PxeRW8FoUjgb.gj8aYfDqDssft5HJ'
   - name: Cover Up Applied (Cover Up)
     img: icons/containers/bags/case-leather-tan.webp
-    origin: Compendium.ak5e.ak5e-items.Item.0ft9PxeRW8FoUjgb
+    origin: Compendium.AK5e-Foundry-Module.ak5e-items.Item.0ft9PxeRW8FoUjgb
     transfer: false
     _id: IWQhn14mgYEyFfL3
     type: base

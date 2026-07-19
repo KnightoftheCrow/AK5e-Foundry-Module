@@ -1,7 +1,7 @@
 folder: TL00PBquhzkf6sDn
 name: Counterstrike
 type: feat
-img: modules/ak5e/icons/Skill-Brigid2.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Brigid2.png
 system:
   activities: {}
   uses:
@@ -34,7 +34,7 @@ system:
     subtype: talent
 effects:
   - name: Counterstrike
-    img: modules/ak5e/icons/Skill-Brigid2.png
+    img: modules/AK5e-Foundry-Module/icons/Skill-Brigid2.png
     origin: Item.2k22aoTrEffaninp
     type: base
     _id: hcgWuXoTbrFpg1gK

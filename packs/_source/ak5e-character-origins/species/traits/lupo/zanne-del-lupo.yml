@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <h3>Zanne del Lupo</h3><p>A Lone Wolf is dangerous enough, but a pack of
@@ -41,7 +41,8 @@ system:
 effects:
   - name: Zanne del Lupo
     img: icons/creatures/mammals/wolf-howl-moon-black.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.5eiEiDLgHBFt6dmZ
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.5eiEiDLgHBFt6dmZ
     _id: A554LnjXNIVu1aB8
     type: base
     system: {}
@@ -102,7 +103,8 @@ effects:
     _key: '!items.effects!5eiEiDLgHBFt6dmZ.A554LnjXNIVu1aB8'
   - name: Zanne del Lupo (Level 7+)
     img: icons/creatures/mammals/wolf-howl-moon-black.webp
-    origin: Compendium.ak5e.ak5e-character-origins.Item.5eiEiDLgHBFt6dmZ
+    origin: >-
+      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.5eiEiDLgHBFt6dmZ
     type: base
     system: {}
     changes:
@@ -173,10 +175,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680313150
-  modifiedTime: 1768680313150
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457734276
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!5eiEiDLgHBFt6dmZ'

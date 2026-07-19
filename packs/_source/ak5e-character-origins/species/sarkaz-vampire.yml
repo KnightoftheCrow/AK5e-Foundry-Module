@@ -4,14 +4,18 @@ type: race
 img: icons/creatures/mammals/bat-movement-flying-purple.webp
 system:
   advancement:
-    - type: Size
+    eJiFA5fdfqm2cPgd:
+      type: Size
       _id: eJiFA5fdfqm2cPgd
       configuration:
         sizes:
           - med
       level: 0
       value: {}
-    - type: AbilityScoreImprovement
+      flags: {}
+      hint: ''
+    FySmLGV3IE7DMT5B:
+      type: AbilityScoreImprovement
       _id: FySmLGV3IE7DMT5B
       configuration:
         cap: 1
@@ -33,26 +37,36 @@ system:
       level: 0
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    Lm8yuD3q8CoG2zOL:
+      type: ItemGrant
       _id: Lm8yuD3q8CoG2zOL
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.7iK1fAyE2ce18NHL
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.7iK1fAyE2ce18NHL
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.uLRDO4e8BPMdcGSn
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.uLRDO4e8BPMdcGSn
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.FGE64QViW7UnjkgT
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.FGE64QViW7UnjkgT
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.wBOLndvfsdAQmgO2
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.wBOLndvfsdAQmgO2
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.5iNk6VNE8AWCZBS7
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.5iNk6VNE8AWCZBS7
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>Vampires, at least on first examination, have little in common with
@@ -180,9 +194,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680384003
-  modifiedTime: 1771157927823
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457735512
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: PNbdJ9jTNAIWPDUj
 _key: '!items!PNbdJ9jTNAIWPDUj'

@@ -1,7 +1,7 @@
 folder: 79ZspRBEAt515C3p
 name: Alpha Strike
 type: feat
-img: modules/ak5e/icons/Skill-Lappland2.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Lappland2.png
 system:
   activities:
     z0Au4A1IpJPvONOI:
@@ -130,7 +130,7 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.ak5e.ak5e-talents.Item.imHOfHdGlX4eXLIq
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.imHOfHdGlX4eXLIq
         restriction:
           list: []
         spell: null
@@ -167,7 +167,7 @@ system:
     subtype: talent
 effects:
   - name: Alpha Strike
-    img: modules/ak5e/icons/Skill-Lappland2.png
+    img: modules/AK5e-Foundry-Module/icons/Skill-Lappland2.png
     origin: Item.EEWfqdEoNLkVd6NS
     _id: VSDmSkJS3PKvLsNb
     type: base

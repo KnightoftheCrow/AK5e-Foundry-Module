@@ -10,7 +10,8 @@ system:
     recovery: []
     max: ''
   advancement:
-    - type: Trait
+    n7NSXC3FmnY0vFfB:
+      type: Trait
       _id: n7NSXC3FmnY0vFfB
       configuration:
         allowReplacements: false
@@ -33,7 +34,9 @@ system:
       title: ''
       hint: ''
       value: {}
-    - type: ItemChoice
+      flags: {}
+    GZBSzrQPqFQCqGeD:
+      type: ItemChoice
       _id: GZBSzrQPqFQCqGeD
       configuration:
         allowDrops: false
@@ -42,26 +45,26 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.ak5e.ak5e-items.Item.8YnvqZkWkp8JrS0y
-          - uuid: Compendium.ak5e.ak5e-items.Item.KjYWdRFtdaAGe4yK
-          - uuid: Compendium.ak5e.ak5e-items.Item.FPznW6rW4nghDh1r
-          - uuid: Compendium.ak5e.ak5e-items.Item.yRwC4x79xE5iUW7K
-          - uuid: Compendium.ak5e.ak5e-items.Item.EXF9dlqFHPDHi3KF
-          - uuid: Compendium.ak5e.ak5e-items.Item.gQexKnwZdkamQcJ7
-          - uuid: Compendium.ak5e.ak5e-items.Item.Ve5i7MSi8dzq0UJG
-          - uuid: Compendium.ak5e.ak5e-items.Item.nkDWWkosdoJz2U6i
-          - uuid: Compendium.ak5e.ak5e-items.Item.RVaNysRBX2kS1VKR
-          - uuid: Compendium.ak5e.ak5e-items.Item.fPUfPJOelKu6a97f
-          - uuid: Compendium.ak5e.ak5e-items.Item.a0RPD5m4b1rj0cQT
-          - uuid: Compendium.ak5e.ak5e-items.Item.XAvfUySa6K27SHTU
-          - uuid: Compendium.ak5e.ak5e-items.Item.AVXlB27KScRknIiD
-          - uuid: Compendium.ak5e.ak5e-items.Item.o1kUk2al1bphk50J
-          - uuid: Compendium.ak5e.ak5e-items.Item.LqVtxMaqJotYLr9a
-          - uuid: Compendium.ak5e.ak5e-items.Item.jjpPLGFHOZsiWFBA
-          - uuid: Compendium.ak5e.ak5e-items.Item.EIPiQurk25Of8x3e
-          - uuid: Compendium.ak5e.ak5e-items.Item.z109grp29YIkpXSu
-          - uuid: Compendium.ak5e.ak5e-items.Item.866oxgC2YP2qYU9g
-          - uuid: Compendium.ak5e.ak5e-items.Item.Dhmp8MJX2KGACQh7
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.8YnvqZkWkp8JrS0y
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.KjYWdRFtdaAGe4yK
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.FPznW6rW4nghDh1r
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.yRwC4x79xE5iUW7K
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.EXF9dlqFHPDHi3KF
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.gQexKnwZdkamQcJ7
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Ve5i7MSi8dzq0UJG
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.nkDWWkosdoJz2U6i
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.RVaNysRBX2kS1VKR
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.fPUfPJOelKu6a97f
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.a0RPD5m4b1rj0cQT
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.XAvfUySa6K27SHTU
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.AVXlB27KScRknIiD
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.o1kUk2al1bphk50J
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.LqVtxMaqJotYLr9a
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.jjpPLGFHOZsiWFBA
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.EIPiQurk25Of8x3e
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.z109grp29YIkpXSu
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.866oxgC2YP2qYU9g
+          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Dhmp8MJX2KGACQh7
         restriction:
           list: []
         spell: null
@@ -71,6 +74,7 @@ system:
         replaced: {}
       title: Choose Weapon
       hint: ''
+      flags: {}
   description:
     value: >-
       <p>Wherever you served, you learn to trust the weapon in your hand as much
@@ -116,10 +120,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1769881347037
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457736790
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!ceuAU1Nn50Pi3Een'

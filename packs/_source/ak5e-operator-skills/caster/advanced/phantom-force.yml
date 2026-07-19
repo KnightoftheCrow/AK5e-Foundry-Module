@@ -1,7 +1,7 @@
 folder: R7AlyM082W93xgTV
 name: Phantom Force
 type: feat
-img: modules/ak5e/icons/Skill-Ling2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-Ling2.webp
 system:
   activities:
     2lkiq7KFW7FjD94I:
@@ -19,7 +19,8 @@ system:
         targets:
           - type: itemUses
             value: '40'
-            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: >-
+              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -347,7 +348,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -388,8 +389,8 @@ system:
     subtype: opSkill
 effects:
   - name: Phantom Force (Skill Points)
-    img: modules/ak5e/icons/Skill-Ling2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.kgFvnxHRHbdZ5VSU
+    img: modules/AK5e-Foundry-Module/icons/Skill-Ling2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.kgFvnxHRHbdZ5VSU
     _id: GQBslauEmqcGyBM3
     type: base
     system: {}
@@ -432,7 +433,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -441,8 +442,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!kgFvnxHRHbdZ5VSU.GQBslauEmqcGyBM3'
   - name: Trapped in the Nightmare
-    img: modules/ak5e/icons/Skill-Ling2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.kgFvnxHRHbdZ5VSU
+    img: modules/AK5e-Foundry-Module/icons/Skill-Ling2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.kgFvnxHRHbdZ5VSU
     transfer: false
     _id: L8uG234UTHjfwaKI
     type: base
@@ -495,8 +496,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!kgFvnxHRHbdZ5VSU.L8uG234UTHjfwaKI'
   - name: Lingering Nightmare
-    img: modules/ak5e/icons/Skill-Ling2.webp
-    origin: Compendium.ak5e.ak5e-operator-skills.Item.kgFvnxHRHbdZ5VSU
+    img: modules/AK5e-Foundry-Module/icons/Skill-Ling2.webp
+    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.kgFvnxHRHbdZ5VSU
     transfer: false
     _id: pEMiZI8IGJ4BekCG
     type: base
@@ -554,14 +555,14 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-operator-skills.Item.LI9k302x9A4TZuh8
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.LI9k302x9A4TZuh8
   duplicateSource: Item.ohDBnHUl0lL020mV
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1772986852717
-  modifiedTime: 1773572162125
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457742800
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: kgFvnxHRHbdZ5VSU
 _key: '!items!kgFvnxHRHbdZ5VSU'

@@ -1,7 +1,7 @@
 folder: zhZ3oJrVXiDxSCHH
 name: Doll
 type: npc
-img: modules/ak5e/icons/Dollkeeper_Specialist.webp
+img: modules/AK5e-Foundry-Module/icons/Dollkeeper_Specialist.webp
 system:
   currency:
     credits: 0
@@ -541,7 +541,7 @@ items:
   - name: Artificial
     type: feat
     _id: 6mxLaD82vxGlauMF
-    img: modules/ak5e/icons/Skill-Prospector.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Prospector.webp
     system:
       activities: {}
       uses:
@@ -594,7 +594,7 @@ items:
   - name: Self-Rejuvenation
     type: feat
     _id: tFy3bmKJ65ysZehD
-    img: modules/ak5e/icons/Skill-RareThaleCalyx.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-RareThaleCalyx.webp
     system:
       activities: {}
       uses:
@@ -647,7 +647,7 @@ items:
   - name: Murderous Marionette
     type: feat
     _id: wFTdi6dEkGbiqAGG
-    img: modules/ak5e/icons/Skill-Mayer1.webp
+    img: modules/AK5e-Foundry-Module/icons/Skill-Mayer1.webp
     system:
       activities: {}
       uses:

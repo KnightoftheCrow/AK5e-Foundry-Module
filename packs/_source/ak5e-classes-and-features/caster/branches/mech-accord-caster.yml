@@ -2,15 +2,16 @@ folder: dyuCaYuU6JBJPOoc
 name: Mech-Accord Caster
 type: subclass
 _id: KTjXzgFdSC4FIMWM
-img: modules/ak5e/icons/Mech-Accord_Caster.webp
+img: modules/AK5e-Foundry-Module/icons/Mech-Accord_Caster.webp
 system:
   advancement:
-    - type: ItemGrant
+    HJCaxTR8AlRv6lVA:
+      type: ItemGrant
       _id: HJCaxTR8AlRv6lVA
       configuration:
         items:
           - optional: true
-            uuid: Compendium.ak5e.ak5e-items.Item.XfS9C2RHzrrMdlip
+            uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.XfS9C2RHzrrMdlip
         optional: false
         spell: null
       value: {}
@@ -19,7 +20,9 @@ system:
       hint: >-
         Do you want to exchange one of your Kits for an Engineering Kit?
         (Remember to delete your original kit)
-    - type: Trait
+      flags: {}
+    QamEXWMxNhuq59BQ:
+      type: Trait
       _id: QamEXWMxNhuq59BQ
       configuration:
         allowReplacements: false
@@ -36,21 +39,28 @@ system:
         Engineering Kit Proficiency? (Remember to remove the Proficiency you
         exchanged!)
       value: {}
-    - type: ItemGrant
+      flags: {}
+    ar96KRwfKG3oMUZA:
+      type: ItemGrant
       _id: ar96KRwfKG3oMUZA
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.eFBDkstnP7YQzWSF
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.eFBDkstnP7YQzWSF
             optional: false
         optional: false
         spell: null
       value: {}
       level: 1
-    - type: ItemGrant
+      flags: {}
+      hint: ''
+    4KL94JESNszAAeRG:
+      type: ItemGrant
       _id: 4KL94JESNszAAeRG
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.GH9QA744Dh7SYoz3
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.GH9QA744Dh7SYoz3
             optional: false
         optional: false
         spell: null
@@ -58,11 +68,14 @@ system:
       level: 3
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    2Wjj8xpdk5vuJ2eK:
+      type: ItemGrant
       _id: 2Wjj8xpdk5vuJ2eK
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.rTqysGZ34Kr6QdEL
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.rTqysGZ34Kr6QdEL
             optional: false
         optional: false
         spell: null
@@ -70,11 +83,14 @@ system:
       level: 6
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    0LNuJ61cuNa3QecG:
+      type: ItemGrant
       _id: 0LNuJ61cuNa3QecG
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.mqwJyGfkt52v84Wr
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.mqwJyGfkt52v84Wr
             optional: false
         optional: false
         spell: null
@@ -82,11 +98,14 @@ system:
       level: 10
       title: ''
       hint: ''
-    - type: ItemGrant
+      flags: {}
+    bQwUEkIzK4YAUBqC:
+      type: ItemGrant
       _id: bQwUEkIzK4YAUBqC
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.IKZLK5jYZWD1kPvd
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.IKZLK5jYZWD1kPvd
             optional: false
         optional: false
         spell: null
@@ -94,6 +113,7 @@ system:
       level: 15
       title: ''
       hint: ''
+      flags: {}
   description:
     value: >-
       <p>In the world of Terra, technology and magic is practically
@@ -130,10 +150,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.348'
+  coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1774180167303
-  modifiedTime: 1774180412461
-  lastModifiedBy: 9KtVYqHDTWORuJDZ
+  modifiedTime: 1783457739426
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!KTjXzgFdSC4FIMWM'

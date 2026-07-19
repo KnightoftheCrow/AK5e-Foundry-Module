@@ -2,7 +2,7 @@ folder: cyW9fgrb9XaTddeH
 name: Second Strike Protocol
 type: feat
 _id: 1LLSfJHxrbyTLhOv
-img: modules/ak5e/icons/Skill-Aciddrop2.png
+img: modules/AK5e-Foundry-Module/icons/Skill-Aciddrop2.png
 system:
   activities:
     FVdTqyh4UF7qfyDe:
@@ -136,7 +136,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: []
+  advancement: {}
   description:
     value: >-
       <p>If you have expended Arts Points during your Turn, you can make a
@@ -180,8 +180,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.5
+  systemVersion: 5.3.0
   createdTime: 1772222746366
-  modifiedTime: 1783247938736
+  modifiedTime: 1783457743673
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!1LLSfJHxrbyTLhOv'

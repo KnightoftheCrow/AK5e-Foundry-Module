@@ -5,7 +5,8 @@ _id: KuM1jo2Rbdq6UDf3
 img: icons/creatures/mammals/rodent-rat-diseaed-gray.webp
 system:
   advancement:
-    - type: AbilityScoreImprovement
+    D1Z1cWgUIpxSHj15:
+      type: AbilityScoreImprovement
       _id: D1Z1cWgUIpxSHj15
       configuration:
         cap: 1
@@ -26,7 +27,9 @@ system:
       level: 0
       title: ''
       hint: ''
-    - type: Size
+      flags: {}
+    92DBigiY4Mv8oEqn:
+      type: Size
       _id: 92DBigiY4Mv8oEqn
       configuration:
         sizes:
@@ -36,24 +39,33 @@ system:
       title: ''
       hint: ''
       value: {}
-    - type: ItemGrant
+      flags: {}
+    NzdllvtCwn2MHmzD:
+      type: ItemGrant
       _id: NzdllvtCwn2MHmzD
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1TxciocDhjUUeXjV
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1TxciocDhjUUeXjV
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.b4pwGXuFx1xZcSS1
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.b4pwGXuFx1xZcSS1
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.6dJdhtaGclkpREVA
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.6dJdhtaGclkpREVA
             optional: false
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.sBmV7GGrGnroBAcL
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.sBmV7GGrGnroBAcL
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>Small, slight, nimble, cunning; the heritage of rodents and
@@ -163,8 +175,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1768680545138
-  modifiedTime: 1771158053494
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457735266
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!KuM1jo2Rbdq6UDf3'

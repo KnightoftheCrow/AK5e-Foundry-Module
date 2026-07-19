@@ -2,7 +2,7 @@ folder: 2akLoYEVmJNdfiYv
 name: Spike Trap
 type: consumable
 _id: Kt4eyOe9q0BTO5vw
-img: modules/ak5e/icons/Skill-W2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-W2.webp
 system:
   activities: {}
   uses:
@@ -62,7 +62,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-items.Item.D8SaJ5QDyijRLfLs
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.D8SaJ5QDyijRLfLs
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

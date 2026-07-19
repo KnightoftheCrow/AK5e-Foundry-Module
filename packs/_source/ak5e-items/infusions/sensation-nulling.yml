@@ -57,7 +57,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-items.Item.GhqdiDM9qRty9d3L
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.GhqdiDM9qRty9d3L
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

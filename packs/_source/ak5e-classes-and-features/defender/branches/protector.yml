@@ -92,15 +92,15 @@ system:
       get next Branch Features:</p><table><tbody><tr><td
       data-colwidth="50"><p>Level</p></td><td><p>Branch
       Feature</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.GrmIEYm54SBwtfxU]{Centre
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.GrmIEYm54SBwtfxU]{Centre
       of Attention}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.Jwm6MWileKteO0SP]{Anchor
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Jwm6MWileKteO0SP]{Anchor
       Point}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">9</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.y8Rl93KSHY4y0SAw]{Stone
+      style="text-align:center">9</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.y8Rl93KSHY4y0SAw]{Stone
       Wall}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">12</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.zU0Gy4ifiS8SjmtJ]{War
+      style="text-align:center">12</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.zU0Gy4ifiS8SjmtJ]{War
       of Attrition}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.EznqqferYfzhlB9X]{Total
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.EznqqferYfzhlB9X]{Total
       Shutdown}</p></td></tr></tbody></table>
     chat: ''
   identifier: protector
@@ -119,7 +119,8 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.7u6oZgOf1Ztcoewv
+  compendiumSource: >-
+    Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7u6oZgOf1Ztcoewv
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

@@ -2,7 +2,7 @@ folder: 2akLoYEVmJNdfiYv
 name: Timed Explosive
 type: consumable
 _id: 2WKKkDmVdNURc86r
-img: modules/ak5e/icons/Skill-W2.webp
+img: modules/AK5e-Foundry-Module/icons/Skill-W2.webp
 system:
   activities: {}
   uses:
@@ -61,7 +61,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.ak5e.ak5e-items.Item.rZ5vzWIhxB8d5nWG
+  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.rZ5vzWIhxB8d5nWG
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

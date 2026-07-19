@@ -5,7 +5,8 @@ _id: RkuU84FzHBuiSpkF
 img: icons/tools/navigation/compass-brass-blue-red.webp
 system:
   advancement:
-    - type: Trait
+    GyPllYyEek6JRIsR:
+      type: Trait
       title: Background Proficiencies
       _id: GyPllYyEek6JRIsR
       configuration:
@@ -20,17 +21,22 @@ system:
       level: 0
       hint: ''
       value: {}
-    - type: ItemGrant
+      flags: {}
+    Kt7C7YUdjgaDfgaE:
+      type: ItemGrant
       title: Background Feature
       _id: Kt7C7YUdjgaDfgaE
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.o6upX7UyDUMg90J1
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.o6upX7UyDUMg90J1
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>The Pathfinders are a heretical organisation that seeks to end the
@@ -74,8 +80,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1771156145722
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457735739
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!RkuU84FzHBuiSpkF'

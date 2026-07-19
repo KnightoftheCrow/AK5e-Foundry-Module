@@ -5,7 +5,8 @@ _id: Wj4wIl7BcC6lAfiM
 img: icons/environment/people/charge.webp
 system:
   advancement:
-    - type: Trait
+    tYUszXx9jU7hGxT4:
+      type: Trait
       title: Background Proficiencies
       _id: tYUszXx9jU7hGxT4
       configuration:
@@ -21,17 +22,22 @@ system:
       level: 0
       hint: ''
       value: {}
-    - type: ItemGrant
+      flags: {}
+    WdE24uofnvUBE9zR:
+      type: ItemGrant
       title: Background Feature
       _id: WdE24uofnvUBE9zR
       configuration:
         items:
-          - uuid: Compendium.ak5e.ak5e-character-origins.Item.IrLOZAG5mYeUXYSh
+          - uuid: >-
+              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.IrLOZAG5mYeUXYSh
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
+      flags: {}
+      hint: ''
   description:
     value: >-
       <p>Living in the underbelly, or on the fringes, of civilisation, you make
@@ -75,8 +81,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.2.4
+  systemVersion: 5.3.0
   createdTime: 1769881347037
-  modifiedTime: 1771155276022
-  lastModifiedBy: GiT7LQTiCJxjm7mo
+  modifiedTime: 1783457736226
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!Wj4wIl7BcC6lAfiM'
