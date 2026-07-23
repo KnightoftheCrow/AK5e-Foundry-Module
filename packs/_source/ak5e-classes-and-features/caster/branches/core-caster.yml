@@ -2,30 +2,24 @@ folder: dyuCaYuU6JBJPOoc
 name: Core Caster
 type: subclass
 _id: pibbIB98zmuJwflN
-img: modules/AK5e-Foundry-Module/icons/Core_Caster.webp
+img: modules/ak5e/icons/Core_Caster.webp
 system:
   advancement:
-    Zwk9xer7myxUDFT2:
-      type: ItemGrant
+    - type: ItemGrant
       _id: Zwk9xer7myxUDFT2
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.qb39wixnAeTx170S
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.qb39wixnAeTx170S
             optional: false
         optional: false
         spell: null
       value: {}
       level: 1
-      flags: {}
-      hint: ''
-    sTdKx01UTPFZhGsp:
-      type: ItemGrant
+    - type: ItemGrant
       _id: sTdKx01UTPFZhGsp
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.2x7tE7qrJQZ3KmSK
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.2x7tE7qrJQZ3KmSK
             optional: false
         optional: false
         spell: null
@@ -33,14 +27,11 @@ system:
       level: 3
       title: ''
       hint: ''
-      flags: {}
-    n6pJbm4BZuQaoj16:
-      type: ItemGrant
+    - type: ItemGrant
       _id: n6pJbm4BZuQaoj16
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.lLytVgEvbOe56Nfd
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.lLytVgEvbOe56Nfd
             optional: false
         optional: false
         spell: null
@@ -48,14 +39,11 @@ system:
       level: 6
       title: ''
       hint: ''
-      flags: {}
-    G2g5wULOs3P2A7z9:
-      type: ItemGrant
+    - type: ItemGrant
       _id: G2g5wULOs3P2A7z9
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
             optional: false
         optional: false
         spell: null
@@ -63,14 +51,11 @@ system:
       level: 10
       title: ''
       hint: ''
-      flags: {}
-    321Tagk8lUjzcDL2:
-      type: ItemGrant
+    - type: ItemGrant
       _id: 321Tagk8lUjzcDL2
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.OzrZAwSCp5h2uNEG
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.OzrZAwSCp5h2uNEG
             optional: false
         optional: false
         spell: null
@@ -78,7 +63,6 @@ system:
       level: 15
       title: ''
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>Versatility is the name of the game for Core Casters. Whereas other
@@ -110,10 +94,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774178413279
-  modifiedTime: 1783457741010
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774178558796
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!pibbIB98zmuJwflN'

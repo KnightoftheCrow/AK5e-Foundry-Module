@@ -2,7 +2,7 @@ folder: 7G1D42jSHLcgp1sX
 name: Iberia
 type: ak5e.nationality
 _id: 09NRBv7pKJpSwoSY
-img: modules/AK5e-Foundry-Module/icons/nationality/nationality.svg
+img: modules/ak5e/icons/nationality/nationality.svg
 system:
   filePathFields:
     advancement.*.icon:
@@ -41,8 +41,7 @@ system:
       _id: nzsXvOuELa9M1lPV
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.swJnNBcn0mXHjytR
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.swJnNBcn0mXHjytR
             optional: false
         optional: false
         spell: null

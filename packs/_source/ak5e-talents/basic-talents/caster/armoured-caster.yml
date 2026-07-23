@@ -2,7 +2,7 @@ folder: qlhprYb2GHX3LPKU
 name: Armoured Caster
 type: feat
 _id: 0O2fBM6bQSdkl64P
-img: modules/AK5e-Foundry-Module/icons/Skill-Bison1.webp
+img: modules/ak5e/icons/Skill-Bison1.webp
 system:
   activities: {}
   uses:
@@ -10,8 +10,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    ct1yQQRoQjgYdb2X:
-      type: Trait
+    - type: Trait
       _id: ct1yQQRoQjgYdb2X
       configuration:
         allowReplacements: false
@@ -23,7 +22,6 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
   description:
     value: >-
       <p>You gain Proficiency with Light Armour.</p><p><strong>Module Effect:
@@ -60,13 +58,13 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.GhuzM5iDwYxIysfL
+  compendiumSource: Compendium.ak5e.ak5e-talents.Item.GhuzM5iDwYxIysfL
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1770924144147
-  modifiedTime: 1783457743636
+  modifiedTime: 1783246755726
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!0O2fBM6bQSdkl64P'

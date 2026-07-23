@@ -107,15 +107,15 @@ system:
       Features:</p><table><tbody><tr><td
       data-colwidth="50"><p>Level</p></td><td><p>Branch
       Feature</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.d2Nu2GDTLex2B1Um]{Guardian
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.d2Nu2GDTLex2B1Um]{Guardian
       of Life (INT)}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">4</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.uc92aH853DX2Gfxr]{Not
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.uc92aH853DX2Gfxr]{Not
       Today}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">9</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.dOyqDxX3fErXtv1v]{Anaesthesia}</p></td></tr><tr><td
+      style="text-align:center">9</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.dOyqDxX3fErXtv1v]{Anaesthesia}</p></td></tr><tr><td
       data-colwidth="50"><p
-      style="text-align:center">12</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.VWnFZHgs0Y1w4aT5]{Aura
+      style="text-align:center">12</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.VWnFZHgs0Y1w4aT5]{Aura
       of Mercy}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Kze7HMzW47lgynji]{The
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.Kze7HMzW47lgynji]{The
       Best Medicine}</p></td></tr></tbody></table>
     chat: ''
   identifier: guardian-int
@@ -134,8 +134,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: >-
-    Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.rHrQdOgVGIAEKFKB
+  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.rHrQdOgVGIAEKFKB
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

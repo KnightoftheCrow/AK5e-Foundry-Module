@@ -2,14 +2,14 @@ folder: SuzcwOsde1k6YNFn
 name: Tough (Module)
 type: feat
 _id: FiukS1cZuafrF319
-img: modules/AK5e-Foundry-Module/icons/Skill-Gravel1.webp
+img: modules/ak5e/icons/Skill-Gravel1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p><strong>Module:</strong> Whenever you expend a Hit Dice to restore your
@@ -53,8 +53,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1770924144147
-  modifiedTime: 1783457744359
+  modifiedTime: 1783246390959
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!FiukS1cZuafrF319'

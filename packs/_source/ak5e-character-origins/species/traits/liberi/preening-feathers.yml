@@ -224,7 +224,7 @@ system:
       - period: lr
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>Preening Feathers</h3><p>Liberi hold the distinction of being
@@ -262,8 +262,7 @@ system:
 effects:
   - name: Persuasion Advantage
     img: icons/tools/scribal/lens-blue.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.UojlIgMfuIvrJvYl
+    origin: Compendium.ak5e.ak5e-character-origins.Item.UojlIgMfuIvrJvYl
     transfer: false
     _id: WWPBfB9151CyfPMf
     type: base
@@ -317,8 +316,7 @@ effects:
     _key: '!items.effects!UojlIgMfuIvrJvYl.WWPBfB9151CyfPMf'
   - name: Intimidation Advantage
     img: icons/tools/scribal/lens-blue.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.UojlIgMfuIvrJvYl
+    origin: Compendium.ak5e.ak5e-character-origins.Item.UojlIgMfuIvrJvYl
     transfer: false
     _id: gxAU00FjBJ4xu3Q3
     type: base
@@ -382,10 +380,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680310513
-  modifiedTime: 1783457736028
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680310513
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!UojlIgMfuIvrJvYl'

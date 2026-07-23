@@ -224,7 +224,7 @@ system:
       - period: sr
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>Toxin Glands</h3><p>The Anura can secrete their venom to make use of
@@ -257,8 +257,7 @@ system:
 effects:
   - name: Toxin Glands
     img: icons/skills/toxins/symbol-poison-drop-skull-green.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.pSaLDSuMoSgM2SXW
+    origin: Compendium.ak5e.ak5e-character-origins.Item.pSaLDSuMoSgM2SXW
     transfer: false
     _id: r1eKojU9XjwlFZzX
     type: base
@@ -266,7 +265,7 @@ effects:
     changes:
       - key: macro.createItem
         mode: 0
-        value: Compendium.AK5e-Foundry-Module.ak5e-items.Item.b7RvhDCRv9zM5Pv7
+        value: Compendium.ak5e.ak5e-items.Item.b7RvhDCRv9zM5Pv7
         priority: 20
     disabled: false
     duration:
@@ -310,8 +309,7 @@ effects:
     _key: '!items.effects!pSaLDSuMoSgM2SXW.r1eKojU9XjwlFZzX'
   - name: Toxin Glands (Neurotoxin)
     img: icons/skills/toxins/symbol-poison-drop-skull-green.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.pSaLDSuMoSgM2SXW
+    origin: Compendium.ak5e.ak5e-character-origins.Item.pSaLDSuMoSgM2SXW
     transfer: false
     _id: NH2bdoasn7fki9JZ
     type: base
@@ -319,7 +317,7 @@ effects:
     changes:
       - key: macro.createItem
         mode: 0
-        value: Compendium.AK5e-Foundry-Module.ak5e-items.Item.vocQBrbTyouTqoXX
+        value: Compendium.ak5e.ak5e-items.Item.vocQBrbTyouTqoXX
         priority: 20
     disabled: false
     duration:
@@ -373,10 +371,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680290139
-  modifiedTime: 1783457737573
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680290139
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!pSaLDSuMoSgM2SXW'

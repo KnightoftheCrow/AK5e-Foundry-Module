@@ -2,7 +2,7 @@ folder: 3tM4rLFY5kbxFxJH
 name: Munition Options
 type: feat
 _id: TwNjNQ0FWgnrf9Kh
-img: modules/AK5e-Foundry-Module/icons/Skill-Meteorite1.webp
+img: modules/ak5e/icons/Skill-Meteorite1.webp
 system:
   activities: {}
   uses:

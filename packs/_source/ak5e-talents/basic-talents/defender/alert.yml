@@ -1,7 +1,7 @@
 folder: TL00PBquhzkf6sDn
 name: Alert
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-PureCrystal.webp
+img: modules/ak5e/icons/Skill-PureCrystal.webp
 system:
   activities: {}
   uses:
@@ -33,7 +33,7 @@ system:
     subtype: skillPoints
 effects:
   - name: +Prof Bonus to Initiative
-    img: modules/AK5e-Foundry-Module/icons/Skill-PureCrystal.webp
+    img: modules/ak5e/icons/Skill-PureCrystal.webp
     origin: Item.ysWkJBoyVGFabfx1
     _id: xYBI5fA8J3BUhPrf
     type: base

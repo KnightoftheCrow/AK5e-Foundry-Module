@@ -1,7 +1,7 @@
 folder: xZIHKSAf1iQQkfT3
 name: Lone Journey (Module)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Tecno1.webp
+img: modules/ak5e/icons/Skill-Tecno1.webp
 system:
   activities:
     AmBvl1VhyBBQyQJx:
@@ -115,7 +115,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p><strong>Module:</strong> Allied Creatures are no longer considered to
@@ -144,8 +144,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Lone Journey (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Tecno1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.gVw3b1uPYVOkE7UK
+    img: modules/ak5e/icons/Skill-Tecno1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.gVw3b1uPYVOkE7UK
     _id: 7HOEsnbQtUPg6lfA
     type: base
     system: {}
@@ -205,9 +205,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1783457745385
+  modifiedTime: 1783248036163
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

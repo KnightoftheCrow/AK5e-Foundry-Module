@@ -2,14 +2,14 @@ folder: U1VvPUnEP8A2c7Xk
 name: Precise Strike
 type: feat
 _id: rQs0HWi7n3P0iSBP
-img: modules/AK5e-Foundry-Module/icons/Skill-Haze1.webp
+img: modules/ak5e/icons/Skill-Haze1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Your Ranged Attacks against Creatures outside of the Normal Range of
@@ -40,8 +40,8 @@ system:
     subtype: talent
 effects:
   - name: Precise Strike
-    img: modules/AK5e-Foundry-Module/icons/Skill-Haze1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.rQs0HWi7n3P0iSBP
+    img: modules/ak5e/icons/Skill-Haze1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.rQs0HWi7n3P0iSBP
     _id: vAyqNPa8eA6YZcK7
     type: base
     system: {}
@@ -109,8 +109,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767736360968
-  modifiedTime: 1783457745798
+  modifiedTime: 1783242563973
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!rQs0HWi7n3P0iSBP'

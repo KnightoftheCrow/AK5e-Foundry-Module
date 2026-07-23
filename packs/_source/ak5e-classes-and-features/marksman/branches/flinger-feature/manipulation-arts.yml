@@ -2,7 +2,7 @@ folder: YSYBaEbbvAZsJUrT
 name: Manipulation Arts
 type: feat
 _id: If3R8HLnr1ePxiM4
-img: modules/AK5e-Foundry-Module/icons/Skill-M%C5%82ynar3.webp
+img: modules/ak5e/icons/Skill-M%C5%82ynar3.webp
 system:
   activities: {}
   uses:
@@ -10,13 +10,11 @@ system:
     recovery: []
     max: ''
   advancement:
-    wmrFr2l5wGrfY65O:
-      type: ItemGrant
+    - type: ItemGrant
       _id: wmrFr2l5wGrfY65O
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.RInB0e27OLcMt9np
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.RInB0e27OLcMt9np
             optional: false
         optional: false
         spell: null
@@ -24,9 +22,7 @@ system:
       level: 1
       title: ''
       hint: ''
-      flags: {}
-    jsVH4KTDJ2KZkoPf:
-      type: ItemChoice
+    - type: ItemChoice
       _id: jsVH4KTDJ2KZkoPf
       configuration:
         allowDrops: true
@@ -35,17 +31,17 @@ system:
             count: 2
             replacement: false
         pool:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.nsm65jQ87gFuXzrf
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.nbODEQEbPVDkWT48
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.NIcET7TqSd5Sctpl
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.qUhZWZWFmn4NuZgJ
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.7axC2XEUQI8XvOXB
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.dGres586wEl9utMg
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.XZ04hHqv0UBoISse
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.ovADWJpt99yQldCq
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.RCUAoi5c53B7vhQO
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.EhIPULxvNcN4OoA3
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.BvXzdhH4e5vZc7WI
+          - uuid: Compendium.ak5e.ak5e-arts.Item.nsm65jQ87gFuXzrf
+          - uuid: Compendium.ak5e.ak5e-arts.Item.nbODEQEbPVDkWT48
+          - uuid: Compendium.ak5e.ak5e-arts.Item.NIcET7TqSd5Sctpl
+          - uuid: Compendium.ak5e.ak5e-arts.Item.qUhZWZWFmn4NuZgJ
+          - uuid: Compendium.ak5e.ak5e-arts.Item.7axC2XEUQI8XvOXB
+          - uuid: Compendium.ak5e.ak5e-arts.Item.dGres586wEl9utMg
+          - uuid: Compendium.ak5e.ak5e-arts.Item.XZ04hHqv0UBoISse
+          - uuid: Compendium.ak5e.ak5e-arts.Item.ovADWJpt99yQldCq
+          - uuid: Compendium.ak5e.ak5e-arts.Item.RCUAoi5c53B7vhQO
+          - uuid: Compendium.ak5e.ak5e-arts.Item.EhIPULxvNcN4OoA3
+          - uuid: Compendium.ak5e.ak5e-arts.Item.BvXzdhH4e5vZc7WI
         restriction:
           list: []
         spell: null
@@ -55,7 +51,6 @@ system:
         replaced: {}
       title: Choose Arts Pool
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>The Arts you use to manoeuvre your weapons can have other applications.
@@ -109,8 +104,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767621694607
-  modifiedTime: 1783457739343
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771153423329
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!If3R8HLnr1ePxiM4'

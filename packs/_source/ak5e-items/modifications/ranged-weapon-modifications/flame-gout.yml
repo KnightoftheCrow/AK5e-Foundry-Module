@@ -2,7 +2,7 @@ folder: wTkeoeJjxbPHcfdK
 name: Flame Gout
 type: consumable
 _id: EpggvMFPDW3jzblX
-img: modules/AK5e-Foundry-Module/icons/Skill-Magallan2.webp
+img: modules/ak5e/icons/Skill-Magallan2.webp
 system:
   activities: {}
   uses:
@@ -63,7 +63,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Ur2cYKomXsVpN8uK
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.Ur2cYKomXsVpN8uK
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>Jack-of-Trades</h3><p>Perhaps it comes from their Sami ancestry, but
@@ -41,8 +41,7 @@ system:
 effects:
   - name: Jack-of-Trades
     img: icons/skills/trades/academics-investigation-puzzles.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.2pGYhfScAwPMCRxr
+    origin: Compendium.ak5e.ak5e-character-origins.Item.2pGYhfScAwPMCRxr
     _id: QHnGoW3MazX9gQxg
     type: base
     system: {}
@@ -100,10 +99,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680302864
-  modifiedTime: 1783457734210
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680302864
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!2pGYhfScAwPMCRxr'

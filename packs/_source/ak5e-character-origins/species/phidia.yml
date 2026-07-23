@@ -5,8 +5,7 @@ _id: ntn3g26R3lcuWzXi
 img: icons/creatures/reptiles/snake-fangs-bite-green.webp
 system:
   advancement:
-    Zpd1CSKIpkV2hJeT:
-      type: Size
+    - type: Size
       _id: Zpd1CSKIpkV2hJeT
       configuration:
         sizes:
@@ -16,9 +15,7 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
-    qULSCkbTBi0NSQM6:
-      type: AbilityScoreImprovement
+    - type: AbilityScoreImprovement
       _id: qULSCkbTBi0NSQM6
       configuration:
         cap: 1
@@ -39,33 +36,24 @@ system:
       level: 0
       title: ''
       hint: ''
-      flags: {}
-    I7kJdswk4JAotPpm:
-      type: ItemGrant
+    - type: ItemGrant
       _id: I7kJdswk4JAotPpm
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.5fugG4u8MTqDOV4T
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.5fugG4u8MTqDOV4T
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.tqT0oEayOKdjlppp
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.tqT0oEayOKdjlppp
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.xTCaK297EL7zunXZ
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.xTCaK297EL7zunXZ
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1TxciocDhjUUeXjV
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1TxciocDhjUUeXjV
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>Oft conflated with their Archosaurian cousins, the Phidia could hardly
@@ -207,8 +195,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680318167
-  modifiedTime: 1783457737506
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771157711211
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!ntn3g26R3lcuWzXi'

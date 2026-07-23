@@ -1,7 +1,7 @@
 folder: r2sKTPYSmSAEfVCU
 name: Smooth Operator
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-BluePoison1.png
+img: modules/ak5e/icons/Skill-BluePoison1.png
 system:
   activities:
     NWrfJhpXzkO6J1qr:
@@ -118,7 +118,7 @@ system:
       - period: turn
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>When you make an Attack as a Bonus Action using the Rapid Fire
@@ -148,7 +148,7 @@ system:
     subtype: fightingStyle
 effects:
   - name: Smooth Operator
-    img: modules/AK5e-Foundry-Module/icons/Skill-BluePoison1.png
+    img: modules/ak5e/icons/Skill-BluePoison1.png
     origin: Item.S80xVk98OzC49fdM
     _id: iiSxjqAGvXjyAQ3V
     type: base
@@ -210,10 +210,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767614285142
-  modifiedTime: 1783457741094
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1767898649567
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

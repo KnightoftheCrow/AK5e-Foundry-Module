@@ -1,7 +1,7 @@
 folder: TL00PBquhzkf6sDn
 name: Power Plant
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-C2.webp
+img: modules/ak5e/icons/Skill-C2.webp
 system:
   activities: {}
   uses:

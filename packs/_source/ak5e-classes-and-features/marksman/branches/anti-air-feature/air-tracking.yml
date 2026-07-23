@@ -2,7 +2,7 @@ folder: 9MryoDbGKoSuHyVC
 name: Air Tracking
 type: feat
 _id: R582ILYssQOBgweH
-img: modules/AK5e-Foundry-Module/icons/Skill-Shining1.webp
+img: modules/ak5e/icons/Skill-Shining1.webp
 system:
   activities:
     3Bflsfipem8gakYM:
@@ -120,7 +120,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>You are already well versed in tracking fast moving aerial targets. You
@@ -152,9 +152,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Pigeon Shooting
-    img: modules/AK5e-Foundry-Module/icons/Skill-Shining1.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.R582ILYssQOBgweH
+    img: modules/ak5e/icons/Skill-Shining1.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.R582ILYssQOBgweH
     _id: enKA9t8i1Cjf4pdZ
     type: base
     system: {}
@@ -203,9 +202,8 @@ effects:
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!R582ILYssQOBgweH.enKA9t8i1Cjf4pdZ'
   - name: Target
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lemuen1.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.R582ILYssQOBgweH
+    img: modules/ak5e/icons/Skill-Lemuen1.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.R582ILYssQOBgweH
     _id: H4lKO3dPdQNYRFjw
     type: base
     system: {}
@@ -258,9 +256,8 @@ effects:
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!R582ILYssQOBgweH.H4lKO3dPdQNYRFjw'
   - name: Enhanced Target
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lemuen1.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.R582ILYssQOBgweH
+    img: modules/ak5e/icons/Skill-Lemuen1.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.R582ILYssQOBgweH
     _id: RCwGV86PdsnTrDhv
     type: base
     system: {}
@@ -326,8 +323,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767619892281
-  modifiedTime: 1783457739823
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771178528590
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!R582ILYssQOBgweH'

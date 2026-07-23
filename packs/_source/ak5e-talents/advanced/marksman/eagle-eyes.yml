@@ -2,14 +2,14 @@ folder: AynL7yzSlptsmcjl
 name: Eagle Eyes
 type: feat
 _id: wl1K4E167035p5yf
-img: modules/AK5e-Foundry-Module/icons/Skill-Pepe2.webp
+img: modules/ak5e/icons/Skill-Pepe2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>You have have a +5 Bonus to Perception and Investigation Checks based
@@ -41,8 +41,8 @@ system:
     subtype: talent
 effects:
   - name: Eagle Eyes
-    img: modules/AK5e-Foundry-Module/icons/Skill-Pepe2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.wl1K4E167035p5yf
+    img: modules/ak5e/icons/Skill-Pepe2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.wl1K4E167035p5yf
     _id: OpAje3EoycDM3t8h
     type: base
     system: {}
@@ -116,8 +116,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767738535257
-  modifiedTime: 1783457745965
+  modifiedTime: 1783247700765
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!wl1K4E167035p5yf'

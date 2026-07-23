@@ -1,7 +1,7 @@
 folder: 0Bx3AWOkga3k8Yq6
 name: Drag Force
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Qanipalaat2.webp
+img: modules/ak5e/icons/Skill-Qanipalaat2.webp
 system:
   activities:
     FIRPIOqUEBErk7u2:
@@ -21,8 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '10'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -156,7 +155,7 @@ system:
     subtype: ''
 effects:
   - name: Drag Force (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Qanipalaat2.webp
+    img: modules/ak5e/icons/Skill-Qanipalaat2.webp
     origin: Item.yyn6WSV06Exm6uj5
     type: base
     _id: q7t9Dwi9hDvWONHB

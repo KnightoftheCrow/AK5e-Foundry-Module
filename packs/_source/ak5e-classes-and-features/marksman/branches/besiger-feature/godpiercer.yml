@@ -2,14 +2,14 @@ folder: mQ7J5doN5qC9pvT1
 name: Godpiercer
 type: feat
 _id: 9ryVEMxORXy9eJ2A
-img: modules/AK5e-Foundry-Module/icons/Skill-Typhon3.webp
+img: modules/ak5e/icons/Skill-Typhon3.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>No armour, forged or natural, can ward your strikes.</p><p>Your Siege
@@ -48,8 +48,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767621108917
-  modifiedTime: 1783457739175
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771180581701
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!9ryVEMxORXy9eJ2A'

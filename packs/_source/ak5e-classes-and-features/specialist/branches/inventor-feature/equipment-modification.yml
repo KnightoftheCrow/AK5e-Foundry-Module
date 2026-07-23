@@ -2,7 +2,7 @@ folder: c1EQsN3JLDePX4rN
 name: Equipment Modification
 type: feat
 _id: xVdTak2pkLZPKiZs
-img: modules/AK5e-Foundry-Module/icons/Skill-EmergencyRepairVehicle.webp
+img: modules/ak5e/icons/Skill-EmergencyRepairVehicle.webp
 system:
   activities: {}
   uses:

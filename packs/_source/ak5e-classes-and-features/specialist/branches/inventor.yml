@@ -96,16 +96,16 @@ system:
       face.</p><p>You get next Branch features:</p><table><tbody><tr><td
       data-colwidth="50"><p>Level</p></td><td><p>Branch
       Feature</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.xVdTak2pkLZPKiZs]{Equipment
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.xVdTak2pkLZPKiZs]{Equipment
       Modification}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">5</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.yTLrHYVvFROui9I9]{Strange
-      Contraption}</p><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.f6YCGaZeMwnMlNYP]{Mobile
+      style="text-align:center">5</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.yTLrHYVvFROui9I9]{Strange
+      Contraption}</p><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.f6YCGaZeMwnMlNYP]{Mobile
       Modding}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">11</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.mzafmxWtn51EjOzP]{Risk
+      style="text-align:center">11</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.mzafmxWtn51EjOzP]{Risk
       Assessment}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.C3IWnfjnl3XyacRZ]{Stranger
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.C3IWnfjnl3XyacRZ]{Stranger
       Contraptions}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">20</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.6dvaxu4I7wqOMbae]{The
+      style="text-align:center">20</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.6dvaxu4I7wqOMbae]{The
       Big One}</p></td></tr></tbody></table>
     chat: ''
   identifier: inventor

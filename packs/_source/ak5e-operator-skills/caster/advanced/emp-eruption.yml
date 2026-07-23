@@ -1,7 +1,7 @@
 folder: R7AlyM082W93xgTV
 name: EMP Eruption
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Liskarm2.webp
+img: modules/ak5e/icons/Skill-Liskarm2.webp
 system:
   activities:
     2lkiq7KFW7FjD94I:
@@ -19,8 +19,7 @@ system:
         targets:
           - type: itemUses
             value: '40'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -265,7 +264,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -305,8 +304,8 @@ system:
     subtype: opSkill
 effects:
   - name: EMP Eruption (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Liskarm2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.scf4QdUz0lv0ysI6
+    img: modules/ak5e/icons/Skill-Liskarm2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.scf4QdUz0lv0ysI6
     _id: GQBslauEmqcGyBM3
     type: base
     system: {}
@@ -349,7 +348,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -359,8 +358,8 @@ effects:
       modifiedTime: 1774020452617
     _key: '!items.effects!scf4QdUz0lv0ysI6.GQBslauEmqcGyBM3'
   - name: EMP Eruption (Failed Save)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Liskarm2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.scf4QdUz0lv0ysI6
+    img: modules/ak5e/icons/Skill-Liskarm2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.scf4QdUz0lv0ysI6
     transfer: false
     _id: gqVyCkYdDg9ROori
     type: base
@@ -410,8 +409,8 @@ effects:
       modifiedTime: 1774020440022
     _key: '!items.effects!scf4QdUz0lv0ysI6.gqVyCkYdDg9ROori'
   - name: EMP Eruption (Successful Save)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Liskarm2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.scf4QdUz0lv0ysI6
+    img: modules/ak5e/icons/Skill-Liskarm2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.scf4QdUz0lv0ysI6
     transfer: false
     _id: 8KqK4FwYFmhxTO60
     type: base
@@ -473,11 +472,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.wm32yJmlGPnUNNzZ
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1772986852717
-  modifiedTime: 1783457742946
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774020430856
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: scf4QdUz0lv0ysI6
 _key: '!items!scf4QdUz0lv0ysI6'

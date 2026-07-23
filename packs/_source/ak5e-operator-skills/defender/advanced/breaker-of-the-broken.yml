@@ -1,7 +1,7 @@
 folder: R2AhxUbx0IYKQ6JZ
 name: Breaker of the Broken
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Degenbrecher2.webp
+img: modules/ak5e/icons/Skill-Degenbrecher2.webp
 system:
   activities:
     OBeKH8ZsZi8z1jCE:
@@ -21,8 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '30'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -151,8 +150,8 @@ system:
     subtype: ''
 effects:
   - name: Breaker of the Broken (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Degenbrecher2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.CzMk1xvtFKZqZpGA
+    img: modules/ak5e/icons/Skill-Degenbrecher2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.CzMk1xvtFKZqZpGA
     type: base
     _id: MddJTIEPE3dmMOa0
     system: {}

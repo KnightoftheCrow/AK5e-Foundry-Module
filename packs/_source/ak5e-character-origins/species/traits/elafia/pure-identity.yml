@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>Pure Identity</h3><p>Whatever else you may say about the Elafia, they
@@ -46,8 +46,7 @@ system:
 effects:
   - name: Pure Identity
     img: icons/creatures/mammals/deer-antlers-glowing-blue.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.AwNP1feiwFIIoGNh
+    origin: Compendium.ak5e.ak5e-character-origins.Item.AwNP1feiwFIIoGNh
     _id: YQ60k9MJh4Nsd3gq
     type: base
     system: {}
@@ -117,10 +116,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680302864
-  modifiedTime: 1783457734760
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680302864
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!AwNP1feiwFIIoGNh'

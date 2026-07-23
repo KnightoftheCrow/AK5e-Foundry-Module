@@ -5,18 +5,14 @@ _id: ZZiA36wILKz9XB9B
 img: icons/creatures/fish/fish-marlin-swordfight-blue.webp
 system:
   advancement:
-    JWFhMO6b6Qpj59pP:
-      type: Size
+    - type: Size
       _id: JWFhMO6b6Qpj59pP
       configuration:
         sizes:
           - med
       level: 0
       value: {}
-      flags: {}
-      hint: ''
-    hAbZbBXRTRUlOp71:
-      type: AbilityScoreImprovement
+    - type: AbilityScoreImprovement
       _id: hAbZbBXRTRUlOp71
       configuration:
         cap: 1
@@ -37,26 +33,19 @@ system:
       level: 0
       title: ''
       hint: ''
-      flags: {}
-    sTBIRcasYW8bSwml:
-      type: ItemGrant
+    - type: ItemGrant
       _id: sTBIRcasYW8bSwml
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.ry89CLEPmkWmyH73
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.ry89CLEPmkWmyH73
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.HsX3HDZSwSN2MbJz
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.HsX3HDZSwSN2MbJz
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.sh0R8KyrWYdQarX4
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.sh0R8KyrWYdQarX4
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1TxciocDhjUUeXjV
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1TxciocDhjUUeXjV
             optional: false
         optional: false
         spell: null
@@ -64,7 +53,6 @@ system:
       level: 0
       title: Species Features
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>Aegir originate from the oceans beyond the land borders of Terra, and
@@ -178,8 +166,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680286308
-  modifiedTime: 1783457736437
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771156638704
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!ZZiA36wILKz9XB9B'

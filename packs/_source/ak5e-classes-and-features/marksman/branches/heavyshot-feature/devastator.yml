@@ -2,14 +2,14 @@ folder: JCxDQcgqE3WNSRZl
 name: Devastator
 type: feat
 _id: 3pTpTq10nYQ4Hf9t
-img: modules/AK5e-Foundry-Module/icons/Skill-BluePoison2.webp
+img: modules/ak5e/icons/Skill-BluePoison2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Your Attacks strike with such force that they can punch through
@@ -56,8 +56,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767625690882
-  modifiedTime: 1783457738913
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771181179129
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!3pTpTq10nYQ4Hf9t'

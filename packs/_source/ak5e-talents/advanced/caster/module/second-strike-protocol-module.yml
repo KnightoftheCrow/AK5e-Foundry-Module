@@ -1,7 +1,7 @@
 folder: xZIHKSAf1iQQkfT3
 name: Second Strike Protocol (Module)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Aciddrop2.png
+img: modules/ak5e/icons/Skill-Aciddrop2.png
 system:
   activities:
     FVdTqyh4UF7qfyDe:
@@ -135,7 +135,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p><strong>Module:</strong> The Force Damage is increased to
@@ -176,9 +176,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1783457744486
+  modifiedTime: 1783247948307
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: JhX4mCLS6KQpo0EP
 _key: '!items!JhX4mCLS6KQpo0EP'

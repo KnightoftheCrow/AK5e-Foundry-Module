@@ -1,7 +1,7 @@
 folder: qlhprYb2GHX3LPKU
 name: Clean Sweep
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Hellagur3.webp
+img: modules/ak5e/icons/Skill-Hellagur3.webp
 system:
   activities:
     AU9QufcAl5c7SO8Q:
@@ -114,7 +114,7 @@ system:
       - period: turnStart
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Once per Round, when you roll to determine the Damage you deal to a
@@ -147,8 +147,8 @@ system:
     subtype: skillPoints
 effects:
   - name: +1 die of Damage to Creatures < 50% HP
-    img: modules/AK5e-Foundry-Module/icons/Skill-Hellagur3.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.MaVekY5FOLYSPajW
+    img: modules/ak5e/icons/Skill-Hellagur3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.MaVekY5FOLYSPajW
     _id: ZxBY8lo97JECtfP2
     type: base
     system: {}
@@ -246,14 +246,14 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.4s7JyL83Y2tSsu9z
+  compendiumSource: Compendium.ak5e.ak5e-talents.Item.4s7JyL83Y2tSsu9z
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1770924144147
-  modifiedTime: 1783457744653
+  modifiedTime: 1783246728653
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: MaVekY5FOLYSPajW
 sort: -225000

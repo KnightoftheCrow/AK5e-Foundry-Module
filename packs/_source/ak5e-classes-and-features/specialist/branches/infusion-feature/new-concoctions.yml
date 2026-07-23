@@ -2,7 +2,7 @@ folder: fnNi4KXioyJ542O7
 name: New Concoctions
 type: feat
 _id: 0gmPqsaisiSHf6gG
-img: modules/AK5e-Foundry-Module/icons/Skill-TargetedRenewalAgent.webp
+img: modules/ak5e/icons/Skill-TargetedRenewalAgent.webp
 system:
   activities: {}
   uses:
@@ -16,9 +16,9 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.XStxjnQxn3yLLQce
+            uuid: Compendium.ak5e.ak5e-items.Item.XStxjnQxn3yLLQce
           - optional: false
-            uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.vZiSd3lu7slAca4C
+            uuid: Compendium.ak5e.ak5e-items.Item.vZiSd3lu7slAca4C
         optional: false
         spell: null
       flags: {}

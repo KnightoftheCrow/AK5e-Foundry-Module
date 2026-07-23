@@ -1,14 +1,14 @@
 folder: 5ej4KENJRk8I9Ksg
 name: Crossfire (Module)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Aciddrop2.png
+img: modules/ak5e/icons/Skill-Aciddrop2.png
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p><strong>Module:</strong> Your Ranged Attacks now have Advantage against
@@ -47,9 +47,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767986627636
-  modifiedTime: 1783457745585
+  modifiedTime: 1783247799357
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

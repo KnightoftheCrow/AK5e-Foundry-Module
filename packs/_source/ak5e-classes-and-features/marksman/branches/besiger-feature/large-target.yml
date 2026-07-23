@@ -2,14 +2,14 @@ folder: mQ7J5doN5qC9pvT1
 name: Large Target
 type: feat
 _id: pycRbSf4B2JDBH5v
-img: modules/AK5e-Foundry-Module/icons/Skill-Varkaris1.webp
+img: modules/ak5e/icons/Skill-Varkaris1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Your preferred prey are the hulking brutes that love to throw their
@@ -50,8 +50,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767620138031
-  modifiedTime: 1783457741026
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771180608989
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!pycRbSf4B2JDBH5v'

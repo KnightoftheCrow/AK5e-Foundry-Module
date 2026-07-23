@@ -159,26 +159,26 @@ system:
       features:</p><table><tbody><tr><td
       data-colwidth="50"><p>Level</p></td><td><p>Branch
       Feature</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.wdArlFZHTvXVS5DR]{The
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.wdArlFZHTvXVS5DR]{The
       Wolf and the Shepherd (Bodyguard
-      Path)}</p><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.kqwkHjTaiIjCvi5X]{The
+      Path)}</p><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.kqwkHjTaiIjCvi5X]{The
       Wolf and the Shepherd (Hunter Path)}</p></td></tr><tr><td
       data-colwidth="50"><p
-      style="text-align:center">5</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.M1GUs2xp4K1FzIc7]{Escape
+      style="text-align:center">5</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.M1GUs2xp4K1FzIc7]{Escape
       the
-      Ambush}</p><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.8hcLV51sdTOLzyV9]{Spring
+      Ambush}</p><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.8hcLV51sdTOLzyV9]{Spring
       the Ambush}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">5</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.cafTpF1e9GXPsnc4]{In
+      style="text-align:center">5</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.cafTpF1e9GXPsnc4]{In
       Every Shadow}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">11</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Q91xkjxSrU18r3zZ]{Preysense}</p></td></tr><tr><td
+      style="text-align:center">11</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.Q91xkjxSrU18r3zZ]{Preysense}</p></td></tr><tr><td
       data-colwidth="50"><p
-      style="text-align:center">15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.ZOojcsxAfy4eC5cP]{In
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.ZOojcsxAfy4eC5cP]{In
       for the
-      Kill}</p><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.muBuHzSgKJi1rvbq]{Blade
+      Kill}</p><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.muBuHzSgKJi1rvbq]{Blade
       Shield}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">20</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.9Ppp4KNZkDsJoQip]{Ultimate
+      style="text-align:center">20</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.9Ppp4KNZkDsJoQip]{Ultimate
       Sword and
-      Shield}</p><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Q0zzbLJ2kWmjln5m]{Mortal
+      Shield}</p><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.Q0zzbLJ2kWmjln5m]{Mortal
       Blow}</p></td></tr></tbody></table>
     chat: ''
   identifier: executor

@@ -2,14 +2,14 @@ folder: BggdCAUNKZtaoKXU
 name: Enduring Afflictions
 type: feat
 _id: jgqDfmoZFT5L4PZi
-img: modules/AK5e-Foundry-Module/icons/Skill-Humus1.webp
+img: modules/ak5e/icons/Skill-Humus1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Status Conditions inflicted by you are more potent.</p><p>When you
@@ -71,10 +71,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774112498270
-  modifiedTime: 1783457740515
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774178291504
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!jgqDfmoZFT5L4PZi'

@@ -1,7 +1,7 @@
 folder: 5ej4KENJRk8I9Ksg
 name: Tactical Mind (Module)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-TheresaBlackCrownedSage.png
+img: modules/ak5e/icons/Skill-TheresaBlackCrownedSage.png
 system:
   activities: {}
   uses:
@@ -10,7 +10,7 @@ system:
       - period: sr
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p><strong>Module:</strong> You now regain use of this Feature when you
@@ -69,7 +69,7 @@ effects:
       turns: null
       startRound: 260
       startTurn: 1
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.fXbvDAjCMEh40323
+    origin: Compendium.ak5e.ak5e-talents.Item.fXbvDAjCMEh40323
     transfer: true
     flags:
       dae:
@@ -118,7 +118,7 @@ effects:
       systemVersion: 5.2.4
       lastModifiedBy: GiT7LQTiCJxjm7mo
       modifiedTime: 1768002949924
-    img: modules/AK5e-Foundry-Module/icons/Skill-TheresaBlackCrownedSage.png
+    img: modules/ak5e/icons/Skill-TheresaBlackCrownedSage.png
     type: base
     system: {}
     sort: 0
@@ -133,9 +133,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1768002806917
-  modifiedTime: 1783457745354
+  modifiedTime: 1783247012727
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

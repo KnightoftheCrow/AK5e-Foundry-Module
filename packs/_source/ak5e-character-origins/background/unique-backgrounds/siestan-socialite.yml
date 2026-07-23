@@ -5,8 +5,7 @@ _id: cdOBKNeKjjTPhINQ
 img: icons/consumables/drinks/wine-bottle-glass-white.webp
 system:
   advancement:
-    7xgL5K0GwdOuDfGh:
-      type: Trait
+    - type: Trait
       title: Background Proficiencies
       _id: 7xgL5K0GwdOuDfGh
       configuration:
@@ -38,22 +37,17 @@ system:
       level: 0
       hint: ''
       value: {}
-      flags: {}
-    YNl7letVRlGuqRTm:
-      type: ItemGrant
+    - type: ItemGrant
       title: Background Feature
       _id: YNl7letVRlGuqRTm
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.4bI9O05VE2sGVD2h
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.4bI9O05VE2sGVD2h
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>Siesta’s busy streets and parties have given you a knack for dealing
@@ -89,8 +83,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881347037
-  modifiedTime: 1783457736764
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771155949934
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!cdOBKNeKjjTPhINQ'

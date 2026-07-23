@@ -2,7 +2,7 @@ folder: AynL7yzSlptsmcjl
 name: Part-Time Inventor
 type: feat
 _id: cjPGozlLmepdrnwX
-img: modules/AK5e-Foundry-Module/icons/Skill-TacticalEquipmentToolbox.png
+img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
 system:
   activities: {}
   uses:
@@ -10,8 +10,7 @@ system:
     recovery: []
     max: '@scale.part-time-inventor.invent'
   advancement:
-    j4sZKdoMmqpd1fll:
-      type: ScaleValue
+    - type: ScaleValue
       _id: j4sZKdoMmqpd1fll
       configuration:
         identifier: invent
@@ -24,7 +23,6 @@ system:
       value: {}
       title: ''
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>You gain the Equipment Modification Feature of the Inventor Specialist.
@@ -68,8 +66,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767738707833
-  modifiedTime: 1783457745227
+  modifiedTime: 1783247089530
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!cjPGozlLmepdrnwX'

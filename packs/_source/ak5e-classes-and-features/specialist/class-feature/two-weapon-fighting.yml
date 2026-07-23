@@ -1,7 +1,7 @@
 folder: F7xt8Er4yJgI2eaK
 name: Two-Weapon Fighting
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Executor2.webp
+img: modules/ak5e/icons/Skill-Executor2.webp
 system:
   activities:
     181QvC8UpvfdRcJN:
@@ -156,7 +156,7 @@ system:
     subtype: fightingStyle
 effects:
   - name: Two-Weapon Fighting
-    img: modules/AK5e-Foundry-Module/icons/Skill-Executor2.webp
+    img: modules/ak5e/icons/Skill-Executor2.webp
     origin: >-
       Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.vMtXhZe3ObcTXEnx
     _id: GpB6TABkCijBCPam

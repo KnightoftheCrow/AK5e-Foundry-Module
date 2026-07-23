@@ -126,7 +126,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p><strong>From: </strong>Galvanic Gauntlet</p><p>Charged with electrical
@@ -172,10 +172,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.1.2
   createdTime: 1758052727369
-  modifiedTime: 1783457746552
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1758052975932
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!635CoenctOLcTWdQ'

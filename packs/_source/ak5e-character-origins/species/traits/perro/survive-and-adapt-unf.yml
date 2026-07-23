@@ -117,7 +117,7 @@ system:
       - period: sr
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>Survive and Adapt</h3><p>Perro can be found all over the world. If
@@ -145,8 +145,7 @@ system:
 effects:
   - name: Survive and Adapt
     img: icons/skills/social/intimidation-impressing.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.k5kImoEjkIYokHn9
+    origin: Compendium.ak5e.ak5e-character-origins.Item.k5kImoEjkIYokHn9
     transfer: false
     _id: 0NwIcDudsOjh0jWR
     type: base
@@ -208,10 +207,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680315690
-  modifiedTime: 1783457737188
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680315690
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!k5kImoEjkIYokHn9'

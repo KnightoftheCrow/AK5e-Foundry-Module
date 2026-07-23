@@ -1,14 +1,14 @@
 folder: 5ej4KENJRk8I9Ksg
 name: Ambush (Module)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Manticore1.webp
+img: modules/ak5e/icons/Skill-Manticore1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p><strong>Module:</strong> This additional Damage now applies to all
@@ -37,8 +37,8 @@ system:
     subtype: talent
 effects:
   - name: Ambush (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Manticore1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.MNZ7KjBbXyRfHWns
+    img: modules/ak5e/icons/Skill-Manticore1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.MNZ7KjBbXyRfHWns
     _id: rsQ9fLr0ReGTdVci
     type: base
     system: {}
@@ -95,9 +95,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767986099072
-  modifiedTime: 1783457744635
+  modifiedTime: 1783247824721
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

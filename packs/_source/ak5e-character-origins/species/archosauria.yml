@@ -5,18 +5,14 @@ _id: DZmJ1C9RZBIvfjVu
 img: icons/creatures/reptiles/lizard-iguana-green.webp
 system:
   advancement:
-    hMRHByYHIoitZz4u:
-      type: Size
+    - type: Size
       _id: hMRHByYHIoitZz4u
       configuration:
         sizes:
           - med
       level: 0
       value: {}
-      flags: {}
-      hint: ''
-    fnO39Dk3Hbf46212:
-      type: AbilityScoreImprovement
+    - type: AbilityScoreImprovement
       _id: fnO39Dk3Hbf46212
       configuration:
         cap: 1
@@ -37,32 +33,23 @@ system:
       level: 0
       title: ''
       hint: ''
-      flags: {}
-    1zaNoJb9xOrZ5O5N:
-      type: ItemGrant
+    - type: ItemGrant
       _id: 1zaNoJb9xOrZ5O5N
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.nnPKwchr3Zd18zjc
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.nnPKwchr3Zd18zjc
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.zHmRSyDmMwy4DuFE
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.zHmRSyDmMwy4DuFE
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1TxciocDhjUUeXjV
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1TxciocDhjUUeXjV
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
-    kAbzUUH4V4pg44zF:
-      type: ItemChoice
+    - type: ItemChoice
       _id: kAbzUUH4V4pg44zF
       configuration:
         allowDrops: false
@@ -71,10 +58,8 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.jKV15tzBnL2sDuy7
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.171nWZExUlxaAfSH
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.jKV15tzBnL2sDuy7
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.171nWZExUlxaAfSH
         restriction:
           list: []
         spell: null
@@ -84,7 +69,6 @@ system:
         replaced: {}
       title: Choose Thick or Thin Tail
       hint: Thick Tails scale with Strength; Thin Tails with Dexterity.
-      flags: {}
   description:
     value: >-
       <p>With long, armour-scaled tails, scales found elsewhere upon their body,
@@ -195,8 +179,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680292602
-  modifiedTime: 1783457734872
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771157188408
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!DZmJ1C9RZBIvfjVu'

@@ -2,7 +2,7 @@ folder: AynL7yzSlptsmcjl
 name: Alpha Strike
 type: feat
 _id: o0GnFDZnQv6sXcbC
-img: modules/AK5e-Foundry-Module/icons/Skill-Lappland2.png
+img: modules/ak5e/icons/Skill-Lappland2.png
 system:
   activities:
     z0Au4A1IpJPvONOI:
@@ -117,8 +117,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    nINoGoIKf3WiRyEY:
-      type: ItemChoice
+    - type: ItemChoice
       _id: nINoGoIKf3WiRyEY
       configuration:
         allowDrops: false
@@ -127,7 +126,7 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.imHOfHdGlX4eXLIq
+          - uuid: Compendium.ak5e.ak5e-talents.Item.imHOfHdGlX4eXLIq
         restriction:
           list: []
         spell: null
@@ -137,7 +136,6 @@ system:
         replaced: {}
       title: ''
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>The first time you deal Damage to a Creature with an Attack, that
@@ -168,8 +166,8 @@ system:
     subtype: talent
 effects:
   - name: Alpha Strike
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lappland2.png
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.o0GnFDZnQv6sXcbC
+    img: modules/ak5e/icons/Skill-Lappland2.png
+    origin: Compendium.ak5e.ak5e-talents.Item.o0GnFDZnQv6sXcbC
     _id: VSDmSkJS3PKvLsNb
     type: base
     system: {}
@@ -235,8 +233,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767738105694
-  modifiedTime: 1783457745631
+  modifiedTime: 1783247835392
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!o0GnFDZnQv6sXcbC'

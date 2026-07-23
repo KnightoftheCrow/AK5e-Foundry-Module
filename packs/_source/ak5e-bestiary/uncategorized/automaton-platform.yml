@@ -876,7 +876,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: {}
+      advancement: []
       description:
         value: >-
           <p>If this Creature moves at least 15 feet in a straight line towards
@@ -905,7 +905,7 @@ items:
       - name: High Horsepower
         img: icons/skills/movement/ball-spinning-blue.webp
         origin: >-
-          Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.i51vGb3EFQkIvL8A.Item.KQQJUhxw8WusWCpd
+          Compendium.ak5e.ak5e-bestiary.Actor.i51vGb3EFQkIvL8A.Item.KQQJUhxw8WusWCpd
         _id: blqFJfxKeBf6kdwQ
         type: base
         system: {}
@@ -952,7 +952,7 @@ items:
             overlay: false
         _stats:
           compendiumSource: >-
-            Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.i51vGb3EFQkIvL8A.Item.AdhU60SjJCaPLBj5.ActiveEffect.5R3jPyD05jQwtOKM
+            Compendium.ak5e.ak5e-bestiary.Actor.i51vGb3EFQkIvL8A.Item.AdhU60SjJCaPLBj5.ActiveEffect.5R3jPyD05jQwtOKM
           duplicateSource: null
           exportSource: null
           coreVersion: '13.348'
@@ -1052,7 +1052,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: {}
+      advancement: []
       description:
         value: >-
           <p>This Creature has no arms, and moves with wheels, tracks, or small
@@ -1108,7 +1108,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: {}
+      advancement: []
       description:
         value: >-
           <p><strong>Trigger:</strong> This Creature has moved at least 15 feet
@@ -1139,7 +1139,7 @@ items:
       - name: Coming Through
         img: icons/skills/movement/figure-running-gray.webp
         origin: >-
-          Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.i51vGb3EFQkIvL8A.Item.AdhU60SjJCaPLBj5
+          Compendium.ak5e.ak5e-bestiary.Actor.i51vGb3EFQkIvL8A.Item.AdhU60SjJCaPLBj5
         _id: 5R3jPyD05jQwtOKM
         type: base
         system: {}
@@ -1251,7 +1251,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: {}
+      advancement: []
       description:
         value: <p>This Creature has a DR of 3 against Physical Damage.</p>
         chat: ''
@@ -1274,7 +1274,7 @@ items:
       - name: Durable Construction DR
         img: icons/skills/movement/arrow-upward-white.webp
         origin: >-
-          Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.i51vGb3EFQkIvL8A.Item.8uNWdCpFRHYJFbkm
+          Compendium.ak5e.ak5e-bestiary.Actor.i51vGb3EFQkIvL8A.Item.8uNWdCpFRHYJFbkm
         _id: PwAut6vqQqvLcG2m
         type: base
         system: {}
@@ -1325,7 +1325,7 @@ items:
             overlay: false
         _stats:
           compendiumSource: >-
-            Compendium.AK5e-Foundry-Module.ak5e-items.Item.Cec4UmE7i2g5ZJdm.ActiveEffect.79irsiSTvMg3ozyY
+            Compendium.ak5e.ak5e-items.Item.Cec4UmE7i2g5ZJdm.ActiveEffect.79irsiSTvMg3ozyY
           duplicateSource: null
           exportSource: null
           coreVersion: '13.348'
@@ -1369,12 +1369,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.3
   createdTime: 1766941504085
-  modifiedTime: 1783457733510
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1766941524752
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: i51vGb3EFQkIvL8A
 sort: 0
 _key: '!actors!i51vGb3EFQkIvL8A'

@@ -1,7 +1,7 @@
 folder: R2AhxUbx0IYKQ6JZ
 name: Ready Stance
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-FEater2.webp
+img: modules/ak5e/icons/Skill-FEater2.webp
 system:
   activities:
     G7iXOEzUyXkev3l2:
@@ -21,8 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '30'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -154,8 +153,8 @@ system:
     subtype: ''
 effects:
   - name: Ready Stance
-    img: modules/AK5e-Foundry-Module/icons/Skill-FEater2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.sisqL4LyilRB3Zs1
+    img: modules/ak5e/icons/Skill-FEater2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.sisqL4LyilRB3Zs1
     type: base
     _id: G80BJJcya7UBHAna
     system: {}

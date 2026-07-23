@@ -2,7 +2,7 @@ folder: R7AlyM082W93xgTV
 name: Amplification Field
 type: feat
 _id: wm32yJmlGPnUNNzZ
-img: modules/AK5e-Foundry-Module/icons/Skill-Greyy1.png
+img: modules/ak5e/icons/Skill-Greyy1.png
 system:
   activities:
     oFMI5t2DBoP2L74r:
@@ -21,8 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '30'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -118,7 +117,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -150,8 +149,8 @@ system:
     subtype: opSkill
 effects:
   - name: Amplification Field (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Greyy1.png
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.wm32yJmlGPnUNNzZ
+    img: modules/ak5e/icons/Skill-Greyy1.png
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.wm32yJmlGPnUNNzZ
     _id: GQBslauEmqcGyBM3
     type: base
     system: {}
@@ -194,7 +193,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -203,8 +202,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!wm32yJmlGPnUNNzZ.GQBslauEmqcGyBM3'
   - name: Amplification Field
-    img: modules/AK5e-Foundry-Module/icons/Skill-Greyy1.png
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.wm32yJmlGPnUNNzZ
+    img: modules/ak5e/icons/Skill-Greyy1.png
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.wm32yJmlGPnUNNzZ
     _id: 6oB98osVpcFIXw6Q
     type: auraeffects.aura
     system:
@@ -286,10 +285,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1772986852717
-  modifiedTime: 1783457743069
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1772988221552
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!wm32yJmlGPnUNNzZ'

@@ -2,7 +2,7 @@ folder: AynL7yzSlptsmcjl
 name: Dig In
 type: feat
 _id: qcmSYeDAL35mcvws
-img: modules/AK5e-Foundry-Module/icons/Skill-Misery3.webp
+img: modules/ak5e/icons/Skill-Misery3.webp
 system:
   activities:
     ODqzUQYlixEwDEzw:
@@ -112,7 +112,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>If you did not move during your last Turn, you gain the benefit of Half
@@ -144,8 +144,8 @@ system:
     subtype: talent
 effects:
   - name: Dig In
-    img: modules/AK5e-Foundry-Module/icons/Skill-Misery3.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.qcmSYeDAL35mcvws
+    img: modules/ak5e/icons/Skill-Misery3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.qcmSYeDAL35mcvws
     _id: wAmBXH45NpQNHGEW
     type: base
     system: {}
@@ -208,8 +208,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767738483570
-  modifiedTime: 1783457745723
+  modifiedTime: 1783247726146
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!qcmSYeDAL35mcvws'

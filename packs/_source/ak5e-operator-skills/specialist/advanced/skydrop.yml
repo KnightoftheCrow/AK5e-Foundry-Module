@@ -1,7 +1,7 @@
 folder: Wj6EO6CTbuEADq9N
 name: Skydrop
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Kirara2.webp
+img: modules/ak5e/icons/Skill-Kirara2.webp
 system:
   activities:
     CsR1MqUPD1cZgjJL:
@@ -21,8 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '30'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''

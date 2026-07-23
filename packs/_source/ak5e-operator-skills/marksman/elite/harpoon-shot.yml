@@ -1,7 +1,7 @@
 folder: gux9mthtPInis7P3
 name: Harpoon Shot
 type: feat
-img: modules/AK5e-Foundry-Module/icons/64px-Skill-A3.webp
+img: modules/ak5e/icons/64px-Skill-A3.webp
 system:
   activities:
     xoNoIwPalnThTJEX:
@@ -20,8 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '65'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -114,7 +113,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <ul><li><p><strong>Name</strong>: Harpoon Shot.</p></li><li><p><strong>SP
@@ -148,8 +147,8 @@ system:
     subtype: ''
 effects:
   - name: Harpoon Shot (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/64px-Skill-A3.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.ulYiNdkc8NfwUHMe
+    img: modules/ak5e/icons/64px-Skill-A3.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.ulYiNdkc8NfwUHMe
     _id: DXFUOiWQeWl6gGq8
     type: base
     system: {}
@@ -210,10 +209,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768158239993
-  modifiedTime: 1783457742995
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768653883554
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

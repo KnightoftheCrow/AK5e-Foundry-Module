@@ -9,8 +9,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    9RjoWChM8NsFQnat:
-      type: Trait
+    - type: Trait
       _id: 9RjoWChM8NsFQnat
       configuration:
         allowReplacements: false
@@ -24,7 +23,6 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
   description:
     value: <p>You gain Proficiency in one Skill of your choice.</p>
     chat: ''
@@ -57,12 +55,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680526644
-  modifiedTime: 1783457737642
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680526671
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

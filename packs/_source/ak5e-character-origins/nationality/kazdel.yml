@@ -2,7 +2,7 @@ folder: 7G1D42jSHLcgp1sX
 name: Kazdel
 type: ak5e.nationality
 _id: ZkeaHKA4gOqSlA8l
-img: modules/AK5e-Foundry-Module/icons/nationality/nationality.svg
+img: modules/ak5e/icons/nationality/nationality.svg
 system:
   filePathFields:
     advancement.*.icon:
@@ -40,8 +40,7 @@ system:
       _id: p2PQkGX0mCVAOdcP
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.V1UsPFuyXR9ePOuy
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.V1UsPFuyXR9ePOuy
             optional: false
         optional: false
         spell: null

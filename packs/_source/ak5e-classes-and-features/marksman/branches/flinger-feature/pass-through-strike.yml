@@ -2,7 +2,7 @@ folder: YSYBaEbbvAZsJUrT
 name: Pass-through Strike
 type: feat
 _id: gQpEEsOWxcruib2I
-img: modules/AK5e-Foundry-Module/icons/Skill-TheFiresharpened2.webp
+img: modules/ak5e/icons/Skill-TheFiresharpened2.webp
 system:
   activities:
     TBFQDOjT6XCIDIaI:
@@ -117,7 +117,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Whenever you move your Bound Weapons through the space of a Hostile
@@ -156,8 +156,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767622255530
-  modifiedTime: 1783457740476
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1767876201226
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!gQpEEsOWxcruib2I'

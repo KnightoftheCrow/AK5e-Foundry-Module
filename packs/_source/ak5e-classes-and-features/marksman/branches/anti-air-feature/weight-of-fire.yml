@@ -2,7 +2,7 @@ folder: 9MryoDbGKoSuHyVC
 name: Weight of Fire
 type: feat
 _id: vTm5mXnTRh3dCdje
-img: modules/AK5e-Foundry-Module/icons/Skill-StormeyeSP1.webp
+img: modules/ak5e/icons/Skill-StormeyeSP1.webp
 system:
   activities:
     hHEcX32TGDOHjXgK:
@@ -115,7 +115,7 @@ system:
       - period: turn
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Quantity has a quality all of its own.</p><p>If you take the Attack
@@ -155,8 +155,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767619876780
-  modifiedTime: 1783457741178
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771178776665
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!vTm5mXnTRh3dCdje'

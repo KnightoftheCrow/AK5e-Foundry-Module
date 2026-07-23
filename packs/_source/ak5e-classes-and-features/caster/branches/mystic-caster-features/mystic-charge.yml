@@ -2,7 +2,7 @@ folder: 1RN2G127laeWSTpy
 name: Mystic Charge
 type: feat
 _id: xZiMCSXmimV20FxN
-img: modules/AK5e-Foundry-Module/icons/Skill-Ebenholz1.webp
+img: modules/ak5e/icons/Skill-Ebenholz1.webp
 system:
   activities:
     c5pQYulkW9fNv1A2:
@@ -128,7 +128,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+            target: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
             scaling:
               mode: amount
               formula: '1'
@@ -449,8 +449,7 @@ system:
         type: loseAll
     max: '@scale.mystic-charge.maximum-mystic-charge'
   advancement:
-    TJnKU1wO2D0kXnSz:
-      type: ScaleValue
+    - type: ScaleValue
       _id: TJnKU1wO2D0kXnSz
       configuration:
         identifier: ''
@@ -465,7 +464,6 @@ system:
       value: {}
       title: Maximum Mystic Charge
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>You learn to store your arcane strength for a singular moment.</p><p>At
@@ -504,9 +502,8 @@ system:
     subtype: ''
 effects:
   - name: Power Surge
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ebenholz1.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.xZiMCSXmimV20FxN
+    img: modules/ak5e/icons/Skill-Ebenholz1.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.xZiMCSXmimV20FxN
     transfer: false
     _id: 0uOoUMGxVZvIBHAR
     type: base
@@ -574,10 +571,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774108009824
-  modifiedTime: 1783457741214
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774180481996
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!xZiMCSXmimV20FxN'

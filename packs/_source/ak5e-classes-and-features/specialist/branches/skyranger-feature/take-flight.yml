@@ -2,7 +2,7 @@ folder: GEE9J6di2smOxKgx
 name: Take Flight
 type: feat
 _id: mFlEn0zBWbRslklu
-img: modules/AK5e-Foundry-Module/icons/Skill-Skybox1.webp
+img: modules/ak5e/icons/Skill-Skybox1.webp
 system:
   activities: {}
   uses:

@@ -2,14 +2,14 @@ folder: cyW9fgrb9XaTddeH
 name: Hammer and Anvil
 type: feat
 _id: TuEkFeCnXuPzh1AT
-img: modules/AK5e-Foundry-Module/icons/Skill-Vulcan2.webp
+img: modules/ak5e/icons/Skill-Vulcan2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Once per Turn, when you hit a Creature within 5 feet of an allied
@@ -41,8 +41,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Bonus Damage vs Engaged Enemies
-    img: modules/AK5e-Foundry-Module/icons/Skill-Vulcan2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.TuEkFeCnXuPzh1AT
+    img: modules/ak5e/icons/Skill-Vulcan2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.TuEkFeCnXuPzh1AT
     _id: 5k6Wvdy3R6stmp2u
     type: base
     system: {}
@@ -105,8 +105,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1783457744987
+  modifiedTime: 1783248143560
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!TuEkFeCnXuPzh1AT'

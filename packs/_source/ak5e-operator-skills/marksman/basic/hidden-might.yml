@@ -2,7 +2,7 @@ folder: q9mrRuD7Bdhth58y
 name: Hidden Might
 type: feat
 _id: 2rCDt1z6WePSeJCA
-img: modules/AK5e-Foundry-Module/icons/Skill-Purgatory2.webp
+img: modules/ak5e/icons/Skill-Purgatory2.webp
 system:
   activities:
     ZdUPaJzBDolFTlX0:
@@ -21,8 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '10'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
       description:
         chatFlavor: ''
       duration:
@@ -122,7 +121,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <ul><li><p><strong>Name</strong>: Hidden Might.</p></li><li><p><strong>SP
@@ -150,8 +149,8 @@ system:
     subtype: ''
 effects:
   - name: Hidden Might (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Purgatory2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA
+    img: modules/ak5e/icons/Skill-Purgatory2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA
     _id: 1htoZLk7xhkowqiY
     type: base
     system: {}
@@ -217,8 +216,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767617018180
-  modifiedTime: 1783457741884
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768140765618
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!2rCDt1z6WePSeJCA'

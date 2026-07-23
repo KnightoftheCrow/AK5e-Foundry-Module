@@ -2,7 +2,7 @@ folder: q9mrRuD7Bdhth58y
 name: Power Strike
 type: feat
 _id: JTK6NErx8Kvw3vOu
-img: modules/AK5e-Foundry-Module/icons/Skill-Saileach3.webp
+img: modules/ak5e/icons/Skill-Saileach3.webp
 system:
   activities:
     XYgdesumR2t5bCLx:
@@ -20,8 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '15'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
       description:
         chatFlavor: ''
       duration:
@@ -120,7 +119,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <ul><li><p><strong>Name</strong>: Power Strike.</p></li><li><p><strong>SP
@@ -149,8 +148,8 @@ system:
     subtype: ''
 effects:
   - name: Power Strike (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Saileach3.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.JTK6NErx8Kvw3vOu
+    img: modules/ak5e/icons/Skill-Saileach3.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.JTK6NErx8Kvw3vOu
     _id: e9FbYLL0sGXnn0sy
     type: base
     system: {}
@@ -193,7 +192,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.351'
@@ -204,8 +203,8 @@ effects:
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!JTK6NErx8Kvw3vOu.e9FbYLL0sGXnn0sy'
   - name: Power Strike
-    img: modules/AK5e-Foundry-Module/icons/Skill-Saileach3.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.JTK6NErx8Kvw3vOu
+    img: modules/ak5e/icons/Skill-Saileach3.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.JTK6NErx8Kvw3vOu
     _id: gCcAYW7mUUkIt70w
     type: base
     system: {}
@@ -271,8 +270,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767618493950
-  modifiedTime: 1783457742240
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768140797910
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!JTK6NErx8Kvw3vOu'

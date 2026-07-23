@@ -1,7 +1,7 @@
 folder: dX9bNDGt3LqFfCRN
 name: Hunter (X) (Module)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+img: modules/ak5e/icons/Skill-Invincible1.png
 system:
   activities:
     rz0UCPidyTnnP4ad:
@@ -178,7 +178,7 @@ system:
     subtype: skillPoints
 effects:
   - name: Hunter (Abberation) (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+    img: modules/ak5e/icons/Skill-Invincible1.png
     origin: Item.ZFVwrfzdH3BZwfPS
     _id: Na5UhAxVthjRErVy
     type: base
@@ -230,7 +230,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!gmpOSmJLEfW77sCB.Na5UhAxVthjRErVy'
   - name: Hunter (Beast) (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+    img: modules/ak5e/icons/Skill-Invincible1.png
     origin: Item.ZFVwrfzdH3BZwfPS
     _id: vbNxtNRtpRjEEbY9
     type: base
@@ -282,7 +282,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!gmpOSmJLEfW77sCB.vbNxtNRtpRjEEbY9'
   - name: Hunter (Celestial) (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+    img: modules/ak5e/icons/Skill-Invincible1.png
     origin: Item.ZFVwrfzdH3BZwfPS
     _id: YTW1KFY7wL2wFstb
     type: base
@@ -334,7 +334,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!gmpOSmJLEfW77sCB.YTW1KFY7wL2wFstb'
   - name: Hunter (Construct) (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+    img: modules/ak5e/icons/Skill-Invincible1.png
     origin: Item.ZFVwrfzdH3BZwfPS
     _id: Rd7J7PacvJHoZUaF
     type: base
@@ -386,7 +386,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!gmpOSmJLEfW77sCB.Rd7J7PacvJHoZUaF'
   - name: Hunter (Fiend) (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+    img: modules/ak5e/icons/Skill-Invincible1.png
     origin: Item.ZFVwrfzdH3BZwfPS
     _id: tM9MUEfruO5Wrcvc
     type: base
@@ -438,7 +438,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!gmpOSmJLEfW77sCB.tM9MUEfruO5Wrcvc'
   - name: Hunter (Monstrosity) (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+    img: modules/ak5e/icons/Skill-Invincible1.png
     origin: Item.ZFVwrfzdH3BZwfPS
     _id: Pr0QROz9TNIWpdgj
     type: base
@@ -490,7 +490,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!gmpOSmJLEfW77sCB.Pr0QROz9TNIWpdgj'
   - name: Hunter (Plant) (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+    img: modules/ak5e/icons/Skill-Invincible1.png
     origin: Item.ZFVwrfzdH3BZwfPS
     _id: 4eIkMqhyHeYYYH58
     type: base
@@ -542,7 +542,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!gmpOSmJLEfW77sCB.4eIkMqhyHeYYYH58'
   - name: Hunter (Undead) (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+    img: modules/ak5e/icons/Skill-Invincible1.png
     origin: Item.ZFVwrfzdH3BZwfPS
     _id: lqcC6yNHCrhEfVgq
     type: base

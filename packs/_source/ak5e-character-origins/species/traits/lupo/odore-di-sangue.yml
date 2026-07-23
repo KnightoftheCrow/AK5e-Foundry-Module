@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>Odore di Sangue</h3><p>Lupi do not allow prey to escape easily; when
@@ -41,8 +41,7 @@ system:
 effects:
   - name: Odore di Sangue
     img: icons/creatures/mammals/wolf-shadow-black.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.UesJRtzSK9QmpcvN
+    origin: Compendium.ak5e.ak5e-character-origins.Item.UesJRtzSK9QmpcvN
     _id: oCv9TTRKDepjAvhD
     type: base
     system: {}
@@ -129,10 +128,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680313150
-  modifiedTime: 1783457736008
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680313150
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!UesJRtzSK9QmpcvN'

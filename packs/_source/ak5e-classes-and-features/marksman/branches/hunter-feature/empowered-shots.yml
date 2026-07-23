@@ -2,14 +2,14 @@ folder: JQfn8YazPakYGtWZ
 name: Empowered Shots
 type: feat
 _id: a6EQ6Ifq0YgaecCA
-img: modules/AK5e-Foundry-Module/icons/Skill-Poz%C3%ABmka2.webp
+img: modules/ak5e/icons/Skill-Poz%C3%ABmka2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Hunter Marksmen employ special technology to infusetheir weapons with
@@ -58,8 +58,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767625877333
-  modifiedTime: 1783457740141
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771181048302
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!a6EQ6Ifq0YgaecCA'

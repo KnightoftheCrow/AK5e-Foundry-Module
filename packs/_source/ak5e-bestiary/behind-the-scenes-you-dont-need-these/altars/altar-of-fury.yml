@@ -632,7 +632,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: {}
+      advancement: []
       description:
         value: >-
           <p>While the Altar is active, when a Creature begins its Turn within
@@ -765,12 +765,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.347'
   systemId: dnd5e
   systemVersion: 5.1.2
   createdTime: 1757253404435
-  modifiedTime: 1783457733393
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1757360606102
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

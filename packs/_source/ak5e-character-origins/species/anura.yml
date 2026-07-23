@@ -5,44 +5,32 @@ _id: QM3Pi9BPG8lJwzdt
 img: icons/creatures/amphibians/bullfrog-glass-teal.webp
 system:
   advancement:
-    88Rtfo4kpW2ojHTo:
-      type: Size
+    - type: Size
       _id: 88Rtfo4kpW2ojHTo
       configuration:
         sizes:
           - med
       level: 0
       value: {}
-      flags: {}
-      hint: ''
-    5NWAq8LFKjmGzY03:
-      type: ItemGrant
+    - type: ItemGrant
       _id: 5NWAq8LFKjmGzY03
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.7IkZL0NBFK3LEPur
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.7IkZL0NBFK3LEPur
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.WdESLwHzQFKwPLhW
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.WdESLwHzQFKwPLhW
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.pSaLDSuMoSgM2SXW
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.pSaLDSuMoSgM2SXW
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1TxciocDhjUUeXjV
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1TxciocDhjUUeXjV
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
-    x8wXNwFce2gV8sKV:
-      type: AbilityScoreImprovement
+    - type: AbilityScoreImprovement
       _id: x8wXNwFce2gV8sKV
       configuration:
         cap: 1
@@ -63,7 +51,6 @@ system:
       level: 0
       title: ''
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>Anura have the traits of frogs and toads, though their animalistic
@@ -162,8 +149,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680290139
-  modifiedTime: 1783457735579
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771157096481
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!QM3Pi9BPG8lJwzdt'

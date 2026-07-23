@@ -5,8 +5,7 @@ _id: rsYDNcTwuLgn0lhJ
 img: icons/skills/social/diplomacy-peace-alliance.webp
 system:
   advancement:
-    T0cIwKsb8xiLuWXg:
-      type: Trait
+    - type: Trait
       title: Background Proficiencies
       _id: T0cIwKsb8xiLuWXg
       configuration:
@@ -22,22 +21,17 @@ system:
       level: 0
       hint: ''
       value: {}
-      flags: {}
-    cz9p2whhMQGgvd7l:
-      type: ItemGrant
+    - type: ItemGrant
       title: Background Feature
       _id: cz9p2whhMQGgvd7l
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.VtyXbLu5PKiOC2TC
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.VtyXbLu5PKiOC2TC
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>Those who lead the Hero Cult cannot afford to fall short- to fail
@@ -76,8 +70,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881347037
-  modifiedTime: 1783457737679
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771156092410
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!rsYDNcTwuLgn0lhJ'

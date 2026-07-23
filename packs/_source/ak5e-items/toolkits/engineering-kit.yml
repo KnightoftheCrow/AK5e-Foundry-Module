@@ -344,7 +344,7 @@ system:
         - count: ''
           name: ''
           _id: YPXXY7zUEpk04fsf
-          uuid: Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.AYr7uc7PfTmtDHVa
+          uuid: Compendium.ak5e.ak5e-bestiary.Actor.AYr7uc7PfTmtDHVa
           level:
             min: null
             max: null
@@ -544,7 +544,7 @@ effects:
     _key: '!items.effects!XfS9C2RHzrrMdlip.NBWC0pcbv2cHMXAV'
   - name: +5 Technology Bonus (Examine Machinery)
     img: icons/containers/bags/case-leather-tan.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-items.Item.XfS9C2RHzrrMdlip
+    origin: Compendium.ak5e.ak5e-items.Item.XfS9C2RHzrrMdlip
     transfer: false
     _id: HcyaNeeoFwxYhaJE
     type: base

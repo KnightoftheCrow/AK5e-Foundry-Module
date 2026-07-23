@@ -2,14 +2,14 @@ folder: pUajGesWO3hqfFFR
 name: Empowered Arts
 type: feat
 _id: lLytVgEvbOe56Nfd
-img: modules/AK5e-Foundry-Module/icons/Skill-T3.webp
+img: modules/ak5e/icons/Skill-T3.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Once per Turn, when you roll to determine Damage dealt by an Art you
@@ -34,9 +34,8 @@ system:
     subtype: ''
 effects:
   - name: Additional Damage on Arts
-    img: modules/AK5e-Foundry-Module/icons/Skill-T3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.lLytVgEvbOe56Nfd
+    img: modules/ak5e/icons/Skill-T3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.lLytVgEvbOe56Nfd
     _id: qQXmCi4pFuS8Dlxk
     type: base
     system: {}
@@ -100,10 +99,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774093451775
-  modifiedTime: 1783457740825
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774098008002
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!lLytVgEvbOe56Nfd'

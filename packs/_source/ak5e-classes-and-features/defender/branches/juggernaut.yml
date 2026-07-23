@@ -19,6 +19,7 @@ system:
       value: {}
       level: 9
       hint: ''
+      icon: ''
     zI4LTfqd860hPP3B:
       type: ItemGrant
       title: Branch Feature
@@ -34,17 +35,16 @@ system:
       level: 4
       hint: ''
       _id: zI4LTfqd860hPP3B
+      icon: ''
     X8uR6tD7I93eMfy1:
       type: ItemGrant
       title: Branch Feature
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.SaqJz8G1H38UFUqB
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.SaqJz8G1H38UFUqB
             optional: false
           - uuid: >-
               Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.obqGHq7VgsZPhijm
-            optional: false
         optional: false
         spell: null
       flags: {}
@@ -52,6 +52,7 @@ system:
       level: 12
       hint: ''
       _id: X8uR6tD7I93eMfy1
+      icon: ''
     dKI2Y73i2RyX1BvR:
       type: ItemGrant
       title: Branch Feature
@@ -67,6 +68,7 @@ system:
       level: 15
       hint: ''
       _id: dKI2Y73i2RyX1BvR
+      icon: ''
     8JbiATLBtmiMKqHX:
       type: ItemGrant
       title: Branch Feature
@@ -82,6 +84,7 @@ system:
       level: 1
       hint: ''
       _id: 8JbiATLBtmiMKqHX
+      icon: ''
   description:
     value: >-
       <p>A good offense is an unbeatable defence, or so goes the creed of the
@@ -91,15 +94,15 @@ system:
       Features:</p><table><tbody><tr><td
       data-colwidth="50"><p>Level</p></td><td><p>Branch
       Feature</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.AeSBoKcSUVpQQFaZ]{Superheavy}</p></td></tr><tr><td
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.AeSBoKcSUVpQQFaZ]{Superheavy}</p></td></tr><tr><td
       data-colwidth="50"><p
-      style="text-align:center">4</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.pBkjDHETrEoxOJ50]{Implacable}</p></td></tr><tr><td
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.pBkjDHETrEoxOJ50]{Implacable}</p></td></tr><tr><td
       data-colwidth="50"><p
-      style="text-align:center">9</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.0qhBmMXqFKNXdvbI]{Bullrush}</p></td></tr><tr><td
+      style="text-align:center">9</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.0qhBmMXqFKNXdvbI]{Bullrush}</p></td></tr><tr><td
       data-colwidth="50"><p
-      style="text-align:center">12</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.SaqJz8G1H38UFUqB]{Overwhelming
+      style="text-align:center">12</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.SaqJz8G1H38UFUqB]{Overwhelming
       Might}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.obqGHq7VgsZPhijm]{Groundbreaker}</p></td></tr></tbody></table>
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.obqGHq7VgsZPhijm]{Groundbreaker}</p></td></tr></tbody></table>
     chat: ''
   identifier: juggernaut
   source:
@@ -117,16 +120,15 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: >-
-    Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.KqYyfCwqbEj4ZVIE
+  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.KqYyfCwqbEj4ZVIE
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
   systemVersion: 5.3.0
   createdTime: 1783358934901
-  modifiedTime: 1783457739397
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1783372019438
+  lastModifiedBy: 27ikDz77N89hVLvM
 ownership:
   default: 0
   27ikDz77N89hVLvM: 3

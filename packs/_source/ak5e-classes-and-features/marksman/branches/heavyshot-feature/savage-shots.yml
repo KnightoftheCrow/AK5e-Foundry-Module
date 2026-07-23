@@ -2,14 +2,14 @@ folder: JCxDQcgqE3WNSRZl
 name: Savage Shots
 type: feat
 _id: 8NC99alqH4KhFrQ7
-img: modules/AK5e-Foundry-Module/icons/Skill-Aciddrop2.png
+img: modules/ak5e/icons/Skill-Aciddrop2.png
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>You may use this Feature as a Bonus Action; until the end of the Turn,
@@ -49,8 +49,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767625723847
-  modifiedTime: 1783457739004
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771181263478
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!8NC99alqH4KhFrQ7'

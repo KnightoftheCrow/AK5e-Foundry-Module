@@ -1,7 +1,7 @@
 folder: R2AhxUbx0IYKQ6JZ
 name: Halting Feather
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Earthspirit2.webp
+img: modules/ak5e/icons/Skill-Earthspirit2.webp
 system:
   activities:
     UlQzSkHT1WUeck4a:
@@ -21,8 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '35'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -154,8 +153,8 @@ system:
     subtype: ''
 effects:
   - name: Halting Feather (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Earthspirit2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.CsKH1MB4Z7Xj48IF
+    img: modules/ak5e/icons/Skill-Earthspirit2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.CsKH1MB4Z7Xj48IF
     type: base
     _id: SR3YhJbxFtuIKx6i
     system: {}

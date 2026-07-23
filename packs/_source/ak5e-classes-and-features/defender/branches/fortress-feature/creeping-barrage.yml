@@ -2,7 +2,7 @@ folder: 3tM4rLFY5kbxFxJH
 name: Creeping Barrage
 type: feat
 _id: DPk6rdKfkttUt3UY
-img: modules/AK5e-Foundry-Module/icons/Skill-Melanite2.webp
+img: modules/ak5e/icons/Skill-Melanite2.webp
 system:
   activities: {}
   uses:

@@ -114,7 +114,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>Constrictor</h3><p>The thin tail of a Phidia is not built for striking
@@ -154,8 +154,7 @@ system:
 effects:
   - name: Athletics Override
     img: icons/creatures/reptiles/snake-poised-white.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.tqT0oEayOKdjlppp
+    origin: Compendium.ak5e.ak5e-character-origins.Item.tqT0oEayOKdjlppp
     _id: id7Ponulc5PvH42p
     type: base
     system: {}
@@ -213,10 +212,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680318167
-  modifiedTime: 1783457737894
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680318167
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!tqT0oEayOKdjlppp'

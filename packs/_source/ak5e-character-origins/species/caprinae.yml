@@ -5,18 +5,14 @@ _id: awxlOzo01blwv008
 img: icons/creatures/mammals/goat-horned-blue.webp
 system:
   advancement:
-    Bn6CYfjri3uPX1xd:
-      type: Size
+    - type: Size
       _id: Bn6CYfjri3uPX1xd
       configuration:
         sizes:
           - med
       level: 0
       value: {}
-      flags: {}
-      hint: ''
-    yDtLs28Njk4vTKxV:
-      type: AbilityScoreImprovement
+    - type: AbilityScoreImprovement
       _id: yDtLs28Njk4vTKxV
       configuration:
         cap: 1
@@ -37,33 +33,24 @@ system:
       level: 0
       title: ''
       hint: ''
-      flags: {}
-    K5ZSxobAe8IyfeYy:
-      type: ItemGrant
+    - type: ItemGrant
       _id: K5ZSxobAe8IyfeYy
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1TxciocDhjUUeXjV
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1TxciocDhjUUeXjV
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.60NkObMKvCzEHDM1
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.60NkObMKvCzEHDM1
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Y8mjiTNFXaDoFlI1
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.Y8mjiTNFXaDoFlI1
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.QQ6lJsL16UvfY9uq
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.QQ6lJsL16UvfY9uq
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>If battle runs in the blood of the Lupi, Arts must run in the blood of
@@ -165,8 +152,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680294541
-  modifiedTime: 1783457736535
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771157213170
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!awxlOzo01blwv008'

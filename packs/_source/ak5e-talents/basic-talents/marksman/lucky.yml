@@ -1,6 +1,6 @@
 name: Lucky
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-CivilightEterna1.webp
+img: modules/ak5e/icons/Skill-CivilightEterna1.webp
 effects:
   - _id: e31tfoYwJoFTyCf6
     changes:
@@ -33,7 +33,7 @@ effects:
       turns: null
       startRound: 260
       startTurn: 1
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.TNysMEOsW57XDRxT
+    origin: Compendium.ak5e.ak5e-talents.Item.TNysMEOsW57XDRxT
     transfer: true
     flags:
       dae:
@@ -82,7 +82,7 @@ effects:
       systemVersion: 5.2.4
       lastModifiedBy: GiT7LQTiCJxjm7mo
       modifiedTime: 1767912814725
-    img: modules/AK5e-Foundry-Module/icons/Skill-CivilightEterna1.webp
+    img: modules/ak5e/icons/Skill-CivilightEterna1.webp
     type: base
     system: {}
     sort: 0
@@ -357,8 +357,7 @@ system:
   identifier: lucky
   enchant: {}
   advancement:
-    nPiNaRjP1qTZZ93C:
-      type: ScaleValue
+    - type: ScaleValue
       _id: nPiNaRjP1qTZZ93C
       configuration:
         identifier: maxuses
@@ -371,19 +370,18 @@ system:
       value: {}
       title: ''
       hint: ''
-      flags: {}
   cover: null
   crewed: false
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767873251358
-  modifiedTime: 1783457744955
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774025738881
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 folder: U1VvPUnEP8A2c7Xk
 ownership:
   default: 0

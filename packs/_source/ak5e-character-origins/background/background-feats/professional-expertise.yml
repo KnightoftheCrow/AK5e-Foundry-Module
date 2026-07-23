@@ -10,8 +10,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    oqJb1wAOkHnoYofd:
-      type: Trait
+    - type: Trait
       _id: oqJb1wAOkHnoYofd
       configuration:
         allowReplacements: false
@@ -25,9 +24,7 @@ system:
       title: Gain Proficiency
       hint: ''
       value: {}
-      flags: {}
-    4x9OsYWW38OChGFa:
-      type: Trait
+    - type: Trait
       _id: 4x9OsYWW38OChGFa
       configuration:
         allowReplacements: false
@@ -41,7 +38,6 @@ system:
       title: Gain Expertise
       hint: ''
       value: {}
-      flags: {}
   description:
     value: >-
       <p>You are a consummate professional, undoubtedly skilled at what you
@@ -81,10 +77,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881347037
-  modifiedTime: 1783457734822
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!BW5S20JFN7cVNiFG'

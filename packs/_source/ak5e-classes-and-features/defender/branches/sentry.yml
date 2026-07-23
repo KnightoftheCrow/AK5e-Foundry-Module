@@ -94,15 +94,15 @@ system:
       Sentry born.</p><p>You get next Branch features:</p><table><tbody><tr><td
       data-colwidth="50"><p>Level</p></td><td><p>Branch
       Feature</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.FjRFgEdvu21zS4wV]{Pavise}</p></td></tr><tr><td
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.FjRFgEdvu21zS4wV]{Pavise}</p></td></tr><tr><td
       data-colwidth="50"><p
-      style="text-align:center">4</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.9XXCZYydPHXYPshr]{Marksman
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.9XXCZYydPHXYPshr]{Marksman
       Training}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">9</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.OWtLk5o7xPczuv6T]{Advance
+      style="text-align:center">9</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.OWtLk5o7xPczuv6T]{Advance
       and Fire}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">12</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.pcn8NdVgZ9nYiIU5]{Pointman}</p></td></tr><tr><td
+      style="text-align:center">12</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.pcn8NdVgZ9nYiIU5]{Pointman}</p></td></tr><tr><td
       data-colwidth="50"><p
-      style="text-align:center">15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.bl68IYkf9nvIDsDy]{Firebase}</p></td></tr></tbody></table>
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.bl68IYkf9nvIDsDy]{Firebase}</p></td></tr></tbody></table>
     chat: ''
   identifier: sentry
   source:
@@ -120,8 +120,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: >-
-    Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.tpfqq6ucbmr0Utgx
+  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.tpfqq6ucbmr0Utgx
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

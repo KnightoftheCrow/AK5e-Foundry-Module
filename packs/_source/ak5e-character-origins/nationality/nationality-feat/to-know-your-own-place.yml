@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>No matter how high you climb in the social ranks of Siracusa, you never
@@ -40,8 +40,7 @@ system:
 effects:
   - name: Hostility Check Advantage
     img: icons/creatures/mammals/wolf-shadow-black.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.IreMFbiQu1nmrNaX
+    origin: Compendium.ak5e.ak5e-character-origins.Item.IreMFbiQu1nmrNaX
     _id: 1mkuGmL9RD5uiRvd
     type: base
     system: {}
@@ -99,10 +98,10 @@ _stats:
   compendiumSource: Item.IreMFbiQu1nmrNaX
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881328247
-  modifiedTime: 1783457735144
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!IreMFbiQu1nmrNaX'

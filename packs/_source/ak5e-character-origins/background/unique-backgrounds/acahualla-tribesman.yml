@@ -5,8 +5,7 @@ _id: 8pWsuTE9dKHkMkBn
 img: icons/magic/nature/root-vine-entangled-humanoid.webp
 system:
   advancement:
-    UDklYUtwXn9fIiFV:
-      type: Trait
+    - type: Trait
       title: Background Proficiencies
       _id: UDklYUtwXn9fIiFV
       configuration:
@@ -22,22 +21,17 @@ system:
       level: 0
       hint: ''
       value: {}
-      flags: {}
-    I3U9b7iwIPAMa4fk:
-      type: ItemGrant
+    - type: ItemGrant
       title: Background Feature
       _id: I3U9b7iwIPAMa4fk
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.6NNZkFp4Q0r0xLhc
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.6NNZkFp4Q0r0xLhc
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>The tribes-people of Acahualla, specifically its Archosaurian
@@ -74,8 +68,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881347037
-  modifiedTime: 1783457734645
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771155995735
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!8pWsuTE9dKHkMkBn'

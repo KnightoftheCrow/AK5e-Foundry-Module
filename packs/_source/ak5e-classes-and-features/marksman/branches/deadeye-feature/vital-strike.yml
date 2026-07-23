@@ -2,7 +2,7 @@ folder: mhhCPYRgjBzheVER
 name: Vital Strike
 type: feat
 _id: yBYmY2sbmNQS71ul
-img: modules/AK5e-Foundry-Module/icons/Skill-Morgan2.webp
+img: modules/ak5e/icons/Skill-Morgan2.webp
 system:
   activities: {}
   uses:
@@ -10,8 +10,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    nq3RBxCeFO5Otw6v:
-      type: ScaleValue
+    - type: ScaleValue
       _id: nq3RBxCeFO5Otw6v
       configuration:
         identifier: ''
@@ -34,7 +33,6 @@ system:
       value: {}
       title: Damage
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>As an Action, while you are in Deadshot State, you make a Ranged Attack
@@ -63,9 +61,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Vital Strike
-    img: modules/AK5e-Foundry-Module/icons/Skill-Morgan2.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.yBYmY2sbmNQS71ul
+    img: modules/ak5e/icons/Skill-Morgan2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.yBYmY2sbmNQS71ul
     _id: D8YtBtludqkodTlu
     type: base
     system: {}
@@ -129,8 +126,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767621308346
-  modifiedTime: 1783457741258
+  modifiedTime: 1781192242286
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!yBYmY2sbmNQS71ul'

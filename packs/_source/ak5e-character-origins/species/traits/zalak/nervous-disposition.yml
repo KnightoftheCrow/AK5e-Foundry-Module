@@ -10,8 +10,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    NtDTyUogENSNeqPh:
-      type: Trait
+    - type: Trait
       _id: NtDTyUogENSNeqPh
       configuration:
         allowReplacements: false
@@ -23,7 +22,6 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
   description:
     value: >-
       <h3>Nervous Disposition</h3><p>The alert nature of the Zalak is well
@@ -55,8 +53,7 @@ system:
 effects:
   - name: +5 Passive Perception
     img: icons/magic/perception/silhouette-stealth-shadow.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.6dJdhtaGclkpREVA
+    origin: Compendium.ak5e.ak5e-character-origins.Item.6dJdhtaGclkpREVA
     _id: dRfAeViTYGMoqK86
     type: base
     system: {}
@@ -114,10 +111,10 @@ _stats:
   compendiumSource: Item.6dJdhtaGclkpREVA
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680545138
-  modifiedTime: 1783457734408
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680545138
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!6dJdhtaGclkpREVA'

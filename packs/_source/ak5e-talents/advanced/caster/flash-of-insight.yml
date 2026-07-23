@@ -2,14 +2,14 @@ folder: cyW9fgrb9XaTddeH
 name: Flash of Insight
 type: feat
 _id: f2cj2K2YyC6E15Qt
-img: modules/AK5e-Foundry-Module/icons/Skill-Titi1.webp
+img: modules/ak5e/icons/Skill-Titi1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>When you roll Damage for an Art, if any result on a dice is the maximum
@@ -52,8 +52,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1783457745337
+  modifiedTime: 1783248164627
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!f2cj2K2YyC6E15Qt'

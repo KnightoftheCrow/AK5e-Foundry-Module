@@ -10,8 +10,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    MuXoRRsiQVRmh9UG:
-      type: Trait
+    - type: Trait
       _id: MuXoRRsiQVRmh9UG
       configuration:
         allowReplacements: false
@@ -26,7 +25,6 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
   description:
     value: >-
       <h3>La Forza del Lupo</h3><p>The Lupo are hunters, through and through;
@@ -73,10 +71,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680313150
-  modifiedTime: 1783457736919
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680313150
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!fUWo3BQ2GNdduEln'

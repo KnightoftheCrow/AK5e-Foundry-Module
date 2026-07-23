@@ -1,7 +1,7 @@
 folder: 79ZspRBEAt515C3p
 name: Lone Journey
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Tecno1.webp
+img: modules/ak5e/icons/Skill-Tecno1.webp
 system:
   activities:
     AmBvl1VhyBBQyQJx:
@@ -148,7 +148,7 @@ system:
     subtype: skillPoints
 effects:
   - name: Lone Journey
-    img: modules/AK5e-Foundry-Module/icons/Skill-Tecno1.webp
+    img: modules/ak5e/icons/Skill-Tecno1.webp
     origin: Item.MJI6HH2DtK8fDaHb
     _id: 7HOEsnbQtUPg6lfA
     type: base

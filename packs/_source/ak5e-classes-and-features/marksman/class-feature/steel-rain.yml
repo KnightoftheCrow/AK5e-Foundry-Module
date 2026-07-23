@@ -2,7 +2,7 @@ folder: r2sKTPYSmSAEfVCU
 name: Steel Rain
 type: feat
 _id: LXSV4egb4CO9SJrq
-img: modules/AK5e-Foundry-Module/icons/Skill-Pinecone1.webp
+img: modules/ak5e/icons/Skill-Pinecone1.webp
 system:
   activities: {}
   uses:
@@ -11,7 +11,7 @@ system:
       - period: sr
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Rain death upon them.</p><p>Once per Short Rest, you may take the
@@ -48,8 +48,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767616616751
-  modifiedTime: 1783457739552
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768653249557
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!LXSV4egb4CO9SJrq'

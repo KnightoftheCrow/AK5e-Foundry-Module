@@ -1,14 +1,14 @@
 folder: SuzcwOsde1k6YNFn
 name: Enforcer (Module)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Holungday3.webp
+img: modules/ak5e/icons/Skill-Holungday3.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p><strong>Module Effect: </strong>If one of your Arts reduces a Creature
@@ -38,8 +38,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Execute Creatures when HP < Your Level
-    img: modules/AK5e-Foundry-Module/icons/Skill-Holungday3.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.OTYGPezfMEUfJbrE
+    img: modules/ak5e/icons/Skill-Holungday3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.OTYGPezfMEUfJbrE
     _id: Xu2p3EpPj4X3ZUA6
     type: base
     system: {}
@@ -104,14 +104,14 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.bgy7gNB8LAuSen9y
+  compendiumSource: Compendium.ak5e.ak5e-talents.Item.bgy7gNB8LAuSen9y
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1770924144147
-  modifiedTime: 1783457744803
+  modifiedTime: 1783246710298
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: OTYGPezfMEUfJbrE
 sort: 300000

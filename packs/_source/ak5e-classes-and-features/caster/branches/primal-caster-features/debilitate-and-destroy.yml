@@ -2,7 +2,7 @@ folder: BggdCAUNKZtaoKXU
 name: Debilitate and Destroy
 type: feat
 _id: tCg67bhiInVb70Wv
-img: modules/AK5e-Foundry-Module/icons/Skill-Mountain3.webp
+img: modules/ak5e/icons/Skill-Mountain3.webp
 system:
   activities:
     gdxIU1yU5OBbElbE:
@@ -123,8 +123,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    l5OR7XArJqRL0afs:
-      type: ScaleValue
+    - type: ScaleValue
       _id: l5OR7XArJqRL0afs
       configuration:
         identifier: ''
@@ -147,7 +146,6 @@ system:
       value: {}
       title: Damage
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>You excel at crushing enemies who are already reeling from your
@@ -186,10 +184,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774110222245
-  modifiedTime: 1783457741161
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774180540671
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!tCg67bhiInVb70Wv'

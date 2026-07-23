@@ -2,7 +2,7 @@ folder: wTkeoeJjxbPHcfdK
 name: Arts Cannon (Dangerous)
 type: consumable
 _id: nsdFWlxuYna0wOmx
-img: modules/AK5e-Foundry-Module/icons/Skill-Magallan2.webp
+img: modules/ak5e/icons/Skill-Magallan2.webp
 system:
   activities: {}
   uses:
@@ -64,7 +64,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.INprQ4cvwenZnp1r
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.INprQ4cvwenZnp1r
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

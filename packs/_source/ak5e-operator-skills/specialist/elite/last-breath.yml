@@ -1,7 +1,7 @@
 folder: NPg6zerqcXHk2X5L
 name: Last Breath
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Arene1.webp
+img: modules/ak5e/icons/Skill-Arene1.webp
 system:
   activities:
     YWmMnSc2ZhhBRPOR:
@@ -21,8 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '80'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -154,7 +153,7 @@ system:
     subtype: ''
 effects:
   - name: Last Breath (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Arene1.webp
+    img: modules/ak5e/icons/Skill-Arene1.webp
     origin: Item.u5qNbcmSCGueZeMz
     type: base
     _id: 7ilMlzj9o5pJMXHQ

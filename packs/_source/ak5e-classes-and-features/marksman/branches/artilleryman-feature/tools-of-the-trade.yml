@@ -2,7 +2,7 @@ folder: sFhUUBrNUgchnK7r
 name: Tools of the Trade
 type: feat
 _id: DhUBhhmlH6sR3jwg
-img: modules/AK5e-Foundry-Module/icons/Skill-IronGourd.webp
+img: modules/ak5e/icons/Skill-IronGourd.webp
 system:
   activities: {}
   uses:
@@ -10,8 +10,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    KgCuu8mkFmbLGB9S:
-      type: Trait
+    - type: Trait
       _id: KgCuu8mkFmbLGB9S
       configuration:
         allowReplacements: false
@@ -24,7 +23,6 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
   description:
     value: >-
       <p>An Artilleryman needs their tools. Without them, theyare ordinary
@@ -70,8 +68,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767620030507
-  modifiedTime: 1783457739242
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771176884114
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!DhUBhhmlH6sR3jwg'

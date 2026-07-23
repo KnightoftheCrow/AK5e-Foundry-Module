@@ -1,7 +1,7 @@
 folder: R7AlyM082W93xgTV
 name: Crackling Mote
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow3.webp
+img: modules/ak5e/icons/Skill-Goldenglow3.webp
 system:
   activities:
     oFMI5t2DBoP2L74r:
@@ -20,8 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '30'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -128,8 +127,7 @@ system:
         targets:
           - type: itemUses
             value: '35'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -186,7 +184,7 @@ system:
         - count: ''
           name: ''
           _id: WqSe7EwAstjYglFu
-          uuid: Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.1X9tNwtJLLnPxNAj
+          uuid: Compendium.ak5e.ak5e-bestiary.Actor.1X9tNwtJLLnPxNAj
           level:
             min: null
             max: null
@@ -245,7 +243,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -280,8 +278,8 @@ system:
     subtype: opSkill
 effects:
   - name: Crackling Mote (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow3.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.5T96PrigabSULpM0
+    img: modules/ak5e/icons/Skill-Goldenglow3.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.5T96PrigabSULpM0
     _id: GQBslauEmqcGyBM3
     type: base
     system: {}
@@ -324,7 +322,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -345,11 +343,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.wm32yJmlGPnUNNzZ
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1772986852717
-  modifiedTime: 1783457741921
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1772988254935
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: 5T96PrigabSULpM0
 _key: '!items!5T96PrigabSULpM0'

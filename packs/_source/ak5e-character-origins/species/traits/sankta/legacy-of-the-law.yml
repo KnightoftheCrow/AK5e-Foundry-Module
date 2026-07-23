@@ -10,8 +10,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    d4cyX4SnlTg71jqT:
-      type: Trait
+    - type: Trait
       _id: d4cyX4SnlTg71jqT
       configuration:
         allowReplacements: false
@@ -26,9 +25,7 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
-    BRO2jbi8mXGwIHqh:
-      type: ItemChoice
+    - type: ItemChoice
       _id: BRO2jbi8mXGwIHqh
       configuration:
         allowDrops: false
@@ -37,10 +34,10 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.GUk1cU5RDuYL3OOj
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.83TFCWS78pu6wFbu
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.IRMIzg2gLDqpCi2W
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.xtQm4gHdpMpPG44x
+          - uuid: Compendium.ak5e.ak5e-items.Item.GUk1cU5RDuYL3OOj
+          - uuid: Compendium.ak5e.ak5e-items.Item.83TFCWS78pu6wFbu
+          - uuid: Compendium.ak5e.ak5e-items.Item.IRMIzg2gLDqpCi2W
+          - uuid: Compendium.ak5e.ak5e-items.Item.xtQm4gHdpMpPG44x
         restriction:
           list: []
         spell: null
@@ -50,7 +47,6 @@ system:
         replaced: {}
       title: Choose your Patron Firearm
       hint: ''
-      flags: {}
   description:
     value: >-
       <h3>Legacy of the Law</h3><p>Firearms are a major feature of Lateran
@@ -95,10 +91,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680322247
-  modifiedTime: 1783457737778
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680322247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!sYu0VrMVVOEAhYut'

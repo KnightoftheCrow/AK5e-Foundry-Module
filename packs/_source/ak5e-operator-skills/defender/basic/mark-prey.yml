@@ -1,7 +1,7 @@
 folder: btRo3hRuz3IPi5IL
 name: Mark Prey
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Gavial1.png
+img: modules/ak5e/icons/Skill-Gavial1.png
 system:
   activities:
     RaUWx4V7uiCV2E1R:
@@ -19,8 +19,7 @@ system:
         targets:
           - type: itemUses
             value: '15'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -156,7 +155,7 @@ system:
     subtype: ''
 effects:
   - name: Mark Prey (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Gavial1.png
+    img: modules/ak5e/icons/Skill-Gavial1.png
     origin: Item.DsaNFGMfo8OZRd0P
     _id: 07cem1rULU91DvMR
     type: base
@@ -208,7 +207,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!u4SpssaGyJeef2fC.07cem1rULU91DvMR'
   - name: Mark Prey
-    img: modules/AK5e-Foundry-Module/icons/Skill-Gavial1.png
+    img: modules/ak5e/icons/Skill-Gavial1.png
     origin: Item.DsaNFGMfo8OZRd0P
     transfer: false
     _id: 8XpZyhhDafiJq3fZ

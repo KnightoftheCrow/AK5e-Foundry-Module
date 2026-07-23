@@ -2,7 +2,7 @@ folder: cyW9fgrb9XaTddeH
 name: Shelter
 type: feat
 _id: MhrpW5QBup6B4Bq1
-img: modules/AK5e-Foundry-Module/icons/Skill-Dur-nar1.webp
+img: modules/ak5e/icons/Skill-Dur-nar1.webp
 system:
   activities:
     qKXD3aOssyBHBqVL:
@@ -124,7 +124,7 @@ system:
         targets:
           - type: itemUses
             value: '3'
-            target: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+            target: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
             scaling: {}
       description:
         chatFlavor: ''
@@ -220,7 +220,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>You gain a Barrier that shatters whenever you take Damage from a
@@ -255,8 +255,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Shelter
-    img: modules/AK5e-Foundry-Module/icons/Skill-Dur-nar1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.MhrpW5QBup6B4Bq1
+    img: modules/ak5e/icons/Skill-Dur-nar1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.MhrpW5QBup6B4Bq1
     _id: zcaqm4wO0F1xD1T0
     type: base
     system: {}
@@ -321,8 +321,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1783457744670
+  modifiedTime: 1783247921546
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!MhrpW5QBup6B4Bq1'

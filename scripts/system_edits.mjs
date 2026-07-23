@@ -122,57 +122,57 @@ Hooks.once("init", () => {
 	
 	// Add ak5e weapon IDs
 	CONFIG.DND5E.weaponIds.artsstaff =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.8YnvqZkWkp8JrS0y";
+    "Compendium.ak5e.ak5e-items.Item.8YnvqZkWkp8JrS0y";
 	CONFIG.DND5E.weaponIds.artswand =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.KjYWdRFtdaAGe4yK";
+    "Compendium.ak5e.ak5e-items.Item.KjYWdRFtdaAGe4yK";
 	CONFIG.DND5E.weaponIds.axe =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.FPznW6rW4nghDh1r";
+    "Compendium.ak5e.ak5e-items.Item.FPznW6rW4nghDh1r";
 	CONFIG.DND5E.weaponIds.hammer =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.yRwC4x79xE5iUW7K";
+    "Compendium.ak5e.ak5e-items.Item.yRwC4x79xE5iUW7K";
 	CONFIG.DND5E.weaponIds.knife =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.EXF9dlqFHPDHi3KF";
+    "Compendium.ak5e.ak5e-items.Item.EXF9dlqFHPDHi3KF";
 	CONFIG.DND5E.weaponIds.spear =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.gQexKnwZdkamQcJ7";
+    "Compendium.ak5e.ak5e-items.Item.gQexKnwZdkamQcJ7";
 	CONFIG.DND5E.weaponIds.sword =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.Ve5i7MSi8dzq0UJG";
+    "Compendium.ak5e.ak5e-items.Item.Ve5i7MSi8dzq0UJG";
 	CONFIG.DND5E.weaponIds.whip =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.nkDWWkosdoJz2U6i";
+    "Compendium.ak5e.ak5e-items.Item.nkDWWkosdoJz2U6i";
 	CONFIG.DND5E.weaponIds.greataxe =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.fPUfPJOelKu6a97f";
+    "Compendium.ak5e.ak5e-items.Item.fPUfPJOelKu6a97f";
 	CONFIG.DND5E.weaponIds.greatsword =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.RVaNysRBX2kS1VKR";
+    "Compendium.ak5e.ak5e-items.Item.RVaNysRBX2kS1VKR";
 	CONFIG.DND5E.weaponIds.heavyhammer =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.a0RPD5m4b1rj0cQT";
+    "Compendium.ak5e.ak5e-items.Item.a0RPD5m4b1rj0cQT";
 	CONFIG.DND5E.weaponIds.polearm =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.XAvfUySa6K27SHTU";
+    "Compendium.ak5e.ak5e-items.Item.XAvfUySa6K27SHTU";
 	CONFIG.DND5E.weaponIds.bow =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.AVXlB27KScRknIiD";
+    "Compendium.ak5e.ak5e-items.Item.AVXlB27KScRknIiD";
 	CONFIG.DND5E.weaponIds.crossbow =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.o1kUk2al1bphk50J";
+    "Compendium.ak5e.ak5e-items.Item.o1kUk2al1bphk50J";
 	CONFIG.DND5E.weaponIds.handcrossbow =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.LqVtxMaqJotYLr9a";
+    "Compendium.ak5e.ak5e-items.Item.LqVtxMaqJotYLr9a";
 	CONFIG.DND5E.weaponIds.handgun =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.GUk1cU5RDuYL3OOj";
+    "Compendium.ak5e.ak5e-items.Item.GUk1cU5RDuYL3OOj";
 	CONFIG.DND5E.weaponIds.nailgun =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.jjpPLGFHOZsiWFBA";
+    "Compendium.ak5e.ak5e-items.Item.jjpPLGFHOZsiWFBA";
 	CONFIG.DND5E.weaponIds.throwingdisc =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.EIPiQurk25Of8x3e";
+    "Compendium.ak5e.ak5e-items.Item.EIPiQurk25Of8x3e";
 	CONFIG.DND5E.weaponIds.greatbow =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.z109grp29YIkpXSu";
+    "Compendium.ak5e.ak5e-items.Item.z109grp29YIkpXSu";
 	CONFIG.DND5E.weaponIds.heavycrossbow =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.866oxgC2YP2qYU9g";
+    "Compendium.ak5e.ak5e-items.Item.866oxgC2YP2qYU9g";
 	CONFIG.DND5E.weaponIds.heavythrowingdisc =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.Dhmp8MJX2KGACQh7";
+    "Compendium.ak5e.ak5e-items.Item.Dhmp8MJX2KGACQh7";
 	CONFIG.DND5E.weaponIds.machinegun =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.83TFCWS78pu6wFbu";
+    "Compendium.ak5e.ak5e-items.Item.83TFCWS78pu6wFbu";
 	CONFIG.DND5E.weaponIds.rifle =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.IRMIzg2gLDqpCi2W";
+    "Compendium.ak5e.ak5e-items.Item.IRMIzg2gLDqpCi2W";
 	CONFIG.DND5E.weaponIds.shotgun =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.xtQm4gHdpMpPG44x";
+    "Compendium.ak5e.ak5e-items.Item.xtQm4gHdpMpPG44x";
 	CONFIG.DND5E.weaponIds.grenadelauncher =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.opmLg0JuPqMFgZjL";
+    "Compendium.ak5e.ak5e-items.Item.opmLg0JuPqMFgZjL";
 	CONFIG.DND5E.weaponIds.rocketlauncher =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.DpzJAwVWjBo5cLEG";
+    "Compendium.ak5e.ak5e-items.Item.DpzJAwVWjBo5cLEG";
 
 // Adds AK5e Shield Types
 	CONFIG.DND5E.armorTypes.lightS = "Light Shield"
@@ -194,39 +194,39 @@ Hooks.once("init", () => {
 
 // Adds AK5E Armour Profs
 	CONFIG.DND5E.armorIds.protectiveclothing =
-	"Compendium.AK5e-Foundry-Module.ak5e-items.Item.OXGwqTbLRvlNxP0Q";
+	"Compendium.ak5e.ak5e-items.Item.OXGwqTbLRvlNxP0Q";
 	CONFIG.DND5E.armorIds.reinforcedclothing =
-	"Compendium.AK5e-Foundry-Module.ak5e-items.Item.DMq5RL7e35ZveMxb";
+	"Compendium.ak5e.ak5e-items.Item.DMq5RL7e35ZveMxb";
 	CONFIG.DND5E.armorIds.lightcombatgear =
-	"Compendium.AK5e-Foundry-Module.ak5e-items.Item.2SCb6lJXMkjDFMif";
+	"Compendium.ak5e.ak5e-items.Item.2SCb6lJXMkjDFMif";
 	CONFIG.DND5E.armorIds.vanguardarmour =
-	"Compendium.AK5e-Foundry-Module.ak5e-items.Item.6UCrBjD53j1ZN3o0";
+	"Compendium.ak5e.ak5e-items.Item.6UCrBjD53j1ZN3o0";
 	CONFIG.DND5E.armorIds.underarmour =
-	"Compendium.AK5e-Foundry-Module.ak5e-items.Item.33A3rLP3Gm4A7Nrq";
+	"Compendium.ak5e.ak5e-items.Item.33A3rLP3Gm4A7Nrq";
 	CONFIG.DND5E.armorIds.combatgear =
-	"Compendium.AK5e-Foundry-Module.ak5e-items.Item.Cec4UmE7i2g5ZJdm";
+	"Compendium.ak5e.ak5e-items.Item.Cec4UmE7i2g5ZJdm";
 	CONFIG.DND5E.armorIds.hazardgear =
-	"Compendium.AK5e-Foundry-Module.ak5e-items.Item.rJSxxqHViUccUU7U";
+	"Compendium.ak5e.ak5e-items.Item.rJSxxqHViUccUU7U";
 	CONFIG.DND5E.armorIds.heavycombatgear =
-	"Compendium.AK5e-Foundry-Module.ak5e-items.Item.JzPJEurpRdpXPazc";
+	"Compendium.ak5e.ak5e-items.Item.JzPJEurpRdpXPazc";
 	CONFIG.DND5E.armorIds.metalarmour =
-	"Compendium.AK5e-Foundry-Module.ak5e-items.Item.0mz0nMJ4vg2A4a2y";
+	"Compendium.ak5e.ak5e-items.Item.0mz0nMJ4vg2A4a2y";
 	CONFIG.DND5E.armorIds.defenderarmour =
-	"Compendium.AK5e-Foundry-Module.ak5e-items.Item.CUj8KxuNMez6OMnx";
+	"Compendium.ak5e.ak5e-items.Item.CUj8KxuNMez6OMnx";
 	CONFIG.DND5E.armorIds.heavydefenderarmour =
-	"Compendium.AK5e-Foundry-Module.ak5e-items.Item.6CF9wwRiN7htPJSZ";
+	"Compendium.ak5e.ak5e-items.Item.6CF9wwRiN7htPJSZ";
 	CONFIG.DND5E.armorIds.juggernautarmour =
-	"Compendium.AK5e-Foundry-Module.ak5e-items.Item.tnskKCY7wCAlcdmm";
+	"Compendium.ak5e.ak5e-items.Item.tnskKCY7wCAlcdmm";
 	
 // Add AK5e Shield IDs
 	CONFIG.DND5E.shieldIds.smallshield =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.ajnr0G1r5uS2J8BP";
+    "Compendium.ak5e.ak5e-items.Item.ajnr0G1r5uS2J8BP";
 	CONFIG.DND5E.shieldIds.combatshield =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.DSudvLQbkLWPs6g8";
+    "Compendium.ak5e.ak5e-items.Item.DSudvLQbkLWPs6g8";
 	CONFIG.DND5E.shieldIds.defendershield =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.bJUFFpHXtrz7hE7v";
+    "Compendium.ak5e.ak5e-items.Item.bJUFFpHXtrz7hE7v";
 	CONFIG.DND5E.shieldIds.heavydefendershield =
-    "Compendium.AK5e-Foundry-Module.ak5e-items.Item.iGFDmAEKvPmXAmkp";
+    "Compendium.ak5e.ak5e-items.Item.iGFDmAEKvPmXAmkp";
 
 // Removes default 5e Shield Profs
 	delete CONFIG.DND5E.armorProficiencies.shl;
@@ -260,107 +260,107 @@ Hooks.once("init", () => {
 
 	CONFIG.DND5E.tools.art = {
     ability: "wis",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.uJv6rhzPijvjHznJ"
+    id: "Compendium.ak5e.ak5e-items.Item.uJv6rhzPijvjHznJ"
 	};
 	CONFIG.DND5E.tools.brewing = {
     ability: "wis",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.Ildgv7odyqeahxmy"
+    id: "Compendium.ak5e.ak5e-items.Item.Ildgv7odyqeahxmy"
 	};
 	CONFIG.DND5E.tools.cooking = {
     ability: "wis",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.cx7nNrpfLvAHIfmq"
+    id: "Compendium.ak5e.ak5e-items.Item.cx7nNrpfLvAHIfmq"
 	};
 	CONFIG.DND5E.tools.engineering = {
     ability: "int",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.XfS9C2RHzrrMdlip"
+    id: "Compendium.ak5e.ak5e-items.Item.XfS9C2RHzrrMdlip"
 	};
 	CONFIG.DND5E.tools.instrumentbagpipes = {
     ability: "cha",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.ZuHZkt1h2YP8lgwu"
+    id: "Compendium.ak5e.ak5e-items.Item.ZuHZkt1h2YP8lgwu"
 	};
 	CONFIG.DND5E.tools.instrumentbass = {
     ability: "cha",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.SCHjE2T5gXZRtIpX"
+    id: "Compendium.ak5e.ak5e-items.Item.SCHjE2T5gXZRtIpX"
 	};
 	CONFIG.DND5E.tools.instrumentcello = {
     ability: "cha",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.96vApcsV1yyaPTyD"
+    id: "Compendium.ak5e.ak5e-items.Item.96vApcsV1yyaPTyD"
 	};
 	CONFIG.DND5E.tools.instrumentdrums = {
     ability: "cha",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.QvzlfvutcIIezpDs"
+    id: "Compendium.ak5e.ak5e-items.Item.QvzlfvutcIIezpDs"
 	};
 	CONFIG.DND5E.tools.instrumentflute = {
     ability: "cha",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.gFr3mcd57Og1c0pZ"
+    id: "Compendium.ak5e.ak5e-items.Item.gFr3mcd57Og1c0pZ"
 	};
 	CONFIG.DND5E.tools.instrumentguitar = {
     ability: "cha",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.Hs0mF5dzKXUqdAdP"
+    id: "Compendium.ak5e.ak5e-items.Item.Hs0mF5dzKXUqdAdP"
 	};
 	CONFIG.DND5E.tools.instrumentharp = {
     ability: "cha",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.5l64laM4rk4Ivi0m"
+    id: "Compendium.ak5e.ak5e-items.Item.5l64laM4rk4Ivi0m"
 	};
 	CONFIG.DND5E.tools.instrumentkeyboard = {
     ability: "cha",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.YAl6BnAF78PaYlDX"
+    id: "Compendium.ak5e.ak5e-items.Item.YAl6BnAF78PaYlDX"
 	};
 	CONFIG.DND5E.tools.instrumentmicrophone = {
     ability: "cha",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.dqXsCaK1P0JhtYC4"
+    id: "Compendium.ak5e.ak5e-items.Item.dqXsCaK1P0JhtYC4"
 	};
 	CONFIG.DND5E.tools.instrumenttrombone = {
     ability: "cha",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.Nng70cKI1btONIpk"
+    id: "Compendium.ak5e.ak5e-items.Item.Nng70cKI1btONIpk"
 	};
 	CONFIG.DND5E.tools.instrumenttuba = {
     ability: "cha",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.8kQVIEXNMpMwu0XE"
+    id: "Compendium.ak5e.ak5e-items.Item.8kQVIEXNMpMwu0XE"
 	};
 	CONFIG.DND5E.tools.instrumentturntable = {
     ability: "cha",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.tDJPOjB3go7yh1at"
+    id: "Compendium.ak5e.ak5e-items.Item.tDJPOjB3go7yh1at"
 	};
 	CONFIG.DND5E.tools.instrumentviolin = {
     ability: "cha",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.YRaUmzhRyxMbjH3U"
+    id: "Compendium.ak5e.ak5e-items.Item.YRaUmzhRyxMbjH3U"
 	};
 	CONFIG.DND5E.tools.instrumentother = {
     ability: "cha",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.sIWoR9fKRrec9UfW"
+    id: "Compendium.ak5e.ak5e-items.Item.sIWoR9fKRrec9UfW"
 	};
 	CONFIG.DND5E.tools.maintenance = {
     ability: "str",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.LL42rU6BBic45HZv"
+    id: "Compendium.ak5e.ak5e-items.Item.LL42rU6BBic45HZv"
 	};
 	CONFIG.DND5E.tools.makeover = {
     ability: "int",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.0ft9PxeRW8FoUjgb"
+    id: "Compendium.ak5e.ak5e-items.Item.0ft9PxeRW8FoUjgb"
 	};
 	CONFIG.DND5E.tools.mechanism = {
     ability: "dex",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.IIulvylBDhw2Zz4F"
+    id: "Compendium.ak5e.ak5e-items.Item.IIulvylBDhw2Zz4F"
 	};
 	CONFIG.DND5E.tools.medical = {
     ability: "int",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.JAmRuAi1wbg4Zwdm"
+    id: "Compendium.ak5e.ak5e-items.Item.JAmRuAi1wbg4Zwdm"
 	};
 	CONFIG.DND5E.tools.messenger = {
     ability: "int",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.wqd3yeo5ea2DAqD9"
+    id: "Compendium.ak5e.ak5e-items.Item.wqd3yeo5ea2DAqD9"
 	};
 	CONFIG.DND5E.tools.pharmacology = {
     ability: "int",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.YWNh0sRApVhTseeC"
+    id: "Compendium.ak5e.ak5e-items.Item.YWNh0sRApVhTseeC"
 	};
 	CONFIG.DND5E.tools.tailoring = {
     ability: "dex",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.yUbrNv1GkAtDTujE"
+    id: "Compendium.ak5e.ak5e-items.Item.yUbrNv1GkAtDTujE"
 	};
 	CONFIG.DND5E.tools.woodwork = {
     ability: "str",
-    id: "Compendium.AK5e-Foundry-Module.ak5e-items.Item.2MfZHPX5xtOxH4Zr"
+    id: "Compendium.ak5e.ak5e-items.Item.2MfZHPX5xtOxH4Zr"
 	};
 
 // Add Drone Vehicle Type
@@ -427,42 +427,42 @@ Hooks.once("init", () => {
 	CONFIG.DND5E.conditionTypes.bleeding = {
 	  name: "ak5e.conditionTypes.condTypeBleed",
       img: "systems/dnd5e/icons/svg/statuses/bleeding.svg",
-	  reference: "Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.yrw3CUXpJvV19NKU.JournalEntryPage.CwF1796PusuYK4aS",
+	  reference: "Compendium.ak5e.ak5e-rules.JournalEntry.yrw3CUXpJvV19NKU.JournalEntryPage.CwF1796PusuYK4aS",
     };
 	CONFIG.DND5E.conditionTypes.burning = {
       name: "ak5e.conditionTypes.condTypeBurn",
 	  img: "systems/dnd5e/icons/svg/statuses/burning.svg",
-	  reference: "Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.yrw3CUXpJvV19NKU.JournalEntryPage.QvfVcC6EfK8BcV1u",
+	  reference: "Compendium.ak5e.ak5e-rules.JournalEntry.yrw3CUXpJvV19NKU.JournalEntryPage.QvfVcC6EfK8BcV1u",
     };
 	CONFIG.DND5E.conditionTypes.corroded = {
       name: "ak5e.conditionTypes.condTypeCorro",
 	  img: "systems/dnd5e/icons/svg/damage/acid.svg",
-	  reference: "Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.yrw3CUXpJvV19NKU.JournalEntryPage.jx1bNgvD67Kbm5i9",
+	  reference: "Compendium.ak5e.ak5e-rules.JournalEntry.yrw3CUXpJvV19NKU.JournalEntryPage.jx1bNgvD67Kbm5i9",
     };
 	CONFIG.DND5E.conditionTypes.dazed = {
 	  name: "ak5e.conditionTypes.condTypeDazed",
       img: "systems/dnd5e/icons/svg/statuses/sleeping.svg",
-	  reference: "Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.yrw3CUXpJvV19NKU.JournalEntryPage.I9d3BTGGvqQ1NK6z",
+	  reference: "Compendium.ak5e.ak5e-rules.JournalEntry.yrw3CUXpJvV19NKU.JournalEntryPage.I9d3BTGGvqQ1NK6z",
     };
 	CONFIG.DND5E.conditionTypes.frozen = {
       name: "ak5e.conditionTypes.condTypeFrozen",
 	  img: "systems/dnd5e/icons/svg/damage/cold.svg",
-	  reference: "Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.yrw3CUXpJvV19NKU.JournalEntryPage.yW3n8jEY8GZqvt8A",
+	  reference: "Compendium.ak5e.ak5e-rules.JournalEntry.yrw3CUXpJvV19NKU.JournalEntryPage.yW3n8jEY8GZqvt8A",
     };
 	CONFIG.DND5E.conditionTypes.necrotised = {
       name: "ak5e.conditionTypes.condTypeNecro",
 	  img: "systems/dnd5e/icons/svg/statuses/diseased.svg",
-	  reference: "Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.yrw3CUXpJvV19NKU.JournalEntryPage.VpoEdERvRcEK7jiW",
+	  reference: "Compendium.ak5e.ak5e-rules.JournalEntry.yrw3CUXpJvV19NKU.JournalEntryPage.VpoEdERvRcEK7jiW",
     };
 	CONFIG.DND5E.conditionTypes.nervousimpairment = {
       name: "ak5e.conditionTypes.condTypeNerve",
 	  img: "systems/dnd5e/icons/svg/damage/necrotic.svg",
-	  reference: "Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.yrw3CUXpJvV19NKU.JournalEntryPage.ydKqJFnponQGLdWq",
+	  reference: "Compendium.ak5e.ak5e-rules.JournalEntry.yrw3CUXpJvV19NKU.JournalEntryPage.ydKqJFnponQGLdWq",
     };
 	CONFIG.DND5E.conditionTypes.silenced = {
       name: "ak5e.conditionTypes.condTypeSilen",
 	  img: "systems/dnd5e/icons/svg/statuses/silenced.svg",
-	  reference: "Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.yrw3CUXpJvV19NKU.JournalEntryPage.oda5UOSUJg7n9DQL",
+	  reference: "Compendium.ak5e.ak5e-rules.JournalEntry.yrw3CUXpJvV19NKU.JournalEntryPage.oda5UOSUJg7n9DQL",
     };
 
 	// Adds AK5e Standard Langs

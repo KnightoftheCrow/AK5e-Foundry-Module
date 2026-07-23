@@ -2,14 +2,14 @@ folder: mQ7J5doN5qC9pvT1
 name: Deliberate, Efficient
 type: feat
 _id: dwEg1h7oKT7vUqOJ
-img: modules/AK5e-Foundry-Module/icons/Skill-TheUnchained3.webp
+img: modules/ak5e/icons/Skill-TheUnchained3.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>If you slow your pace, you can place your shots to best pierce the
@@ -49,8 +49,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767621065146
-  modifiedTime: 1783457740283
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771180485511
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!dwEg1h7oKT7vUqOJ'

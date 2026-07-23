@@ -10,8 +10,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    TG82uvw8aF7Y5TwO:
-      type: Trait
+    - type: Trait
       _id: TG82uvw8aF7Y5TwO
       configuration:
         allowReplacements: false
@@ -27,9 +26,7 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
-    joecNHa6BWXzKi8L:
-      type: ItemChoice
+    - type: ItemChoice
       _id: joecNHa6BWXzKi8L
       configuration:
         allowDrops: true
@@ -38,9 +35,9 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.XAvfUySa6K27SHTU
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.o1kUk2al1bphk50J
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Cec4UmE7i2g5ZJdm
+          - uuid: Compendium.ak5e.ak5e-items.Item.XAvfUySa6K27SHTU
+          - uuid: Compendium.ak5e.ak5e-items.Item.o1kUk2al1bphk50J
+          - uuid: Compendium.ak5e.ak5e-items.Item.Cec4UmE7i2g5ZJdm
         restriction:
           list: []
         spell: null
@@ -50,7 +47,6 @@ system:
         replaced: {}
       title: ''
       hint: Choose the equipment you chose your Proficiency in.
-      flags: {}
   description:
     value: >-
       <p>As a former soldier of the Ursus Army, you are familiar with their
@@ -81,8 +77,7 @@ system:
 effects:
   - name: Bonus Damage vs Frightened
     img: icons/environment/people/charge.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.enKSl72KyMn6RWwj
+    origin: Compendium.ak5e.ak5e-character-origins.Item.enKSl72KyMn6RWwj
     _id: lPwEIsErrlQoor2v
     type: base
     system: {}
@@ -145,10 +140,10 @@ _stats:
   compendiumSource: Item.tV84Xa6UAhcva7fF
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881347037
-  modifiedTime: 1783457736891
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!enKSl72KyMn6RWwj'

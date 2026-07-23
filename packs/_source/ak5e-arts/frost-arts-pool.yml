@@ -9,14 +9,13 @@ system:
     recovery: []
     max: ''
   advancement:
-    hOcBNrk9NoZlmRR7:
-      type: ItemGrant
+    - type: ItemGrant
       _id: hOcBNrk9NoZlmRR7
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.ctW81uiX56xZR2c5
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.1l9ntmX4YUt54xkL
+          - uuid: Compendium.ak5e.ak5e-arts.Item.1l9ntmX4YUt54xkL
             optional: false
         optional: false
         spell:
@@ -31,16 +30,14 @@ system:
       level: 0
       title: ''
       hint: ''
-      flags: {}
-    NABo3MwY4iduxq7N:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplArmorofAga
             optional: false
           - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplIceKnife00
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.r9G090XaO648dxhX
+          - uuid: Compendium.ak5e.ak5e-arts.Item.r9G090XaO648dxhX
             optional: false
         optional: false
         spell:
@@ -56,14 +53,12 @@ system:
       title: ''
       hint: ''
       _id: NABo3MwY4iduxq7N
-      flags: {}
-    IXt1si7dhdRwfgKW:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.zwpCHoEOqeslnwDD
+          - uuid: Compendium.ak5e.ak5e-arts.Item.zwpCHoEOqeslnwDD
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.FTBqTsgwINEQQYXS
+          - uuid: Compendium.ak5e.ak5e-arts.Item.FTBqTsgwINEQQYXS
             optional: false
         optional: false
         spell:
@@ -79,14 +74,12 @@ system:
       title: ''
       hint: ''
       _id: IXt1si7dhdRwfgKW
-      flags: {}
-    jMthAthuKu3jDmob:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.dhqBY4TvVjxVmOZd
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.AE5gcTX3PHPIO3Gt
+          - uuid: Compendium.ak5e.ak5e-arts.Item.AE5gcTX3PHPIO3Gt
             optional: false
         optional: false
         spell:
@@ -102,14 +95,12 @@ system:
       title: ''
       hint: ''
       _id: jMthAthuKu3jDmob
-      flags: {}
-    C7IWnQmAB9J6cUaJ:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.4XZraewoItLOenQD
+          - uuid: Compendium.ak5e.ak5e-arts.Item.4XZraewoItLOenQD
             optional: false
         optional: false
         spell:
@@ -125,9 +116,7 @@ system:
       title: ''
       hint: ''
       _id: C7IWnQmAB9J6cUaJ
-      flags: {}
-    soeQVL26jp0JRVpB:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.RpKjTlYASrfqUPVA
@@ -146,9 +135,7 @@ system:
       title: ''
       hint: ''
       _id: soeQVL26jp0JRVpB
-      flags: {}
-    2nENPeY91lFOuI7W:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.MImfWCzEPRMYD3Xp
@@ -169,12 +156,10 @@ system:
       title: ''
       hint: ''
       _id: 2nENPeY91lFOuI7W
-      flags: {}
-    cpKswOWYpj91k6Wb:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.zlcr0nmSZUeRl15J
+          - uuid: Compendium.ak5e.ak5e-arts.Item.zlcr0nmSZUeRl15J
             optional: false
         optional: false
         spell:
@@ -190,12 +175,10 @@ system:
       title: ''
       hint: ''
       _id: cpKswOWYpj91k6Wb
-      flags: {}
-    TvX8kmCZwEUSVT85:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.my1iUUvZfFKXVYI8
+          - uuid: Compendium.ak5e.ak5e-arts.Item.my1iUUvZfFKXVYI8
             optional: false
         optional: false
         spell:
@@ -211,12 +194,10 @@ system:
       title: ''
       hint: ''
       _id: TvX8kmCZwEUSVT85
-      flags: {}
-    tfgARHFzs7NG6V1w:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.Y0ts6q26mL5S4gg1
+          - uuid: Compendium.ak5e.ak5e-arts.Item.Y0ts6q26mL5S4gg1
             optional: false
         optional: false
         spell:
@@ -232,7 +213,6 @@ system:
       title: ''
       hint: ''
       _id: tfgARHFzs7NG6V1w
-      flags: {}
   description:
     value: >-
       <p>While Flame Arts are an exercise in the manipulation of the thermal and
@@ -295,10 +275,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1770836360421
-  modifiedTime: 1783457746795
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771159138269
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

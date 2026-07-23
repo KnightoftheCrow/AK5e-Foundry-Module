@@ -121,7 +121,7 @@ system:
       - period: lr
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>Until the Last Breath</h3><p>Kuranta are skilled fighters; this is
@@ -156,8 +156,7 @@ system:
 effects:
   - name: Until the Last Breath
     img: icons/skills/wounds/anatomy-organ-heart-red.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.RWATM7PYIAAUaCVz
+    origin: Compendium.ak5e.ak5e-character-origins.Item.RWATM7PYIAAUaCVz
     transfer: false
     _id: rRZuQ7sturKrlzc5
     type: base
@@ -223,10 +222,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680307075
-  modifiedTime: 1783457735707
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680307075
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!RWATM7PYIAAUaCVz'

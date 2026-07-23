@@ -2,7 +2,7 @@ folder: 7G1D42jSHLcgp1sX
 name: Kjerag
 type: ak5e.nationality
 _id: hWIXJv3sVJ71AyWA
-img: modules/AK5e-Foundry-Module/icons/nationality/nationality.svg
+img: modules/ak5e/icons/nationality/nationality.svg
 system:
   filePathFields:
     advancement.*.icon:
@@ -41,8 +41,7 @@ system:
       _id: A5yPZFENkR3hunH8
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.8Eodr2kNAJStimUu
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.8Eodr2kNAJStimUu
             optional: false
         optional: false
         spell: null

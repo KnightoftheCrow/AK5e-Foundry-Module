@@ -2,7 +2,7 @@ folder: q1MrBsepLJyJ9ezj
 name: Shock Absorbers
 type: consumable
 _id: OXSNB1XLc1och2Pv
-img: modules/AK5e-Foundry-Module/icons/Skill-Magallan3.webp
+img: modules/ak5e/icons/Skill-Magallan3.webp
 system:
   activities: {}
   uses:
@@ -59,7 +59,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.JU6b9ORBmcrVmLRu
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.JU6b9ORBmcrVmLRu
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

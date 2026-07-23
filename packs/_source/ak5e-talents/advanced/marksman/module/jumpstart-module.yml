@@ -1,14 +1,14 @@
 folder: 5ej4KENJRk8I9Ksg
 name: Jumpstart (Module)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-ReconSelfDriverLaunchpoint.webp
+img: modules/ak5e/icons/Skill-ReconSelfDriverLaunchpoint.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p><strong>Module:</strong> The Start SP of your Operator Skills is
@@ -37,8 +37,8 @@ system:
     subtype: talent
 effects:
   - name: Jumpstart (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-ReconSelfDriverLaunchpoint.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.86tIY941JcOUVILB
+    img: modules/ak5e/icons/Skill-ReconSelfDriverLaunchpoint.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.86tIY941JcOUVILB
     _id: h5qsQcWkEfusKdGw
     type: base
     system: {}
@@ -95,9 +95,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1768144146082
-  modifiedTime: 1783457744026
+  modifiedTime: 1783247616171
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

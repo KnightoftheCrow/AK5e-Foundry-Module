@@ -1,87 +1,70 @@
 folder: O2Yp1afpugL0lA12
 name: Spreadshot
 type: subclass
-img: modules/AK5e-Foundry-Module/icons/Spreadshooter_Sniper.webp
+img: modules/ak5e/icons/Spreadshooter_Sniper.webp
 system:
   advancement:
-    e626NHH38QCv7nju:
-      type: ItemGrant
+    - type: ItemGrant
       title: Branch Feature
       _id: e626NHH38QCv7nju
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.WcwBPZTUeEMe0BO6
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.WcwBPZTUeEMe0BO6
             optional: false
         optional: false
         spell: null
       value: {}
       level: 18
       hint: ''
-      flags: {}
-    QPDuB4nhpCoeeneV:
-      type: ItemGrant
+    - type: ItemGrant
       title: Branch Feature
       _id: QPDuB4nhpCoeeneV
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.rtFRQ65V6lRwsdCJ
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.rtFRQ65V6lRwsdCJ
             optional: false
         optional: false
         spell: null
       value: {}
       level: 15
       hint: ''
-      flags: {}
-    24EdEXVTzVMQjk6V:
-      type: ItemGrant
+    - type: ItemGrant
       title: Branch Feature
       _id: 24EdEXVTzVMQjk6V
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.yjFRcEf1Mx0hdZTw
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.yjFRcEf1Mx0hdZTw
             optional: false
         optional: false
         spell: null
       value: {}
       level: 10
       hint: ''
-      flags: {}
-    bzDQmhSfUZuXMcKL:
-      type: ItemGrant
+    - type: ItemGrant
       title: Branch Feature
       _id: bzDQmhSfUZuXMcKL
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.m64RHyIKaX12J7To
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.m64RHyIKaX12J7To
             optional: false
         optional: false
         spell: null
       value: {}
       level: 4
       hint: ''
-      flags: {}
-    J3BOEjWkQ3tRn3q8:
-      type: ItemGrant
+    - type: ItemGrant
       title: Branch Feature
       _id: J3BOEjWkQ3tRn3q8
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.ggIqdAVYniuTd8wN
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.ggIqdAVYniuTd8wN
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.p8sd4C5qnnxm9lAx
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.p8sd4C5qnnxm9lAx
             optional: false
         optional: false
         spell: null
       value: {}
       level: 1
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>Spreadshot Marksmen excel in two aspects; close quarters combat, and
@@ -91,17 +74,17 @@ system:
       Features:</p><table><tbody><tr><td
       data-colwidth="87"><p>Level</p></td><td><p>Branch
       Feature</p></td></tr><tr><td data-colwidth="87"><p
-      style="text-align:center">1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.p8sd4C5qnnxm9lAx]{Spread
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.p8sd4C5qnnxm9lAx]{Spread
       the Love},
-      @UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.ggIqdAVYniuTd8wN]{Pepperbox}</p></td></tr><tr><td
+      @UUID[Compendium.ak5e.ak5e-classes-and-features.Item.ggIqdAVYniuTd8wN]{Pepperbox}</p></td></tr><tr><td
       data-colwidth="87"><p
-      style="text-align:center">4</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.m64RHyIKaX12J7To]{Buckshot}</p></td></tr><tr><td
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.m64RHyIKaX12J7To]{Buckshot}</p></td></tr><tr><td
       data-colwidth="87"><p
-      style="text-align:center">10</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.yjFRcEf1Mx0hdZTw]{Centre
+      style="text-align:center">10</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.yjFRcEf1Mx0hdZTw]{Centre
       of Mass}</p></td></tr><tr><td data-colwidth="87"><p
-      style="text-align:center">15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.rtFRQ65V6lRwsdCJ]{Breach
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.rtFRQ65V6lRwsdCJ]{Breach
       and Clear}</p></td></tr><tr><td data-colwidth="87"><p
-      style="text-align:center">18</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.WcwBPZTUeEMe0BO6]{Boomstick
+      style="text-align:center">18</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.WcwBPZTUeEMe0BO6]{Boomstick
       Blitz}</p></td></tr></tbody></table>
     chat: ''
   identifier: spreadshot
@@ -125,10 +108,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767615324380
-  modifiedTime: 1783457740229
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1767875729523
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

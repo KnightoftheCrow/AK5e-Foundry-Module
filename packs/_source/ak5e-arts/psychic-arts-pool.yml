@@ -9,8 +9,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    hOcBNrk9NoZlmRR7:
-      type: ItemGrant
+    - type: ItemGrant
       _id: hOcBNrk9NoZlmRR7
       configuration:
         items:
@@ -31,9 +30,7 @@ system:
       level: 0
       title: ''
       hint: ''
-      flags: {}
-    NABo3MwY4iduxq7N:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW
@@ -58,9 +55,7 @@ system:
       title: ''
       hint: ''
       _id: NABo3MwY4iduxq7N
-      flags: {}
-    IXt1si7dhdRwfgKW:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.3MYDjS6k9IYL0aTj
@@ -85,9 +80,7 @@ system:
       title: ''
       hint: ''
       _id: IXt1si7dhdRwfgKW
-      flags: {}
-    jMthAthuKu3jDmob:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.XXUDGFELgoskdOD0
@@ -106,9 +99,7 @@ system:
       title: ''
       hint: ''
       _id: jMthAthuKu3jDmob
-      flags: {}
-    C7IWnQmAB9J6cUaJ:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.91Sw6vOIaO7U8DvM
@@ -129,9 +120,7 @@ system:
       title: ''
       hint: ''
       _id: C7IWnQmAB9J6cUaJ
-      flags: {}
-    soeQVL26jp0JRVpB:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.5OGFdJw35QXp6mh6
@@ -150,9 +139,7 @@ system:
       title: ''
       hint: ''
       _id: soeQVL26jp0JRVpB
-      flags: {}
-    2nENPeY91lFOuI7W:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items: []
         optional: false
@@ -169,9 +156,7 @@ system:
       title: ''
       hint: ''
       _id: 2nENPeY91lFOuI7W
-      flags: {}
-    TvX8kmCZwEUSVT85:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp
@@ -190,9 +175,7 @@ system:
       title: ''
       hint: ''
       _id: TvX8kmCZwEUSVT85
-      flags: {}
-    tfgARHFzs7NG6V1w:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.Wl2vtJ4hCt2tpWfR
@@ -211,9 +194,7 @@ system:
       title: ''
       hint: ''
       _id: tfgARHFzs7NG6V1w
-      flags: {}
-    W1yGOF6IK8Z29WFw:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.LrPvWHBPmiMQQsKB
@@ -234,7 +215,6 @@ system:
       title: ''
       hint: ''
       _id: W1yGOF6IK8Z29WFw
-      flags: {}
   description:
     value: >-
       <p>Perhaps the most rare of the “standard” Arts, Psychic Arts interfere
@@ -302,12 +282,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1770836564686
-  modifiedTime: 1783457746754
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1770836564711
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

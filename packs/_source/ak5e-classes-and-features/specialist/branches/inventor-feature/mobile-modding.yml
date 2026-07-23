@@ -2,7 +2,7 @@ folder: c1EQsN3JLDePX4rN
 name: Mobile Modding
 type: feat
 _id: f6YCGaZeMwnMlNYP
-img: modules/AK5e-Foundry-Module/icons/Skill-FoldableFacilityMaintainer.webp
+img: modules/ak5e/icons/Skill-FoldableFacilityMaintainer.webp
 system:
   activities: {}
   uses:

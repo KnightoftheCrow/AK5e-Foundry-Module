@@ -1,7 +1,7 @@
 folder: QfmU6v3RpFCsjWum
 name: Kingslayer (Module)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-TheBreacher3.png
+img: modules/ak5e/icons/Skill-TheBreacher3.png
 system:
   activities: {}
   uses:
@@ -22,7 +22,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.mlANfWU9dVkEcDSi
+      - Compendium.ak5e.ak5e-talents.Item.mlANfWU9dVkEcDSi
     repeatable: false
     level: 13
   properties:

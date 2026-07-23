@@ -2,14 +2,14 @@ folder: 1RN2G127laeWSTpy
 name: Power Surge
 type: feat
 _id: oWi50ZHAdAas4rxR
-img: modules/AK5e-Foundry-Module/icons/Skill-Lightningbearer2.webp
+img: modules/ak5e/icons/Skill-Lightningbearer2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Your strength is further concentrated into a single moment of
@@ -46,10 +46,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774109154652
-  modifiedTime: 1783457740926
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774180480061
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!oWi50ZHAdAas4rxR'

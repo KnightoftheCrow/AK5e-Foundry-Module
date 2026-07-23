@@ -2,14 +2,14 @@ folder: AynL7yzSlptsmcjl
 name: Danger Sense
 type: feat
 _id: OKhxvBFfBEME93PU
-img: modules/AK5e-Foundry-Module/icons/Skill-Christine2.webp
+img: modules/ak5e/icons/Skill-Christine2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>While you are conscious, you have Advantage on Dexterity Saving Throws
@@ -39,8 +39,8 @@ system:
     subtype: talent
 effects:
   - name: Danger Sense
-    img: modules/AK5e-Foundry-Module/icons/Skill-Christine2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.OKhxvBFfBEME93PU
+    img: modules/ak5e/icons/Skill-Christine2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.OKhxvBFfBEME93PU
     _id: O33J1yrWDah4ugI3
     type: base
     system: {}
@@ -102,8 +102,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767738429649
-  modifiedTime: 1783457744771
+  modifiedTime: 1783247743877
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!OKhxvBFfBEME93PU'

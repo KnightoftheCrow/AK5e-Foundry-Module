@@ -2,14 +2,14 @@ folder: DjSTH0TXN7YZwjfY
 name: Breach and Clear
 type: feat
 _id: rtFRQ65V6lRwsdCJ
-img: modules/AK5e-Foundry-Module/icons/Skill-Enforcer1.webp
+img: modules/ak5e/icons/Skill-Enforcer1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Your attacks are resonant, booming, and lethal. Enemies that survive
@@ -51,8 +51,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767626135254
-  modifiedTime: 1783457741146
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768654734177
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!rtFRQ65V6lRwsdCJ'

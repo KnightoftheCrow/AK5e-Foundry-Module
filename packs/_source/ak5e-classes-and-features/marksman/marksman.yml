@@ -1,17 +1,13 @@
 name: Marksman
 type: class
-img: modules/AK5e-Foundry-Module/icons/Sniper.webp
+img: modules/ak5e/icons/Sniper.webp
 system:
   advancement:
-    7WwGlBrKqiAJbeiN:
-      type: HitPoints
+    - type: HitPoints
       _id: 7WwGlBrKqiAJbeiN
       configuration: {}
       value: {}
-      flags: {}
-      hint: ''
-    uAI5qGCu2ZWzyOqB:
-      type: AbilityScoreImprovement
+    - type: AbilityScoreImprovement
       _id: uAI5qGCu2ZWzyOqB
       configuration:
         cap: 2
@@ -31,9 +27,7 @@ system:
       level: 4
       title: ''
       hint: ''
-      flags: {}
-    QU1NfsSAaHXpPsuk:
-      type: Subclass
+    - type: Subclass
       _id: QU1NfsSAaHXpPsuk
       configuration: {}
       value:
@@ -42,9 +36,7 @@ system:
       level: 1
       title: Marksman Branch
       hint: ''
-      flags: {}
-    ImrNVWxVTLHzVvoB:
-      type: ItemChoice
+    - type: ItemChoice
       _id: ImrNVWxVTLHzVvoB
       configuration:
         allowDrops: false
@@ -53,8 +45,8 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.OXGwqTbLRvlNxP0Q
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.33A3rLP3Gm4A7Nrq
+          - uuid: Compendium.ak5e.ak5e-items.Item.OXGwqTbLRvlNxP0Q
+          - uuid: Compendium.ak5e.ak5e-items.Item.33A3rLP3Gm4A7Nrq
         restriction:
           list: []
         spell: null
@@ -64,9 +56,7 @@ system:
         replaced: {}
       title: Armour
       hint: ''
-      flags: {}
-    R8lMa7cCku1DsvPx:
-      type: Trait
+    - type: Trait
       _id: R8lMa7cCku1DsvPx
       configuration:
         allowReplacements: false
@@ -85,9 +75,7 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
-    a6toV8BhRnSQmdol:
-      type: Trait
+    - type: Trait
       _id: a6toV8BhRnSQmdol
       configuration:
         allowReplacements: false
@@ -101,9 +89,7 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
-    2x44OrQpsCfYtDLs:
-      type: Trait
+    - type: Trait
       _id: 2x44OrQpsCfYtDLs
       configuration:
         allowReplacements: false
@@ -117,9 +103,7 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
-    PZ6YvVsQ8N63J9ZP:
-      type: Trait
+    - type: Trait
       _id: PZ6YvVsQ8N63J9ZP
       configuration:
         allowReplacements: false
@@ -159,9 +143,7 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
-    e03Rl6BzAHtpbuVV:
-      type: Trait
+    - type: Trait
       _id: e03Rl6BzAHtpbuVV
       configuration:
         allowReplacements: false
@@ -177,9 +159,7 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
-    RvqklDSH24xjZnjB:
-      type: AbilityScoreImprovement
+    - type: AbilityScoreImprovement
       _id: RvqklDSH24xjZnjB
       configuration:
         cap: 2
@@ -199,9 +179,7 @@ system:
       level: 6
       title: ''
       hint: ''
-      flags: {}
-    WA5evEAwqttV2ipt:
-      type: AbilityScoreImprovement
+    - type: AbilityScoreImprovement
       _id: WA5evEAwqttV2ipt
       configuration:
         cap: 2
@@ -221,9 +199,7 @@ system:
       level: 8
       title: ''
       hint: ''
-      flags: {}
-    WoazhgfQlEGCWglk:
-      type: AbilityScoreImprovement
+    - type: AbilityScoreImprovement
       _id: WoazhgfQlEGCWglk
       configuration:
         cap: 2
@@ -243,9 +219,7 @@ system:
       level: 10
       title: ''
       hint: ''
-      flags: {}
-    jj5EBsRUa25DUvwb:
-      type: AbilityScoreImprovement
+    - type: AbilityScoreImprovement
       _id: jj5EBsRUa25DUvwb
       configuration:
         cap: 2
@@ -265,9 +239,7 @@ system:
       level: 12
       title: ''
       hint: ''
-      flags: {}
-    BV1WuOAUVB1f61p8:
-      type: AbilityScoreImprovement
+    - type: AbilityScoreImprovement
       _id: BV1WuOAUVB1f61p8
       configuration:
         cap: 2
@@ -287,9 +259,7 @@ system:
       level: 16
       title: ''
       hint: ''
-      flags: {}
-    J7hYDSSOqF8xrzZg:
-      type: AbilityScoreImprovement
+    - type: AbilityScoreImprovement
       _id: J7hYDSSOqF8xrzZg
       configuration:
         cap: 2
@@ -309,14 +279,11 @@ system:
       level: 19
       title: Ability Score Improvement
       hint: ''
-      flags: {}
-    6WSLoVfCgiQfe5Vj:
-      type: ItemGrant
+    - type: ItemGrant
       _id: 6WSLoVfCgiQfe5Vj
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.3OHFmOmZ8AC3OwYy
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.3OHFmOmZ8AC3OwYy
             optional: false
         optional: false
         spell: null
@@ -324,9 +291,7 @@ system:
       level: 1
       title: Marksman Features
       hint: ''
-      flags: {}
-    ygxu6saOkKRflZRv:
-      type: ItemChoice
+    - type: ItemChoice
       _id: ygxu6saOkKRflZRv
       configuration:
         allowDrops: false
@@ -335,15 +300,15 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.z109grp29YIkpXSu
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.866oxgC2YP2qYU9g
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Dhmp8MJX2KGACQh7
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.AVXlB27KScRknIiD
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.o1kUk2al1bphk50J
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.LqVtxMaqJotYLr9a
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.jjpPLGFHOZsiWFBA
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.EIPiQurk25Of8x3e
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.opmLg0JuPqMFgZjL
+          - uuid: Compendium.ak5e.ak5e-items.Item.z109grp29YIkpXSu
+          - uuid: Compendium.ak5e.ak5e-items.Item.866oxgC2YP2qYU9g
+          - uuid: Compendium.ak5e.ak5e-items.Item.Dhmp8MJX2KGACQh7
+          - uuid: Compendium.ak5e.ak5e-items.Item.AVXlB27KScRknIiD
+          - uuid: Compendium.ak5e.ak5e-items.Item.o1kUk2al1bphk50J
+          - uuid: Compendium.ak5e.ak5e-items.Item.LqVtxMaqJotYLr9a
+          - uuid: Compendium.ak5e.ak5e-items.Item.jjpPLGFHOZsiWFBA
+          - uuid: Compendium.ak5e.ak5e-items.Item.EIPiQurk25Of8x3e
+          - uuid: Compendium.ak5e.ak5e-items.Item.opmLg0JuPqMFgZjL
         restriction:
           list: []
         spell: null
@@ -353,9 +318,7 @@ system:
         replaced: {}
       title: Ranged Weapon
       hint: ''
-      flags: {}
-    eg3aWB50oWlVvoFl:
-      type: ItemChoice
+    - type: ItemChoice
       _id: eg3aWB50oWlVvoFl
       configuration:
         allowDrops: false
@@ -364,16 +327,16 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.ajnr0G1r5uS2J8BP
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.DSudvLQbkLWPs6g8
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.FPznW6rW4nghDh1r
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.yRwC4x79xE5iUW7K
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.EXF9dlqFHPDHi3KF
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.gQexKnwZdkamQcJ7
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Ve5i7MSi8dzq0UJG
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.nkDWWkosdoJz2U6i
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.8YnvqZkWkp8JrS0y
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.KjYWdRFtdaAGe4yK
+          - uuid: Compendium.ak5e.ak5e-items.Item.ajnr0G1r5uS2J8BP
+          - uuid: Compendium.ak5e.ak5e-items.Item.DSudvLQbkLWPs6g8
+          - uuid: Compendium.ak5e.ak5e-items.Item.FPznW6rW4nghDh1r
+          - uuid: Compendium.ak5e.ak5e-items.Item.yRwC4x79xE5iUW7K
+          - uuid: Compendium.ak5e.ak5e-items.Item.EXF9dlqFHPDHi3KF
+          - uuid: Compendium.ak5e.ak5e-items.Item.gQexKnwZdkamQcJ7
+          - uuid: Compendium.ak5e.ak5e-items.Item.Ve5i7MSi8dzq0UJG
+          - uuid: Compendium.ak5e.ak5e-items.Item.nkDWWkosdoJz2U6i
+          - uuid: Compendium.ak5e.ak5e-items.Item.8YnvqZkWkp8JrS0y
+          - uuid: Compendium.ak5e.ak5e-items.Item.KjYWdRFtdaAGe4yK
         restriction:
           list: []
         spell: null
@@ -383,9 +346,7 @@ system:
         replaced: {}
       title: Melee Weapon
       hint: ''
-      flags: {}
-    e12fjsdAVQV79Z4U:
-      type: ItemChoice
+    - type: ItemChoice
       _id: e12fjsdAVQV79Z4U
       configuration:
         allowDrops: false
@@ -394,32 +355,32 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.uJv6rhzPijvjHznJ
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Ildgv7odyqeahxmy
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.cx7nNrpfLvAHIfmq
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.XfS9C2RHzrrMdlip
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.ZuHZkt1h2YP8lgwu
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.SCHjE2T5gXZRtIpX
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.96vApcsV1yyaPTyD
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.QvzlfvutcIIezpDs
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.gFr3mcd57Og1c0pZ
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Hs0mF5dzKXUqdAdP
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.5l64laM4rk4Ivi0m
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.YAl6BnAF78PaYlDX
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.dqXsCaK1P0JhtYC4
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.sIWoR9fKRrec9UfW
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Nng70cKI1btONIpk
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.8kQVIEXNMpMwu0XE
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.tDJPOjB3go7yh1at
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.YRaUmzhRyxMbjH3U
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.LL42rU6BBic45HZv
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.0ft9PxeRW8FoUjgb
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.IIulvylBDhw2Zz4F
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.JAmRuAi1wbg4Zwdm
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.wqd3yeo5ea2DAqD9
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.YWNh0sRApVhTseeC
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.yUbrNv1GkAtDTujE
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.2MfZHPX5xtOxH4Zr
+          - uuid: Compendium.ak5e.ak5e-items.Item.uJv6rhzPijvjHznJ
+          - uuid: Compendium.ak5e.ak5e-items.Item.Ildgv7odyqeahxmy
+          - uuid: Compendium.ak5e.ak5e-items.Item.cx7nNrpfLvAHIfmq
+          - uuid: Compendium.ak5e.ak5e-items.Item.XfS9C2RHzrrMdlip
+          - uuid: Compendium.ak5e.ak5e-items.Item.ZuHZkt1h2YP8lgwu
+          - uuid: Compendium.ak5e.ak5e-items.Item.SCHjE2T5gXZRtIpX
+          - uuid: Compendium.ak5e.ak5e-items.Item.96vApcsV1yyaPTyD
+          - uuid: Compendium.ak5e.ak5e-items.Item.QvzlfvutcIIezpDs
+          - uuid: Compendium.ak5e.ak5e-items.Item.gFr3mcd57Og1c0pZ
+          - uuid: Compendium.ak5e.ak5e-items.Item.Hs0mF5dzKXUqdAdP
+          - uuid: Compendium.ak5e.ak5e-items.Item.5l64laM4rk4Ivi0m
+          - uuid: Compendium.ak5e.ak5e-items.Item.YAl6BnAF78PaYlDX
+          - uuid: Compendium.ak5e.ak5e-items.Item.dqXsCaK1P0JhtYC4
+          - uuid: Compendium.ak5e.ak5e-items.Item.sIWoR9fKRrec9UfW
+          - uuid: Compendium.ak5e.ak5e-items.Item.Nng70cKI1btONIpk
+          - uuid: Compendium.ak5e.ak5e-items.Item.8kQVIEXNMpMwu0XE
+          - uuid: Compendium.ak5e.ak5e-items.Item.tDJPOjB3go7yh1at
+          - uuid: Compendium.ak5e.ak5e-items.Item.YRaUmzhRyxMbjH3U
+          - uuid: Compendium.ak5e.ak5e-items.Item.LL42rU6BBic45HZv
+          - uuid: Compendium.ak5e.ak5e-items.Item.0ft9PxeRW8FoUjgb
+          - uuid: Compendium.ak5e.ak5e-items.Item.IIulvylBDhw2Zz4F
+          - uuid: Compendium.ak5e.ak5e-items.Item.JAmRuAi1wbg4Zwdm
+          - uuid: Compendium.ak5e.ak5e-items.Item.wqd3yeo5ea2DAqD9
+          - uuid: Compendium.ak5e.ak5e-items.Item.YWNh0sRApVhTseeC
+          - uuid: Compendium.ak5e.ak5e-items.Item.yUbrNv1GkAtDTujE
+          - uuid: Compendium.ak5e.ak5e-items.Item.2MfZHPX5xtOxH4Zr
         restriction:
           list: []
         spell: null
@@ -429,14 +390,11 @@ system:
         replaced: {}
       title: Tool Kit
       hint: Select Tool Kit you're profience with.
-      flags: {}
-    Nk39hs0nHbhuubJP:
-      type: ItemGrant
+    - type: ItemGrant
       _id: Nk39hs0nHbhuubJP
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             optional: false
         optional: false
         spell: null
@@ -444,14 +402,11 @@ system:
       level: 1
       title: Skill Points
       hint: ''
-      flags: {}
-    Teqgq3fvWJtOmMvr:
-      type: ItemGrant
+    - type: ItemGrant
       _id: Teqgq3fvWJtOmMvr
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.XFGQax3VwBTHI8Z9
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.XFGQax3VwBTHI8Z9
             optional: false
         optional: false
         spell: null
@@ -459,9 +414,7 @@ system:
       level: 5
       title: Extra Attack
       hint: ''
-      flags: {}
-    pRa7z8CJsvXGr3Xr:
-      type: ItemChoice
+    - type: ItemChoice
       _id: pRa7z8CJsvXGr3Xr
       configuration:
         allowDrops: false
@@ -470,26 +423,16 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.XGWbACi5cic6PXa8
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.0qYsz5F4o6ar4GUS
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.56nAXgeuXzabMUHj
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.BmmsZ7gAjQabQNFz
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.JTK6NErx8Kvw3vOu
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.MPRTMYuKfJceHc7C
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.9H9l8JePvyeOfv6p
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.QS35F2MZONQyjFF1
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.ep2MJVEskzKTkT4y
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.XGWbACi5cic6PXa8
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.0qYsz5F4o6ar4GUS
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.56nAXgeuXzabMUHj
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.BmmsZ7gAjQabQNFz
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.JTK6NErx8Kvw3vOu
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.MPRTMYuKfJceHc7C
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.9H9l8JePvyeOfv6p
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.QS35F2MZONQyjFF1
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.ep2MJVEskzKTkT4y
         restriction:
           list: []
         spell: null
@@ -499,9 +442,7 @@ system:
         replaced: {}
       title: Basic Operator Skill
       hint: ''
-      flags: {}
-    jeXvRZE6PjdBSaZG:
-      type: ItemChoice
+    - type: ItemChoice
       _id: jeXvRZE6PjdBSaZG
       configuration:
         allowDrops: false
@@ -510,34 +451,20 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.LI9k302x9A4TZuh8
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.OtDq86Ro9qTIk8k1
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.IxcO6uUCImdtVlKp
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.KQl7XhApWCpKgrCx
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.cJxHlsMvWQcx8nLC
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.1ycUgaKJV1WuXeYx
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.1M4hhccnaaFHzWJQ
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.um4w4uDBUA420vAg
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.fem1NRSGhbEGK9kT
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.THc5UHbKjzdpOUX5
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.xEJtugdXspeK633F
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.HC942JqSdrjwcbap
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.F3bfzoiDZxr0lEHY
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.bFSrxWtc4TEYBFvt
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.LI9k302x9A4TZuh8
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.OtDq86Ro9qTIk8k1
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.IxcO6uUCImdtVlKp
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.KQl7XhApWCpKgrCx
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.cJxHlsMvWQcx8nLC
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.1ycUgaKJV1WuXeYx
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.1M4hhccnaaFHzWJQ
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.um4w4uDBUA420vAg
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.fem1NRSGhbEGK9kT
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.THc5UHbKjzdpOUX5
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.xEJtugdXspeK633F
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.HC942JqSdrjwcbap
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.F3bfzoiDZxr0lEHY
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.bFSrxWtc4TEYBFvt
         restriction:
           list: []
         spell: null
@@ -547,9 +474,7 @@ system:
         replaced: {}
       title: Advanced Operator Skill
       hint: ''
-      flags: {}
-    SKvlIKSPvwRRlA81:
-      type: ItemChoice
+    - type: ItemChoice
       _id: SKvlIKSPvwRRlA81
       configuration:
         allowDrops: false
@@ -561,52 +486,52 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.o0GnFDZnQv6sXcbC
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.udvf7UywCar8aRw6
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.FPq9QdOHl0EzXDV5
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.cVZnaMpeM1tx6huu
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.OKhxvBFfBEME93PU
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.qcmSYeDAL35mcvws
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.wl1K4E167035p5yf
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.8XbsWW3ZnN9W6P2t
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.euKbo82wr4mpE7Dv
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.N0B8L9Y09HXmafE6
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.rAcx8Q8Yghko9tSi
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.mlANfWU9dVkEcDSi
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.LSsRvyoRKzBAFTy5
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.IjUlJY3ogPaLv6Ht
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.QkpwGMxpGMK9cEyv
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.j07NEdLfMa6g8lY8
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.aW0bCeIhfhgxIa1D
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.cjPGozlLmepdrnwX
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.0B7CWEADSa2l7ZFb
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.osCElO13K6JHa6bQ
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.r19GGpWRcO5KigI5
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.tFQX4Mvc3zrePzmi
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.UnNVP185qAyYfpjg
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.imHOfHdGlX4eXLIq
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.MNZ7KjBbXyRfHWns
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.m0BrBNIoNX0m0uHA
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.tIptyIavnvrP91fD
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.Lxb0yt12a19ocMPz
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.urZlT0DSGEeTa0N5
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.2emfNpzkqQbxf5dd
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.AbSFCphHX1o0ACKh
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.IuPBrdz8iyjMI1I8
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.dx6dAUbF6YHqThXm
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.86tIY941JcOUVILB
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.asqpWDR8yqEbi90k
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.DOuG9z5mp6s3kCfJ
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.Nm62g5L0QJmJtKYw
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.SjifTMEu6CDpfsy1
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.dip5BZWPTq1qaU36
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.y68gxjzJnQjK9QmC
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.w9Dvr1RX6wHLVtwr
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.1wKWIN8qqEbSgBVb
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.aQ2FCQPTVkAj2IYO
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.9sEkisUaZbEQFW7r
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.fXbvDAjCMEh40323
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.ZaIvc4eA3xpZpgad
+          - uuid: Compendium.ak5e.ak5e-talents.Item.o0GnFDZnQv6sXcbC
+          - uuid: Compendium.ak5e.ak5e-talents.Item.udvf7UywCar8aRw6
+          - uuid: Compendium.ak5e.ak5e-talents.Item.FPq9QdOHl0EzXDV5
+          - uuid: Compendium.ak5e.ak5e-talents.Item.cVZnaMpeM1tx6huu
+          - uuid: Compendium.ak5e.ak5e-talents.Item.OKhxvBFfBEME93PU
+          - uuid: Compendium.ak5e.ak5e-talents.Item.qcmSYeDAL35mcvws
+          - uuid: Compendium.ak5e.ak5e-talents.Item.wl1K4E167035p5yf
+          - uuid: Compendium.ak5e.ak5e-talents.Item.8XbsWW3ZnN9W6P2t
+          - uuid: Compendium.ak5e.ak5e-talents.Item.euKbo82wr4mpE7Dv
+          - uuid: Compendium.ak5e.ak5e-talents.Item.N0B8L9Y09HXmafE6
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rAcx8Q8Yghko9tSi
+          - uuid: Compendium.ak5e.ak5e-talents.Item.mlANfWU9dVkEcDSi
+          - uuid: Compendium.ak5e.ak5e-talents.Item.LSsRvyoRKzBAFTy5
+          - uuid: Compendium.ak5e.ak5e-talents.Item.IjUlJY3ogPaLv6Ht
+          - uuid: Compendium.ak5e.ak5e-talents.Item.QkpwGMxpGMK9cEyv
+          - uuid: Compendium.ak5e.ak5e-talents.Item.j07NEdLfMa6g8lY8
+          - uuid: Compendium.ak5e.ak5e-talents.Item.aW0bCeIhfhgxIa1D
+          - uuid: Compendium.ak5e.ak5e-talents.Item.cjPGozlLmepdrnwX
+          - uuid: Compendium.ak5e.ak5e-talents.Item.0B7CWEADSa2l7ZFb
+          - uuid: Compendium.ak5e.ak5e-talents.Item.osCElO13K6JHa6bQ
+          - uuid: Compendium.ak5e.ak5e-talents.Item.r19GGpWRcO5KigI5
+          - uuid: Compendium.ak5e.ak5e-talents.Item.tFQX4Mvc3zrePzmi
+          - uuid: Compendium.ak5e.ak5e-talents.Item.UnNVP185qAyYfpjg
+          - uuid: Compendium.ak5e.ak5e-talents.Item.imHOfHdGlX4eXLIq
+          - uuid: Compendium.ak5e.ak5e-talents.Item.MNZ7KjBbXyRfHWns
+          - uuid: Compendium.ak5e.ak5e-talents.Item.m0BrBNIoNX0m0uHA
+          - uuid: Compendium.ak5e.ak5e-talents.Item.tIptyIavnvrP91fD
+          - uuid: Compendium.ak5e.ak5e-talents.Item.Lxb0yt12a19ocMPz
+          - uuid: Compendium.ak5e.ak5e-talents.Item.urZlT0DSGEeTa0N5
+          - uuid: Compendium.ak5e.ak5e-talents.Item.2emfNpzkqQbxf5dd
+          - uuid: Compendium.ak5e.ak5e-talents.Item.AbSFCphHX1o0ACKh
+          - uuid: Compendium.ak5e.ak5e-talents.Item.IuPBrdz8iyjMI1I8
+          - uuid: Compendium.ak5e.ak5e-talents.Item.dx6dAUbF6YHqThXm
+          - uuid: Compendium.ak5e.ak5e-talents.Item.86tIY941JcOUVILB
+          - uuid: Compendium.ak5e.ak5e-talents.Item.asqpWDR8yqEbi90k
+          - uuid: Compendium.ak5e.ak5e-talents.Item.DOuG9z5mp6s3kCfJ
+          - uuid: Compendium.ak5e.ak5e-talents.Item.Nm62g5L0QJmJtKYw
+          - uuid: Compendium.ak5e.ak5e-talents.Item.SjifTMEu6CDpfsy1
+          - uuid: Compendium.ak5e.ak5e-talents.Item.dip5BZWPTq1qaU36
+          - uuid: Compendium.ak5e.ak5e-talents.Item.y68gxjzJnQjK9QmC
+          - uuid: Compendium.ak5e.ak5e-talents.Item.w9Dvr1RX6wHLVtwr
+          - uuid: Compendium.ak5e.ak5e-talents.Item.1wKWIN8qqEbSgBVb
+          - uuid: Compendium.ak5e.ak5e-talents.Item.aQ2FCQPTVkAj2IYO
+          - uuid: Compendium.ak5e.ak5e-talents.Item.9sEkisUaZbEQFW7r
+          - uuid: Compendium.ak5e.ak5e-talents.Item.fXbvDAjCMEh40323
+          - uuid: Compendium.ak5e.ak5e-talents.Item.ZaIvc4eA3xpZpgad
         restriction:
           list: []
           type: class
@@ -620,9 +545,7 @@ system:
       hint: >-
         Take an Advanced Talent, or unlock the module effect of a Advanced
         Talent you already have.
-      flags: {}
-    3ToDZe1Q32surMq2:
-      type: ItemChoice
+    - type: ItemChoice
       _id: 3ToDZe1Q32surMq2
       configuration:
         allowDrops: false
@@ -631,28 +554,17 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.MqATemsDRm92DUPJ
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.K7vx6s1GtrQfjKvt
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.5sWZleYraTedgntR
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.lbrLzUNn1GgbrIi3
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.wZ4atsCZsGJmuUCA
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.ulYiNdkc8NfwUHMe
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.Zemql0WUbzUsdpwc
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.SoqW7a5SZoAbJVRP
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.IYp7lxFiWqsM8so5
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.KfjZeQxNh5mHQQut
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.wfKEXUanlyTLgLts
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.MqATemsDRm92DUPJ
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.K7vx6s1GtrQfjKvt
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.5sWZleYraTedgntR
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.lbrLzUNn1GgbrIi3
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.wZ4atsCZsGJmuUCA
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.ulYiNdkc8NfwUHMe
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.Zemql0WUbzUsdpwc
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.SoqW7a5SZoAbJVRP
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.IYp7lxFiWqsM8so5
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.KfjZeQxNh5mHQQut
+          - uuid: Compendium.ak5e.ak5e-operator-skills.Item.wfKEXUanlyTLgLts
         restriction:
           list: []
         spell: null
@@ -662,14 +574,11 @@ system:
         replaced: {}
       title: Elite Operator Skill
       hint: ''
-      flags: {}
-    oLi5HiM2NfIEiKhI:
-      type: ItemGrant
+    - type: ItemGrant
       _id: oLi5HiM2NfIEiKhI
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.L8M3njAbScoE5txB
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.L8M3njAbScoE5txB
             optional: false
         optional: false
         spell: null
@@ -677,14 +586,11 @@ system:
       level: 17
       title: Unerring
       hint: ''
-      flags: {}
-    ENXN2jWwjqQxvuUB:
-      type: ItemGrant
+    - type: ItemGrant
       _id: ENXN2jWwjqQxvuUB
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.LXSV4egb4CO9SJrq
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.LXSV4egb4CO9SJrq
             optional: false
         optional: false
         spell: null
@@ -692,9 +598,7 @@ system:
       level: 20
       title: Steel Rain
       hint: ''
-      flags: {}
-    I87NWHbH2PZBq1Kt:
-      type: ItemChoice
+    - type: ItemChoice
       _id: I87NWHbH2PZBq1Kt
       configuration:
         allowDrops: false
@@ -703,22 +607,14 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.aNXlsT7CdW5CeMjg
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.KoShQQkHWdDKzY42
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Ynb0hHllEcj43R5s
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.KYTq2Zik8i5Ctdqu
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.NRfOeklLVrJEf3Tv
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.OR6a43AfzdtlZonE
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.rM5R8SXndxdLqu4c
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.MOKkq1Cp0FoDn8KI
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.aNXlsT7CdW5CeMjg
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.KoShQQkHWdDKzY42
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.Ynb0hHllEcj43R5s
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.KYTq2Zik8i5Ctdqu
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.NRfOeklLVrJEf3Tv
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.OR6a43AfzdtlZonE
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.rM5R8SXndxdLqu4c
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.MOKkq1Cp0FoDn8KI
         restriction:
           list: []
         spell: null
@@ -731,9 +627,7 @@ system:
         You adopt a particular style of fighting as your speciality. Choose one
         of the following options (You can’t take a Fighting Style option more
         than once, even if you later get to choose again).
-      flags: {}
-    3uUKBRFUjr8EXgi1:
-      type: ItemChoice
+    - type: ItemChoice
       _id: 3uUKBRFUjr8EXgi1
       configuration:
         allowDrops: false
@@ -745,10 +639,8 @@ system:
             count: 1
             replacement: true
         pool:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Wxr36xCVCF3240NG
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.oxFGvfgwpg4tNLdL
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.Wxr36xCVCF3240NG
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.oxFGvfgwpg4tNLdL
         restriction:
           list: []
         spell: null
@@ -758,9 +650,7 @@ system:
         replaced: {}
       title: Enhanced Target Lock
       hint: ''
-      flags: {}
-    4YmKhUVNVfnGnk1G:
-      type: ItemChoice
+    - type: ItemChoice
       _id: 4YmKhUVNVfnGnk1G
       configuration:
         allowDrops: true
@@ -772,44 +662,44 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.JtPzMai67p8ood8Z
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.6IL6kCJuT9hmCv97
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.hceNm4zFz9e5HTYm
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.1ZayOXSy5qjfyEaj
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.ed6qQk0urxaosAPg
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.OPv3qY3XkJREYTZv
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.OJjJDtDv1eF7izrT
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.HPA8fVrnNphDEqyS
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.4MxiTCIDu9qPRbJF
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.cdDqSuDN1Rr0ajwR
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.EUHCD2cxipRq5Gox
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.TNysMEOsW57XDRxT
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.PL4xlgwwce950X8F
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.rBuQjsMnnEK0nQ2I
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.rQs0HWi7n3P0iSBP
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.qfNTsOkoFFat7oiu
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.j0OSuxPOjWeQMLLM
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.BzU742aJIgbGMSdF
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.djXI6GLIRAdKvd1j
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.0C6NqVowQRNBaLv4
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.rhQX84XgtuE64ksy
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.tqAovJpW71QGPPB8
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.ABQtBAOGunZV4taU
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.70pckHl7L5GxO8lJ
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.qB3Tpa2eEM97xS37
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.XlMiH20OkY4B1hig
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.gK8nrJQPnS2vb32W
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.2dhqC8t1e1Shts32
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.wPXQs7reAu5TZKw3
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.eETPdcPlC2Fx8X4w
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.7bMFFwobIjVsIkT7
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.ZT2UOU5NX1BGgY0j
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.z0QwdMcZdacDXUwC
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.oXrDMro8DgKx37aw
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.CfDWkR31hCBL2M2L
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.NStpcJ4m8TcHVtrp
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.TUC52moYi0vvumMI
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.xXoFEUm40eZWIHYx
+          - uuid: Compendium.ak5e.ak5e-talents.Item.JtPzMai67p8ood8Z
+          - uuid: Compendium.ak5e.ak5e-talents.Item.6IL6kCJuT9hmCv97
+          - uuid: Compendium.ak5e.ak5e-talents.Item.hceNm4zFz9e5HTYm
+          - uuid: Compendium.ak5e.ak5e-talents.Item.1ZayOXSy5qjfyEaj
+          - uuid: Compendium.ak5e.ak5e-talents.Item.ed6qQk0urxaosAPg
+          - uuid: Compendium.ak5e.ak5e-talents.Item.OPv3qY3XkJREYTZv
+          - uuid: Compendium.ak5e.ak5e-talents.Item.OJjJDtDv1eF7izrT
+          - uuid: Compendium.ak5e.ak5e-talents.Item.HPA8fVrnNphDEqyS
+          - uuid: Compendium.ak5e.ak5e-talents.Item.4MxiTCIDu9qPRbJF
+          - uuid: Compendium.ak5e.ak5e-talents.Item.cdDqSuDN1Rr0ajwR
+          - uuid: Compendium.ak5e.ak5e-talents.Item.EUHCD2cxipRq5Gox
+          - uuid: Compendium.ak5e.ak5e-talents.Item.TNysMEOsW57XDRxT
+          - uuid: Compendium.ak5e.ak5e-talents.Item.PL4xlgwwce950X8F
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rBuQjsMnnEK0nQ2I
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rQs0HWi7n3P0iSBP
+          - uuid: Compendium.ak5e.ak5e-talents.Item.qfNTsOkoFFat7oiu
+          - uuid: Compendium.ak5e.ak5e-talents.Item.j0OSuxPOjWeQMLLM
+          - uuid: Compendium.ak5e.ak5e-talents.Item.BzU742aJIgbGMSdF
+          - uuid: Compendium.ak5e.ak5e-talents.Item.djXI6GLIRAdKvd1j
+          - uuid: Compendium.ak5e.ak5e-talents.Item.0C6NqVowQRNBaLv4
+          - uuid: Compendium.ak5e.ak5e-talents.Item.rhQX84XgtuE64ksy
+          - uuid: Compendium.ak5e.ak5e-talents.Item.tqAovJpW71QGPPB8
+          - uuid: Compendium.ak5e.ak5e-talents.Item.ABQtBAOGunZV4taU
+          - uuid: Compendium.ak5e.ak5e-talents.Item.70pckHl7L5GxO8lJ
+          - uuid: Compendium.ak5e.ak5e-talents.Item.qB3Tpa2eEM97xS37
+          - uuid: Compendium.ak5e.ak5e-talents.Item.XlMiH20OkY4B1hig
+          - uuid: Compendium.ak5e.ak5e-talents.Item.gK8nrJQPnS2vb32W
+          - uuid: Compendium.ak5e.ak5e-talents.Item.2dhqC8t1e1Shts32
+          - uuid: Compendium.ak5e.ak5e-talents.Item.wPXQs7reAu5TZKw3
+          - uuid: Compendium.ak5e.ak5e-talents.Item.eETPdcPlC2Fx8X4w
+          - uuid: Compendium.ak5e.ak5e-talents.Item.7bMFFwobIjVsIkT7
+          - uuid: Compendium.ak5e.ak5e-talents.Item.ZT2UOU5NX1BGgY0j
+          - uuid: Compendium.ak5e.ak5e-talents.Item.z0QwdMcZdacDXUwC
+          - uuid: Compendium.ak5e.ak5e-talents.Item.oXrDMro8DgKx37aw
+          - uuid: Compendium.ak5e.ak5e-talents.Item.CfDWkR31hCBL2M2L
+          - uuid: Compendium.ak5e.ak5e-talents.Item.NStpcJ4m8TcHVtrp
+          - uuid: Compendium.ak5e.ak5e-talents.Item.TUC52moYi0vvumMI
+          - uuid: Compendium.ak5e.ak5e-talents.Item.xXoFEUm40eZWIHYx
         restriction:
           list: []
           type: class
@@ -823,14 +713,11 @@ system:
       hint: >-
         Take a Basic Talent, or unlock the module effect of a Basic Talent you
         already have.
-      flags: {}
-    J4cwcUyAmu28Y4Hl:
-      type: ItemGrant
+    - type: ItemGrant
       _id: J4cwcUyAmu28Y4Hl
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Qi4Mc2HB3snq2eE5
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.Qi4Mc2HB3snq2eE5
             optional: false
         optional: false
         spell: null
@@ -838,7 +725,6 @@ system:
       level: 1
       title: 'Changes to Core Rules: Cantrips'
       hint: All Creatures gain +Spellcasting Mod Damage to their Cantrips.
-      flags: {}
   description:
     value: >-
       <h3>Core Marksman Traits</h3><table><tbody><tr><td data-colwidth="142"><p
@@ -919,7 +805,7 @@ system:
       sort: 375000
     - type: linked
       count: 1
-      key: Compendium.AK5e-Foundry-Module.ak5e-items.Item.33A3rLP3Gm4A7Nrq
+      key: Compendium.ak5e.ak5e-items.Item.33A3rLP3Gm4A7Nrq
       requiresProficiency: false
       _id: rk0u1sffvFj90lGp
       group: 7GJPugOHMDWGZDzN
@@ -938,14 +824,14 @@ system:
       sort: 300000
     - type: linked
       count: null
-      key: Compendium.AK5e-Foundry-Module.ak5e-items.Item.opmLg0JuPqMFgZjL
+      key: Compendium.ak5e.ak5e-items.Item.opmLg0JuPqMFgZjL
       requiresProficiency: false
       _id: eSxZ6hQE2oafjQOd
       group: QGb32tyD97nRmEgA
       sort: 312500
     - type: linked
       count: null
-      key: Compendium.AK5e-Foundry-Module.ak5e-items.Item.OXGwqTbLRvlNxP0Q
+      key: Compendium.ak5e.ak5e-items.Item.OXGwqTbLRvlNxP0Q
       requiresProficiency: false
       _id: s1fBvO7D01uuS5dq
       group: 7GJPugOHMDWGZDzN
@@ -991,9 +877,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1770915912760
-  modifiedTime: 1783458175628
+  modifiedTime: 1783249501628
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

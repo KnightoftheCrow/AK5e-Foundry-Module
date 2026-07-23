@@ -9,14 +9,13 @@ system:
     recovery: []
     max: ''
   advancement:
-    hOcBNrk9NoZlmRR7:
-      type: ItemGrant
+    - type: ItemGrant
       _id: hOcBNrk9NoZlmRR7
       configuration:
         items:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.xyGw7JrfXb2SgbB0
+          - uuid: Compendium.ak5e.ak5e-arts.Item.xyGw7JrfXb2SgbB0
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.YsWJe2CHwpWu6MA0
+          - uuid: Compendium.ak5e.ak5e-arts.Item.YsWJe2CHwpWu6MA0
             optional: false
         optional: false
         spell:
@@ -31,9 +30,7 @@ system:
       level: 0
       title: ''
       hint: ''
-      flags: {}
-    NABo3MwY4iduxq7N:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.a3XtAO5n2GrqiAh5
@@ -58,14 +55,12 @@ system:
       title: ''
       hint: ''
       _id: NABo3MwY4iduxq7N
-      flags: {}
-    IXt1si7dhdRwfgKW:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.aWQwDt41B2XXT5Nf
+          - uuid: Compendium.ak5e.ak5e-arts.Item.aWQwDt41B2XXT5Nf
             optional: false
         optional: false
         spell:
@@ -81,9 +76,7 @@ system:
       title: ''
       hint: ''
       _id: IXt1si7dhdRwfgKW
-      flags: {}
-    jMthAthuKu3jDmob:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.13uVuBQP6VaiSPvC
@@ -104,9 +97,7 @@ system:
       title: ''
       hint: ''
       _id: jMthAthuKu3jDmob
-      flags: {}
-    C7IWnQmAB9J6cUaJ:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.7fFHlBk3UNX8gPKL
@@ -125,9 +116,7 @@ system:
       title: ''
       hint: ''
       _id: C7IWnQmAB9J6cUaJ
-      flags: {}
-    soeQVL26jp0JRVpB:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items: []
         optional: false
@@ -144,12 +133,10 @@ system:
       title: ''
       hint: ''
       _id: soeQVL26jp0JRVpB
-      flags: {}
-    2nENPeY91lFOuI7W:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.k8MuY0fx9NmQD89G
+          - uuid: Compendium.ak5e.ak5e-arts.Item.k8MuY0fx9NmQD89G
             optional: false
         optional: false
         spell:
@@ -165,9 +152,7 @@ system:
       title: ''
       hint: ''
       _id: 2nENPeY91lFOuI7W
-      flags: {}
-    cpKswOWYpj91k6Wb:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items: []
         optional: false
@@ -184,9 +169,7 @@ system:
       title: ''
       hint: ''
       _id: cpKswOWYpj91k6Wb
-      flags: {}
-    TvX8kmCZwEUSVT85:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplTsunami000
@@ -205,12 +188,10 @@ system:
       title: ''
       hint: ''
       _id: TvX8kmCZwEUSVT85
-      flags: {}
-    tfgARHFzs7NG6V1w:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.SPHd0vvTHQCsBvEg
+          - uuid: Compendium.ak5e.ak5e-arts.Item.SPHd0vvTHQCsBvEg
             optional: false
         optional: false
         spell:
@@ -226,7 +207,6 @@ system:
       title: ''
       hint: ''
       _id: tfgARHFzs7NG6V1w
-      flags: {}
   description:
     value: >-
       <p>An oft neglected field of Arts, Fluid Arts do exactly what their name
@@ -288,10 +268,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1770836349442
-  modifiedTime: 1783457746815
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771159045384
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

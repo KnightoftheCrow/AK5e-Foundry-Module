@@ -2,14 +2,14 @@ folder: sFhUUBrNUgchnK7r
 name: Force of Nature
 type: feat
 _id: PHEUSthKoaaYcuub
-img: modules/AK5e-Foundry-Module/icons/Skill-Mantra1.webp
+img: modules/ak5e/icons/Skill-Mantra1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>No fortification is proof against your cataclysmic explosions. You gain
@@ -52,8 +52,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767620075060
-  modifiedTime: 1783457739767
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771177642280
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!PHEUSthKoaaYcuub'

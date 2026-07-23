@@ -122,7 +122,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>Run Them Down</h3><p>Kuranta are naturally suited to battle by their
@@ -165,10 +165,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680307075
-  modifiedTime: 1783457734612
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680307075
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!8Z7sMZLdeBIExkmq'

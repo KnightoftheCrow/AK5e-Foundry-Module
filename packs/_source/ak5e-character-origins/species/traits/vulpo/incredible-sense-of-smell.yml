@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>Incredible Sense of Smell</h3><p>The Vulpo’s sense of smell is so
@@ -51,10 +51,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680541395
-  modifiedTime: 1783457736166
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680541395
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!Wb6YPKLD6ii86efc'

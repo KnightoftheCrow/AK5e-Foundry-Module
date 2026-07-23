@@ -2,14 +2,14 @@ folder: DjSTH0TXN7YZwjfY
 name: Spread the Love
 type: feat
 _id: p8sd4C5qnnxm9lAx
-img: modules/AK5e-Foundry-Module/icons/Skill-Holungday1.webp
+img: modules/ak5e/icons/Skill-Holungday1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>You gain the following benefits:</p><p><strong>Additional
@@ -49,8 +49,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767626095669
-  modifiedTime: 1783457740961
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768656769392
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!p8sd4C5qnnxm9lAx'

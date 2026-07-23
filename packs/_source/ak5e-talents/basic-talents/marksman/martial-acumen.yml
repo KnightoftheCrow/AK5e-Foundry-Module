@@ -2,7 +2,7 @@ folder: U1VvPUnEP8A2c7Xk
 name: Martial Acumen
 type: feat
 _id: PL4xlgwwce950X8F
-img: modules/AK5e-Foundry-Module/icons/Skill-Morgan2.webp
+img: modules/ak5e/icons/Skill-Morgan2.webp
 system:
   activities: {}
   uses:
@@ -10,8 +10,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    AlWz0JsTHJdMUPsU:
-      type: ItemChoice
+    - type: ItemChoice
       _id: AlWz0JsTHJdMUPsU
       configuration:
         allowDrops: true
@@ -31,7 +30,6 @@ system:
         replaced: {}
       title: Guard Fighting Style
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>You gain a Fighting Style from one of the Styles available to the Guard
@@ -74,8 +72,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767735713460
-  modifiedTime: 1783457744871
+  modifiedTime: 1783242596128
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!PL4xlgwwce950X8F'

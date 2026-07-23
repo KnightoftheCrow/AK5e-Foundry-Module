@@ -1,7 +1,7 @@
 folder: fxf6t1P5taaOdbmA
 name: Alacrity
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Phantom1.webp
+img: modules/ak5e/icons/Skill-Phantom1.webp
 system:
   activities: {}
   uses:
@@ -37,7 +37,7 @@ system:
     subtype: talent
 effects:
   - name: Alacrity
-    img: modules/AK5e-Foundry-Module/icons/Skill-Phantom1.webp
+    img: modules/ak5e/icons/Skill-Phantom1.webp
     origin: Item.ygNPPLFTWi7qfx6j
     _id: RArwV8ib2svmfAr0
     type: base

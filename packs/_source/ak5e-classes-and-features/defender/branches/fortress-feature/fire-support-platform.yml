@@ -2,7 +2,7 @@ folder: 3tM4rLFY5kbxFxJH
 name: Fire Support Platform
 type: feat
 _id: olJwK0hx9HzII6UF
-img: modules/AK5e-Foundry-Module/icons/Skill-Horn3.webp
+img: modules/ak5e/icons/Skill-Horn3.webp
 system:
   activities: {}
   uses:

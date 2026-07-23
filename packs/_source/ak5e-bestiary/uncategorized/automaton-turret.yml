@@ -857,7 +857,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: {}
+      advancement: []
       description:
         value: <p>This Creature makes two Attacks.</p>
         chat: ''
@@ -1019,7 +1019,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: {}
+      advancement: []
       description:
         value: >-
           <p>As an Action, an allied Creature within 5 feet of the Turret can
@@ -1133,12 +1133,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
   systemVersion: 5.2.3
   createdTime: 1766941505996
-  modifiedTime: 1783457733361
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1766941535276
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: AYr7uc7PfTmtDHVa
 sort: 0
 _key: '!actors!AYr7uc7PfTmtDHVa'

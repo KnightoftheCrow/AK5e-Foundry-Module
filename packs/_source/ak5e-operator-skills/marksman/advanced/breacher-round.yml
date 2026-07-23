@@ -2,7 +2,7 @@ folder: FNmG2sdf2PkjKSHw
 name: Breacher Round
 type: feat
 _id: IxcO6uUCImdtVlKp
-img: modules/AK5e-Foundry-Module/icons/64px-Skill-Ash3.webp
+img: modules/ak5e/icons/64px-Skill-Ash3.webp
 system:
   activities:
     yIuU8QpqEhRoAT47:
@@ -20,8 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '40'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
       description:
         chatFlavor: ''
       duration:
@@ -259,7 +258,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <ul><li><p><strong>Name</strong>: Breacher
@@ -298,8 +297,8 @@ system:
     subtype: ''
 effects:
   - name: Breacher Round (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/64px-Skill-Ash3.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.IxcO6uUCImdtVlKp
+    img: modules/ak5e/icons/64px-Skill-Ash3.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.IxcO6uUCImdtVlKp
     _id: VAJIz1FBK1MalgHM
     type: base
     system: {}
@@ -342,7 +341,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.351'
@@ -371,8 +370,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767618731933
-  modifiedTime: 1783457742221
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768151850667
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!IxcO6uUCImdtVlKp'

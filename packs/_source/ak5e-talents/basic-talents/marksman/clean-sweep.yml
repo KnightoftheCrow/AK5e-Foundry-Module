@@ -2,7 +2,7 @@ folder: U1VvPUnEP8A2c7Xk
 name: Clean Sweep
 type: feat
 _id: OPv3qY3XkJREYTZv
-img: modules/AK5e-Foundry-Module/icons/Skill-Archetto2.webp
+img: modules/ak5e/icons/Skill-Archetto2.webp
 system:
   activities:
     H6XDKL0q665RsJMK:
@@ -121,7 +121,7 @@ system:
       - period: turnStart
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Once per Round, when you roll to determine the Damage you deal to a
@@ -154,8 +154,8 @@ system:
     subtype: talent
 effects:
   - name: Clean Sweep
-    img: modules/AK5e-Foundry-Module/icons/Skill-Archetto2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.OPv3qY3XkJREYTZv
+    img: modules/ak5e/icons/Skill-Archetto2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.OPv3qY3XkJREYTZv
     transfer: false
     _id: NwTRzcT9bOu9FRm0
     type: base
@@ -221,8 +221,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767734824471
-  modifiedTime: 1783457744786
+  modifiedTime: 1783242826361
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!OPv3qY3XkJREYTZv'

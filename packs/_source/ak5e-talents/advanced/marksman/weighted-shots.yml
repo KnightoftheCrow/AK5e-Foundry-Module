@@ -2,7 +2,7 @@ folder: AynL7yzSlptsmcjl
 name: Weighted Shots
 type: feat
 _id: tFQX4Mvc3zrePzmi
-img: modules/AK5e-Foundry-Module/icons/Skill-Earthspirit1.webp
+img: modules/ak5e/icons/Skill-Earthspirit1.webp
 system:
   activities:
     xFxLIOsAfY4z1Dza:
@@ -116,7 +116,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>The first time you deal Damage to a Creature with an Attack, that
@@ -149,8 +149,8 @@ system:
     subtype: talent
 effects:
   - name: Weighted Shots
-    img: modules/AK5e-Foundry-Module/icons/Skill-Earthspirit1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.tFQX4Mvc3zrePzmi
+    img: modules/ak5e/icons/Skill-Earthspirit1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.tFQX4Mvc3zrePzmi
     _id: 5ijQrK0aaBAOXzbD
     type: base
     system: {}
@@ -216,8 +216,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767738734984
-  modifiedTime: 1783457745828
+  modifiedTime: 1783246898272
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!tFQX4Mvc3zrePzmi'

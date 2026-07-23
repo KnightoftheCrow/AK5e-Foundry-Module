@@ -2,7 +2,7 @@ folder: pUajGesWO3hqfFFR
 name: Master of the Elements
 type: feat
 _id: fiaSN2yTAQnjWlrV
-img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
+img: modules/ak5e/icons/Skill-Lin3.webp
 system:
   activities:
     djW2AdGH2rRlG7S3:
@@ -1362,7 +1362,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Your expertise with your chosen Arts grants you the following
@@ -1398,9 +1398,8 @@ system:
     subtype: ''
 effects:
   - name: Acid Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
+    img: modules/ak5e/icons/Skill-Lin3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
     transfer: false
     _id: fBg3OXjOylfv4fSJ
     type: base
@@ -1453,9 +1452,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!fiaSN2yTAQnjWlrV.fBg3OXjOylfv4fSJ'
   - name: Cold Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
+    img: modules/ak5e/icons/Skill-Lin3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
     transfer: false
     type: base
     system: {}
@@ -1508,9 +1506,8 @@ effects:
     _id: 3mmr2y1tgGvO1AQt
     _key: '!items.effects!fiaSN2yTAQnjWlrV.3mmr2y1tgGvO1AQt'
   - name: Fire Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
+    img: modules/ak5e/icons/Skill-Lin3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
     transfer: false
     type: base
     system: {}
@@ -1563,9 +1560,8 @@ effects:
     _id: 6znZrfhNkHKVMpuz
     _key: '!items.effects!fiaSN2yTAQnjWlrV.6znZrfhNkHKVMpuz'
   - name: Force Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
+    img: modules/ak5e/icons/Skill-Lin3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
     transfer: false
     type: base
     system: {}
@@ -1618,9 +1614,8 @@ effects:
     _id: jmmhmpaNAs1uhhx7
     _key: '!items.effects!fiaSN2yTAQnjWlrV.jmmhmpaNAs1uhhx7'
   - name: Lightning Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
+    img: modules/ak5e/icons/Skill-Lin3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
     transfer: false
     type: base
     system: {}
@@ -1673,9 +1668,8 @@ effects:
     _id: DSsDLqdxtgxzyGXL
     _key: '!items.effects!fiaSN2yTAQnjWlrV.DSsDLqdxtgxzyGXL'
   - name: Psychic Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
+    img: modules/ak5e/icons/Skill-Lin3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
     transfer: false
     type: base
     system: {}
@@ -1728,9 +1722,8 @@ effects:
     _id: ILdhEl7lMPtvpWLq
     _key: '!items.effects!fiaSN2yTAQnjWlrV.ILdhEl7lMPtvpWLq'
   - name: Radiant Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
+    img: modules/ak5e/icons/Skill-Lin3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
     transfer: false
     type: base
     system: {}
@@ -1783,9 +1776,8 @@ effects:
     _id: Y95njicq3NuzyCNF
     _key: '!items.effects!fiaSN2yTAQnjWlrV.Y95njicq3NuzyCNF'
   - name: Bludgeoning Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
+    img: modules/ak5e/icons/Skill-Lin3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
     transfer: false
     type: base
     system: {}
@@ -1838,9 +1830,8 @@ effects:
     _id: jc6nSWxSn9lQfGbn
     _key: '!items.effects!fiaSN2yTAQnjWlrV.jc6nSWxSn9lQfGbn'
   - name: Piercing Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
+    img: modules/ak5e/icons/Skill-Lin3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
     transfer: false
     type: base
     system: {}
@@ -1893,9 +1884,8 @@ effects:
     _id: dVwNBkTIipxinByF
     _key: '!items.effects!fiaSN2yTAQnjWlrV.dVwNBkTIipxinByF'
   - name: Slashing Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
+    img: modules/ak5e/icons/Skill-Lin3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
     transfer: false
     type: base
     system: {}
@@ -1948,9 +1938,8 @@ effects:
     _id: A5E1jyI5oEul7oTa
     _key: '!items.effects!fiaSN2yTAQnjWlrV.A5E1jyI5oEul7oTa'
   - name: Thunder Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
+    img: modules/ak5e/icons/Skill-Lin3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV
     transfer: false
     type: base
     system: {}
@@ -2004,7 +1993,7 @@ effects:
     _key: '!items.effects!fiaSN2yTAQnjWlrV.39bE8J1gFIiqwHbn'
   - type: enchantment
     name: Maverick (Force)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
+    img: modules/ak5e/icons/Skill-Lin3.webp
     disabled: true
     _id: SWo3GjwdR3gQNFet
     system: {}
@@ -2055,7 +2044,7 @@ effects:
     _key: '!items.effects!fiaSN2yTAQnjWlrV.SWo3GjwdR3gQNFet'
   - type: enchantment
     name: Maverick (Acid)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
+    img: modules/ak5e/icons/Skill-Lin3.webp
     disabled: true
     system: {}
     changes:
@@ -2106,7 +2095,7 @@ effects:
     _key: '!items.effects!fiaSN2yTAQnjWlrV.GdIcMz6ccTy10zF8'
   - type: enchantment
     name: Maverick (Piercing)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
+    img: modules/ak5e/icons/Skill-Lin3.webp
     disabled: true
     system: {}
     changes:
@@ -2145,7 +2134,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
+        Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -2158,7 +2147,7 @@ effects:
     _key: '!items.effects!fiaSN2yTAQnjWlrV.Jvuswm5rUbjd8mDV'
   - type: enchantment
     name: Maverick (Lightning)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
+    img: modules/ak5e/icons/Skill-Lin3.webp
     disabled: true
     system: {}
     changes:
@@ -2197,7 +2186,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
+        Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -2210,7 +2199,7 @@ effects:
     _key: '!items.effects!fiaSN2yTAQnjWlrV.0ukwb5DIWVQvFhRs'
   - type: enchantment
     name: Maverick (Fire)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
+    img: modules/ak5e/icons/Skill-Lin3.webp
     disabled: true
     system: {}
     changes:
@@ -2249,7 +2238,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
+        Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -2262,7 +2251,7 @@ effects:
     _key: '!items.effects!fiaSN2yTAQnjWlrV.t8yOZI4DivTpuAf1'
   - type: enchantment
     name: Maverick (Bludgeoning)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
+    img: modules/ak5e/icons/Skill-Lin3.webp
     disabled: true
     system: {}
     changes:
@@ -2301,7 +2290,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
+        Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -2314,7 +2303,7 @@ effects:
     _key: '!items.effects!fiaSN2yTAQnjWlrV.8luXEdvjnpnrp5K0'
   - type: enchantment
     name: Maverick (Cold)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
+    img: modules/ak5e/icons/Skill-Lin3.webp
     disabled: true
     system: {}
     changes:
@@ -2353,7 +2342,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
+        Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -2366,7 +2355,7 @@ effects:
     _key: '!items.effects!fiaSN2yTAQnjWlrV.ULl0dZtep44Corv2'
   - type: enchantment
     name: Maverick (Radiant)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
+    img: modules/ak5e/icons/Skill-Lin3.webp
     disabled: true
     system: {}
     changes:
@@ -2405,7 +2394,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
+        Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -2418,7 +2407,7 @@ effects:
     _key: '!items.effects!fiaSN2yTAQnjWlrV.rSi5N6tOm8ox4TFn'
   - type: enchantment
     name: Maverick (Psychic)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
+    img: modules/ak5e/icons/Skill-Lin3.webp
     disabled: true
     system: {}
     changes:
@@ -2457,7 +2446,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
+        Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -2470,7 +2459,7 @@ effects:
     _key: '!items.effects!fiaSN2yTAQnjWlrV.2Pz4o2N769xnzzKR'
   - type: enchantment
     name: Maverick (Thunder)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
+    img: modules/ak5e/icons/Skill-Lin3.webp
     disabled: true
     system: {}
     changes:
@@ -2509,7 +2498,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
+        Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -2522,7 +2511,7 @@ effects:
     _key: '!items.effects!fiaSN2yTAQnjWlrV.iVKwZJXKdcP4Z4WK'
   - type: enchantment
     name: Maverick (Slashing)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lin3.webp
+    img: modules/ak5e/icons/Skill-Lin3.webp
     disabled: true
     system: {}
     changes:
@@ -2561,7 +2550,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
+        Compendium.ak5e.ak5e-classes-and-features.Item.fiaSN2yTAQnjWlrV.ActiveEffect.GdIcMz6ccTy10zF8
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -2584,10 +2573,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774093934924
-  modifiedTime: 1783457740404
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774098008002
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!fiaSN2yTAQnjWlrV'

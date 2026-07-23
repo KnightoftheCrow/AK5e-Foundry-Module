@@ -52,8 +52,8 @@ system:
   description:
     value: >-
       <p>[[/attack extended]], [[/damage
-      extended]]</p><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.HyZrjHTNPBLZWBVW]{Deadly},
-      @UUID[Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.BWAbxScg3oUitPmT]{Firearm},
+      extended]]</p><p>@UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.HyZrjHTNPBLZWBVW]{Deadly},
+      @UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.BWAbxScg3oUitPmT]{Firearm},
       Loading, Two-Handed</p>
     chat: ''
   identifier: rifle

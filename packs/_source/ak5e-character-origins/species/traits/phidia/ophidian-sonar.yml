@@ -117,7 +117,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>Ophidian Sonar</h3><p>Like the Ophidians they represent, Phidia have
@@ -160,8 +160,7 @@ system:
 effects:
   - name: Tremorsense
     img: icons/creatures/reptiles/serpent-horned-green.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.xTCaK297EL7zunXZ
+    origin: Compendium.ak5e.ak5e-character-origins.Item.xTCaK297EL7zunXZ
     _id: bZfKoGJPF64bnhHb
     type: base
     system: {}
@@ -209,8 +208,7 @@ effects:
     _key: '!items.effects!xTCaK297EL7zunXZ.bZfKoGJPF64bnhHb'
   - name: Sonar Pulse
     img: icons/creatures/reptiles/serpent-horned-green.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.xTCaK297EL7zunXZ
+    origin: Compendium.ak5e.ak5e-character-origins.Item.xTCaK297EL7zunXZ
     transfer: false
     _id: uWGYVsQenigthhSa
     type: base
@@ -270,10 +268,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680318167
-  modifiedTime: 1783457738089
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680318167
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!xTCaK297EL7zunXZ'

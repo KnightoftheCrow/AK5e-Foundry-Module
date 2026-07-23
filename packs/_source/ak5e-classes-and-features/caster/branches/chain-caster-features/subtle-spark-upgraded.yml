@@ -2,7 +2,7 @@ folder: QmA37F3admePilsx
 name: Subtle Spark Upgraded
 type: feat
 _id: krc0JZKzL4QpMotT
-img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow3.webp
+img: modules/ak5e/icons/Skill-Goldenglow3.webp
 system:
   activities:
     VYrOPKnt5Qpn9b8H:
@@ -20,8 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+            target: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
       description:
         chatFlavor: ''
       duration:
@@ -131,8 +130,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+            target: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
       description:
         chatFlavor: ''
       duration:
@@ -242,8 +240,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+            target: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
       description:
         chatFlavor: ''
       duration:
@@ -361,8 +358,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+            target: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
       description:
         chatFlavor: ''
       duration:
@@ -480,8 +476,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+            target: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
       description:
         chatFlavor: ''
       duration:
@@ -591,8 +586,7 @@ system:
         targets:
           - type: itemUses
             value: '1'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+            target: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
       description:
         chatFlavor: ''
       duration:
@@ -699,7 +693,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>The application of your Sparks is as subtle as ever; the effects
@@ -726,9 +720,8 @@ system:
     subtype: ''
 effects:
   - name: +10ft Speed/+1d4 to Dex Saves
-    img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow2.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
     transfer: false
     _id: igKcNTAwYsCXZI8D
     type: base
@@ -776,7 +769,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.FEnhLDKXI3UKIZU8
+        Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.FEnhLDKXI3UKIZU8
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -787,9 +780,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!krc0JZKzL4QpMotT.igKcNTAwYsCXZI8D'
   - name: +4 DR
-    img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow2.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
     transfer: false
     _id: UJ6Pz6jRxqZFgwsu
     type: base
@@ -881,7 +873,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.kk13jUbxbo3jMcmR
+        Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.kk13jUbxbo3jMcmR
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -892,9 +884,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!krc0JZKzL4QpMotT.UJ6Pz6jRxqZFgwsu'
   - name: '-10ft Speed/-1d4 to Dex Saves'
-    img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow2.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
     transfer: false
     _id: YQwc1BQ09ZDzVFWp
     type: base
@@ -942,7 +933,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.3NQXq6ammdf67oKy
+        Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.3NQXq6ammdf67oKy
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -953,9 +944,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!krc0JZKzL4QpMotT.YQwc1BQ09ZDzVFWp'
   - name: '-1d4 to Attack and Damage Rolls'
-    img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow2.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
     transfer: false
     _id: 27ijoHsht4UydROZ
     type: base
@@ -1003,7 +993,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.5ssarri1C6JUXCay
+        Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.5ssarri1C6JUXCay
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -1014,9 +1004,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!krc0JZKzL4QpMotT.27ijoHsht4UydROZ'
   - name: +1d4 to Attack and Damage Rolls
-    img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow2.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
     transfer: false
     _id: Im7Fz4YFR0txuifL
     type: base
@@ -1064,7 +1053,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.YhA83KSbKhW3SRBE
+        Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.YhA83KSbKhW3SRBE
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -1075,9 +1064,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!krc0JZKzL4QpMotT.Im7Fz4YFR0txuifL'
   - name: '-4 DR'
-    img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow2.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.krc0JZKzL4QpMotT
     transfer: false
     type: base
     system: {}
@@ -1168,7 +1156,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.kk13jUbxbo3jMcmR
+        Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.kk13jUbxbo3jMcmR
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -1191,10 +1179,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774099559836
-  modifiedTime: 1783457740737
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774178697257
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!krc0JZKzL4QpMotT'

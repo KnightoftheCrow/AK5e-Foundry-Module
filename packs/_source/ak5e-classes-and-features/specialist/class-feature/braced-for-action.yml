@@ -1,6 +1,6 @@
 name: Braced for Action
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Aciddrop1.png
+img: modules/ak5e/icons/Skill-Aciddrop1.png
 system:
   activities:
     jZ9DisE3WSytNCyy:
@@ -153,7 +153,7 @@ system:
     subtype: fightingStyle
 effects:
   - name: Braced for Action
-    img: modules/AK5e-Foundry-Module/icons/Skill-Aciddrop1.png
+    img: modules/ak5e/icons/Skill-Aciddrop1.png
     origin: >-
       Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.I9DESZjXmMe3qXWM
     transfer: false

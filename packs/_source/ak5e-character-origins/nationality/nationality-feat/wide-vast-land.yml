@@ -11,7 +11,7 @@ system:
       - period: lr
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Yan is a massive nation; the most populated nation on Terra, to be
@@ -51,8 +51,7 @@ system:
 effects:
   - name: Diplomacy Advantage
     img: icons/skills/social/diplomacy-unity-alliance.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Rr617n0OudHqReqn
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Rr617n0OudHqReqn
     _id: P87AajN6MZsgrH45
     type: base
     system: {}
@@ -146,10 +145,10 @@ _stats:
   compendiumSource: Item.Rr617n0OudHqReqn
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881328247
-  modifiedTime: 1783457735783
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!Rr617n0OudHqReqn'
