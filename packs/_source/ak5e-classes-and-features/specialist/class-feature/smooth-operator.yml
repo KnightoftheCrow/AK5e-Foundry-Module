@@ -154,8 +154,7 @@ system:
 effects:
   - name: Smooth Operator
     img: modules/ak5e/icons/Skill-BluePoison1.png
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.EmHinHrGFC2uefsW
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.EmHinHrGFC2uefsW
     _id: iiSxjqAGvXjyAQ3V
     type: base
     system: {}

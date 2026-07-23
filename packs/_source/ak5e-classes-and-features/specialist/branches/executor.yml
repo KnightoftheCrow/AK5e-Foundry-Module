@@ -2,7 +2,7 @@ folder: QJjGENx3ERG6JUY7
 name: Executor
 type: subclass
 _id: NGidmyjmLQypz0Nx
-img: modules/AK5e-Foundry-Module/icons/Executor_Specialist.webp
+img: modules/ak5e/icons/Executor_Specialist.webp
 system:
   advancement:
     vOl90ZqJ8wMkmN5h:
@@ -15,10 +15,8 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.kqwkHjTaiIjCvi5X
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.wdArlFZHTvXVS5DR
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.kqwkHjTaiIjCvi5X
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.wdArlFZHTvXVS5DR
         restriction:
           list: []
         spell: null
@@ -39,10 +37,8 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.M1GUs2xp4K1FzIc7
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.8hcLV51sdTOLzyV9
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.M1GUs2xp4K1FzIc7
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.8hcLV51sdTOLzyV9
         restriction:
           list: []
         spell: null
@@ -64,10 +60,8 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Q91xkjxSrU18r3zZ
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.lwNWtXxCVNRdUbD5
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.Q91xkjxSrU18r3zZ
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.lwNWtXxCVNRdUbD5
         restriction:
           list: []
         spell: null
@@ -89,10 +83,8 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.9Ppp4KNZkDsJoQip
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Q0zzbLJ2kWmjln5m
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.9Ppp4KNZkDsJoQip
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.Q0zzbLJ2kWmjln5m
         restriction:
           list: []
         spell: null
@@ -114,10 +106,8 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.ZOojcsxAfy4eC5cP
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.muBuHzSgKJi1rvbq
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.ZOojcsxAfy4eC5cP
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.muBuHzSgKJi1rvbq
         restriction:
           list: []
           type: ''
@@ -137,8 +127,7 @@ system:
       _id: CyOjGxYWnYsMFOOe
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.cafTpF1e9GXPsnc4
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.cafTpF1e9GXPsnc4
             optional: false
         optional: false
         spell: null

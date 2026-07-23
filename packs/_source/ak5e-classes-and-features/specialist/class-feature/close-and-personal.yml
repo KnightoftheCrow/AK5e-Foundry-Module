@@ -38,8 +38,7 @@ system:
 effects:
   - name: Close and Personal
     img: modules/ak5e/icons/Skill-Andreana1.png
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.EDkvryXGAngFLann
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.EDkvryXGAngFLann
     _id: 0seOj4G3UUMMK9ng
     type: base
     system: {}

@@ -2,15 +2,14 @@ folder: QJjGENx3ERG6JUY7
 name: Skyranger
 type: subclass
 _id: HycR18TQR2jysSTc
-img: modules/AK5e-Foundry-Module/icons/Skyranger_Specialist.webp
+img: modules/ak5e/icons/Skyranger_Specialist.webp
 system:
   advancement:
     9zdMNFvDWLYmX5dB:
       type: ItemGrant
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.mFlEn0zBWbRslklu
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.mFlEn0zBWbRslklu
             optional: false
         optional: false
         spell: null
@@ -25,8 +24,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.EC0heYI9PkLGcQAq
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.EC0heYI9PkLGcQAq
             optional: false
         optional: false
         spell: null
@@ -41,11 +39,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.WvbrwK1V21yZg60v
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.WvbrwK1V21yZg60v
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.AjvXcDYL7pR1yN9k
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.AjvXcDYL7pR1yN9k
             optional: false
         optional: false
         spell: null
@@ -60,8 +56,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.aBC6R1IbOsCPzXeP
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.aBC6R1IbOsCPzXeP
             optional: false
         optional: false
         spell: null
@@ -76,8 +71,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.9NZUTu67v3gGijVt
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.9NZUTu67v3gGijVt
             optional: false
         optional: false
         spell: null

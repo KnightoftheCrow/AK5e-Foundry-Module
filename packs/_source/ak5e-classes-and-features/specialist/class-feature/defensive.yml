@@ -156,8 +156,7 @@ system:
 effects:
   - name: Defensive
     img: modules/ak5e/icons/Skill-Blitz1.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.jNXxnvPxISVHwgTT
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.jNXxnvPxISVHwgTT
     transfer: false
     _id: 9ANJvywCuBBpNs8y
     type: base

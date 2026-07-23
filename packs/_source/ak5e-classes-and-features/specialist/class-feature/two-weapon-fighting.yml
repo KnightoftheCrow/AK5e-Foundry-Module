@@ -157,8 +157,7 @@ system:
 effects:
   - name: Two-Weapon Fighting
     img: modules/ak5e/icons/Skill-Executor2.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.vMtXhZe3ObcTXEnx
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.vMtXhZe3ObcTXEnx
     _id: GpB6TABkCijBCPam
     type: base
     system: {}
