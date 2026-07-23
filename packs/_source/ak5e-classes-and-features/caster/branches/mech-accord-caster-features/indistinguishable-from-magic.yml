@@ -2,7 +2,7 @@ folder: PEUmzy8rnB1pKfXr
 name: Indistinguishable From Magic
 type: feat
 _id: eFBDkstnP7YQzWSF
-img: modules/AK5e-Foundry-Module/icons/Skill-Click1.webp
+img: modules/ak5e/icons/Skill-Click1.webp
 system:
   activities:
     odqD0dHvmUweXfhT:
@@ -76,7 +76,7 @@ system:
         - count: ''
           name: ''
           _id: ebiQQauviRL6BdFs
-          uuid: Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.Bbz5oIFq2XUWeQpD
+          uuid: Compendium.ak5e.ak5e-bestiary.Actor.Bbz5oIFq2XUWeQpD
           level:
             min: null
             max: null
@@ -342,8 +342,7 @@ system:
     recovery: []
     max: '1'
   advancement:
-    p4GMUCqMX5xMGwPy:
-      type: Trait
+    - type: Trait
       _id: p4GMUCqMX5xMGwPy
       configuration:
         allowReplacements: false
@@ -356,7 +355,6 @@ system:
       title: Technology Expertise
       hint: ''
       value: {}
-      flags: {}
   description:
     value: >-
       <p>You have created a drone known as an Arts Master, a flying construct
@@ -409,8 +407,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1774102391442
-  modifiedTime: 1783457740299
+  modifiedTime: 1777738804919
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!eFBDkstnP7YQzWSF'

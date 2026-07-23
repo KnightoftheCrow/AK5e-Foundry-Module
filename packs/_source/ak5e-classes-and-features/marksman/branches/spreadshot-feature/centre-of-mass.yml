@@ -2,7 +2,7 @@ folder: DjSTH0TXN7YZwjfY
 name: Centre of Mass
 type: feat
 _id: yjFRcEf1Mx0hdZTw
-img: modules/AK5e-Foundry-Module/icons/Skill-Fartooth3.webp
+img: modules/ak5e/icons/Skill-Fartooth3.webp
 system:
   activities:
     cn0F89YBEeR0lpzh:
@@ -135,7 +135,7 @@ system:
       - period: sr
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>You learn the art of putting down a single foe quickly.</p><p>As an
@@ -180,8 +180,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767626126687
-  modifiedTime: 1783457741311
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768655478896
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!yjFRcEf1Mx0hdZTw'

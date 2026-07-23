@@ -115,7 +115,7 @@ system:
     spent: 0
     recovery: []
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>You and that ally gain the following
@@ -158,11 +158,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.sXQvZHUNaAFY10E0
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680310513
-  modifiedTime: 1783457735644
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680310513
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: QiKm9xxoarYlIzbI
 _key: '!items!QiKm9xxoarYlIzbI'

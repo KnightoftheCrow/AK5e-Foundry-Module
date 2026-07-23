@@ -1,7 +1,7 @@
 folder: krMsndTTVD0R6oop
 name: Artshield
 type: subclass
-img: modules/AK5e-Foundry-Module/icons/Arts_Protector_Defender.webp
+img: modules/ak5e/icons/Arts_Protector_Defender.webp
 system:
   advancement:
     IhZDBD55FAwscfde:
@@ -9,8 +9,7 @@ system:
       _id: IhZDBD55FAwscfde
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.AKP43YGj6KvrLj0f
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.AKP43YGj6KvrLj0f
         optional: false
         spell: null
       flags: {}
@@ -23,8 +22,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.DhjjgZIfg0D2VAl8
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.DhjjgZIfg0D2VAl8
             optional: false
         optional: false
         spell: null
@@ -39,8 +37,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.49QAELRp3gD3OWEj
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.49QAELRp3gD3OWEj
             optional: false
         optional: false
         spell: null
@@ -55,8 +52,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.pKS4qzxWCvyhY3mT
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.pKS4qzxWCvyhY3mT
             optional: false
         optional: false
         spell: null
@@ -71,8 +67,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.bJHXyTUZ6aTp30d6
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.bJHXyTUZ6aTp30d6
             optional: false
         optional: false
         spell: null
@@ -93,15 +88,15 @@ system:
       strikes.</p><p>You get next Branch features:</p><table><tbody><tr><td
       data-colwidth="50"><p>Level</p></td><td><p>Branch
       Feature</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.AKP43YGj6KvrLj0f]{Against
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.AKP43YGj6KvrLj0f]{Against
       the Storm}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">4</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.DhjjgZIfg0D2VAl8]{Weapons
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.DhjjgZIfg0D2VAl8]{Weapons
       of the Enemy}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">9</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.49QAELRp3gD3OWEj]{Oppressive
+      style="text-align:center">9</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.49QAELRp3gD3OWEj]{Oppressive
       Force}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">12</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.pKS4qzxWCvyhY3mT]{Stormchaser}</p></td></tr><tr><td
+      style="text-align:center">12</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.pKS4qzxWCvyhY3mT]{Stormchaser}</p></td></tr><tr><td
       data-colwidth="50"><p
-      style="text-align:center">15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.bJHXyTUZ6aTp30d6]{Eye
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.bJHXyTUZ6aTp30d6]{Eye
       of the Storm}</p></td></tr></tbody></table>
     chat: ''
   identifier: artshield
@@ -120,8 +115,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: >-
-    Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.TEJmypCSFHelhCii
+  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.TEJmypCSFHelhCii
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

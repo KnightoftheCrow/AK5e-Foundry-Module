@@ -1,19 +1,16 @@
 folder: O2Yp1afpugL0lA12
 name: Deadeye
 type: subclass
-img: modules/AK5e-Foundry-Module/icons/Deadeye_Sniper.webp
+img: modules/ak5e/icons/Deadeye_Sniper.webp
 system:
   advancement:
-    SdGPFiUZcFml2fdf:
-      type: ItemGrant
+    - type: ItemGrant
       _id: SdGPFiUZcFml2fdf
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.CDG10QNnyWf5iB0x
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.CDG10QNnyWf5iB0x
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.bnjx284W0wwCkHjz
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.bnjx284W0wwCkHjz
             optional: false
         optional: false
         spell: null
@@ -21,29 +18,23 @@ system:
       level: 1
       title: Branch Feature
       hint: ''
-      flags: {}
-    EgypfjjjUFQQsRDR:
-      type: ItemGrant
+    - type: ItemGrant
       title: Branch Feature
       _id: EgypfjjjUFQQsRDR
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.yBYmY2sbmNQS71ul
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.yBYmY2sbmNQS71ul
             optional: false
         optional: false
         spell: null
       value: {}
       level: 4
       hint: ''
-      flags: {}
-    Xv2EHynfwsNypnUK:
-      type: ItemGrant
+    - type: ItemGrant
       _id: Xv2EHynfwsNypnUK
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.NVVRhhbcvRmYYPe8
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.NVVRhhbcvRmYYPe8
             optional: false
         optional: false
         spell: null
@@ -51,14 +42,11 @@ system:
       level: 10
       title: Branch Feature
       hint: ''
-      flags: {}
-    6NXGdLRV2ohPYG1z:
-      type: ItemGrant
+    - type: ItemGrant
       _id: 6NXGdLRV2ohPYG1z
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.NWFUAeiHkW2pfJqn
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.NWFUAeiHkW2pfJqn
             optional: false
         optional: false
         spell: null
@@ -66,22 +54,18 @@ system:
       level: 15
       title: Branch Feature
       hint: ''
-      flags: {}
-    jOAiuouuCALP1lKK:
-      type: ItemGrant
+    - type: ItemGrant
       title: Branch Feature
       _id: jOAiuouuCALP1lKK
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.30hRrtnTxtx0PlLd
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.30hRrtnTxtx0PlLd
             optional: false
         optional: false
         spell: null
       value: {}
       level: 18
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>“One Shot, One Kill” is the mantra of Deadeye Marksmen. They
@@ -89,11 +73,11 @@ system:
       rather than multiple less effective shots. Quantity is no substitute for
       quality, or so they say.</p><p>You get next Branch
       Features:</p><table><tbody><tr><td><p>Level</p></td><td><p>Branch
-      Feature</p></td></tr><tr><td><p>1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.CDG10QNnyWf5iB0x]{Deadshot},
-      @UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.bnjx284W0wwCkHjz]{Kingslayer}</p></td></tr><tr><td><p>4</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.yBYmY2sbmNQS71ul]{Vital
-      Strike}</p></td></tr><tr><td><p>10</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.NVVRhhbcvRmYYPe8]{Anti-Sniper
-      Training}</p></td></tr><tr><td><p>15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.NWFUAeiHkW2pfJqn]{Improved
-      Deadshot}</p></td></tr><tr><td><p>18</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.30hRrtnTxtx0PlLd]{Ultimate
+      Feature</p></td></tr><tr><td><p>1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.CDG10QNnyWf5iB0x]{Deadshot},
+      @UUID[Compendium.ak5e.ak5e-classes-and-features.Item.bnjx284W0wwCkHjz]{Kingslayer}</p></td></tr><tr><td><p>4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.yBYmY2sbmNQS71ul]{Vital
+      Strike}</p></td></tr><tr><td><p>10</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.NVVRhhbcvRmYYPe8]{Anti-Sniper
+      Training}</p></td></tr><tr><td><p>15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.NWFUAeiHkW2pfJqn]{Improved
+      Deadshot}</p></td></tr><tr><td><p>18</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.30hRrtnTxtx0PlLd]{Ultimate
       Deadshot}</p></td></tr></tbody></table>
     chat: ''
   identifier: deadeye
@@ -117,10 +101,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767615317056
-  modifiedTime: 1783457739749
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1767875759963
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

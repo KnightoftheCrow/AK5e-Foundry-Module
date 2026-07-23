@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>Cautus Luck</h3><p>Is it luck, base cunning, or a combination of the
@@ -41,8 +41,7 @@ system:
 effects:
   - name: Cautus Luck
     img: icons/magic/control/buff-luck-fortune-green.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.jgIA3fePwiDzzTHq
+    origin: Compendium.ak5e.ak5e-character-origins.Item.jgIA3fePwiDzzTHq
     _id: zEVr0YhnUI4j2UYJ
     type: base
     system: {}
@@ -100,10 +99,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680297411
-  modifiedTime: 1783457737162
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680297411
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!jgIA3fePwiDzzTHq'

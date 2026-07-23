@@ -1,87 +1,70 @@
 folder: O2Yp1afpugL0lA12
 name: Hunter
 type: subclass
-img: modules/AK5e-Foundry-Module/icons/Hunter_Sniper.webp
+img: modules/ak5e/icons/Hunter_Sniper.webp
 system:
   advancement:
-    XWHypIYo8IGZsgdY:
-      type: ItemGrant
+    - type: ItemGrant
       title: Branch Feature
       _id: XWHypIYo8IGZsgdY
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.a6EQ6Ifq0YgaecCA
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.a6EQ6Ifq0YgaecCA
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.8OJwMeu2gV0NHWRL
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.8OJwMeu2gV0NHWRL
             optional: false
         optional: false
         spell: null
       value: {}
       level: 1
-      flags: {}
-      hint: ''
-    QyxiUJsscgD8giKG:
-      type: ItemGrant
+    - type: ItemGrant
       title: Branch Feature
       _id: QyxiUJsscgD8giKG
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fIs8ioJljFEzCG97
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.fIs8ioJljFEzCG97
             optional: false
         optional: false
         spell: null
       value: {}
       level: 4
       hint: ''
-      flags: {}
-    X64DkAS2mQH8IAQG:
-      type: ItemGrant
+    - type: ItemGrant
       title: Branch Feature
       _id: X64DkAS2mQH8IAQG
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.3XfqLUspLW3kxovU
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.3XfqLUspLW3kxovU
             optional: false
         optional: false
         spell: null
       value: {}
       level: 10
       hint: ''
-      flags: {}
-    Dy3n2WhmtO8jvdLD:
-      type: ItemGrant
+    - type: ItemGrant
       title: Branch Feature
       _id: Dy3n2WhmtO8jvdLD
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.m4oS20QOjc7xVeQi
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.m4oS20QOjc7xVeQi
             optional: false
         optional: false
         spell: null
       value: {}
       level: 15
       hint: ''
-      flags: {}
-    zi054pFQvq9j9vlk:
-      type: ItemGrant
+    - type: ItemGrant
       title: Branch Feature
       _id: zi054pFQvq9j9vlk
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.2vd3mVNlbCxABkBp
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.2vd3mVNlbCxABkBp
             optional: false
         optional: false
         spell: null
       value: {}
       level: 18
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>Hunter Marksmen, much like the profession they sharetheir name with,
@@ -93,17 +76,17 @@ system:
       Features:</p><table><tbody><tr><td
       data-colwidth="87"><p>Level</p></td><td><p>Branch
       Feature</p></td></tr><tr><td data-colwidth="87"><p
-      style="text-align:center">1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.a6EQ6Ifq0YgaecCA]{Empowered
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.a6EQ6Ifq0YgaecCA]{Empowered
       Shots},
-      @UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.8OJwMeu2gV0NHWRL]{Energy
+      @UUID[Compendium.ak5e.ak5e-classes-and-features.Item.8OJwMeu2gV0NHWRL]{Energy
       Retention}</p></td></tr><tr><td data-colwidth="87"><p
-      style="text-align:center">4</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fIs8ioJljFEzCG97]{Enhanced
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.fIs8ioJljFEzCG97]{Enhanced
       Empowered Shots}</p></td></tr><tr><td data-colwidth="87"><p
-      style="text-align:center">10</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.3XfqLUspLW3kxovU]{Railgun}</p></td></tr><tr><td
+      style="text-align:center">10</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.3XfqLUspLW3kxovU]{Railgun}</p></td></tr><tr><td
       data-colwidth="87"><p
-      style="text-align:center">15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.m4oS20QOjc7xVeQi]{Ultimate
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.m4oS20QOjc7xVeQi]{Ultimate
       Empowered Shots}</p></td></tr><tr><td data-colwidth="87"><p
-      style="text-align:center">18</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.2vd3mVNlbCxABkBp]{Let
+      style="text-align:center">18</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.2vd3mVNlbCxABkBp]{Let
       the Light In}</p></td></tr></tbody></table>
     chat: ''
   identifier: hunter
@@ -127,10 +110,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767615323014
-  modifiedTime: 1783457739883
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1767875844333
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

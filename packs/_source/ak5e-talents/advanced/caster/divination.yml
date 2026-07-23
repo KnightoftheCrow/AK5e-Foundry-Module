@@ -2,7 +2,7 @@ folder: cyW9fgrb9XaTddeH
 name: Divination
 type: feat
 _id: FMqAqIDySpFwUepP
-img: modules/AK5e-Foundry-Module/icons/Skill-Gitano1.webp
+img: modules/ak5e/icons/Skill-Gitano1.webp
 system:
   activities:
     vKFcAgqVjPl42sdD:
@@ -528,7 +528,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Whenever you roll Initiative, roll 1d4. Depending on the result, you
@@ -560,8 +560,8 @@ system:
     subtype: skillPoints
 effects:
   - name: 1- +1 Spell Save DC and Spell Attack Bonus
-    img: modules/AK5e-Foundry-Module/icons/Skill-Gitano1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.FMqAqIDySpFwUepP
+    img: modules/ak5e/icons/Skill-Gitano1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.FMqAqIDySpFwUepP
     transfer: false
     _id: xT23W44WQb3u5eIi
     type: base
@@ -617,8 +617,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!FMqAqIDySpFwUepP.xT23W44WQb3u5eIi'
   - name: 2- +2 to Damage Rolls
-    img: modules/AK5e-Foundry-Module/icons/Skill-Gitano1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.FMqAqIDySpFwUepP
+    img: modules/ak5e/icons/Skill-Gitano1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.FMqAqIDySpFwUepP
     transfer: false
     type: base
     system: {}
@@ -678,8 +678,8 @@ effects:
     _id: aZzIonjzN5fKOKCo
     _key: '!items.effects!FMqAqIDySpFwUepP.aZzIonjzN5fKOKCo'
   - name: 3- +15 Temporary Hit Points
-    img: modules/AK5e-Foundry-Module/icons/Skill-Gitano1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.FMqAqIDySpFwUepP
+    img: modules/ak5e/icons/Skill-Gitano1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.FMqAqIDySpFwUepP
     transfer: false
     type: base
     system: {}
@@ -727,8 +727,8 @@ effects:
     _id: fMrBJiSluHQGSPzL
     _key: '!items.effects!FMqAqIDySpFwUepP.fMrBJiSluHQGSPzL'
   - name: 4- +10 Speed
-    img: modules/AK5e-Foundry-Module/icons/Skill-Gitano1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.FMqAqIDySpFwUepP
+    img: modules/ak5e/icons/Skill-Gitano1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.FMqAqIDySpFwUepP
     transfer: false
     type: base
     system: {}
@@ -793,8 +793,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1783457744322
+  modifiedTime: 1783248415014
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!FMqAqIDySpFwUepP'

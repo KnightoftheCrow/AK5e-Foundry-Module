@@ -58,7 +58,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.ekwWi7h5Gyz1FipB
+        uuid: Compendium.ak5e.ak5e-arts.Item.ekwWi7h5Gyz1FipB
         ability: ''
         level: 1
       useConditionText: ''
@@ -160,7 +160,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.Qwtl3zyqKFBSIoAd
+        uuid: Compendium.ak5e.ak5e-arts.Item.Qwtl3zyqKFBSIoAd
         ability: ''
         level: 2
       useConditionText: ''
@@ -364,7 +364,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.lRfOSq1LJPAijngD
+        uuid: Compendium.ak5e.ak5e-arts.Item.lRfOSq1LJPAijngD
         ability: ''
         level: 4
       useConditionText: ''
@@ -466,7 +466,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.kDw2o9btNh42DVOI
+        uuid: Compendium.ak5e.ak5e-arts.Item.kDw2o9btNh42DVOI
         ability: ''
         level: 2
       useConditionText: ''
@@ -568,7 +568,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.1oqQtvtRt7sski62
+        uuid: Compendium.ak5e.ak5e-arts.Item.1oqQtvtRt7sski62
         ability: ''
         level: 3
       useConditionText: ''
@@ -670,7 +670,7 @@ system:
           - somatic
           - material
         spellbook: true
-        uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.TyFjjFy8Z9fcV9QA
+        uuid: Compendium.ak5e.ak5e-arts.Item.TyFjjFy8Z9fcV9QA
         ability: ''
         level: 3
       useConditionText: ''
@@ -929,12 +929,11 @@ system:
     recovery: []
     max: ''
   advancement:
-    YzCb5aBwMxT1uPUP:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - optional: false
-            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.ekwWi7h5Gyz1FipB
+            uuid: Compendium.ak5e.ak5e-arts.Item.ekwWi7h5Gyz1FipB
         optional: false
         spell:
           ability:
@@ -950,14 +949,12 @@ system:
       title: ''
       hint: ''
       _id: YzCb5aBwMxT1uPUP
-      flags: {}
-    puSuQultRVr8Kfws:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.Qwtl3zyqKFBSIoAd
+          - uuid: Compendium.ak5e.ak5e-arts.Item.Qwtl3zyqKFBSIoAd
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.kDw2o9btNh42DVOI
+          - uuid: Compendium.ak5e.ak5e-arts.Item.kDw2o9btNh42DVOI
             optional: false
         optional: false
         spell:
@@ -974,12 +971,10 @@ system:
       title: ''
       hint: ''
       _id: puSuQultRVr8Kfws
-      flags: {}
-    5wEDjYPxvIplX5VK:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.lRfOSq1LJPAijngD
+          - uuid: Compendium.ak5e.ak5e-arts.Item.lRfOSq1LJPAijngD
             optional: false
         optional: false
         spell:
@@ -996,17 +991,15 @@ system:
       title: ''
       hint: ''
       _id: 5wEDjYPxvIplX5VK
-      flags: {}
-    1wFNO1U1htJQc8So:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - optional: false
-            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.ATpb9Ted3GPPjwPd
+            uuid: Compendium.ak5e.ak5e-arts.Item.ATpb9Ted3GPPjwPd
           - optional: false
-            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.LYYy8TAR37M05kWJ
+            uuid: Compendium.ak5e.ak5e-arts.Item.LYYy8TAR37M05kWJ
           - optional: false
-            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.LG72kQqgLtd09aQn
+            uuid: Compendium.ak5e.ak5e-arts.Item.LG72kQqgLtd09aQn
         optional: false
         spell:
           ability:
@@ -1022,9 +1015,7 @@ system:
       title: ''
       hint: ''
       _id: 1wFNO1U1htJQc8So
-      flags: {}
-    UCLhgh6cgvLDuWfY:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - optional: false
@@ -1044,9 +1035,7 @@ system:
       title: ''
       hint: ''
       _id: UCLhgh6cgvLDuWfY
-      flags: {}
-    3lrohK57WwzowN7T:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordH
@@ -1068,14 +1057,12 @@ system:
       title: ''
       hint: ''
       _id: 3lrohK57WwzowN7T
-      flags: {}
-    i8BYWv5DpcCeHTVN:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.KJCNwRWGIXbVBVLg
+          - uuid: Compendium.ak5e.ak5e-arts.Item.KJCNwRWGIXbVBVLg
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.XVVNl8g0KbX9g7Nv
+          - uuid: Compendium.ak5e.ak5e-arts.Item.XVVNl8g0KbX9g7Nv
             optional: false
         optional: false
         spell:
@@ -1092,12 +1079,10 @@ system:
       title: ''
       hint: ''
       _id: i8BYWv5DpcCeHTVN
-      flags: {}
-    V25xDdhr11kq0vwm:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.X4a8gccUevej3Bub
+          - uuid: Compendium.ak5e.ak5e-arts.Item.X4a8gccUevej3Bub
             optional: false
           - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPowerWordS
             optional: false
@@ -1116,9 +1101,7 @@ system:
       title: ''
       hint: ''
       _id: V25xDdhr11kq0vwm
-      flags: {}
-    5Vj9ikuHaCQomxtt:
-      type: ItemGrant
+    - type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBestowCurs
@@ -1146,7 +1129,6 @@ system:
       title: ''
       hint: ''
       _id: 5Vj9ikuHaCQomxtt
-      flags: {}
   description:
     value: >-
       <h3>Voice of Ruin</h3><p>The Banshee of the Sarkaz are lethal and
@@ -1214,10 +1196,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680339548
-  modifiedTime: 1783457737276
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680339548
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!lCBBG0OI9YNQ9IOy'

@@ -323,7 +323,7 @@ system:
       - period: sr
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>Tough as Nails</h3><p>The endurance of the Vouivre is legendary, able
@@ -357,8 +357,7 @@ system:
 effects:
   - name: Acid Resistance
     img: icons/commodities/metal/mail-chain-steel.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
     _id: zg7sClQZUqGRPbBH
     type: base
     system: {}
@@ -410,8 +409,7 @@ effects:
     _key: '!items.effects!Pype90SOkv2YVy1v.zg7sClQZUqGRPbBH'
   - name: Bludgeoning Resistance
     img: icons/commodities/metal/mail-chain-steel.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
     type: base
     system: {}
     changes:
@@ -464,8 +462,7 @@ effects:
     _key: '!items.effects!Pype90SOkv2YVy1v.Cuqet7Vq8SzijtmH'
   - name: Cold Resistance
     img: icons/commodities/metal/mail-chain-steel.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
     type: base
     system: {}
     changes:
@@ -518,8 +515,7 @@ effects:
     _key: '!items.effects!Pype90SOkv2YVy1v.MWsEsZl7AHnOus6s'
   - name: Fire Resistance
     img: icons/commodities/metal/mail-chain-steel.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
     type: base
     system: {}
     changes:
@@ -572,8 +568,7 @@ effects:
     _key: '!items.effects!Pype90SOkv2YVy1v.mRJ4zwUNP2PrRuuv'
   - name: Force Resistance
     img: icons/commodities/metal/mail-chain-steel.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
     type: base
     system: {}
     changes:
@@ -626,8 +621,7 @@ effects:
     _key: '!items.effects!Pype90SOkv2YVy1v.8QtouB4qxH12gu4P'
   - name: Lightning Resistance
     img: icons/commodities/metal/mail-chain-steel.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
     type: base
     system: {}
     changes:
@@ -680,8 +674,7 @@ effects:
     _key: '!items.effects!Pype90SOkv2YVy1v.CY14GlOe4g60kCpx'
   - name: Necrotic Resistance
     img: icons/commodities/metal/mail-chain-steel.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
     type: base
     system: {}
     changes:
@@ -734,8 +727,7 @@ effects:
     _key: '!items.effects!Pype90SOkv2YVy1v.3W15NzdlHyG1z2V1'
   - name: Piercing Resistance
     img: icons/commodities/metal/mail-chain-steel.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
     type: base
     system: {}
     changes:
@@ -788,8 +780,7 @@ effects:
     _key: '!items.effects!Pype90SOkv2YVy1v.kedGl27umU4XhVKR'
   - name: Poison Resistance
     img: icons/commodities/metal/mail-chain-steel.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
     type: base
     system: {}
     changes:
@@ -842,8 +833,7 @@ effects:
     _key: '!items.effects!Pype90SOkv2YVy1v.LXeIEnHhiplN35mz'
   - name: Psychic Resistance
     img: icons/commodities/metal/mail-chain-steel.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
     type: base
     system: {}
     changes:
@@ -896,8 +886,7 @@ effects:
     _key: '!items.effects!Pype90SOkv2YVy1v.YEUhpdDqY3F4iOIW'
   - name: Radiant Resistance
     img: icons/commodities/metal/mail-chain-steel.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
     type: base
     system: {}
     changes:
@@ -950,8 +939,7 @@ effects:
     _key: '!items.effects!Pype90SOkv2YVy1v.FFNX34aIoyRfZvqp'
   - name: Slashing Resistance
     img: icons/commodities/metal/mail-chain-steel.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
     type: base
     system: {}
     changes:
@@ -1004,8 +992,7 @@ effects:
     _key: '!items.effects!Pype90SOkv2YVy1v.gSVlrWhQj6s09ruy'
   - name: Thunder Resistance
     img: icons/commodities/metal/mail-chain-steel.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+    origin: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
     type: base
     system: {}
     changes:
@@ -1068,10 +1055,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680538261
-  modifiedTime: 1783457735554
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680538261
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!Pype90SOkv2YVy1v'

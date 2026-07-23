@@ -1,7 +1,7 @@
 folder: dX9bNDGt3LqFfCRN
 name: Unarmoured Agility (Module)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-LuoXiaohei1.webp
+img: modules/ak5e/icons/Skill-LuoXiaohei1.webp
 system:
   activities: {}
   uses:
@@ -22,7 +22,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.djXI6GLIRAdKvd1j
+      - Compendium.ak5e.ak5e-talents.Item.djXI6GLIRAdKvd1j
     repeatable: false
     level: 8
   properties:
@@ -33,7 +33,7 @@ system:
     subtype: talent
 effects:
   - name: Unarmoured Agility (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-LuoXiaohei1.webp
+    img: modules/ak5e/icons/Skill-LuoXiaohei1.webp
     origin: Item.loI7v0uU2MSmIXLD
     _id: K9JZgB8SIJMnNbvW
     type: base

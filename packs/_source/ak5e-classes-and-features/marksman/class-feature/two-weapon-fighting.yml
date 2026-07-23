@@ -1,7 +1,7 @@
 folder: r2sKTPYSmSAEfVCU
 name: Two-Weapon Fighting
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Executor2.webp
+img: modules/ak5e/icons/Skill-Executor2.webp
 system:
   activities:
     181QvC8UpvfdRcJN:
@@ -120,7 +120,7 @@ system:
       - period: turn
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>When you engage in Two-Weapon Fighting, you can add your Ability
@@ -151,7 +151,7 @@ system:
     subtype: fightingStyle
 effects:
   - name: Two-Weapon Fighting
-    img: modules/AK5e-Foundry-Module/icons/Skill-Executor2.webp
+    img: modules/ak5e/icons/Skill-Executor2.webp
     origin: Item.5PPBvFbU54iam4up
     _id: GpB6TABkCijBCPam
     type: base
@@ -213,10 +213,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767614286474
-  modifiedTime: 1783457739599
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1767875681025
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

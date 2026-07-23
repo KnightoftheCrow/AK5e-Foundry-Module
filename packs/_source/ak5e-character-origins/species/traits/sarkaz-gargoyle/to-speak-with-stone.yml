@@ -113,7 +113,7 @@ system:
       - period: sr
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>To Speak with Stone</h3><p>How the Gargoyles glean their information
@@ -160,10 +160,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680372929
-  modifiedTime: 1783457734499
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680372929
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!7No7Ao7ZygpKTH4U'

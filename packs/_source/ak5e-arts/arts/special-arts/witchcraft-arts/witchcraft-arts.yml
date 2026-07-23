@@ -9,8 +9,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    W12tkZFVwpzpcNQ3:
-      type: ItemGrant
+    - type: ItemGrant
       _id: W12tkZFVwpzpcNQ3
       configuration:
         items:
@@ -19,21 +18,21 @@ system:
           - optional: false
             uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBane000000
           - optional: false
-            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.subv958XI90ZVt76
+            uuid: Compendium.ak5e.ak5e-arts.Item.subv958XI90ZVt76
           - optional: false
-            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.mweZm0F8OYVbY8aa
+            uuid: Compendium.ak5e.ak5e-arts.Item.mweZm0F8OYVbY8aa
           - optional: false
-            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.7vRU2jRxD3MWmYw7
+            uuid: Compendium.ak5e.ak5e-arts.Item.7vRU2jRxD3MWmYw7
           - optional: false
-            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.YePZCywOf77mCdJA
+            uuid: Compendium.ak5e.ak5e-arts.Item.YePZCywOf77mCdJA
           - optional: false
-            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.VyqUhxKj3kXlvkKp
+            uuid: Compendium.ak5e.ak5e-arts.Item.VyqUhxKj3kXlvkKp
           - optional: false
             uuid: Compendium.dnd-players-handbook.spells.Item.phbsplLegendLore
           - optional: false
-            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.wBFiKcAZpP3zjGpf
+            uuid: Compendium.ak5e.ak5e-arts.Item.wBFiKcAZpP3zjGpf
           - optional: false
-            uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.bmYsgYkSbU96lpFu
+            uuid: Compendium.ak5e.ak5e-arts.Item.bmYsgYkSbU96lpFu
         optional: false
         spell:
           ability:
@@ -50,7 +49,6 @@ system:
       level: 0
       title: ''
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>“Witchcraft” is, in actuality, a derogatory term for the unique Arts of
@@ -113,12 +111,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768059292675
-  modifiedTime: 1783457746936
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768059292740
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

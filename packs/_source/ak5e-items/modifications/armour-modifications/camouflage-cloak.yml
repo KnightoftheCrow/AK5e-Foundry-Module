@@ -2,7 +2,7 @@ folder: q1MrBsepLJyJ9ezj
 name: Camouflage Cloak
 type: consumable
 _id: Yk3YWVSAkmPALdro
-img: modules/AK5e-Foundry-Module/icons/Skill-Magallan3.webp
+img: modules/ak5e/icons/Skill-Magallan3.webp
 system:
   activities: {}
   uses:
@@ -60,7 +60,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.jbbcSto3qBUc9AwJ
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.jbbcSto3qBUc9AwJ
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

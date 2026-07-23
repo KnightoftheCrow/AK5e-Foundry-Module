@@ -1,7 +1,7 @@
 folder: 79ZspRBEAt515C3p
 name: Jumpstart
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-TacticalEquipmentToolbox.png
+img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
 system:
   activities: {}
   uses:
@@ -33,7 +33,7 @@ system:
     subtype: skillPoints
 effects:
   - name: +5 Start SP
-    img: modules/AK5e-Foundry-Module/icons/Skill-TacticalEquipmentToolbox.png
+    img: modules/ak5e/icons/Skill-TacticalEquipmentToolbox.png
     origin: Item.wPwH6QJXzwsLp4Lr
     _id: etZoS0vDQqwulL5T
     type: base

@@ -2,14 +2,14 @@ folder: 9MryoDbGKoSuHyVC
 name: The Last Option
 type: feat
 _id: X7BBFOUOXAL3QT4f
-img: modules/AK5e-Foundry-Module/icons/Skill-StormeyeSP2.webp
+img: modules/ak5e/icons/Skill-StormeyeSP2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Sometimes, when the chips are down, it is not sufficienct to carefully
@@ -55,8 +55,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767620014889
-  modifiedTime: 1783457740041
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771178741829
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!X7BBFOUOXAL3QT4f'

@@ -1,7 +1,7 @@
 folder: btRo3hRuz3IPi5IL
 name: Meditation
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Honeyberry1.webp
+img: modules/ak5e/icons/Skill-Honeyberry1.webp
 system:
   activities:
     Nyz9XxSFrC20FzMo:
@@ -19,8 +19,7 @@ system:
         targets:
           - type: itemUses
             value: '10'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -153,7 +152,7 @@ system:
     subtype: ''
 effects:
   - name: Meditation  (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Honeyberry1.webp
+    img: modules/ak5e/icons/Skill-Honeyberry1.webp
     origin: Item.ebHtD8wHFPuLFIR1
     _id: 8dVAoTB3h5Focit8
     type: base

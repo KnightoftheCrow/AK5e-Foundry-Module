@@ -5,8 +5,7 @@ _id: r1HtzTN1w4m4gAzJ
 img: icons/equipment/head/hat-cocked-purple.webp
 system:
   advancement:
-    35Wo6rYersqRlodq:
-      type: Trait
+    - type: Trait
       title: Background Proficiencies
       _id: 35Wo6rYersqRlodq
       configuration:
@@ -22,22 +21,17 @@ system:
       level: 0
       hint: ''
       value: {}
-      flags: {}
-    TfV64nCLogvPaHy8:
-      type: ItemGrant
+    - type: ItemGrant
       title: Background Feature
       _id: TfV64nCLogvPaHy8
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.hDslIRL9Ixk68gO8
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.hDslIRL9Ixk68gO8
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>Victoria is, debatably, the foremost superpower on Terra. There are a
@@ -78,8 +72,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881347037
-  modifiedTime: 1783457737622
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771156365749
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!r1HtzTN1w4m4gAzJ'

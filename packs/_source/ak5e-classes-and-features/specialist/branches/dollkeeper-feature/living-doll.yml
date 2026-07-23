@@ -2,7 +2,7 @@ folder: Vd5i80HITKyteFYa
 name: Living Doll
 type: feat
 _id: 9bzTmqRBaNyKJfsS
-img: modules/AK5e-Foundry-Module/icons/Skill-Shamare1.webp
+img: modules/ak5e/icons/Skill-Shamare1.webp
 system:
   activities:
     zPnt4kCjuTqwo51K:
@@ -79,7 +79,7 @@ system:
         - count: ''
           name: ''
           _id: eK0OK71vBpTl5tPL
-          uuid: Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.uF4gdhDJYmLBoPa1
+          uuid: Compendium.ak5e.ak5e-bestiary.Actor.uF4gdhDJYmLBoPa1
           level:
             min: null
             max: null

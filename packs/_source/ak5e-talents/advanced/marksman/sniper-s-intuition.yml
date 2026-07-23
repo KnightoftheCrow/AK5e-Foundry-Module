@@ -2,7 +2,7 @@ folder: AynL7yzSlptsmcjl
 name: Sniper’s Intuition
 type: feat
 _id: osCElO13K6JHa6bQ
-img: modules/AK5e-Foundry-Module/icons/Skill-Toddifons1.webp
+img: modules/ak5e/icons/Skill-Toddifons1.webp
 system:
   activities: {}
   uses:
@@ -11,7 +11,7 @@ system:
       - period: sr
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>When a Creature hits you with an Attack, you can expend your Reaction
@@ -56,8 +56,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767738721683
-  modifiedTime: 1783457745676
+  modifiedTime: 1783247023418
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!osCElO13K6JHa6bQ'

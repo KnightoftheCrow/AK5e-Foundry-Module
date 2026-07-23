@@ -8,7 +8,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Your Hit Point maximum increases by an amount equal to your Level.
@@ -92,12 +92,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680525061
-  modifiedTime: 1783457735987
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680525094
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

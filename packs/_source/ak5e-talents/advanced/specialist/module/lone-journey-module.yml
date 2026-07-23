@@ -1,7 +1,7 @@
 folder: EjQr1CtCkHNEpvzS
 name: Lone Journey (Module)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Tecno1.webp
+img: modules/ak5e/icons/Skill-Tecno1.webp
 system:
   activities:
     AmBvl1VhyBBQyQJx:
@@ -134,7 +134,7 @@ system:
   enchant: {}
   prerequisites:
     items:
-      - Compendium.AK5e-Foundry-Module.ak5e-talents.Item.9qzrrdqux5Dat0og
+      - Compendium.ak5e.ak5e-talents.Item.9qzrrdqux5Dat0og
     repeatable: false
     level: 13
   properties:
@@ -145,7 +145,7 @@ system:
     subtype: skillPoints
 effects:
   - name: Lone Journey (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Tecno1.webp
+    img: modules/ak5e/icons/Skill-Tecno1.webp
     origin: Item.YWbBAUM3FVTl0L2P
     _id: 7HOEsnbQtUPg6lfA
     type: base

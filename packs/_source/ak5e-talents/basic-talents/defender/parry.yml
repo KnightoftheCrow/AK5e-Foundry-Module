@@ -1,7 +1,7 @@
 folder: TL00PBquhzkf6sDn
 name: Parry
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-April1.webp
+img: modules/ak5e/icons/Skill-April1.webp
 system:
   activities:
     XVntLdR2CYEblsyt:
@@ -150,7 +150,7 @@ system:
     subtype: talent
 effects:
   - name: Parry
-    img: modules/AK5e-Foundry-Module/icons/Skill-April1.webp
+    img: modules/ak5e/icons/Skill-April1.webp
     origin: Item.KgQR4FdUXF8hBxat
     type: base
     _id: ukUjOm8AQqpBxoSf

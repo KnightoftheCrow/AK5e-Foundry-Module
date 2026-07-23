@@ -2,7 +2,7 @@ folder: 7chRMuJsyyn3S2jB
 name: Fragile Focus (Module)
 type: feat
 _id: gK8nrJQPnS2vb32W
-img: modules/AK5e-Foundry-Module/icons/Skill-Lappland1.webp
+img: modules/ak5e/icons/Skill-Lappland1.webp
 system:
   activities:
     gKzAEZ6PqTqBrGbn:
@@ -112,7 +112,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p><strong>Module:</strong> If you have not taken any Damage since the
@@ -142,8 +142,8 @@ system:
     subtype: talent
 effects:
   - name: Fragile Focus (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lappland1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.gK8nrJQPnS2vb32W
+    img: modules/ak5e/icons/Skill-Lappland1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.gK8nrJQPnS2vb32W
     _id: xiHADfz4jlnlE2oy
     type: base
     system: {}
@@ -209,8 +209,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767735075119
-  modifiedTime: 1783457745369
+  modifiedTime: 1783242729381
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!gK8nrJQPnS2vb32W'

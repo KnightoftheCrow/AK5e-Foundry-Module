@@ -1,7 +1,7 @@
 folder: fGpFJo0gyinCoWeF
 name: Reliable Talent
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-TheParadigmatic1.webp
+img: modules/ak5e/icons/Skill-TheParadigmatic1.webp
 system:
   activities: {}
   uses:
@@ -35,7 +35,7 @@ system:
     subtype: talent
 effects:
   - name: Reliable Talent
-    img: modules/AK5e-Foundry-Module/icons/Skill-TheParadigmatic1.webp
+    img: modules/ak5e/icons/Skill-TheParadigmatic1.webp
     origin: Item.Pq2PnfHVq4h95a6C
     _id: 8cPvvUnkgO7YJizx
     type: base

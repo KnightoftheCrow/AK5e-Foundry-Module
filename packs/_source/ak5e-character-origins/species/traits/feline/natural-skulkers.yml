@@ -10,8 +10,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    4H2XdNaXpr01rzNd:
-      type: Trait
+    - type: Trait
       _id: 4H2XdNaXpr01rzNd
       configuration:
         allowReplacements: false
@@ -23,7 +22,6 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
   description:
     value: >-
       <h3>Natural Skulkers</h3><p>Felines are naturally adapted to quiet,
@@ -57,8 +55,7 @@ system:
 effects:
   - name: Minimum Stealth Roll
     img: icons/magic/perception/silhouette-stealth-shadow.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.M677moCWjjTRd3iE
+    origin: Compendium.ak5e.ak5e-character-origins.Item.M677moCWjjTRd3iE
     _id: vvwXId0AtTzO155V
     type: base
     system: {}
@@ -116,10 +113,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680304928
-  modifiedTime: 1783457735336
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680304928
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!M677moCWjjTRd3iE'

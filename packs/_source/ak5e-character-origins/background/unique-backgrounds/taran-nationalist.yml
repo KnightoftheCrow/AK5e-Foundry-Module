@@ -5,8 +5,7 @@ _id: mdbrDl4fohNN07Uj
 img: icons/equipment/head/crown-thorns-gold.webp
 system:
   advancement:
-    3kturmRZcDHVQMTN:
-      type: Trait
+    - type: Trait
       title: Background Proficiencies
       _id: 3kturmRZcDHVQMTN
       configuration:
@@ -22,22 +21,17 @@ system:
       level: 0
       hint: ''
       value: {}
-      flags: {}
-    3Y2iLFFCho8PtFqz:
-      type: ItemGrant
+    - type: ItemGrant
       title: Background Feature
       _id: 3Y2iLFFCho8PtFqz
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.hoUELTuLkpWjk54N
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.hoUELTuLkpWjk54N
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>Tara’s history is one of blood and betrayal. For centuries they have
@@ -72,8 +66,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881347037
-  modifiedTime: 1783457737335
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771155569601
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!mdbrDl4fohNN07Uj'

@@ -120,7 +120,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>The Creature, overwhelmed by the Altar of Weeping, releases a sorrowful
@@ -162,10 +162,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.1.2
   createdTime: 1757436542838
-  modifiedTime: 1783457746735
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1757437129958
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!Oxs9R2QZ5QXDpzhc'

@@ -1,7 +1,7 @@
 folder: YSYBaEbbvAZsJUrT
 name: Aftershock
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-SharpSP2.webp
+img: modules/ak5e/icons/Skill-SharpSP2.webp
 system:
   activities:
     Qx1xnksu3DE3VKpM:
@@ -118,7 +118,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>The arrival of your Bound Weapon is almost asdangerous as their
@@ -145,19 +145,17 @@ system:
     subtype: skillPoints
 effects: []
 flags:
-  dnd5e:
-    riders:
-      activity: []
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767823844049
-  modifiedTime: 1783457741077
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1767985949117
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

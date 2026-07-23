@@ -2,7 +2,7 @@ folder: QJjGENx3ERG6JUY7
 name: Infuser
 type: subclass
 _id: 8yg4MYPfaLSmewEO
-img: modules/AK5e-Foundry-Module/icons/Alchemist_Specialist.webp
+img: modules/ak5e/icons/Alchemist_Specialist.webp
 system:
   advancement:
     SjnOMDt4AoWAkIXe:
@@ -10,8 +10,7 @@ system:
       _id: SjnOMDt4AoWAkIXe
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.3MAet4t8rT9h299a
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.3MAet4t8rT9h299a
             optional: false
         optional: false
         spell: null
@@ -25,11 +24,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.0gmPqsaisiSHf6gG
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.0gmPqsaisiSHf6gG
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.9WYZ3MwE5FszZjKh
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.9WYZ3MwE5FszZjKh
             optional: false
         optional: false
         spell: null
@@ -44,8 +41,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.CrFAM7UBMU4XE97e
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.CrFAM7UBMU4XE97e
             optional: false
         optional: false
         spell: null
@@ -60,8 +56,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.4jsOJOvBmfUWzulF
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.4jsOJOvBmfUWzulF
             optional: false
         optional: false
         spell: null
@@ -76,8 +71,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Uhlw9ysKcC9XxNw3
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.Uhlw9ysKcC9XxNw3
             optional: false
         optional: false
         spell: null
@@ -97,16 +91,16 @@ system:
       toxins.</p><p>You get next Branch features:</p><table><tbody><tr><td
       data-colwidth="50"><p>Level</p></td><td><p>Branch
       Feature</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.3MAet4t8rT9h299a]{Principle
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.3MAet4t8rT9h299a]{Principle
       of Double Effect}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">5</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.0gmPqsaisiSHf6gG]{New
-      Concoctions}</p><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.9WYZ3MwE5FszZjKh]{Double-Blind
+      style="text-align:center">5</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.0gmPqsaisiSHf6gG]{New
+      Concoctions}</p><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.9WYZ3MwE5FszZjKh]{Double-Blind
       Trial}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">11</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.CrFAM7UBMU4XE97e]{Stimpack}</p></td></tr><tr><td
+      style="text-align:center">11</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.CrFAM7UBMU4XE97e]{Stimpack}</p></td></tr><tr><td
       data-colwidth="50"><p
-      style="text-align:center">15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.4jsOJOvBmfUWzulF]{Excessive
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.4jsOJOvBmfUWzulF]{Excessive
       Dosing}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">20</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.Uhlw9ysKcC9XxNw3]{To
+      style="text-align:center">20</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.Uhlw9ysKcC9XxNw3]{To
       Defy Science}</p></td></tr></tbody></table>
     chat: ''
   identifier: infuser
@@ -136,6 +130,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.0
   createdTime: 1783358953798
-  modifiedTime: 1783443454738
-  lastModifiedBy: 27ikDz77N89hVLvM
+  modifiedTime: 1784848739382
+  lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!8yg4MYPfaLSmewEO'

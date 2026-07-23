@@ -1,18 +1,15 @@
 name: Anti-Air
 type: subclass
-img: modules/AK5e-Foundry-Module/icons/Marksman_Sniper.webp
+img: modules/ak5e/icons/Marksman_Sniper.webp
 system:
   advancement:
-    LcG177F71qoOWA3A:
-      type: ItemGrant
+    - type: ItemGrant
       _id: LcG177F71qoOWA3A
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.R582ILYssQOBgweH
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.R582ILYssQOBgweH
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.vTm5mXnTRh3dCdje
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.vTm5mXnTRh3dCdje
             optional: false
         optional: false
         spell: null
@@ -20,14 +17,11 @@ system:
       level: 1
       title: Branch Feature
       hint: ''
-      flags: {}
-    0mLEZiEe1H6psFkJ:
-      type: ItemGrant
+    - type: ItemGrant
       _id: 0mLEZiEe1H6psFkJ
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.lIFTIzD5S7tT1D8o
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.lIFTIzD5S7tT1D8o
             optional: false
         optional: false
         spell: null
@@ -35,14 +29,11 @@ system:
       level: 4
       title: Branch Feature
       hint: ''
-      flags: {}
-    gzpW1tUE46EMBLFD:
-      type: ItemGrant
+    - type: ItemGrant
       _id: gzpW1tUE46EMBLFD
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.kE01jAgLtniDie4z
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.kE01jAgLtniDie4z
             optional: false
         optional: false
         spell: null
@@ -50,14 +41,11 @@ system:
       level: 10
       title: Branch Feature
       hint: ''
-      flags: {}
-    waohXvpGTIDpp0rE:
-      type: ItemGrant
+    - type: ItemGrant
       _id: waohXvpGTIDpp0rE
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.1zqkOSnj10SFSusv
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.1zqkOSnj10SFSusv
             optional: false
         optional: false
         spell: null
@@ -65,14 +53,11 @@ system:
       level: 15
       title: Branch Feature
       hint: ''
-      flags: {}
-    jjWB6r3IT1tdeRVl:
-      type: ItemGrant
+    - type: ItemGrant
       _id: jjWB6r3IT1tdeRVl
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.X7BBFOUOXAL3QT4f
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.X7BBFOUOXAL3QT4f
             optional: false
         optional: false
         spell: null
@@ -80,7 +65,6 @@ system:
       level: 18
       title: Branch Feature
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>Some, upon hearing the name, expect Anti-Air Marksmen to be narrow
@@ -91,17 +75,17 @@ system:
       punishing.</p><p>You get next Branch Features:</p><table><tbody><tr><td
       data-colwidth="50"><p>Level</p></td><td><p>Branch
       Feature</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.vTm5mXnTRh3dCdje]{Weight
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.vTm5mXnTRh3dCdje]{Weight
       of Fire},
-      @UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.R582ILYssQOBgweH]{Air
+      @UUID[Compendium.ak5e.ak5e-classes-and-features.Item.R582ILYssQOBgweH]{Air
       Tracking}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">4</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.lIFTIzD5S7tT1D8o]{Versatile
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.lIFTIzD5S7tT1D8o]{Versatile
       Approach}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">10</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.kE01jAgLtniDie4z]{Unapproachable}</p></td></tr><tr><td
+      style="text-align:center">10</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.kE01jAgLtniDie4z]{Unapproachable}</p></td></tr><tr><td
       data-colwidth="50"><p
-      style="text-align:center">15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.1zqkOSnj10SFSusv]{Always
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.1zqkOSnj10SFSusv]{Always
       Another Option}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">18</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.X7BBFOUOXAL3QT4f]{The
+      style="text-align:center">18</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.X7BBFOUOXAL3QT4f]{The
       Last Option}</p></td></tr></tbody></table>
     chat: ''
   identifier: anti_air
@@ -130,9 +114,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767615307518
-  modifiedTime: 1783457739261
+  modifiedTime: 1782319495807
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

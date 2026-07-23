@@ -1,19 +1,16 @@
 folder: O2Yp1afpugL0lA12
 name: Besieger
 type: subclass
-img: modules/AK5e-Foundry-Module/icons/Besieger_Sniper.webp
+img: modules/ak5e/icons/Besieger_Sniper.webp
 system:
   advancement:
-    rO1NQ6l5KI5cwyAm:
-      type: ItemGrant
+    - type: ItemGrant
       _id: rO1NQ6l5KI5cwyAm
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.70nxyptZ1iiASjcc
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.70nxyptZ1iiASjcc
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.pycRbSf4B2JDBH5v
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.pycRbSf4B2JDBH5v
             optional: false
         optional: false
         spell: null
@@ -21,14 +18,11 @@ system:
       level: 1
       title: Branch Feature
       hint: ''
-      flags: {}
-    jDdVVJ7ScCIpPbKC:
-      type: ItemGrant
+    - type: ItemGrant
       _id: jDdVVJ7ScCIpPbKC
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.dwEg1h7oKT7vUqOJ
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.dwEg1h7oKT7vUqOJ
             optional: false
         optional: false
         spell: null
@@ -36,14 +30,11 @@ system:
       level: 4
       title: Branch Feature
       hint: ''
-      flags: {}
-    wTyxGrKke5D6SV3X:
-      type: ItemGrant
+    - type: ItemGrant
       _id: wTyxGrKke5D6SV3X
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fhugPvUTKbenhNbf
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.fhugPvUTKbenhNbf
             optional: false
         optional: false
         spell: null
@@ -51,14 +42,11 @@ system:
       level: 10
       title: Branch Feature
       hint: ''
-      flags: {}
-    DNRA8kqnZbQAuz9f:
-      type: ItemGrant
+    - type: ItemGrant
       _id: DNRA8kqnZbQAuz9f
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.z3AF1by2VVCv63k0
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.z3AF1by2VVCv63k0
             optional: false
         optional: false
         spell: null
@@ -66,14 +54,11 @@ system:
       level: 15
       title: Branch Feature
       hint: ''
-      flags: {}
-    7n35A3aDQvHBSnAW:
-      type: ItemGrant
+    - type: ItemGrant
       _id: 7n35A3aDQvHBSnAW
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.9ryVEMxORXy9eJ2A
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.9ryVEMxORXy9eJ2A
             optional: false
         optional: false
         spell: null
@@ -81,7 +66,6 @@ system:
       level: 18
       title: Branch Feature
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>Besieger Marksmen are slow and deliberate. They take their time getting
@@ -91,17 +75,17 @@ system:
       the larger you are, the more of you there is to pierce.</p><p>You get next
       Branch Features:</p><table><tbody><tr><td><p>Level</p></td><td><p>Branch
       Feature</p></td></tr><tr><td><p
-      style="text-align:center">1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.70nxyptZ1iiASjcc]{Siege
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.70nxyptZ1iiASjcc]{Siege
       Mode},
-      @UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.pycRbSf4B2JDBH5v]{Large
+      @UUID[Compendium.ak5e.ak5e-classes-and-features.Item.pycRbSf4B2JDBH5v]{Large
       Target}</p></td></tr><tr><td><p
-      style="text-align:center">4</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.dwEg1h7oKT7vUqOJ]{Deliberate,
+      style="text-align:center">4</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.dwEg1h7oKT7vUqOJ]{Deliberate,
       Efficient}</p></td></tr><tr><td><p
-      style="text-align:center">10</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fhugPvUTKbenhNbf]{Siege
+      style="text-align:center">10</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.fhugPvUTKbenhNbf]{Siege
       Bolt}</p></td></tr><tr><td><p
-      style="text-align:center">15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.z3AF1by2VVCv63k0]{Goliath’s
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.z3AF1by2VVCv63k0]{Goliath’s
       Bane}</p></td></tr><tr><td><p
-      style="text-align:center">18</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.9ryVEMxORXy9eJ2A]{Godpiercer}</p></td></tr></tbody></table>
+      style="text-align:center">18</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.9ryVEMxORXy9eJ2A]{Godpiercer}</p></td></tr></tbody></table>
     chat: ''
   identifier: besieger
   source:
@@ -124,10 +108,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767615315487
-  modifiedTime: 1783457740318
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1767875855199
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

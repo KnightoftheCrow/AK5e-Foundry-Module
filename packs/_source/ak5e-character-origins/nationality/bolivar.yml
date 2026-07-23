@@ -2,7 +2,7 @@ folder: 7G1D42jSHLcgp1sX
 name: Bolivar
 type: ak5e.nationality
 _id: SPgUC3ztWmz6TRSk
-img: modules/AK5e-Foundry-Module/icons/nationality/nationality.svg
+img: modules/ak5e/icons/nationality/nationality.svg
 system:
   filePathFields:
     advancement.*.icon:
@@ -41,8 +41,7 @@ system:
       _id: HaMCGhTP5Gw9tiBn
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.x7JXINCBfq9uvW9q
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.x7JXINCBfq9uvW9q
             optional: false
         optional: false
         spell: null

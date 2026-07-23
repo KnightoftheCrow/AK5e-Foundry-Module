@@ -5,8 +5,7 @@ _id: y6LjYaWEq4Izir8c
 img: icons/creatures/abilities/dragon-breath-purple.webp
 system:
   advancement:
-    vLDvTXFn92ba3LZg:
-      type: AbilityScoreImprovement
+    - type: AbilityScoreImprovement
       _id: vLDvTXFn92ba3LZg
       configuration:
         cap: 1
@@ -27,43 +26,31 @@ system:
       level: 0
       title: ''
       hint: ''
-      flags: {}
-    fpGWmGlLaIiLndXZ:
-      type: Size
+    - type: Size
       _id: fpGWmGlLaIiLndXZ
       configuration:
         sizes:
           - med
       level: 0
       value: {}
-      flags: {}
-      hint: ''
-    BAHlrBfTFPZcVy6y:
-      type: ItemGrant
+    - type: ItemGrant
       _id: BAHlrBfTFPZcVy6y
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.YMsryyGruXlSEvTI
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.YMsryyGruXlSEvTI
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Pype90SOkv2YVy1v
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.Pype90SOkv2YVy1v
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.RN7QR95qvS5xFHBM
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.RN7QR95qvS5xFHBM
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1TxciocDhjUUeXjV
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1TxciocDhjUUeXjV
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>Unlike many Terran Species, who draw their animalistic traits from
@@ -158,8 +145,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680538261
-  modifiedTime: 1783457738114
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771158016909
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!y6LjYaWEq4Izir8c'

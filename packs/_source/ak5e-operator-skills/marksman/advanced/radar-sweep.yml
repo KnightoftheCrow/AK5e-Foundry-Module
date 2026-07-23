@@ -2,7 +2,7 @@ folder: FNmG2sdf2PkjKSHw
 name: Radar Sweep
 type: feat
 _id: um4w4uDBUA420vAg
-img: modules/AK5e-Foundry-Module/icons/64px-Skill-Ambriel2.webp
+img: modules/ak5e/icons/64px-Skill-Ambriel2.webp
 system:
   activities:
     Wqm7BdKZkD1Baor5:
@@ -20,8 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '20'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
       description:
         chatFlavor: ''
       duration:
@@ -120,7 +119,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <ul><li><p><strong>Name</strong>: Radar Sweep.</p></li><li><p><strong>SP
@@ -151,8 +150,8 @@ system:
     subtype: ''
 effects:
   - name: Radar Sweep (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/64px-Skill-Ambriel2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.um4w4uDBUA420vAg
+    img: modules/ak5e/icons/64px-Skill-Ambriel2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.um4w4uDBUA420vAg
     _id: JHm0s1S3DjNum3qv
     type: base
     system: {}
@@ -195,7 +194,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.351'
@@ -206,8 +205,8 @@ effects:
       lastModifiedBy: GiT7LQTiCJxjm7mo
     _key: '!items.effects!um4w4uDBUA420vAg.JHm0s1S3DjNum3qv'
   - name: Radar Sweep
-    img: modules/AK5e-Foundry-Module/icons/64px-Skill-Ambriel2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.um4w4uDBUA420vAg
+    img: modules/ak5e/icons/64px-Skill-Ambriel2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.um4w4uDBUA420vAg
     _id: bKQJ1fN2HDFqb7VI
     type: base
     system: {}
@@ -268,17 +267,15 @@ ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3
 flags:
-  dnd5e:
-    riders:
-      activity: []
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767619055022
-  modifiedTime: 1783457743009
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768153849261
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!um4w4uDBUA420vAg'

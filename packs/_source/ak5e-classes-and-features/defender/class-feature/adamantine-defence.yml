@@ -1,7 +1,7 @@
 folder: 0FE7flvsguisj29c
 name: Adamantine Defence
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-NCDeer2.webp
+img: modules/ak5e/icons/Skill-NCDeer2.webp
 system:
   activities: {}
   uses:
@@ -38,8 +38,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: >-
-    Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.UPRQU4BSaOzKnNm4
+  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.UPRQU4BSaOzKnNm4
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

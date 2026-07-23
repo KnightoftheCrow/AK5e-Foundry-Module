@@ -1,14 +1,14 @@
 folder: 5ej4KENJRk8I9Ksg
 name: Help Yourself (Module)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-ProtectiveGearGiver.png
+img: modules/ak5e/icons/Skill-ProtectiveGearGiver.png
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p><strong>Module:</strong> The amount of Damage Reduction you steal when
@@ -46,9 +46,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1768143966309
-  modifiedTime: 1783457745272
+  modifiedTime: 1783247640948
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

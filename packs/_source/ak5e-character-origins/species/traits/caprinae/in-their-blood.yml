@@ -10,8 +10,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    E6rAIuPG6CZGdmC9:
-      type: ItemChoice
+    - type: ItemChoice
       _id: E6rAIuPG6CZGdmC9
       configuration:
         allowDrops: true
@@ -42,9 +41,7 @@ system:
       hint: >-
         You learn one Cantrip of your choice from a Standard Arts Pool; drop it
         here.
-      flags: {}
-    zBzv7oV47jgjqg5h:
-      type: ItemChoice
+    - type: ItemChoice
       configuration:
         allowDrops: true
         choices:
@@ -75,9 +72,7 @@ system:
         You learn a 1st Level Art from the same Arts Pool as the Cantrip you
         gained from this Feature; drop it here.
       _id: zBzv7oV47jgjqg5h
-      flags: {}
-    sByt7tX3S7pgBEed:
-      type: Trait
+    - type: Trait
       _id: sByt7tX3S7pgBEed
       configuration:
         allowReplacements: false
@@ -89,7 +84,6 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
   description:
     value: >-
       <h3>In Their Blood</h3><p>Caprinae have a natural affinity for Arts; even
@@ -139,10 +133,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680294541
-  modifiedTime: 1783457735601
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680294541
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!QQ6lJsL16UvfY9uq'

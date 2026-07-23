@@ -113,7 +113,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p><strong>From: </strong>Investiture of Water</p><p>As an Action, you
@@ -144,7 +144,7 @@ system:
 effects:
   - name: Bubble Prison
     img: icons/magic/water/orb-water-bubbles.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.JS3evKE4Ryd4ZjYa
+    origin: Compendium.ak5e.ak5e-arts.Item.JS3evKE4Ryd4ZjYa
     transfer: false
     _id: XWeGoyPdxzlQlYs8
     type: base
@@ -207,10 +207,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.1.2
   createdTime: 1758130337283
-  modifiedTime: 1783457746695
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1758130467478
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!JS3evKE4Ryd4ZjYa'

@@ -1,7 +1,7 @@
 folder: 0FE7flvsguisj29c
 name: Indestructible
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Vulcan1.webp
+img: modules/ak5e/icons/Skill-Vulcan1.webp
 system:
   activities: {}
   uses:
@@ -41,8 +41,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: >-
-    Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.4dXo77TDcAb7kRAD
+  compendiumSource: Compendium.ak5e.ak5e-classes-and-features.Item.4dXo77TDcAb7kRAD
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

@@ -2,14 +2,14 @@ folder: mhhCPYRgjBzheVER
 name: Ultimate Deadshot
 type: feat
 _id: 30hRrtnTxtx0PlLd
-img: modules/AK5e-Foundry-Module/icons/Skill-Spuria1.webp
+img: modules/ak5e/icons/Skill-Spuria1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>You never miss a target. Your name will enter the history books of
@@ -40,9 +40,8 @@ system:
     subtype: ''
 effects:
   - name: Ultimate Deadshot
-    img: modules/AK5e-Foundry-Module/icons/Skill-Spuria1.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.30hRrtnTxtx0PlLd
+    img: modules/ak5e/icons/Skill-Spuria1.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.30hRrtnTxtx0PlLd
     _id: vZ3X3HYxPlO4lqXy
     type: base
     system: {}
@@ -106,8 +105,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767621396653
-  modifiedTime: 1783457738854
+  modifiedTime: 1781193110253
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!30hRrtnTxtx0PlLd'

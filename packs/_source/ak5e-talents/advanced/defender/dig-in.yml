@@ -1,7 +1,7 @@
 folder: fGpFJo0gyinCoWeF
 name: Dig In
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Misery3.webp
+img: modules/ak5e/icons/Skill-Misery3.webp
 system:
   activities:
     ODqzUQYlixEwDEzw:
@@ -144,7 +144,7 @@ system:
     subtype: talent
 effects:
   - name: Dig In
-    img: modules/AK5e-Foundry-Module/icons/Skill-Misery3.webp
+    img: modules/ak5e/icons/Skill-Misery3.webp
     origin: Item.3YggkO4HyulTa1be
     _id: wAmBXH45NpQNHGEW
     type: base

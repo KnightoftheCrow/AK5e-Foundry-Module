@@ -1,7 +1,7 @@
 folder: R7AlyM082W93xgTV
 name: Precise Redirection
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Mint2.webp
+img: modules/ak5e/icons/Skill-Mint2.webp
 system:
   activities:
     KbP7vd50ZONcmlET:
@@ -19,8 +19,7 @@ system:
         targets:
           - type: itemUses
             value: '40'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -77,7 +76,7 @@ system:
         - count: '1'
           name: ''
           _id: RqZHlFzkQxDelv3L
-          uuid: Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.aPjKlkMgBmuoYOXC
+          uuid: Compendium.ak5e.ak5e-bestiary.Actor.aPjKlkMgBmuoYOXC
           level:
             min: null
             max: null
@@ -236,7 +235,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -277,7 +276,7 @@ system:
     subtype: opSkill
 effects:
   - name: Precise Redirection (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Mint2.webp
+    img: modules/ak5e/icons/Skill-Mint2.webp
     origin: Item.4tELCpuPQwfyQ33U
     _id: GQBslauEmqcGyBM3
     type: base
@@ -336,12 +335,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1773572160136
-  modifiedTime: 1783457742478
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1773572192733
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

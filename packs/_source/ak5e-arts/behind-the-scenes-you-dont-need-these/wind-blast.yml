@@ -121,7 +121,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p><strong>From:</strong> Avatar of Wind</p><p>As a Bonus Action during
@@ -168,10 +168,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.347'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.1.2
   createdTime: 1757678742017
-  modifiedTime: 1783457746919
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1757678911547
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!uDeIKpJc4P2YEJSo'

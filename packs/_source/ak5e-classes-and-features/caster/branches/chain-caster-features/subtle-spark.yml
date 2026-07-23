@@ -2,7 +2,7 @@ folder: QmA37F3admePilsx
 name: Subtle Spark
 type: feat
 _id: If5mTdvFFxffxJGW
-img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow2.webp
+img: modules/ak5e/icons/Skill-Goldenglow2.webp
 system:
   activities:
     Fovjz5Qrx4sD0WLB:
@@ -696,8 +696,7 @@ system:
         type: recoverAll
     max: '@scale.subtle-spark.number-of-sparks'
   advancement:
-    A6TBaDa3tYHXrnSL:
-      type: ScaleValue
+    - type: ScaleValue
       _id: A6TBaDa3tYHXrnSL
       configuration:
         identifier: ''
@@ -716,7 +715,6 @@ system:
       value: {}
       title: Number of Sparks
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>The same talent that allows you to chain your Arts allows you to leave
@@ -750,9 +748,8 @@ system:
     subtype: ''
 effects:
   - name: +10ft Speed
-    img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow2.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
     transfer: false
     _id: FEnhLDKXI3UKIZU8
     type: base
@@ -806,9 +803,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!If5mTdvFFxffxJGW.FEnhLDKXI3UKIZU8'
   - name: +2 DR
-    img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow2.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
     transfer: false
     _id: kk13jUbxbo3jMcmR
     type: base
@@ -910,9 +906,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!If5mTdvFFxffxJGW.kk13jUbxbo3jMcmR'
   - name: '-10ft Speed'
-    img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow2.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
     transfer: false
     _id: 3NQXq6ammdf67oKy
     type: base
@@ -966,9 +961,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!If5mTdvFFxffxJGW.3NQXq6ammdf67oKy'
   - name: '-1 to Attack and Damage Rolls'
-    img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow2.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
     transfer: false
     _id: 5ssarri1C6JUXCay
     type: base
@@ -1026,9 +1020,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!If5mTdvFFxffxJGW.5ssarri1C6JUXCay'
   - name: +1 to Attack and Damage Rolls
-    img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow2.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
     transfer: false
     _id: YhA83KSbKhW3SRBE
     type: base
@@ -1086,9 +1079,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!If5mTdvFFxffxJGW.YhA83KSbKhW3SRBE'
   - name: '-2 DR'
-    img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow2.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
+    img: modules/ak5e/icons/Skill-Goldenglow2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW
     transfer: false
     type: base
     system: {}
@@ -1179,7 +1171,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.kk13jUbxbo3jMcmR
+        Compendium.ak5e.ak5e-classes-and-features.Item.If5mTdvFFxffxJGW.ActiveEffect.kk13jUbxbo3jMcmR
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -1202,10 +1194,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774098156324
-  modifiedTime: 1783457739365
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774178693053
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!If5mTdvFFxffxJGW'

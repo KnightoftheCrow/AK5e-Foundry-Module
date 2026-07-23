@@ -217,7 +217,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>Ever the Student, Ever the Master</h3><p>As a Long Rest Activity, you
@@ -260,8 +260,7 @@ system:
 effects:
   - name: Mentoring
     img: icons/skills/social/diplomacy-unity-alliance.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.HsX3HDZSwSN2MbJz
+    origin: Compendium.ak5e.ak5e-character-origins.Item.HsX3HDZSwSN2MbJz
     _id: pQH54IVVsgcgeW5L
     type: base
     system: {}
@@ -309,8 +308,7 @@ effects:
     _key: '!items.effects!HsX3HDZSwSN2MbJz.pQH54IVVsgcgeW5L'
   - name: Mentored By
     img: icons/skills/social/diplomacy-unity-alliance.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.HsX3HDZSwSN2MbJz
+    origin: Compendium.ak5e.ak5e-character-origins.Item.HsX3HDZSwSN2MbJz
     _id: 45wNXqq2TgbITGrn
     type: base
     system: {}
@@ -368,10 +366,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680286308
-  modifiedTime: 1783457734996
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680286308
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!HsX3HDZSwSN2MbJz'

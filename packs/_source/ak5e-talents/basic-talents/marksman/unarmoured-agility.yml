@@ -2,14 +2,14 @@ folder: U1VvPUnEP8A2c7Xk
 name: Unarmoured Agility
 type: feat
 _id: djXI6GLIRAdKvd1j
-img: modules/AK5e-Foundry-Module/icons/Skill-LuoXiaohei1.webp
+img: modules/ak5e/icons/Skill-LuoXiaohei1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>While you are wearing no Armour, your Speed increases by
@@ -40,8 +40,8 @@ system:
     subtype: talent
 effects:
   - name: Unarmoured Agility
-    img: modules/AK5e-Foundry-Module/icons/Skill-LuoXiaohei1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.djXI6GLIRAdKvd1j
+    img: modules/ak5e/icons/Skill-LuoXiaohei1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.djXI6GLIRAdKvd1j
     _id: Qodm6gXLqBYHEGYC
     type: base
     system: {}
@@ -107,8 +107,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767736701823
-  modifiedTime: 1783457745257
+  modifiedTime: 1783242494698
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!djXI6GLIRAdKvd1j'

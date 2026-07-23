@@ -2,14 +2,14 @@ folder: U1VvPUnEP8A2c7Xk
 name: Priority Target
 type: feat
 _id: j0OSuxPOjWeQMLLM
-img: modules/AK5e-Foundry-Module/icons/Skill-Matoimaru1.webp
+img: modules/ak5e/icons/Skill-Matoimaru1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>When you would make an Attack Roll against a Creature that has a Ranged
@@ -53,8 +53,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767736525012
-  modifiedTime: 1783457745539
+  modifiedTime: 1783242530379
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!j0OSuxPOjWeQMLLM'

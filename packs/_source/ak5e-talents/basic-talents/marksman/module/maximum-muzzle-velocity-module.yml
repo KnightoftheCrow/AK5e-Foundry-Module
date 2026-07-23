@@ -2,14 +2,14 @@ folder: 7chRMuJsyyn3S2jB
 name: Maximum Muzzle Velocity (Module)
 type: feat
 _id: z0QwdMcZdacDXUwC
-img: modules/AK5e-Foundry-Module/icons/Skill-Shaw2.webp
+img: modules/ak5e/icons/Skill-Shaw2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p><strong>Module:</strong> Your Ranged Weapon Attacks against Creatures
@@ -48,8 +48,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767736271596
-  modifiedTime: 1783457746054
+  modifiedTime: 1783242586229
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!z0QwdMcZdacDXUwC'

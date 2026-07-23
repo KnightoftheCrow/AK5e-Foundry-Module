@@ -119,23 +119,18 @@ system:
     recovery: []
     max: round(@prof/2)
   advancement:
-    uqNHJpLuViYjlfwb:
-      type: ItemGrant
+    - type: ItemGrant
       _id: uqNHJpLuViYjlfwb
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.QiKm9xxoarYlIzbI
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.QiKm9xxoarYlIzbI
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.GXqXqO8Lu1hoS9yg
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.GXqXqO8Lu1hoS9yg
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <h3>Birds of a Feather</h3><p>Some Liberi have been known to give one or
@@ -182,8 +177,7 @@ system:
 effects:
   - name: Flock Member
     img: icons/creatures/birds/raptor-hawk-flying.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.sXQvZHUNaAFY10E0
+    origin: Compendium.ak5e.ak5e-character-origins.Item.sXQvZHUNaAFY10E0
     transfer: false
     _id: 5DENy2rnHlf8MwYk
     type: base
@@ -260,8 +254,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680310513
-  modifiedTime: 1783457737757
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771157531833
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!sXQvZHUNaAFY10E0'

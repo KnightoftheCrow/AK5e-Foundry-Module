@@ -17,7 +17,7 @@ system:
             optional: false
           - uuid: Compendium.dnd5e.spells24.Item.phbsplMassHealin
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.zhosE2rOMnoBnaoD
+          - uuid: Compendium.ak5e.ak5e-arts.Item.zhosE2rOMnoBnaoD
             optional: false
         optional: false
         spell:
@@ -60,7 +60,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.B13BiCPrOXQho7go
+          - uuid: Compendium.ak5e.ak5e-arts.Item.B13BiCPrOXQho7go
             optional: false
           - uuid: Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV
             optional: false
@@ -114,7 +114,7 @@ system:
         items:
           - uuid: Compendium.dnd5e.spells24.Item.phbsplHeal000000
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.zMpwaCmNuoOjPkcz
+          - uuid: Compendium.ak5e.ak5e-arts.Item.zMpwaCmNuoOjPkcz
             optional: false
         optional: false
         spell:
@@ -177,7 +177,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.GU9ds85obdqS09Og
+          - uuid: Compendium.ak5e.ak5e-arts.Item.GU9ds85obdqS09Og
             optional: false
         optional: false
         spell:

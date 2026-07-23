@@ -9,7 +9,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>North of the inhospitable Foehn Hotlands, the deserts of Sargon are
@@ -42,8 +42,7 @@ system:
 effects:
   - name: Resistance to Prone Condition
     img: icons/magic/light/explosion-star-glow-orange.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.9hNjLdjg8uedTdBD
+    origin: Compendium.ak5e.ak5e-character-origins.Item.9hNjLdjg8uedTdBD
     _id: 5bEs2wgd3Shlmkk1
     type: base
     system: {}
@@ -101,10 +100,10 @@ _stats:
   compendiumSource: Item.9hNjLdjg8uedTdBD
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881328247
-  modifiedTime: 1783457734699
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!9hNjLdjg8uedTdBD'

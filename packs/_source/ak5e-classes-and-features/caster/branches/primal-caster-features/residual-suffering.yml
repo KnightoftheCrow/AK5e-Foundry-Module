@@ -2,7 +2,7 @@ folder: BggdCAUNKZtaoKXU
 name: Residual Suffering
 type: feat
 _id: 7yax3EuQzJAoRgLX
-img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
+img: modules/ak5e/icons/Skill-Ifrit3.webp
 system:
   activities:
     iSLaH62CUvpY6KFX:
@@ -292,7 +292,7 @@ system:
       - period: lr
         type: recoverAll
     max: (@prof)*2
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>You can cause your Arts to not immediately dissipate, causing lasting
@@ -332,9 +332,8 @@ system:
     subtype: ''
 effects:
   - name: Corroded
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     _id: EzuKtxvqSoNLB2tI
     type: base
     system: {}
@@ -385,9 +384,8 @@ effects:
       lastModifiedBy: 9KtVYqHDTWORuJDZ
     _key: '!items.effects!7yax3EuQzJAoRgLX.EzuKtxvqSoNLB2tI'
   - name: Frightened
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     type: base
     system: {}
     changes: []
@@ -438,9 +436,8 @@ effects:
     _id: kHwBwjQZsVYZpotL
     _key: '!items.effects!7yax3EuQzJAoRgLX.kHwBwjQZsVYZpotL'
   - name: Frozen
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     type: base
     system: {}
     changes: []
@@ -491,9 +488,8 @@ effects:
     _id: xYp8XD6KeRUchrdr
     _key: '!items.effects!7yax3EuQzJAoRgLX.xYp8XD6KeRUchrdr'
   - name: Burning
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     type: base
     system: {}
     changes: []
@@ -544,9 +540,8 @@ effects:
     _id: AnC9rKO9Jsdq4ybS
     _key: '!items.effects!7yax3EuQzJAoRgLX.AnC9rKO9Jsdq4ybS'
   - name: Blinded
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     type: base
     system: {}
     changes: []
@@ -597,9 +592,8 @@ effects:
     _id: DXmzECd89KYNi63k
     _key: '!items.effects!7yax3EuQzJAoRgLX.DXmzECd89KYNi63k'
   - name: Nervous Impairment
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     type: base
     system: {}
     changes: []
@@ -650,9 +644,8 @@ effects:
     _id: kFLpxEMlrXlBGiTE
     _key: '!items.effects!7yax3EuQzJAoRgLX.kFLpxEMlrXlBGiTE'
   - name: Necrotised
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     type: base
     system: {}
     changes: []
@@ -703,9 +696,8 @@ effects:
     _id: ibDJJLbmRuXtbjW3
     _key: '!items.effects!7yax3EuQzJAoRgLX.ibDJJLbmRuXtbjW3'
   - name: Bleeding
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     type: base
     system: {}
     changes: []
@@ -756,9 +748,8 @@ effects:
     _id: KzR8DMz2UFnHy8EL
     _key: '!items.effects!7yax3EuQzJAoRgLX.KzR8DMz2UFnHy8EL'
   - name: Charmed
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     type: base
     system: {}
     changes: []
@@ -809,9 +800,8 @@ effects:
     _id: fTiFM3GaQCPEeDGG
     _key: '!items.effects!7yax3EuQzJAoRgLX.fTiFM3GaQCPEeDGG'
   - name: Corroded (Upgraded)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     type: base
     system: {}
     changes:
@@ -903,7 +893,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX.ActiveEffect.EzuKtxvqSoNLB2tI
+        Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX.ActiveEffect.EzuKtxvqSoNLB2tI
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -915,9 +905,8 @@ effects:
     _id: GPdCwlfBZ2aasMfK
     _key: '!items.effects!7yax3EuQzJAoRgLX.GPdCwlfBZ2aasMfK'
   - name: Bleeding (Upgraded)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     type: base
     system: {}
     changes: []
@@ -972,9 +961,8 @@ effects:
     _id: gsURRG7jQZoGDnM5
     _key: '!items.effects!7yax3EuQzJAoRgLX.gsURRG7jQZoGDnM5'
   - name: Burning (Upgraded)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     type: base
     system: {}
     changes:
@@ -1031,9 +1019,8 @@ effects:
     _id: HcO3mKs1URtltaBY
     _key: '!items.effects!7yax3EuQzJAoRgLX.HcO3mKs1URtltaBY'
   - name: Charmed (Upgraded)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     type: base
     system: {}
     changes:
@@ -1088,9 +1075,8 @@ effects:
     _id: pWtfKGhkXEWkzKhr
     _key: '!items.effects!7yax3EuQzJAoRgLX.pWtfKGhkXEWkzKhr'
   - name: Blinded (Upgraded)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     type: base
     system: {}
     changes:
@@ -1145,9 +1131,8 @@ effects:
     _id: tlKkFPOG5pZRiYs5
     _key: '!items.effects!7yax3EuQzJAoRgLX.tlKkFPOG5pZRiYs5'
   - name: Frightened (Upgraded)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     type: base
     system: {}
     changes:
@@ -1202,9 +1187,8 @@ effects:
     _id: xUNGgBNrdcus4eU7
     _key: '!items.effects!7yax3EuQzJAoRgLX.xUNGgBNrdcus4eU7'
   - name: Frozen (Upgraded)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     type: base
     system: {}
     changes:
@@ -1259,9 +1243,8 @@ effects:
     _id: 1zEvh0uFRjQXh1N6
     _key: '!items.effects!7yax3EuQzJAoRgLX.1zEvh0uFRjQXh1N6'
   - name: Necrotised (Upgraded)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     type: base
     system: {}
     changes:
@@ -1316,9 +1299,8 @@ effects:
     _id: cSTSEEyZewlQePCd
     _key: '!items.effects!7yax3EuQzJAoRgLX.cSTSEEyZewlQePCd'
   - name: Nervous Impairment (Upgraded)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit3.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
+    img: modules/ak5e/icons/Skill-Ifrit3.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.7yax3EuQzJAoRgLX
     type: base
     system: {}
     changes: []
@@ -1380,10 +1362,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774109680848
-  modifiedTime: 1783457738979
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774180535104
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!7yax3EuQzJAoRgLX'

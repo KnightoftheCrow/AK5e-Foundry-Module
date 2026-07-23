@@ -254,7 +254,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>Tail Strike</h3><p>Archosaurians continue to argue whether it is
@@ -301,11 +301,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.jKV15tzBnL2sDuy7
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680292602
-  modifiedTime: 1783457734020
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680292602
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: 171nWZExUlxaAfSH
 _key: '!items!171nWZExUlxaAfSH'

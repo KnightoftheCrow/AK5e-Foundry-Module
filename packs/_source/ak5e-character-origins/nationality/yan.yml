@@ -2,7 +2,7 @@ folder: 7G1D42jSHLcgp1sX
 name: Yan
 type: ak5e.nationality
 _id: ZrSPIhkTf8PqgaCI
-img: modules/AK5e-Foundry-Module/icons/nationality/nationality.svg
+img: modules/ak5e/icons/nationality/nationality.svg
 system:
   filePathFields:
     advancement.*.icon:
@@ -40,8 +40,7 @@ system:
       _id: yj7HIuUZq4CTn3xY
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.Rr617n0OudHqReqn
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.Rr617n0OudHqReqn
             optional: false
         optional: false
         spell: null

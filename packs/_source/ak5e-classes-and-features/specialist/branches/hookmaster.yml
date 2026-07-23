@@ -2,7 +2,7 @@ folder: QJjGENx3ERG6JUY7
 name: Hookmaster
 type: subclass
 _id: 1QH6qNrwIOoqK414
-img: modules/AK5e-Foundry-Module/icons/Hookmaster_Specialist.webp
+img: modules/ak5e/icons/Hookmaster_Specialist.webp
 system:
   advancement:
     vdL5YtYA2pmPr56s:
@@ -10,8 +10,7 @@ system:
       _id: vdL5YtYA2pmPr56s
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.S0pS7Hw35cN2y3uQ
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.S0pS7Hw35cN2y3uQ
             optional: false
         optional: false
         spell: null
@@ -25,11 +24,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.ZjyLN5RKolF5Bn8o
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.ZjyLN5RKolF5Bn8o
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.ndriZYFnzBM4Em8D
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.ndriZYFnzBM4Em8D
             optional: false
         optional: false
         spell: null
@@ -44,8 +41,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.XcnDctI6EbDeJeBY
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.XcnDctI6EbDeJeBY
             optional: false
         optional: false
         spell: null
@@ -60,8 +56,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.YjbOAGTipuxy4U2G
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.YjbOAGTipuxy4U2G
             optional: false
         optional: false
         spell: null
@@ -76,8 +71,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.9Vs3ZSg9Ujjsg1Ze
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.9Vs3ZSg9Ujjsg1Ze
             optional: false
         optional: false
         spell: null
@@ -97,17 +91,17 @@ system:
       impression.</p><p>You get next Branch features:</p><table><tbody><tr><td
       data-colwidth="50"><p>Level</p></td><td><p>Branch
       Feature</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">1</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.S0pS7Hw35cN2y3uQ]{Hooked}</p></td></tr><tr><td
+      style="text-align:center">1</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.S0pS7Hw35cN2y3uQ]{Hooked}</p></td></tr><tr><td
       data-colwidth="50"><p
-      style="text-align:center">5</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.ZjyLN5RKolF5Bn8o]{Covering
+      style="text-align:center">5</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.ZjyLN5RKolF5Bn8o]{Covering
       Ground, Covering Options}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">5</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.ndriZYFnzBM4Em8D]{Ensnare
+      style="text-align:center">5</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.ndriZYFnzBM4Em8D]{Ensnare
       and Entangle}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">11</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.XcnDctI6EbDeJeBY]{Mighty
+      style="text-align:center">11</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.XcnDctI6EbDeJeBY]{Mighty
       Push}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">15</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.YjbOAGTipuxy4U2G]{Spider’s
+      style="text-align:center">15</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.YjbOAGTipuxy4U2G]{Spider’s
       Essence}</p></td></tr><tr><td data-colwidth="50"><p
-      style="text-align:center">20</p></td><td><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.9Vs3ZSg9Ujjsg1Ze]{Scorpion
+      style="text-align:center">20</p></td><td><p>@UUID[Compendium.ak5e.ak5e-classes-and-features.Item.9Vs3ZSg9Ujjsg1Ze]{Scorpion
       Sting}</p></td></tr></tbody></table>
     chat: ''
   identifier: hookmaster
@@ -137,6 +131,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.3.0
   createdTime: 1783358953798
-  modifiedTime: 1783459628475
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1783443524806
+  lastModifiedBy: 27ikDz77N89hVLvM
 _key: '!items!1QH6qNrwIOoqK414'

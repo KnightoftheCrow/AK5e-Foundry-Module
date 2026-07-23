@@ -2,7 +2,7 @@ folder: 7G1D42jSHLcgp1sX
 name: Ægir
 type: ak5e.nationality
 _id: WKatWIKl6rK9MckA
-img: modules/AK5e-Foundry-Module/icons/nationality/nationality.svg
+img: modules/ak5e/icons/nationality/nationality.svg
 system:
   filePathFields:
     advancement.*.icon:
@@ -35,8 +35,7 @@ system:
       _id: nIYCZvUc0HEtw3rk
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.V0Wag5cTIBP584oY
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.V0Wag5cTIBP584oY
             optional: false
         optional: false
         spell: null

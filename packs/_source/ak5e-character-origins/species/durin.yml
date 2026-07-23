@@ -5,8 +5,7 @@ _id: vI9KWI0sEp3H1RLh
 img: icons/environment/wilderness/cave-entrance-rocky.webp
 system:
   advancement:
-    2ujAKCbXOuwbYarw:
-      type: Size
+    - type: Size
       _id: 2ujAKCbXOuwbYarw
       configuration:
         sizes:
@@ -15,9 +14,7 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
-    SbvfbNvuXzEE0cat:
-      type: AbilityScoreImprovement
+    - type: AbilityScoreImprovement
       _id: SbvfbNvuXzEE0cat
       configuration:
         cap: 1
@@ -38,33 +35,24 @@ system:
       level: 0
       title: ''
       hint: ''
-      flags: {}
-    RIOpGUra0JQmf7ig:
-      type: ItemGrant
+    - type: ItemGrant
       _id: RIOpGUra0JQmf7ig
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.hW51ZQdcGLM0ML9k
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.hW51ZQdcGLM0ML9k
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.OfKh06BhfMWA2sC5
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.OfKh06BhfMWA2sC5
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.ktV90mFsVAFFuAJL
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.ktV90mFsVAFFuAJL
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.5iNk6VNE8AWCZBS7
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.5iNk6VNE8AWCZBS7
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>Durin are small folk of even smaller stature, with pointed ears and of
@@ -164,8 +152,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680300464
-  modifiedTime: 1783457737979
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771157329863
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!vI9KWI0sEp3H1RLh'

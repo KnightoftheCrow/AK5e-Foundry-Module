@@ -2,7 +2,7 @@ folder: 7chRMuJsyyn3S2jB
 name: Illuminant Eyes (Module)
 type: feat
 _id: wPXQs7reAu5TZKw3
-img: modules/AK5e-Foundry-Module/icons/Skill-AspectOfAnnihilation.webp
+img: modules/ak5e/icons/Skill-AspectOfAnnihilation.webp
 system:
   activities:
     9HcWV3ENz6a8wccI:
@@ -120,7 +120,7 @@ system:
       - period: sr
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p><strong>Module:</strong> When you use this Feature as an Action, your
@@ -145,8 +145,8 @@ system:
     subtype: talent
 effects:
   - name: Illuminant Eyes (Tripled)
-    img: modules/AK5e-Foundry-Module/icons/Skill-AspectOfAnnihilation.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.wPXQs7reAu5TZKw3
+    img: modules/ak5e/icons/Skill-AspectOfAnnihilation.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.wPXQs7reAu5TZKw3
     _id: mVI2GJA9528akUrD
     type: base
     system: {}
@@ -189,7 +189,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-talents.Item.cdDqSuDN1Rr0ajwR.ActiveEffect.OR63V2kqK7eY0ITl
+        Compendium.ak5e.ak5e-talents.Item.cdDqSuDN1Rr0ajwR.ActiveEffect.OR63V2kqK7eY0ITl
       duplicateSource: null
       exportSource: null
       coreVersion: '13.351'
@@ -213,8 +213,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767735398707
-  modifiedTime: 1783457745948
+  modifiedTime: 1783242661225
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!wPXQs7reAu5TZKw3'

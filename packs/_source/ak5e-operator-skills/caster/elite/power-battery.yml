@@ -1,7 +1,7 @@
 folder: 30IfqyYT0cFgxAaa
 name: Power Battery
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Passenger2.webp
+img: modules/ak5e/icons/Skill-Passenger2.webp
 system:
   activities:
     hBBVhflELm9f8Dqf:
@@ -19,12 +19,11 @@ system:
         targets:
           - type: itemUses
             value: '80'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
           - type: itemUses
             value: 2d10d
-            target: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+            target: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
             scaling: {}
       description:
         chatFlavor: ''
@@ -119,7 +118,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -153,8 +152,8 @@ system:
     subtype: ''
 effects:
   - name: Power Battery (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Passenger2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.hZK1dslYbZ0W9JU6
+    img: modules/ak5e/icons/Skill-Passenger2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.hZK1dslYbZ0W9JU6
     _id: DXFUOiWQeWl6gGq8
     type: base
     system: {}
@@ -197,7 +196,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -218,11 +217,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.oVQuPKSaGjjTaAA3
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774023683571
-  modifiedTime: 1783457742767
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774023683571
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: hZK1dslYbZ0W9JU6
 _key: '!items!hZK1dslYbZ0W9JU6'

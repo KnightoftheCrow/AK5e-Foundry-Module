@@ -1,14 +1,14 @@
 folder: xZIHKSAf1iQQkfT3
 name: Thresher (Module)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Pinecone1.webp
+img: modules/ak5e/icons/Skill-Pinecone1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>When you deal Damage with an Art to a Creature who has any Damage
@@ -43,8 +43,8 @@ system:
     subtype: skillPoints
 effects:
   - name: + Prof Damage to Creatures already damaged by your Arts this Turn.
-    img: modules/AK5e-Foundry-Module/icons/Skill-Pinecone1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.6hZnq5ThWD1BizNt
+    img: modules/ak5e/icons/Skill-Pinecone1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.6hZnq5ThWD1BizNt
     _id: jFfhxfzA5egx69MP
     type: base
     system: {}
@@ -106,9 +106,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1783457743908
+  modifiedTime: 1783247914312
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: 6hZnq5ThWD1BizNt
 _key: '!items!6hZnq5ThWD1BizNt'

@@ -5,18 +5,14 @@ _id: ZJh27CA2jD9mcjTL
 img: icons/magic/holy/angel-winged-humanoid-blue.webp
 system:
   advancement:
-    EDVGQShBy6XbaI78:
-      type: Size
+    - type: Size
       _id: EDVGQShBy6XbaI78
       configuration:
         sizes:
           - med
       level: 0
       value: {}
-      flags: {}
-      hint: ''
-    nuY9QCpPu9NIuZ0J:
-      type: AbilityScoreImprovement
+    - type: AbilityScoreImprovement
       _id: nuY9QCpPu9NIuZ0J
       configuration:
         cap: 1
@@ -37,33 +33,24 @@ system:
       level: 0
       title: ''
       hint: ''
-      flags: {}
-    sph7BhrYGtbMfxPW:
-      type: ItemGrant
+    - type: ItemGrant
       _id: sph7BhrYGtbMfxPW
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.sYu0VrMVVOEAhYut
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.sYu0VrMVVOEAhYut
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.YVG3GfEuK7uT3eFU
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.YVG3GfEuK7uT3eFU
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.cdATsgaxaFGmcRJg
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.cdATsgaxaFGmcRJg
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.5iNk6VNE8AWCZBS7
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.5iNk6VNE8AWCZBS7
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>Once upon a time, the Sankta did not exist at all, and those that would
@@ -197,8 +184,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680322247
-  modifiedTime: 1783457736417
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771157752544
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!ZJh27CA2jD9mcjTL'

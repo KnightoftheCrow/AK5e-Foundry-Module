@@ -2,7 +2,7 @@ folder: 1RN2G127laeWSTpy
 name: Feedback Loop
 type: feat
 _id: xZvtwzV0hee0F0pT
-img: modules/AK5e-Foundry-Module/icons/Skill-Hoolheyak3.webp
+img: modules/ak5e/icons/Skill-Hoolheyak3.webp
 system:
   activities:
     rqnX8akZ0u6506AR:
@@ -22,8 +22,7 @@ system:
         targets:
           - type: itemUses
             value: '-1'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.xZiMCSXmimV20FxN
+            target: Compendium.ak5e.ak5e-classes-and-features.Item.xZiMCSXmimV20FxN
             scaling:
               mode: amount
               formula: '-1'
@@ -118,7 +117,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>You have become so skilled with storing your own power that you can do
@@ -155,10 +154,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774109549399
-  modifiedTime: 1783457741237
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774180476564
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!xZvtwzV0hee0F0pT'

@@ -2,7 +2,7 @@ folder: zhZ3oJrVXiDxSCHH
 name: Arts Redirection Portal
 type: npc
 _id: aPjKlkMgBmuoYOXC
-img: modules/AK5e-Foundry-Module/icons/Skill-Mint2.webp
+img: modules/ak5e/icons/Skill-Mint2.webp
 system:
   currency:
     credits: 0
@@ -569,7 +569,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.v4RiQhDGNlNHfdTp.ActiveEffect.JIqzAAHGCbzBHYVm
+        Compendium.ak5e.ak5e-bestiary.Actor.v4RiQhDGNlNHfdTp.ActiveEffect.JIqzAAHGCbzBHYVm
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'

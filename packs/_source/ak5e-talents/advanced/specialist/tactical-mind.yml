@@ -1,7 +1,7 @@
 folder: 79ZspRBEAt515C3p
 name: Tactical Mind
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-TheresaBlackCrownedSage.png
+img: modules/ak5e/icons/Skill-TheresaBlackCrownedSage.png
 system:
   activities: {}
   uses:
@@ -115,7 +115,7 @@ effects:
       systemId: dnd5e
       systemVersion: 5.3.0
       lastModifiedBy: null
-    img: modules/AK5e-Foundry-Module/icons/Skill-TheresaBlackCrownedSage.png
+    img: modules/ak5e/icons/Skill-TheresaBlackCrownedSage.png
     type: base
     system: {}
     sort: 0

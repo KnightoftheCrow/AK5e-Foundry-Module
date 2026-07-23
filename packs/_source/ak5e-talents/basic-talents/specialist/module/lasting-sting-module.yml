@@ -1,7 +1,7 @@
 folder: dX9bNDGt3LqFfCRN
 name: Lasting Sting (Module)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Verdant1.webp
+img: modules/ak5e/icons/Skill-Verdant1.webp
 system:
   activities:
     IN4DlZiKB9IKzFYX:
@@ -151,7 +151,7 @@ system:
     subtype: talent
 effects:
   - name: Lasting Sting (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Verdant1.webp
+    img: modules/ak5e/icons/Skill-Verdant1.webp
     origin: Item.6r9ED4F4bcVu2E74
     transfer: false
     _id: 7YlWHcw7ntmP88uU

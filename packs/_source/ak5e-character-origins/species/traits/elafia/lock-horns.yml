@@ -251,7 +251,7 @@ system:
       - period: turnStart
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>Lock Horns</h3><p>In a more primitive past, the horns of the Elafia
@@ -324,10 +324,10 @@ _stats:
   compendiumSource: Item.ABYcSGwlwBH2yyeM
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680302864
-  modifiedTime: 1783457733972
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680302864
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!0XAAVW24ZRinoFkY'

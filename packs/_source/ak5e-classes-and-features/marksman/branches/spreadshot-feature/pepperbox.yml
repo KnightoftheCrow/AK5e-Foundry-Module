@@ -2,7 +2,7 @@ folder: DjSTH0TXN7YZwjfY
 name: Pepperbox
 type: feat
 _id: ggIqdAVYniuTd8wN
-img: modules/AK5e-Foundry-Module/icons/Skill-BluePoison2.webp
+img: modules/ak5e/icons/Skill-BluePoison2.webp
 system:
   activities:
     4j663l0W2rAvN9Ef:
@@ -132,7 +132,7 @@ system:
       - period: lr
         type: recoverAll
     max: '@prof'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>As an Action while you are wielding a weapon with the Spread Property,
@@ -163,9 +163,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Pepperbox
-    img: modules/AK5e-Foundry-Module/icons/Skill-BluePoison2.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.ggIqdAVYniuTd8wN
+    img: modules/ak5e/icons/Skill-BluePoison2.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.ggIqdAVYniuTd8wN
     transfer: false
     _id: dIylQueTD9edUErD
     type: base
@@ -228,8 +227,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767626104402
-  modifiedTime: 1783457740494
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768656488109
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!ggIqdAVYniuTd8wN'

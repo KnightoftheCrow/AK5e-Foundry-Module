@@ -2,7 +2,7 @@ folder: 2akLoYEVmJNdfiYv
 name: Alarm Trap
 type: consumable
 _id: HLC9t6EIrsxo7RT1
-img: modules/AK5e-Foundry-Module/icons/Skill-W2.webp
+img: modules/ak5e/icons/Skill-W2.webp
 system:
   activities: {}
   uses:
@@ -59,7 +59,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.EoTq00NhPTxTFU2u
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.EoTq00NhPTxTFU2u
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

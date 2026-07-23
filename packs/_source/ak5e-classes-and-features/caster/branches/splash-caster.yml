@@ -2,30 +2,24 @@ folder: dyuCaYuU6JBJPOoc
 name: Splash Caster
 type: subclass
 _id: Foq00ayIv3RuqXEm
-img: modules/AK5e-Foundry-Module/icons/Splash_Caster.webp
+img: modules/ak5e/icons/Splash_Caster.webp
 system:
   advancement:
-    uwDUSNTC2W8DOyLA:
-      type: ItemGrant
+    - type: ItemGrant
       _id: uwDUSNTC2W8DOyLA
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.anCtVfX14E7NFPWr
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.anCtVfX14E7NFPWr
             optional: false
         optional: false
         spell: null
       value: {}
       level: 1
-      flags: {}
-      hint: ''
-    dGmUuVWL7M9g8iPO:
-      type: ItemGrant
+    - type: ItemGrant
       _id: dGmUuVWL7M9g8iPO
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.2mdEUwfojo6UoTmS
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.2mdEUwfojo6UoTmS
             optional: false
         optional: false
         spell: null
@@ -33,14 +27,11 @@ system:
       level: 3
       title: ''
       hint: ''
-      flags: {}
-    SKNkMR3iUSMtcgWz:
-      type: ItemGrant
+    - type: ItemGrant
       _id: SKNkMR3iUSMtcgWz
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.fJNwJVtynlVl2IX1
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.fJNwJVtynlVl2IX1
             optional: false
         optional: false
         spell: null
@@ -48,14 +39,11 @@ system:
       level: 6
       title: ''
       hint: ''
-      flags: {}
-    Kjz6FIdXTNcJ3ygx:
-      type: ItemGrant
+    - type: ItemGrant
       _id: Kjz6FIdXTNcJ3ygx
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.mLTRKD1pqQ2grSC7
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.mLTRKD1pqQ2grSC7
             optional: false
         optional: false
         spell: null
@@ -63,14 +51,11 @@ system:
       level: 10
       title: ''
       hint: ''
-      flags: {}
-    dgsm87KyuFBqnY5m:
-      type: ItemGrant
+    - type: ItemGrant
       _id: dgsm87KyuFBqnY5m
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.pQ5ygWo0vQUdPyTS
+          - uuid: Compendium.ak5e.ak5e-classes-and-features.Item.pQ5ygWo0vQUdPyTS
             optional: false
         optional: false
         spell: null
@@ -78,7 +63,6 @@ system:
       level: 15
       title: ''
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>Precision is never the goal of a Splash Caster. Their goal is to wield
@@ -110,10 +94,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774180646469
-  modifiedTime: 1783457739281
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774180699045
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!Foq00ayIv3RuqXEm'

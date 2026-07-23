@@ -9,8 +9,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    LCCab3Xvj2tGtTAY:
-      type: ItemChoice
+    - type: ItemChoice
       _id: LCCab3Xvj2tGtTAY
       configuration:
         allowDrops: false
@@ -19,12 +18,9 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.UO0RZSeaAkW9AAvQ
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.rZIv0zSgI53nWjBL
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.cz2CkMWBt6gsLmh7
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.UO0RZSeaAkW9AAvQ
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.rZIv0zSgI53nWjBL
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.cz2CkMWBt6gsLmh7
         restriction:
           list: []
         spell: null
@@ -34,7 +30,6 @@ system:
         replaced: {}
       title: Choose Ancient Versatility option
       hint: ''
-      flags: {}
   description:
     value: >-
       <h3>Ancient Versatility</h3><p>The Ancient Species seized the world of
@@ -80,10 +75,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680522601
-  modifiedTime: 1783457734112
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771156663265
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

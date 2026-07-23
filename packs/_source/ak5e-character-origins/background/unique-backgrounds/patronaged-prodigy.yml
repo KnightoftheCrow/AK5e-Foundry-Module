@@ -5,8 +5,7 @@ _id: MonqhpNvipst7cLB
 img: icons/tools/instruments/harp-lap-brown.webp
 system:
   advancement:
-    vE7OjPme0lXhkrUw:
-      type: Trait
+    - type: Trait
       title: Background Proficiencies
       _id: vE7OjPme0lXhkrUw
       configuration:
@@ -39,22 +38,17 @@ system:
       level: 0
       hint: ''
       value: {}
-      flags: {}
-    E1g3F2Nku2GnSEeu:
-      type: ItemGrant
+    - type: ItemGrant
       title: Background Feature
       _id: E1g3F2Nku2GnSEeu
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.hT9xQirDexpId6YQ
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.hT9xQirDexpId6YQ
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>The upper class of Leithanien are often willing to sponsor upcoming
@@ -93,8 +87,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881347037
-  modifiedTime: 1783457735427
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771156124285
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!MonqhpNvipst7cLB'

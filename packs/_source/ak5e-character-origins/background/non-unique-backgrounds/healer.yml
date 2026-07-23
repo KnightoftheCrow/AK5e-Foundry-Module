@@ -5,8 +5,7 @@ _id: tDMRZ3pan1ci5s9P
 img: icons/magic/life/heart-cross-purple-orange.webp
 system:
   advancement:
-    Wyenw5NcSSkdOOZ0:
-      type: Trait
+    - type: Trait
       title: Background Proficiencies
       _id: Wyenw5NcSSkdOOZ0
       configuration:
@@ -22,22 +21,17 @@ system:
       level: 0
       hint: ''
       value: {}
-      flags: {}
-    Rb7WcseIzubW4v1l:
-      type: ItemGrant
+    - type: ItemGrant
       title: Background Feature
       _id: Rb7WcseIzubW4v1l
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1I5cvc4eLrqtSWwC
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1I5cvc4eLrqtSWwC
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>Plain and simple, your life’s calling is to preserve the lives of
@@ -75,8 +69,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881347037
-  modifiedTime: 1783457737856
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771155313178
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!tDMRZ3pan1ci5s9P'

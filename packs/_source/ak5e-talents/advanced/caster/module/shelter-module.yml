@@ -1,7 +1,7 @@
 folder: xZIHKSAf1iQQkfT3
 name: Shelter (Module)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Dur-nar1.webp
+img: modules/ak5e/icons/Skill-Dur-nar1.webp
 system:
   activities:
     qKXD3aOssyBHBqVL:
@@ -124,7 +124,7 @@ system:
         targets:
           - type: itemUses
             value: '3'
-            target: Compendium.AK5e-Foundry-Module.ak5e-arts.Item.6GMX3sLNtYU5pEtM
+            target: Compendium.ak5e.ak5e-arts.Item.6GMX3sLNtYU5pEtM
             scaling: {}
       description:
         chatFlavor: ''
@@ -376,7 +376,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>You gain a Barrier that shatters whenever you take Damage from a
@@ -415,8 +415,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Shelter (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Dur-nar1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.EtYH35hfOp5VW73y
+    img: modules/ak5e/icons/Skill-Dur-nar1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.EtYH35hfOp5VW73y
     _id: zcaqm4wO0F1xD1T0
     type: base
     system: {}
@@ -468,8 +468,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!EtYH35hfOp5VW73y.zcaqm4wO0F1xD1T0'
   - name: Acid Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Dur-nar1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.EtYH35hfOp5VW73y
+    img: modules/ak5e/icons/Skill-Dur-nar1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.EtYH35hfOp5VW73y
     _id: UeQ5NfpsGrl11Yg7
     type: base
     system: {}
@@ -520,8 +520,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!EtYH35hfOp5VW73y.UeQ5NfpsGrl11Yg7'
   - name: Bludgeoning Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Dur-nar1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.EtYH35hfOp5VW73y
+    img: modules/ak5e/icons/Skill-Dur-nar1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.EtYH35hfOp5VW73y
     type: base
     system: {}
     changes:
@@ -572,8 +572,8 @@ effects:
     _id: 3CJIvQdXNthb8xHl
     _key: '!items.effects!EtYH35hfOp5VW73y.3CJIvQdXNthb8xHl'
   - name: Cold Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Dur-nar1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.EtYH35hfOp5VW73y
+    img: modules/ak5e/icons/Skill-Dur-nar1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.EtYH35hfOp5VW73y
     type: base
     system: {}
     changes:
@@ -624,8 +624,8 @@ effects:
     _id: XVrT1L1YZWX2cIpm
     _key: '!items.effects!EtYH35hfOp5VW73y.XVrT1L1YZWX2cIpm'
   - name: Fire Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Dur-nar1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.EtYH35hfOp5VW73y
+    img: modules/ak5e/icons/Skill-Dur-nar1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.EtYH35hfOp5VW73y
     type: base
     system: {}
     changes:
@@ -676,8 +676,8 @@ effects:
     _id: sYmrUDGU0rzrCN3a
     _key: '!items.effects!EtYH35hfOp5VW73y.sYmrUDGU0rzrCN3a'
   - name: Force Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Dur-nar1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.EtYH35hfOp5VW73y
+    img: modules/ak5e/icons/Skill-Dur-nar1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.EtYH35hfOp5VW73y
     type: base
     system: {}
     changes:
@@ -728,8 +728,8 @@ effects:
     _id: G2mXhfjyV5HcIXiL
     _key: '!items.effects!EtYH35hfOp5VW73y.G2mXhfjyV5HcIXiL'
   - name: Lightning Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Dur-nar1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.EtYH35hfOp5VW73y
+    img: modules/ak5e/icons/Skill-Dur-nar1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.EtYH35hfOp5VW73y
     type: base
     system: {}
     changes:
@@ -780,8 +780,8 @@ effects:
     _id: sKmOnwm6M7Mz5dfT
     _key: '!items.effects!EtYH35hfOp5VW73y.sKmOnwm6M7Mz5dfT'
   - name: Necrotic Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Dur-nar1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.EtYH35hfOp5VW73y
+    img: modules/ak5e/icons/Skill-Dur-nar1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.EtYH35hfOp5VW73y
     type: base
     system: {}
     changes:
@@ -832,8 +832,8 @@ effects:
     _id: bt0rgz3JeWK6T85N
     _key: '!items.effects!EtYH35hfOp5VW73y.bt0rgz3JeWK6T85N'
   - name: Piercing Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Dur-nar1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.EtYH35hfOp5VW73y
+    img: modules/ak5e/icons/Skill-Dur-nar1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.EtYH35hfOp5VW73y
     type: base
     system: {}
     changes:
@@ -884,8 +884,8 @@ effects:
     _id: 0sT8ZOWa8rurkWqT
     _key: '!items.effects!EtYH35hfOp5VW73y.0sT8ZOWa8rurkWqT'
   - name: Poison Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Dur-nar1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.EtYH35hfOp5VW73y
+    img: modules/ak5e/icons/Skill-Dur-nar1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.EtYH35hfOp5VW73y
     type: base
     system: {}
     changes:
@@ -936,8 +936,8 @@ effects:
     _id: EqBgyBU1xRwx1Hf1
     _key: '!items.effects!EtYH35hfOp5VW73y.EqBgyBU1xRwx1Hf1'
   - name: Psychic Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Dur-nar1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.EtYH35hfOp5VW73y
+    img: modules/ak5e/icons/Skill-Dur-nar1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.EtYH35hfOp5VW73y
     type: base
     system: {}
     changes:
@@ -988,8 +988,8 @@ effects:
     _id: NuvANWH7FojGyCjs
     _key: '!items.effects!EtYH35hfOp5VW73y.NuvANWH7FojGyCjs'
   - name: Radiant Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Dur-nar1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.EtYH35hfOp5VW73y
+    img: modules/ak5e/icons/Skill-Dur-nar1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.EtYH35hfOp5VW73y
     type: base
     system: {}
     changes:
@@ -1040,8 +1040,8 @@ effects:
     _id: EZZoTwGjJ70rG8YD
     _key: '!items.effects!EtYH35hfOp5VW73y.EZZoTwGjJ70rG8YD'
   - name: Slashing Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Dur-nar1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.EtYH35hfOp5VW73y
+    img: modules/ak5e/icons/Skill-Dur-nar1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.EtYH35hfOp5VW73y
     type: base
     system: {}
     changes:
@@ -1092,8 +1092,8 @@ effects:
     _id: C2c61sh2x6Um3a3L
     _key: '!items.effects!EtYH35hfOp5VW73y.C2c61sh2x6Um3a3L'
   - name: Thunder Resistance
-    img: modules/AK5e-Foundry-Module/icons/Skill-Dur-nar1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.EtYH35hfOp5VW73y
+    img: modules/ak5e/icons/Skill-Dur-nar1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.EtYH35hfOp5VW73y
     type: base
     system: {}
     changes:
@@ -1157,9 +1157,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1783457744298
+  modifiedTime: 1783247931092
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _id: EtYH35hfOp5VW73y
 _key: '!items!EtYH35hfOp5VW73y'

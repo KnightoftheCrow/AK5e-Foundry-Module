@@ -5,8 +5,7 @@ _id: 6pD9osXdrjMB0ZS3
 img: icons/environment/wilderness/terrain-river-road-gray.webp
 system:
   advancement:
-    joBCkSq28A3bJgq3:
-      type: Trait
+    - type: Trait
       title: Background Proficiencies
       _id: joBCkSq28A3bJgq3
       configuration:
@@ -22,22 +21,17 @@ system:
       level: 0
       hint: ''
       value: {}
-      flags: {}
-    rmXx3SLiAHsOIT2P:
-      type: ItemGrant
+    - type: ItemGrant
       title: Background Feature
       _id: rmXx3SLiAHsOIT2P
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.IQe6BbQJJZTG9X0L
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.IQe6BbQJJZTG9X0L
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>Since the dawn of Terran civilisation, the role of a messenger has been
@@ -80,8 +74,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881347037
-  modifiedTime: 1783457734429
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771155287594
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!6pD9osXdrjMB0ZS3'

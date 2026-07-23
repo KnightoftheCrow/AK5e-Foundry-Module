@@ -52,9 +52,9 @@ system:
   description:
     value: >-
       <p>[[/attack extended]], [[/damage
-      extended]].</p><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.84PPRps21icwe3Rp]{Casting
+      extended]].</p><p>@UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.84PPRps21icwe3Rp]{Casting
       Unit},
-      @UUID[Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.0lkehls3FxkitRkd]{Conductive
+      @UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.0lkehls3FxkitRkd]{Conductive
       (1)}, Two-Handed</p>
     chat: ''
   identifier: arts-staff
@@ -117,7 +117,7 @@ system:
 effects:
   - name: Conductive
     img: icons/magic/lightning/projectile-tendrils-teal.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-items.Item.8YnvqZkWkp8JrS0y
+    origin: Compendium.ak5e.ak5e-items.Item.8YnvqZkWkp8JrS0y
     _id: IEIkt0pd1wdPmGiS
     type: base
     system: {}

@@ -4,18 +4,14 @@ type: race
 img: icons/creatures/unholy/demon-female-succubus-orange.webp
 system:
   advancement:
-    eJiFA5fdfqm2cPgd:
-      type: Size
+    - type: Size
       _id: eJiFA5fdfqm2cPgd
       configuration:
         sizes:
           - med
       level: 0
       value: {}
-      flags: {}
-      hint: ''
-    FySmLGV3IE7DMT5B:
-      type: AbilityScoreImprovement
+    - type: AbilityScoreImprovement
       _id: FySmLGV3IE7DMT5B
       configuration:
         cap: 1
@@ -37,36 +33,26 @@ system:
       level: 0
       title: ''
       hint: ''
-      flags: {}
-    Lm8yuD3q8CoG2zOL:
-      type: ItemGrant
+    - type: ItemGrant
       _id: Lm8yuD3q8CoG2zOL
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.7iK1fAyE2ce18NHL
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.7iK1fAyE2ce18NHL
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.uLRDO4e8BPMdcGSn
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.uLRDO4e8BPMdcGSn
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.5iNk6VNE8AWCZBS7
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.5iNk6VNE8AWCZBS7
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.HQrVXWIEZpJqAa5W
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.HQrVXWIEZpJqAa5W
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1FgaJR7LsOGj7TgA
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1FgaJR7LsOGj7TgA
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>The most common type of Sarkaz, and what most think of when considering
@@ -180,9 +166,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680354417
-  modifiedTime: 1783457735019
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771157849930
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _id: IOlhbZ68CAW6puwU
 _key: '!items!IOlhbZ68CAW6puwU'

@@ -1,7 +1,7 @@
 folder: VB62TaHnZ4bJYRuO
 name: Light of Hope
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Blemishine2.webp
+img: modules/ak5e/icons/Skill-Blemishine2.webp
 system:
   activities:
     Qfw09zDgUxOdQv20:
@@ -21,8 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '65'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -156,8 +155,8 @@ system:
     subtype: ''
 effects:
   - name: Light of Hope (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Blemishine2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.uOZrmHurwxWgtnjh
+    img: modules/ak5e/icons/Skill-Blemishine2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.uOZrmHurwxWgtnjh
     type: base
     _id: zHNTvPE8II1O3n1s
     system: {}

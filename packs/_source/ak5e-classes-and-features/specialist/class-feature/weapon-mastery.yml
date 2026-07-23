@@ -2,7 +2,7 @@ folder: F7xt8Er4yJgI2eaK
 name: Weapon Mastery
 type: feat
 _id: dcfnldBC1pqvhTwg
-img: modules/AK5e-Foundry-Module/icons/Skill-Vetochki2.webp
+img: modules/ak5e/icons/Skill-Vetochki2.webp
 system:
   activities: {}
   uses:

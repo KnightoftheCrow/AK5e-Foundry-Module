@@ -10,8 +10,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    Zf9fBRQgyUosdHiR:
-      type: Trait
+    - type: Trait
       _id: Zf9fBRQgyUosdHiR
       configuration:
         allowReplacements: false
@@ -23,22 +22,18 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
-    yMa28VyveI2fpJFK:
-      type: ItemGrant
+    - type: ItemGrant
       _id: yMa28VyveI2fpJFK
       configuration:
         items:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Ve5i7MSi8dzq0UJG
+          - uuid: Compendium.ak5e.ak5e-items.Item.Ve5i7MSi8dzq0UJG
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.HnCl11KcXVsf8ePQ
+          - uuid: Compendium.ak5e.ak5e-items.Item.HnCl11KcXVsf8ePQ
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>As an Inquisitor, you are skilled with the Inquisition’s
@@ -84,10 +79,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881347037
-  modifiedTime: 1783457735534
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1769881347037
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!PYVScpl8Kz4959CR'

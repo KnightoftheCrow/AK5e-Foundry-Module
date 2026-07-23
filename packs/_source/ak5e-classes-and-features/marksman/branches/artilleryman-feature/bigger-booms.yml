@@ -2,14 +2,14 @@ folder: sFhUUBrNUgchnK7r
 name: Bigger Booms
 type: feat
 _id: UFy7jqPfJ041ZP7X
-img: modules/AK5e-Foundry-Module/icons/Skill-Ifrit2.webp
+img: modules/ak5e/icons/Skill-Ifrit2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Bigger really is better, sometimes. You gain thefollowing
@@ -50,8 +50,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767620063342
-  modifiedTime: 1783457739985
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771177262265
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!UFy7jqPfJ041ZP7X'

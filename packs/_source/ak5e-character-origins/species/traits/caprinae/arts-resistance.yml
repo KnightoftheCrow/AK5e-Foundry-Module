@@ -122,7 +122,7 @@ system:
       - period: lr
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <h3>Arts Resistance</h3><p>The inherent affinity of Caprinae with Arts
@@ -155,8 +155,7 @@ system:
 effects:
   - name: Arts Resistance
     img: icons/magic/control/debuff-chains-orb-movement-blue.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.60NkObMKvCzEHDM1
+    origin: Compendium.ak5e.ak5e-character-origins.Item.60NkObMKvCzEHDM1
     transfer: false
     _id: gQdr9l0nOL4LM1Vx
     type: base
@@ -219,10 +218,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680294541
-  modifiedTime: 1783457734362
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680294541
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!60NkObMKvCzEHDM1'

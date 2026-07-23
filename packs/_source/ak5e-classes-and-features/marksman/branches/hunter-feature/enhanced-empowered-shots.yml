@@ -2,14 +2,14 @@ folder: JQfn8YazPakYGtWZ
 name: Enhanced Empowered Shots
 type: feat
 _id: fIs8ioJljFEzCG97
-img: modules/AK5e-Foundry-Module/icons/Skill-Poz%C3%ABmka2.webp
+img: modules/ak5e/icons/Skill-Poz%C3%ABmka2.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>The ways in which you can infuse your Attacks withyour technology
@@ -60,8 +60,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767625958902
-  modifiedTime: 1783457740338
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771181059463
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!fIs8ioJljFEzCG97'

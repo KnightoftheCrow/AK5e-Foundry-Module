@@ -1,7 +1,7 @@
 folder: 30IfqyYT0cFgxAaa
 name: In Tune
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-MedicAmiya1.webp
+img: modules/ak5e/icons/Skill-MedicAmiya1.webp
 system:
   activities:
     hBBVhflELm9f8Dqf:
@@ -19,8 +19,7 @@ system:
         targets:
           - type: itemUses
             value: '50'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -116,7 +115,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -149,8 +148,8 @@ system:
     subtype: ''
 effects:
   - name: In Tune (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-MedicAmiya1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.HP61sFvtrtnhePSG
+    img: modules/ak5e/icons/Skill-MedicAmiya1.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.HP61sFvtrtnhePSG
     _id: DXFUOiWQeWl6gGq8
     type: base
     system: {}
@@ -193,7 +192,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -202,8 +201,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!HP61sFvtrtnhePSG.DXFUOiWQeWl6gGq8'
   - name: In Tune
-    img: modules/AK5e-Foundry-Module/icons/Skill-MedicAmiya1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.HP61sFvtrtnhePSG
+    img: modules/ak5e/icons/Skill-MedicAmiya1.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.HP61sFvtrtnhePSG
     transfer: false
     _id: 88h9qWQxBNdTtCW7
     type: base
@@ -282,11 +281,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.fSBmayS08q0k3xqB
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774023683571
-  modifiedTime: 1783457742169
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774023683571
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: HP61sFvtrtnhePSG
 _key: '!items!HP61sFvtrtnhePSG'

@@ -10,8 +10,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    9vl3IexpNJZgKn2D:
-      type: Trait
+    - type: Trait
       _id: 9vl3IexpNJZgKn2D
       configuration:
         allowReplacements: false
@@ -23,7 +22,6 @@ system:
       title: Poison Resistance
       hint: ''
       value: {}
-      flags: {}
   description:
     value: >-
       <h3>Blood of the Swamp</h3><p>The Anura are naturally toxic, and originate
@@ -61,8 +59,7 @@ system:
 effects:
   - name: Poisoned Condition Resistance
     img: icons/creatures/amphibians/frog-water-teal.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.7IkZL0NBFK3LEPur
+    origin: Compendium.ak5e.ak5e-character-origins.Item.7IkZL0NBFK3LEPur
     _id: cbpOizqbvX1EaHIQ
     type: base
     system: {}
@@ -120,10 +117,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680290139
-  modifiedTime: 1783457734476
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680290139
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!7IkZL0NBFK3LEPur'

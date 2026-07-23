@@ -148,7 +148,7 @@ system:
   properties: []
   requirements: ''
   identifier: relentless-endurance
-  advancement: {}
+  advancement: []
   crewed: false
 _id: HQrVXWIEZpJqAa5W
 type: feat
@@ -210,10 +210,10 @@ _stats:
   compendiumSource: Compendium.dnd-players-handbook.origins.Item.phbsptRelentless
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680354417
-  modifiedTime: 1783457734975
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680354417
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!HQrVXWIEZpJqAa5W'

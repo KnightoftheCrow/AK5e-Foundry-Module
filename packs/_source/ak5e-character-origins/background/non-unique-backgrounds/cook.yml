@@ -5,8 +5,7 @@ _id: 6pXK4G6J0VqdpD8N
 img: icons/tools/cooking/bowl-steaming-brown.webp
 system:
   advancement:
-    S6ACLCf8EQX9KxMa:
-      type: Trait
+    - type: Trait
       title: Background Proficiencies
       _id: S6ACLCf8EQX9KxMa
       configuration:
@@ -22,22 +21,17 @@ system:
       level: 0
       hint: ''
       value: {}
-      flags: {}
-    vpAdD6TUoGyFggor:
-      type: ItemGrant
+    - type: ItemGrant
       title: Background Feature
       _id: vpAdD6TUoGyFggor
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.gL68Ffrey1JYQRer
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.gL68Ffrey1JYQRer
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>An army marches on its stomach, or so the saying goes. You are an
@@ -80,8 +74,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881347037
-  modifiedTime: 1783457734453
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771155189783
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!6pXK4G6J0VqdpD8N'

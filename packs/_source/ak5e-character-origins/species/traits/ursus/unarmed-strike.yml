@@ -193,8 +193,7 @@ system:
 effects:
   - name: Grappled
     img: systems/dnd5e/icons/svg/statuses/grappled.svg
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.8A2XPdYTRQXhWVBH
+    origin: Compendium.ak5e.ak5e-character-origins.Item.8A2XPdYTRQXhWVBH
     transfer: false
     _id: OM3Rt1nQv3WKS0pc
     type: base
@@ -230,8 +229,7 @@ effects:
     _key: '!items.effects!8A2XPdYTRQXhWVBH.OM3Rt1nQv3WKS0pc'
   - name: Prone
     img: systems/dnd5e/icons/svg/statuses/prone.svg
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.8A2XPdYTRQXhWVBH
+    origin: Compendium.ak5e.ak5e-character-origins.Item.8A2XPdYTRQXhWVBH
     transfer: false
     _id: OgkonP6JL0AdFtQN
     type: base

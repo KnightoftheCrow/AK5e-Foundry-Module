@@ -111,7 +111,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Internationally, Ursus is something of a boogeyman; a threat breathing
@@ -149,8 +149,7 @@ system:
 effects:
   - name: Damage Vulnerability
     img: icons/environment/people/group.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.cZAnUmUxyOKPm925
+    origin: Compendium.ak5e.ak5e-character-origins.Item.cZAnUmUxyOKPm925
     transfer: false
     _id: QHs4ZgBKiN05kHio
     type: base
@@ -213,10 +212,10 @@ _stats:
   compendiumSource: Item.cZAnUmUxyOKPm925
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881328247
-  modifiedTime: 1783457736656
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!cZAnUmUxyOKPm925'

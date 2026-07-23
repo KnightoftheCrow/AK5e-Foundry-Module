@@ -2,14 +2,14 @@ folder: sFhUUBrNUgchnK7r
 name: Explosive Dawn
 type: feat
 _id: dSDlRdBJIaD50qMV
-img: modules/AK5e-Foundry-Module/icons/Skill-Ling1.webp
+img: modules/ak5e/icons/Skill-Ling1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>You are the single most dangerous signal on the battlefield- bar none.
@@ -38,9 +38,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Explosive Dawn
-    img: modules/AK5e-Foundry-Module/icons/Skill-Ling1.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.dSDlRdBJIaD50qMV
+    img: modules/ak5e/icons/Skill-Ling1.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.dSDlRdBJIaD50qMV
     _id: W4HIwrch8ypvqtgd
     type: base
     system: {}
@@ -102,8 +101,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767620092627
-  modifiedTime: 1783457740265
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771177537128
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!dSDlRdBJIaD50qMV'

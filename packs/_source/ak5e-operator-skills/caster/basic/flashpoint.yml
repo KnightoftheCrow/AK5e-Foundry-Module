@@ -1,7 +1,7 @@
 folder: wMYv1txZ65AOCzbH
 name: Flashpoint
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Meteorite2.webp
+img: modules/ak5e/icons/Skill-Meteorite2.webp
 system:
   activities:
     ad8IKEhEcM1DeKK5:
@@ -19,8 +19,7 @@ system:
         targets:
           - type: itemUses
             value: '10'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -119,7 +118,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <table><thead><tr><td><p>SP Cost</p></td><td><p>Start
@@ -152,8 +151,8 @@ system:
     subtype: opSkill
 effects:
   - name: Flashpoint (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Meteorite2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.bMlpD8Am7dui7GM8
+    img: modules/ak5e/icons/Skill-Meteorite2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.bMlpD8Am7dui7GM8
     _id: flx7lohMTgQh5EDM
     type: base
     system: {}
@@ -196,7 +195,7 @@ effects:
         overlay: false
     _stats:
       compendiumSource: >-
-        Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
+        Compendium.ak5e.ak5e-operator-skills.Item.2rCDt1z6WePSeJCA.ActiveEffect.1htoZLk7xhkowqiY
       duplicateSource: null
       exportSource: null
       coreVersion: '13.348'
@@ -205,8 +204,8 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!bMlpD8Am7dui7GM8.flx7lohMTgQh5EDM'
   - name: Wider and Stronger AoE Arts
-    img: modules/AK5e-Foundry-Module/icons/Skill-Meteorite2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.bMlpD8Am7dui7GM8
+    img: modules/ak5e/icons/Skill-Meteorite2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.bMlpD8Am7dui7GM8
     transfer: false
     _id: sHHy8T132nCD7vkF
     type: base
@@ -264,11 +263,11 @@ _stats:
   compendiumSource: null
   duplicateSource: Item.b8ctTaF23QILAOJt
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1772826442350
-  modifiedTime: 1783457742655
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1772826442350
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _id: bMlpD8Am7dui7GM8
 _key: '!items!bMlpD8Am7dui7GM8'

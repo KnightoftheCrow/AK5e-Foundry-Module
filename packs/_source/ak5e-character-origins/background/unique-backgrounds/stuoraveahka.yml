@@ -5,8 +5,7 @@ _id: ty1lcXc1yTFURKTC
 img: icons/skills/melee/hand-grip-hammer-spiked-blue.webp
 system:
   advancement:
-    few60pBnX3It62L5:
-      type: Trait
+    - type: Trait
       title: Background Proficiencies
       _id: few60pBnX3It62L5
       configuration:
@@ -22,22 +21,17 @@ system:
       level: 0
       hint: ''
       value: {}
-      flags: {}
-    VbV6aT0xaJ4i0AlF:
-      type: ItemGrant
+    - type: ItemGrant
       title: Background Feature
       _id: VbV6aT0xaJ4i0AlF
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.2BTzYLwOvUYBFOdo
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.2BTzYLwOvUYBFOdo
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>You have dwelled Sami’s northern wastes, and battled the demons that
@@ -73,8 +67,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881347037
-  modifiedTime: 1783457737914
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771156036260
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!ty1lcXc1yTFURKTC'

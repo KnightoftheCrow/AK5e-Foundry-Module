@@ -1,7 +1,7 @@
 folder: VB62TaHnZ4bJYRuO
 name: Structural Dissolution
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Gladiia3.webp
+img: modules/ak5e/icons/Skill-Gladiia3.webp
 system:
   activities:
     pNCKOTYww6kaShPK:
@@ -21,8 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '65'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -153,8 +152,8 @@ system:
     subtype: ''
 effects:
   - name: Structural Dissolution (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Gladiia3.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.GWRtQh3QmNo2sGTJ
+    img: modules/ak5e/icons/Skill-Gladiia3.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.GWRtQh3QmNo2sGTJ
     type: base
     _id: z6M5DhAGFEMU8wYw
     system: {}

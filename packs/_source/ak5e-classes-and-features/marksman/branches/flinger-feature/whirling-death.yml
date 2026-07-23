@@ -2,7 +2,7 @@ folder: YSYBaEbbvAZsJUrT
 name: Whirling Death
 type: feat
 _id: xBfsHw7shprLPA16
-img: modules/AK5e-Foundry-Module/icons/Skill-Mint2.webp
+img: modules/ak5e/icons/Skill-Mint2.webp
 system:
   activities:
     ZxIWNg1lakaYWbdB:
@@ -137,7 +137,7 @@ system:
       - period: lr
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Your control over your Bound Weapons is worthy of study; your might
@@ -189,8 +189,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767622307916
-  modifiedTime: 1783457741196
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1767876281252
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!xBfsHw7shprLPA16'

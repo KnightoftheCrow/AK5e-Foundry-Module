@@ -2,7 +2,7 @@ folder: cyW9fgrb9XaTddeH
 name: Scattering Spark
 type: feat
 _id: DCePy5ohbF8Oi9hJ
-img: modules/AK5e-Foundry-Module/icons/Skill-Goldenglow2.webp
+img: modules/ak5e/icons/Skill-Goldenglow2.webp
 system:
   activities:
     hvNGlO5sjXEilELw:
@@ -148,7 +148,7 @@ system:
       - period: turnStart
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Once per Turn, when you roll Damage for an Art, if at least one result
@@ -200,8 +200,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1783457744228
+  modifiedTime: 1783247955964
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!DCePy5ohbF8Oi9hJ'

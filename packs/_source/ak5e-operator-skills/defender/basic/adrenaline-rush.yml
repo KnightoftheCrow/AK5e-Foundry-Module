@@ -1,7 +1,7 @@
 folder: btRo3hRuz3IPi5IL
 name: Adrenaline Rush
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Leto2.webp
+img: modules/ak5e/icons/Skill-Leto2.webp
 system:
   activities:
     bBHlvkFuXbbyatmN:
@@ -20,8 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '15'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -151,8 +150,8 @@ system:
     subtype: ''
 effects:
   - name: Adrenaline Rush (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Leto2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.7sxX38W1XAF3w3gA
+    img: modules/ak5e/icons/Skill-Leto2.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.7sxX38W1XAF3w3gA
     type: base
     _id: EAikBU5lJbM9MuHN
     system: {}

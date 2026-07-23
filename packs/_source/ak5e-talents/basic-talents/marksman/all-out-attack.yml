@@ -2,7 +2,7 @@ folder: U1VvPUnEP8A2c7Xk
 name: All Out Attack
 type: feat
 _id: hceNm4zFz9e5HTYm
-img: modules/AK5e-Foundry-Module/icons/Skill-Rosa2.webp
+img: modules/ak5e/icons/Skill-Rosa2.webp
 system:
   activities:
     J4LdDXtsSrkvGqnt:
@@ -121,7 +121,7 @@ system:
       - period: turn
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>If you did not make an Attack or deal Damage during your last Turn,
@@ -151,8 +151,8 @@ system:
     subtype: talent
 effects:
   - name: All Out Attack
-    img: modules/AK5e-Foundry-Module/icons/Skill-Rosa2.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.hceNm4zFz9e5HTYm
+    img: modules/ak5e/icons/Skill-Rosa2.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.hceNm4zFz9e5HTYm
     _id: P834Mz7SWu3zIXvE
     type: base
     system: {}
@@ -218,8 +218,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767734408494
-  modifiedTime: 1783457745457
+  modifiedTime: 1783246188991
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!hceNm4zFz9e5HTYm'

@@ -1,7 +1,7 @@
 folder: btRo3hRuz3IPi5IL
 name: Invariance Principle
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Mountain1.webp
+img: modules/ak5e/icons/Skill-Mountain1.webp
 system:
   activities:
     68cgF5JadyUFqMbh:
@@ -20,8 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '20'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -151,8 +150,8 @@ system:
     subtype: ''
 effects:
   - name: Invariance Principle (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Mountain1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.PFdu1FRLgCQg420v
+    img: modules/ak5e/icons/Skill-Mountain1.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.PFdu1FRLgCQg420v
     type: base
     _id: SWpg9uJ0K1nDL9Zc
     system: {}

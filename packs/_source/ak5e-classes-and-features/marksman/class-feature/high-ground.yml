@@ -1,13 +1,13 @@
 name: High Ground
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Misery1.png
+img: modules/ak5e/icons/Skill-Misery1.png
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>You are at your best when raining hate onto foes beneath you. You have
@@ -32,9 +32,8 @@ system:
     subtype: skillPoints
 effects:
   - name: High Ground
-    img: modules/AK5e-Foundry-Module/icons/Skill-Misery1.png
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.3OHFmOmZ8AC3OwYy
+    img: modules/ak5e/icons/Skill-Misery1.png
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.3OHFmOmZ8AC3OwYy
     _id: fmDr6GtgXRUEKMno
     type: base
     system: {}
@@ -92,10 +91,10 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767615338937
-  modifiedTime: 1783457738874
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1767875924258
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 ownership:
   default: 0
   GiT7LQTiCJxjm7mo: 3

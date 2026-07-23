@@ -5,8 +5,7 @@ _id: IPlbiQS2D84nE84S
 img: icons/environment/people/infantry-army.webp
 system:
   advancement:
-    WbenhFkAIoDOpFVJ:
-      type: Trait
+    - type: Trait
       title: Background Proficiencies
       _id: WbenhFkAIoDOpFVJ
       configuration:
@@ -19,22 +18,17 @@ system:
       level: 0
       hint: ''
       value: {}
-      flags: {}
-    mI960iOr81EJV4ko:
-      type: ItemGrant
+    - type: ItemGrant
       title: Background Feature
       _id: mI960iOr81EJV4ko
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.enKSl72KyMn6RWwj
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.enKSl72KyMn6RWwj
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>The Imperial Army is gargantuan. It is divided into seven armies, and
@@ -76,8 +70,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881347037
-  modifiedTime: 1783457735040
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771155692793
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!IPlbiQS2D84nE84S'

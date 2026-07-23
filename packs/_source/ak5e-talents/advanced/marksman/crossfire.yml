@@ -2,14 +2,14 @@ folder: AynL7yzSlptsmcjl
 name: Crossfire
 type: feat
 _id: FPq9QdOHl0EzXDV5
-img: modules/AK5e-Foundry-Module/icons/Skill-Aciddrop2.png
+img: modules/ak5e/icons/Skill-Aciddrop2.png
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>During your Turn, you have Advantage on your first Ranged Attack
@@ -55,8 +55,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767738327759
-  modifiedTime: 1783457744342
+  modifiedTime: 1783247787136
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!FPq9QdOHl0EzXDV5'

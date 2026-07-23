@@ -2,7 +2,7 @@ folder: PEUmzy8rnB1pKfXr
 name: Army of One
 type: feat
 _id: mqwJyGfkt52v84Wr
-img: modules/AK5e-Foundry-Module/icons/Skill-Swire1.webp
+img: modules/ak5e/icons/Skill-Swire1.webp
 system:
   activities:
     ncPEC25PuU62e1x1:
@@ -118,7 +118,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Your mastery of Arts Master drones now allows you to control more than
@@ -151,9 +151,8 @@ system:
     subtype: ''
 effects:
   - name: Residual Energy Recyclers
-    img: modules/AK5e-Foundry-Module/icons/Skill-Swire1.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.mqwJyGfkt52v84Wr
+    img: modules/ak5e/icons/Skill-Swire1.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.mqwJyGfkt52v84Wr
     transfer: false
     _id: ldhh5AhpnBBAFQOm
     type: base
@@ -217,10 +216,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774104104619
-  modifiedTime: 1783457740908
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774180376145
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!mqwJyGfkt52v84Wr'

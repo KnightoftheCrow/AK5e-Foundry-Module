@@ -106,7 +106,7 @@ system:
   description:
     value: >-
       <p>[[/attack extended]], [[/damage
-      extended]]</p><p>@UUID[Compendium.AK5e-Foundry-Module.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.QWQPievjz3LPggSC]{Spread}</p>
+      extended]]</p><p>@UUID[Compendium.ak5e.ak5e-rules.JournalEntry.5gdt0smPFXq1A7fN.JournalEntryPage.QWQPievjz3LPggSC]{Spread}</p>
     chat: ''
   identifier: nailgun
   source:

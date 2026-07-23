@@ -2,7 +2,7 @@ folder: j0lfJHG1ty3jJ7kY
 name: Implements of Destruction
 type: feat
 _id: mLTRKD1pqQ2grSC7
-img: modules/AK5e-Foundry-Module/icons/Skill-Gnosis3.webp
+img: modules/ak5e/icons/Skill-Gnosis3.webp
 system:
   activities: {}
   uses:
@@ -10,8 +10,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    CJl5158XHxAMUaOx:
-      type: ItemChoice
+    - type: ItemChoice
       _id: CJl5158XHxAMUaOx
       configuration:
         allowDrops: true
@@ -37,7 +36,6 @@ system:
         replaced: {}
       title: ''
       hint: Drag in the AoE Arts you wish to learn.
-      flags: {}
   description:
     value: >-
       <p>Your mastery of area-of-effect Arts is such that you can manifest them
@@ -81,10 +79,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774127708262
-  modifiedTime: 1783457740892
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774178243951
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!mLTRKD1pqQ2grSC7'

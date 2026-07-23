@@ -1,7 +1,7 @@
 folder: cyW9fgrb9XaTddeH
 name: Lieutenant
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-TacticalEquipment.png
+img: modules/ak5e/icons/Skill-TacticalEquipment.png
 system:
   activities:
     Dgzg8M0IXdTkK58I:
@@ -115,8 +115,7 @@ system:
         type: recoverAll
     max: '@scale.lieutenant.dice.number'
   advancement:
-    wiTDyhcIlCo1CRQo:
-      type: ScaleValue
+    - type: ScaleValue
       _id: wiTDyhcIlCo1CRQo
       configuration:
         identifier: dice
@@ -131,7 +130,6 @@ system:
       value: {}
       title: ''
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>You learn two Instructions of your Choice from the Instructor Branch of
@@ -180,9 +178,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1772222746366
-  modifiedTime: 1783457743655
+  modifiedTime: 1783248097373
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

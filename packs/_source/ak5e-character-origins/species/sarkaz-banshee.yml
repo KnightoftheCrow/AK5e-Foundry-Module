@@ -4,18 +4,14 @@ type: race
 img: icons/magic/unholy/silhouette-light-fire-blue.webp
 system:
   advancement:
-    eJiFA5fdfqm2cPgd:
-      type: Size
+    - type: Size
       _id: eJiFA5fdfqm2cPgd
       configuration:
         sizes:
           - med
       level: 0
       value: {}
-      flags: {}
-      hint: ''
-    FySmLGV3IE7DMT5B:
-      type: AbilityScoreImprovement
+    - type: AbilityScoreImprovement
       _id: FySmLGV3IE7DMT5B
       configuration:
         cap: 1
@@ -36,36 +32,26 @@ system:
       level: 0
       title: ''
       hint: ''
-      flags: {}
-    Lm8yuD3q8CoG2zOL:
-      type: ItemGrant
+    - type: ItemGrant
       _id: Lm8yuD3q8CoG2zOL
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.1UJZwz8HiZ7Wi2DM
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.7iK1fAyE2ce18NHL
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.7iK1fAyE2ce18NHL
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.uLRDO4e8BPMdcGSn
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.uLRDO4e8BPMdcGSn
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.yC1XdUPxNXaYeixL
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.yC1XdUPxNXaYeixL
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.lCBBG0OI9YNQ9IOy
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.lCBBG0OI9YNQ9IOy
             optional: false
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.5iNk6VNE8AWCZBS7
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.5iNk6VNE8AWCZBS7
             optional: false
         optional: false
         spell: null
       value: {}
       level: 0
-      flags: {}
-      hint: ''
   description:
     value: >-
       <p>Even amongst the Sarkaz, the Banshee are unusual. To begin, a majority
@@ -188,9 +174,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680339548
-  modifiedTime: 1783457735833
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1771157873800
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _id: SmENMA3kOsXEqW8h
 _key: '!items!SmENMA3kOsXEqW8h'

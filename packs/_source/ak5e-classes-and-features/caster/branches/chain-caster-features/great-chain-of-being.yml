@@ -2,7 +2,7 @@ folder: QmA37F3admePilsx
 name: Great Chain of Being
 type: feat
 _id: 8iNKWZrOB4mLTcjp
-img: modules/AK5e-Foundry-Module/icons/Skill-Dusk2.webp
+img: modules/ak5e/icons/Skill-Dusk2.webp
 system:
   activities:
     7AEYPFLlgL4jaXfe:
@@ -20,8 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '-1'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.pHwwI5rtqgxuA8rv
+            target: Compendium.ak5e.ak5e-classes-and-features.Item.pHwwI5rtqgxuA8rv
       description:
         chatFlavor: ''
       duration:
@@ -115,7 +114,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>Your Chain Arts are engraved into your very being, and you manifest
@@ -152,10 +151,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774100135984
-  modifiedTime: 1783457739042
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774178688885
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!8iNKWZrOB4mLTcjp'

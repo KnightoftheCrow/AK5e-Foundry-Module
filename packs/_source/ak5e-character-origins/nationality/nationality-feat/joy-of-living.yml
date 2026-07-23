@@ -217,7 +217,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>In the cities of Durin, life is to be enjoyed. Their paradisaical
@@ -249,8 +249,7 @@ system:
 effects:
   - name: Advantage on Persuasion
     img: icons/consumables/drinks/alcohol-beer-stein-wooden-brown.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.MSqBc1twbsJqtEOk
+    origin: Compendium.ak5e.ak5e-character-origins.Item.MSqBc1twbsJqtEOk
     _id: V4Rtafu7J1soxXC2
     type: base
     system: {}
@@ -313,10 +312,10 @@ _stats:
   compendiumSource: Item.MSqBc1twbsJqtEOk
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1769881328247
-  modifiedTime: 1783457735379
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1769881328247
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!MSqBc1twbsJqtEOk'

@@ -2,7 +2,7 @@ folder: q1MrBsepLJyJ9ezj
 name: Exoskeleton
 type: consumable
 _id: QYSNx9lbahybhetr
-img: modules/AK5e-Foundry-Module/icons/Skill-Magallan3.webp
+img: modules/ak5e/icons/Skill-Magallan3.webp
 system:
   activities: {}
   uses:
@@ -62,7 +62,7 @@ flags:
     riders:
       activity: []
 _stats:
-  compendiumSource: Compendium.AK5e-Foundry-Module.ak5e-items.Item.acGAhCvLAscey0uz
+  compendiumSource: Compendium.ak5e.ak5e-items.Item.acGAhCvLAscey0uz
   duplicateSource: null
   exportSource: null
   coreVersion: '13.351'

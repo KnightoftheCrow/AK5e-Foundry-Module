@@ -1,7 +1,7 @@
 folder: j0lfJHG1ty3jJ7kY
 name: Splashing Cantrips
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-TheIgnitingSpark1.webp
+img: modules/ak5e/icons/Skill-TheIgnitingSpark1.webp
 system:
   activities:
     D6FTR02VMqG2GBcz:
@@ -235,7 +235,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>When you would deal Damage to only one Creature with a Damaging
@@ -273,7 +273,7 @@ system:
 effects:
   - type: enchantment
     name: Splashing Cantrips
-    img: modules/AK5e-Foundry-Module/icons/Skill-TheIgnitingSpark1.webp
+    img: modules/ak5e/icons/Skill-TheIgnitingSpark1.webp
     disabled: true
     _id: orRivzZWhpFIdb83
     system: {}
@@ -321,7 +321,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!2mdEUwfojo6UoTmS.orRivzZWhpFIdb83'
   - name: Failed Splashing Cantrip Save
-    img: modules/AK5e-Foundry-Module/icons/Skill-TheIgnitingSpark1.webp
+    img: modules/ak5e/icons/Skill-TheIgnitingSpark1.webp
     origin: Actor.zvMPACiY7cfwzP3s.Item.jbAFLYJMuLMB55Nm
     _id: 3kOqOWMuItTe4Fcw
     type: base
@@ -382,7 +382,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!2mdEUwfojo6UoTmS.3kOqOWMuItTe4Fcw'
   - name: Splashing Cantrip
-    img: modules/AK5e-Foundry-Module/icons/Skill-TheIgnitingSpark1.webp
+    img: modules/ak5e/icons/Skill-TheIgnitingSpark1.webp
     origin: Actor.zvMPACiY7cfwzP3s.Item.jbAFLYJMuLMB55Nm
     _id: OS2woem9EBMCe6UT
     type: base
@@ -451,12 +451,12 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1774123660876
-  modifiedTime: 1783457738789
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1774178240487
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 ownership:
   default: 0
   9KtVYqHDTWORuJDZ: 3

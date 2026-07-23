@@ -1,7 +1,7 @@
 folder: R2AhxUbx0IYKQ6JZ
 name: Last Word
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-FEater1.webp
+img: modules/ak5e/icons/Skill-FEater1.webp
 system:
   activities:
     h2OycWFYMiuO6B1u:
@@ -21,8 +21,7 @@ system:
         targets:
           - type: itemUses
             value: '20'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -153,8 +152,8 @@ system:
     subtype: ''
 effects:
   - name: Last Word (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-FEater1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.MiX7Ct7EQyd4MCr5
+    img: modules/ak5e/icons/Skill-FEater1.webp
+    origin: Compendium.ak5e.ak5e-operator-skills.Item.MiX7Ct7EQyd4MCr5
     type: base
     _id: B7F8S2C5haxufd9K
     system: {}

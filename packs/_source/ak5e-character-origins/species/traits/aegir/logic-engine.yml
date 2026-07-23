@@ -224,8 +224,7 @@ system:
     recovery: []
     max: '@scale.logic-engine.uses'
   advancement:
-    LdK3uY9mYxdvdC56:
-      type: ScaleValue
+    - type: ScaleValue
       _id: LdK3uY9mYxdvdC56
       configuration:
         identifier: uses
@@ -240,7 +239,6 @@ system:
       value: {}
       title: Number of Items
       hint: ''
-      flags: {}
   description:
     value: >-
       <h3>Logic Engine</h3><p>As a Short Rest Activity, you can analyse any
@@ -339,10 +337,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.351'
+  coreVersion: '13.348'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1768680286308
-  modifiedTime: 1783457737797
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1768680286308
+  lastModifiedBy: 9KtVYqHDTWORuJDZ
 _key: '!items!sh0R8KyrWYdQarX4'

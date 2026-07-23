@@ -2,14 +2,14 @@ folder: qlhprYb2GHX3LPKU
 name: Alert
 type: feat
 _id: mal0NMyYylLCmiHZ
-img: modules/AK5e-Foundry-Module/icons/Skill-PureCrystal.webp
+img: modules/ak5e/icons/Skill-PureCrystal.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>You gain a Bonus to your Initiative Rolls equal to your Proficiency
@@ -38,8 +38,8 @@ system:
     subtype: skillPoints
 effects:
   - name: +Prof Bonus to Initiative
-    img: modules/AK5e-Foundry-Module/icons/Skill-PureCrystal.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.mal0NMyYylLCmiHZ
+    img: modules/ak5e/icons/Skill-PureCrystal.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.mal0NMyYylLCmiHZ
     _id: xYBI5fA8J3BUhPrf
     type: base
     system: {}
@@ -100,8 +100,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1770924144147
-  modifiedTime: 1783457745600
+  modifiedTime: 1783246841643
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!mal0NMyYylLCmiHZ'

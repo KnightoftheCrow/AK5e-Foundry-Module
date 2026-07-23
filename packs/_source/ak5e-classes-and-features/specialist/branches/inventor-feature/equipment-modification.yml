@@ -2,7 +2,7 @@ folder: c1EQsN3JLDePX4rN
 name: Equipment Modification
 type: feat
 _id: xVdTak2pkLZPKiZs
-img: modules/AK5e-Foundry-Module/icons/Skill-EmergencyRepairVehicle.webp
+img: modules/ak5e/icons/Skill-EmergencyRepairVehicle.webp
 system:
   activities: {}
   uses:
@@ -16,25 +16,25 @@ system:
       _id: 6oyZNQ4sI0QGq3BS
       configuration:
         items:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Fgl2bve541pEaNFu
+          - uuid: Compendium.ak5e.ak5e-items.Item.Fgl2bve541pEaNFu
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.TEPBYQKHnlSBDFCl
+          - uuid: Compendium.ak5e.ak5e-items.Item.TEPBYQKHnlSBDFCl
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.FS9F42Pl7WaOraDY
+          - uuid: Compendium.ak5e.ak5e-items.Item.FS9F42Pl7WaOraDY
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.szR2qeU82sEBlkP1
+          - uuid: Compendium.ak5e.ak5e-items.Item.szR2qeU82sEBlkP1
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.xJO17EKo8BmzoN2n
+          - uuid: Compendium.ak5e.ak5e-items.Item.xJO17EKo8BmzoN2n
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.rVydnuenbhaNj4p2
+          - uuid: Compendium.ak5e.ak5e-items.Item.rVydnuenbhaNj4p2
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.tTWAGjyrdvpMxube
+          - uuid: Compendium.ak5e.ak5e-items.Item.tTWAGjyrdvpMxube
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.KEYwl014u9NfL70S
+          - uuid: Compendium.ak5e.ak5e-items.Item.KEYwl014u9NfL70S
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.PBgopcpIueKx6LIe
+          - uuid: Compendium.ak5e.ak5e-items.Item.PBgopcpIueKx6LIe
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.5cXsv2zsMXaMvMPn
+          - uuid: Compendium.ak5e.ak5e-items.Item.5cXsv2zsMXaMvMPn
         optional: false
         spell: null
       flags: {}
@@ -48,21 +48,21 @@ system:
       _id: mOWYySJofU2Yg1HA
       configuration:
         items:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.nsdFWlxuYna0wOmx
+          - uuid: Compendium.ak5e.ak5e-items.Item.nsdFWlxuYna0wOmx
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.K7D34vLLUlOYgT6p
+          - uuid: Compendium.ak5e.ak5e-items.Item.K7D34vLLUlOYgT6p
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.lqw3MdiH36q4Zkd6
+          - uuid: Compendium.ak5e.ak5e-items.Item.lqw3MdiH36q4Zkd6
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.4rwtXi98E2PkIaAv
+          - uuid: Compendium.ak5e.ak5e-items.Item.4rwtXi98E2PkIaAv
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.EpggvMFPDW3jzblX
+          - uuid: Compendium.ak5e.ak5e-items.Item.EpggvMFPDW3jzblX
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.qjvSwW8cpWOWHY26
+          - uuid: Compendium.ak5e.ak5e-items.Item.qjvSwW8cpWOWHY26
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.FWuOIt3GTnYotHI0
+          - uuid: Compendium.ak5e.ak5e-items.Item.FWuOIt3GTnYotHI0
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Gx59Tza6wUNH3YkK
+          - uuid: Compendium.ak5e.ak5e-items.Item.Gx59Tza6wUNH3YkK
             optional: false
         optional: false
         spell: null
@@ -77,25 +77,25 @@ system:
       _id: hYVThQkeUJUqznK8
       configuration:
         items:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.j1borMlzoNzqilHU
+          - uuid: Compendium.ak5e.ak5e-items.Item.j1borMlzoNzqilHU
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.7kqRgeBuAib3o7qD
+          - uuid: Compendium.ak5e.ak5e-items.Item.7kqRgeBuAib3o7qD
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.Yk3YWVSAkmPALdro
+          - uuid: Compendium.ak5e.ak5e-items.Item.Yk3YWVSAkmPALdro
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.QYSNx9lbahybhetr
+          - uuid: Compendium.ak5e.ak5e-items.Item.QYSNx9lbahybhetr
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.RGTlgfAaICnXc0RQ
+          - uuid: Compendium.ak5e.ak5e-items.Item.RGTlgfAaICnXc0RQ
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.RSqGLuF0RiVoHZV2
+          - uuid: Compendium.ak5e.ak5e-items.Item.RSqGLuF0RiVoHZV2
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.0OiNOg6GwCWttAut
+          - uuid: Compendium.ak5e.ak5e-items.Item.0OiNOg6GwCWttAut
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.7rrs9HA00sVTALzx
+          - uuid: Compendium.ak5e.ak5e-items.Item.7rrs9HA00sVTALzx
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.OXSNB1XLc1och2Pv
+          - uuid: Compendium.ak5e.ak5e-items.Item.OXSNB1XLc1och2Pv
             optional: false
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-items.Item.88e0OvZK092lGcmT
+          - uuid: Compendium.ak5e.ak5e-items.Item.88e0OvZK092lGcmT
             optional: false
         optional: false
         spell: null

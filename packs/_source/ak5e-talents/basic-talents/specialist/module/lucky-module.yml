@@ -1,7 +1,7 @@
 folder: dX9bNDGt3LqFfCRN
 name: Lucky (Module)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-CivilightEterna1.webp
+img: modules/ak5e/icons/Skill-CivilightEterna1.webp
 system:
   activities:
     2ZEzAwnpjV9BvztV:
@@ -149,7 +149,7 @@ system:
     subtype: skillPoints
 effects:
   - name: Lucky (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-CivilightEterna1.webp
+    img: modules/ak5e/icons/Skill-CivilightEterna1.webp
     origin: Item.vvUfZCUPna0H8oln
     _id: 5w1Ekujoxf8pbXSr
     type: base

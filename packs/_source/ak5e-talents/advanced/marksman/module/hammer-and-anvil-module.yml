@@ -1,14 +1,14 @@
 folder: 5ej4KENJRk8I9Ksg
 name: Hammer and Anvil (Module)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Mudrock3.webp
+img: modules/ak5e/icons/Skill-Mudrock3.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p><strong>Module:</strong> The range at which this Feature is effective
@@ -37,8 +37,8 @@ system:
     subtype: talent
 effects:
   - name: Hammer and Anvil (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Mudrock3.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.IuPBrdz8iyjMI1I8
+    img: modules/ak5e/icons/Skill-Mudrock3.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.IuPBrdz8iyjMI1I8
     _id: cmMkaXDktYkHf3B8
     type: base
     system: {}
@@ -97,9 +97,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767994398086
-  modifiedTime: 1783457744445
+  modifiedTime: 1783247665479
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

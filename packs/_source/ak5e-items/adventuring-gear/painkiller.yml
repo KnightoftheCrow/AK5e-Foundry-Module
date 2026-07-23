@@ -106,7 +106,7 @@ effects:
   - name: Painkiller
     img: >-
       icons/consumables/potions/potion-bottle-labeled-medicine-capped-red-black.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-items.Item.4sgaRh5G7wZIXqto
+    origin: Compendium.ak5e.ak5e-items.Item.4sgaRh5G7wZIXqto
     transfer: false
     _id: K0rdEhAkxPNGK25C
     type: base

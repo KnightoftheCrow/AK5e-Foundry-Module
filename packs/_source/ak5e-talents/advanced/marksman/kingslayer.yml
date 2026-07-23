@@ -2,14 +2,14 @@ folder: AynL7yzSlptsmcjl
 name: Kingslayer
 type: feat
 _id: mlANfWU9dVkEcDSi
-img: modules/AK5e-Foundry-Module/icons/Skill-TheBreacher3.png
+img: modules/ak5e/icons/Skill-TheBreacher3.png
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>You have Damage Resistance against all Damage equal to your Proficiency
@@ -53,8 +53,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767738645197
-  modifiedTime: 1783457745616
+  modifiedTime: 1783247328835
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!mlANfWU9dVkEcDSi'

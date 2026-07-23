@@ -2,7 +2,7 @@ folder: SuzcwOsde1k6YNFn
 name: Alacrity (Module)
 type: feat
 _id: HPKQp5nxIStO0b3J
-img: modules/AK5e-Foundry-Module/icons/Skill-Phantom1.webp
+img: modules/ak5e/icons/Skill-Phantom1.webp
 system:
   activities:
     LdgdKONiXIVapFKZ:
@@ -115,7 +115,7 @@ system:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p><strong>Module:</strong> When you take the Dash Action, you add your
@@ -144,8 +144,8 @@ system:
     subtype: talent
 effects:
   - name: Alacrity (Module)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Phantom1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.HPKQp5nxIStO0b3J
+    img: modules/ak5e/icons/Skill-Phantom1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.HPKQp5nxIStO0b3J
     _id: DS90qifbfxhbFX6P
     type: base
     system: {}
@@ -210,8 +210,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1770924144147
-  modifiedTime: 1783457744412
+  modifiedTime: 1783246860408
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!HPKQp5nxIStO0b3J'

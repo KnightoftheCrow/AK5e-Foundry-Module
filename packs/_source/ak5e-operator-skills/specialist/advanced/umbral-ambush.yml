@@ -1,7 +1,7 @@
 folder: Wj6EO6CTbuEADq9N
 name: Umbral Ambush
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Lunacub2.webp
+img: modules/ak5e/icons/Skill-Lunacub2.webp
 system:
   activities:
     oQhEraMS6UHBdYzr:
@@ -20,8 +20,7 @@ system:
         targets:
           - type: itemUses
             value: '40'
-            target: >-
-              Compendium.AK5e-Foundry-Module.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
+            target: Compendium.ak5e.ak5e-operator-skills.Item.6wUvlljsCtahm7N5
             scaling: {}
       description:
         chatFlavor: ''
@@ -156,7 +155,7 @@ system:
     subtype: ''
 effects:
   - name: Radar Sweep (Skill Points)
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lunacub2.webp
+    img: modules/ak5e/icons/Skill-Lunacub2.webp
     origin: Item.iHbkOdoLgadPTo2u
     _id: sqi5JLFWs8QDA2SK
     type: base
@@ -208,7 +207,7 @@ effects:
       lastModifiedBy: null
     _key: '!items.effects!BalkoWGirI28pOIT.sqi5JLFWs8QDA2SK'
   - name: Umbral Ambush
-    img: modules/AK5e-Foundry-Module/icons/Skill-Lunacub2.webp
+    img: modules/ak5e/icons/Skill-Lunacub2.webp
     origin: Item.iHbkOdoLgadPTo2u
     transfer: false
     _id: E8D5nDoLt1yk679H

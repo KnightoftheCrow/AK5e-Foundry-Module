@@ -2,14 +2,14 @@ folder: AynL7yzSlptsmcjl
 name: Ambush
 type: feat
 _id: udvf7UywCar8aRw6
-img: modules/AK5e-Foundry-Module/icons/Skill-Manticore1.webp
+img: modules/ak5e/icons/Skill-Manticore1.webp
 system:
   activities: {}
   uses:
     spent: 0
     recovery: []
     max: ''
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>After you roll Initiative, you deal 1 additional dice of Damage with
@@ -40,8 +40,8 @@ system:
     subtype: talent
 effects:
   - name: Ambush
-    img: modules/AK5e-Foundry-Module/icons/Skill-Manticore1.webp
-    origin: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.udvf7UywCar8aRw6
+    img: modules/ak5e/icons/Skill-Manticore1.webp
+    origin: Compendium.ak5e.ak5e-talents.Item.udvf7UywCar8aRw6
     _id: rsQ9fLr0ReGTdVci
     type: base
     system: {}
@@ -103,8 +103,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767738240387
-  modifiedTime: 1783457745875
+  modifiedTime: 1783247814007
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!udvf7UywCar8aRw6'

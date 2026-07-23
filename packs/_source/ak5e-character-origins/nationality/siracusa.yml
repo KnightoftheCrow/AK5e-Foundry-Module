@@ -2,7 +2,7 @@ folder: 7G1D42jSHLcgp1sX
 name: Siracusa
 type: ak5e.nationality
 _id: HCDUHdbj2j5fltRC
-img: modules/AK5e-Foundry-Module/icons/nationality/nationality.svg
+img: modules/ak5e/icons/nationality/nationality.svg
 system:
   filePathFields:
     advancement.*.icon:
@@ -41,8 +41,7 @@ system:
       _id: Tt7nib9Xqkyv9DHG
       configuration:
         items:
-          - uuid: >-
-              Compendium.AK5e-Foundry-Module.ak5e-character-origins.Item.IreMFbiQu1nmrNaX
+          - uuid: Compendium.ak5e.ak5e-character-origins.Item.IreMFbiQu1nmrNaX
             optional: false
         optional: false
         spell: null

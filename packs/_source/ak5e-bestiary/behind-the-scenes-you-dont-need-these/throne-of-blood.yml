@@ -538,7 +538,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: {}
+      advancement: []
       description:
         value: ''
         chat: ''
@@ -565,7 +565,7 @@ items:
       - name: Throne of Blood Aura
         img: icons/commodities/treasure/crown-gold-satin-gems-red.webp
         origin: >-
-          Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.LXSo7QujfzMS0LVi.Item.mjDj26oa2q9Mzfjy
+          Compendium.ak5e.ak5e-bestiary.Actor.LXSo7QujfzMS0LVi.Item.mjDj26oa2q9Mzfjy
         _id: yOKURPgytuqXziU5
         type: auraeffects.aura
         system:
@@ -714,8 +714,7 @@ items:
             saves: false
             ability: ''
           profiles:
-            - uuid: >-
-                Compendium.AK5e-Foundry-Module.ak5e-bestiary.Actor.xv4JbMXoqrnGr17b
+            - uuid: Compendium.ak5e.ak5e-bestiary.Actor.xv4JbMXoqrnGr17b
           summon:
             prompt: true
             mode: ''
@@ -772,7 +771,7 @@ items:
         spent: 0
         recovery: []
         max: ''
-      advancement: {}
+      advancement: []
       description:
         value: >-
           <p>When a Creature within 100 feet of the Blood Throne dies, a Blood
@@ -839,6 +838,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.1.2
   createdTime: 1758378732317
-  modifiedTime: 1783457733433
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1783356359284
+  lastModifiedBy: 27ikDz77N89hVLvM
 _key: '!actors!LXSo7QujfzMS0LVi'

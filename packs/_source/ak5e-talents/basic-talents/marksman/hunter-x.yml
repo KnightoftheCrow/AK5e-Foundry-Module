@@ -1,7 +1,7 @@
 folder: U1VvPUnEP8A2c7Xk
 name: Hunter (X)
 type: feat
-img: modules/AK5e-Foundry-Module/icons/Skill-Invincible1.png
+img: modules/ak5e/icons/Skill-Invincible1.png
 system:
   activities: {}
   uses:
@@ -9,8 +9,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    Pfh218Jwvn3srYdK:
-      type: ItemChoice
+    - type: ItemChoice
       _id: Pfh218Jwvn3srYdK
       configuration:
         allowDrops: false
@@ -19,14 +18,14 @@ system:
             count: 1
             replacement: false
         pool:
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.n1MZzBSHldA4Eoci
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.DzzAsvUYTZoMqhPb
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.mhJlyeY2zREm18YY
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.fDTkdUCEcbBpm1b4
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.2tKsJJmjhEN6pEGS
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.8mfBiKHHqRfKniXi
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.QkhRSyyuvhTKpuu2
-          - uuid: Compendium.AK5e-Foundry-Module.ak5e-talents.Item.JOvirCcts7tnGbL7
+          - uuid: Compendium.ak5e.ak5e-talents.Item.n1MZzBSHldA4Eoci
+          - uuid: Compendium.ak5e.ak5e-talents.Item.DzzAsvUYTZoMqhPb
+          - uuid: Compendium.ak5e.ak5e-talents.Item.mhJlyeY2zREm18YY
+          - uuid: Compendium.ak5e.ak5e-talents.Item.fDTkdUCEcbBpm1b4
+          - uuid: Compendium.ak5e.ak5e-talents.Item.2tKsJJmjhEN6pEGS
+          - uuid: Compendium.ak5e.ak5e-talents.Item.8mfBiKHHqRfKniXi
+          - uuid: Compendium.ak5e.ak5e-talents.Item.QkhRSyyuvhTKpuu2
+          - uuid: Compendium.ak5e.ak5e-talents.Item.JOvirCcts7tnGbL7
         restriction:
           list: []
         spell: null
@@ -36,7 +35,6 @@ system:
         replaced: {}
       title: Hunter Spec
       hint: ''
-      flags: {}
   description:
     value: >-
       <p>Choose one from: Aberration, Beast, Celestials, Construct, Fiends,
@@ -77,9 +75,9 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767873278998
-  modifiedTime: 1783457743801
+  modifiedTime: 1783242696461
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 ownership:
   default: 0

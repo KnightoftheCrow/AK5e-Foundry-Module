@@ -2,7 +2,7 @@ folder: r2sKTPYSmSAEfVCU
 name: Unerring
 type: feat
 _id: L8M3njAbScoE5txB
-img: modules/AK5e-Foundry-Module/icons/Skill-Narantuya1.webp
+img: modules/ak5e/icons/Skill-Narantuya1.webp
 system:
   activities:
     ODHlB2D9xM2kUQGf:
@@ -121,7 +121,7 @@ system:
       - period: sr
         type: recoverAll
     max: '1'
-  advancement: {}
+  advancement: []
   description:
     value: >-
       <p>When you miss with an Attack, you may choose to hit instead (your
@@ -147,9 +147,8 @@ system:
     subtype: skillPoints
 effects:
   - name: Unerring
-    img: modules/AK5e-Foundry-Module/icons/Skill-Narantuya1.webp
-    origin: >-
-      Compendium.AK5e-Foundry-Module.ak5e-classes-and-features.Item.L8M3njAbScoE5txB
+    img: modules/ak5e/icons/Skill-Narantuya1.webp
+    origin: Compendium.ak5e.ak5e-classes-and-features.Item.L8M3njAbScoE5txB
     transfer: false
     _id: dnXiI8hV9IJUDcQp
     type: base
@@ -215,8 +214,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.4
   createdTime: 1767616608618
-  modifiedTime: 1783457739501
-  lastModifiedBy: 5XlrCO2NlPtd4MFQ
+  modifiedTime: 1767898686676
+  lastModifiedBy: GiT7LQTiCJxjm7mo
 _key: '!items!L8M3njAbScoE5txB'

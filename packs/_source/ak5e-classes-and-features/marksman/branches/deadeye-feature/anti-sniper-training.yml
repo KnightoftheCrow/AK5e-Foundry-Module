@@ -2,7 +2,7 @@ folder: mhhCPYRgjBzheVER
 name: Anti-Sniper Training
 type: feat
 _id: NVVRhhbcvRmYYPe8
-img: modules/AK5e-Foundry-Module/icons/Skill-Titi1.webp
+img: modules/ak5e/icons/Skill-Titi1.webp
 system:
   activities: {}
   uses:
@@ -10,8 +10,7 @@ system:
     recovery: []
     max: ''
   advancement:
-    wXAnOCCApfDOWFHk:
-      type: Trait
+    - type: Trait
       _id: wXAnOCCApfDOWFHk
       configuration:
         allowReplacements: false
@@ -23,7 +22,6 @@ system:
       title: ''
       hint: ''
       value: {}
-      flags: {}
   description:
     value: >-
       <p>Keep low, and keep your profile small. That’s how you survive when the
@@ -68,8 +66,8 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dnd5e
-  systemVersion: 5.3.0
+  systemVersion: 5.2.5
   createdTime: 1767621336614
-  modifiedTime: 1783457739644
+  modifiedTime: 1781192479427
   lastModifiedBy: 5XlrCO2NlPtd4MFQ
 _key: '!items!NVVRhhbcvRmYYPe8'
